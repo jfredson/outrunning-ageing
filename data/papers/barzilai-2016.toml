@@ -17,6 +17,7 @@ measured alongside. The paper reviews the observational and animal evidence for 
 the trial has planning money from the American Federation for Aging Research. The template for how
 an ageing trial could be run and judged; as of 2026-10-16 the trial has not been shown to have
 started (see afar-2026)."""
+leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes", "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked"]
 branches = ["energy-and-fuel", "measuring-age"]
 moved_range = false
 settled_stage = false

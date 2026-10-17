@@ -15,6 +15,7 @@ placebo group. All fourteen stayed in; their six-minute walking distance, walkin
 chair-stand time improved, while lung function, blood chemistry and frailty did not change, and
 the effect on blood markers of worn-out cells was inconclusive. The first trial of a drug meant to
 kill such cells in people, on physical function rather than on the cells themselves."""
+leaves = ["drug-clears-aged-cells-from-a-person"]
 branches = ["worn-out-cells"]
 moved_range = false
 settled_stage = false

@@ -17,6 +17,7 @@ pain between any dose and placebo (p-values 0.52, 0.81 and 0.99 against placebo)
 well tolerated. The company said it would not take the drug into pivotal trials and would narrow
 its work to eye and nerve diseases. The first controlled trial of a cell-clearing drug on a
 clinical outcome, and it failed."""
+leaves = ["aged-cell-clearing-drug-relieves-knee-arthritis"]
 branches = ["worn-out-cells"]
 moved_range = false
 settled_stage = false

@@ -17,6 +17,7 @@ ratio of 0.80 (95 percent confidence interval 0.72 to 0.90). The first large con
 show that a GLP-1 drug prevents hard outcomes in people without diabetes; it was not designed to
 measure ageing, and 16.6 percent stopped the drug for side effects against 8.2 percent on
 placebo."""
+leaves = ["a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"]
 branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false

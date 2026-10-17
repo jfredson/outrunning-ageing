@@ -15,6 +15,7 @@ DNA marks, blood proteins and metabolites across many tissues. The clocks ran sl
 animals, with the brain reading about six years younger; the authors tie the brain effect partly to
 the protective Nrf2 pathway. A controlled animal study on measurements, not on lifespan or
 disease, in a small group."""
+leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes"]
 branches = ["energy-and-fuel", "measuring-age"]
 moved_range = false
 settled_stage = false

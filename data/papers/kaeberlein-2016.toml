@@ -14,6 +14,7 @@ than people, share our homes and get our diseases and our veterinary care, are t
 for testing whether a drug slows ageing within a human researcher's working life, and the plan for
 a long-term study of tens of thousands of dogs with a rapamycin trial inside it. A rationale paper
 with no results."""
+leaves = ["a-drug-adds-healthy-years-to-a-life"]
 branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false

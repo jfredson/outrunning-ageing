@@ -15,6 +15,7 @@ and a placebo for six weeks each. Levels of NAD in white blood cells rose by abo
 the supplement; blood pressure trended lower by about 4 points but not significantly after
 correction for multiple comparisons; no serious side effects. The first trial to show the
 supplement raises NAD in older people, with no effect on any health outcome tested."""
+leaves = ["an-nad-raising-supplement-improves-a-function-in-a-controlled-trial"]
 branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false

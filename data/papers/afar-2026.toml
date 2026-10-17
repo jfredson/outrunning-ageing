@@ -21,6 +21,7 @@ would fund a third, which the foundation did not confirm; about 5 million dollar
 National Institute on Aging and cost estimates of 45 to 70 million dollars in April 2024. No
 primary source says enrolment has begun, and no registration for the trial was found on
 ClinicalTrials.gov on 2026-10-16."""
+leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes"]
 branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false

@@ -16,6 +16,7 @@ and to ordinary ageing in twelve-month-old mice, and turned back a DNA-methylati
 cells' age; the effect needed two enzymes that strip methylation marks, and switching the genes on
 for up to fifteen months caused no tumours. The animal result behind the first reprogramming
 therapy to be dosed in a person (life-biosciences-2026)."""
+leaves = ["partially-resetting-cells-reverses-ageing-in-an-animal", "a-person-receives-cell-resetting-genes-in-a-trial"]
 branches = ["cell-settings"]
 moved_range = false
 settled_stage = false
