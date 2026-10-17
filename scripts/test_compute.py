@@ -347,8 +347,7 @@ class PublicationRules(unittest.TestCase):
     def test_settled_stage_via_an_earlier_stage_passes(self):
         with TempData() as data:
             edit(data / LEAF, r'^stage_publication = "hickson-2019"\n', "")
-            edit(data / LEAF, r'^record = "https://doi.org/10.1038/nature10600"\n',
-                 'record = "https://doi.org/10.1038/nature10600"\npublication = "hickson-2019"\n')
+            edit(data / LEAF, r'^publication = "baker-2011"\n', 'publication = "hickson-2019"\n')
             problems = problems_for(data)
         self.assertEqual(problems, [])
 
@@ -535,6 +534,13 @@ class TheRun(unittest.TestCase):
         self.assertAlmostEqual(sum(b["share"] for b in h["histogram"]), 1.0, places=2)
         self.assertEqual(len(h["branches"]), 8)
         self.assertIn("Escape year:", o.getvalue())
+
+    def test_the_first_pass_count_covers_every_estimate_and_the_drawn_count_only_those_drawn(self):
+        loaded = compute.load_and_validate(DATA, history=False)
+        counts = compute.compute_headline(loaded, runs=2000)["counts"]
+        self.assertGreaterEqual(counts["estimates_first_pass"], counts["estimates_first_pass_drawn"])
+        self.assertLessEqual(counts["estimates_first_pass"] - counts["estimates_first_pass_drawn"],
+                             counts["leaves_in_clinic_already"])
 
     def test_a_different_seed_or_run_count_changes_nothing_structural(self):
         loaded = compute.load_and_validate(DATA, history=False)

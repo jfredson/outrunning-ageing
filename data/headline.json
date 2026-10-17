@@ -277,7 +277,8 @@
           "name": "An antibody clears amyloid from the brain and slows the decline of Alzheimer's disease",
           "stage": "in-clinical-use",
           "known": true,
-          "year": 2023
+          "year": 2023,
+          "estimate_status": "first-pass"
         },
         {
           "id": "drug-boosts-the-cells-recycling-of-worn-parts",
@@ -304,7 +305,8 @@
           "name": "A drug stops a misfolded protein piling up in the heart and extends life",
           "stage": "in-clinical-use",
           "known": true,
-          "year": 2019
+          "year": 2019,
+          "estimate_status": "first-pass"
         },
         {
           "id": "eye-drops-dissolve-the-clouded-protein-of-a-cataract",
@@ -360,7 +362,8 @@
           "name": "A weight-loss drug is approved to prevent heart attacks and strokes in people without diabetes",
           "stage": "in-clinical-use",
           "known": true,
-          "year": 2024
+          "year": 2024,
+          "estimate_status": "first-pass"
         },
         {
           "id": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
@@ -426,7 +429,8 @@
           "name": "A person's own cells are grown outside the body and used to rebuild a worn joint surface",
           "stage": "in-clinical-use",
           "known": true,
-          "year": 2016
+          "year": 2016,
+          "estimate_status": "first-pass"
         },
         {
           "id": "an-old-animals-blood-stem-cells-are-rejuvenated",
@@ -492,7 +496,8 @@
           "name": "A drug that acts only on inflammation is approved to prevent heart attacks",
           "stage": "in-clinical-use",
           "known": true,
-          "year": 2023
+          "year": 2023,
+          "estimate_status": "first-pass"
         },
         {
           "id": "blocking-one-messenger-protein-makes-old-animals-live-longer",
@@ -599,7 +604,8 @@
   "counts": {
     "leaves_counted": 44,
     "leaves_in_clinic_already": 5,
-    "estimates_first_pass": 39,
+    "estimates_first_pass": 44,
+    "estimates_first_pass_drawn": 39,
     "verify_entries": 54
   }
 }
