@@ -3,10 +3,10 @@
 
 id = "mikhail-blagosklonny-rapamycin"
 who = "Mikhail Blagosklonny"
-who_is = "the cancer researcher Mikhail Blagosklonny of Roswell Park, the most-cited advocate of rapamycin as a drug to slow human ageing, who wrote that he took it himself and who died of lung cancer in 2024-10 at 63"
-started = "2010"
+who_is = "the cancer researcher Mikhail Blagosklonny of Roswell Park, the most-cited advocate of rapamycin as a drug to slow human ageing, who wrote that he took it himself and who died of lung cancer in 2024 at 63"
+started = "2023"
 status = "ended"
-ended = "2024-10"
+ended = "2024"
 what = """
 Taking rapamycin himself, by his own account irregularly and on schedules he called suboptimal
 for cancer prevention, while publishing for fifteen years the argument that it should be taken to
@@ -21,18 +21,33 @@ own irregular use did not test the drug properly."""
 public_record = """
 One person's own account in a journal he co-founded, written during treatment, with no
 measurements, no control and no way to separate the drug from anything else; and the outcome, his
-death from the cancer in 2024-10, which neither confirms nor refutes anything about rapamycin and
+death from the cancer in 2024, which neither confirms nor refutes anything about rapamycin and
 ageing. The record is included because his case is often cited both for and against the drug,
 and because he himself was careful to say it proved nothing. A claim about one person is a story,
 not a record, and it moves no leaf."""
 link = "https://www.oncoscience.us/article/593/text/"
 branches = ["energy-and-fuel"]
 
-verify = [
-  "The start year (2010) is a guess: his 2024-01 paper says he took rapamycin irregularly and gives no start date, duration or dose, and no other first-person source was found. Find one or remove the year.",
-  "The age at death (63) is from Wikipedia; the journal gives only the years 1961-2024, so 62 or 63. Find a birth date or drop the age.",
-]
 notes = """
 His 2019 opinion article in the journal Aging on rapamycin for longevity, read in part, contains
 no statement of personal use. His blog, which coverage says carried the first version of his
-account on 2023-10-26, no longer resolves."""
+account on 2023-10-26, no longer resolves.
+
+The start year is not the year he began taking rapamycin, which no source found says. The year
+2023 is the year of the earliest dated first-person statement found that he took it: a recorded
+interview of 2023-08-22 on the Rapamycin Longevity Lab channel
+(https://www.youtube.com/watch?v=_Abtz2WpKfU), in which he describes taking it himself but gives no
+year in the recording's automatic captions, and his paper of 2024-01-03, which says he "was taking
+rapamycin" and dates the first sign of his cancer to 1991, "long before I started using rapamycin".
+An earlier version of this record gave 2010, a guess, which was removed on 2026-10-17. The form of
+a self-experiment record requires a start year, so the year of the first statement stands in; it
+is not a claim about when he began.
+
+His age at death follows from two sources rather than one: the journal's editorial board page gives
+his years as 1961 to 2024 (https://www.oncoscience.us/editorial-board/), and his paper of 2024-01
+says his birthday is January 13, so he was 63 when he died in 2024. An obituary on For Better
+Science, of 2024-10-04, also says he died at 63. The month of his death is not given in the
+sources opened: colleagues announced it on 2024-10-01 and the journals' tribute is dated
+2024-10-22 (https://www.oncotarget.com/news/pr/tribute-to-dr-mikhail-misha-blagosklonny/), which
+calls it a recent passing and says he died of metastatic lung cancer at home in Boston; so the
+record gives the year only. An earlier version said 2024-10 and took the age from Wikipedia."""

@@ -2,7 +2,7 @@
 
 id = "michael-lustgarten"
 who = "Michael Lustgarten"
-who_is = "a research scientist at a nutrition research centre at Tufts University, author of some three dozen peer-reviewed papers on ageing, who since at least 2014 has published his own blood tests against his diet on a site and a video channel called Conquer Aging or Die Trying"
+who_is = "a scientist at the Tufts University nutrition research centre on ageing, author of more than thirty papers listed on PubMed, who since about 2014 has published his own blood tests against his diet on a site and a video channel called Conquer Aging or Die Trying"
 started = "2014"
 status = "running"
 what = """
@@ -29,7 +29,28 @@ no leaf."""
 link = "https://michaellustgarten.wordpress.com/"
 branches = ["measuring-age"]
 
-verify = [
-  "The start year 2014 is the earliest year of his site's archive and not a start of tracking: show notes of a podcast of 2023-11-15 give 2008 for yearly blood tests and 2015 for diet logging, from his own account, which was not heard. Find his own words or the date he began publishing his results.",
-  "His job title ('Scientist II' in a 2023 podcast biography) is not confirmed by a current Tufts page: he is absent from the research centre's scientists list and his newest papers give the Friedman School of Nutrition Science and Policy as address. The paper count (36 on a PubMed author search) was not checked for namesakes.",
-]
+notes = """
+The start year, 2014, rests on a page of the Lifeboat Foundation of 2021-12-16 that introduces a
+video interview series with him and says he shares his experience with his n-of-1 experiment (a
+trial on one person, himself) "over the last 7 years"
+(https://lifeboat.com/blog/2021/12/n-of-1-extend-lifespan-experiment-how-to-start-dr-michael-lustgarten-interview-series-3-ep-1).
+That is the host's description, not his own words; seven years before December 2021 is 2014, and his
+site's yearly archive begins in the same year (there is a page for 2014 and none for 2013). Show notes of a podcast of 2023-11-15 are said to give 2008
+for yearly blood tests and 2015 for diet logging; they were not heard and are not used. An earlier
+version of this record called 2014 the year the site's archive begins; it is now the year the
+Lifeboat page supports, and the record says only "about 2014".
+
+His position and paper count were checked on 2026-10-17. The Tufts Human Nutrition Research Center
+on Ageing pages could not be opened from here (they refuse automated requests), so the title rests
+on other sources: a Lifespan Research Institute profile of him
+(https://lifespan.io/profile/michael-lustgarten/), which calls him a scientist in the center's
+nutrition, exercise physiology and sarcopenia laboratory and says he has lectured at the Tufts
+Friedman School of Nutrition Science and Policy; and the address lines of his papers on PubMed,
+which in 2025 give the center's own address and, for two papers of 2025 and 2026, the Friedman
+School. A job title with a grade, such as the "Scientist II" in a 2023 podcast biography, was not
+found on any current Tufts page, so the record gives none. A PubMed author search for "Lustgarten
+Michael" on 2026-10-17 returned 37 records, all on ageing, muscle, gut microbes, metabolism or
+oxidative stress, every address given being at Tufts or the University of Texas Health Science
+Center at San Antonio (where, by a Lifeboat Foundation biography of him, he took his doctorate).
+Two titles appear twice among the 37, a 2024 and a 2025 record of one paper and a 2025 and a 2026
+record of another, so the record says only "more than thirty"."""

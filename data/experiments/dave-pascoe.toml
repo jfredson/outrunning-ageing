@@ -3,7 +3,7 @@
 id = "dave-pascoe"
 who = "Dave Pascoe"
 who_is = "a retired network security engineer and massage therapist in his early sixties who has spent more than a decade on a self-designed programme to slow his own ageing, and who placed near the top of the Rejuvenation Olympics leaderboard in 2024"
-started = "2013"
+started = "2012"
 status = "running"
 what = """
 Daily walking, running, home workout videos, yoga and cycling intervals; whole home-cooked food;
@@ -24,16 +24,26 @@ Olympics, one place above Bryan Johnson, on a budget the coverage put at about t
 page on 2026-10-16 gave his rank there as 92nd."""
 public_record = """
 One person's commercial test results, posted by himself, with no control, no independent
-re-measurement and no peer review. The contest's "medically verified" label means the contest
-checked the tests were his, not that anyone independent measured him. His programme has
+re-measurement and no peer review. The contest's "medically verified" label is the contest's own,
+and what it checks was not found; nothing found says anyone independent measured him. His programme has
 changed over the years, so even his own series cannot say which part did what. A claim about one
 person is a story, not a record, and it moves no leaf."""
 link = "https://www.davepascoe.net/"
 branches = ["measuring-age", "inflammation-and-signalling", "replacing-parts"]
 
-verify = [
-  "The start year is a reading of his own phrase, more than a decade, from a page written in 2024 or 2025; he gives no start date, and a podcast's show notes of 2024-08-17 name 2012 (his discovery of telomeres) as a turning point.",
-]
 notes = """
 His bare domain refused connections on 2026-10-16; the www address served the page. He presented
-his blood results on Michael Lustgarten's channel on 2025-04-20 (michael-lustgarten)."""
+his blood results on Michael Lustgarten's channel on 2025-04-20 (michael-lustgarten).
+
+The start year, 2012, is the year of the telomere test he describes on his own question-and-answer
+page (https://www.davepascoe.net/home/questions-answers): he writes that in 2012, getting ready to
+turn fifty and training for his first marathon, he took a test that put his telomeres at the length
+of a sixty-eight-year-old's, and that this is when he began studying health and nutrition. He gives
+no start date for the programme itself, only "more than a decade" elsewhere on his site, so 2012 is
+the year he dates his own turn to the subject, not the first day of every part of the routine. An
+earlier version of this record said 2013, which was a reading of "more than a decade" and was
+corrected on 2026-10-17.
+
+A sentence of the public record that said the contest's "medically verified" label meant it had
+checked the tests were his was removed on 2026-10-17 for want of a source: the contest's pages
+opened that day say only that applicants submit eligible biomarker results and proof."""

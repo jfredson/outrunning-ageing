@@ -41,17 +41,23 @@ person's remaining life is not established; a change in a clock reading is not y
 measure of slowed ageing, which is exactly what the measuring branch of this site tracks. The
 record shows a well-documented, expensive, single-person programme with striking marker results,
 one drug stopped for side effects, one procedure he himself judged to have done nothing, and no
-way to say which part of the rest, if any, did what. A claim about one person is a story, not a
-record, and it moves no leaf."""
+way to say which part of the rest, if any, did what. On cost, two figures are public: a report in
+Fortune of 2023-01-26, drawing on a Bloomberg profile of 2023-01-25, said he was on course to
+spend over two million dollars in that year on medical interventions and tests; and in a post of
+2023-02-04 he wrote that Blueprint does not cost two million dollars a year and can be done for
+1,684.50 dollars a month including food. The record keeps both and does not choose between them.
+A claim about one person is a story, not a record, and it moves no leaf."""
 link = "https://protocol.bryanjohnson.com/"
 branches = ["energy-and-fuel", "inflammation-and-signalling", "replacing-parts", "measuring-age"]
 
-verify = [
-  "The reported spend of about two million dollars a year is from news coverage (Bloomberg, 2023-01-25); in a post of 2023-02-04 he wrote that Blueprint does not cost two million dollars a year and can be done for about 1,684 dollars a month including food.",
-]
 notes = """
 He co-founded the Rejuvenation Olympics leaderboard, which ranks people by their measured pace
 of ageing; that is its own self-experiment record (rejuvenation-olympics). His 2023-02-01 post
 ("Why I Am Spending Millions To Be 18 Again") was read in a repost on lifeboat.com; his site now
 sells the Blueprint products, and the protocol page is the part that still describes the
-programme."""
+programme.
+
+His post of 2023-02-04 on cost is at https://x.com/bryan_johnson/status/1621921632184078337, and
+the Fortune report of 2023-01-26 is at https://www.fortune.com/well/2023/01/26/bryan-johnson-extreme-anti-aging.
+The Bloomberg profile itself could not be opened, so the two-million-dollar figure is recorded as
+Fortune reported it, not as Bloomberg's own words."""
