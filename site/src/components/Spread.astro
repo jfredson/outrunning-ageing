@@ -1,0 +1,54 @@
+---
+// The spread of escape years: the trunk's picture (the Ledger skin, ruled by John 2026-10-17).
+// Every mark is read from the headline file (data/headline.json, through records.json): the
+// five-year bins as bars, the middle estimate as a rule with the year above it, the fixed date
+// the loudest promises name as a dashed line in the second mark with the share before it, the
+// nine-in-ten span as a bracket under the axis, and the share that does not arrive this century
+// at the right edge. Nothing is drawn by hand. Styles: .spread in styles/global.css.
+import { records } from '../lib/records';
+
+const h = records.headline;
+const W = 640, H = 262, L = 36, R = 36, T = 66, B = 52;
+const x0 = 2040, x1 = h.available && h.method?.century_end ? h.method.century_end : 2100;
+const X = (y: number) => L + ((y - x0) / (x1 - x0)) * (W - L - R);
+const bins = h.available ? (h.histogram ?? []).filter((b) => b.from < x1) : [];
+const maxShare = bins.length ? Math.max(...bins.map((b) => b.share)) : 1;
+const before = h.available && h.method?.before_year ? h.method.before_year : 2050;
+const med = h.available ? h.median_year : null;
+const p5 = h.available ? h.percentiles?.p5 : undefined;
+const p95 = h.available ? h.percentiles?.p95 : undefined;
+const beforeShare = h.available ? h.before_2050 : 0;
+const afterShare = h.available ? h.after_2100 : 0;
+const pct = (v: number, d = 1) => `${(v * 100).toFixed(d)}%`;
+const ticks = Array.from({ length: Math.floor((x1 - x0) / 10) + 1 }, (_, i) => x0 + i * 10);
+---
+
+{h.available ? (
+  <svg class="spread" viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby="spread-title">
+    <title id="spread-title">The spread of escape years across the runs of the tree, {x0} to {x1}: the middle estimate is {med}</title>
+    {bins.map((b) => {
+      const bh = (b.share / maxShare) * (H - T - B);
+      return <rect class={`bar ${b.to < before ? 'before' : ''}`} x={X(b.from).toFixed(1)} y={(H - B - bh).toFixed(1)} width={(X(b.to + 1) - X(b.from) - 2).toFixed(1)} height={bh.toFixed(1)} rx="1.5" />;
+    })}
+    <line class="axis" x1={L} y1={H - B} x2={W - R} y2={H - B} />
+    {ticks.map((y) => <text class="tick" x={X(y).toFixed(1)} y={H - B + 16} text-anchor="middle">{y}</text>)}
+    <line class="dashed" x1={X(before).toFixed(1)} y1={T - 6} x2={X(before).toFixed(1)} y2={H - B} />
+    <text class="note" x={(X(before) - 6).toFixed(1)} y={T - 4} text-anchor="end">{pct(beforeShare)} before {before}</text>
+    {med !== null && (
+      <>
+        <line class="mark" x1={(X(med) + 2).toFixed(1)} y1="50" x2={(X(med) + 2).toFixed(1)} y2={H - B} />
+        <text class="mark-year" x={(X(med) + 8).toFixed(1)} y="26">{med}</text>
+        <text class="note" x={(X(med) + 8).toFixed(1)} y="44">the middle estimate</text>
+      </>
+    )}
+    {p5 !== undefined && p95 !== undefined && (
+      <>
+        <path class="bracket" d={`M${X(p5).toFixed(1)},${H - B + 30} v5 H${X(p95 + 1).toFixed(1)} v-5`} />
+        <text class="note" x={((X(p5) + X(p95 + 1)) / 2).toFixed(1)} y={H - B + 46} text-anchor="middle">{p5} to {p95} in nine runs of ten</text>
+      </>
+    )}
+    <text class="label" x={W - R} y="26" text-anchor="end">not this century: {pct(afterShare, 0)}</text>
+  </svg>
+) : (
+  <p class="dim">The chart of the spread of escape years appears here once the headline has been computed.</p>
+)}

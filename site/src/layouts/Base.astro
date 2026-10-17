@@ -1,12 +1,10 @@
 ---
 // The page shell, from the Sentient Horizons design standard (design/shell.html): the theme script,
 // the top bar (Nav.astro), the page, and the footer with its four lines, the medical notice John
-// ruled for this site on 2026-10-16, and the family line last. Holding version, 2026-10-16, on the
-// standard's base (Deep Field); the site's own skin is proposed separately and replaces the
-// backdrop when it lands.
+// ruled for this site on 2026-10-16, and the family line last. No backdrop: the site wears the
+// Ledger skin (styles/skin.css, ruled 2026-10-17), paper and ink, and the chart is the picture.
 import '../styles/global.css';
 import Nav from '../components/Nav.astro';
-import Starfield from '../components/Starfield.astro';
 import { records, longDate, builtFrom, REPO, SITE_NAME } from '../lib/records';
 
 interface Props {
@@ -30,7 +28,7 @@ const currentYear = new Date().getFullYear();
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {/* Set the theme before first paint so there is no flash on load. */}
+    {/* Set the theme before first paint so there is no flash on load. Light is the default on this site (the Ledger skin, ruled 2026-10-17); dark only when the visitor asks for it. */}
     <script is:inline>
       (function () {
         try {
@@ -38,14 +36,14 @@ const currentYear = new Date().getFullYear();
           var theme =
             stored === 'light' || stored === 'dark'
               ? stored
-              : window.matchMedia('(prefers-color-scheme: light)').matches
-                ? 'light'
-                : 'dark';
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light';
           document.documentElement.dataset.theme = theme;
         } catch (e) {}
       })();
     </script>
-    <meta id="theme-color-meta" name="theme-color" content="#08070f" />
+    <meta id="theme-color-meta" name="theme-color" content="#f3eee3" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="author" content="John Fredrickson" />
@@ -60,11 +58,6 @@ const currentYear = new Date().getFullYear();
     <meta name="twitter:card" content="summary" />
   </head>
   <body>
-    <div class="space-bg" aria-hidden="true">
-      <div class="galaxy"></div>
-      <div class="core"></div>
-      <Starfield count={150} />
-    </div>
     <Nav />
     <main class="container">
       <slot />

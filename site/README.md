@@ -13,7 +13,8 @@ The site session adds the tracker pattern's seven pages (`design/tracker-pattern
 
 ## How it is built
 
-- `src/styles/global.css` is `design/deep-field.css` copied unchanged (version 2.0.1), with this site's own rules below the marked line. The site's own skin, when John rules it, replaces the skin half of that file; see the design standard's section 3a.
+- **The styles are the family's skeleton with this site's own skin.** `src/styles/skin.css` is the "Ledger" skin (paper and ink with a clinical blue, the sepia second mark shared with The Upgrade Tree; light by default; ruled by John 2026-10-17 from `sentient-horizons/design/proposals/outrunning-ageing-skin-2026-10-17.md`), every token for both themes and nothing else. `src/styles/global.css` imports it, then carries `sentient-horizons/design/shell.css` copied unchanged (version noted at the marked line), then this site's own rules. There is no backdrop: the chart on the home page is the picture.
+- `src/components/Spread.astro` is the trunk's picture, the spread of escape years, drawn at build time from the headline in `records.json`: five-year bars, the middle estimate as a rule, the fixed promised date as a dashed line in the second mark, the nine-in-ten span as a bracket, the not-this-century share at the edge. Nothing on it is drawn by hand.
 - `src/layouts/Base.astro` and `src/components/Nav.astro` are the standard's shell: theme script, two-tier top bar, four-line footer, then the medical notice John ruled on 2026-10-16, then the family line.
 - `src/lib/records.ts` types the JSON that `scripts/export.py` writes to `src/data/records.json` at build time (not committed). Every page reads from it; nothing in the browser touches the TOML records.
 - `worker/redirect.js` runs in front of the static files and sends www.outrunningageing.com, outrunningaging.com and www.outrunningaging.com to the same page at outrunningageing.com with a permanent redirect.

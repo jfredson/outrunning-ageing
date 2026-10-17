@@ -7,8 +7,10 @@
 // are worked out, who is asking. Written for a reader who has never heard of any of this (design
 // standard, section 1a); UK spelling throughout. Every number comes from records.json
 // (scripts/export.py). The site's own skin and its trunk object, the crossing chart, come from the
-// design session and are not here.
+// design session: the Ledger skin (styles/skin.css) and the spread of escape years (Spread.astro),
+// ruled by John 2026-10-17; the first screen is two columns, the chart beside the year.
 import Base from '../layouts/Base.astro';
+import Spread from '../components/Spread.astro';
 import { records, longDate, plural, REPO } from '../lib/records';
 
 const c = records.counts;
@@ -19,6 +21,7 @@ const exampleNote = c.examples > 0;
 ---
 
 <Base>
+  <div class="home-first">
   <section class="home-hero">
     <p class="eyebrow">A public tracker of the race between repair and ageing</p>
     {h.available ? (
@@ -31,9 +34,16 @@ const exampleNote = c.examples > 0;
         ? `The middle estimate of the year medicine starts adding more than a year of healthy life for every year that passes.`
         : `The year medicine starts adding more than a year of healthy life for every year that passes, worked out from the record and never chosen by hand, will stand here.`}
     </p>
+    {h.available && (
+      <div class="stat-row" aria-label="The three numbers beside the year">
+        <div><span class="stat">{(h.before_2050 * 100).toFixed(1)}%</span><span class="stat-label">chance it arrives before {records.fixed_dates.before}</span></div>
+        <div><span class="stat">{h.percentiles?.p5}–{h.percentiles?.p95}</span><span class="stat-label">in nine runs of ten</span></div>
+        <div><span class="stat">{Math.round(h.after_2100 * 100)}%</span><span class="stat-label">not this century</span></div>
+      </div>
+    )}
     <h1 class="question">When do we start outrunning ageing?</h1>
     <p class="lede">
-      Every year you live, medicine gets a little better. Right now it does not get better fast enough: for a person in middle age, the years they can expect to have left fall by about a year every year, less the small gains new treatments add. This site asks when, if ever, that stops being true: when repair overtakes ageing, so that someone who keeps up with the best available care finds their remaining years holding steady or rising instead of falling. It breaks that question into eight kinds of damage that would have to be dealt with, lists the specific treatments and measuring tools that would have to arrive under each, and computes a year from them. Beside the year it keeps a dated record of who promised what and when, held against what has actually been shown.
+      Every year you live, medicine gets a little better. Right now it does not get better fast enough: for a person in middle age, the years they can expect to have left fall by about a year every year, less the small gains new treatments add. This site asks when, if ever, that stops being true: when repair overtakes ageing, so that someone who keeps up with the best available care finds their remaining years holding steady or rising instead of falling.
     </p>
     <p class="scan-strip">
       <span class="strip-dot" aria-hidden="true"></span>
@@ -48,6 +58,17 @@ const exampleNote = c.examples > 0;
       <a class="btn ghost" href="#who">Who is asking</a>
     </p>
   </section>
+
+  <div class="first-side figure-card">
+    <p class="plate-label">Sheet I · The spread of escape years</p>
+    <Spread />
+    <ul class="legend">
+      <li><i class="bars"></i> share of runs ending in each five years</li>
+      <li><i class="before"></i> before {records.fixed_dates.before}, the date the loudest promises name</li>
+    </ul>
+    <p class="figure-note">Two hundred thousand runs of the tree, each drawing a year for every treatment and tool; the year a run ends is when the last required branch is handled, plus the years it takes a treatment to reach ordinary people. Never typed in.</p>
+  </div>
+  </div>
 
   <div class="prose narrow">
     <h2 id="numbers">What the top of this page will show</h2>

@@ -67,12 +67,12 @@ const secondary = [
     var btn = document.querySelector('.theme-toggle');
     if (!btn) return;
     var meta = document.getElementById('theme-color-meta');
-    var COLORS = { dark: '#08070f', light: '#faf9f7' };
+    var COLORS = { dark: '#10161c', light: '#f3eee3' };
     function sync(theme) {
       document.documentElement.dataset.theme = theme;
       if (meta) meta.setAttribute('content', COLORS[theme] || COLORS.dark);
     }
-    sync(document.documentElement.dataset.theme === 'light' ? 'light' : 'dark');
+    sync(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
     btn.addEventListener('click', function () {
       var next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
       try { localStorage.setItem('theme', next); } catch (e) {}

@@ -108,6 +108,8 @@ export type Headline =
       before_2050: number;
       after_2100: number;
       percentiles?: Record<string, number>;
+      histogram?: { from: number; to: number; share: number }[];
+      method?: { before_year?: number; century_end?: number; runs?: number; [key: string]: unknown };
       computed_on?: string;
       file?: string;
       [key: string]: unknown;

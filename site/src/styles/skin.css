@@ -1,0 +1,73 @@
+/* ---------------------------------------------------------------
+   Outrunning Ageing · skin "Ledger", version 1.0.0 (2026-10-17)
+   The Plate skin's paper and ink with a clinical blue in place of the
+   green; the sepia second mark shared with The Upgrade Tree. Proposed with
+   pictures in sentient-horizons/design/proposals/outrunning-ageing-skin-
+   2026-10-17.md and ruled by John on 2026-10-17 as proposed: light by
+   default, a dark theme kept (the same sheet on blue-black ink), no
+   backdrop, no display typeface. A skin supplies every token the skeleton
+   (sentient-horizons/design/shell.css) names, for both themes, and nothing
+   else (design standard, section 3a).
+   --------------------------------------------------------------- */
+:root {
+  --bg: #10161c;          /* blue-black ink */
+  --bg-soft: #141b22;
+  --panel: #171f27;
+  --text: #ebe6da;
+  --text-soft: #cdc6b8;
+  --muted: #8e97a0;
+  --line: rgba(235, 230, 218, 0.10);
+  --line-strong: rgba(235, 230, 218, 0.20);
+  --accent: #8fb8dc;      /* pale blue: links and the one action */
+  --accent-2: #c9a06a;    /* the second mark: the date the loudest promises name */
+  --accent-3: #6fa3cf;    /* data: the chart's bars */
+  --on-accent: #0b1218;
+  --accent-hover: #a6c9e6;
+  --link: #8fb8dc;
+  --link-hover: #a6c9e6;
+  --glow: rgba(111, 163, 207, 0.20);
+  --header-bg: rgba(16, 22, 28, 0.78);
+  --hover-bg: rgba(235, 230, 218, 0.06);
+  --active-bg: rgba(235, 230, 218, 0.09);
+  --chip-bg: rgba(235, 230, 218, 0.03);
+  --callout-bg: rgba(143, 184, 220, 0.10);
+  --ok: #7fc48a;
+  --no: #d98a7a;
+  --star: #ebe6da;
+  --radius: 6px;
+  --maxw: 1080px;
+  --serif: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  --sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+}
+
+/* Light, the default: paper and ink. */
+:root[data-theme='light'] {
+  --bg: #f3eee3;          /* warm paper, shared with The Upgrade Tree */
+  --bg-soft: #eae3d3;
+  --panel: #faf6ed;
+  --text: #1c1a16;        /* ink */
+  --text-soft: #3a362f;
+  --muted: #6e675b;
+  --line: rgba(28, 26, 22, 0.13);
+  --line-strong: rgba(28, 26, 22, 0.24);
+  --accent: #2b5c8a;      /* clinical blue */
+  --accent-2: #8a5a2b;    /* sepia, shared with The Upgrade Tree */
+  --accent-3: #4a86b4;    /* data blue */
+  --on-accent: #f5f0e6;
+  --accent-hover: #35709f;
+  --link: #2b5c8a;
+  --link-hover: #35709f;
+  --glow: rgba(43, 92, 138, 0.12);
+  --header-bg: rgba(243, 238, 227, 0.88);
+  --hover-bg: rgba(28, 26, 22, 0.05);
+  --active-bg: rgba(28, 26, 22, 0.08);
+  --chip-bg: transparent;
+  --callout-bg: rgba(43, 92, 138, 0.07);
+  --ok: #2f7c4a;
+  --no: #a5432f;
+  --star: #c9bfa8;
+  --radius: 4px;
+}
+
+/* No backdrop on this site, in either theme: the chart is the picture. */
