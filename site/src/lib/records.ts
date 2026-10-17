@@ -8,7 +8,8 @@ import data from '../data/records.json';
 export type StageKey = 'idea-only' | 'shown-in-animals' | 'first-human' | 'in-clinical-use' | 'in-wide-use';
 export type Horizon = 'near' | 'mid' | 'far' | 'top';
 export type Verdict = 'not-yet-due' | 'delivered' | 'missed' | 'unfalsifiable';
-export type ReadingVerdict = 'quiet' | 'noted' | 'moved' | 'met' | 'waiting';
+export type ReadingVerdict = 'quiet' | 'noted' | 'moved' | 'flagged';
+export type ReadingKind = 'leaf' | 'claim' | 'experiment';
 export type StoryKind = 'stage-settled' | 'moved-range' | 'held' | 'revision' | 'reading';
 
 export interface Counts {
@@ -134,15 +135,19 @@ export interface Revision {
   why: string;
   publication: PublicationRef | null;
 }
+// One record's line in a weekly reading, as a leaf, claim or self-experiment page shows its last three.
 export interface LeafReading {
   read_on: string;
   path: string;
   verdict: ReadingVerdict;
   verdict_label: string;
-  line: string;
-  source: string | null;
-  sibling_stage: StageKey | null;
-  sibling_agrees: boolean | null;
+  found: string;
+  sources: string[];
+  search_short: string;
+  for_john: string;
+  moved_from_label: string | null;
+  moved_to_label: string | null;
+  publications: PublicationRef[];
 }
 
 export interface Leaf {
@@ -207,6 +212,7 @@ export interface Claim {
   branches: BranchRef[];
   verify: string[];
   notes: string;
+  readings: LeafReading[];   // the last three weekly readings of this claim (not yet shown on the page)
   example: boolean;
   file: string;
   path: string;
@@ -239,6 +245,7 @@ export interface Experiment {
   branches: BranchRef[];
   verify: string[];
   notes: string;
+  readings: LeafReading[];   // the last three weekly readings of this self-experiment (not yet shown on the page)
   example: boolean;
   file: string;
   path: string;
@@ -289,26 +296,63 @@ export interface Story {
 }
 
 export interface ReadingItem {
-  leaf: LeafRef;
+  kind: ReadingKind;
+  kind_label: string;
+  id: string;
+  name: string;
+  record: LeafRef | ClaimRef | ExperimentRef;
+  group: string;                 // a branch key, or 'the-whole-question' for a claim about the headline
   verdict: ReadingVerdict;
   verdict_label: string;
-  line: string;
-  source: string | null;
+  queries: string[];
+  reused: string[];
+  search_short: string;
+  found: string;
+  sources: string[];
+  publications: PublicationRef[];
+  moved_from: StageKey | null;
+  moved_to: StageKey | null;
+  moved_from_label: string | null;
+  moved_to_label: string | null;
+  for_john: string;
   sibling_stage: StageKey | null;
+  sibling_stage_label: string | null;
   sibling_agrees: boolean | null;
+}
+export interface ReadingGroup {
+  key: string;
+  name: string;
+  path: string;
+  items: ReadingItem[];
 }
 export interface Reading {
   id: string;
   read_on: string;
   covers_from: string;
+  ran_at: string;
+  run_by: 'hand' | 'scheduled';
+  commit_before: string;
   summary: string;
   read: number;
+  leaves_read: number;
+  claims_read: number;
+  experiments_read: number;
+  searches: number;
+  short_of_two: number;
   counts: Record<ReadingVerdict, number>;
   moved: LeafRef[];
+  logged: string[];
   items: ReadingItem[];
+  groups: ReadingGroup[];
+  waiting: number;               // flagged items of this reading still waiting on the author
   notes: string;
   verify: string[];
   file: string;
+  path: string;
+}
+export interface WaitingItem extends ReadingItem {
+  reading: string;
+  read_on: string;
   path: string;
 }
 export interface LatestReading {
@@ -316,8 +360,15 @@ export interface LatestReading {
   covers_from: string;
   summary: string;
   read: number;
+  leaves_read: number;
+  claims_read: number;
+  experiments_read: number;
+  searches: number;
   moved: string[];
   movers: LeafRef[];
+  logged: number;
+  flagged: number;
+  waiting: number;
   path: string;
 }
 
@@ -392,6 +443,7 @@ export interface Records {
   fixed_dates: { before: number; century_end: number };
   reading: LatestReading | null;   // the latest real weekly reading, or null when none has run
   readings: Reading[];             // every real weekly reading, newest first
+  waiting: WaitingItem[];          // flagged items still waiting on the author, newest reading first
   reading_verdicts: { key: ReadingVerdict; label: string; meaning: string }[];
   stages: Stage[];
   verdicts: { key: Verdict; label: string; meaning: string }[];
