@@ -1,0 +1,65 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. One of the five
+# leaves shared with The Upgrade Tree; the stage facts are copied from its record
+# (upgrade-tree/data/lifespan.toml, id lifespan-partially-resetting-cells-reverses-ageing-in-an-animal),
+# which a session there checked on 2026-10-16. The estimate is a first pass.
+
+id = "partially-resetting-cells-reverses-ageing-in-an-animal"
+name = "Partially resetting cells reverses ageing in a living animal"
+branch = "cell-settings"
+description = """
+Every cell carries chemical marks that say which of its genes to read, and the marks drift with
+age so that cells slowly forget what they are. Four genes can wipe the marks and turn an adult
+cell back into something like an embryonic one; switched on briefly and then off, in a live
+animal, they turn back some of the marks of age without erasing what the cell is. In 2016 mice
+with a premature-ageing disease lived longer when this was done to them, and in 2020 old mice
+regained sight after the nerve from the eye was reset. It is the most direct attempt yet to
+reverse ageing rather than slow it. The first person was given it, in one eye, in June 2026, with
+no result yet reported; a separate leaf holds that dose."""
+test = """
+A living animal given a brief, controlled dose of reprogramming genes afterwards has a measured
+marker of biological age (a clock read from the chemical marks on its DNA, a restored tissue
+function) moved towards youth, compared with untreated controls, in a peer-reviewed report. The
+first-human rung needs the same in a person. For the clinic rung: a regulator approves a
+cell-resetting treatment for any condition, so a doctor can give it outside a trial."""
+settler = "Peer-reviewed reports; the trial registry and report for the first person treated; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2016-12-15"
+stage_record = "https://doi.org/10.1016/j.cell.2016.11.052"
+status = "tracked"
+horizon = "mid"
+sibling = "lifespan-partially-resetting-cells-reverses-ageing-in-an-animal"
+
+verify = [
+  "The date of the 2016 Cell report (15 December 2016; Ocampo, Izpisua Belmonte and colleagues at the Salk Institute) is copied from The Upgrade Tree's record and not re-checked here.",
+  "That the 2020 Nature report restoring vision in old mice (Lu, Sinclair and colleagues) has the DOI 10.1038/s41586-020-2975-4 is from memory.",
+]
+notes = """
+The Upgrade Tree keeps the same leaf at shown in animals under the same test, and recorded on
+2026-10-16 that if John would rather count the June 2026 dose as a first human, the stage moves
+on the company's release; here the dose has its own leaf instead, so that this one stays about
+the result. The weekly reading checks the two stages agree."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The first trial in people began in June 2026 in two eye diseases, following participants for up
+to five years, with visual function among its measures. The likely year for the first-human rung
+assumes that trial or its successor reports a measured reversal in an eye around 2029; the clinic
+rung assumes an approval for one eye disease in the early 2040s after a late-stage trial, since a
+gene therapy to the eye has a known regulatory path. The earliest assumes the first trial's
+early groups show a reversal and a fast approval route; the latest allows for the safety
+question that hangs over the field (the same genes make tumours if left on) closing it for a
+generation."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2027
+likely = 2029
+latest = 2040
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2033
+likely = 2041
+latest = 2075

@@ -1,0 +1,63 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The regulatory
+# status was checked against trade coverage on 2026-10-16; the rest is in the verify list. The
+# estimate is a first pass.
+
+id = "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked"
+name = "A regulator accepts a marker of ageing as proof that a treatment slowed it"
+branch = "measuring-age"
+description = """
+Every treatment on this tree faces the same wall: to be approved for ageing, it must be shown to
+slow ageing, and the only accepted way to show that is to wait for people to get sick or die. A
+marker that a regulator accepted instead, a clock or a panel of blood proteins that a treatment
+had to move, would cut a decade off every trial. Regulators do this in other fields (blood
+pressure stands in for strokes, viral load for AIDS), through formal programmes that qualify a
+marker on evidence. No marker of ageing has been qualified by any regulator, and as of 2026 none
+had been submitted far enough through the United States programme to be listed. Several
+foundations and companies say they are working toward it."""
+test = """
+A regulator's formal programme qualifies a marker of ageing (a clock, a protein panel, a
+functional measure) as a stand-in for the outcome a trial would otherwise wait for (what the
+regulators call a surrogate endpoint), so that a trial can be designed to move it and an
+approval can rest on that, in the regulator's own published record; that is the clinic rung for
+this leaf. The first-human rung is reached when a regulator agrees in writing, in a registered
+trial's record, to a marker of ageing as the trial's main measure, before the trial runs.
+There is no animal rung for a regulatory act, and the idea-only rung means neither has happened."""
+settler = "The regulator's own qualification record or its written agreement to the trial's main measure; the trial registry entry that names the agreed endpoint"
+stage = "idea-only"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "That no clock read from DNA marks, nor any other marker of ageing, had been qualified by the United States or European regulators as a stand-in outcome as of 2026-10-16 is from trade commentary found by a web search, not from the regulators' own lists, which should be checked.",
+  "That the Clock Foundation and others state the aim of qualifying such markers is from their own public statements.",
+  "That a 2026 company trial (Insilico Medicine's rentosertib) used several clocks read from blood proteins as exploratory measures is from trade coverage; it is a trial use, not a regulator's acceptance, and does not meet either rung.",
+]
+notes = """
+This leaf and the one on a regulator recognising ageing as a treatable condition are the two
+regulatory acts the kickoff names; both are at idea only, and both are written with the rungs
+spelt out in the test because the ladder was built for treatments. The branch is marked required
+for the reason this leaf states."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+A qualification takes years of evidence and a sponsor willing to submit it; the first-human
+rung, a regulator agreeing a marker as the main measure for one trial, is the nearer step and
+likely around 2031 through a company trial in a single condition. Full qualification, the clinic
+rung, likely follows around 2040, after the first such trial reads out and the marker proves it
+tracked the outcome. The earliest assumes a submission already in progress succeeds within six
+years; the latest allows for no marker ever being accepted because none tracks hard outcomes
+closely enough."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2028
+likely = 2031
+latest = 2045
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2032
+likely = 2040
+latest = 2080

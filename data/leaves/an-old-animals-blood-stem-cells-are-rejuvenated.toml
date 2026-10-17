@@ -1,0 +1,60 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage record
+# was checked against the paper's listing on 2026-10-16; the rest is in the verify list. The
+# estimate is a first pass.
+
+id = "an-old-animals-blood-stem-cells-are-rejuvenated"
+name = "An old animal's blood-making stem cells are made young again, and its immune system with them"
+branch = "replacing-parts"
+description = """
+The stem cells in bone marrow that make every blood and immune cell change with age: more of
+them come to favour the inflammatory cells of the innate immune system and fewer the T and B
+cells that learn new threats, which is one reason old people respond poorly to vaccines and
+infections. In 2024 a Stanford group used antibodies to kill off the age-biased stem cells in
+old mice, and the mice's marrow shifted back toward a young mix, with better responses to a virus
+and less inflammation. The same biased cells carry the same surface markers in old people. It is
+the first rejuvenation of the immune system's source, rather than a top-up of its products."""
+test = """
+An old living animal given a treatment that removes or resets its age-biased blood stem cells
+afterwards has a measurably younger mix of blood and immune cells and a better immune response,
+compared with untreated old controls, in a peer-reviewed report. The first-human rung is the
+same in a person. For the clinic rung: a regulator approves such a treatment for an age-related
+condition."""
+settler = "Peer-reviewed reports; the trial registry and report when a first person is treated; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2024-03-27"
+stage_record = "https://doi.org/10.1038/s41586-024-07238-x"
+status = "tracked"
+horizon = "far"
+
+verify = [
+  "The paper is Ross, Weissman and colleagues, 'Depleting myeloid-biased haematopoietic stem cells rejuvenates aged immunity', Nature, 27 March 2024; the date and DOI were confirmed against a university listing, the finding against the institute's summary.",
+  "That a 2019 trial (TRIIM, on the cell-settings branch) reported the thymus regrowing on scans in nine men after a year of growth hormone with two other drugs is from memory, and is the nearest human result to immune rejuvenation; it does not meet this leaf's test, which is about the marrow.",
+]
+notes = """
+Immune rejuvenation has two targets, the thymus (where T cells are trained, and which shrinks
+from puberty on) and the marrow (where the cells come from); this leaf is the marrow, and the
+thymus result is on the cell-settings branch because it was measured with a clock. The 2024
+treatment killed cells with antibodies, which in a person would be done in a hospital like a
+mild chemotherapy, so the clinic rung is a long way off."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The 2024 result named human surface markers, so an antibody for people is makeable; the likely
+year for a first person is the mid 2030s through a condition such as a blood cancer precursor
+where removing biased stem cells is already wanted, and the clinic rung around 2048 after a trial
+in that condition. The earliest assumes an existing antibody is repurposed within a few years;
+the latest allows for the marrow proving too risky a target in older people."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2029
+likely = 2035
+latest = 2055
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2036
+likely = 2048
+latest = 2100

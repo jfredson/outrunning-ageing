@@ -1,0 +1,55 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The approval date
+# was checked against coverage of the regulator's notice on 2026-10-16; the trial record is from
+# memory and in the verify list. The estimate is a first pass.
+
+id = "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"
+name = "A weight-loss drug is approved to prevent heart attacks and strokes in people without diabetes"
+branch = "energy-and-fuel"
+description = """
+The GLP-1 drugs (semaglutide, sold as Wegovy and Ozempic, and their successors) copy a gut hormone
+that tells the body it has eaten, and they act on the same fuel-sensing pathways the ageing field
+has studied for decades. In 2023 a trial of 17,604 overweight people with heart disease but no
+diabetes found that semaglutide cut heart attacks, strokes and heart deaths by a fifth over three
+years, with fewer deaths from any cause. On 8 March 2024 the United States regulator approved it
+for that purpose, the first time a weight-loss drug was approved to prevent an age-related disease
+rather than to treat weight. Whether the drugs slow ageing itself is not shown; whether they are
+the closest thing in wide use to a drug that does is the question the leaf tracks."""
+test = """
+A controlled trial in people without diabetes reports that a GLP-1 drug lowers death from any
+cause, or heart attacks and strokes, more than placebo, in a peer-reviewed report. For the clinic
+rung: a regulator approves such a drug to prevent an age-related disease, rather than to treat
+weight or blood sugar. For wide use: the drug is available by prescription for that purpose in
+several countries and taken by a substantial share of eligible people."""
+settler = "The peer-reviewed trial report; the regulator's approval record; published uptake figures for the wide-use rung"
+stage = "in-clinical-use"
+stage_reached_on = "2024-03-08"
+stage_record = "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-reduce-risk-serious-heart-problems-specifically-adults-obesity-or-overweight"
+status = "tracked"
+horizon = "near"
+
+verify = [
+  "The address of the regulator's 8 March 2024 notice is reconstructed from its title ('FDA approves first treatment to reduce risk of serious heart problems specifically in adults with obesity or overweight') and was not opened; the date and title were confirmed from reposts of it.",
+  "The 2023 SELECT report (Lincoff and colleagues, New England Journal of Medicine, 11 November 2023; 17,604 people, a 20 per cent cut in the main heart outcome, 6.5 against 8.0 per cent) and its DOI are from memory; that death from any cause was lower (a secondary measure, about 19 per cent) is from memory.",
+  "No animal rung is recorded: whether a GLP-1 drug extended the life of a living animal in a peer-reviewed report was not checked.",
+]
+notes = """
+Semaglutide for weight loss alone is in wide use by any measure; the leaf's test is narrower, the
+approval to prevent an age-related disease, and the record keeps that rung at clinical use until
+uptake figures for that purpose are in hand. The drugs' effect on measures of biological age was
+being studied when this was written and has no peer-reviewed result; if one comes it belongs on
+the measuring branch's clock-slowing leaf, not here."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The drugs are taken by tens of millions of people and prices were falling as pills and copies
+arrived; the likely year for wide use on the heart-prevention indication is 2029, the earliest
+allows that it is already met once uptake is counted, and the latest allows for the indication
+staying a label line that few prescribers use."""
+
+[[estimate.rung]]
+rung = "in-wide-use"
+earliest = 2027
+likely = 2029
+latest = 2040

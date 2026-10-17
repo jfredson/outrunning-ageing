@@ -1,0 +1,63 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The approval date
+# was checked against coverage of the regulator's notice on 2026-10-16; the trial record is from
+# memory and in the verify list. The estimate is a first pass.
+
+id = "drug-stops-a-misfolded-protein-piling-up-in-the-heart"
+name = "A drug stops a misfolded protein piling up in the heart and extends life"
+branch = "broken-proteins"
+description = """
+Transthyretin is a blood protein that, in many people over seventy, starts to misfold and settle
+in the heart muscle as a stiff waste, until the heart fails. It is one of the clearest cases of
+ageing damage from a broken protein, and until 2019 nothing treated it. Tafamidis, a pill that
+holds the protein in its proper shape so it cannot settle, cut deaths by about a third over
+thirty months in a controlled trial of 441 people reported in 2018, and the United States
+regulator approved it on 3 May 2019. It does not remove what has already settled; drugs that do,
+by getting the immune system to clear the deposits, were in late-stage trials when this was
+written."""
+test = """
+A controlled trial in people reports that a drug which stops a misfolded protein from piling up
+in the body, or clears what has piled up, lowers deaths or hospital admissions from the disease it
+causes, in a peer-reviewed report. For the clinic rung: a regulator approves such a drug for that
+disease. For wide use: available by prescription in several countries and taken by a substantial
+share of eligible patients."""
+settler = "The peer-reviewed trial report; the regulator's approval record; published uptake figures for the wide-use rung"
+stage = "in-clinical-use"
+stage_reached_on = "2019-05-03"
+stage_record = "https://www.fda.gov/news-events/press-announcements/fda-approves-new-treatments-heart-disease-caused-serious-rare-disease-transthyretin-mediated-amyloidosis"
+status = "tracked"
+horizon = "near"
+
+verify = [
+  "The address of the regulator's notice is reconstructed from its title ('FDA approves new treatments for heart disease caused by a serious rare disease, transthyretin-mediated amyloidosis') and was not opened; the approval date (3 May 2019) and the title were confirmed from reposts of it.",
+  "The 2018 ATTR-ACT report (Maurer and colleagues, New England Journal of Medicine, 13 September 2018; 441 people, all-cause death 29.5 against 42.9 per cent at 30 months) and its DOI are from memory.",
+  "That antibodies which clear settled deposits (ALXN2220, coramitug) were in late-stage trials as of 2026-10-16 is from memory.",
+  "No animal rung is recorded: the discovery work (Kelly and colleagues at Scripps, 2000s) was done largely in the test tube and a dated animal result was not sought.",
+]
+notes = """
+The branch's own line asks for waste cleared throughout the body; this drug stops one protein
+in one organ, and the branch's notes say so. It is here because it is the first approved drug
+against an age-related protein deposit, and because it treats a disease that is mostly a disease
+of old age even though the regulator's notice calls it rare. It is widely prescribed in rich
+countries at a very high price, which is why the record keeps it at clinical use and not wide
+use until uptake figures say otherwise."""
+
+[[earlier_stage]]
+stage = "first-human"
+reached_on = "2018-09-13"
+record = "https://doi.org/10.1056/NEJMoa1805689"
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The drug has been prescribed for seven years and competitors (a second stabiliser, gene
+silencers, and the deposit-clearing antibodies) were arriving when this was written, which
+brings prices down and widens use; the likely year for wide use is 2030, the earliest allows
+that it is already there by the test's standard once uptake is counted, and the latest allows
+for the price keeping it a specialist drug for another two decades."""
+
+[[estimate.rung]]
+rung = "in-wide-use"
+earliest = 2027
+likely = 2030
+latest = 2045

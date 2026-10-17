@@ -1,0 +1,61 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The animal record
+# is from memory; the trial's funding status was checked against 2026 trade coverage on
+# 2026-10-16. The estimate is a first pass.
+
+id = "metformin-delays-age-related-disease-in-people-without-diabetes"
+name = "Metformin delays age-related disease in people who do not have diabetes"
+branch = "energy-and-fuel"
+description = """
+Metformin is a cheap diabetes pill taken by hundreds of millions of people, and it acts on the
+pathways that sense how much fuel a cell has. Records studies in the 2010s suggested that people
+with diabetes who took it got cancer and heart disease less often, and in 2013 a National
+Institute on Aging group found that a low dose lengthened the lives of middle-aged mice by about
+six per cent. A trial designed to test whether it delays age-related disease in older people
+without diabetes, the TAME trial, was planned in 2015 for three thousand people over six years,
+and had still not enrolled anyone by mid-2026 for lack of the forty to seventy million dollars it
+needs, because no company profits from a generic drug."""
+test = """
+A peer-reviewed, controlled trial in people without diabetes reports that those taking metformin
+reached a first age-related disease (heart disease, cancer, dementia) or death later than those on
+placebo, by the margin the trial was designed to detect. The animal rung is a longer life in a
+living animal. For the clinic rung: a regulator approves metformin, or a drug built on its
+mechanism, to delay age-related disease."""
+settler = "The peer-reviewed trial report; the trial registry; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2013-07-31"
+stage_record = "https://doi.org/10.1038/ncomms3192"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The 2013 Nature Communications report (Martin-Montalvo, de Cabo and colleagues; 0.1 per cent metformin in the diet of middle-aged male mice extended life by about 6 per cent, a higher dose shortened it) and its date, 31 July 2013, are from memory.",
+  "That the TAME trial had enrolled no one as of mid-2026 is from a September 2026 trade article and other 2026 explainers; two other 2026 web pages said enrolment was complete and were judged unreliable, and the registry was not checked.",
+  "That the National Institute on Aging's testing programme did not find a lifespan benefit from metformin alone in its own multi-site study (2016) is from memory and cuts against the 2013 result.",
+]
+notes = """
+The leaf is as much about the trial as the drug: it is the clearest case on the tree of a
+treatment that cannot reach the clinic rung because nobody will pay to find out, and the
+measuring branch's leaf on a regulator recognising ageing as a treatable condition was written
+around this trial's design."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+If the trial started in 2027 it would read out around 2034, and an approval would follow if the
+result were positive; the likely year assumes a two-year further delay and a positive result,
+which the animal and records evidence make less than certain. The earliest is the trial starting
+next year and reading out positive on schedule; the latest allows for it never running and the
+rung being reached, if at all, by a successor drug late in the century."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2033
+likely = 2037
+latest = 2065
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2036
+likely = 2043
+latest = 2100

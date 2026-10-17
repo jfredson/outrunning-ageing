@@ -1,0 +1,68 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. One of the five
+# leaves shared with The Upgrade Tree; the stage facts are copied from its record
+# (upgrade-tree/data/lifespan.toml, id lifespan-organ-from-a-gene-edited-pig-keeps-a-person-alive),
+# which a session there checked on 2026-10-16. The estimate is a first pass.
+
+id = "organ-from-a-gene-edited-pig-keeps-a-person-alive"
+name = "An organ from a gene-edited pig keeps a person alive"
+branch = "replacing-parts"
+description = """
+Pigs' organs are the right size for people, and gene editing can take out the pig genes that make
+a human body reject them at once and add human ones that calm the rest. In January 2022 a man too
+ill for a human heart lived two months on a pig's; since 2024 several people have lived on pig
+kidneys, the longest for most of a year. Formal trials cleared by the United States regulator
+began in 2025. It is a first human, several times over, and the first step towards organs made
+to order, which is why it sits on the branch for replacing what ageing wears out."""
+test = """
+A person receives a heart, kidney, liver or lung from a pig whose genes were edited for the
+purpose and lives for at least thirty days with that organ doing its job, in a report by the
+transplant centre or a peer-reviewed paper. For the clinic rung: a regulator approves such an
+organ for use outside a trial. For wide use: pig organs are a routine option on the transplant
+list in at least one country."""
+settler = "The transplant centre's own release naming the patient, the peer-reviewed case report, and the regulator's trial clearance or approval record"
+stage = "first-human"
+stage_reached_on = "2022-01-07"
+stage_record = "https://www.medschool.umaryland.edu/news/2022/university-of-maryland-school-of-medicine-faculty-scientists-and-clinicians-perform-historic-first-successful-transplant-of-porcine-heart-into-adult-human-with-end-stage-heart-disease.html"
+status = "tracked"
+horizon = "near"
+sibling = "lifespan-organ-from-a-gene-edited-pig-keeps-a-person-alive"
+
+verify = [
+  "The transplant date (7 January 2022), the animal record (5 December 2018, baboons living for months on pig hearts, Munich) and the 2025 trial clearances are copied from The Upgrade Tree's record and not re-checked here.",
+  "That the longest published case is a Boston man who lived 271 days on a pig kidney in 2025, reported in The Lancet in September 2026, is copied from The Upgrade Tree's record.",
+  "That the two United States trials (United Therapeutics, six patients growing to fifty; eGenesis, three growing in stages) follow each patient for 24 weeks is from 2025 coverage of the regulator's clearance.",
+]
+notes = """
+The record is the University of Maryland's own announcement of David Bennett's pig heart
+transplant; the peer-reviewed case report followed in June 2022. Pig kidneys followed in 2024
+(Boston, then New York). The Upgrade Tree keeps the same leaf at first human; the weekly reading
+checks the two stages agree. The next rung, in clinical use, needs a regulator's approval for use
+outside a trial; the trials cleared in 2025 are the step before."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "2018-12-05"
+record = "https://doi.org/10.1038/s41586-018-0765-z"
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+Two registered trials were enrolling in 2025 and 2026 with a 24-week main follow-up and lifelong
+monitoring; an approval needs the larger groups of patients to show that most patients keep the kidney for a
+year or more. The likely year assumes the trials grow to their full size by 2028 and an approval
+for kidneys follows around 2032; the earliest assumes an approval on the first few patients; the
+latest allows for a safety stop (a pig virus, late rejection) that sends the field back a
+decade."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2028
+likely = 2032
+latest = 2045
+
+[[estimate.rung]]
+rung = "in-wide-use"
+earliest = 2033
+likely = 2040
+latest = 2065

@@ -1,0 +1,55 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the paper and are in the verify list. The estimate is a first pass.
+
+id = "a-persons-biological-age-reading-falls-after-treatment"
+name = "A person's biological age, read from the marks on their DNA, falls after a treatment"
+branch = "cell-settings"
+description = """
+The chemical marks that tell a cell which genes to read drift with age in a regular enough way
+that a reading of them from a blood sample gives a "biological age". Whether a treatment can turn
+that reading back in a person is the question this leaf asks. In 2019 a small California trial
+gave nine men in their fifties and sixties a year of growth hormone with two diabetes drugs, aimed
+at regrowing the thymus (the gland that trains immune cells), and found that their readings on
+four such clocks had fallen by about two and a half years, and the fall held six months after the
+course ended. There was no control group and only nine men, so it is a first human on a
+measurement, not a proof."""
+test = """
+A person given a treatment afterwards reads younger on a validated clock built from the chemical
+marks on their DNA, compared with before and with untreated controls, in a peer-reviewed report
+that names the clock and the sample. For the clinic rung: a regulator approves a treatment on the
+strength of such a result, or a named clinical setting gives the treatment in routine care and
+publishes that it monitors the clock."""
+settler = "The peer-reviewed report; the regulator's approval record, or a named clinical setting's published practice, for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2019-09-08"
+stage_record = "https://doi.org/10.1111/acel.13028"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The 2019 Aging Cell report (Fahy, Horvath and colleagues, the TRIIM trial: growth hormone, DHEA and metformin for a year in nine men, epigenetic age down about 2.5 years) and its date, 8 September 2019, are from memory.",
+  "That a larger controlled follow-up (TRIIM-X) was running and had not reported in a peer-reviewed journal as of 2026-10-16 is from memory.",
+  "No animal rung is recorded: whether a clock reading was reversed by a drug in a living animal before 2019 was not checked (the 2016 partial-resetting work used other markers).",
+]
+notes = """
+This leaf and the measuring branch meet here: a falling clock reading is only worth what the
+clock is worth, and the clock's own leaf is on that branch. The thymus side of the same trial has
+its place on the replacing-parts branch in the notes of the blood-stem-cell leaf. Clocks read
+from a person's DNA marks are sold to the public today; buying a reading is not the leaf."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+A controlled trial that turns a validated clock back is likely within a decade, since several are
+running; the clinic rung needs more, an approval that rests on such a result, which waits on a
+regulator accepting a clock as proof (a leaf on the measuring branch, likely around 2040). The
+likely year follows that; the earliest assumes a named clinic adopts a clock-monitored treatment
+in routine care and publishes it, which the test allows; the latest allows for the clocks never
+earning that standing."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2032
+likely = 2042
+latest = 2085

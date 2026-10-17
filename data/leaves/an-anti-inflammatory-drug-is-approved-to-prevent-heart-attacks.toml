@@ -1,0 +1,62 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The approval date
+# and application number were checked against the regulator's approval package listing on
+# 2026-10-16; the trial record is from memory and in the verify list. The estimate is a first pass.
+
+id = "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks"
+name = "A drug that acts only on inflammation is approved to prevent heart attacks"
+branch = "inflammation-and-signalling"
+description = """
+Low-grade inflammation that never switches off is one of the twelve published kinds of ageing damage (the "hallmarks"), and
+for decades the question was whether damping it, with no change to cholesterol or blood
+pressure, would prevent the diseases of age. In 2017 a trial of 10,061 people who had already had
+a heart attack showed that canakinumab, an antibody against one inflammatory signal, cut further
+heart attacks and strokes by about a sixth and, unexpectedly, lung cancer deaths; the regulator
+declined to approve it for the heart because the benefit was modest and infections rose. The
+answer came from an old gout pill: low-dose colchicine cut heart attacks and strokes by about a
+third in a 2020 trial of 5,522 people, and the United States regulator approved it for that
+purpose on 16 June 2023, the first anti-inflammatory drug approved to prevent heart disease."""
+test = """
+A controlled trial in people reports that a drug acting on inflammation alone, with no effect on
+cholesterol, blood pressure, blood sugar or weight, lowers heart attacks, strokes or deaths more
+than placebo, in a peer-reviewed report. For the clinic rung: a regulator approves such a drug to
+prevent an age-related disease. For wide use: prescribed for that purpose in several countries to
+a substantial share of eligible people."""
+settler = "The peer-reviewed trial report; the regulator's approval record; published uptake figures for the wide-use rung"
+stage = "in-clinical-use"
+stage_reached_on = "2023-06-16"
+stage_record = "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215727Orig1s000Approv.pdf"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The approval package link (application 215727, Lodoco, Agepha Pharma) and the approval date (16 June 2023; the company announced it on 20 June) are from the regulator's listing as found by a web search on 2026-10-16; the document was not opened.",
+  "The 2017 CANTOS report (Ridker and colleagues, New England Journal of Medicine, 21 September 2017; 10,061 people, a 15 per cent cut in the main heart outcome) and its DOI are from memory.",
+  "The 2020 LoDoCo2 report (Nidorf and colleagues, New England Journal of Medicine; 5,522 people, a 31 per cent cut) is from memory and is not recorded as a stage because the 2017 trial settled the first-human rung earlier.",
+  "No animal rung is recorded: the mouse work on inflammation and atherosclerosis goes back decades and a single settling report was not sought.",
+]
+notes = """
+The branch's own line asks for an anti-inflammatory drug with a healthy-years result; this is a
+heart-disease result, which is the biggest single cause of death in old age but not healthy years
+as such. Uptake of colchicine for the heart has been slow, which is why the leaf stays at clinical
+use. A 2025 trial (CLEAR SYNERGY) that found no benefit of colchicine after a heart attack is a
+mark against, and the yearly review should weigh it."""
+
+[[earlier_stage]]
+stage = "first-human"
+reached_on = "2017-09-21"
+record = "https://doi.org/10.1056/NEJMoa1707914"
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The drug is generic and cheap, which helps uptake, and the guidelines in Europe and the United
+States were adding it when this was written; the likely year for wide use is 2032, the earliest
+assumes guideline adoption moves prescribing within a few years, and the latest allows for the
+2025 negative trial keeping it a niche choice."""
+
+[[estimate.rung]]
+rung = "in-wide-use"
+earliest = 2027
+likely = 2032
+latest = 2050

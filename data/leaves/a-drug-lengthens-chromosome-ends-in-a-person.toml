@@ -1,0 +1,57 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage record
+# was checked against the paper's listing on 2026-10-16 (title, journal, DOI, the 11-of-12
+# figure); the rest is in the verify list. The estimate is a first pass.
+
+id = "a-drug-lengthens-chromosome-ends-in-a-person"
+name = "A drug lengthens the ends of chromosomes in a person"
+branch = "damaged-dna"
+description = """
+The caps on chromosome ends (telomeres) shorten with each cell division and with age, and some
+people inherit faults that shorten them fast, so their bone marrow and lungs fail young. In 2016
+a National Institutes of Health group gave such people danazol, a synthetic hormone that had been
+on the market for decades, and measured their telomeres: in eleven of the twelve people who
+reached two years, the caps had grown longer, and most patients' blood counts improved. It is the
+first measured lengthening of telomeres in people by a drug. The drug is not approved for the
+purpose, a follow-up found the gain did not hold in everyone, and it was given for a rare disease,
+not for ageing."""
+test = """
+A person given a treatment afterwards has measurably longer telomeres (the caps on chromosome
+ends) in their blood cells than before, in a peer-reviewed report with the measurement method
+stated. For the clinic rung: a regulator approves a treatment for lengthening telomeres, or for a
+telomere disease on the basis of lengthening them; off-label use does not count."""
+settler = "The peer-reviewed report; the regulator's approval record for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2016-05-19"
+stage_record = "https://doi.org/10.1056/NEJMoa1515319"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "That the 2016 report appeared on 19 May 2016 is from memory; the paper is Townsley and colleagues, New England Journal of Medicine 374, pages 1922 to 1931.",
+  "That a 2024 long-term follow-up from the same group (an American Society of Hematology abstract) found telomere length stable in five of nine patients and still shortening in three is from a conference listing, not a peer-reviewed paper.",
+  "No animal rung is recorded: whether danazol or a related hormone was shown to lengthen telomeres in a living animal before 2016 was not checked.",
+]
+notes = """
+Danazol is a prescription drug, and doctors at a few specialist centres give it to people with
+telomere diseases on the strength of this trial. That is off-label use, which the test excludes
+from the clinic rung on purpose, so that the rung means a regulator looked at the evidence. A
+telomerase gene therapy, the other route to the same result, has its own leaf at the animal
+rung."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The clinic rung needs a regulator's approval of a drug for a telomere disease, which is a rare
+disease with a short path if a sponsor takes it: the likely year assumes an approval of danazol
+or a related hormone for a telomere disease around 2034 after a confirmatory trial; the earliest
+assumes a filing on existing data within four years; the latest allows for no sponsor ever
+taking a generic drug through the process, in which case the rung is reached by some later
+treatment. An approval for ageing itself, rather than a telomere disease, is not what this leaf
+asks."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2030
+likely = 2036
+latest = 2070

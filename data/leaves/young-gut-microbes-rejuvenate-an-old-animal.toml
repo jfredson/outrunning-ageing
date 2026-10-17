@@ -1,0 +1,59 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the papers and are in the verify list. The estimate is a first pass.
+
+id = "young-gut-microbes-rejuvenate-an-old-animal"
+name = "Gut microbes from a young animal rejuvenate an old one"
+branch = "inflammation-and-signalling"
+description = """
+The community of microbes in the gut changes with age, and the change is thought to feed the
+low-grade inflammation of old age through a leakier gut wall. The direct test is to swap the
+microbes: in 2022 a Norwich group transferred gut microbes from young mice into old ones and
+found the old mice's gut lining, eyes and brain inflammation shifted toward young, and the
+reverse transfer aged young mice. Transferring gut microbes from one person to another is
+already an approved treatment, since 2022, for a dangerous gut infection; nobody has shown it
+does anything for ageing in people, and the leaf asks for that."""
+test = """
+An old living animal given gut microbes from a young one afterwards has measurably less
+inflammation or better tissue function than untreated old controls, in a peer-reviewed report.
+The first-human rung needs a controlled trial in which older people given a defined microbial
+transfer improve on an age-related measure more than placebo. For the clinic rung: a regulator
+approves such a transfer for an age-related condition."""
+settler = "Peer-reviewed reports; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2022-04-29"
+stage_record = "https://doi.org/10.1186/s40168-022-01243-w"
+status = "tracked"
+horizon = "far"
+
+verify = [
+  "The 2022 Microbiome report (Parker, Carding and colleagues at the Quadram Institute; faecal transfer from young to old mice reversed age-related changes in gut, eye and brain) and its date, 29 April 2022, are from memory.",
+  "That a 2021 Nature Aging report (Boehme, Cryan and colleagues) found young-to-old transfer improved learning in old mice is from memory.",
+  "That the United States regulator approved the first microbial transfer product (Rebyota, for recurrent Clostridioides difficile infection) in November 2022 is from memory; it is not the record here because the condition is an infection, not ageing.",
+]
+notes = """
+The gut's microbes are one of the three published kinds of ageing damage ("hallmarks") the branch groups, and this is the only
+leaf for it; a drug or diet that changed the microbes with a measured effect on ageing in people
+would belong here too, and none has such a record."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+A transfer product exists and is approved for an infection, so a trial in older people is
+cheap to run; what is missing is any human sign that it touches ageing. The likely year assumes
+a controlled trial in frailty or vaccine response reports positive in the early 2030s and an
+approval for an age-related condition follows around 2050; the earliest assumes a trial already
+running in older adults reports positive by 2029; the latest allows for the mouse result not
+carrying to people."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2029
+likely = 2033
+latest = 2060
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2035
+likely = 2050
+latest = 2110

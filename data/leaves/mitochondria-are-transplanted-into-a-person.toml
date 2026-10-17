@@ -1,0 +1,53 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the papers and are in the verify list. The estimate is a first pass.
+
+id = "mitochondria-are-transplanted-into-a-person"
+name = "Fresh mitochondria are transplanted into a person's failing tissue"
+branch = "energy-and-fuel"
+description = """
+Mitochondria are the cell's power plants, and they fail with age; one way around that is to put
+fresh ones in. A Boston group showed in the 2000s that mitochondria taken from a healthy muscle
+and injected into a rabbit's or pig's heart during a heart attack were taken up by the heart
+cells and helped the heart recover. In 2017 the same group reported the first people: five
+babies whose hearts had failed after surgery, given mitochondria from their own thigh muscle,
+four of whom came off the heart-lung machine. It is a first human on a function, in a desperate
+setting, with no control group. Whether the same could refresh an old person's tissues is what
+the leaf tracks."""
+test = """
+A person given an infusion or injection of mitochondria into a failing tissue afterwards has a
+measurable improvement in that tissue's function, in a peer-reviewed report. The animal rung is
+the same in a living animal. For the clinic rung: a regulator approves mitochondrial
+transplantation for any condition."""
+settler = "Peer-reviewed reports; the trial registry; the regulator's approval record for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2017-07"
+stage_record = "https://doi.org/10.1016/j.jtcvs.2017.02.018"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The 2017 Journal of Thoracic and Cardiovascular Surgery report (Emani, McCully and colleagues at Boston Children's; five infants, four weaned from support) and its month, July 2017, are from memory.",
+  "The animal work (McCully and colleagues, rabbit hearts, 2009, American Journal of Physiology) is from memory and is not recorded as an earlier stage for lack of a checked date.",
+  "That trials of mitochondrial transplantation in stroke, heart attack and muscle disease had treated people in Taiwan, the United States and elsewhere by 2026 is from memory; that none had reported a controlled result is from memory.",
+]
+notes = """
+This is a different thing from the mitochondrial replacement used in fertility clinics (a donor's
+mitochondria put into an egg), which is reproduction, not repair, and is not on this tree. The
+leaf's hard problem is that injected mitochondria do not last; whether they help by being taken
+up or by signalling is still argued."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+Several early trials were running in 2026 with no controlled result; the likely year assumes
+one in heart surgery or stroke reports positive around 2033 and an approval for that setting
+follows in the mid 2040s. The earliest assumes a fast route through paediatric heart surgery,
+where the procedure began; the latest allows for the transplanted organelles never being shown to
+do more than a signal, and the leaf resting at first human."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2033
+likely = 2045
+latest = 2095

@@ -1,0 +1,62 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the paper and the trial and are in the verify list. The estimate is a first pass.
+
+id = "aged-cell-clearing-drug-relieves-knee-arthritis"
+name = "A drug that clears aged cells relieves knee osteoarthritis"
+branch = "worn-out-cells"
+description = """
+Osteoarthritis of the knee, the wearing-away of the cartilage that cushions the joint, is the most
+common reason an older person cannot walk without pain. Aged cells (cells that have stopped
+dividing but will not die, and inflame their neighbours) gather in the joint after an injury and
+with age, and in 2017 a Mayo Clinic and Unity Biotechnology group showed that killing them in the
+knees of mice eased pain and let cartilage regrow. The company took its drug UBX0101 into people,
+injecting it into the knee, and in 2020 its controlled trial found no more relief than a placebo
+injection at twelve weeks. The leaf stays at the animal rung: a person has had the drug, but no
+person has had the result."""
+test = """
+A controlled trial in people with knee osteoarthritis reports that a drug meant to kill aged
+cells, injected into the joint or given by mouth, reduces pain or improves function more than a
+placebo on the trial's pre-stated main measure, in a peer-reviewed report. The animal rung is
+pain or cartilage improvement in a living animal with the condition. For the clinic rung: a
+regulator approves such a drug for osteoarthritis."""
+settler = "The peer-reviewed trial report; the trial registry's posted results; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2017-04-24"
+stage_record = "https://doi.org/10.1038/nm.4324"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The 2017 Nature Medicine report (Jeon and colleagues; clearing aged cells from the knees of mice reduced the development of post-injury osteoarthritis) and its date, 24 April 2017, are from memory.",
+  "That Unity's mid-stage (phase 2) trial of UBX0101 (registry NCT04129944) reported no difference from placebo on pain at twelve weeks in August 2020 is from memory.",
+  "That no other drug of the class was in a controlled osteoarthritis trial in people as of 2026-10-16 is from memory; small academic trials of dasatinib plus quercetin or fisetin in joint conditions may exist and should be checked.",
+]
+notes = """
+The 2020 failure is the one most often cited against the whole class, and it is on the record
+here for that reason. It was a single injection of a short-lived drug, judged at twelve weeks; the
+company said afterwards that the drug may not have stayed in the joint long enough. That is a
+reason to keep the leaf tracked rather than withdrawn: the test can still be met by a better drug
+or a longer course."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+Osteoarthritis is a large market with no disease-modifying drug, so a drug of this class that
+works would be carried to approval quickly; the problem is that the one proper trial failed and
+no company trial has replaced it. The likely year assumes an academic trial with an oral drug
+reports a positive result around 2030 and a company carries it to approval in the mid to late
+2030s; the earliest assumes a trial already recruiting reads out positive by 2028; the latest
+allows for the 2020 result being the true answer and the leaf never moving."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2028
+likely = 2031
+latest = 2050
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2032
+likely = 2039
+latest = 2080

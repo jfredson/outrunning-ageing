@@ -1,0 +1,61 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the paper and are in the verify list. The estimate is a first pass.
+
+id = "immune-cells-engineered-to-kill-aged-cells"
+name = "A person's immune cells are engineered to hunt down aged cells"
+branch = "worn-out-cells"
+description = """
+Drugs that kill aged cells (cells that have stopped dividing but will not die, and inflame their
+neighbours) hit many cell types at once. A sharper tool is to teach the immune system to find
+them: take a person's own T cells, the immune cells that kill infected cells, and fit them with a
+receptor for a protein that aged cells carry on their surface, the way cancer T-cell therapies
+are built. In 2020 a Memorial Sloan Kettering group did this in mice, using a surface protein
+called uPAR, and the engineered cells cleared aged cells from the livers of mice with liver
+scarring and improved the organ. A 2024 follow-up from the same group reported that one dose in
+young mice protected them into old age. Nothing of the kind has been tried in a person."""
+test = """
+A person is given their own, or a donor's, immune cells engineered to recognise and kill aged
+cells, and afterwards has measurably fewer such cells in a tissue sample or a validated blood
+marker, in a peer-reviewed report. The animal rung is the same in a living animal. For the clinic
+rung: a regulator approves such a cell therapy for an age-related condition."""
+settler = "Peer-reviewed reports; the trial registry when a first person is treated; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2020-06-17"
+stage_record = "https://doi.org/10.1038/s41586-020-2403-9"
+status = "tracked"
+horizon = "far"
+
+verify = [
+  "The 2020 Nature report (Amor and colleagues, uPAR-targeted CAR T cells clearing aged cells in mice) and its date, 17 June 2020, are from memory.",
+  "The 2024 follow-up (Amor and colleagues, Nature Aging, a single dose in young mice preventing age-related decline) is from memory and its DOI was not in hand.",
+  "That no trial of aged-cell-targeted immune cells in people had started as of 2026-10-16 is from memory.",
+]
+notes = """
+Related work, not the record here: a 2021 Japanese group reported a vaccine against a different
+surface protein (GPNMB) that cleared aged cells in mice. Engineered T cells cost hundreds of
+thousands of dollars per patient today, which is the main reason the horizon is far even if the
+biology holds up."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+Engineered T cells for cancer took about twenty years from the first mouse results to the first
+approval in 2017, and they had a disease with a short path to a trial. For ageing the path runs
+through a first trial in a single condition (liver scarring is the one the mouse work points
+at), then an approval for it. The likely year assumes a first person is treated around 2030 and
+an approval for one condition follows in the mid 2040s; the earliest is the cancer-therapy pace
+with no setbacks; the latest allows for the surface-protein target proving unsafe in people, since
+uPAR also sits on some healthy cells."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2028
+likely = 2031
+latest = 2045
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2036
+likely = 2046
+latest = 2095

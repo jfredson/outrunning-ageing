@@ -1,0 +1,55 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The dosing date and
+# the trial's shape were checked against the sponsor's own notice on 2026-10-16; the registry
+# number was not in hand. The estimate is a first pass.
+
+id = "a-person-receives-cell-resetting-genes-in-a-trial"
+name = "A person receives cell-resetting genes in a registered trial"
+branch = "cell-settings"
+description = """
+The genes that can partially reset a cell's age had been tried only in animals until 2026. On
+9 June 2026 the company Life Biosciences said the first participant had been dosed in its
+early-stage trial of ER-100, three of the four resetting genes carried into the nerve cells at the
+back of the eye by a harmless virus, in people with glaucoma or a sudden loss of blood supply to
+the optic nerve. The trial is a safety study of about twenty people, followed for up to five
+years. This leaf counts the dose; whether it reversed anything is the test of the leaf it sits
+beside, because a company announcing a dose and a journal reporting a reversal are different
+events and the tree should say so."""
+test = """
+A person is given a treatment that delivers one or more of the cell-resetting (Yamanaka) genes,
+or a drug built to do the same, inside a registered clinical trial, with a public record of the
+dose from the sponsor or the registry. For the clinic rung: a regulator approves such a treatment
+for any condition, so a doctor can give it outside a trial."""
+settler = "The trial registry entry and the sponsor's dated notice of the dose for the first-human rung; the peer-reviewed report when it comes; the regulator's approval record for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2026-06-09"
+stage_record = "https://www.lifebiosciences.com/life-biosciences-announces-first-patient-dosed-in-phase-1-trial-of-er-100-for-optic-neuropathies/"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The trial's registry number was not found when this was written; the sponsor's notice is the record until it is, and the test names the registry as a settler for that reason.",
+  "That the United States regulator cleared the trial in January 2026, that the three genes are OCT4, SOX2 and KLF4, and that the study enrols about eighteen to twenty adults, are from the sponsor's notice and trade coverage of it.",
+  "No earlier stage is recorded: the animal rung for this leaf is the same 2016 and 2020 work that the companion leaf carries, and is not repeated here.",
+]
+notes = """
+The companion leaf, partially resetting cells reverses ageing in a living animal, is the one
+shared with The Upgrade Tree and the one that needs a measured result in a person; this leaf
+exists so that the June 2026 dose is on the record at the rung it earned. A press release is not
+normally a settler on this site; for the bare fact of a dose, the sponsor's dated notice and the
+registry are the only records there are, and the test says so."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The clinic rung is an approval, which for a first-in-class gene therapy to the eye means a
+late-stage trial after this safety study: the likely year assumes the safety study reports by
+2028, a late-stage trial runs to the mid 2030s, and approval follows around 2040; the earliest
+assumes a striking early result and an accelerated route; the latest allows for a safety stop in
+the first trial and a decade before anyone tries again."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2033
+likely = 2040
+latest = 2075

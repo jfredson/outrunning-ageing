@@ -1,0 +1,54 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the papers and are in the verify list. The estimate is a first pass.
+
+id = "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial"
+name = "A supplement that raises a cell's NAD improves an age-related function in a controlled trial"
+branch = "energy-and-fuel"
+description = """
+NAD is a molecule every cell uses to turn food into energy and to run its repair enzymes, and
+its level in tissues falls with age. Two building blocks of it, nicotinamide riboside and
+nicotinamide mononucleotide (NMN), are sold as supplements on the strength of mouse studies in
+which they restored muscle and blood vessels in old animals. In people, both raise NAD in the
+blood; the first controlled result on a function came in 2021, when a St Louis group found that
+ten weeks of NMN improved how well muscle responded to insulin in overweight women past the
+menopause, though it did not change their weight, blood sugar or fitness. Larger trials have
+been mixed, and no regulator has approved either for anything."""
+test = """
+A controlled trial in people reports that a compound given to raise NAD improves an age-related
+function (muscle, blood vessels, insulin response, walking) more than placebo on the trial's
+pre-stated main measure, in a peer-reviewed report. The animal rung is the same in a living
+animal. For the clinic rung: a regulator approves such a compound as a treatment for an
+age-related condition; sale as a supplement does not count."""
+settler = "The peer-reviewed trial report; the regulator's approval record for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2021-04-22"
+stage_record = "https://doi.org/10.1126/science.abe9985"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The 2021 Science report (Yoshino, Klein, Imai and colleagues; 250 mg NMN daily for ten weeks improved muscle insulin sensitivity in 25 overweight postmenopausal women) and its date, 22 April 2021, are from memory.",
+  "That nicotinamide riboside was shown to raise blood NAD in people in 2016 (Trammell and colleagues, Nature Communications) and that NMN was shown to restore blood vessel growth in old mice in 2018 (Das, Sinclair and colleagues, Cell) are from memory, and the animal rung is not recorded for lack of a checked date.",
+  "That the United States regulator ruled in 2022 that NMN could not be sold as a dietary supplement because it was under study as a drug, and that it is still widely sold, are from memory.",
+]
+notes = """
+These compounds are the most-sold "anti-ageing" supplements, which is why the leaf's clinic rung
+is written to exclude supplement sales: millions of people taking something is not the same as
+a regulator having looked at whether it works. The 2021 result is small and in one function; the
+leaf stays at first human until a larger trial."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+No company was carrying an NAD precursor through drug trials for an age-related condition when
+this was written, because the compounds cannot be patented; the likely year assumes an academic
+trial in muscle or heart failure reports positive in the early 2030s and a drug-grade version is
+approved in the early 2040s. The earliest assumes a drug company's related compound reaches an
+approval sooner; the latest allows for the mixed trials being the true answer."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2032
+likely = 2042
+latest = 2090

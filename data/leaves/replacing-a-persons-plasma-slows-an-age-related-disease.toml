@@ -1,0 +1,62 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the papers and are in the verify list. The estimate is a first pass.
+
+id = "replacing-a-persons-plasma-slows-an-age-related-disease"
+name = "Replacing the liquid part of a person's blood slows an age-related disease"
+branch = "inflammation-and-signalling"
+description = """
+If old blood carries signals that hold the body back, then taking out the liquid part (the
+plasma) and replacing it with salt water and a blood protein should help, and in 2020 a Berkeley
+group showed that it did in old mice: one such exchange improved their muscle repair, liver and
+brain. The procedure, plasma exchange, has been used in hospitals for decades for other reasons.
+In people the record so far is a 2020 Spanish and American trial of 322 people with Alzheimer's
+disease, in which those given monthly plasma exchange for over a year declined more slowly on
+tests of daily function than those given a sham procedure. It is a first human on an age-related
+disease, with the caution that the trial had several measures and not all moved."""
+test = """
+A controlled trial in people reports that replacing or diluting the plasma slows the course of
+an age-related disease, or improves an age-related function, more than a sham procedure on a
+pre-stated main measure, in a peer-reviewed report. The animal rung is the same in a living
+animal. For the clinic rung: a regulator approves plasma exchange or dilution for an age-related
+condition, or a named clinical setting gives it for that purpose in routine care and publishes
+that practice."""
+settler = "The peer-reviewed trial report; the regulator's approval record, or a named clinical setting's published practice, for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2020-07-27"
+stage_record = "https://doi.org/10.1002/alz.12137"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The 2020 Alzheimer's and Dementia report (Boada and colleagues, the AMBAR trial; 322 people, plasma exchange with albumin replacement, slower decline on function measures) and its date, 27 July 2020, are from memory.",
+  "The 2020 report in Aging (Mehdipour, Conboy and colleagues; a single neutral blood exchange rejuvenated old mice) and its date, 30 May 2020, are from memory; it appeared after the human trial began and is recorded as the animal rung because the human trial's design did not rest on it.",
+  "That a 2024 Buck Institute trial of plasma exchange in healthy older adults reported changes on biological-age clocks is from memory and was not in hand as a peer-reviewed record.",
+  "That private clinics in the United States sell plasma exchange for ageing, outside any trial, is from memory; a sale is not a record under the test.",
+]
+notes = """
+The animal result came after the human trial started, which is why the earlier-stage date is
+later than one might expect; the ladder records when each rung was reached, not the order a
+reader expects. The procedure already exists in every large hospital, so the clinic rung here
+is about a regulator or a named service deciding it is for ageing, not about building anything
+new."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "2020-05-30"
+record = "https://doi.org/10.18632/aging.103418"
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The procedure is cheap to trial because it exists; the likely year assumes a controlled trial in
+healthy older adults with a function or a clock as its main measure reports positive in the early 2030s and a
+named service or regulator adopts it for ageing later that decade. The earliest assumes the
+Alzheimer's result wins a label line within a few years; the latest allows for the 2020 result
+not replicating and the procedure staying a private-clinic offer."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2030
+likely = 2038
+latest = 2075
