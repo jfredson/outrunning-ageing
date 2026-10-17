@@ -13,7 +13,10 @@ at a chosen spot) packaged in fat droplets, which went to the liver and switched
 misfolds and clogs the heart and nerves in an inherited disease and, in its ordinary form, in many
 old people. The protein fell by about nine tenths and stayed down. The treatment is in a large
 late-stage trial for the heart form of the disease, which was paused in late 2025 after a
-patient's liver was harmed, and restarted in March 2026 with closer liver monitoring; nothing is approved yet."""
+patient's liver was harmed, and restarted in March 2026 with closer liver monitoring; nothing is approved yet. That
+patient, a man in his eighties, died on 2025-11-05. Early trade reports linked the death to the liver
+event; the company's chief executive said in January 2026 that it followed an infection after a bowel
+perforation and was not caused by liver failure. The cause is not yet confirmed in a written company statement."""
 test = """
 A person is given a treatment that edits a gene inside their body, and afterwards the gene's
 product is measurably changed in the way intended, in a peer-reviewed report. For the clinic rung:
@@ -26,6 +29,9 @@ stage_record = "https://doi.org/10.1056/NEJMoa2107454"
 status = "tracked"
 horizon = "near"
 
+verify = [
+  "That a patient in the heart trial died on 2025-11-05 is from the trade press (CGTLive, 2025-11-09, citing the company); the cause given in January 2026 (an infection after a bowel perforation, not liver failure) is the chief executive's account at an investor conference as reported by Clinical Trials Arena on 2026-01-15. The company's own written statement of the cause and the registry's note of it were not found.",
+]
 notes = """
 Transthyretin amyloidosis in its non-inherited form is a disease of old age, which is why a
 treatment aimed at an inherited disease sits on this tree. The other way to the same end, a drug
@@ -60,3 +66,11 @@ rung = "in-wide-use"
 earliest = 2032
 likely = 2038
 latest = 2060
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "patient's liver was harmed, and restarted in March 2026 with closer liver monitoring; nothing is approved yet."
+new = "patient's liver was harmed, and restarted in March 2026 with closer liver monitoring; nothing is approved yet. That patient, a man in his eighties, died on 2025-11-05. Early trade reports linked the death to the liver event; the company's chief executive said in January 2026 that it followed an infection after a bowel perforation and was not caused by liver failure. The cause is not yet confirmed in a written company statement."
+why = "[reading 2026-10-17] Adds the death in the heart trial and the two accounts of its cause, which the description of 2026-10-16 left out. The company's release of 2026-03-02 (intellia-2026) confirms the stop of 2025-10-29 and the restart; the death and its cause come from trade reports of the company's own remarks. The stage does not change."
+publication = "intellia-2026"

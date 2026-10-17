@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "koning-2026"
+date = "2026-10-01"
+added_on = 2026-10-17
+authors = ["Mijra Koning", "Artemiy Kovynev", "Marcos F. Fondevila", "Eliza J. M. Ruhe", "Michiel C. Mommersteeg", "Christian Ramakers", "Barbara A. Hutten", "Bart Verwer", "Marije Vlug", "Teaco Kuiper", "Maarten van den Berg", "Anne Vrieze", "and 23 others, ending with Tamar Tchkonia, Bernd Schnabl, James L. Kirkland and Abraham S. Meijnikman (35 in all)"]
+title = "Senolytics dasatinib and quercetin in metabolic dysfunction-associated steatohepatitis: a proof-of-principle randomized, controlled trial"
+venue = "Nature Metabolism (2026), online 2026-10-01, pages 1 to 12; trial registered as NCT05506488"
+link = "https://doi.org/10.1038/s42255-026-01643-4"
+finding = """
+Thirty-one adults with scarred fatty liver disease (median age 56) were randomly given either the two-drug course dasatinib plus quercetin, taken three days a week for three weeks and repeated across three seven-week cycles, or a matching placebo. The pre-stated main measure, at least one stage less scarring on paired liver biopsies without the disease worsening, was met by 47 per cent of treated people against 7 per cent on placebo (P = 0.02); the disease resolved in 53 per cent against 7 per cent. Sequencing of single cells from the biopsies showed fewer signs of aged cells and of scar-forming cells in the treated group. Side effects were more frequent on the drugs (82 per cent against 43 per cent) and all passed on their own.
+"""
+leaves = ["aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial", "drug-clears-aged-cells-from-a-person"]
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+verify = ["The page was read in full for its abstract, methods and funding; whether the number of authors and the order of the last few match the printed PDF was not checked."]
+notes = """
+Added under the weekly reading of 2026-10-17 (the first reading's flagged items, applied by hand). The page read is the journal's own. The trial is a second controlled result for the class on a clinical-type measure, in the liver; the entry for a drug that clears aged cells beating a sham was already at first human on the 2022 eye trial, so it moves no stage. Two authors (Tchkonia, Kirkland) declare patents on senolytic drugs held by the Mayo Clinic, as the paper's competing-interests statement says. The estimate years were not changed.
+"""

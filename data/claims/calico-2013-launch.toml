@@ -13,6 +13,9 @@ commits_to = "No date and no named result. Larry Page's own post the same day ca
 about_the_headline = true
 verdict = "unfalsifiable"
 
+verify = [
+  "AbbVie's ending of the Calico collaboration rests on press reports only: STAT News on 2025-11-12, citing internal AbbVie emails, and BioSpace on 2025-11-13 repeating it. BioSpace says it asked AbbVie for confirmation; neither company's own statement was found. Calico's spokesperson is quoted by Fierce Biotech as saying the two advanced five assets into clinical development in neuroscience and oncology and that Calico has more than twenty early-stage programmes; that page was seen in a search listing and not opened.",
+]
 notes = """
 What followed, from Calico's and its partner's own releases: a collaboration with the drug company
 AbbVie announced 2014-09-03, each side putting in up to two hundred and fifty million dollars at
@@ -21,4 +24,12 @@ with a further five hundred million each and work running to 2030; and the first
 result, on 2025-01-06, a drug for motor neurone disease that failed on its main measure in a shared
 trial of several drugs. Twelve years in, no treatment for ageing itself has been named. The record is
 marked about the headline because the announcement names no branch; it is the oldest of the
-well-funded bets on the question as a whole."""
+well-funded bets on the question as a whole.
+Updated 2026-10-17, from the weekly reading of that date: the line above that the collaboration was
+extended on 2021-07-27 with work running to 2030 describes the extension as announced and no longer
+holds if the report is right. STAT News reported on 2025-11-12, and BioSpace repeated on 2025-11-13,
+that AbbVie decided to end the eleven-year relationship, with about a hundred chemists laid off
+and the money moved to AbbVie's biologics, cell and RNA programmes. It followed the failure of the
+shared motor neurone drug in January 2025 recorded above. The report is press only (see the list of
+things to check). The verdict, unfalsifiable, is unchanged.
+"""

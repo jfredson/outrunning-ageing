@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "intellia-2026"
+date = "2026-03-02"
+added_on = 2026-10-17
+authors = ["Intellia Therapeutics, Inc."]
+title = "Intellia Therapeutics Announces FDA Lift of Clinical Hold on MAGNITUDE Phase 3 Clinical Trial in ATTR-CM"
+venue = "Company press release, Cambridge, Massachusetts, 2026-03-02, filed with the United States securities regulator as exhibit 99.2 to a Form 8-K"
+link = "https://www.sec.gov/Archives/edgar/data/1652130/000119312526084309/d101756dex992.htm"
+finding = """
+The company says the United States regulator has lifted its stop on the late-stage MAGNITUDE trial of its in-body gene editor nexiguran ziclumeran in people with heart disease caused by the protein transthyretin (about 1,200 people, a single infusion against placebo). The stops on this trial and its sister trial in nerve disease were imposed on 2025-10-29 after one person given the drug had a very large rise in liver enzymes and bilirubin; the sister trial's stop was lifted on 2026-01-27. The changes agreed with the regulator are closer liver-test monitoring, guidance on short steroid treatment, exclusion of people with certain liver abnormalities, and, for this trial, exclusion of people with a recent unstable heart or an ejection fraction under 25 per cent.
+"""
+leaves = ["a-gene-is-edited-inside-a-persons-body"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+verify = ["The release does not mention the patient's death. That a patient in the trial died on 2025-11-05 is from the trade press (CGTLive, 2025-11-09, citing the company); that the death was put down to sepsis after a bowel perforation and not to liver failure is the chief executive's account at a January 2026 investor conference as reported by Clinical Trials Arena (2026-01-15). Neither the company's written statement of the cause nor the trial registry's note of it was found."]
+notes = """
+Added under the weekly reading of 2026-10-17 to carry the correction to the gene-editing entry's description. The restart date in the entry (March 2026) matches the release. The pages opened for the death were the trade press, not the company.
+"""

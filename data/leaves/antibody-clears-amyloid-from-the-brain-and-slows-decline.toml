@@ -12,8 +12,10 @@ were first shown to work in mice in 1999, failed in people for twenty years, and
 them, lecanemab, slowed the decline of people with early Alzheimer's by about a quarter over
 eighteen months in a trial of nearly eighteen hundred people. The United States regulator gave it
 full approval on 6 July 2023, and a second antibody followed in 2024. The effect is modest, the
-drug needs infusions and brain scans, and some patients bleed or swell in the brain; so it is in
-clinical use, not wide use."""
+drug needs frequent brain scans, and some patients bleed or swell in the brain; so it is in
+clinical use, not wide use. It has needed infusions, but on 2026-07-13 the United States regulator
+approved an under-the-skin weekly autoinjector as the starting dose too, so a whole course can now
+be given at home."""
 test = """
 A person given an antibody against amyloid afterwards has measurably less of it in the brain on
 a scan, and in a controlled trial such people decline more slowly on a pre-stated measure of
@@ -30,6 +32,7 @@ horizon = "mid"
 
 verify = [
   "That uptake of both antibodies has been slow is supported by trade coverage (2025-11-10); the patient counts (tens of thousands) and the number eligible (millions) were not found in a primary source.",
+  "A Cochrane overview of the two Alzheimer's antibodies, reported in 2026-04 (seen only in a German news report of 2026-04-16), concluded that they offer little clinical benefit against their risks; the overview's own page was not opened, so it is not logged.",
 ]
 notes = """
 The branch's own line on what would move it asks for a kind of waste cleared throughout the body,
@@ -56,10 +59,33 @@ Wide use needs a form that does not require infusions and frequent scans (an und
 version was approved in 2025 for maintenance), lower prices, and clinics able to give it. The
 likely year assumes those come together in the mid 2030s; the earliest assumes the next
 generation of antibodies, with fewer brain-swelling events, arrives sooner; the latest allows for
-the drugs staying a specialist treatment given to a small share of patients."""
+the drugs staying a specialist treatment given to a small share of patients.
+[Note 2026-10-17, from the weekly reading of that date: the first sentence above names infusions as
+a bar to wide use and says the under-the-skin form was approved in 2025 for maintenance only.
+Since 2026-07-13 it is also approved as a starting dose (eisai-2026, the companies' own release),
+so that bar no longer holds. The frequent brain scans, the price and the absence of any published
+uptake figure stand. The years are unchanged; John may want to weigh whether the earliest and likely
+wide-use years (2028, 2035) should move at the next review.]
+"""
 
 [[estimate.rung]]
 rung = "in-wide-use"
 earliest = 2028
 likely = 2035
 latest = 2055
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "The effect is modest, the drug needs infusions and brain scans, and some patients bleed or swell in the brain; so it is in clinical use, not wide use."
+new = "The effect is modest, the drug needs frequent brain scans, and some patients bleed or swell in the brain; so it is in clinical use, not wide use. It has needed infusions, but on 2026-07-13 the United States regulator approved an under-the-skin weekly autoinjector as the starting dose too, so a whole course can now be given at home."
+why = "[reading 2026-10-17] 'The drug needs infusions' stopped being true on 2026-07-13, when the companies announced the United States approval of the autoinjector as a starting dose. Scans, price and the lack of uptake figures stand, so the stage stays at clinical use."
+publication = "eisai-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
+new = "[Note 2026-10-17, from the weekly reading of that date: the first sentence above names infusions as a bar to wide use and says the under-the-skin form was approved in 2025 for maintenance only. Since 2026-07-13 it is also approved as a starting dose (eisai-2026, the companies' own release), so that bar no longer holds. The frequent brain scans, the price and the absence of any published uptake figure stand. The years are unchanged; John may want to weigh whether the earliest and likely wide-use years (2028, 2035) should move at the next review.]"
+why = "[reading 2026-10-17] A dated note that one of the estimate's stated bars to wide use has been removed; no year changed."
+publication = "eisai-2026"

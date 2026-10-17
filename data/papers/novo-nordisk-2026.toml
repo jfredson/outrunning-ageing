@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "novo-nordisk-2026"
+date = "2026-07-31"
+added_on = 2026-10-17
+authors = ["Novo Nordisk A/S"]
+title = "Novo Nordisk provides update on the ZEUS phase 3 trial in people with ASCVD, CKD and inflammation"
+venue = "Company announcement, 2026-07-31 (reference PR260731-ZEUS)"
+link = "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916587"
+finding = """
+The company says its ZEUS trial of ziltivekimab, a monthly antibody against the inflammatory messenger interleukin-6, in over 6,300 people with hardened arteries, chronic kidney disease and raised inflammation, lowered the expected inflammation markers but did not lower heart attacks, strokes or cardiovascular deaths against placebo (hazard ratio 0.99, 95 per cent confidence interval 0.88 to 1.11). Overall rates of side effects were similar, serious infections were more frequent on the drug, and deaths from any cause did not differ. Full results are to be presented at a scientific meeting later in 2026; two further trials in heart failure and after a heart attack are expected to read out in the first half of 2027.
+"""
+leaves = ["an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks"]
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+verify = ["A company announcement of top-line results, not a peer-reviewed report; the full results were not available."]
+notes = """
+Added under the weekly reading of 2026-10-17. The largest test since the 2017 canakinumab trial of a drug that acts on inflammation alone, and it found no benefit on heart events; the notes on the anti-inflammatory-drug entry now carry it beside the 2025 colchicine trial. The estimate years were not changed.
+"""

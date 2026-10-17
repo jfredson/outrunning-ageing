@@ -12,8 +12,11 @@ from stem cells and sews them onto the outside of the heart. In 2025 they report
 monkeys the patches took, grew blood vessels and strengthened the heart's pumping, and that in a
 46-year-old woman with heart failure, given ten patches in 2021 while she waited for a donor
 heart, the patches were alive and vascularised when her old heart was removed three months
-later. A small trial in people, with no comparison group, was under way. It is the first grafted human heart muscle
-found alive in a person."""
+later. That small trial in people, with no comparison group, reported in the New England Journal of
+Medicine on 2026-05-27: of 20 people given the patches, three died during the study and one had a
+heart transplant; among 12 given the highest dose who had reached the 3-month interim check, the
+heart's pumping (ejection fraction) was 3.9 percentage points higher and the treated wall 4.5 mm
+thicker. The 2025 case remains the first grafted human heart muscle found alive in a person."""
 test = """
 Heart muscle grown from stem cells is grafted onto a person's failing heart and is afterwards
 found alive and supplied with blood there, or the heart's pumping measurably improves, in a
@@ -43,10 +46,33 @@ A small trial with no comparison group was running in 2026, with the heart's pum
 it reports positive around 2030 and a larger trial carries the graft to approval in the late
 2030s. The earliest assumes a conditional approval in Europe or Japan on the first trial; the
 latest allows for the grafts not improving pumping enough to matter, which the monkey data
-suggest but do not prove in people."""
+suggest but do not prove in people.
+[Note 2026-10-17, from the weekly reading of that date: the reasoning above assumes the small trial
+reports around 2030. It reported an interim analysis on 2026-05-27 (zimmermann-2026): pumping and wall
+thickness were higher at 3 months in the highest-dose group, with three deaths among 20 people and
+every patient having at least one adverse event. The years are unchanged; John may want to weigh at
+the next review whether the reporting year in the reasoning (and so the earliest, 2031) should
+move earlier, and what the deaths and the need for rejection drugs mean for the latest year.]
+"""
 
 [[estimate.rung]]
 rung = "in-clinical-use"
 earliest = 2031
 likely = 2038
 latest = 2070
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "later. A small trial in people, with no comparison group, was under way. It is the first grafted human heart muscle found alive in a person."
+new = "later. That small trial in people, with no comparison group, reported in the New England Journal of Medicine on 2026-05-27: of 20 people given the patches, three died during the study and one had a heart transplant; among 12 given the highest dose who had reached the 3-month interim check, the heart's pumping (ejection fraction) was 3.9 percentage points higher and the treated wall 4.5 mm thicker. The 2025 case remains the first grafted human heart muscle found alive in a person."
+why = "[reading 2026-10-17] The description said the trial was under way; it reported on 2026-05-27. The entry was already at first human on the 2025 case, so the stage does not move, and the new paper is an interim, uncontrolled report, not an approval."
+publication = "zimmermann-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
+new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above assumes the small trial reports around 2030. It reported an interim analysis on 2026-05-27 (zimmermann-2026): pumping and wall thickness were higher at 3 months in the highest-dose group, with three deaths among 20 people and every patient having at least one adverse event. The years are unchanged; John may want to weigh at the next review whether the reporting year in the reasoning (and so the earliest, 2031) should move earlier, and what the deaths and the need for rejection drugs mean for the latest year.]"
+why = "[reading 2026-10-17] A dated note that the estimate's premise about when the first trial reports has been overtaken; no year changed."
+publication = "zimmermann-2026"

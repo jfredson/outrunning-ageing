@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "scannell-2026"
+date = "2026-07-09"
+added_on = 2026-10-17
+authors = ["Christopher Scannell", "John A. Romley", "Rebecca Myerson", "Dana Goldman", "Dima Mazen Qato"]
+title = "Changes in Semaglutide Fills Following Expanded FDA and Medicare Policies"
+venue = "The American Journal of Managed Care 32(7), 392-395 (2026), published 2026-07-09"
+link = "https://doi.org/10.37765/ajmc.2026.89983"
+finding = """
+Using national prescription counts from September 2023 to September 2024, the authors found that Wegovy fills rose 136 per cent (from 367,371 in February 2024 to 868,301 in September 2024), and that the March 2024 approval to reduce heart events and Medicare coverage of it were associated with about 592,624 extra fills. Six months after Medicare plans began covering Wegovy, only 32,732 prescriptions had been filled, under 1 per cent of the roughly 3.6 million Medicare beneficiaries estimated to be eligible.
+"""
+leaves = ["a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+verify = ["Only the abstract and body text of the journal's page were read, not the tables; the eligible-population figure is the authors' estimate from other sources."]
+notes = """
+Added under the weekly reading of 2026-10-17. It is the first published uptake figure for the weight-loss drug's heart-prevention purpose, and it covers one country and one payer, ending in September 2024. It points the other way from the estimate's earliest wide-use year of 2027, which John may want to weigh; no year was changed.
+"""

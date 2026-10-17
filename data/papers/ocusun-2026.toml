@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "ocusun-2026"
+date = "2026-02-09"
+added_on = 2026-10-17
+authors = ["Ocusun Ophthalmic Pharmaceutical (Guangzhou) Co., Ltd. (sponsor)"]
+title = "A Multicenter, Randomized, Double-Masked, Placebo-Controlled Pilot Study to Evaluate the Efficacy and Safety of ZOC2017217 in Subjects With Age-Related Cataract"
+venue = "ClinicalTrials.gov registry entry NCT07395986, first posted 2026-02-09, last updated 2026-08-11"
+link = "https://clinicaltrials.gov/study/NCT07395986"
+finding = """
+The registry lists a phase 2 pilot in the United States of an investigational eye drop, 0.4 per cent ZOC2017217, against a drops-with-no-active-ingredient control, twice a day for 24 weeks in about 40 people aged 50 or over with age-related cataract, quadruple-masked and randomised. Its start date is 2026-02-10, the entry shows 8 people enrolled, and its primary completion is estimated for 2027-02; outcomes include best-corrected vision, contrast sensitivity and lens opacity at weeks 4, 12 and 24.
+"""
+leaves = ["eye-drops-dissolve-the-clouded-protein-of-a-cataract"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+verify = ["The registry entry does not name lanosterol; that the drop is derived from it, and the company's exploratory study in China in which 50.0 to 86.4 per cent reached 20/40 vision, are from the sponsor's and its research partner's release of 2026-07-14 (carried by BioSpace and read), which cites no paper."]
+notes = """
+Added under the weekly reading of 2026-10-17. The registry's status was read from the registry's own data; the reading had described the trial as active but not recruiting. It is a registered controlled human trial of a lanosterol-derived drop, which the entry's estimate said did not exist; it has not reported, so the stage stays at shown in animals.
+"""

@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "myers-2025"
+date = "2025-02-25"
+added_on = 2026-10-17
+authors = ["Kasiani C. Myers", "Stella M. Davies", "Carolyn Lutzko", "Robin Wahle", "David D. Grier", "Geraldine Aubert", "Kevin Norris", "and 6 others, the last Minoru S. H. Ko (13 in all)"]
+title = "Clinical Use of ZSCAN4 for Telomere Elongation in Hematopoietic Stem Cells"
+venue = "NEJM Evidence 4(3) (2025), published 2025-02-25; trial registered as NCT04211714"
+link = "https://doi.org/10.1056/EVIDoa2400252"
+finding = """
+Two people with a rare inherited disease of very short chromosome ends (a telomere biology disorder) were given their own blood stem cells, treated outside the body with a virus carrying the gene ZSCAN4, which lengthens telomeres, and followed for 24 and 5 months. The telomeres of the treated stem cells were 1.06 to 1.34 times longer in the dish; in one person the average length in a class of white blood cells rose from 3.6 to 6.7 thousand base pairs, and both people's blood counts improved. The authors say no firm conclusions can be drawn from two patients. The abstract reports no rate of cancer.
+"""
+leaves = ["gene-therapy-lengthens-chromosome-ends-in-an-old-animal"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+verify = ["Only the abstract and the notes were open to read (the full text is behind a payment page), so the follow-up beyond the abstract, the cancer monitoring and the full author list were not seen."]
+notes = """
+Added under the weekly reading of 2026-10-17. It does not meet the first-human test of the chromosome-end gene-therapy entry on a plain reading: the gene is ZSCAN4, not telomerase; the cells were treated outside the body; there are two patients; and the abstract gives no cancer rate. Whether it counts is for John; the entry was left at shown in animals.
+"""

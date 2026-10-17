@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "gaudilliere-2025"
+date = "2025-02-14"
+added_on = 2026-10-17
+authors = ["Brice Gaudilliere", "Lei Xue", "Amy S. Tsai", "Xiaoxiao Gao", "Tiffany N. McAllister", "Martha Tingle", "Gladys Porras", "Igor Feinstein", "Dorien Feyaerts", "Franck Verdonk", "Maximilian Sabayev", "Julien Hedou", "and 13 others, ending with Stuart B. Goodman, Nima Aghaeepour and Martin S. Angst (25 in all)"]
+title = "Infusion of young donor plasma components in older patients modifies the immune and inflammatory response to surgical tissue injury: a randomized clinical trial"
+venue = "Journal of Translational Medicine 23, article 183 (2025), published 2025-02-14; trial registered as NCT03981419"
+link = "https://doi.org/10.1186/s12967-025-06215-w"
+finding = """
+In a double-blind, placebo-controlled phase 2a trial, 38 older people having a hip or knee replacement were randomly given four infusions of a plasma protein fraction from young donors (GRF6021) or salt water, around the day of surgery; 36 finished. Blood tests showed that the immune and inflammatory response to the surgery differed between the groups. The authors call it a first proof of principle in humans that a young plasma fraction regulates immune and inflammatory responses in older people; it was not designed to show a clinical benefit.
+"""
+leaves = ["young-blood-rejuvenates-an-old-animal"]
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+verify = ["The main clinical measures (fatigue, pain, joint function over six weeks) were listed but their results were not read in the tables."]
+notes = """
+Added under the weekly reading of 2026-10-17. It is the nearest controlled human result to the young-blood entry's first-human test, but its measure is the response to surgical injury, not an age-related function, so the entry stays at shown in animals; John decides whether such a measure could count.
+"""

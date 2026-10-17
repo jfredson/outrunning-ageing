@@ -34,7 +34,14 @@ The same Madrid group later reported telomerase gene therapy repairing lung scar
 anaemia in mice with short telomeres. A separate leaf on this branch holds the one human result
 of lengthened telomeres, which came from an ordinary hormone drug and not a gene therapy. The
 reason this leaf's horizon is far is the cancer question: a treatment that lengthens telomeres
-in every cell lengthens them in any cancer cell too, and a regulator will want decades of data."""
+in every cell lengthens them in any cancer cell too, and a regulator will want decades of data.
+Added 2026-10-17, from the weekly reading of that date: the one human result of lengthened
+telomeres from a gene therapy is a 2025 report of two people with a rare telomere disease, whose own
+blood stem cells were treated outside the body with the gene ZSCAN4 (myers-2025); in one the average
+length in a class of white blood cells rose from 3.6 to 6.7 thousand base pairs. It was not entered
+as the first-human rung, for the four reasons given in the estimate's dated note. FOR JOHN: whether
+that report counts is a reading of the test.
+"""
 
 [estimate]
 status = "first-pass"
@@ -46,7 +53,16 @@ fibrosis from short telomeres), where the risk is worth taking; the likely year 
 early 2030s, and an approval for such a disease the early 2040s. The earliest assumes a sponsor
 files within three years on the strength of the mouse data; the latest allows for the cancer
 risk closing the route for good and the rung being reached, if at all, by a very different kind
-of treatment late in the century."""
+of treatment late in the century.
+[Note 2026-10-17, from the weekly reading of that date: the first sentence above is wrong as
+written. A registered gene-therapy trial in people with a telomere disease did exist, for a
+different gene, ZSCAN4 (registry entry NCT04211714), and it published two patients in 2025
+(myers-2025); the checks listed on this entry also name a 2019 trial of a telomerase gene therapy registered
+in Colombia. The ZSCAN4 report does not meet this entry's first-human test on a plain reading: the
+gene is ZSCAN4 and not telomerase, the cells were treated outside the body, there are two patients,
+and no cancer rate is given. The years are unchanged. Whether the ZSCAN4 report should count for the
+first-human rung is John's ruling; if it does, the first-human estimate falls away with the move.]
+"""
 
 [[estimate.rung]]
 rung = "first-human"
@@ -59,3 +75,19 @@ rung = "in-clinical-use"
 earliest = 2036
 likely = 2044
 latest = 2110
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
+new = "[Note 2026-10-17, from the weekly reading of that date: the first sentence above is wrong as written. A registered gene-therapy trial in people with a telomere disease did exist, for a different gene, ZSCAN4 (registry entry NCT04211714), and it published two patients in 2025 (myers-2025); the checks listed on this entry also name a 2019 trial of a telomerase gene therapy registered in Colombia. The ZSCAN4 report does not meet this entry's first-human test on a plain reading: the gene is ZSCAN4 and not telomerase, the cells were treated outside the body, there are two patients, and no cancer rate is given. The years are unchanged. Whether the ZSCAN4 report should count for the first-human rung is John's ruling; if it does, the first-human estimate falls away with the move.]"
+why = "[reading 2026-10-17] A dated note that the estimate's first sentence ('no registered trial of a telomerase gene therapy in people existed') is wrong as written, and why the ZSCAN4 report does not move the stage; no year changed."
+publication = "myers-2025"
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-17, from the weekly reading of that date: the one human result of lengthened telomeres from a gene therapy is a 2025 report of two people with a rare telomere disease, whose own blood stem cells were treated outside the body with the gene ZSCAN4 (myers-2025); in one the average length in a class of white blood cells rose from 3.6 to 6.7 thousand base pairs. It was not entered as the first-human rung, for the four reasons given in the estimate's dated note. FOR JOHN: whether that report counts is a reading of the test."
+why = "[reading 2026-10-17] Records the ZSCAN4 report and leaves the first-human question for John."
+publication = "myers-2025"

@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "grifols-2026"
+date = "2026-03-12"
+added_on = 2026-10-17
+authors = ["Grifols, S.A."]
+title = "Grifols and Ace Alzheimer Center Barcelona renew their collaboration to promote the AMBAR clinical program and incorporate new centers"
+venue = "Company press release, Barcelona, 2026-03-12"
+link = "https://www.grifols.com/en/view-news/-/news/grifols-y-ace-alzheimer-center-barcelona-renuevan-su-colaboracion-para-impulsar-el-programa-ambar-e-incorporar-nuevos-centros"
+finding = """
+The company says it has renewed its agreement with the Ace Alzheimer Center in Barcelona to keep running its plasma-exchange-with-albumin programme (AMBAR) there, which has operated since 2021; that AMBAR clinic centres are opening in hospitals in Madrid, Mallorca and Alicante; that more than 5,000 plasma exchanges with albumin have been done since the programme began; and that the protocol is included in the medical guidelines of the American Society for Apheresis. A registry with real-world data is planned. The release describes the 2020 trial as having slowed progression by 61 per cent in some patients, a figure that is the company's own wording.
+"""
+leaves = ["replacing-a-persons-plasma-slows-an-age-related-disease"]
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+verify = ["A company's release, not the clinical setting's own publication of its practice; the apheresis society's guideline was not opened, so the category it gives for Alzheimer's disease is not known."]
+notes = """
+Added under the weekly reading of 2026-10-17. The entry's clinic-rung test accepts a named clinical setting that gives the treatment in routine care and publishes that practice; this release may be that for a named centre in Barcelona, but it is the supplier's account. The entry stays at first human; the case for the clinic rung is written into its notes for John.
+"""

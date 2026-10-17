@@ -13,8 +13,11 @@ cell back into something like an embryonic one; switched on briefly and then off
 animal, they turn back some of the marks of age without erasing what the cell is. In 2016 mice
 with a premature-ageing disease lived longer when this was done to them, and in 2020 old mice
 regained sight after the nerve from the eye was reset. It is the most direct attempt yet to
-reverse ageing rather than slow it. The first person was given it, in one eye, in June 2026, with
-no result yet reported; a separate leaf holds that dose."""
+reverse ageing rather than slow it. The first person was given it, in one eye, in June 2026. On
+2026-10-08 the company announced interim results from the first three people with glaucoma: no
+serious side effects by day 56 and a preliminary improvement in the visual field in two of them.
+It is a company announcement of an open-label safety trial, not a peer-reviewed report, and it
+measures sight and not a marker of biological age; a separate entry holds the dose."""
 test = """
 A living animal given a brief, controlled dose of reprogramming genes afterwards has a measured
 marker of biological age (a clock read from the chemical marks on its DNA, a restored tissue
@@ -60,3 +63,11 @@ rung = "in-clinical-use"
 earliest = 2033
 likely = 2041
 latest = 2075
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "reverse ageing rather than slow it. The first person was given it, in one eye, in June 2026, with no result yet reported; a separate leaf holds that dose."
+new = "reverse ageing rather than slow it. The first person was given it, in one eye, in June 2026. On 2026-10-08 the company announced interim results from the first three people with glaucoma: no serious side effects by day 56 and a preliminary improvement in the visual field in two of them. It is a company announcement of an open-label safety trial, not a peer-reviewed report, and it measures sight and not a marker of biological age; a separate entry holds the dose."
+why = "[reading 2026-10-17] The sentence 'with no result yet reported' was out of date from 2026-10-08. The announcement is a company release of preliminary, uncontrolled data on sight, not the peer-reviewed report of a measured reversal that the first-human step asks for, so the stage stays at shown in animals."
+publication = "life-biosciences-2026-interim"

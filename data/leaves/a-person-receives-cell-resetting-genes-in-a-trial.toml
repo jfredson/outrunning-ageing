@@ -35,7 +35,14 @@ The companion leaf, partially resetting cells reverses ageing in a living animal
 shared with The Upgrade Tree and the one that needs a measured result in a person; this leaf
 exists so that the June 2026 dose is on the record at the rung it earned. A press release is not
 normally a settler on this site; for the bare fact of a dose, the sponsor's dated notice and the
-registry are the only records there are, and the test says so. The trial's ClinicalTrials.gov entry (NCT07290244) gives a study start of 2026-03-02 and an estimated enrolment of 18."""
+registry are the only records there are, and the test says so. The trial's ClinicalTrials.gov entry (NCT07290244) gives a study start of 2026-03-02 and an estimated enrolment of 18.
+Added 2026-10-17, from the weekly reading of that date: on 2026-10-08 the company announced
+interim results from the first three people with glaucoma (life-biosciences-2026-interim): no serious
+adverse events by day 56, a safety board's recommendation to move to the second dose level, and a
+preliminary improvement in the visual field in two of the three. It is a company announcement of an
+open-label safety trial; this entry counts the dose, which was already on the record, so the stage does
+not change.
+"""
 
 [estimate]
 status = "first-pass"
@@ -52,3 +59,11 @@ rung = "in-clinical-use"
 earliest = 2033
 likely = 2040
 latest = 2075
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-17, from the weekly reading of that date: on 2026-10-08 the company announced interim results from the first three people with glaucoma (life-biosciences-2026-interim): no serious adverse events by day 56, a safety board's recommendation to move to the second dose level, and a preliminary improvement in the visual field in two of the three. It is a company announcement of an open-label safety trial; this entry counts the dose, which was already on the record, so the stage does not change."
+why = "[reading 2026-10-17] Notes the interim data of 2026-10-08, which the record of 2026-10-16 did not mention."
+publication = "life-biosciences-2026-interim"

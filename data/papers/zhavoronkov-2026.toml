@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "zhavoronkov-2026"
+date = "2026-09-07"
+added_on = 2026-10-17
+authors = ["Alex Zhavoronkov", "Fedor Galkin", "Shan Chen", "Feng Ren", "Alex Aliper", "Mikhail Durymanov", "Denis Sidorenko", "Hui Cui", "Jing-Dong J. Han", "Hao Xu", "Xiaodong Liu", "Zuojun Xu", "and 7 others, ending with Mahdi Moqri, Alexander Tyshkovskiy and Vadim N. Gladyshev (19 in all)"]
+title = "Integration of proteomic aging clocks in a phase 2a clinical trial supports simultaneous geroprotective assessment"
+venue = "Nature Biotechnology (2026), online 2026-09-07, pages 1 to 13"
+link = "https://doi.org/10.1038/s41587-026-03286-y"
+finding = """
+The authors applied six published blood-protein ageing clocks to stored blood samples from 42 people with a lung-scarring disease (idiopathic pulmonary fibrosis) in an earlier 12-week, placebo-controlled phase 2a trial of the drug rentosertib, and found that all six predicted a lower biological age in the treated groups than in the placebo group. They call the findings exploratory and say the clocks alone cannot tell slower ageing from an improved diseased lung; the strongest effect was in the 30 mg twice-daily group.
+"""
+leaves = ["a-treatment-slows-a-biological-age-clock-in-a-controlled-trial"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+verify = ["The paper's full text was read for its abstract, its statements of exploratory use and its discussion; the number of comparisons reaching significance (reported elsewhere as 21 of 54) was not checked in the tables."]
+notes = """
+Added under the weekly reading of 2026-10-17. It is not the record of the stage for the entry on a treatment slowing a biological age clock: the clock analysis was run on samples already collected in a trial that had been published, and the authors call it exploratory, so it was not planned before the data were unblinded, which the entry's test asks for (the same reason John gave on 2026-10-17 for the 2023 CALERIE paper). The first author is the founder and chief executive of the company that makes the drug.
+"""

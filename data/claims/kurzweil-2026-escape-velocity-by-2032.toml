@@ -1,0 +1,30 @@
+# Written 2026-10-17 by the session that applied the first weekly reading's flagged items, from a
+# printed question-and-answer interview opened and read on the magazine's page that day.
+
+id = "kurzweil-2026-escape-velocity-by-2032"
+who = "Ray Kurzweil"
+who_is = "the inventor and futurist Ray Kurzweil, a director of engineering at Google and the author of The Singularity Is Near (2005) and The Singularity Is Nearer (2024)"
+said_on = "2026-02-11"
+where = "Boston Magazine, Futurist Ray Kurzweil Says Humanity Is Seven Years Away from Beating Disease, a question-and-answer interview by Brittany Jasnoff, published online 2026-02-11 and in the February 2026 print issue under the headline Forever Young; an edited and condensed version of a recent conversation; read on the page on 2026-10-17"
+link = "https://www.bostonmagazine.com/health/2026/02/11/ray-kurzweil-interview/"
+quote = "by 2032, you\u2019ll gain back one year for each year lived."
+is_paraphrase = false
+commits_to = "Longevity escape velocity, in his words gaining back one year of longevity for each year lived, by 2032, and more than a year gained per year after that; in the same interview, that within seven years (by 2033) there will be things that overcome disease very quickly. He adds that it does not guarantee immortality."
+due = 2032
+about_the_headline = true
+verdict = "not-yet-due"
+
+verify = [
+  "The interview is described by the magazine as edited and condensed, so the words are the magazine's version of what he said; the date of the conversation itself is given only as recent before 2026-02-11.",
+  "Other 2026 occasions are coverage and were not opened: Business Today (2026-06-20), Ynet, and attributions to Nikkei and Guardian interviews. A YouTube interview titled 2032: The End of Biological Limits was seen in a search listing and not watched.",
+]
+notes = """
+A restatement of the book's sentence of 2024, kurzweil-2029-escape-velocity, with a later date: the
+book says by around 2030 for the most diligent and informed people; here he says by 2032, without
+that qualification, and with disease overcome within seven years. The Boston Magazine interview is a
+printed question and answer in his own words, which the project counts as a primary source (ruled by
+John on 2026-10-17). The date is for the whole question, not any one branch, so it is marked as about
+the headline. The log keeps each dated occasion, as it does for his 2004, 2009 and 2022 statements.
+When 2032 passes, the verdict turns on whether, in that year, the best available care added more than
+a year of remaining life expectancy per year lived.
+"""

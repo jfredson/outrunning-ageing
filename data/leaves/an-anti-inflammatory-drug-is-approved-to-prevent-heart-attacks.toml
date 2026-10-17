@@ -36,7 +36,16 @@ The branch's own line asks for an anti-inflammatory drug with a healthy-years re
 heart-disease result, which is the biggest single cause of death in old age but not healthy years
 as such. Uptake of colchicine for the heart has been slow, which is why the leaf stays at clinical
 use. A 2025 trial (CLEAR SYNERGY) that found no benefit of colchicine after a heart attack is a
-mark against, and the yearly review should weigh it."""
+mark against, and the yearly review should weigh it.
+Added 2026-10-17, from the weekly reading of that date: on 2026-07-31 the company Novo Nordisk
+announced that its ZEUS trial of ziltivekimab, an antibody against the inflammatory messenger
+interleukin-6, in over 6,300 people with hardened arteries, chronic kidney disease and raised
+inflammation, lowered inflammation markers but not heart attacks, strokes or cardiovascular deaths
+(hazard ratio 0.99; novo-nordisk-2026). It is the largest test since the 2017 canakinumab trial of
+a drug acting on inflammation alone, it rests on a company announcement and not yet a peer-reviewed
+report, and it is a second mark against, beside the 2025 colchicine trial, for the yearly review.
+No stage or year was changed.
+"""
 
 [[earlier_stage]]
 stage = "first-human"
@@ -57,3 +66,11 @@ rung = "in-wide-use"
 earliest = 2027
 likely = 2032
 latest = 2050
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-17, from the weekly reading of that date: on 2026-07-31 the company Novo Nordisk announced that its ZEUS trial of ziltivekimab, an antibody against the inflammatory messenger interleukin-6, in over 6,300 people with hardened arteries, chronic kidney disease and raised inflammation, lowered inflammation markers but not heart attacks, strokes or cardiovascular deaths (hazard ratio 0.99; novo-nordisk-2026). It is the largest test since the 2017 canakinumab trial of a drug acting on inflammation alone, it rests on a company announcement and not yet a peer-reviewed report, and it is a second mark against, beside the 2025 colchicine trial, for the yearly review. No stage or year was changed."
+why = "[reading 2026-10-17] Adds the ZEUS result beside the 2025 colchicine trial, as the reading proposed."
+publication = "novo-nordisk-2026"
