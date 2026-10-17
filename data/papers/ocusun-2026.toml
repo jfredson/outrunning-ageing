@@ -14,7 +14,8 @@ leaves = ["eye-drops-dissolve-the-clouded-protein-of-a-cataract"]
 branches = ["broken-proteins"]
 moved_range = false
 settled_stage = false
-verify = ["The registry entry does not name lanosterol; that the drop is derived from it, and the company's exploratory study in China in which 50.0 to 86.4 per cent reached 20/40 vision, are from the sponsor's and its research partner's release of 2026-07-14 (carried by BioSpace and read), which cites no paper."]
 notes = """
 Added under the weekly reading of 2026-10-17. The registry's status was read from the registry's own data; the reading had described the trial as active but not recruiting. It is a registered controlled human trial of a lanosterol-derived drop, which the entry's estimate said did not exist; it has not reported, so the stage stays at shown in animals.
+
+The registry entry does not name lanosterol. That the drop is derived from lanosterol, and the exploratory study in China in which 50.0 to 86.4 per cent of participants reached 20/40 vision 12 to 24 weeks after treatment, are the company's own account, in the joint release of 2026-07-14 by the sponsor (Ocusun) and its research organisation (Lexitas Pharma Services), opened and read on 2026-10-17: https://www.biospace.com/press-releases/lexitas-pharma-services-and-ocusun-enroll-first-patient-in-a-pilot-study-for-an-upcoming-phase-iii-clinical-trial-evaluating-investigational-eye-drop-for-age-related-cataract . The release cites no paper for that study, and a search of the Europe PMC literature database on 2026-10-17 found no published report of it, so those figures are the company's statement, not a peer-reviewed result. The release calls this trial a pilot for an upcoming phase 3 trial and says its first patient was enrolled on 2026-07-14, while the registry gives a start date of 2026-02-10.
 """

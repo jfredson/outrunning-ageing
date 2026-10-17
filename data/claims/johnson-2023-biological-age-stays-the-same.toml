@@ -5,7 +5,7 @@ id = "johnson-2023-biological-age-stays-the-same"
 who = "Bryan Johnson"
 who_is = "the technology entrepreneur Bryan Johnson, who founded and sold the payments company Braintree and since 2021 has run a published programme to slow his own ageing, which he calls Blueprint"
 said_on = "2023-10-31"
-where = "His own protocol page, protocol.bryanjohnson.com, the objective at the top, as captured by the Wayback Machine on 2023-10-31 and again on 2024-06-03; read in the captures"
+where = "His own protocol page, protocol.bryanjohnson.com, the objective at the top, as captured by the Wayback Machine on 2023-10-31 (the earliest capture of the page the archive holds, so the date is that of the capture and the sentence may be older) and again on 2024-06-03; read in the captures"
 link = "https://web.archive.org/web/20231031000000*/protocol.bryanjohnson.com"
 quote = "My goal: one year of chronological time passes and my biological age stays the same."
 is_paraphrase = false
@@ -13,10 +13,6 @@ commits_to = "A measured pace of ageing of zero, that is, no biological ageing a
 branches = ["measuring-age"]
 verdict = "unfalsifiable"
 
-verify = [
-  "The date the sentence first appeared on his own pages: the archive's earliest capture is 2023-10-31, but a Substack post of 2023-06-04 already quotes the sentence, so it is at least that old; the first source is not found.",
-  "Bryan Johnson's 2026 statements are known only from coverage that was not opened or only partly opened: The Axios Show interview published 2026-10-08, headlined 'Inside Bryan Johnson's quest to make 300 the new 70' (the page was read to its paywall, and the interview itself was not heard or read); a Tages-Anzeiger interview reported by laRegione and Blue News on 2026-07-16, in which he is said to have called himself part of the first generation that will not die; Livemint of 2026-07-30; and the Honolulu Star-Advertiser of 2026-08-23. The exact words and dates are unchecked. The autoimmune gastritis he announced on X is covered by many outlets; his own post was not opened.",
-]
 notes = """
 The version that circulates, that his goal is the organs of an eighteen-year-old, is press
 framing from interviews; on his own pages eighteen-year-olds appear only as comparisons for single
@@ -24,12 +20,17 @@ markers and in a line about restoring his joints. The verdict is the fixed set's
 with no date; by his own figures (johnson-2024-pace-of-ageing-record) his pace has run between
 0.48 and 0.76 years per year, never zero. His programme is the self-experiment record
 bryan-johnson-blueprint.
-Updated 2026-10-17, from the weekly reading of that date: coverage in 2026 shows him restating the
-goal in different forms and not dropping it. By 2026-07 he was reported saying he belongs to the
-first generation that will not die, and on 2026-10-08 an Axios interview was headlined with the aim
-of making 300 the new 70 (the headline is Axios's wording, not his). Coverage also reports that after
-a diagnosis of autoimmune gastritis, which he announced himself, he said he may have taken his
-programme too far. None of this carries a date or a result that could settle it, so the verdict is
-unchanged, and the exact words await the interviews themselves. His programme is the self-experiment
-record bryan-johnson-blueprint, which this update does not change.
+Updated 2026-10-17, from the weekly reading of that date, and checked the same day against the pages
+themselves: coverage in 2026 shows him still speaking of beating death, with no date or result that
+could settle this claim. Blue News of 2026-07-16
+(https://www.bluewin.ch/it/attualita/mondo/appartengo-alla-prima-generazione-che-non-morir-li.3531368,
+in Italian) reports an interview he gave the Swiss paper Tages-Anzeiger, in which he says he belongs to
+the first generation that will, in principle, not die, and that death can be defeated in our lifetimes
+but not for people already seventy or older; the interview itself was not found. On 2026-10-08 the
+Axios Show published a printed account of an interview with him
+(https://www.axios.com/2026/10/08/bryan-johnson-dont-die-longevity, by Madison Mills), headlined with the
+aim of making 300 the new 70 (the headline is Axios's wording, not his); in it he gives his ultimate
+goal as being thanked by people of the 25th century. Neither restates the goal of a pace of ageing of
+zero in his own words, so the verdict is unchanged. His programme is the self-experiment record
+bryan-johnson-blueprint, which this update does not change.
 """

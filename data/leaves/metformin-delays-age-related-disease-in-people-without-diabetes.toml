@@ -11,9 +11,10 @@ pathways that sense how much fuel a cell has. Records studies in the 2010s sugge
 with diabetes who took it got cancer and heart disease less often, and in 2013 a National
 Institute on Aging group found that a low dose lengthened the lives of middle-aged mice by about
 six per cent. A trial designed to test whether it delays age-related disease in older people
-without diabetes, the TAME trial, was planned in 2015 for three thousand people over six years,
-and had still not enrolled anyone by mid-2026 for lack of the forty to seventy million dollars it
-needs, because no company profits from a generic drug."""
+without diabetes, the TAME trial, was set out in a design paper of 2016 for three thousand people
+over six years. Its sponsor's own page, as saved on 2026-07-04, was still raising funds to launch it:
+in 2024 the cost was put at 45 to 70 million dollars, against about 5 million set aside by the
+National Institute on Aging, because no company profits from a generic drug."""
 test = """
 A peer-reviewed, controlled trial in people without diabetes reports that those taking metformin
 reached a first age-related disease (heart disease, cancer, dementia) or death later than those on
@@ -27,14 +28,22 @@ stage_record = "https://doi.org/10.1038/ncomms3192"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "That the TAME trial had enrolled no one as of mid-2026 rests on 2026 web articles that disagree with each other; no registry entry for it was found on 2026-10-17 and no statement from its funder dated 2025 or later could be read.",
-]
 notes = """
 The leaf is as much about the trial as the drug: it is the clearest case on the tree of a
 treatment that cannot reach the clinic rung because nobody will pay to find out, and the
 measuring branch's leaf on a regulator recognising ageing as a treatable condition was written
-around this trial's design."""
+around this trial's design.
+Sources for the trial's status, read on 2026-10-17: the sponsor's own trial page (American Federation
+for Aging Research), as saved by the Internet Archive on 2026-07-04, headed "Raising Funds to Launch"
+and describing six years of trials "once launched"
+(https://web.archive.org/web/20260704152538/https://www.afar.org/tame-trial; the page no longer loads
+on the sponsor's site); and NPR of 2024-04-22, which reports the 3,000 people aged 65 to 79, about 5
+million dollars set aside by the National Institute on Aging and a cost estimated at 45 to 70 million
+dollars (https://www.npr.org/sections/health-shots/2024/04/22/1245872510/a-cheap-drug-may-slow-down-aging-a-study-will-determine-if-it-works).
+A search of ClinicalTrials.gov by title and by sponsor on 2026-10-17 found no entry for the trial. The
+earlier statement that it had enrolled no one by mid-2026 rested on 2026 web articles that disagree with
+each other and was dropped on 2026-10-17 for want of a primary source; the design paper is
+Barzilai and colleagues, Cell Metabolism, 2016 (https://doi.org/10.1016/j.cmet.2016.05.011)."""
 
 [estimate]
 status = "first-pass"
@@ -57,3 +66,17 @@ rung = "in-clinical-use"
 earliest = 2036
 likely = 2043
 latest = 2100
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "was planned in 2015 for three thousand people over six years, and had still not enrolled anyone by mid-2026 for lack of the forty to seventy million dollars it needs, because no company profits from a generic drug."
+new = "was set out in a design paper of 2016 for three thousand people over six years. Its sponsor's own page, as saved on 2026-07-04, was still raising funds to launch it: in 2024 the cost was put at 45 to 70 million dollars, against about 5 million set aside by the National Institute on Aging, because no company profits from a generic drug."
+why = "Checked against the sources on 2026-10-17: the claim that no one had enrolled rested on web articles that disagree with each other; the sponsor's own page and NPR of 2024-04-22 are primary, and give the cost as 45 to 70 million dollars, not 40 to 70. The 2015 planning date was not in any source opened; the design paper is of 2016."
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; sources and a dated note added at the end of the notes)"
+new = "Sources for the trial's status, read on 2026-10-17: the sponsor's own trial page as saved on 2026-07-04, and NPR of 2024-04-22; no entry for the trial was found on ClinicalTrials.gov; the earlier statement that it had enrolled no one by mid-2026 was dropped for want of a primary source."
+why = "Checked against the sources on 2026-10-17; records what the sponsor's own page says and removes the claim that rested on web articles alone."

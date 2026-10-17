@@ -8,13 +8,14 @@ title = "Integration of proteomic aging clocks in a phase 2a clinical trial supp
 venue = "Nature Biotechnology (2026), online 2026-09-07, pages 1 to 13"
 link = "https://doi.org/10.1038/s41587-026-03286-y"
 finding = """
-The authors applied six published blood-protein ageing clocks to stored blood samples from 42 people with a lung-scarring disease (idiopathic pulmonary fibrosis) in an earlier 12-week, placebo-controlled phase 2a trial of the drug rentosertib, and found that all six predicted a lower biological age in the treated groups than in the placebo group. They call the findings exploratory and say the clocks alone cannot tell slower ageing from an improved diseased lung; the strongest effect was in the 30 mg twice-daily group.
+The authors applied six published blood-protein ageing clocks to stored blood samples from 42 people with a lung-scarring disease (idiopathic pulmonary fibrosis) in an earlier 12-week, placebo-controlled phase 2a trial of the drug rentosertib, and found that all six predicted a lower biological age in the treated groups than in the placebo group. Of 54 comparisons (six clocks, three time points and three dose regimens, each against placebo), 21 were statistically significant at the authors' adjusted threshold (Q value below 0.10), mostly at week 4. They call the findings exploratory and say the clocks alone cannot tell slower ageing from an improved diseased lung; the strongest effect was in the 30 mg twice-daily group.
 """
 leaves = ["a-treatment-slows-a-biological-age-clock-in-a-controlled-trial"]
 branches = ["measuring-age"]
 moved_range = false
 settled_stage = false
-verify = ["The paper's full text was read for its abstract, its statements of exploratory use and its discussion; the number of comparisons reaching significance (reported elsewhere as 21 of 54) was not checked in the tables."]
 notes = """
 Added under the weekly reading of 2026-10-17. It is not the record of the stage for the entry on a treatment slowing a biological age clock: the clock analysis was run on samples already collected in a trial that had been published, and the authors call it exploratory, so it was not planned before the data were unblinded, which the entry's test asks for (the same reason John gave on 2026-10-17 for the 2023 CALERIE paper). The first author is the founder and chief executive of the company that makes the drug.
+
+Checked 2026-10-17 against the full text on the journal's page, which is open to read: the cohort was 42 people from the trial of 71, the 21 of 54 comparisons and the Q value below 0.10 are as the paper states them in its results, and the dose regimen with the most significant comparisons was 30 mg twice daily (nine), ahead of 60 mg once daily (seven) and 30 mg once daily (five). The paper's competing-interests statement names the first author as founder and chief executive of Insilico Medicine.
 """

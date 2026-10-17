@@ -8,11 +8,14 @@ branch = "measuring-age"
 description = """
 Drugs are approved for diseases, and ageing is not one on any regulator's list; so a drug that
 slowed ageing itself would have no label to carry it, and every drug on this tree is being
-tested instead against one disease of age at a time. In 2015 the designers of the TAME metformin
-trial met the United States regulator and came away saying it would accept a trial whose main measure
-was the time to any of several age-related diseases together, which is as close as a regulator
-has come to treating ageing as an indication. The trial has not run. Nothing has been written
-into any regulator's rules, and no drug has been approved for ageing anywhere."""
+tested instead against one disease of age at a time. In planning the TAME metformin trial its
+designers consulted the United States regulator, whose officials stressed an outcome based on
+disease rather than on measures of function; the trial's main measure became the time to any of
+several age-related diseases, or death, taken together. That is as close as the published record
+shows a regulator coming to treating ageing as an indication, and it is not a promise to approve.
+The trial has not launched: its sponsor's own page, as saved on 2026-07-04, was still raising funds
+to start it. Nothing has been written into any regulator's rules, and no drug has been approved for
+ageing anywhere."""
 test = """
 A regulator approves a drug with ageing, or the delay of age-related disease in general, as its
 indication, in the regulator's own record; that is the clinic rung. The first-human rung is a
@@ -24,16 +27,39 @@ stage = "idea-only"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "The papers on TAME's design (Justice and colleagues 2018) say the United States regulator was consulted and favoured an outcome based on disease, but give no date and no promise to accept time to any of several age-related diseases; the 2015 meeting and that acceptance rest on trade coverage and a 2015 Science news feature (Hall) that was not opened, and should be checked.",
-  "That the TAME trial had enrolled no one as of mid-2026 is from September 2026 trade reports (not opened) and is consistent with there being no ClinicalTrials.gov registration found on 2026-10-17; AFAR's own status page was not found, and web pages saying enrolment was complete were judged unreliable.",
-  "The World Health Organization's 2022 disease classification dropped the title 'old age' (code MG2A, now titled 'ageing-associated decline in intrinsic capacity') and carries an extension code XT9T 'ageing-related'; this is from a peer-reviewed review (PMC10894070) and not yet from the organization's own browser, and the record's earlier wording of 'added an extension code' should be reworded once checked. A classification code is not a regulator's indication and does not meet the test.",
-]
 notes = """
 The metformin leaf on the energy branch is the same trial seen from the drug's side; this leaf
 is the rule change, which would carry every other drug. The two measuring-branch regulatory
 leaves are kept separate because a regulator could accept a marker (the other leaf) and still
-require a disease on the label, or the reverse."""
+require a disease on the label, or the reverse.
+What the sources say, read on 2026-10-17. The regulator's part in the trial's design: Justice and
+colleagues, Cardiovascular Endocrinology and Metabolism, 2018 (https://doi.org/10.1097/XCE.0000000000000159;
+open copy https://pmc.ncbi.nlm.nih.gov/articles/PMC6428447/) say discussions were begun with the
+regulator, that its officials stressed an outcome based on disease rather than markers of function
+or syndromes, and that this shaped the trial's main outcome (a heart attack, stroke, hospital stay
+for heart failure, cancer, dementia or mild memory loss, or death); Kritchevsky and Espeland, a
+conference abstract in Innovation in Aging, 2018 (https://pmc.ncbi.nlm.nih.gov/articles/PMC6230116/),
+say the main outcome "was shaped by FDA input". Neither gives a date for the meeting or says the
+regulator would accept the trial as grounds for an approval. An earlier version of this record gave a
+meeting in 2015 and an acceptance; both were removed on 2026-10-17 for want of a source, because the
+only account of them was trade coverage and a news feature in Science of 2015-09-18 ("A trial for the
+ages", Hall) that sits behind a paywall with no abstract carrying either fact. The trial's status:
+the sponsor's own trial page (American Federation for Aging Research), as saved by the Internet
+Archive on 2026-07-04, was headed "Raising Funds to Launch" and spoke of six years of trials "once
+launched" (https://web.archive.org/web/20260704152538/https://www.afar.org/tame-trial; the page no
+longer loads on the sponsor's site); a search of ClinicalTrials.gov by title and by sponsor on
+2026-10-17 found no entry for the trial. The earlier statement that it had enrolled no one by
+mid-2026 rested on trade reports and was dropped for want of a primary source.
+The World Health Organization's classification of diseases, read in its own browser (version
+2025-01, https://icd.who.int/browse/2025-01/mms/en) on 2026-10-17: code MG2A is titled "Ageing
+associated decline in intrinsic capacity" and sits among the general symptoms, in the chapter of
+symptoms, signs and clinical findings, with the index terms "ageing" and "old age without mention of
+psychosis"; a review (Mendoza-Núñez and Mendoza-Soto, Cureus, 2024, https://pmc.ncbi.nlm.nih.gov/articles/PMC10894070/)
+reports that the title "Old age" was replaced after objections. The browser also lists a
+separate add-on code, XT9T "Ageing-related", among the causes a diagnosis can be tagged with; it
+means caused by the biological processes that steadily wear down the body's ability to adapt as
+people grow older. A classification code is neither a regulator's approval of a drug nor an
+indication for one, and it does not meet the test."""
 
 [estimate]
 status = "first-pass"
@@ -56,3 +82,17 @@ rung = "in-clinical-use"
 earliest = 2034
 likely = 2045
 latest = 2100
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "In 2015 the designers of the TAME metformin trial met the United States regulator and came away saying it would accept a trial whose main measure was the time to any of several age-related diseases together, which is as close as a regulator has come to treating ageing as an indication. The trial has not run."
+new = "In planning the TAME metformin trial its designers consulted the United States regulator, whose officials stressed an outcome based on disease rather than on measures of function; the trial's main measure became the time to any of several age-related diseases, or death, taken together. That is as close as the published record shows a regulator coming to treating ageing as an indication, and it is not a promise to approve. The trial has not launched: its sponsor's own page, as saved on 2026-07-04, was still raising funds to start it."
+why = "Checked against the sources on 2026-10-17: the two papers on the trial's design say the regulator was consulted and favoured a disease-based outcome but give no date and no promise to accept; the 2015 meeting and the acceptance had only trade coverage and a paywalled news feature behind them. The sponsor's own page replaces the claim that no one had enrolled."
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; sources for the regulator's part in the trial, the trial's status and the World Health Organization's codes added at the end of the notes)"
+new = "What the sources say, read on 2026-10-17: the regulator's part in the trial's design (Justice and colleagues, 2018; Kritchevsky and Espeland, 2018), the sponsor's own page on the trial's status, and the World Health Organization's browser on codes MG2A and XT9T."
+why = "Checked against the sources on 2026-10-17; the classification wording is now the organization's own, as its browser gives it."

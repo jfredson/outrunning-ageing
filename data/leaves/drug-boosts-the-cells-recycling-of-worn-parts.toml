@@ -25,14 +25,19 @@ stage_record = "https://doi.org/10.1038/nm.4222"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "That trehalose, urolithin A and metformin are described as autophagy boosters holds (urolithin A as a mitophagy activator). Two controlled trials of urolithin A (2022) missed their main measures but improved muscle endurance or strength on secondary measures; the leaf's test asks for the main measure, so they are not counted.",
-]
 notes = """
 The difficulty with this leaf is that most drugs on the energy branch also boost recycling, so a
 human result there could be claimed here; the test asks that the drug be given for that purpose
 and the report say so. Rapamycin's human results are on the energy branch and are not counted
-twice."""
+twice.
+Added 2026-10-17, after checking the trial reports: urolithin A, which switches on the clearing of
+worn power plants and has its own entry on the energy branch, was tested in two controlled trials in 2022,
+and neither counts here because neither met its main measure. In 66 adults aged 65 to 90 (JAMA
+Network Open, https://doi.org/10.1001/jamanetworkopen.2021.44279) the main measures, the distance
+walked in six minutes and the energy output of hand muscle, did not differ from placebo, though muscle
+endurance, a secondary measure, improved. In middle-aged adults (Cell Reports Medicine,
+https://doi.org/10.1016/j.xcrm.2022.100633) the main measure, peak power output, did not differ from
+placebo, though muscle strength improved by about 12 per cent."""
 
 [estimate]
 status = "first-pass"
@@ -56,3 +61,10 @@ rung = "in-clinical-use"
 earliest = 2033
 likely = 2045
 latest = 2095
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-17, after checking the trial reports: urolithin A, which switches on the clearing of worn power plants and has its own entry on the energy branch, was tested in two controlled trials in 2022, and neither counts here because neither met its main measure. In 66 adults aged 65 to 90 (JAMA Network Open, https://doi.org/10.1001/jamanetworkopen.2021.44279) the main measures, the distance walked in six minutes and the energy output of hand muscle, did not differ from placebo, though muscle endurance, a secondary measure, improved. In middle-aged adults (Cell Reports Medicine, https://doi.org/10.1016/j.xcrm.2022.100633) the main measure, peak power output, did not differ from placebo, though muscle strength improved by about 12 per cent."
+why = "[verification 2026-10-17] Records the two trial results that the unchecked statement described, with their sources; no stage or year changed."

@@ -14,9 +14,11 @@ misfolds and clogs the heart and nerves in an inherited disease and, in its ordi
 old people. The protein fell by about nine tenths and stayed down. The treatment is in a large
 late-stage trial for the heart form of the disease, which was paused in late 2025 after a
 patient's liver was harmed, and restarted in March 2026 with closer liver monitoring; nothing is approved yet. That
-patient, a man in his eighties, died on 2025-11-05. Early trade reports linked the death to the liver
-event; the company's chief executive said in January 2026 that it followed an infection after a bowel
-perforation and was not caused by liver failure. The cause is not yet confirmed in a written company statement."""
+patient died on 2025-11-05. The company's report to the securities regulator of 2026-01-09 says the trial's lead doctor reported
+death from septic shock (a dangerous collapse of blood pressure caused by infection) after a
+perforated duodenal ulcer (a hole through the wall of the first part of the small intestine), that the
+patient's course also included acute liver injury and its treatment with steroids, and that an
+autopsy supported the clinical diagnoses."""
 test = """
 A person is given a treatment that edits a gene inside their body, and afterwards the gene's
 product is measurably changed in the way intended, in a peer-reviewed report. For the clinic rung:
@@ -28,10 +30,6 @@ stage_reached_on = "2021-06-26"
 stage_record = "https://doi.org/10.1056/NEJMoa2107454"
 status = "tracked"
 horizon = "near"
-
-verify = [
-  "That a patient in the heart trial died on 2025-11-05 is from the trade press (CGTLive, 2025-11-09, citing the company); the cause given in January 2026 (an infection after a bowel perforation, not liver failure) is the chief executive's account at an investor conference as reported by Clinical Trials Arena on 2026-01-15. The company's own written statement of the cause and the registry's note of it were not found.",
-]
 notes = """
 Transthyretin amyloidosis in its non-inherited form is a disease of old age, which is why a
 treatment aimed at an inherited disease sits on this tree. The other way to the same end, a drug
@@ -73,4 +71,12 @@ field = "description"
 old = "patient's liver was harmed, and restarted in March 2026 with closer liver monitoring; nothing is approved yet."
 new = "patient's liver was harmed, and restarted in March 2026 with closer liver monitoring; nothing is approved yet. That patient, a man in his eighties, died on 2025-11-05. Early trade reports linked the death to the liver event; the company's chief executive said in January 2026 that it followed an infection after a bowel perforation and was not caused by liver failure. The cause is not yet confirmed in a written company statement."
 why = "[reading 2026-10-17] Adds the death in the heart trial and the two accounts of its cause, which the description of 2026-10-16 left out. The company's release of 2026-03-02 (intellia-2026) confirms the stop of 2025-10-29 and the restart; the death and its cause come from trade reports of the company's own remarks. The stage does not change."
+publication = "intellia-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "That patient, a man in his eighties, died on 2025-11-05. Early trade reports linked the death to the liver event; the company's chief executive said in January 2026 that it followed an infection after a bowel perforation and was not caused by liver failure. The cause is not yet confirmed in a written company statement."
+new = "That patient died on 2025-11-05. The company's report to the securities regulator of 2026-01-09 says the trial's lead doctor reported death from septic shock (a dangerous collapse of blood pressure caused by infection) after a perforated duodenal ulcer (a hole through the wall of the first part of the small intestine), that the patient's course also included acute liver injury and its treatment with steroids, and that an autopsy supported the clinical diagnoses."
+why = "[verification 2026-10-17] The company's own written statement was found: its report to the United States securities regulator (Form 8-K) of 2026-01-09 (https://www.sec.gov/Archives/edgar/data/1652130/000119312526008307/d15047d8k.htm, item 8.01), repeated in its annual report filed 2026-02-26. The text now says only what the filing says. Removed because the company's filings do not state them: the patient's age and sex (from trade reports), the early trade reports' link to the liver event, and the chief executive's remark, reported by Clinical Trials Arena, that the death was not from liver failure. The filing names a perforated duodenal ulcer, not a bowel perforation as the trade account had it. The stage does not change."
 publication = "intellia-2026"

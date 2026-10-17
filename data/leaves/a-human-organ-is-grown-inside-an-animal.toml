@@ -28,13 +28,16 @@ long_shot = true
 mechanism = "Breed pig embryos lacking the gene for one organ; add human stem cells tuned to survive among pig cells; carry the embryos to term with the human cells building that organ; keep human cells out of the pig's brain and germ line; show the organ works in the grown animal; transplant it into the person whose cells it came from; then a trial and an approval."
 breaking_point = "Human and pig cells grow at different speeds and answer different signals, so human cells have so far made up only a small share of the organ past the embryo stage; a working organ needs them to win that competition throughout, and nothing yet does that. The ethics of human cells reaching a pig's brain or sperm adds a second barrier that is not technical."
 
-verify = [
-  "That human cells made up less than one in a thousand of the cells in the 2017 human-pig chimeric embryos (Wu, Izpisua Belmonte and colleagues, Cell) is from press coverage (under 0.001 per cent); the paper's own figure was not found in its text.",
-]
 notes = """
 The pig-organ leaf (a gene-edited pig's own organ) and the lab-grown-organ leaf are the two
 nearer routes; this one would be the better organ if it could be built, and the tree keeps it so
-that a reader can see how far it is."""
+that a reader can see how far it is.
+Checked 2026-10-17: the 2017 Cell paper (Wu, Izpisua Belmonte and colleagues, https://doi.org/10.1016/j.cell.2016.12.036; open
+access, https://pmc.ncbi.nlm.nih.gov/articles/PMC5679265/) put several kinds of human stem cell into pig and cattle embryos and
+examined pig embryos at day 21 to 28 of gestation. Its text gives no overall share of human cells in the embryos; it says the
+human cells engrafted 'at a low level and efficiency' and that chimerism in pig embryos was much lower than in rat-mouse
+chimeras. A press figure of under one in a thousand cells is not in the paper, so this record states
+none."""
 
 [estimate]
 status = "first-pass"

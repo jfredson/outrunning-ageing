@@ -29,15 +29,16 @@ status = "tracked"
 horizon = "mid"
 sibling = "lifespan-a-drug-adds-healthy-years-to-a-life"
 
-verify = [
-  "That TAME had still not enrolled anyone as of mid-2026, for lack of money, rests on 2026 web coverage only; no statement from the trial team or its funder was read, no ClinicalTrials.gov entry was found, and some 2026 pages claim the opposite without sources.",
-]
 notes = """
 The record is the 2009 report from the National Institute on Aging's testing programme, in which
 rapamycin fed to mice from twenty months of age (old, for a mouse) extended their lives. Human
 trials exist: a year-long rapamycin trial in healthy adults published in April 2025 measured body
 composition and blood markers, not lifespan, and found little; the metformin trial designed to
-measure time to age-related disease had not enrolled anyone when this was written. The Upgrade
+measure time to age-related disease (the TAME trial) had not launched: its sponsor's own trial page, as
+saved by the Internet Archive on 2026-07-04, still listed "Raising Funds to Launch" as its need
+(https://web.archive.org/web/20260704152538/https://www.afar.org/tame-trial). That page no longer loads
+on the sponsor's site, and a search of ClinicalTrials.gov by title and by sponsor on 2026-10-17 found
+no entry for the trial. The Upgrade
 Tree keeps the same leaf at shown in animals; the weekly reading checks the two stages agree. The
 separate leaves on this branch for rapamycin, metformin and the GLP-1 drugs hold the narrower
 human results; this one holds the lifespan question itself."""
@@ -66,3 +67,10 @@ rung = "in-clinical-use"
 earliest = 2034
 likely = 2045
 latest = 2095
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "the metformin trial designed to measure time to age-related disease had not enrolled anyone when this was written."
+new = "the metformin trial designed to measure time to age-related disease (the TAME trial) had not launched: its sponsor's own trial page, as saved by the Internet Archive on 2026-07-04, still listed \"Raising Funds to Launch\" as its need; no entry for it was found on ClinicalTrials.gov on 2026-10-17."
+why = "Checked against the source on 2026-10-17: the claim that no one had enrolled rested on trade coverage alone; the sponsor's own page is the primary record and says the trial was still raising funds to launch."

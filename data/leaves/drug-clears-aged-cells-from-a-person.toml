@@ -32,9 +32,6 @@ status = "tracked"
 horizon = "mid"
 sibling = "lifespan-a-drug-clears-aged-cells-from-a-persons-body"
 
-verify = [
-  "A paper in Cell Metabolism, announced by Cedars-Sinai on 2026-09-10, reports that blocking the protein PD-L2 reduced aged cells in old mice and that PD-L2 rises in human aged cells; the weekly reading of 2026-10-17 also saw a report that a soluble form of it fell in people after senolytic drugs and might serve as a blood marker. The university's release was read, but the paper's own page was not opened, so the paper is not logged and the blood-marker claim is unchecked.",
-]
 notes = """
 The animal record is the 2011 Mayo Clinic report in which clearing such cells from mice delayed
 several age-related conditions. An earlier 2019 pilot in people with lung scarring reported

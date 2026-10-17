@@ -13,9 +13,6 @@ commits_to = "No date and no named result. Larry Page's own post the same day ca
 about_the_headline = true
 verdict = "unfalsifiable"
 
-verify = [
-  "AbbVie's ending of the Calico collaboration rests on press reports only: STAT News on 2025-11-12, citing internal AbbVie emails, and BioSpace on 2025-11-13 repeating it. BioSpace says it asked AbbVie for confirmation; neither company's own statement was found. Calico's spokesperson is quoted by Fierce Biotech as saying the two advanced five assets into clinical development in neuroscience and oncology and that Calico has more than twenty early-stage programmes; that page was seen in a search listing and not opened.",
-]
 notes = """
 What followed, from Calico's and its partner's own releases: a collaboration with the drug company
 AbbVie announced 2014-09-03, each side putting in up to two hundred and fifty million dollars at
@@ -27,9 +24,15 @@ marked about the headline because the announcement names no branch; it is the ol
 well-funded bets on the question as a whole.
 Updated 2026-10-17, from the weekly reading of that date: the line above that the collaboration was
 extended on 2021-07-27 with work running to 2030 describes the extension as announced and no longer
-holds if the report is right. STAT News reported on 2025-11-12, and BioSpace repeated on 2025-11-13,
-that AbbVie decided to end the eleven-year relationship, with about a hundred chemists laid off
-and the money moved to AbbVie's biologics, cell and RNA programmes. It followed the failure of the
-shared motor neurone drug in January 2025 recorded above. The report is press only (see the list of
-things to check). The verdict, unfalsifiable, is unchanged.
+holds. AbbVie's own annual report for 2025 (its form 10-K, filed with the United States Securities and
+Exchange Commission on 2026-02-20; https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm,
+opened 2026-10-17) lists a gain of $217 million in 2025 "related to the termination of an R&D
+collaboration agreement with Calico Life Sciences LLC". That is the one thing in this paragraph that
+comes from either company; it gives no date for the ending. The rest is press: STAT News reported on
+2025-11-12, citing internal AbbVie emails, and BioSpace repeated on 2025-11-13, that AbbVie decided to end
+the eleven-year relationship, with about a hundred chemists laid off and the money moved to AbbVie's
+biologics, cell and RNA programmes. It followed the failure of the shared motor neurone drug in January
+2025 recorded above. Neither company's own release about the ending was found; Calico's news page
+(https://www.calicolabs.com/news, opened 2026-10-17) lists nothing after 2021-07-27 about the
+collaboration. The verdict, unfalsifiable, is unchanged.
 """

@@ -25,14 +25,21 @@ stage_record = "https://doi.org/10.1038/s41586-023-06802-1"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "The 2025 follow-up (Oh, Wyss-Coray and colleagues, Nature Medicine, online 2025-07-09; 44,498 people in the UK Biobank) is from the same group and so is not the second independent group; an independent group (Goeminne, Gladyshev and colleagues, Cell Metabolism, online 2024-11-01) reported organ-specific protein ages predicting organ-specific disease in over 50,000 people. Whether the test's 'two or more independent groups' is met, and from when, has not been ruled.",
-]
 notes = """
 The protein approach and the DNA-mark clocks (the companion leaf) are the two main families of
 ageing marker; this one is newer and has the organ-by-organ reading the other lacks. Neither is
 a medical test yet. The regulator-acceptance leaf is where either would have to go to count for
-a trial."""
+a trial.
+Checked 2026-10-17 against the papers' abstracts: the 2023 report (Oh, Wyss-Coray and colleagues, Nature, https://doi.org/10.1038/s41586-023-06802-1)
+estimated organ ages in five independent cohorts with 5,676 adults in all. The 2025 follow-up (Oh, Wyss-Coray and colleagues, Nature
+Medicine, online 2025-07-09, https://doi.org/10.1038/s41591-025-03798-1) is from the same group: organ ages from 44,498 people in
+the UK Biobank were linked to disease starting within 17 years. An independent group (Goeminne, Gladyshev and colleagues, Cell Metabolism, online 2024-11-01,
+https://doi.org/10.1016/j.cmet.2024.10.005) built organ-specific protein ages from over 50,000 people in the UK Biobank and other
+cohorts and reported that they predict disease in those organs. On the test as worded (two or more independent groups of at least a
+thousand people), the second independent group would date from 2024-11-01. This record has not ruled whether the test is met, or
+from when, and the stage and its date (2023-12-06) are unchanged. The abstracts do not state a comparison with calendar age, which
+the test also asks for; the full texts were not read for it.
+"""
 
 [estimate]
 status = "first-pass"

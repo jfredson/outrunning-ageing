@@ -8,7 +8,7 @@ id = "kurzweil-2029-escape-velocity"
 who = "Ray Kurzweil"
 who_is = "the inventor and futurist Ray Kurzweil, a director of engineering at Google and the author of The Singularity Is Near (2005) and The Singularity Is Nearer (2024)"
 said_on = "2024-06-25"
-where = "The Singularity Is Nearer (Viking, 2024), page 192, in the chapter on health and longevity; read in Google Books' search-inside snippets on 2026-10-16, which show the sentence but not the whole page"
+where = "The Singularity Is Nearer (Viking, 2024), page 192, in the chapter on health and longevity; read in Google Books' search-inside snippets on 2026-10-16 and again on 2026-10-17; the snippet opens mid-sentence at the quoted words, carries the definition and the first words of the next sentence, and shows nothing of the page before it"
 link = "https://books.google.com/books?id=V-e8EQAAQBAJ&q=%22by+around+2030%22"
 quote = "by around 2030, the most diligent and informed people will reach \"longevity escape velocity\""
 is_paraphrase = false
@@ -17,11 +17,6 @@ due = 2030
 about_the_headline = true
 verdict = "not-yet-due"
 
-verify = [
-  "The sentence was read in snippet view, so the words immediately before it on page 192 were not seen; check against a copy of the book. Two reviews (Nautilus, a Substack review) restate the claim without page numbers.",
-  "The hardcover date (2024-06-25) rests on library catalogue and bookseller listings; the publisher's page confirms 2024-06-25 only for the e-book and audiobook.",
-  "His 2026 statements of 2032 in Business Today (2026-06-20) and Ynet (undated in the result), and the attributions of 2032 or the early 2030s to a Nikkei interview and a Guardian interview, are coverage; the Nikkei and Guardian interviews were not found or opened.",
-]
 notes = """
 The famous version is 2029. The book's longevity pages (189 to 194 and 255 to 257, by its index)
 do not use that year; the 2029 figure comes from interviews around the book's launch, among them
@@ -38,7 +33,13 @@ Updated 2026-10-17, from the weekly reading of that date: in 2026 he has restate
 than the book's. In a printed question-and-answer interview with Boston Magazine, published online
 on 2026-02-11, he says that by 2032 a person will gain back one year for each year lived; that is
 entered as its own claim, kurzweil-2026-escape-velocity-by-2032, because the log keeps each dated
-occasion. Business Today (2026-06-20) repeats 2032 as coverage. A La Nacion piece of 2026-05-01
-still gave 2029. This entry, the book's sentence of 2024, stands as written and keeps its due year
+occasion. Business Today (2026-06-20, https://www.businesstoday.in/amp/science/story/could-todays-40-year-olds-live-forever-renowned-futurist-says-aging-to-end-in-2032-537930-2026-06-20) repeats 2032 as coverage, and so does Ynet (https://www.ynetnews.com/health_science/article/hkf3g18xml), which says "perhaps around 2032" and names no interview in the part read. A La Nacion piece (the page is dated 2026-05-03; its address carries 2026-05-01), reporting a conversation published by Bessemer Venture Partners, still gave 2029: https://www.lanacion.com.ar/ciencia/es-cientifico-trabajo-en-google-y-predice-que-en-2029-los-humanos-empezaran-a-retroceder-en-el-nid01052026/. This entry, the book's sentence of 2024, stands as written and keeps its due year
 of 2030.
+Checked 2026-10-17: the sentence and its definition read as quoted in Google Books' snippet for page 192
+(https://www.google.com/books/edition/The_Singularity_Is_Nearer/V-e8EQAAQBAJ?hl=en&gbpv=1&bsq=%22by%20around%202030%22),
+which opens mid-sentence, so the words leading into it are not shown to a reader and the record quotes
+only what is shown. The print edition's date, 2024-06-25, is the one the Open Library catalogue gives for
+the hardcover (ISBN 9780399562761, https://openlibrary.org/books/OL58356583M); the publisher's page
+(https://www.penguinrandomhouse.com/books/535433/the-singularity-is-nearer-by-ray-kurzweil/) gives the same
+date for the e-book and audiobook. Reviews that restate the claim give no page number.
 """

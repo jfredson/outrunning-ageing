@@ -5,12 +5,13 @@
 id = "david-sinclair-own-regimen"
 who = "David Sinclair"
 who_is = "the Harvard genetics professor David Sinclair, author of the 2019 book Lifespan, co-founder of several longevity companies including a biological-age testing company, who describes his own supplement and fasting routine in public and reports his own clock readings"
-started = "2006"
+started = "2003"
 status = "running"
 what = """
-By his own account (interview of 2026-09-15) he has taken resveratrol for about twenty years and NMN for at least thirteen. His routine: a daily dose of a precursor of a cell-energy molecule
-(NMN), resveratrol, metformin taken in alternation with his training, no breakfast beyond a few
-bites of yoghurt, and exercise. He has not published doses on the pages read for this record."""
+By his own account in a podcast interview, he has taken resveratrol since 2003. His routine: a
+daily dose of a precursor of a cell-energy molecule (NMN), resveratrol, metformin taken in
+alternation with his training, no breakfast beyond a few bites of yoghurt, and exercise. He has not
+published doses on the pages read for this record."""
 measures = """
 Blood markers through a testing company whose scientific board he chairs, and a biological-age
 clock sold by a company he co-founded; he reports the results in interviews and posts rather than
@@ -28,6 +29,20 @@ leaf."""
 link = "https://www.insidetracker.com/a/articles/how-harvards-david-sinclair-unlocked-his-own-fountain-of-youth"
 branches = ["energy-and-fuel", "measuring-age"]
 
-verify = [
-  "No update or qualification of his own-age claim was found in searches of 2026-10-17 or in a 2026-09-15 interview read to the point its transcript is cut off; 2025 podcasts were not checked.",
-]
+notes = """
+The start year, 2003, is the year he gives for resveratrol, the first thing in the routine he dates:
+asked on the FoundMyFitness podcast how long he had been taking it, he answered "Since 2003"
+(https://www.foundmyfitness.com/episodes/david-sinclair, the transcript on the page). A Nature
+Publishing Group blog post of 2006-11-01 says the same thing in another way, that by then he had
+been taking it for three years, "according to the article" in Nature of that date
+(https://blogs.nature.com/blog/the-search-for-the-elixir-of-life-at-harvard-and-now-in-nature/).
+No start date for the NMN or the other parts of the routine was found in his own words. An earlier
+version of this record gave 1999, then 2006, and said he had taken NMN for at least thirteen years
+on the strength of an interview of 2026-09-15 that could not be identified again; both were
+withdrawn on 2026-10-17 and the NMN figure was dropped for want of a source.
+
+No later qualification or retraction of his claim about his own age has been found in searches
+of 2026-10-17. The latest personal figure found is in an InsideTracker podcast interview page
+(https://blog.insidetracker.com/longevity-by-design-podcast-david-sinclair, its date is not clear from the page),
+where he says he has tested himself for twelve years and that a calculation puts him at least ten
+years younger than his actual age."""

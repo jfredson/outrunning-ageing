@@ -27,9 +27,6 @@ stage_record = "https://www.fda.gov/news-events/press-announcements/fda-approves
 status = "tracked"
 horizon = "near"
 
-verify = [
-  "No animal rung is recorded: a Nature report of 2026-09-02 shows late-life semaglutide lengthened the median life of female mice, but it came after the drug's approval and is a lifespan result, not a heart-event result, so it was not entered as an earlier stage.",
-]
 notes = """
 Semaglutide for weight loss alone is in wide use by any measure; the leaf's test is narrower, the
 approval to prevent an age-related disease, and the record keeps that rung at clinical use until
@@ -43,6 +40,12 @@ after the approval of 2024-03-08 and Medicare coverage, yet six months after Med
 covering it only 32,732 prescriptions had been filled, under 1 per cent of an estimated 3.6 million
 eligible beneficiaries. It is one country and one payer, and the data end in September 2024. It
 does not change the stage.
+No earlier stage is recorded for the animal rung. The nearest animal result is a Nature report of
+2026-09-02 (Feng and colleagues, https://doi.org/10.1038/s41586-026-10940-7): semaglutide started in
+20-month-old female mice and continued for life lengthened their median life, from 742 days to 834
+days. It came after the drug's approval, and it is a result on lifespan in mice, not on heart
+attacks, strokes or deaths in people, which is what the test for this entry (what would count) asks about, so it is not entered
+as an earlier stage.
 """
 
 [estimate]
@@ -81,3 +84,10 @@ old = "(nothing; a dated note added at the end of the reasoning; no year changed
 new = "[Note 2026-10-17, from the weekly reading of that date: the first published uptake figure for this purpose (scannell-2026) is under 1 per cent of eligible Medicare beneficiaries six months after coverage began, with data to September 2024. That points the other way from the earliest year of 2027 above, which assumed uptake might already count. The years are unchanged; John may want to weigh moving the earliest wide-use year later at the next review.]"
 why = "[reading 2026-10-17] A dated note that the first uptake figure undercuts the premise behind the earliest wide-use year; no year changed."
 publication = "scannell-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "No earlier stage is recorded for the animal rung. The nearest animal result is a Nature report of 2026-09-02 (Feng and colleagues, https://doi.org/10.1038/s41586-026-10940-7): semaglutide started in 20-month-old female mice and continued for life lengthened their median life, from 742 days to 834 days. It came after the drug's approval, and it is a result on lifespan in mice, not on heart attacks, strokes or deaths in people, which is what the test for this entry (what would count) asks about, so it is not entered as an earlier stage."
+why = "Checked against the paper on 2026-10-17: the median lifespans are as the paper gives them; the gap in the record (no animal rung) is now stated in the notes with its reason."

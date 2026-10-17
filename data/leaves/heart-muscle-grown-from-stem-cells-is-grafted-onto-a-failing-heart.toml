@@ -10,9 +10,9 @@ A heart that has lost muscle to a heart attack does not grow it back, and heart 
 the commonest ways an old person dies. A Göttingen group grows sheets of beating heart muscle
 from stem cells and sews them onto the outside of the heart. In 2025 they reported that in
 monkeys the patches took, grew blood vessels and strengthened the heart's pumping, and that in a
-46-year-old woman with heart failure, given ten patches in 2021 while she waited for a donor
-heart, the patches were alive and vascularised when her old heart was removed three months
-later. That small trial in people, with no comparison group, reported in the New England Journal of
+person with advanced heart failure, given ten patches (about 400 million cells in all) in the first
+trial in people, the grafted muscle cells were found alive, with blood vessels, when the heart was
+removed for a transplant three months later. That small trial in people, with no comparison group, reported in the New England Journal of
 Medicine on 2026-05-27: of 20 people given the patches, three died during the study and one had a
 heart transplant; among 12 given the highest dose who had reached the 3-month interim check, the
 heart's pumping (ejection fraction) was 3.9 percentage points higher and the treated wall 4.5 mm
@@ -29,14 +29,15 @@ stage_record = "https://doi.org/10.1038/s41586-024-08463-0"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "The patient details in the description (a 46-year-old woman, grafts in 2021) are from secondary coverage; the paper itself gives ten patches holding about 400 million cells in all and a donor heart three months later, but not her age, sex or the year.",
-]
 notes = """
 The animal rung is settled by the same 2025 paper (rhesus monkeys), so no separate earlier
 stage is recorded. The patches are made from a donor stem cell line, not the patient's own cells,
 and need anti-rejection drugs; a version from the patient's own cells is the next step and is
-not yet in people."""
+not yet in people. The 2025 paper (open to read) does not give the patient's age, sex or the year of
+the operation, so the description no longer does; it reports that the grafted cells were found
+retained, smaller than the host heart's own cells, and with fewer blood vessels than the surrounding
+muscle (187 against 963 per square millimetre), with signs of an immune reaction against the graft
+or its support material (checked 2026-10-17)."""
 
 [estimate]
 status = "first-pass"
@@ -76,3 +77,10 @@ old = "(nothing; a dated note added at the end of the reasoning; no year changed
 new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above assumes the small trial reports around 2030. It reported an interim analysis on 2026-05-27 (zimmermann-2026): pumping and wall thickness were higher at 3 months in the highest-dose group, with three deaths among 20 people and every patient having at least one adverse event. The years are unchanged; John may want to weigh at the next review whether the reporting year in the reasoning (and so the earliest, 2031) should move earlier, and what the deaths and the need for rejection drugs mean for the latest year.]"
 why = "[reading 2026-10-17] A dated note that the estimate's premise about when the first trial reports has been overtaken; no year changed."
 publication = "zimmermann-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "and that in a 46-year-old woman with heart failure, given ten patches in 2021 while she waited for a donor heart, the patches were alive and vascularised when her old heart was removed three months later."
+new = "and that in a person with advanced heart failure, given ten patches (about 400 million cells in all) in the first trial in people, the grafted muscle cells were found alive, with blood vessels, when the heart was removed for a transplant three months later."
+why = "[verification 2026-10-17] The woman's age, her sex and the year 2021 came from news coverage; the 2025 paper in Nature, read in full, gives none of them, so they were removed. The ten patches, the 400 million cells and the transplant three months later are in the paper."

@@ -27,14 +27,23 @@ stage_publication = "emani-2017"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "That trials of mitochondrial transplantation have treated people in stroke (United States), heart attack (Iran) and muscle disease (Korea) is confirmed; whether a trial in Taiwan exists is unchecked, and note that a small randomised heart-attack trial (Iran, 2024) has reported a controlled result.",
-]
 notes = """
 This is a different thing from the mitochondrial replacement used in fertility clinics (a donor's
 mitochondria put into an egg), which is reproduction, not repair, and is not on this tree. The
 leaf's hard problem is that injected mitochondria do not last; whether they help by being taken
-up or by signalling is still argued."""
+up or by signalling is still argued.
+Added 2026-10-17, after checking the trial registry and the journals: transplantation of mitochondria
+has been registered or reported in stroke (University of Washington, registry entry NCT04998357,
+recruiting), in people on heart-lung support after reduced blood flow (Boston Children's Hospital,
+registry entry NCT02851758, recruiting), in heart attack (a randomised, triple-blind trial of 30
+people in Iran, reported in the International Journal of Cardiology on 2024-06-04,
+https://doi.org/10.1016/j.ijcard.2024.132227) and in a muscle disease, polymyositis and
+dermatomyositis (nine people in Korea, Annals of the Rheumatic Diseases, 2025-01-31,
+https://doi.org/10.1016/j.ard.2024.11.005, registry entry NCT04976140). The Iranian trial found a
+slightly larger gain in how much blood the heart pumps with each beat and a significant gain in
+exercise capacity within 40 days, against standard care, with no difference in serious heart events;
+its authors say larger and longer studies are needed.
+"""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -49,10 +58,29 @@ Several early trials were running in 2026 with no controlled result; the likely 
 one in heart surgery or stroke reports positive around 2033 and an approval for that setting
 follows in the mid 2040s. The earliest assumes a fast route through paediatric heart surgery,
 where the procedure began; the latest allows for the transplanted organelles never being shown to
-do more than a signal, and the leaf resting at first human."""
+do more than a signal, and the leaf resting at first human.
+[Note 2026-10-17, from checking the journals: the first sentence above is out of date. A small
+randomised trial in heart attack (30 people, Iran, reported 2024-06-04) has reported a controlled
+result, a slightly larger gain in the heart's pumping and a significant gain in exercise capacity
+within 40 days. It is small, from one country and not yet repeated. The years are unchanged; John may
+want to weigh whether it moves the earliest year (2033).]"""
 
 [[estimate.rung]]
 rung = "in-clinical-use"
 earliest = 2033
 likely = 2045
 latest = 2095
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
+new = "[Note 2026-10-17, from checking the journals: the first sentence above is out of date. A small randomised trial in heart attack (30 people, Iran, reported 2024-06-04) has reported a controlled result, a slightly larger gain in the heart's pumping and a significant gain in exercise capacity within 40 days. It is small, from one country and not yet repeated. The years are unchanged; John may want to weigh whether it moves the earliest year (2033).]"
+why = "[verification 2026-10-17] A dated note that the estimate's premise (no controlled result yet) no longer holds; no year changed."
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-17, after checking the trial registry and the journals: transplantation of mitochondria has been registered or reported in stroke (University of Washington, registry entry NCT04998357, recruiting), in people on heart-lung support after reduced blood flow (Boston Children's Hospital, registry entry NCT02851758, recruiting), in heart attack (a randomised, triple-blind trial of 30 people in Iran, reported in the International Journal of Cardiology on 2024-06-04, https://doi.org/10.1016/j.ijcard.2024.132227) and in a muscle disease, polymyositis and dermatomyositis (nine people in Korea, Annals of the Rheumatic Diseases, 2025-01-31, https://doi.org/10.1016/j.ard.2024.11.005, registry entry NCT04976140). The Iranian trial found a slightly larger gain in how much blood the heart pumps with each beat and a significant gain in exercise capacity within 40 days, against standard care, with no difference in serious heart events; its authors say larger and longer studies are needed."
+why = "[verification 2026-10-17] Records the registry entries and reports that the unchecked statement described; no stage or year changed."

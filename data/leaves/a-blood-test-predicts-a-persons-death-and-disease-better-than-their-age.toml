@@ -7,11 +7,12 @@ branch = "measuring-age"
 description = """
 A trial that slows ageing cannot wait thirty years to count deaths; it needs a reading, taken at
 the start and the end, that stands in for them. The best candidates read the chemical marks on
-DNA from a blood sample. The first such clock, in 2013, matched a person's calendar age to within
-a few years from any tissue; the useful ones came later, trained not on age but on outcomes. In
-2019 a Los Angeles group published GrimAge, trained on smoking and blood proteins, which
-predicted who would die, and when, better than age in several large groups of people, and later
-clocks (DunedinPACE, 2022) read the pace of ageing rather than its level. No regulator treats
+DNA from a blood sample. A clock published in 2013 estimated a person's calendar age from those
+marks in most tissues and cell types; the useful ones came later, trained not on age but on
+outcomes. In 2019 a Los Angeles group published GrimAge, trained on smoking and blood proteins,
+which predicted time to death, to heart disease and to cancer more strongly than the earlier
+clocks did, in validation groups of thousands of people, and later clocks (DunedinPACE, 2022)
+read the pace of ageing rather than its level. No regulator treats
 any of them as a medical test, and none is used in routine care, though several are sold to the
 public."""
 test = """
@@ -27,15 +28,21 @@ stage_record = "https://doi.org/10.18632/aging.101684"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "That the 2015 report (Marioni and colleagues) was the first to show a clock read from DNA marks predicting death in large groups, and that Horvath's 2013 clock was the first multi-tissue clock, are priority claims not settled by any source read; the 2015 paper's four groups (446, 920, 2,635 and 657 people) include only one of over a thousand and show a link to death independent of age rather than a better prediction than age, so by the test as worded the stage date stays at 2019.",
-]
 notes = """
 The ladder fits a measuring tool loosely, and the test says how it is read here: first human is
 a validated clock in people, the clinic rung is a regulator or a health system treating it as a
 test, wide use is routine care. Clocks sold to the public (several companies since 2019) are not
 a rung, because a sale is not a validation. A clock used as the thing a trial must move is the leaf
-beside this one."""
+beside this one.
+Checked 2026-10-17 against the papers' abstracts and open full texts: the 2013 clock (Horvath, Genome
+Biology, https://doi.org/10.1186/gb-2013-14-10-r115) was built from 8,000 samples covering 51 tissues
+and cell types; the 2015 report (Marioni and colleagues, Genome Biology, https://doi.org/10.1186/s13059-015-0584-6)
+found, in four groups of older people, that a clock reading older than the person's age went with a
+higher risk of death after allowing for health and lifestyle, which is a link to death and not a
+better prediction than age. The record does not claim either was the first of its kind: no source
+read settles that, and the earlier wording to that effect was removed on 2026-10-17 for want of a
+source. The stage date stays at 2019, the year of the GrimAge report, which gave validation figures
+in several groups of over a thousand people (https://doi.org/10.18632/aging.101684)."""
 
 [estimate]
 status = "first-pass"
@@ -58,3 +65,10 @@ rung = "in-wide-use"
 earliest = 2032
 likely = 2042
 latest = 2080
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "The first such clock, in 2013, matched a person's calendar age to within a few years from any tissue; the useful ones came later, trained not on age but on outcomes. In 2019 a Los Angeles group published GrimAge, trained on smoking and blood proteins, which predicted who would die, and when, better than age in several large groups of people, and later clocks (DunedinPACE, 2022)"
+new = "A clock published in 2013 estimated a person's calendar age from those marks in most tissues and cell types; the useful ones came later, trained not on age but on outcomes. In 2019 a Los Angeles group published GrimAge, trained on smoking and blood proteins, which predicted time to death, to heart disease and to cancer more strongly than the earlier clocks did, in validation groups of thousands of people, and later clocks (DunedinPACE, 2022)"
+why = "[verification 2026-10-17] The wording 'The first such clock' was a priority claim that no source read settles, and 'better than age' was more than the GrimAge abstract says (it reports prediction of time to death, heart disease and cancer more strongly than earlier clocks, in validation data from thousands of people). The text now says what the Horvath 2013 abstract (https://doi.org/10.1186/gb-2013-14-10-r115) and the GrimAge abstract (https://doi.org/10.18632/aging.101684) say. The stage and its date do not change."

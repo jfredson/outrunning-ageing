@@ -10,8 +10,7 @@ is why the first human trial is in the eye, a small sealed organ. A pill or an i
 the same with ordinary chemicals could reach the whole body. In 2023 a Harvard group reported six
 mixes of known drugs that, in a dish, turned back a reading of human cells' age (taken from which genes are active) by several
 years within a week without turning the cells into stem cells, following a 2022 Chinese report
-that a chemical mix could fully reset human cells. None has been shown to work in a living animal
-in a peer-reviewed report, so the leaf is at idea only."""
+that a chemical mix could fully reset human cells. In 2025 peer-reviewed reports gave a two-chemical mix to animals: it extended the lifespan and healthspan of worms, and in a small study in ageing mice it improved neurological scores and the longest lifespan, with some changes in liver and brain tissue. The reports describe no clock of cell age read in the animals, and a 2026 report in mice found no change in the age of kidney or liver tissue at lower doses, and weight loss at higher doses that forced the mice to be put down. These are not counted as the result the test asks for, so the leaf stays at idea only."""
 test = """
 A living animal given a mix of small-molecule drugs, with no genes delivered, afterwards has a
 measured marker of biological age (a clock read from the chemical marks on its DNA, a restored
@@ -23,13 +22,24 @@ stage = "idea-only"
 status = "tracked"
 horizon = "far"
 
-verify = [
-  "That no peer-reviewed report existed by 2026-10-16 of a chemical cocktail moving an age marker towards youth in a living mammal (a 2025 report extended the lifespan and healthspan of worms with a two-chemical mix, and a 2026 report found no change in mouse tissue age and toxicity at higher doses) is from searches of Europe PMC and the web, not a complete survey; whether the worm result counts as the animal rung is undecided.",
-]
 notes = """
 This is the version of cell resetting that could matter for the headline, because it is the one
 that could be given to a whole person; it is also the one furthest from the record. The gene
-version has two leaves beside this one."""
+version has two leaves beside this one.
+Checked 2026-10-17 against the papers' abstracts (Europe PMC searches; not a complete survey). The worm report (Schoenfeldt and
+colleagues, EMBO Molecular Medicine, 2025-06-30, https://doi.org/10.1038/s44321-025-00265-9) found that a two-chemical mix improved
+ageing features in aged human cells in a dish and extended the lifespan and healthspan of the roundworm C. elegans. The mouse report
+(Vedunova and colleagues, Brain and Behavior, 2025-05-30, https://doi.org/10.1002/brb3.70573) gave two chemicals (RepSox and
+tranylcypromine) by injection for 30 days to female mice: the older group (16 to 20 months) had better neurological scores, fur and
+skeletal health, with some adverse changes in liver and brain; in the younger group (10 to 13 months) overall survival did not differ
+significantly but the longest lifespan was greater (p = 0.039). The 2026 mouse report (Mitchell and colleagues, Aging Cell,
+2026-01-27, https://doi.org/10.1111/acel.70390) found no effect on the transcriptomic age of kidney or liver at lower doses and a drastic loss of body weight,
+needing euthanasia, at higher doses. Whether the 2025 mouse report meets the test's animal rung (a marker of biological age or a
+restored tissue function moved towards youth against untreated controls) is not settled: it measured behaviour, appearance and
+lifespan, not a clock of cell age, and it also reports tissue changes. It is not counted, the stage stays at idea only, and the
+question is left for John to rule. The earlier sentence that no peer-reviewed report existed was replaced on 2026-10-17 by the
+description above, because these reports do exist.
+"""
 
 [estimate]
 status = "first-pass"
@@ -59,3 +69,10 @@ rung = "in-clinical-use"
 earliest = 2038
 likely = 2050
 latest = 2110
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "None has been shown to work in a living animal in a peer-reviewed report, so the leaf is at idea only."
+new = "In 2025 peer-reviewed reports gave a two-chemical mix to animals: it extended the lifespan and healthspan of worms, and in a small study in ageing mice it improved neurological scores and the longest lifespan, with some changes in liver and brain tissue. The reports describe no clock of cell age read in the animals, and a 2026 report in mice found no change in the age of kidney or liver tissue at lower doses, and weight loss at higher doses that forced the mice to be put down. These are not counted as the result the test asks for, so the leaf stays at idea only."
+why = "[verification 2026-10-17] 'None has been shown to work in a living animal in a peer-reviewed report' was not safe: searches on 2026-10-17 found peer-reviewed 2025 reports of a two-chemical mix in worms and in ageing mice, and a 2026 mouse report with no change in tissue age and toxicity at higher doses. The text now says what each reports. None is counted as the animal rung, so the stage does not change; whether the mouse report counts is left for John."

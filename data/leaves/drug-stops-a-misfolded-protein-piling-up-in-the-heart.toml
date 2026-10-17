@@ -27,16 +27,20 @@ stage_record = "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=
 status = "tracked"
 horizon = "near"
 
-verify = [
-  "No animal rung is recorded: the discovery work (Kelly and colleagues at Scripps) was done largely in the test tube, and a search of the literature on 2026-10-17 found no clean, dated animal report to record.",
-]
 notes = """
 The branch's own line asks for waste cleared throughout the body; this drug stops one protein
 in one organ, and the branch's notes say so. It is here because it is the first approved drug
 against an age-related protein deposit, and because it treats a disease that is mostly a disease
 of old age even though the regulator's notice calls it rare. It is widely prescribed in rich
 countries at a very high price, which is why the record keeps it at clinical use and not wide
-use until uptake figures say otherwise."""
+use until uptake figures say otherwise.
+Added 2026-10-17: no earlier stage in animals is recorded, because the discovery work was largely done
+in the test tube. The 2012 paper that describes how tafamidis binds the protein and holds it steady
+(Bulawa and colleagues, with Jeffery Kelly among the authors,
+https://doi.org/10.1073/pnas.1121005109) reports the binding, a crystal structure and the steadying of
+protein from patients, and its abstract mentions no living animal. A search of the Europe PMC
+literature database on 2026-10-17 for a study in mice showing that a steadying drug reduced the
+deposits found no clean, dated report that meets the test for that rung."""
 
 [[earlier_stage]]
 stage = "first-human"
@@ -58,3 +62,10 @@ rung = "in-wide-use"
 earliest = 2027
 likely = 2030
 latest = 2045
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-17: no earlier stage in animals is recorded, because the discovery work was largely done in the test tube. The 2012 paper that describes how tafamidis binds the protein and holds it steady (Bulawa and colleagues, with Jeffery Kelly among the authors, https://doi.org/10.1073/pnas.1121005109) reports the binding, a crystal structure and the steadying of protein from patients, and its abstract mentions no living animal. A search of the Europe PMC literature database on 2026-10-17 for a study in mice showing that a steadying drug reduced the deposits found no clean, dated report that meets the test for that rung."
+why = "[verification 2026-10-17] States why no animal stage is recorded, with the discovery paper as the source, in place of an unchecked statement; no stage or year changed."

@@ -28,9 +28,6 @@ stage_publication = "waziry-2023"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "Company statements that clocks show people on weight-loss drugs ageing more slowly (Eli Lilly and Novo Nordisk, reported by MIT Technology Review on 2026-10-06) were not opened; no peer-reviewed report of them was found.",
-]
 notes = """
 Ruled by John on 2026-10-17, as the verify session proposed: the 2023 CALERIE paper does not settle
 this leaf's rung, because the paper itself calls its clock analysis a post hoc analysis (the
@@ -49,8 +46,18 @@ biological age in the treated groups. The authors call the findings exploratory 
 cannot separate slower ageing from an improved lung; the clocks were run on samples already
 collected, so, like the 2023 CALERIE paper, it was not a clock analysis planned before the data were
 unblinded, and it does not settle a rung. Statements by Eli Lilly and Novo Nordisk that clocks show
-people on their weight-loss drugs ageing more slowly (reported by MIT Technology Review on
-2026-10-06) are company statements, were not opened, and are not the kind of record the test asks for.
+people on their weight-loss drugs ageing more slowly were opened on 2026-10-17 in the MIT Technology Review article of 2026-10-06
+(https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/). They were talks at a
+conference (Aging Research & Drug Discovery, Boston, the weekend before): Novo reported blood-protein clocks on samples from 10,052
+people in placebo-controlled semaglutide trials, and Lilly a smaller tirzepatide study with clocks read from the marks on DNA. They
+are company talks reported by a journalist, not peer-reviewed reports. Novo's analysis is also posted as an unreviewed preprint
+(Research Square, 2026-09-22, https://doi.org/10.21203/rs.3.rs-11082091/v1), whose abstract does not say the clock analysis was
+planned before the data were unblinded and says it does not establish biological rejuvenation. One peer-reviewed report does exist
+for a related trial: semaglutide against placebo in 84 adults with HIV-associated lipohypertrophy (abnormal fat build-up in the
+abdomen) found slower epigenetic ageing on several clocks, with the pace of ageing on one clock 9 per cent slower (Corley and
+colleagues, Nature Communications, 2026-05-19, https://doi.org/10.1038/s41467-026-72861-3). Its authors call it a post hoc
+exploratory analysis and say epigenetic ageing was not pre-specified, so, like the 2023 CALERIE paper, it does not settle this
+rung.
 No stage or year was changed.
 """
 
@@ -77,3 +84,10 @@ old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, from the weekly reading of that date: a 2026-09-07 paper in Nature Biotechnology (zhavoronkov-2026) applied six blood-protein clocks to stored samples from a placebo-controlled phase 2a trial of the lung-scarring drug rentosertib in 42 people, and all six predicted a lower biological age in the treated groups. The authors call the findings exploratory and say the clocks cannot separate slower ageing from an improved lung; the clocks were run on samples already collected, so, like the 2023 CALERIE paper, it was not a clock analysis planned before the data were unblinded, and it does not settle a rung. Statements by Eli Lilly and Novo Nordisk that clocks show people on their weight-loss drugs ageing more slowly (reported by MIT Technology Review on 2026-10-06) are company statements, were not opened, and are not the kind of record the test asks for. No stage or year was changed."
 why = "[reading 2026-10-17] Adds the rentosertib clock paper and notes why it does not settle a rung, in line with John's ruling of 2026-10-17 on the CALERIE paper."
 publication = "zhavoronkov-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "Statements by Eli Lilly and Novo Nordisk that clocks show people on their weight-loss drugs ageing more slowly (reported by MIT Technology Review on 2026-10-06) are company statements, were not opened, and are not the kind of record the test asks for."
+new = "Statements by Eli Lilly and Novo Nordisk that clocks show people on their weight-loss drugs ageing more slowly were opened on 2026-10-17 in the MIT Technology Review article of 2026-10-06 (https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/). They were talks at a conference (Aging Research & Drug Discovery, Boston, the weekend before): Novo reported blood-protein clocks on samples from 10,052 people in placebo-controlled semaglutide trials, and Lilly a smaller tirzepatide study with clocks read from the marks on DNA. They are company talks reported by a journalist, not peer-reviewed reports. Novo's analysis is also posted as an unreviewed preprint (Research Square, 2026-09-22, https://doi.org/10.21203/rs.3.rs-11082091/v1), whose abstract does not say the clock analysis was planned before the data were unblinded and says it does not establish biological rejuvenation. One peer-reviewed report does exist for a related trial: semaglutide against placebo in 84 adults with HIV-associated lipohypertrophy (abnormal fat build-up in the abdomen) found slower epigenetic ageing on several clocks, with the pace of ageing on one clock 9 per cent slower (Corley and colleagues, Nature Communications, 2026-05-19, https://doi.org/10.1038/s41467-026-72861-3). Its authors call it a post hoc exploratory analysis and say epigenetic ageing was not pre-specified, so, like the 2023 CALERIE paper, it does not settle this rung."
+why = "[verification 2026-10-17] The company statements reported by MIT Technology Review on 2026-10-06 were opened and found to be conference talks, with one unreviewed preprint behind Novo's; a peer-reviewed controlled trial of semaglutide on clocks (Nature Communications, 2026-05-19) was found and, being post hoc, does not settle the rung. No stage or year was changed."
