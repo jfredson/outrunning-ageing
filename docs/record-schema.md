@@ -219,6 +219,16 @@ The claims log is talk, set against delivery (tracker pattern, section 6). It si
 | `verdict_on`, `verdict_why` | if delivered or missed | The TOML date the verdict was given and the reason, naming the record it rests on. |
 | `verify`, `notes`, `example` | no | As above. |
 
+### Five rulings on judging and sourcing a claim (John, 2026-10-17)
+
+Raised by the session that wrote the first thirty claims, put to John by the master session, and ruled in his words: "withdrawn claim stays missed, far-future claims keep their honest due year as not yet due, undated claims score at 2050, coverage-only entries shown and marked, a printed question-and-answer interview counts as primary."
+
+1. **A result claim its maker later withdrew keeps the verdict `missed`.** The claim as made was not delivered; the withdrawal is the record of that.
+2. **A claim no reader can live to check keeps its honest `due` year and the verdict `not-yet-due`**, not `unfalsifiable`. It can be settled, just not by us.
+3. **A standing claim with no date is scored against the project's fixed 2050 date**, and the entry says so in `commits_to`.
+4. **An entry held on coverage only is shown on the public page, marked plainly as such.** Hiding it would hide the repeated versions the project exists to check.
+5. **A written interview is a primary source when the answers are printed as the speaker's own words in question-and-answer form**; where the writer has rephrased them, it is coverage and the paraphrase rule applies.
+
 ### Worked example: `data/claims/kurzweil-2029-escape-velocity.toml`
 
     id = "kurzweil-2029-escape-velocity"

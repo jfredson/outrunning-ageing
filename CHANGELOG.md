@@ -2,6 +2,10 @@
 
 Every change to the records or the site, dated year-month-day, newest first. Plain language; a reader outside the project should be able to follow it.
 
+## 2026-10-17
+
+- Five rulings on judging and sourcing a claim recorded in the record layout: a withdrawn claim stays missed, far-future claims keep their due year, undated claims score at 2050, coverage-only entries are shown and marked, a printed question-and-answer interview counts as primary. Two claims' notes tidied of merge-time wiring prose.
+
 ## 2026-10-16
 
 - The three record branches merged into main: 43 leaves on the eight branches, 38 publications, 30 claims and 9 self-experiments; leaves whose stage record is a logged paper now name it by id; compute.py run gives the first headline, escape year 2058, 2.7% before 2050, none after 2100, every estimate a first pass.
