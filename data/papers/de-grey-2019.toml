@@ -17,6 +17,7 @@ for the rest, and the remainder, "very recently", from an anonymous donor. De Gr
 metformin as a treatment, argues the trial is worth the money because it would establish ageing as
 something a regulator lets a drug be tested against. Seven years on, the trial has not started
 (afar-2026)."""
+leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes", "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat"]
 branches = ["energy-and-fuel", "measuring-age"]
 moved_range = false
 settled_stage = false

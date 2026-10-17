@@ -4,7 +4,7 @@ Astro, fully static, on the Sentient Horizons design standard (`sentient-horizon
 
 ## Pages
 
-Built 2026-10-17 against the design standard's skeleton tokens only (no colour or typeface of the site's own, no backdrop), so the site's own skin can land later as the skin half of `src/styles/global.css` without restyling a page. The public names are the tracker pattern's (`design/tracker-pattern.md`, section 4); the top bar carries short handles under rule 4.7 (Branches · Claims · Reading · Story | Method · Disagree · Source), the scheme the Ledger skin's mock-up shows and John pre-approved on 2026-10-17; the self-experiments page is reached from the footer, the home page and the claims log.
+Built 2026-10-17 against the design standard's skeleton tokens only (no colour or typeface of the site's own, no backdrop), so the site's own skin can land later as the skin half of `src/styles/global.css` without restyling a page. The public names are the tracker pattern's (`design/tracker-pattern.md`, section 4); the top bar carries short handles under rule 4.7 (Branches · Claims · Self-experiments · Reading · Story | Method · Disagree · Source), the scheme the Ledger skin's mock-up shows and John pre-approved on 2026-10-17, with Self-experiments added after Claims at his ruling the same day; the footer, the home page and the claims log still link to the self-experiments page too.
 
 | address | public name | what it is |
 |---|---|---|

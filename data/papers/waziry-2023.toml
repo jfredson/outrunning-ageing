@@ -24,4 +24,7 @@ notes = """
 Intended leaves: a clock validated to predict outcomes and used as a trial measure, under measuring
 ageing; and the fuel-sensing branch, since calorie restriction is the intervention the rapamycin
 and metformin leaves imitate. A correction appeared on 2023-05-09 (Nature Aging 3(6), 753) and was
-not read here. Online 2023-02-09; the print issue is March 2023."""
+not read here. Online 2023-02-09; the print issue is March 2023.
+Ruled by John on 2026-10-17: this paper does not settle the rung of the clock-in-a-controlled-trial
+leaf, because it calls its own clock analysis post hoc and the leaf's test asks for one planned in
+advance; settled_stage stays false."""

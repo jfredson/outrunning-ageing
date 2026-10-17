@@ -16,6 +16,7 @@ diabetes had a median survival 15 percent shorter than the metformin group (surv
 had a survival 38 percent shorter. An observational comparison, open to the objection that people
 who start metformin are healthier than those who start the other drug; it is the result most often
 cited as the reason to test metformin against ageing."""
+leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes"]
 branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false

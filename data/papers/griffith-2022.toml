@@ -14,6 +14,7 @@ heart of a pig carrying ten gene edits (four pig genes removed, six human genes 
 University of Maryland. The heart worked for seven weeks, then thickened and failed suddenly from
 day 49; life support was withdrawn on day 60, and the damage did not look like ordinary rejection.
 The first pig organ to keep a living person alive, for two months."""
+leaves = ["organ-from-a-gene-edited-pig-keeps-a-person-alive"]
 branches = ["replacing-parts"]
 moved_range = false
 settled_stage = false
