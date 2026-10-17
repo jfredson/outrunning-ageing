@@ -1,17 +1,21 @@
 ---
 // The home page. The first screen follows the tracker pattern's section 1.3 (ruled by John
-// 2026-10-16), in order: the eyebrow, the thing held (the computed year in figures, with its
-// spread and the two numbers beside it), the question as the page title, one paragraph for a
-// reader who has never heard of the project, the last-checked strip, two buttons. Below it: what
-// a treatment is, the eight branches with live counts, the kinds of record with live counts, and
-// who is asking. Written for a reader who has never heard of any of this (design standard, section
-// 1a); UK spelling throughout. Every number comes from records.json (scripts/export.py), which
-// reads the computed headline from data/headline.json; nothing here is typed in. The site's own
-// skin and its trunk object, the crossing chart, come from the design session and are not here.
-// The first-screen order and the strip are copied from The Belt Equation's home page through The
-// Upgrade Tree's (tracker pattern, section 7).
+// 2026-10-16) in two columns, as the Ledger skin's proposal laid it out and John ruled on
+// 2026-10-17: left, the eyebrow, the computed year in the largest type with its claim and the three
+// statistics under it (the chance before 2050, the nine-in-ten span, the share not this century),
+// the question as the page title, one paragraph, the last-checked strip, two buttons; right, the
+// chart of the spread of escape years (Spread.astro), the trunk's picture, standing between double
+// rules as "Sheet I". The first-screen markup is the design session's (merged from main on
+// 2026-10-17); everything below the first screen is the site session's: what a treatment is, the
+// eight branches with live counts and the year each is handled in the middle run, the six kinds of
+// record with live counts, who is asking. Written for a reader who has never heard of any of this
+// (design standard, section 1a); UK spelling throughout. Every number comes from records.json
+// (scripts/export.py), which reads the computed headline from data/headline.json; nothing here is
+// typed in. The strip and the branch cards are copied from The Belt Equation and The Upgrade Tree
+// (tracker pattern, section 7).
 import Base from '../layouts/Base.astro';
-import { records, longDate, plural, percent, percentWords, spreadWords, yearWords, REPO } from '../lib/records';
+import Spread from '../components/Spread.astro';
+import { records, longDate, plural, percentWords, spreadWords, yearWords, REPO } from '../lib/records';
 
 const c = records.counts;
 const h = records.headline;
@@ -22,6 +26,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
 ---
 
 <Base>
+  <div class="home-first">
   <section class="home-hero">
     <p class="eyebrow">A public tracker of the race between repair and ageing</p>
     {h.available ? (
@@ -31,24 +36,19 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
     )}
     <p class="big-claim-line">
       {h.available
-        ? <>The middle estimate of the year medicine starts adding more than a year of healthy life for every year that passes, <span class="spread">and {spreadWords()}.</span></>
-        : <>The year medicine starts adding more than a year of healthy life for every year that passes, worked out from the record and never chosen by hand, will stand here.</>}
+        ? `The middle estimate of the year medicine starts adding more than a year of healthy life for every year that passes.`
+        : `The year medicine starts adding more than a year of healthy life for every year that passes, worked out from the record and never chosen by hand, will stand here.`}
     </p>
     {h.available && (
-      <div class="beside-row" aria-label="The two numbers beside the year">
-        <div>
-          <span class="stat">{percent(h.before_2050)}</span>
-          <span class="stat-label">the chance it arrives before {fixed.before}</span>
-        </div>
-        <div>
-          <span class="stat">{percent(h.after_2100)}</span>
-          <span class="stat-label">the share of runs in which it does not arrive this century</span>
-        </div>
+      <div class="stat-row" aria-label="The three numbers beside the year">
+        <div><span class="stat">{(h.before_2050 * 100).toFixed(1)}%</span><span class="stat-label">chance it arrives before {fixed.before}</span></div>
+        <div><span class="stat">{h.percentiles.p5}–{yearWords(h.percentiles.p95)}</span><span class="stat-label">in nine runs of ten</span></div>
+        <div><span class="stat">{Math.round(h.after_2100 * 100)}%</span><span class="stat-label">not this century</span></div>
       </div>
     )}
     <h1 class="question">When do we start outrunning ageing?</h1>
     <p class="lede">
-      Every year you live, medicine gets a little better. Right now it does not get better fast enough: for a person in middle age, the years they can expect to have left fall by about a year every year, less the small gains new treatments add. This site asks when, if ever, that stops being true: when repair overtakes ageing, so that someone who keeps up with the best available care finds their remaining years holding steady or rising instead of falling. It breaks that question into eight kinds of damage that would have to be dealt with, lists the specific treatments and measuring tools that would have to arrive under each, and computes a year from them. Beside the year it keeps a dated record of who promised what and when, held against what has actually been shown.
+      Every year you live, medicine gets a little better. Right now it does not get better fast enough: for a person in middle age, the years they can expect to have left fall by about a year every year, less the small gains new treatments add. This site asks when, if ever, that stops being true: when repair overtakes ageing, so that someone who keeps up with the best available care finds their remaining years holding steady or rising instead of falling.
     </p>
     <p class="scan-strip">
       <span class="strip-dot" aria-hidden="true"></span>
@@ -64,20 +64,31 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
     </p>
   </section>
 
+  <div class="first-side figure-card">
+    <p class="plate-label">Sheet I · The spread of escape years</p>
+    <Spread />
+    <ul class="legend">
+      <li><i class="bars"></i> share of runs ending in each five years</li>
+      <li><i class="before"></i> before {fixed.before}, the date the loudest promises name</li>
+    </ul>
+    <p class="figure-note">Two hundred thousand runs of the tree, each drawing a year for every treatment and tool; the year a run ends is when the last required branch is handled, plus the years it takes a treatment to reach ordinary people. Never typed in.</p>
+  </div>
+  </div>
+
   <section class="section explain narrow">
     <p>
-      A <em>treatment</em>, here, is one specific thing that would have to arrive for the year to move: a drug, a procedure, a gene therapy, or a measurement a regulator accepts as proof that something slowed ageing. Each one is written down with a plain test of what would count, written so that two readers would agree; who or what settles that test; where it stands today on a five-rung ladder from idea only to in wide use, with the date and the public record for every rung reached; and the project's estimate of the year it reaches the clinic, as a range with the reasoning beside it. The eight <em>branches</em> are the eight things that would have to be dealt with: seven kinds of damage that build up in a body over a lifetime, and the tools that would show whether any repair worked.
+      A <em>treatment</em>, here, is one specific thing that would have to arrive for the year to move: a drug, a procedure, a gene therapy, or a measurement a regulator accepts as proof that something slowed ageing. Each one is written down with a plain test of what would count, written so that two readers would agree; who or what settles that test; where it stands today on a five-rung ladder from idea only to in wide use, with the date and the public record for every rung reached; and the project's estimate of the year it reaches the clinic, as a range with the reasoning beside it. The eight <em>branches</em> are the eight things that would have to be dealt with: seven kinds of damage that build up in a body over a lifetime, and the tools that would show whether any repair worked. Beside the year the site keeps a dated record of who promised what and when, held against what has actually been shown.
     </p>
     {h.available ? (
       <p>
-        None of the three numbers at the top is typed in. The tree of {plural(c.leaves, 'treatment and tool', 'treatments and tools')} is played out {h.method.runs.toLocaleString('en-GB')} times, drawing a year for each from its range; the middle of all those runs is the year at the top, and the two numbers beside it are read off the same spread. The middle nine tenths of the runs land {spreadWords()}. Every estimate is still a first pass, written on {longDate(h.computed_on)} and waiting on an outside review; the year will move as the ranges are argued, and every move is dated with its reason. <a href="/method/">How the numbers are worked out.</a>
+        None of the numbers on the first screen is typed in. The tree of {plural(c.leaves, 'treatment and tool', 'treatments and tools')} is played out {h.method.runs.toLocaleString('en-GB')} times, drawing a year for each from its range; the middle of all those runs is the year at the top, and the numbers beside it and every mark on the chart are read off the same spread, {spreadWords()}. Every estimate is still a first pass, written on {longDate(h.computed_on)} and waiting on an outside review; the year will move as the ranges are argued, and every move is dated with its reason. <a href="/method/">How the numbers are worked out.</a>
       </p>
     ) : (
       <p>{h.reason} <a href="/method/">How the numbers are worked out.</a></p>
     )}
   </section>
 
-  <section class="section">
+  <section class="section" id="branches">
     <div class="shead"><h2>The eight branches</h2><span>what has to be dealt with, and what is recorded under each</span></div>
     <ul class="branches">
       {branches.map((b) => (
@@ -99,7 +110,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
     </p>
   </section>
 
-  <section class="section narrow">
+  <section class="section narrow" id="records">
     <div class="shead"><h2>What is recorded</h2><span>six kinds of record, each with its own page</span></div>
     <ul class="records">
       <li class="record-card">

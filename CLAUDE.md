@@ -20,6 +20,19 @@ Background-job sessions cannot push to `main`. If a task here runs as a backgrou
 say up front that the result will land on a branch, and open a pull request so the merge
 is one click.
 
+## Design
+
+The site wears its own skin, "Ledger" (paper and ink with a clinical blue; ruled by John 2026-10-17
+from the proposal in `sentient-horizons/design/proposals/outrunning-ageing-skin-2026-10-17.md`),
+on the family's shared skeleton (design standard, section 3a). `site/src/styles/skin.css` holds
+this site's tokens for both themes and nothing else; `site/src/styles/global.css` imports it, then
+carries `sentient-horizons/design/shell.css` copied unchanged with the version noted, then this
+site's own rules below the marked line. Never edit the skeleton here; update the copy when the
+standard changes. Light is the default theme; there is no backdrop; the chart of the spread of
+escape years (`site/src/components/Spread.astro`, read from the headline file) is the picture, and
+stands on the paper between double rules as "Sheet I". Every colour is a token; data is coloured
+with `--accent-3`; the sepia `--accent-2` marks the promised date and nothing else. No web fonts.
+
 ## Every design choice comes with confidence and an alternative
 
 Ruled by John 2026-09-08. Before asking John to accept any design choice (a record field, a

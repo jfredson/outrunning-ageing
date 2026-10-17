@@ -8,18 +8,18 @@
 // with the source link last as the siblings have it. There is no Home link: the site's name links
 // home, as the standard's section 6 says.
 // Rule 4.7 (ruled by John 2026-10-16): the bar carries short handles, one or two words per page,
-// and the full plain names stay as the page titles and in the footer. The handles here were
-// proposed by the site session on 2026-10-17 on the siblings' pattern (The Upgrade Tree: Branches
-// · Reading · Claims · Story | Method · Disagree · Source) and wait on John: Tree · Claims ·
-// Self-experiments · Reading · Story | Method · Disagree · Source. "Tree" rather than "Branches"
-// because the ruled public name of the page is "The tree"; "Self-experiments" is the one two-part
-// handle, and "Experiments" is the alternative if the row is tight.
+// and the full plain names stay as the page titles and in the footer. The handles are the ones the
+// Ledger skin's mock-up shows and John pre-approved on 2026-10-17 through the master session
+// ("go ahead and run with it and we can revise it as necessary later today"): Branches · Claims ·
+// Reading · Story | Method · Disagree · Source, The Upgrade Tree's scheme exactly. The
+// self-experiments page is reached from the footer, the home page and the claims log rather than
+// the bar (the site session's reading of the pre-approval; rule 4.6 would put it in the spine, so
+// adding "Self-experiments" after "Claims" is the one-line change if John wants it there).
 import { REPO } from '../lib/records';
 const path = Astro.url.pathname;
 const primary = [
-  { href: '/branches/', label: 'Tree', also: ['/leaves/'] },
-  { href: '/claims/', label: 'Claims', also: [] },
-  { href: '/self-experiments/', label: 'Self-experiments', also: [] },
+  { href: '/branches/', label: 'Branches', also: ['/leaves/'] },
+  { href: '/claims/', label: 'Claims', also: ['/self-experiments/'] },
   { href: '/reading/', label: 'Reading', also: [] },
   { href: '/story/', label: 'Story', also: [] },
 ];
@@ -81,12 +81,12 @@ const isActive = (l: { href: string; also: string[] }) =>
     var btn = document.querySelector('.theme-toggle');
     if (!btn) return;
     var meta = document.getElementById('theme-color-meta');
-    var COLORS = { dark: '#08070f', light: '#faf9f7' };
+    var COLORS = { dark: '#10161c', light: '#f3eee3' };
     function sync(theme) {
       document.documentElement.dataset.theme = theme;
       if (meta) meta.setAttribute('content', COLORS[theme] || COLORS.dark);
     }
-    sync(document.documentElement.dataset.theme === 'light' ? 'light' : 'dark');
+    sync(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
     btn.addEventListener('click', function () {
       var next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
       try { localStorage.setItem('theme', next); } catch (e) {}
