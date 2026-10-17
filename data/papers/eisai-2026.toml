@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "eisai-2026"
+date = "2026-07-13"
+added_on = 2026-10-17
+authors = ["Eisai Co., Ltd.", "Biogen Inc."]
+title = "FDA Approves LEQEMBI IQLIK (lecanemab-irmb) Subcutaneous Injection as an Initiation Dose for Early Alzheimer's Disease"
+venue = "Company press release, Tokyo and Cambridge, Massachusetts, 2026-07-13, as carried by BioSpace"
+link = "https://www.biospace.com/press-releases/fda-approves-leqembi-iqlik-lecanemab-irmb-subcutaneous-injection-as-an-initiation-dose-for-early-alzheimers-disease"
+finding = """
+The two companies say the United States regulator has approved an under-the-skin weekly autoinjector form of lecanemab as the starting dose as well as the maintenance dose (500 mg a week as two injections to start; 360 mg a week after 18 months), so that a whole course can be taken at home; a United States launch as a starting dose was planned for late August 2026. The approval rests on exposure matching the drip form in a long-term extension of the main trial, with similar rates of brain swelling and bleeding and some injection-site reactions. The release gives no figure for how many people have been treated.
+"""
+leaves = ["antibody-clears-amyloid-from-the-brain-and-slows-decline"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+verify = ["The regulator's own notice of the approval was not found or opened; the date and the regimen are the companies'."]
+notes = """
+Added under the weekly reading of 2026-10-17. It removes the leaf's stated condition that the drug needs infusions, but not the brain scans, the price or the missing uptake figures, so the leaf stays at clinical use. Whether it moves the estimate's earliest or likely wide-use year is for John.
+"""

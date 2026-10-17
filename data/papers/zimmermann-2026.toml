@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "zimmermann-2026"
+date = "2026-05-27"
+added_on = 2026-10-17
+authors = ["Wolfram-Hubertus Zimmermann", "Stephan Ensminger", "Ingo Kutschka", "Christina Paitazoglou", "Tim Seidler", "Soren Brandenburg", "Stefan D. Anker", "and 28 others (35 in all), for the BioVAT-HF Investigators"]
+title = "Stem-Cell-Derived Biologic Ventricular Assist Tissue in Heart Failure"
+venue = "New England Journal of Medicine 394(20), 1991-2001 (2026), published online 2026-05-27, issue dated 2026-05-28; trial registered as NCT04396899"
+link = "https://doi.org/10.1056/NEJMoa2513525"
+finding = """
+In an open-label phase 1-2 study with no comparison group, 20 people with heart failure (ejection fraction 35 per cent or less) were given patches of engineered heart muscle made from donor stem cells, with drugs to prevent rejection. Three died during the study (one each of vasoplegia, covid-19 and aortic dissection) and one had a heart transplant. Of the 16 given the highest dose, 12 had reached the 3-month interim follow-up: the treated wall was 4.5 mm thicker, the heart's ejection fraction was 3.9 percentage points higher (P = 0.04) and a quality-of-life score 6.7 points higher (P = 0.06). Every patient had at least one adverse event.
+"""
+leaves = ["heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart"]
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+verify = ["Only the abstract was open to read (the full text is behind a payment page); the 6 to 52 months of follow-up that press releases mention is not in the abstract, which reports an interim analysis at 3 months."]
+notes = """
+Added under the weekly reading of 2026-10-17. The heart-patch leaf was already at first human on the 2025 single-case report in Nature (stage_record unchanged); this paper is a larger human result of the same kind. Because it is an interim, uncontrolled analysis and the next rung is an approval, no stage moves. The paper is not named as the leaf's stage record, so settled_stage stays false.
+"""

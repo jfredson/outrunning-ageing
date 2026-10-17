@@ -1,0 +1,20 @@
+# Publications log. Added 2026-10-17 under the weekly reading of 2026-10-17 (first reading's flagged items, applied as a dated batch). The page was opened and read on 2026-10-17.
+
+id = "life-biosciences-2026-interim"
+date = "2026-10-08"
+added_on = 2026-10-17
+authors = ["Life Biosciences, Inc."]
+title = "Life Biosciences Announces First-in-Human Data from Ongoing Phase 1 Trial Evaluating ER-100 in Optic Neuropathies"
+venue = "Company press release, Boston, 2026-10-08, with data presented at a meeting of the American Academy of Ophthalmology; trial registered as NCT07290244"
+link = "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/"
+finding = """
+The company reports interim results from the first three people with open-angle glaucoma given its eye-injected reprogramming therapy ER-100 (first dose level, with a daily antibiotic to switch the genes on for 56 days) in an open-label safety trial: no dose-limiting toxicity and no serious adverse events by day 56, and a safety board's recommendation to move to the second dose level. In two of the three people, at least 28 per cent of tested points in the visual field improved by more than 4 decibels at day 56; the company calls this a preliminary signal in a trial designed to measure safety.
+"""
+leaves = ["a-person-receives-cell-resetting-genes-in-a-trial", "partially-resetting-cells-reverses-ageing-in-an-animal"]
+branches = ["cell-settings"]
+moved_range = false
+settled_stage = false
+verify = ["The release is the sponsor's own and has not been checked against the conference presentation, which was not opened; the visual-field figures are the company's."]
+notes = """
+Added under the weekly reading of 2026-10-17. An open-label company announcement of a visual-function change in two of three people is not the peer-reviewed report the cell-resetting-in-animals leaf asks for at its first-human rung, and it measures sight, not a marker of biological age; the leaf stays at shown in animals. The first-dose record of 2026-06-09 is life-biosciences-2026.
+"""
