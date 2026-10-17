@@ -23,15 +23,12 @@ approves such a cell therapy for use outside a trial."""
 settler = "The peer-reviewed trial report; the trial registry; the regulator's approval record for the clinic rung"
 stage = "first-human"
 stage_reached_on = "2025-06"
-stage_record = "https://doi.org/10.1056/NEJMoa2503022"
+stage_record = "https://doi.org/10.1056/NEJMoa2506549"
 status = "tracked"
 horizon = "near"
 
 verify = [
-  "The 2025 New England Journal of Medicine report (Reichman and colleagues; zimislecel, 12 people, 10 insulin-free at a year) and its DOI are from memory; the month, June 2025, matches the company's notice and the diabetes association meeting it was presented at.",
-  "The 2014 Cell report (Pagliuca, Melton and colleagues; insulin-producing cells made from human stem cells in bulk, reversing diabetes in mice) and its date, 9 October 2014, are from memory.",
-  "That the company said in 2025 it would file for approval in 2026, and that the late-stage dosing was briefly paused for a manufacturing review, are from 2025 coverage; whether the filing had been made by 2026-10-16 was not found.",
-  "That the Parkinson's cell therapy bemdaneprocel entered a 102-person late-stage trial in June 2025 with its first patient treated in September 2025 and a main readout expected in 2027 is from the trial registry as summarised in coverage.",
+  "Vertex's results releases show no filing for approval as of 2026-08-03; it said in 2025-08 it expected to file in 2026, postponed completing dosing from 2025-11 to about 2026-05 for a manufacturing review, and promised updated timelines later in 2026. Whether it has filed since was not found.",
 ]
 notes = """
 The branch's own line asks for a stem cell therapy restoring a lost function in a controlled

@@ -29,10 +29,6 @@ status = "tracked"
 horizon = "mid"
 sibling = "lifespan-a-drug-clears-aged-cells-from-a-persons-body"
 
-verify = [
-  "The dates of the 2011 mouse result (2 November 2011) and the 2019 trial report (18 September 2019) are copied from The Upgrade Tree's record and not re-checked against the journals here.",
-  "That Unity Biotechnology's knee osteoarthritis trial of UBX0101 failed its primary endpoint in August 2020, and that no senolytic drug is approved anywhere as of 2026-10-16, are from memory.",
-]
 notes = """
 The animal record is the 2011 Mayo Clinic report in which clearing such cells from mice delayed
 several age-related conditions. An earlier 2019 pilot in people with lung scarring reported

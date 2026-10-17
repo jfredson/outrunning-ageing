@@ -9,9 +9,9 @@ Sugar in the blood slowly reacts with long-lived proteins such as the collagen i
 and skin, welding them together with cross-links that the body cannot undo; arteries stiffen,
 blood pressure rises, and the heart works harder. A drug that broke those welds was tried in
 people in 2001: alagebrium made the arteries of older adults measurably more elastic over eight
-weeks in a small controlled trial. Larger trials in the 2000s found little, the company ran out
-of money, and it was later found that the main human cross-link, glucosepane, is not one the drug
-broke. A new generation of drugs aimed at glucosepane was in the laboratory when this was
+weeks in a small controlled trial. A placebo-controlled trial in 102 people with heart failure (2011) found no gain,
+the company ran out of money and ended its remaining trials in January 2009, and nothing shows the
+drug breaks glucosepane, the main human cross-link. A new generation of drugs aimed at glucosepane was in the laboratory when this was
 written."""
 test = """
 A person given a drug meant to break advanced glycation cross-links afterwards has measurably
@@ -25,18 +25,17 @@ stage_record = "https://doi.org/10.1161/hc3801.097806"
 status = "tracked"
 horizon = "far"
 
-verify = [
-  "The 2001 Circulation report (Kass, Lakatta and colleagues; alagebrium, then ALT-711, improved arterial compliance in 93 older adults over eight weeks) and its date, 25 September 2001, are from memory.",
-  "That later trials of alagebrium in heart failure and hypertension found no clear benefit, that the company (Alteon, then Synvista) stopped in 2009, and that the drug does not break glucosepane, the main human cross-link, are from memory.",
-  "That a glucosepane-breaking enzyme was reported from Yale in 2020 (Nature Chemical Biology) and that a company (Revel Pharmaceuticals) was developing it, are from memory; no animal result from it was in hand.",
-  "No animal rung is recorded: the 1990s rat and dog results with the earlier breaker are known to exist but were not checked for a date.",
-]
 notes = """
 Cross-links are not one of the twelve published kinds of ageing damage (the "hallmarks"), and the branch carries
 them in its meaning rather than its hallmark list; they are on the tree because arterial
 stiffening is among the most reliable changes of age and nothing in the clinic reverses it. The
 2001 result stands as a first human on a measurement for the class even though the drug that
 produced it is gone."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "1998-04-14"
+record = "https://doi.org/10.1073/pnas.95.8.4630"
 
 [estimate]
 status = "first-pass"
