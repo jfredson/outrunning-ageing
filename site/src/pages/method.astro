@@ -50,7 +50,7 @@ const docs = [
   {
     title: 'The computed result',
     file: 'data/headline.json',
-    what: 'What the computation wrote: the date, the settings, the three numbers, the spread, and for each branch the year it counts as handled and what each treatment supplied. It is committed with the records it is computed from, so every change to the year is a visible change with a line in the changelog.',
+    what: 'What the computation wrote: the date, the settings, the three numbers, the spread, and for each branch the year it counts as handled and what each treatment supplied. It is committed with the records it is computed from, so every change to the year is a visible change with a line in the changelog. The same file is served from this site at /data/headline.json, so anyone can fetch the numbers without the repository.',
   },
   {
     title: 'The changelog',
@@ -123,7 +123,7 @@ const docs = [
               );
             })}
           </svg>
-          <p class="chart-source">Source: the computed result in the public repository (data/headline.json), {longDate(h.computed_on)}. Each span is labelled with its first year; the last bar is every run after {fixed.century_end}.</p>
+          <p class="chart-source">Source: the computed result in the public repository (data/headline.json), {longDate(h.computed_on)}, also served from this site at <a href={h.served_at}>{h.served_at}</a>. Each span is labelled with its first year; the last bar is every run after {fixed.century_end}.</p>
         </div>
 
         {run && (

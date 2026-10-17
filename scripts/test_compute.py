@@ -786,5 +786,45 @@ class TheRun(unittest.TestCase):
         self.assertGreaterEqual(h["percentiles"]["p5"], max(floors) + compute.LAG[0])
 
 
+class TheServedHeadline(unittest.TestCase):
+    """The export copies data/headline.json unchanged to where the site serves it as
+    /data/headline.json (added 2026-10-17 from the lessons review's lesson 1), and removes a
+    stale copy when there is no computed headline."""
+
+    def export(self, data: Path, out: Path, public: Path, *extra: str) -> int:
+        import export
+        o, e = io.StringIO(), io.StringIO()
+        with redirect_stdout(o), redirect_stderr(e):
+            code = export.main(["--data", str(data), "--out", str(out), "--public", str(public), *extra])
+        self.assertEqual(code, 0, e.getvalue())
+        return code
+
+    def test_export_serves_the_headline_file_unchanged(self):
+        with TempData() as data:
+            out, public = data.parent / "out", data.parent / "public"
+            self.export(data, out, public)
+            self.assertTrue((out / "records.json").exists())
+            self.assertEqual((public / "headline.json").read_bytes(), (data / "headline.json").read_bytes())
+            import json
+            exported = json.loads((out / "records.json").read_text(encoding="utf-8"))
+        self.assertEqual(exported["headline"]["served_at"], "/data/headline.json")
+
+    def test_export_removes_the_served_copy_when_there_is_no_headline(self):
+        with TempData() as data:
+            out, public = data.parent / "out", data.parent / "public"
+            self.export(data, out, public)
+            self.assertTrue((public / "headline.json").exists())
+            (data / "headline.json").unlink()
+            self.export(data, out, public)
+            self.assertFalse((public / "headline.json").exists())
+
+    def test_check_writes_nothing(self):
+        with TempData() as data:
+            out, public = data.parent / "out", data.parent / "public"
+            self.export(data, out, public, "--check")
+            self.assertFalse(out.exists())
+            self.assertFalse(public.exists())
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)

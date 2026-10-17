@@ -9,6 +9,7 @@ Plain Python, standard library only. Run from anywhere:
     python3 scripts/export.py --data DIR       read a different data folder (for tests)
     python3 scripts/export.py --headline FILE  read the headline numbers from another file
     python3 scripts/export.py --changelog FILE read the changelog from another file
+    python3 scripts/export.py --public DIR     put the served copy of the headline file somewhere else
 
 The records are read with the same loader and validator as scripts/compute.py, so the site can
 never show a record that fails the schema: if validation fails, nothing is written and the
@@ -31,9 +32,17 @@ waiting on John, and the latest reading for the home page's strip; and the retir
 examples of the layout are counted separately and an example reading is never the site's
 reading (record layout, decision 13).
 
+The headline file is also served from the site. Beside records.json, the export copies
+data/headline.json unchanged to site/public/data/headline.json, which the build serves at
+outrunningageing.com/data/headline.json (the family's lesson 1 from the lessons review of
+2026-10-17: a reader who knows only the site can find the numbers, and the parent site can read
+them from the site rather than the repository). The copy is not committed (site/.gitignore) and is
+rewritten on every export; when there is no computed headline, a stale copy is removed, so the
+site never serves numbers the records no longer carry.
+
 Written 2026-10-16; widened 2026-10-17 by the site session, and again the same day by the
 weekly-reading session (items for claims and self-experiments, the four verdicts, the groups and
-the waiting list).
+the waiting list); the served copy of the headline file added 2026-10-17.
 """
 
 from __future__ import annotations
@@ -42,6 +51,7 @@ import argparse
 import datetime as dt
 import json
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -54,6 +64,10 @@ import compute  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 TZ = ZoneInfo("America/Los_Angeles")
 SIBLING_SITE = "https://theupgradetree.com"
+# Where the built site serves the headline file from: site/public/data/headline.json becomes
+# /data/headline.json on outrunningageing.com (Astro copies public/ into dist/ as it is).
+PUBLIC_DIR = ROOT / "site" / "public" / "data"
+SERVED_HEADLINE = "/data/headline.json"
 
 STAGE_LABELS: dict[str, str] = {
     "idea-only": "Idea only",
@@ -183,6 +197,18 @@ def load_headline(path: Path | None) -> dict | None:
     if not all(k in h for k in ("median_year", "before_2050", "after_2100")):
         return None
     return h
+
+
+def serve_headline(headline_file: Path | None, public_dir: Path) -> Path | None:
+    """Copy the computed headline file, byte for byte, to where the site serves it; return the
+    copy's path, or None (and remove any stale copy) when there is no computed headline."""
+    target = public_dir / "headline.json"
+    if load_headline(headline_file) is None:
+        target.unlink(missing_ok=True)
+        return None
+    public_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(headline_file, target)
+    return target
 
 
 def read_changelog(path: Path | None) -> dict:
@@ -651,7 +677,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
         headline = {"available": False, "reason": reason}
     else:
         headline = {"available": True, **h, "file": str(headline_file.relative_to(ROOT) if headline_file and headline_file.is_relative_to(ROOT) else headline_file),
-                    "worked_run": worked_run(branch_recs, leaves, h)}
+                    "served_at": SERVED_HEADLINE, "worked_run": worked_run(branch_recs, leaves, h)}
 
     counts = {
         "branches": len(branches), "branches_expected": len(compute.BRANCHES),
@@ -747,6 +773,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--out", default=str(ROOT / "site" / "src" / "data"))
     parser.add_argument("--headline", default=None, help="the headline JSON (default: DATA/headline.json)")
     parser.add_argument("--changelog", default=str(ROOT / "CHANGELOG.md"), help="the changelog to read for the story page")
+    parser.add_argument("--public", default=str(PUBLIC_DIR),
+                        help="the folder the site serves as /data/, where the headline file is copied (default: site/public/data)")
     parser.add_argument("--check", action="store_true", help="validate and print counts, write nothing")
     args = parser.parse_args(argv)
 
@@ -774,6 +802,11 @@ def main(argv: list[str] | None = None) -> int:
     out.mkdir(parents=True, exist_ok=True)
     (out / "records.json").write_text(json.dumps(export, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"wrote {out / 'records.json'}")
+    served = serve_headline(headline_file, Path(args.public).resolve())
+    if served is not None:
+        print(f"copied {headline_file} to {served} (served as {SERVED_HEADLINE})")
+    else:
+        print(f"no computed headline, so nothing is served as {SERVED_HEADLINE}")
     return 0
 
 

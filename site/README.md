@@ -1,6 +1,6 @@
 # The website
 
-Astro, fully static, on the Sentient Horizons design standard (`sentient-horizons/design/`), served from Cloudflare Workers static assets with a small worker in front for forwarding. Holding version 2026-10-16; the pages built 2026-10-17.
+Astro, fully static, on the Sentient Horizons design standard (`sentient-horizons/design/`), served from Cloudflare Workers static assets with a small worker in front for forwarding. Holding version 2026-10-16; the pages built and live at outrunningageing.com 2026-10-17.
 
 ## Pages
 
@@ -19,6 +19,8 @@ Built 2026-10-17 against the design standard's skeleton tokens only (no colour o
 | `/method/` | How the numbers are worked out | the plain account: who is asking, what the computation does, the numbers as they stand with the spread drawn as a live chart, one run written out by hand, the ten settings each with its reason and strongest alternative, where the ranges come from, what counts as a record, who does what, and the working documents linked with prefaces |
 | `/disagree/` | Disagree with something | the three forms (a missing treatment with its test; a questioned test or settler; an argued range), each an issue template in `.github/ISSUE_TEMPLATE/`, and what happens next in four steps |
 | `/404.html` | | not found |
+| `/data/headline.json` | | the computed headline file, `data/headline.json` in the repository, served unchanged from the site since 2026-10-17 so that a reader who knows only the site can fetch the numbers and the parent site can read them from here |
+| `/robots.txt` | | allows crawling and promises nothing: there is no sitemap, and every page is reached from the home page and the top bar |
 
 ## How it is built
 
@@ -26,6 +28,8 @@ Built 2026-10-17 against the design standard's skeleton tokens only (no colour o
 - `src/components/Spread.astro` is the trunk's picture, the spread of escape years, drawn at build time from the headline in `records.json`: five-year bars, the middle estimate as a rule, the fixed promised date as a dashed line in the second mark, the nine-in-ten span as a bracket, the not-this-century share at the edge. Nothing on it is drawn by hand.
 - `src/layouts/Base.astro` and `src/components/Nav.astro` are the standard's shell: theme script, two-tier top bar with short handles, four-line footer, then the medical notice John ruled on 2026-10-16, then the family line. `src/components/StageBadge.astro` is The Upgrade Tree's stage pill, copied.
 - `src/lib/records.ts` types the JSON that `scripts/export.py` writes to `src/data/records.json` at build time (not committed): every record in full with its links resolved to names and addresses, the computed headline from `data/headline.json` with a worked run added, the story entries and the changelog's days. Every page reads from it; nothing in the browser touches the TOML records, and the export script is the only reader of the data.
+- **The headline file is served from the site as well as from the repository.** Every time `scripts/export.py` runs, which is before every `dev` and every `build`, it copies `data/headline.json` byte for byte to `public/data/headline.json` (not committed; listed in `.gitignore` beside the export's JSON), and Astro ships `public/` into `dist/` as it is, so `dist/data/headline.json` goes out with every deploy and answers at outrunningageing.com/data/headline.json. The weekly reading's publish step exports before it builds, so the served copy carries the newest numbers; when there is no computed headline the copy is removed and the address answers like any missing page. The method page links to it under the chart. Adopted 2026-10-17 from the Sentient Horizons lessons review of the same day (lesson 1, the notes); three tests in `scripts/test_compute.py` cover the copy.
+- `public/robots.txt` allows crawling and names no sitemap. Until 2026-10-17 it promised one "with the first full version"; the full version went live without one, so the promise was removed (the lessons review's fault 3 for this site) rather than a sitemap added, since every page is reached from the home page and the top bar.
 - `worker/redirect.js` runs in front of the static files and sends www.outrunningageing.com, outrunningaging.com and www.outrunningaging.com to the same page at outrunningageing.com with a permanent redirect.
 - `wrangler.jsonc` names the worker and carries the four custom-domain routes.
 
