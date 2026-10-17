@@ -1,0 +1,36 @@
+#!/bin/sh
+# Commit-message date check (added 2026-10-12, instruction-file audit item 29).
+# John's rule: dates in docs, logs and commits are absolute, year-month-day.
+# Rejects month-name dates ("Oct 12", "12 October"), slash dates ("10/12/2026") and
+# relative words ("yesterday", "last week", a bare "today"). Capitalised "Today" and
+# "today's" are allowed, because they name a screen and a feature in the apps. Merge
+# and revert messages are skipped.
+# Bypass for a deliberate exception: git commit --no-verify
+command -v python3 >/dev/null 2>&1 || exit 0
+exec python3 - "$1" <<'PY'
+import re, sys
+text = open(sys.argv[1], encoding="utf-8", errors="replace").read()
+text = text.split("# ------------------------ >8")[0]
+lines = [l for l in text.splitlines() if not l.startswith("#")]
+if lines and re.match(r"(Merge|Revert) ", lines[0]):
+    sys.exit(0)
+body = "\n".join(l for l in lines if not re.match(r"(Co-Authored-By|Signed-off-by):", l, re.I))
+months = r"(Jan(uary)?|Feb(ruary)?|Mar(ch)?|Apr(il)?|May|June?|July?|Aug(ust)?|Sep(t(ember)?)?|Oct(ober)?|Nov(ember)?|Dec(ember)?)"
+checks = [
+    (rf"\b{months}\.? \d{{1,2}}(st|nd|rd|th)?\b", "month-name date"),
+    (rf"\b\d{{1,2}}(st|nd|rd|th)? {months}\b", "month-name date"),
+    (r"\b\d{1,2}/\d{1,2}/\d{2,4}\b", "slash date"),
+    (r"\b(yesterday|tomorrow|tonight|last (week|night|month)|next (week|month)|this (morning|week|afternoon|evening)|earlier today|later today)\b", "relative date"),
+    (r"(?<![A-Za-z_'])today\b(?!')", "relative date"),
+]
+found = []
+for pattern, label in checks:
+    for m in re.finditer(pattern, body):
+        found.append(f'  {label}: "{m.group(0)}"')
+if found:
+    print("Commit message uses a date that is not year-month-day:", file=sys.stderr)
+    print("\n".join(found), file=sys.stderr)
+    print("Write the absolute date instead (for example 2026-10-12).", file=sys.stderr)
+    print("Deliberate exception: git commit --no-verify", file=sys.stderr)
+    sys.exit(1)
+PY
