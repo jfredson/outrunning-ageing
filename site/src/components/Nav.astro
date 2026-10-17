@@ -11,15 +11,17 @@
 // and the full plain names stay as the page titles and in the footer. The handles are the ones the
 // Ledger skin's mock-up shows and John pre-approved on 2026-10-17 through the master session
 // ("go ahead and run with it and we can revise it as necessary later today"): Branches · Claims ·
-// Reading · Story | Method · Disagree · Source, The Upgrade Tree's scheme exactly. The
-// self-experiments page is reached from the footer, the home page and the claims log rather than
-// the bar (the site session's reading of the pre-approval; rule 4.6 would put it in the spine, so
-// adding "Self-experiments" after "Claims" is the one-line change if John wants it there).
+// Reading · Story | Method · Disagree · Source, The Upgrade Tree's scheme exactly. John ruled on
+// 2026-10-17 that "Self-experiments" joins the spine after "Claims", as rule 4.6 has it (the first
+// build had left it to the footer, the home page and the claims log). The extra name needs about
+// 1000px on one row, so the bar collapses to the menu at 1020px (rules at the end of global.css)
+// instead of the skeleton's 820px, which would let it wrap onto a second line in between.
 import { REPO } from '../lib/records';
 const path = Astro.url.pathname;
 const primary = [
   { href: '/branches/', label: 'Branches', also: ['/leaves/'] },
-  { href: '/claims/', label: 'Claims', also: ['/self-experiments/'] },
+  { href: '/claims/', label: 'Claims', also: [] },
+  { href: '/self-experiments/', label: 'Self-experiments', also: [] },
   { href: '/reading/', label: 'Reading', also: [] },
   { href: '/story/', label: 'Story', also: [] },
 ];
@@ -72,7 +74,7 @@ const isActive = (l: { href: string; also: string[] }) =>
     }
     btn.addEventListener('click', function () { setOpen(!header.classList.contains('nav-open')); });
     menu.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
-    window.addEventListener('resize', function () { if (window.innerWidth > 820) setOpen(false); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 1020) setOpen(false); });
   })();
 </script>
 

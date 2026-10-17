@@ -521,3 +521,17 @@ a.dim:hover { color: var(--accent); }
   .branches { grid-template-columns: 1fr; }
   .bcard { min-height: 0; }
 }
+
+/* The top bar collapses to the menu earlier than the skeleton's 820px (2026-10-17). With
+   "Self-experiments" in the bar the seven names, the rule and the theme toggle need about 1000px
+   on one row; between 821px and there the skeleton lets the row wrap onto a second line. These are
+   the skeleton's own collapse rules, repeated at the wider breakpoint, so nothing above the marked
+   line changes; the script in Nav.astro closes the open menu at the same width. */
+@media (max-width: 1020px) {
+  .nav-toggle { display: inline-flex; }
+  .navlinks { display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; align-items: flex-end; gap: 2px; margin: 0; padding: 8px 26px 16px; background: var(--header-bg); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .site-header.nav-open .navlinks { display: flex; }
+  .navlinks a { padding: 11px 6px; border-radius: 6px; font-size: 15px; text-align: right; }
+  .navlinks a.nav-secondary { font-size: 15px; }
+  .nav-divider { display: none; }
+}
