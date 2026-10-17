@@ -16,5 +16,5 @@ moved_range = false
 settled_stage = false
 verify = ["The main clinical measures (fatigue, pain, joint function over six weeks) were listed but their results were not read in the tables."]
 notes = """
-Added under the weekly reading of 2026-10-17. It is the nearest controlled human result to the young-blood leaf's first-human test, but its measure is the response to surgical injury, not an age-related function, so the leaf stays at shown in animals; John decides whether such a measure could count.
+Added under the weekly reading of 2026-10-17. It is the nearest controlled human result to the young-blood entry's first-human test, but its measure is the response to surgical injury, not an age-related function, so the entry stays at shown in animals; John decides whether such a measure could count.
 """

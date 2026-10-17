@@ -40,7 +40,7 @@ Added 2026-10-17, from the weekly reading of that date: on 2026-10-08 the compan
 interim results from the first three people with glaucoma (life-biosciences-2026-interim): no serious
 adverse events by day 56, a safety board's recommendation to move to the second dose level, and a
 preliminary improvement in the visual field in two of the three. It is a company announcement of an
-open-label safety trial; this leaf counts the dose, which was already on the record, so the stage does
+open-label safety trial; this entry counts the dose, which was already on the record, so the stage does
 not change.
 """
 
@@ -64,6 +64,6 @@ latest = 2075
 date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
-new = "Added 2026-10-17, from the weekly reading of that date: on 2026-10-08 the company announced interim results from the first three people with glaucoma (life-biosciences-2026-interim): no serious adverse events by day 56, a safety board's recommendation to move to the second dose level, and a preliminary improvement in the visual field in two of the three. It is a company announcement of an open-label safety trial; this leaf counts the dose, which was already on the record, so the stage does not change."
+new = "Added 2026-10-17, from the weekly reading of that date: on 2026-10-08 the company announced interim results from the first three people with glaucoma (life-biosciences-2026-interim): no serious adverse events by day 56, a safety board's recommendation to move to the second dose level, and a preliminary improvement in the visual field in two of the three. It is a company announcement of an open-label safety trial; this entry counts the dose, which was already on the record, so the stage does not change."
 why = "[reading 2026-10-17] Notes the interim data of 2026-10-08, which the record of 2026-10-16 did not mention."
 publication = "life-biosciences-2026-interim"

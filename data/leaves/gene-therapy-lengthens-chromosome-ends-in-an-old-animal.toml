@@ -57,8 +57,8 @@ of treatment late in the century.
 [Note 2026-10-17, from the weekly reading of that date: the first sentence above is wrong as
 written. A registered gene-therapy trial in people with a telomere disease did exist, for a
 different gene, ZSCAN4 (registry entry NCT04211714), and it published two patients in 2025
-(myers-2025); the leaf's own checks also list a 2019 trial of a telomerase gene therapy registered
-in Colombia. The ZSCAN4 report does not meet this leaf's first-human test on a plain reading: the
+(myers-2025); the checks listed on this entry also name a 2019 trial of a telomerase gene therapy registered
+in Colombia. The ZSCAN4 report does not meet this entry's first-human test on a plain reading: the
 gene is ZSCAN4 and not telomerase, the cells were treated outside the body, there are two patients,
 and no cancer rate is given. The years are unchanged. Whether the ZSCAN4 report should count for the
 first-human rung is John's ruling; if it does, the first-human estimate falls away with the move.]
@@ -80,7 +80,7 @@ latest = 2110
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
-new = "[Note 2026-10-17, from the weekly reading of that date: the first sentence above is wrong as written. A registered gene-therapy trial in people with a telomere disease did exist, for a different gene, ZSCAN4 (registry entry NCT04211714), and it published two patients in 2025 (myers-2025); the leaf's own checks also list a 2019 trial of a telomerase gene therapy registered in Colombia. The ZSCAN4 report does not meet this leaf's first-human test on a plain reading: the gene is ZSCAN4 and not telomerase, the cells were treated outside the body, there are two patients, and no cancer rate is given. The years are unchanged. Whether the ZSCAN4 report should count for the first-human rung is John's ruling; if it does, the first-human estimate falls away with the move.]"
+new = "[Note 2026-10-17, from the weekly reading of that date: the first sentence above is wrong as written. A registered gene-therapy trial in people with a telomere disease did exist, for a different gene, ZSCAN4 (registry entry NCT04211714), and it published two patients in 2025 (myers-2025); the checks listed on this entry also name a 2019 trial of a telomerase gene therapy registered in Colombia. The ZSCAN4 report does not meet this entry's first-human test on a plain reading: the gene is ZSCAN4 and not telomerase, the cells were treated outside the body, there are two patients, and no cancer rate is given. The years are unchanged. Whether the ZSCAN4 report should count for the first-human rung is John's ruling; if it does, the first-human estimate falls away with the move.]"
 why = "[reading 2026-10-17] A dated note that the estimate's first sentence ('no registered trial of a telomerase gene therapy in people existed') is wrong as written, and why the ZSCAN4 report does not move the stage; no year changed."
 publication = "myers-2025"
 

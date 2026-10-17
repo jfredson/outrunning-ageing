@@ -16,5 +16,5 @@ moved_range = false
 settled_stage = false
 verify = ["Only the abstract was open to read (the full text is behind a payment page); the 6 to 52 months of follow-up that press releases mention is not in the abstract, which reports an interim analysis at 3 months."]
 notes = """
-Added under the weekly reading of 2026-10-17. The heart-patch leaf was already at first human on the 2025 single-case report in Nature (stage_record unchanged); this paper is a larger human result of the same kind. Because it is an interim, uncontrolled analysis and the next rung is an approval, no stage moves. The paper is not named as the leaf's stage record, so settled_stage stays false.
+Added under the weekly reading of 2026-10-17. The heart-patch entry was already at first human on the 2025 single-case report in Nature (its stage record unchanged); this paper is a larger human result of the same kind and is the next rung's sort of evidence only in the sense that a regulator would look at it. Because it is an interim, uncontrolled analysis and the next rung is an approval, no stage moves. The paper is not named as the entry's stage record, so it is not marked as having settled a stage.
 """

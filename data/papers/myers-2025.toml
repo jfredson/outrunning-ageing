@@ -16,5 +16,5 @@ moved_range = false
 settled_stage = false
 verify = ["Only the abstract and the notes were open to read (the full text is behind a payment page), so the follow-up beyond the abstract, the cancer monitoring and the full author list were not seen."]
 notes = """
-Added under the weekly reading of 2026-10-17. It does not meet the first-human test of the chromosome-end gene-therapy leaf on a plain reading: the gene is ZSCAN4, not telomerase; the cells were treated outside the body; there are two patients; and the abstract gives no cancer rate. Whether it counts is for John; the leaf was left at shown in animals.
+Added under the weekly reading of 2026-10-17. It does not meet the first-human test of the chromosome-end gene-therapy entry on a plain reading: the gene is ZSCAN4, not telomerase; the cells were treated outside the body; there are two patients; and the abstract gives no cancer rate. Whether it counts is for John; the entry was left at shown in animals.
 """

@@ -16,5 +16,5 @@ moved_range = false
 settled_stage = false
 verify = ["Only the abstract and body text of the journal's page were read, not the tables; the eligible-population figure is the authors' estimate from other sources."]
 notes = """
-Added under the weekly reading of 2026-10-17. It is the first published uptake figure for the weight-loss-drug leaf's heart-prevention purpose, and it covers one country and one payer, ending in September 2024. It points the other way from the estimate's earliest wide-use year of 2027, which John may want to weigh; no year was changed.
+Added under the weekly reading of 2026-10-17. It is the first published uptake figure for the weight-loss drug's heart-prevention purpose, and it covers one country and one payer, ending in September 2024. It points the other way from the estimate's earliest wide-use year of 2027, which John may want to weigh; no year was changed.
 """

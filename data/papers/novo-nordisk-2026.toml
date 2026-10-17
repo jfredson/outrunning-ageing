@@ -16,5 +16,5 @@ moved_range = false
 settled_stage = false
 verify = ["A company announcement of top-line results, not a peer-reviewed report; the full results were not available."]
 notes = """
-Added under the weekly reading of 2026-10-17. The largest test since the 2017 canakinumab trial of a drug that acts on inflammation alone, and it found no benefit on heart events; the anti-inflammatory-drug leaf's notes now carry it beside the 2025 colchicine trial. The estimate years were not changed.
+Added under the weekly reading of 2026-10-17. The largest test since the 2017 canakinumab trial of a drug that acts on inflammation alone, and it found no benefit on heart events; the notes on the anti-inflammatory-drug entry now carry it beside the 2025 colchicine trial. The estimate years were not changed.
 """

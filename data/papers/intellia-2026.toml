@@ -16,5 +16,5 @@ moved_range = false
 settled_stage = false
 verify = ["The release does not mention the patient's death. That a patient in the trial died on 2025-11-05 is from the trade press (CGTLive, 2025-11-09, citing the company); that the death was put down to sepsis after a bowel perforation and not to liver failure is the chief executive's account at a January 2026 investor conference as reported by Clinical Trials Arena (2026-01-15). Neither the company's written statement of the cause nor the trial registry's note of it was found."]
 notes = """
-Added under the weekly reading of 2026-10-17 to carry the correction to the gene-editing leaf's description. The restart date in the leaf (March 2026) matches the release. The pages opened for the death were the trade press, not the company.
+Added under the weekly reading of 2026-10-17 to carry the correction to the gene-editing entry's description. The restart date in the entry (March 2026) matches the release. The pages opened for the death were the trade press, not the company.
 """

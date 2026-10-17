@@ -16,5 +16,5 @@ moved_range = false
 settled_stage = false
 verify = ["The paper's full text was read for its abstract, its statements of exploratory use and its discussion; the number of comparisons reaching significance (reported elsewhere as 21 of 54) was not checked in the tables."]
 notes = """
-Added under the weekly reading of 2026-10-17. It is not the stage record for the biological-age-clock leaf: the clock analysis was run on samples already collected in a trial that had been published, and the authors call it exploratory, so it was not planned before the data were unblinded, which the leaf's test asks for (the same reason John gave on 2026-10-17 for the 2023 CALERIE paper, waziry-2023). The first author is the founder and chief executive of the company that makes the drug.
+Added under the weekly reading of 2026-10-17. It is not the record of the stage for the entry on a treatment slowing a biological age clock: the clock analysis was run on samples already collected in a trial that had been published, and the authors call it exploratory, so it was not planned before the data were unblinded, which the entry's test asks for (the same reason John gave on 2026-10-17 for the 2023 CALERIE paper). The first author is the founder and chief executive of the company that makes the drug.
 """
