@@ -26,11 +26,14 @@ its revision log, the last three weekly readings of it, and the claims, self-exp
 publications that name it; every claim, self-experiment and publication in full, with the
 records each points at resolved to names and addresses; the story so far (the publications log
 read as dated entries, each saying what it moved, plus the changelog's dated days); the real
-weekly readings, newest first, and the latest one for the home page's strip; and the retired
-ids. Worked examples of the layout are counted separately and an example reading is never the
-site's reading (record layout, decision 13).
+weekly readings, newest first, each with its items grouped by branch, the flagged items still
+waiting on John, and the latest reading for the home page's strip; and the retired ids. Worked
+examples of the layout are counted separately and an example reading is never the site's
+reading (record layout, decision 13).
 
-Written 2026-10-16; widened 2026-10-17.
+Written 2026-10-16; widened 2026-10-17 by the site session, and again the same day by the
+weekly-reading session (items for claims and self-experiments, the four verdicts, the groups and
+the waiting list).
 """
 
 from __future__ import annotations
@@ -91,14 +94,15 @@ VERDICT_MEANINGS: dict[str, str] = {
     "missed": "The date passed and what it committed to had not happened. A claim its maker later withdrew stays missed.",
     "unfalsifiable": "It names no date and no result that could ever settle it, so it can never be judged delivered or missed.",
 }
-# The weekly reading's five verdicts (docs/record-schema.md, "The scan record").
+# The weekly reading's four verdicts (docs/record-schema.md, "The scan record"; docs/weekly-reading.md).
 READING_VERDICTS: dict[str, tuple[str, str]] = {
-    "quiet": ("Quiet", "Nothing relevant to this treatment or tool was reported that week."),
-    "noted": ("Noted", "Something relevant was reported, and what would count was not met: a press release, a funding round, a first dose with no measured result."),
-    "moved": ("Moved", "The estimate of when it reaches the clinic, or a lesser field, changed, with a dated revision on the record saying why."),
-    "met": ("Rung reached", "A public record of the kind the record names showed the next rung reached, with a dated revision on the record."),
-    "waiting": ("Waiting on the author", "Something happened and the author has yet to rule on it. The reading proposes; it does not move a record by itself."),
+    "quiet": ("Quiet", "Nothing in the week bore on what would count for this record."),
+    "noted": ("Noted", "Something in the week bore on it and was logged in the publications log, and what would count was not met: a paper short of the test, a regulator's step, a first dose with no measured result."),
+    "moved": ("Moved a rung", "A public record of the kind the treatment itself names showed its next rung reached, so the reading moved it one rung, with a dated revision on the treatment's page saying so."),
+    "flagged": ("Left for the author", "Something the reading may not decide on its own: a record older than the week that the entry did not know, a press-only report, a claim whose date has passed, a test that no longer fits. The line says what the author is asked to rule on."),
 }
+READING_KINDS: dict[str, str] = {"leaf": "Treatment", "claim": "Claim", "experiment": "Self-experiment"}
+WHOLE_QUESTION = {"key": "the-whole-question", "name": "The whole question", "path": "/claims/"}
 # The twelve hallmarks in plain words (docs/record-schema.md, "The twelve hallmarks and the eight branches").
 HALLMARK_WORDS: dict[str, str] = {
     "genomic-instability": "mutations accumulating in DNA",
@@ -120,7 +124,7 @@ STORY_KINDS: dict[str, str] = {
     "moved-range": "Moved an estimate",
     "held": "Read; moved nothing",
     "revision": "A record was revised",
-    "reading": "The weekly reading moved something",
+    "reading": "The weekly reading moved a rung",
 }
 DATE_HEADER = re.compile(r"^## (\d{4}-\d{2}-\d{2})\s*$")
 
@@ -335,29 +339,127 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
             pubs_for_branch[bk].append(pub_ref(p["id"]))
 
     # ---- the weekly readings (real ones only; an example reading is never the site's reading) ----
+    # Each reading's items are grouped by branch for the reading page: a treatment under its branch,
+    # a claim or a self-experiment under the first branch it bears on (by the tree's order), and a
+    # claim about the headline itself under "the whole question". A flagged item waits on John until
+    # a later reading reads the record again with another verdict, or the record carries a dated
+    # change on or after the reading that names it (docs/weekly-reading.md, design choice 9).
+    claim_by_id = {c["id"]: c for c in claims_sorted}
+    exp_by_id = {e["id"]: e for e in experiments_sorted}
+
+    def first_branch(ls: list[str], bs: list[str]) -> str | None:
+        keys = set(bs) | {leaf_by_id[lid]["branch"] for lid in ls if lid in leaf_by_id}
+        return min(keys, key=lambda k: compute.BRANCHES.get(k, 99)) if keys else None
+
+    def item_of(g: dict) -> dict:
+        kind = next(k for k in ("leaf", "claim", "experiment") if k in g)
+        rid = g[kind]
+        if kind == "leaf":
+            ref = leaf_ref(rid)
+            group, name = ref["branch"], ref["name"]
+        elif kind == "claim":
+            c = claim_by_id[rid]
+            ref = claim_ref(c)
+            ls, bs = targets(c)
+            group = WHOLE_QUESTION["key"] if c.get("about_the_headline") is True else first_branch(ls, bs)
+            name = f"{c['who']}, {c['said_on'][:4]}: {text(c['commits_to'])}"
+        else:
+            e = exp_by_id[rid]
+            ref = experiment_ref(e)
+            ls, bs = targets(e)
+            group = first_branch(ls, bs)
+            name = f"{e['who']}{', ' + e['name'] if e.get('name') else ''}"
+        verdict = g["verdict"]
+        return {
+            "kind": kind, "kind_label": READING_KINDS[kind], "id": rid, "name": name, "record": ref,
+            "group": group or WHOLE_QUESTION["key"],
+            "verdict": verdict, "verdict_label": READING_VERDICTS[verdict][0],
+            "queries": list(g.get("queries") or []), "reused": list(g.get("reused") or []),
+            "search_short": text(g.get("search_short")), "found": text(g["found"]),
+            "sources": list(g.get("sources") or []),
+            "publications": [pub_ref(pid) for pid in (g.get("publications") or []) if pid in pub_by_id],
+            "moved_from": g.get("moved_from"), "moved_to": g.get("moved_to"),
+            "moved_from_label": STAGE_LABELS.get(g.get("moved_from")), "moved_to_label": STAGE_LABELS.get(g.get("moved_to")),
+            "for_john": text(g.get("for_john")),
+            "sibling_stage": g.get("sibling_stage"),
+            "sibling_stage_label": STAGE_LABELS.get(g.get("sibling_stage")) if g.get("sibling_stage") else None,
+            "sibling_agrees": g.get("sibling_agrees"),
+        }
+
     readings_out = []
-    readings_for_leaf: dict[str, list[dict]] = {l["id"]: [] for l in leaves}
-    for s in reversed(real_scans):
-        items = []
-        for g in s["reading"]:
-            item = {"leaf": leaf_ref(g["leaf"]), "verdict": g["verdict"], "verdict_label": READING_VERDICTS[g["verdict"]][0],
-                    "line": text(g["line"]), "source": g.get("source"),
-                    "sibling_stage": g.get("sibling_stage"), "sibling_agrees": g.get("sibling_agrees")}
-            items.append(item)
-            readings_for_leaf[g["leaf"]].append({"read_on": iso(s["read_on"]), "path": f"/reading/#{s['id']}", **{k: v for k, v in item.items() if k != "leaf"}})
+    readings_for: dict[str, dict[str, list[dict]]] = {
+        "leaf": {l["id"]: [] for l in leaves}, "claim": {c["id"]: [] for c in claims_sorted},
+        "experiment": {e["id"]: [] for e in experiments_sorted},
+    }
+    scans_desc = list(reversed(real_scans))
+    for s in scans_desc:
+        items = [item_of(g) for g in s["item"]]
+        for it in items:
+            readings_for[it["kind"]][it["id"]].append({
+                "read_on": iso(s["read_on"]), "path": f"/reading/#{s['id']}", "verdict": it["verdict"],
+                "verdict_label": it["verdict_label"], "found": it["found"], "sources": it["sources"],
+                "search_short": it["search_short"], "for_john": it["for_john"],
+                "moved_from_label": it["moved_from_label"], "moved_to_label": it["moved_to_label"],
+                "publications": it["publications"],
+            })
+        groups = []
+        for b in branch_recs:
+            mine = [it for it in items if it["group"] == b["key"]]
+            if mine:
+                groups.append({**branch_ref(b["key"]), "items": mine})
+        whole = [it for it in items if it["group"] == WHOLE_QUESTION["key"]]
+        if whole:
+            groups.append({**WHOLE_QUESTION, "items": whole})
         counts = {k: sum(1 for i in items if i["verdict"] == k) for k in READING_VERDICTS}
         readings_out.append({
             "id": s["id"], "read_on": iso(s["read_on"]), "covers_from": iso(s["covers_from"]),
-            "summary": text(s["summary"]), "read": len(items), "counts": counts,
-            "moved": [i["leaf"] for i in items if i["verdict"] in ("moved", "met")],
-            "items": items, "notes": text(s.get("notes")), "verify": list(s.get("verify") or []),
+            "ran_at": s["ran_at"], "run_by": s["run_by"], "commit_before": s["commit_before"],
+            "summary": text(s["summary"]), "read": len(items),
+            "leaves_read": s["leaves_read"], "claims_read": s["claims_read"], "experiments_read": s["experiments_read"],
+            "searches": s["searches"], "short_of_two": sum(1 for i in items if i["search_short"]),
+            "counts": counts,
+            "moved": [i["record"] for i in items if i["verdict"] == "moved"],
+            "logged": sorted({p["id"] for i in items for p in i["publications"]}),
+            "items": items, "groups": groups,
+            "notes": text(s.get("notes")), "verify": list(s.get("verify") or []),
             "file": record_file(s, data_dir), "path": f"/reading/#{s['id']}",
         })
+
+    # Flagged items still waiting on John, newest reading first.
+    def cleared(item: dict, read_on: dt.date) -> bool:
+        later = [s2 for s2 in real_scans if s2["read_on"] > read_on]
+        for s2 in later:
+            for g in s2["item"]:
+                if g.get(item["kind"]) == item["id"] and g["verdict"] != "flagged":
+                    return True
+        if item["kind"] == "leaf":
+            for rv in leaf_by_id[item["id"]].get("revision", []):
+                if isinstance(rv.get("date"), dt.date) and rv["date"] >= read_on and read_on.isoformat() in text(rv.get("why")):
+                    return True
+        if item["kind"] == "claim":
+            v_on = claim_by_id[item["id"]].get("verdict_on")
+            if isinstance(v_on, dt.date) and v_on >= read_on:
+                return True
+        return False
+
+    waiting = []
+    for s, rd in zip(scans_desc, readings_out):
+        for it in rd["items"]:
+            if it["verdict"] == "flagged" and not cleared(it, s["read_on"]):
+                waiting.append({"reading": rd["id"], "read_on": rd["read_on"], "path": rd["path"], **it})
+    for rd in readings_out:
+        rd["waiting"] = sum(1 for w in waiting if w["reading"] == rd["id"])
+
     reading = None
     if readings_out:
         r0 = readings_out[0]
         reading = {"read_on": r0["read_on"], "covers_from": r0["covers_from"], "summary": r0["summary"],
-                   "read": r0["read"], "moved": [m["id"] for m in r0["moved"]], "movers": r0["moved"], "path": r0["path"]}
+                   "read": r0["read"], "leaves_read": r0["leaves_read"], "claims_read": r0["claims_read"],
+                   "experiments_read": r0["experiments_read"], "searches": r0["searches"],
+                   "moved": [m["id"] for m in r0["moved"]], "movers": r0["moved"],
+                   "logged": len(r0["logged"]), "flagged": r0["counts"]["flagged"], "waiting": r0["waiting"],
+                   "path": r0["path"]}
+    readings_for_leaf = readings_for["leaf"]
 
     # ---- the leaves in full ----
     def ladder_for(l: dict) -> list[dict]:
@@ -456,6 +558,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
             "about_the_headline": c.get("about_the_headline") is True,
             "leaves": [leaf_ref(lid) for lid in ls], "branches": [branch_ref(bk) for bk in bs],
             "verify": list(c.get("verify") or []), "notes": text(c.get("notes")),
+            "readings": readings_for["claim"][c["id"]][:3],
             "example": c.get("example") is True, "file": record_file(c, data_dir), "path": f"/claims/#{c['id']}",
         })
     claim_years = [c["said_on"][:4] for c in claims]
@@ -479,6 +582,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
             "public_record": text(e["public_record"]), "link": e["link"],
             "leaves": [leaf_ref(lid) for lid in ls], "branches": [branch_ref(bk) for bk in bs],
             "verify": list(e.get("verify") or []), "notes": text(e.get("notes")),
+            "readings": readings_for["experiment"][e["id"]][:3],
             "example": e.get("example") is True, "file": record_file(e, data_dir), "path": f"/self-experiments/#{e['id']}",
         })
 
@@ -514,6 +618,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
         for m in rd["moved"]:
             story_entries.append({"kind": "reading", "kind_label": STORY_KINDS["reading"], "date": rd["read_on"], "world_date": None,
                                   "leaf": m, "reading": rd["id"]})
+    # A revision the reading made is already in the leaf's revision log above, so it is not doubled here.
     story_entries.sort(key=lambda e: (e["date"] or "", e.get("publication") or ""), reverse=True)
     story = {
         "entries": story_entries,
@@ -549,6 +654,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
         "siblings": sum(1 for l in leaves if l.get("sibling")),
         "claims": len(claims), "experiments": len(experiments), "publications": len(publications),
         "scans": len(by_kind["scan"]), "scans_real": len(real_scans),
+        "waiting": len(waiting),
         "retired": len(loaded["retired"]),
         "verify": sum(len(r.get("verify") or []) for r in records),
         "examples": len(examples),
@@ -562,6 +668,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
         "fixed_dates": {"before": compute.BEFORE_YEAR, "century_end": compute.CENTURY_END},
         "reading": reading,
         "readings": readings_out,
+        "waiting": waiting,
         "reading_verdicts": [{"key": k, "label": v[0], "meaning": v[1]} for k, v in READING_VERDICTS.items()],
         "stages": [{"key": k, "label": STAGE_LABELS[k], "meaning": STAGE_MEANINGS[k], "rank": i} for i, k in enumerate(compute.STAGES)],
         "verdicts": [{"key": k, "label": v, "meaning": VERDICT_MEANINGS[k]} for k, v in VERDICT_WORDS.items()],

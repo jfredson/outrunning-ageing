@@ -378,56 +378,239 @@ class PublicationRules(unittest.TestCase):
         self.assertTrue(any_with(problems, "'nobody-1999'", "not a publication record that exists"), problems)
 
 
+# A small weekly reading the tests can break, in the layout of docs/record-schema.md ("The scan
+# record", widened 2026-10-17): the header, then one item each for a leaf, a claim and a
+# self-experiment. Written into a temporary copy of data/ as scans/2026-10-24.toml.
+SCAN = Path("scans") / "2026-10-24.toml"
+SCAN_TEXT = '''id = "2026-10-24"
+read_on = 2026-10-24
+covers_from = 2026-10-18
+ran_at = "2026-10-25T02:10:00Z"
+run_by = "scheduled"
+commit_before = "0123abc"
+leaves_read = 1
+claims_read = 1
+experiments_read = 1
+searches = 6
+summary = "A test reading."
+
+[[item]]
+leaf = "drug-clears-aged-cells-from-a-person"
+verdict = "quiet"
+queries = ["senolytic trial result 2026-10", "dasatinib quercetin paper 2026-10"]
+found = "Nothing in the window."
+sibling_stage = "first-human"
+sibling_agrees = true
+
+[[item]]
+claim = "kurzweil-2029-escape-velocity"
+verdict = "quiet"
+queries = ["Kurzweil longevity escape velocity 2026-10", "Kurzweil 2030 interview 2026-10"]
+found = "Nothing in the window."
+
+[[item]]
+experiment = "bryan-johnson-blueprint"
+verdict = "quiet"
+queries = ["Bryan Johnson Blueprint 2026-10", "Bryan Johnson biological age 2026-10"]
+found = "Nothing in the window."
+'''
+STAGE_REVISION = ('\n[[revision]]\ndate = 2026-10-24\nfield = "stage"\nold = "first-human"\nnew = "in-clinical-use"\n'
+                  'why = "[reading 2026-10-24] Test revision."\n')
+
+
 class ScanRules(unittest.TestCase):
-    def test_id_must_equal_read_on(self):
+    """The weekly reading's record. Each test writes the fixture above into a temporary copy of
+    data/ and breaks one thing in it."""
+
+    def fixture(self, data: Path, text: str = SCAN_TEXT) -> Path:
+        path = data / SCAN
+        path.write_text(text, encoding="utf-8")
+        return path
+
+    def test_the_fixture_passes(self):
         with TempData() as data:
-            edit(data / SCAN, r'^read_on = 2026-10-16', "read_on = 2026-10-17")
+            self.fixture(data)
+            self.assertEqual(problems_for(data), [])
+
+    def test_id_must_be_the_read_on_date(self):
+        with TempData() as data:
+            path = self.fixture(data)
+            edit(path, r'^read_on = 2026-10-24', "read_on = 2026-10-25")
             problems = problems_for(data)
-        self.assertTrue(any_with(problems, "must equal the read_on date"), problems)
+        self.assertTrue(any_with(problems, "must be the read_on date 2026-10-25"), problems)
+
+    def test_a_second_run_the_same_day_takes_a_suffix(self):
+        with TempData() as data:
+            path = self.fixture(data)
+            edit(path, r'^id = "2026-10-24"', 'id = "2026-10-24-2"')
+            path.rename(data / "scans" / "2026-10-24-2.toml")
+            self.assertEqual(problems_for(data), [])
 
     def test_covers_from_not_after_read_on(self):
         with TempData() as data:
-            edit(data / SCAN, r'^covers_from = 2026-10-09', "covers_from = 2026-10-20")
+            edit(self.fixture(data), r'^covers_from = 2026-10-18', "covers_from = 2026-10-30")
             problems = problems_for(data)
         self.assertTrue(any_with(problems, "covers_from", "is after read_on"), problems)
 
-    def test_moved_needs_a_revision_on_the_leaf(self):
+    def test_header_fields_have_the_right_shape(self):
         with TempData() as data:
-            edit(data / SCAN, r'^verdict = "quiet"', 'verdict = "moved"')
+            path = self.fixture(data)
+            edit(path, r'^ran_at = .*', 'ran_at = "2026-10-24 19:10"')
+            edit(path, r'^run_by = .*', 'run_by = "robot"')
+            edit(path, r'^commit_before = .*', 'commit_before = "main"')
             problems = problems_for(data)
-        self.assertTrue(any_with(problems, "has no revision dated 2026-10-16", "the reading proposes and the leaf records"), problems)
+        self.assertTrue(any_with(problems, "ran_at must be universal time"), problems)
+        self.assertTrue(any_with(problems, "run_by must be one of"), problems)
+        self.assertTrue(any_with(problems, "commit_before must be the short commit"), problems)
 
-    def test_moved_with_a_matching_revision_passes(self):
+    def test_header_counts_must_match_the_items(self):
         with TempData() as data:
-            edit(data / SCAN, r'^verdict = "quiet"', 'verdict = "moved"')
-            append(data / LEAF, '\n[[revision]]\ndate = 2026-10-16\nfield = "estimate.rung.in-clinical-use.likely"\n'
-                                'old = 2040\nnew = 2038\nwhy = "Test revision."\n')
+            path = self.fixture(data)
+            edit(path, r'^leaves_read = 1', "leaves_read = 2")
+            edit(path, r'^searches = 6', "searches = 5")
             problems = problems_for(data)
-        self.assertEqual(problems, [])
+        self.assertTrue(any_with(problems, "leaves_read says 2 but the items name 1 leaf"), problems)
+        self.assertTrue(any_with(problems, "searches says 5 but the items list 6"), problems)
 
-    def test_reading_of_a_missing_leaf_is_refused(self):
+    def test_an_item_names_exactly_one_record(self):
         with TempData() as data:
-            edit(data / SCAN, r'^leaf = "drug-clears-aged-cells-from-a-person"', 'leaf = "no-such-leaf"')
+            path = self.fixture(data)
+            edit(path, r'^claim = "kurzweil-2029-escape-velocity"', 'claim = "kurzweil-2029-escape-velocity"\nleaf = "drug-clears-aged-cells-from-a-person"')
+            edit(path, r'^experiment = "bryan-johnson-blueprint"\n', "")
             problems = problems_for(data)
-        self.assertTrue(any_with(problems, "'no-such-leaf'", "not a leaf that exists"), problems)
+        self.assertTrue(any_with(problems, "item 2", "more than one record"), problems)
+        self.assertTrue(any_with(problems, "item 3", "names no record"), problems)
 
-    def test_a_leaf_read_twice_is_refused(self):
+    def test_reading_of_a_missing_record_is_refused(self):
         with TempData() as data:
-            append(data / SCAN, '\n[[reading]]\nleaf = "drug-clears-aged-cells-from-a-person"\nverdict = "quiet"\nline = "Again."\n')
+            edit(self.fixture(data), r'^claim = "kurzweil-2029-escape-velocity"', 'claim = "no-such-claim"')
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "'no-such-claim'", "not a claim that exists"), problems)
+
+    def test_a_record_read_twice_is_refused(self):
+        with TempData() as data:
+            append(self.fixture(data), '\n[[item]]\nleaf = "drug-clears-aged-cells-from-a-person"\nverdict = "quiet"\n'
+                                       'queries = ["a", "b"]\nfound = "Again."\n')
+            edit(data / SCAN, r'^leaves_read = 1', "leaves_read = 2")
+            edit(data / SCAN, r'^searches = 6', "searches = 8")
             problems = problems_for(data)
         self.assertTrue(any_with(problems, "read twice"), problems)
 
+    def test_every_record_gets_two_searches(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^queries = \["senolytic trial result 2026-10", "dasatinib quercetin paper 2026-10"\]',
+                 'queries = ["senolytic trial result 2026-10"]')
+            edit(data / SCAN, r'^searches = 6', "searches = 5")
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "lists 1 search(es); every record gets at least two"), problems)
+
+    def test_one_search_passes_when_search_short_says_why(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^queries = \["senolytic trial result 2026-10", "dasatinib quercetin paper 2026-10"\]',
+                 'queries = ["senolytic trial result 2026-10"]\nsearch_short = "The search tool refused every further search."')
+            edit(data / SCAN, r'^searches = 6', "searches = 5")
+            self.assertEqual(problems_for(data), [])
+
+    def test_a_reused_line_quotes_one_of_the_queries(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^found = "Nothing in the window."\nsibling_stage',
+                 'reused = ["the query \\"something else\\" was first run for another leaf"]\nfound = "Nothing in the window."\nsibling_stage')
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "'reused' line must quote one of the item's own queries"), problems)
+
+    def test_noted_names_a_publication_and_a_source(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^verdict = "quiet"', 'verdict = "noted"')
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "'noted' item cites at least one source"), problems)
+        self.assertTrue(any_with(problems, "'noted' item names the publication it logged"), problems)
+
+    def test_noted_with_a_source_and_a_publication_passes(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^verdict = "quiet"',
+                 'verdict = "noted"\nsources = ["https://doi.org/10.1016/j.ebiom.2019.08.069"]\npublications = ["hickson-2019"]')
+            self.assertEqual(problems_for(data), [])
+
+    def test_a_publication_that_does_not_exist_is_refused(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^verdict = "quiet"',
+                 'verdict = "noted"\nsources = ["https://example.org/x"]\npublications = ["nobody-2099"]')
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "'nobody-2099'", "not a publication record that exists"), problems)
+
+    def test_quiet_logs_nothing(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^verdict = "quiet"', 'verdict = "quiet"\npublications = ["hickson-2019"]')
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "'quiet' item logs no publication"), problems)
+
+    def test_flagged_needs_a_line_for_john_and_only_flagged_has_one(self):
+        with TempData() as data:
+            path = self.fixture(data)
+            edit(path, r'^verdict = "quiet"', 'verdict = "flagged"\nsources = ["https://example.org/x"]')
+            edit(path, r'^found = "Nothing in the window."\n\n\[\[item\]\]\nexperiment',
+                 'found = "Nothing in the window."\nfor_john = "Your call."\n\n[[item]]\nexperiment')
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "item 1", "'flagged' item carries 'for_john'"), problems)
+        self.assertTrue(any_with(problems, "item 2", "'for_john' is only for a 'flagged' item"), problems)
+
+    def test_moved_needs_a_stage_revision_on_the_leaf(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^verdict = "quiet"',
+                 'verdict = "moved"\nmoved_from = "first-human"\nmoved_to = "in-clinical-use"\nsources = ["https://example.org/x"]')
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "no stage revision dated 2026-10-24", "the reading proposes and the leaf records"), problems)
+
+    def test_moved_with_a_matching_revision_passes(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^verdict = "quiet"',
+                 'verdict = "moved"\nmoved_from = "first-human"\nmoved_to = "in-clinical-use"\nsources = ["https://example.org/x"]')
+            append(data / LEAF, STAGE_REVISION)
+            self.assertEqual(problems_for(data), [])
+
+    def test_a_move_is_exactly_one_rung(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^verdict = "quiet"',
+                 'verdict = "moved"\nmoved_from = "first-human"\nmoved_to = "in-wide-use"\nsources = ["https://example.org/x"]')
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "exactly one rung up"), problems)
+
+    def test_only_a_leaf_can_move(self):
+        with TempData() as data:
+            path = self.fixture(data)
+            text = path.read_text(encoding="utf-8").replace(
+                'claim = "kurzweil-2029-escape-velocity"\nverdict = "quiet"',
+                'claim = "kurzweil-2029-escape-velocity"\nverdict = "moved"\nmoved_from = "first-human"\nmoved_to = "in-clinical-use"\nsources = ["https://example.org/x"]')
+            path.write_text(text, encoding="utf-8")
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "only a leaf can be 'moved'"), problems)
+
+    def test_moved_fields_only_on_a_moved_item(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^verdict = "quiet"', 'verdict = "quiet"\nmoved_to = "in-clinical-use"')
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "'moved_to' is only for a 'moved' item"), problems)
+
     def test_sibling_stage_only_on_a_shared_leaf(self):
         with TempData() as data:
+            self.fixture(data)
             edit(data / LEAF, r'^sibling = .*\n', "")
             problems = problems_for(data)
         self.assertTrue(any_with(problems, "'sibling_stage' is only for a leaf that has a sibling"), problems)
 
     def test_unknown_reading_verdict_is_refused(self):
         with TempData() as data:
-            edit(data / SCAN, r'^verdict = "quiet"', 'verdict = "fine"')
+            edit(self.fixture(data), r'^verdict = "quiet"', 'verdict = "waiting"')
             problems = problems_for(data)
         self.assertTrue(any_with(problems, "verdict must be one of"), problems)
+
+    def test_the_first_reading_is_on_the_record(self):
+        loaded = compute.load_records(DATA)
+        scans = [r for r in loaded["records"] if r["_kind"] == "scan" and r.get("example") is not True]
+        self.assertGreaterEqual(len(scans), 1)
+        first = min(scans, key=lambda r: r["read_on"])
+        self.assertEqual(first["id"], "2026-10-17")
+        self.assertEqual(first["run_by"], "hand")
 
 
 class RenamedIds(unittest.TestCase):
@@ -447,6 +630,8 @@ class RenamedIds(unittest.TestCase):
     def test_retired_id_satisfies_the_history_check(self):
         with TempData() as data:
             (data / CLAIM).unlink()
+            for scan in (data / "scans").glob("*.toml"):
+                scan.unlink()  # the real readings read every claim, so they would name the retired one
             (data / "retired.toml").write_text(
                 '[[retired]]\nid = "kurzweil-2029-escape-velocity"\nkind = "claim"\ndate = 2026-10-16\n'
                 'why = "Test retirement."\n', encoding="utf-8")

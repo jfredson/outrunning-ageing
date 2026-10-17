@@ -125,9 +125,9 @@ const firstSentence = (s: string) => s.split('. ')[0];
         <ul class="checks">
           {l.readings.map((r) => (
             <li>
-              <span class="check-date">{longDate(r.read_on)}</span>
+              <a class="check-date" href={r.path}>{longDate(r.read_on)}</a>
               <span class={`badge v-${r.verdict}`}>{r.verdict_label}</span>
-              <p>{r.line}{r.source && <> <a href={r.source} rel="noopener nofollow">source</a></>}</p>
+              <p>{r.found}{r.moved_to_label && <> <strong>Moved from {r.moved_from_label} to {r.moved_to_label}.</strong></>}{r.for_john && <> <em>Left for the author:</em> {r.for_john}</>}{r.sources.length > 0 && <> {r.sources.map((s, i) => <><a href={s} rel="noopener nofollow">source {i + 1}</a>{i < r.sources.length - 1 ? ', ' : ''}</>)}</>}</p>
             </li>
           ))}
         </ul>

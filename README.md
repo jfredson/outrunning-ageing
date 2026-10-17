@@ -40,15 +40,15 @@ The data is the project. Six record kinds, each a plain-text TOML file per recor
 3. **The claims log** (`data/claims/`): who said what about when, with the primary source, what it commits to, and a verdict filled in as dates pass. It sits beside the headline and moves no number.
 4. **Other people's public self-experiments** (`data/experiments/`): who, what they do, what they measure, what they claim, what the public record shows. A claim about one person is a story, not a record, and it moves no leaf.
 5. **The publications log** (`data/papers/`): append-only and dated, each entry saying which leaf or branch it bears on and whether it moved anything.
-6. **The weekly reading** (`data/scans/`): every leaf read against the week's news, with a verdict per leaf, including the weeks when nothing moved.
+6. **The weekly reading** (`data/scans/`): every leaf, every claim and every self-experiment read against the week's news once a week, with the searches made and a verdict per record, including the weeks when nothing moved. The reading may move a leaf one rung on a record of the kind the leaf itself names and may log a paper; everything else it leaves for the author. How it runs, with every choice and its alternative, is in `docs/weekly-reading.md`; the scheduled task's prompt is `docs/weekly-reading-prompt.md`. The first reading ran on 2026-10-17.
 
 The record layout and the rules the validator enforces are in `docs/record-schema.md`.
 
 ## Layout
 
-- `docs/` holds the plans and definitions. `docs/2026-10-16-kickoff.md` is the original outline, kept as the record of where the project started. `docs/record-schema.md` is the record layout. `docs/method.md` is how the headline is computed.
+- `docs/` holds the plans and definitions. `docs/2026-10-16-kickoff.md` is the original outline, kept as the record of where the project started. `docs/record-schema.md` is the record layout. `docs/method.md` is how the headline is computed. `docs/weekly-reading.md` is how the records are read against the news each week, and `docs/weekly-reading-prompt.md` the scheduled task's prompt.
 - `data/` holds the records (above).
-- `scripts/compute.py` validates the records (`validate`) and, once the leaves exist, computes the headline (`run`). `scripts/test_compute.py` tests it. `scripts/export.py` turns the records into the JSON the site reads. Plain Python, standard library only.
+- `scripts/compute.py` validates the records (`validate`) and computes the headline (`run`). `scripts/test_compute.py` tests it. `scripts/export.py` turns the records into the JSON the site reads. `scripts/publish.py` validates, tests, exports, builds and, with `--push`, commits and pushes main in one command, parking the commit on a fallback branch when the push is refused. Plain Python, standard library only.
 - `site/` is the website: Astro, fully static, on the Sentient Horizons design standard, served from Cloudflare Workers.
 - `CHANGELOG.md` has a dated line for every change to the records or the site.
 

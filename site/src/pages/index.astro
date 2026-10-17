@@ -54,7 +54,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
       <span class="strip-dot" aria-hidden="true"></span>
       <span>
         {reading
-          ? <>Last checked {longDate(reading.read_on)}: {plural(reading.read, 'test read', 'tests read')}, {reading.moved.length === 0 ? 'none moved' : reading.moved.length === 1 ? 'one moved' : `${reading.moved.length} moved`}{loneMover ? <>: <a href={loneMover.path}>{loneMover.name}</a></> : ''}. <a href={reading.path}>See the week's reading.</a></>
+          ? <>Last checked {longDate(reading.read_on)}: {plural(reading.leaves_read, 'treatment', 'treatments')}, {plural(reading.claims_read, 'claim', 'claims')} and {plural(reading.experiments_read, 'self-experiment', 'self-experiments')} read; {reading.moved.length === 0 ? 'none moved' : reading.moved.length === 1 ? 'one moved a rung' : `${reading.moved.length} moved a rung`}{loneMover ? <>: <a href={loneMover.path}>{loneMover.name}</a></> : ''}{reading.waiting > 0 ? `; ${reading.waiting} left for the author` : ''}. <a href={reading.path}>See the week's reading.</a></>
           : <>No reading of the week's news against the treatments has run yet. The first one follows the site's launch, and this line will say when it ran and what came of it. <a href="/reading/">About the weekly reading.</a></>}
       </span>
     </p>

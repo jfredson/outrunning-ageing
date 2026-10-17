@@ -1,41 +1,47 @@
 ---
-// This week's reading: every weekly reading of the treatments against the news, every verdict
-// (tracker pattern, section 5, three surfaces: the strip on the home page, this page, and the
-// last three readings on each treatment's page). Built to show that no reading has run yet: the
-// weekly reading is an after-launch step, and until the first one lands this page says so in
-// those words rather than being left off (rule 5.2), explains what a reading is and what its
-// five verdicts mean, and fills with the readings as they come. The reading proposes; it does
-// not move a record by itself (docs/record-schema.md). Copied from The Upgrade Tree's reading
-// page (which copied The Belt Equation's Radar) on 2026-10-17, with the five verdicts of this
-// site's record layout.
+// This week's reading: every weekly reading of the treatments, the claims and the self-experiments
+// against the news, newest first, with the items grouped by branch, the flagged items waiting on
+// the author, and a key to the four verdicts (tracker pattern, section 5, three surfaces: the strip
+// on the home page, this page, and the last readings on each record's page). Built 2026-10-17 to
+// say in words that no reading had run; rebuilt the same day with the first reading, from The
+// Upgrade Tree's reading page (which copied The Belt Equation's Radar) and The Quiet Galaxy's.
+// The reading proposes; it moves a treatment one rung only on a record of the kind the treatment
+// itself names, and leaves everything else for the author (docs/weekly-reading.md).
 import Base from '../layouts/Base.astro';
 import { records, longDate, plural } from '../lib/records';
+import type { Reading, ReadingItem } from '../lib/records';
 
 const readings = records.readings;
 const latest = readings[0] ?? null;
 const older = readings.slice(1);
+const waiting = records.waiting;
 const verdicts = records.reading_verdicts;
 const c = records.counts;
-const summary = (r: (typeof readings)[number]) => {
-  const parts = [`${plural(r.read, 'treatment read', 'treatments read')}`];
-  parts.push(r.moved.length === 0 ? 'none moved' : r.moved.length === 1 ? 'one moved' : `${r.moved.length} moved`);
-  if (r.counts.waiting > 0) parts.push(`${r.counts.waiting} waiting on the author`);
+
+const whatWasRead = (r: Reading) =>
+  [plural(r.leaves_read, 'treatment', 'treatments'), plural(r.claims_read, 'claim', 'claims'),
+   plural(r.experiments_read, 'self-experiment', 'self-experiments')].join(', ') + ' read';
+const whatCameOfIt = (r: Reading) => {
+  const parts = [r.moved.length === 0 ? 'none moved' : r.moved.length === 1 ? 'one moved a rung' : `${r.moved.length} moved a rung`];
+  if (r.logged.length > 0) parts.push(`${plural(r.logged.length, 'paper', 'papers')} logged`);
+  if (r.counts.flagged > 0) parts.push(`${r.counts.flagged} left for the author`);
   return parts.join(', ');
 };
+const recordPath = (item: ReadingItem) => item.record.path;
 const description = latest
-  ? `Outrunning Ageing's weekly reading: ${summary(latest)} on ${longDate(latest.read_on)}. Every treatment read against the news, what was found, and the verdict.`
-  : "Outrunning Ageing's weekly reading of the treatments against the news. The first reading has not run yet; it follows the site's launch.";
+  ? `Outrunning Ageing's weekly reading: ${whatWasRead(latest)} on ${longDate(latest.read_on)}; ${whatCameOfIt(latest)}. What was searched, what was found, and the verdict on every record.`
+  : "Outrunning Ageing's weekly reading of the treatments, claims and self-experiments against the news. The first reading has not run yet.";
 ---
 
 <Base title="This week's reading — Outrunning Ageing" description={description}>
   <section class="hero">
     <p class="eyebrow">This week's reading</p>
-    <h1>Every treatment, read against the news each week</h1>
+    <h1>Every record, read against the news each week</h1>
     <p class="lede">
-      Each treatment and tool on the tree carries a test that says exactly what would count, and a line saying what kind of public record settles it. Once a week, from the site's launch, a fresh session reads what the world did that week against each of those tests and writes down what it found, whether or not anything moved.
+      Each treatment and tool on the tree carries a test that says exactly what would count, and a line saying what kind of public record settles it. Each claim carries a date it can be judged by, and each self-experiment a line on what its subject has made public. Once a week a fresh session searches the web against every one of them, writes down what it searched and what it found, and gives each a verdict, whether or not anything moved.
     </p>
     <p class="dim" style="font-size: 14px;">
-      The reading proposes; it does not move a record by itself. When it finds a record of the kind a treatment itself names, the move is a dated revision on that treatment's page, with the reason and the source, and the reading says so. It may not move a stage on press coverage alone, change a test, or clear a fact still to be checked; anything like that it leaves for the author and says so. Each reading is a file in the repository, written once and never edited, and the site refuses to build if one does not add up. For the {c.siblings} treatments shared with The Upgrade Tree, the reading also checks that the two sites show the same stage.
+      The reading proposes; it moves a treatment up one rung only when a record of the kind the treatment itself names shows the next rung reached, and then the move is a dated revision on that treatment's page. It may not move anything on press coverage alone, change a test, touch an estimate, clear a fact still to be checked, or judge a claim; all of that it leaves for the author, in a line that stays on this page until he has ruled. Each reading is a file in the public repository, written once and never edited, and the site refuses to build if one does not add up. For the {c.siblings} treatments shared with The Upgrade Tree, the reading also checks that the two sites show the same rung.
     </p>
   </section>
 
@@ -43,9 +49,7 @@ const description = latest
     <section class="section narrow">
       <div class="callout">
         <h3>No reading has run yet</h3>
-        <p>
-          The first weekly reading follows the site's launch, planned for 25 October 2026. When it has run, this page fills with what it read and what it found, the home page's strip says when it ran, and each treatment's page shows its last three readings. Until then the strip on the home page says, in those words, that no reading has run. {c.scans > c.scans_real ? 'The repository holds a worked example of a reading, marked as such; it is not shown as a reading.' : ''}
-        </p>
+        <p>When the first weekly reading has run, this page fills with what it read and what it found, the home page's strip says when it ran, and each record's page shows its last three readings.</p>
       </div>
     </section>
   )}
@@ -54,23 +58,66 @@ const description = latest
     <section class="section" id={latest.id}>
       <div class="shead">
         <h2>The latest reading</h2>
-        <span>{longDate(latest.read_on)}, covering the news from {longDate(latest.covers_from)}</span>
+        <span>{longDate(latest.read_on)}, covering the news from {longDate(latest.covers_from)}{latest.run_by === 'hand' ? ', run by hand' : ', the scheduled run'}</span>
       </div>
       <p class="prose" style="font-size: 17px;">{latest.summary}</p>
-      <p class="dim" style="font-family: var(--sans); font-size: 13px;">{summary(latest)}. The record is {latest.file}.</p>
-      <div class="scan-cards">
-        {latest.items.map((item) => (
-          <article class={`scan-card v-${item.verdict}`}>
-            <div class="card-top">
-              <a class="card-name" href={item.leaf.path}>{item.leaf.name}</a>
-              <span class={`badge v-${item.verdict}`}>{item.verdict_label}</span>
-            </div>
-            <p class="card-found">{item.line}</p>
-            {item.sibling_stage && <p class="card-found dim">The Upgrade Tree shows it at {item.sibling_stage.replace(/-/g, ' ')}{item.sibling_agrees ? ', which agrees' : ', which does not agree, and a reading is filed on both sites'}.</p>}
-            {item.source && <p class="dim" style="font-family: var(--sans); font-size: 12.5px; margin: 0;"><a href={item.source} rel="noopener nofollow">source</a></p>}
-          </article>
-        ))}
+      <div class="reading-counts">
+        <span class="badge kind">{whatWasRead(latest)}</span>
+        <span class="badge kind">{plural(latest.searches, 'search', 'searches')}</span>
+        {verdicts.map((v) => latest.counts[v.key] > 0 && <span class={`badge v-${v.key}`}>{latest.counts[v.key]} {v.label.toLowerCase()}</span>)}
       </div>
+      <p class="dim" style="font-family: var(--sans); font-size: 13px;">The record is {latest.file}, read at version {latest.commit_before}.</p>
+
+      {latest.groups.map((g) => (
+        <div class="reading-group">
+          <h3>{g.key === 'the-whole-question' ? g.name : <a href={g.path}>{g.name}</a>}</h3>
+          <div class="scan-cards">
+            {g.items.map((item) => (
+              <article class={`scan-card v-${item.verdict}`} id={`${latest.id}-${item.id}`}>
+                <div class="card-top">
+                  <a class="card-name" href={recordPath(item)}>{item.name}</a>
+                  <span class={`badge v-${item.verdict}`}>{item.verdict_label}</span>
+                </div>
+                {item.kind !== 'leaf' && <span class="badge kind">{item.kind_label}</span>}
+                <p class="card-found">{item.found}</p>
+                {item.verdict === 'moved' && <p class="card-found"><strong>Moved from {item.moved_from_label} to {item.moved_to_label}</strong>, with a dated revision on the treatment's page.</p>}
+                {item.publications.length > 0 && (
+                  <p class="card-found dim">Logged: {item.publications.map((p, i) => <>{i > 0 ? '; ' : ''}<a href={p.path}>{p.authors_short}, {p.date}</a></>)}.</p>
+                )}
+                {item.sibling_stage_label && <p class="card-found dim">The Upgrade Tree shows it at {item.sibling_stage_label.toLowerCase()}{item.sibling_agrees ? ', which agrees' : ', which does not agree, and a reading is filed on both sites'}.</p>}
+                {item.for_john && <p class="for-john"><strong>Left for the author.</strong> {item.for_john}</p>}
+                {item.search_short && <p class="card-found dim" style="font-size: 13px;">{item.search_short}</p>}
+                <details>
+                  <summary>{plural(item.queries.length, 'search', 'searches')}{item.sources.length > 0 ? `, ${plural(item.sources.length, 'source', 'sources')}` : ''}</summary>
+                  <ul>
+                    {item.queries.map((q) => <li>{q}</li>)}
+                    {item.reused.map((q) => <li>Borrowed: {q}</li>)}
+                    {item.sources.map((s) => <li><a href={s} rel="noopener nofollow">{s}</a></li>)}
+                  </ul>
+                </details>
+              </article>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+  )}
+
+  {waiting.length > 0 && (
+    <section class="section">
+      <div class="shead"><h2>Waiting on the author</h2><span>{plural(waiting.length, 'item', 'items')} the reading could not decide</span></div>
+      <p class="dim" style="font-size: 15px;">
+        A flagged item stays here until a later reading reads the record again with another verdict, or the record carries a dated change that names the reading. The author rules by editing the record, never by editing the reading.
+      </p>
+      <ul class="checks">
+        {waiting.map((w) => (
+          <li>
+            <span class="check-date">{longDate(w.read_on)}</span>
+            <span class="badge kind">{w.kind_label}</span> <a href={w.record.path}>{w.name}</a>
+            <p>{w.for_john}</p>
+          </li>
+        ))}
+      </ul>
     </section>
   )}
 
@@ -80,15 +127,20 @@ const description = latest
       {older.map((r) => (
         <details class="entry" id={r.id}>
           <summary>
-            <span class="entry-meta"><span class="entry-date">{longDate(r.read_on)}</span><span>{summary(r)}</span></span>
+            <span class="entry-meta"><span class="entry-date">{longDate(r.read_on)}</span><span>{whatWasRead(r)}; {whatCameOfIt(r)}</span></span>
             <span class="entry-title">{r.summary}</span>
           </summary>
           <div class="entry-body">
-            <ul class="checks">
-              {r.items.map((item) => (
-                <li><span class={`badge v-${item.verdict}`}>{item.verdict_label}</span> <a href={item.leaf.path}>{item.leaf.name}</a><p>{item.line}</p></li>
-              ))}
-            </ul>
+            {r.groups.map((g) => (
+              <>
+                <h4 style="font-family: var(--sans); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 14px 0 4px;">{g.name}</h4>
+                <ul class="checks">
+                  {g.items.map((item) => (
+                    <li><span class={`badge v-${item.verdict}`}>{item.verdict_label}</span> {item.kind !== 'leaf' && <span class="badge kind">{item.kind_label}</span>} <a href={recordPath(item)}>{item.name}</a><p>{item.found}{item.for_john && <> <em>Left for the author:</em> {item.for_john}</>}</p></li>
+                  ))}
+                </ul>
+              </>
+            ))}
           </div>
         </details>
       ))}
@@ -97,7 +149,7 @@ const description = latest
 
   <section class="section narrow">
     <div class="verdict-key">
-      <h3>What the five verdicts mean</h3>
+      <h3>What the four verdicts mean</h3>
       <dl>
         {verdicts.map((v) => (
           <>
@@ -108,7 +160,7 @@ const description = latest
       </dl>
     </div>
     <p class="dim" style="font-family: var(--sans); font-size: 13px; margin-top: 30px;">
-      {c.scans_real === 0 ? 'No reading on the record yet.' : `${plural(c.scans_real, 'reading', 'readings')} on the record.`} The procedure the weekly reading follows is written up after launch, in the public repository. <a href="/branches/">The tree</a> · <a href="/story/">The story so far</a>
+      {c.scans_real === 0 ? 'No reading on the record yet.' : `${plural(c.scans_real, 'reading', 'readings')} on the record.`} The procedure the reading follows, with every choice in it and its strongest alternative, is in the public repository as the weekly reading document. <a href="/branches/">The tree</a> · <a href="/claims/">The claims log</a> · <a href="/story/">The story so far</a>
     </p>
   </section>
 </Base>
