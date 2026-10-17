@@ -1,0 +1,67 @@
+---
+// Other people's public self-experiments: who, what they do, what they measure, what they claim,
+// and what the public record actually shows, with the one line the site repeats everywhere: a
+// claim about one person is a story, not a record, and it moves nothing on the tree (the kickoff,
+// 2026-10-16). The record has no field that could move a treatment, and the validator refuses
+// one; this page says so. The author's own track is not here, by John's ruling of 2026-10-16.
+// Every entry comes from data/experiments/ through scripts/export.py.
+import Base from '../layouts/Base.astro';
+import { records, worldDate, hostOf, recordUrl, plural, lowerFirst, ONE_PERSON_LINE } from '../lib/records';
+
+const list = records.experiments;
+const running = list.filter((e) => e.status === 'running').length;
+---
+
+<Base title="Other people's self-experiments — Outrunning Ageing" description="Public self-experiments in slowing ageing: who, what they do, what they measure, what they claim, and what the public record actually shows. A claim about one person is a story, not a record, and it moves nothing on the tree.">
+  <section class="hero">
+    <p class="eyebrow">Other people's self-experiments</p>
+    <h1>What people have tried on themselves, in public</h1>
+    <p class="lede">
+      {plural(list.length, 'public self-experiment', 'public self-experiments')}, {running} of them still running, each with what the person does, what they measure, what they claim, and what the public record actually shows. {ONE_PERSON_LINE}
+    </p>
+  </section>
+
+  <section class="section explain narrow">
+    <p>
+      Some of the most-read claims about slowing ageing are one person's account of what they did to themselves and what their own measurements say. They are recorded here because they are part of the argument, and recorded apart because of what they cannot show. One person has no control group, chooses what to measure and what to publish, and cannot tell which part of what they did, if any, did what. The measures most of them report are biological-age clocks: research tools that read chemical marks on DNA or proteins in blood, and whose meaning for one person's remaining life is not established. Whether such a clock can ever stand as proof that a treatment slowed ageing is itself a question on this site, under the <a href="/branches/measuring-age/">measuring ageing</a> branch. So each entry here can point at the treatments and branches it bears on, and none can move any of them: the record has no field for a stage or an estimate, and the checking script refuses one. The author's own health record is not on this site.
+    </p>
+  </section>
+
+  <section class="section narrow">
+    <ol class="experiments">
+      {list.map((e) => (
+        <li id={e.id} class="experiment">
+          <h2><a href={`#${e.id}`}>{e.who}{e.name ? `: ${e.name}` : ''}</a></h2>
+          <p class="who-is">{e.who_is.charAt(0).toUpperCase() + e.who_is.slice(1)}.</p>
+          <p class="chips">
+            <span class="chip">{e.status === 'running' ? `running since ${worldDate(e.started)}` : `${worldDate(e.started)} to ${worldDate(e.ended)}`}</span>
+            {e.example && <span class="stage-badge example">worked example</span>}
+            {e.verify.length > 0 && <span class="chip">{e.verify.length === 1 ? 'one fact' : `${e.verify.length} facts`} still to check</span>}
+          </p>
+          <p class="part"><strong>What they do.</strong> {e.what}</p>
+          <p class="part"><strong>What they measure.</strong> {e.measures}</p>
+          <p class="part"><strong>What they claim.</strong> {e.claims}</p>
+          <p class="part"><strong>What the public record shows.</strong> {e.public_record}</p>
+          <p class="part"><strong>Their own publication of it.</strong> <a href={e.link} rel="noopener">{hostOf(e.link)}</a>.</p>
+          {(e.leaves.length > 0 || e.branches.length > 0) && (
+            <p class="part">
+              <strong>Bears on.</strong>{' '}
+              {e.leaves.map((lf, i) => <><a href={lf.path}>{lf.name}</a>{i < e.leaves.length - 1 || e.branches.length > 0 ? '; ' : '.'}</>)}
+              {e.branches.map((b, i) => <><a href={b.path}>the {lowerFirst(b.name)} branch</a>{i < e.branches.length - 1 ? '; ' : '.'}</>)}
+            </p>
+          )}
+          <details class="claim-more">
+            <summary>The notes, and what is still to check</summary>
+            {e.notes && <p><span class="k">Notes</span> {e.notes}</p>}
+            {e.verify.length > 0 && <p><span class="k">Not yet verified</span> {e.verify.join(' ')}</p>}
+            <p class="dim">This entry is <a href={recordUrl(e.file)} rel="noopener">{e.file}</a> in the public repository.</p>
+          </details>
+          <p class="one-person">{ONE_PERSON_LINE}</p>
+        </li>
+      ))}
+    </ol>
+    <p class="dim" style="font-size: 14px; margin-top: 24px;">
+      The record itself is one file per person in <a href="https://github.com/jfredson/outrunning-ageing/tree/main/data/experiments" rel="noopener">data/experiments</a> in the public repository. An entry missing, or a claim misread: <a href="/disagree/">say so</a>.
+    </p>
+  </section>
+</Base>

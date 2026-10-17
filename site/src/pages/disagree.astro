@@ -1,0 +1,59 @@
+---
+// Disagree with something: the three forms and what happens next (tracker pattern, rule 4.4). Each
+// form is an issue template in the repository (.github/ISSUE_TEMPLATE/), so the issue is durable
+// and the change that answers it can cite it. The three kinds this site takes, from the kickoff: a
+// missing treatment with its test (a treatment without a test cannot be added); a questioned test
+// or settler; an argued range. Copied from The Quiet Galaxy's disagree page (which copied The Belt
+// Equation's feedback page) on 2026-10-17.
+import Base from '../layouts/Base.astro';
+import { issueUrl, REPO } from '../lib/records';
+
+const missing = issueUrl('missing-treatment.md', 'Missing treatment: ');
+const test = issueUrl('question-a-test.md', 'Question a test: ');
+const range = issueUrl('argue-a-range.md', 'Argue a range: ');
+---
+
+<Base title="Disagree with something — Outrunning Ageing" description="How to name a missing treatment with its test, question a test or who settles it, or argue a range, and what happens to each.">
+  <section class="hero">
+    <p class="eyebrow">Disagree with something</p>
+    <h1>The point of publishing the ranges is that you can argue with one</h1>
+    <p class="lede">
+      Three kinds of disagreement move this project: a treatment or tool that is missing, a test that would not settle the question, and a range that is in the wrong place. Each is welcome, and each leaves a trace that the change can cite.
+    </p>
+  </section>
+
+  <section class="section narrow prose">
+    <h2>The three forms</h2>
+    <div class="forms">
+      <div class="form-card">
+        <h3>Name a missing treatment, with its test</h3>
+        <p>A drug, a procedure, a gene therapy or a measuring tool that would have to arrive for ageing to be outrun and the tree does not have. The most useful thing you can give is the test: what would count as it having happened, written so that two readers would agree, and who or what would settle it. A treatment without a test cannot be added, on any branch.</p>
+        <a class="btn" href={missing} rel="noopener">Name a missing treatment</a>
+      </div>
+      <div class="form-card">
+        <h3>Question a test, or who settles it</h3>
+        <p>A test with a loophole, an undefined word, or a case it would wrongly count or wrongly miss; or a settler that could not actually decide it. Say what is wrong and what you would write instead. A test is never edited once a stage or an estimate has been published against it; a treatment that needs a different test is retired and replaced, so the record can always find the forecast it is scoring.</p>
+        <a class="btn ghost" href={test} rel="noopener">Question a test</a>
+      </div>
+      <div class="form-card">
+        <h3>Argue a range, with a source</h3>
+        <p>A treatment's range for the year it reaches the clinic that is too early, too late, too narrow or too wide. Say what you would move it to and point at the trial report, the approval record or the paper that supports the move. A range moves on a source and a dated reason, never because a number looked wrong, and every move is a revision on the treatment's page.</p>
+        <a class="btn ghost" href={range} rel="noopener">Argue a range</a>
+      </div>
+    </div>
+    <p>
+      Each form opens an issue in the public repository with the right questions already in it. Issues are used because they are durable and quotable, and folding one into the record is a change that can cite it. Every treatment's page has two links at the side that open the right form with that treatment's name filled in. Or write a plain issue: the page, what you would change, and why is exactly enough. A stage you think is wrong goes through the test form, since a stage is settled by the record the test names.
+    </p>
+
+    <h2>What happens to it</h2>
+    <ol>
+      <li>I rule on it. Some disagreements change the record; some are answered and left as they are. Either way the issue records the ruling and the reason.</li>
+      <li>A change to the record lands as a dated change in the repository that cites the issue, with a line in the changelog and an entry in <a href="/story/">the story so far</a>.</li>
+      <li>A moved range gets a dated revision on the treatment's page, with the old numbers, the new ones, the source and the reason, and the year on the home page is recomputed from the new range, so the change shows as a change to the year with its cause beside it.</li>
+      <li>Disagreement that arrives between reviews is folded in before the yearly review, when every range is re-read against the record, the branches and the fixed dates are reconsidered, and the method's settings are reopened.</li>
+    </ol>
+    <p class="dim" style="font-size: 14.5px;">
+      The repository is at <a href={REPO} rel="noopener">github.com/jfredson/outrunning-ageing</a>. The records are free to reuse with credit, and the site's code is under the MIT licence. This site records what has been shown and what has been promised; it recommends nothing, and nothing on it is medical advice, so a disagreement about what a person should take is not one it can rule on.
+    </p>
+  </section>
+</Base>

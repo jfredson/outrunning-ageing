@@ -1,0 +1,60 @@
+---
+// The tree: the index of the eight branches (tracker pattern, section 2 and rule 2.4), under the
+// ruled public name "The tree". One card per branch with its live counts and the year it counts
+// as handled in the middle run, then the stage ladder explained once. Copied from The Upgrade
+// Tree's branches index on 2026-10-17 (the `bcard` cards), with the handled year added because
+// this site has a computed year and that one has a count.
+import Base from '../../layouts/Base.astro';
+import { records, plural, yearWords } from '../../lib/records';
+
+const c = records.counts;
+const h = records.headline;
+const branches = records.branches;
+---
+
+<Base title="The tree — Outrunning Ageing" description="The eight things that would have to be dealt with for medicine to start outrunning ageing, and what has been recorded under each: the treatments and tools, the stage each has reached, and the year each branch counts as handled.">
+  <section class="hero">
+    <p class="eyebrow">The tree</p>
+    <h1>Eight things that would have to be dealt with</h1>
+    <p class="lede">
+      The published science groups ageing into twelve "hallmarks": twelve kinds of damage and failure that build up in a body over a lifetime. This site groups them into seven kinds of damage that repair would have to address, and adds an eighth branch for the tools that would show whether any repair worked. Every treatment and tool on the tree sits under one of these; the year on the home page is computed from all eight.
+    </p>
+  </section>
+
+  <section class="section">
+    <ul class="branches">
+      {branches.map((b) => (
+        <li>
+          <a class="bcard" href={b.path}>
+            <div class="bcard-top"><span class="n">{b.order} of {branches.length}</span><span>{b.leaves === 0 ? 'nothing yet' : plural(b.leaves, 'treatment or tool', 'treatments and tools')}</span></div>
+            <div class="bcard-title">{b.name}</div>
+            <div class="bcard-sub">{b.meaning}</div>
+            <div class="bcard-foot">
+              {b.in_clinic === 0 ? 'Nothing in the clinic yet' : `${plural(b.in_clinic, 'treatment', 'treatments')} in the clinic`}
+              {b.median_handled_year !== null && <>. Handled, in the middle run, by <span class="year">{yearWords(b.median_handled_year)}</span></>}
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="section narrow prose">
+    <h2>How a branch sets the year</h2>
+    <p>
+      Each branch counts as handled in the year its second treatment or tool reaches the clinic: the rung called "in clinical use", where a regulator somewhere has approved it or a doctor can give it outside a trial. The tree is played out many thousands of times, each time drawing a year for every treatment from its range; in each run the latest handled year across the eight branches, plus a few years for treatments to spread from the clinic to ordinary people, is that run's answer. So the slowest branch sets the year, and the fastest two treatments under a branch set that branch. {h.available ? `In the middle run the slowest branch is handled in ${yearWords(Math.max(...branches.map((b) => b.median_handled_year ?? 0)))}, and the year at the top is ${h.median_year}.` : ''} The rule, with its alternatives, is on <a href="/method/">how the numbers are worked out</a>.
+    </p>
+
+    <h2>The five stages</h2>
+    <p>
+      Each treatment sits on one rung of a five-rung ladder, the same ladder the sister site The Upgrade Tree uses, so that the two records can point at each other. It moves up when a public record shows the next thing has happened, and it never moves down: if a drug is later withdrawn, the record says so, but the rung it reached stays.
+    </p>
+    <ol>
+      {records.stages.map((s) => <li><strong>{s.label}.</strong> {s.meaning}</li>)}
+    </ol>
+    <p class="dim">
+      {plural(c.leaves, 'treatment and tool', 'treatments and tools')} on the tree: {c.leaves_by_stage['idea-only']} at idea only, {c.leaves_by_stage['shown-in-animals']} shown in animals, {c.leaves_by_stage['first-human']} at a first human, {c.leaves_by_stage['in-clinical-use']} in clinical use and {c.leaves_by_stage['in-wide-use']} in wide use.
+      {c.long_shots > 0 && ` ${plural(c.long_shots, 'is a long shot', 'are long shots')}, kept on the tree on purpose with the steps it would take and where today's biology would have to give way.`}
+    </p>
+  </section>
+</Base>

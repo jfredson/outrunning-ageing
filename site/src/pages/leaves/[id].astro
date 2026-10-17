@@ -1,0 +1,233 @@
+---
+// One page per treatment or tool, in the tracker pattern's order (section 3): the plain name and
+// a paragraph; what would count; who settles it; where it stands, with the date; the dated
+// record (the stage ladder with the record that reached each rung, and the estimate of when it
+// reaches the clinic, as a range with the reasoning); the last three weekly readings; what the
+// story so far says about it (the claims that promise it, the self-experiments that try it, the
+// papers behind it); and a way to disagree with this one thing. A long shot carries how it could
+// happen and where today's science would have to give way between the paragraph and the test.
+// The revision log and the verify list are shown plainly: a fact written from memory is marked
+// as unverified until a later session clears it. Copied from The Upgrade Tree's upgrade page on
+// 2026-10-17 (the `record` layout, the side rail, the ladder) and widened with the estimate.
+import Base from '../../layouts/Base.astro';
+import StageBadge from '../../components/StageBadge.astro';
+import { records, longDate, worldDate, hostOf, issueUrl, recordUrl, yearWords, type Leaf } from '../../lib/records';
+
+export function getStaticPaths() {
+  return records.leaves.map((l) => ({ params: { id: l.id }, props: { leaf: l } }));
+}
+
+const { leaf: l } = Astro.props as { leaf: Leaf };
+const site = String(Astro.site).replace(/\/$/, '');
+const argueRange = issueUrl('argue-a-range.md', `Argue a range: ${l.name}`, `Treatment or tool: ${l.id} (${site}${l.path})\n\n`);
+const questionTest = issueUrl('question-a-test.md', `Question a test: ${l.name}`, `Treatment or tool: ${l.id} (${site}${l.path})\n\n`);
+const clinicRung = l.estimate?.rungs.find((r) => r.feeds_headline) ?? null;
+const description = l.description.length > 200 ? l.description.slice(0, 197) + '…' : l.description;
+const firstSentence = (s: string) => s.split('. ')[0];
+---
+
+<Base title={`${l.name} — Outrunning Ageing`} description={description}>
+  <section class="hero wide">
+    <p class="eyebrow"><a href="/branches/">The tree</a> · <a href={l.branch_path}>{l.branch_name}</a></p>
+    <h1>{l.name}</h1>
+    <div class="chips">
+      <StageBadge stage_rank={l.stage_rank} stage_label={l.stage_label} />
+      <span class="chip">{l.horizon_label}</span>
+      {l.long_shot && <span class="chip accent">Long shot, kept on the tree on purpose</span>}
+      {l.status === 'withdrawn' && <span class="chip no">Withdrawn from use; the stage it reached stays</span>}
+      {l.example && <span class="stage-badge example">worked example of the layout</span>}
+      {l.verify.length > 0 && <span class="chip">{l.verify.length} {l.verify.length === 1 ? 'fact' : 'facts'} still to check</span>}
+    </div>
+  </section>
+
+  <div class="record">
+    <div class="prose">
+      <p>{l.description}</p>
+
+      {l.long_shot && (
+        <>
+          <h2>How it could happen</h2>
+          <p>{l.mechanism}</p>
+          <h2>Where today's science would have to give way</h2>
+          <p>{l.breaking_point}</p>
+        </>
+      )}
+
+      <h2>What would count</h2>
+      <p>{l.test}</p>
+      <p class="dim"><strong>Who settles it:</strong> {l.settler}.</p>
+
+      <h2>Where it stands</h2>
+      <p>
+        <strong>{l.stage_label}.</strong>{' '}
+        {l.stage_reached_on
+          ? <>Reached {worldDate(l.stage_reached_on)}, on the record of {l.stage_publication ? <a href={l.stage_publication.path}>{l.stage_publication.authors_short}, {worldDate(l.stage_publication.date)}</a> : null}{l.stage_publication && l.stage_record ? ' (' : ''}{l.stage_record && <a href={l.stage_record} rel="noopener">{hostOf(l.stage_record)}</a>}{l.stage_publication && l.stage_record ? ')' : ''}.</>
+          : 'Not yet shown to work in any living animal, so there is no record to point at.'}
+        {' '}{l.horizon_label.charAt(0) + l.horizon_label.slice(1).toLowerCase()}.
+        {l.clinic_year !== null && <> The year the model reads for it is {l.clinic_year}, the year it reached the clinic; what has happened is not drawn.</>}
+      </p>
+      {l.status === 'withdrawn' && (
+        <p>The treatment this entry rests on has since been withdrawn from use. The rung it reached stays on the record, because the ladder records what has happened.</p>
+      )}
+      {l.sibling_url && (
+        <p class="dim" style="font-size: 15px;">
+          This is one of the {records.counts.siblings} treatments shared with the sister site The Upgrade Tree, which keeps <a href={l.sibling_url} rel="noopener">its own record of it</a> at the same test and the same stage. The weekly reading checks that the two stages agree.
+        </p>
+      )}
+
+      {l.estimate && (
+        <>
+          <h2>When it reaches the clinic: the project's estimate</h2>
+          <p>
+            This is the one thing on this page that is a judgment rather than a record. {clinicRung
+              ? <>The project's estimate of the year it reaches the clinic is <strong>{yearWords(clinicRung.likely)}</strong>, no earlier than {yearWords(clinicRung.earliest)} and no later than {yearWords(clinicRung.latest)}; the model draws from that range every run, with the likely year the most probable draw.</>
+              : <>It is already in the clinic, so the model reads a known year; the estimate below is for the rungs still above it and feeds nothing.</>}
+            {' '}Set {longDate(l.estimate.set_on)}{l.estimate.status === 'first-pass' ? ', a first pass awaiting an outside review' : ', reviewed'}.
+          </p>
+          <table class="range-table">
+            <thead><tr><th>Rung</th><th>No earlier than</th><th>Most likely</th><th>No later than</th><th></th></tr></thead>
+            <tbody>
+              {l.estimate.rungs.map((r) => (
+                <tr>
+                  <td>{r.rung_label}</td>
+                  <td class="yr">{yearWords(r.earliest)}</td>
+                  <td class="yr likely">{yearWords(r.likely)}</td>
+                  <td class="yr">{yearWords(r.latest)}</td>
+                  <td>{r.feeds_headline && <span class="feeds">feeds the year at the top</span>}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <p><strong>Why.</strong> {l.estimate.why}</p>
+          {l.estimate.sources.length > 0 && (
+            <p class="dim" style="font-size: 15px;">Rests on: {l.estimate.sources.map((s, i) => <><a href={s.path}>{s.authors_short}, {worldDate(s.date)}</a>{i < l.estimate!.sources.length - 1 ? '; ' : '.'}</>)}</p>
+          )}
+        </>
+      )}
+
+      <h2>Changes to this record</h2>
+      {l.revisions.length === 0 ? (
+        <p class="dim" style="font-size: 15px;">None since it was written{l.estimate ? ` on ${longDate(l.estimate.set_on)}` : ''}. Every change to the stage or the estimate lands here with its date, the old value, the new one and the reason, and a change to the estimate never happens because a number looked wrong: it needs a dated reason and a source.</p>
+      ) : (
+        <ul class="rev">
+          {l.revisions.map((r) => (
+            <li><strong>{longDate(r.date)}</strong>, {r.field}: {String(r.old)} became {String(r.new)}. {r.why}{r.publication && <> Source: <a href={r.publication.path}>{r.publication.authors_short}, {worldDate(r.publication.date)}</a>.</>}</li>
+          ))}
+        </ul>
+      )}
+
+      <h2>The last readings</h2>
+      {l.readings.length === 0 ? (
+        <p class="dim" style="font-size: 15px;">
+          No weekly reading has run yet. Once a week, from the site's launch, every treatment is read against the news, against what would count above, and the last three readings of this one are shown here with the date and the verdict. <a href="/reading/">About the weekly reading.</a>
+        </p>
+      ) : (
+        <ul class="checks">
+          {l.readings.map((r) => (
+            <li>
+              <span class="check-date">{longDate(r.read_on)}</span>
+              <span class={`badge v-${r.verdict}`}>{r.verdict_label}</span>
+              <p>{r.line}{r.source && <> <a href={r.source} rel="noopener nofollow">source</a></>}</p>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      <h2>What the story so far says about it</h2>
+      {l.claims.length === 0 && l.experiments.length === 0 && l.publications.length === 0 && (
+        <p class="dim" style="font-size: 15px;">No promise, self-experiment or logged paper names this one yet.</p>
+      )}
+      {l.claims.length > 0 && (
+        <>
+          <p class="kicker">Promised, in public</p>
+          <ul class="rlist">
+            {l.claims.map((cl) => (
+              <li>
+                <span class="rwhen">{worldDate(cl.said_on)}</span><a href={cl.path}>{cl.who}</a>: {cl.commits_to}
+                <span class="rmeta">Verdict: {cl.verdict_label.toLowerCase()}{cl.due && cl.verdict === 'not-yet-due' ? `, due ${cl.due}` : ''}. A promise moves nothing here; the stage above is what has been shown.</span>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+      {l.experiments.length > 0 && (
+        <>
+          <p class="kicker">Tried on themselves, in public</p>
+          <ul class="rlist">
+            {l.experiments.map((e) => (
+              <li><span class="rwhen">{worldDate(e.started)}</span><a href={e.path}>{e.who}</a>{e.name ? `, ${e.name}` : ''}<span class="rmeta">A claim about one person is a story, not a record, and it moves nothing on this page.</span></li>
+            ))}
+          </ul>
+        </>
+      )}
+      {l.publications.length > 0 && (
+        <>
+          <p class="kicker">On the record</p>
+          <ul class="rlist">
+            {l.publications.map((p) => (
+              <li>
+                <span class="rwhen">{worldDate(p.date)}</span><a href={p.path}>{p.title}</a>
+                <span class="rmeta">{p.authors_short}.{p.settles_rung ? ` The record that settles the rung "${p.settles_rung.toLowerCase()}".` : ''}</span>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      {l.notes && (
+        <>
+          <h2>Notes</h2>
+          <p>{l.notes}</p>
+        </>
+      )}
+
+      {l.verify.length > 0 && (
+        <>
+          <h2>Not yet verified</h2>
+          <p class="dim" style="font-size: 15px;">These facts in the record were written from memory or from a secondary source and have not yet been checked against the paper, the regulator's record or the registry. Nothing here is presented as settled until it is cleared, by checking it and either deleting the line or correcting the record.</p>
+          <ul class="verify-list">
+            {l.verify.map((v) => <li>{v}</li>)}
+          </ul>
+        </>
+      )}
+    </div>
+
+    <aside class="side">
+      <div class="side-card">
+        <h3>The stage ladder</h3>
+        <ol class="ladder">
+          {l.ladder.map((r) => (
+            <li class={`${r.reached ? 'reached' : ''} ${r.current ? 'current' : ''}`}>
+              <span class="rung">{r.label}</span>
+              {r.reached ? (
+                <span class="when">
+                  {r.reached_on
+                    ? <>{worldDate(r.reached_on)}{r.publication ? <>, <a href={r.publication.path}>{r.publication.authors_short}</a></> : r.record ? <>, <a href={r.record} rel="noopener">{hostOf(r.record)}</a></> : null}</>
+                    : r.key === 'idea-only' ? 'the starting rung' : 'reached; no date on record'}
+                </span>
+              ) : (
+                <span class="when">not yet</span>
+              )}
+            </li>
+          ))}
+        </ol>
+      </div>
+      {clinicRung && (
+        <div class="side-card">
+          <h3>What the model draws</h3>
+          <p>A year it reaches the clinic, between {yearWords(clinicRung.earliest)} and {yearWords(clinicRung.latest)}, most often near {yearWords(clinicRung.likely)}. {l.branch_name} counts as handled when its second treatment is in the clinic.</p>
+        </div>
+      )}
+      <div class="side-card">
+        <h3>Disagree with this one thing</h3>
+        <p>The range, the test, who settles it, the stage, or something this record leaves out. Say what you would change and why; a range moves on a source, not on a feeling.</p>
+        <p><a class="btn ghost" href={argueRange} rel="noopener">Argue the range</a></p>
+        <p><a class="btn ghost" href={questionTest} rel="noopener">Question the test</a></p>
+      </div>
+      <div class="side-card">
+        <h3>The record itself</h3>
+        <p class="sources">This page is built from <a href={recordUrl(l.file)} rel="noopener">{l.file}</a> in the public repository. Its address never changes once published.</p>
+      </div>
+    </aside>
+  </div>
+</Base>

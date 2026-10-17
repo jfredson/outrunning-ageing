@@ -1,0 +1,218 @@
+---
+// How the numbers are worked out: the plain account (tracker pattern, rule 4.5, and the design
+// standard's section 1a), with the model, its parameters and the alternatives from docs/method.md,
+// one run written out by hand, the spread as a live chart, who does what, and the working
+// documents linked at the end, each with a preface saying what it is, who it is for and where the
+// plain account lives (the AGI Zeitgeist Tracker's preface, through The Quiet Galaxy's method
+// page, copied 2026-10-17). Every number on this page is read from the computed headline that the
+// export script carries; the parameters are the ten John ruled on 2026-10-16, written here in
+// plain words with the strongest alternative for each, as the method document records them.
+import Base from '../layouts/Base.astro';
+import { records, longDate, plainNumber, percent, percentWords, spreadWords, yearWords, plural, lowerFirst, REPO } from '../lib/records';
+
+const h = records.headline;
+const c = records.counts;
+const fixed = records.fixed_dates;
+const run = h.available ? h.worked_run : null;
+const lag = h.available ? h.method.lag_years : { earliest: 3, likely: 8, latest: 15 };
+
+// The spread as a live chart: escape years by five-year bin, data in --accent-3 (standard, section 9).
+const bins = h.available ? h.histogram.filter((b) => b.to !== null || b.share > 0) : [];
+const W = 720, H = 220, padL = 36, padR = 12, padT = 14, padB = 34;
+const maxShare = bins.length ? Math.max(...bins.map((b) => b.share), 0.01) : 1;
+const bw = bins.length ? (W - padL - padR) / bins.length : 0;
+const y = (s: number) => padT + (H - padT - padB) * (1 - s / maxShare);
+const gridShares = [0.1, 0.2, 0.3, 0.4].filter((g) => g - 0.05 < maxShare);
+// The bin the middle year falls in, worked out here because the template cannot hold a <= comparison.
+const medianBin = h.available ? bins.findIndex((b) => b.to !== null && b.from - 1 < h.median_year && h.median_year - 1 < b.to) : -1;
+
+const docs = [
+  {
+    title: 'How the headline is computed',
+    file: 'docs/method.md',
+    what: 'The ten settings of the computation (the shape of each draw, the lag from the clinic to ordinary people, the rule that every required branch must be handled, the two fixed dates, the number of runs, the fixed seed, independent draws, when the computation refuses to run, where its result is written, and how a far year is read), each with a confidence level and the strongest alternative, proposed and ruled on 16 October 2026 with the lag flagged for an outside review. It is for anyone who wants to know why the numbers are what they are.',
+  },
+  {
+    title: 'The record layout',
+    file: 'docs/record-schema.md',
+    what: 'It defines the six kinds of record (a branch, a treatment or tool, a claim, a self-experiment, a publication, and a weekly reading), every field each may carry, the stage ladder, how a treatment’s state feeds the year, the five rulings on judging and sourcing a claim, and the rules the checking script enforces. It is for anyone adding or correcting a record.',
+  },
+  {
+    title: 'The kickoff document',
+    file: 'docs/2026-10-16-kickoff.md',
+    what: 'The plan the project started from on 16 October 2026: the question, the headline number, the eight branches, what a treatment is, the six kinds of record, the name, and how the site is built. It is kept as the record of where the project began, and it is not updated.',
+  },
+  {
+    title: 'The checking and computing script',
+    file: 'scripts/compute.py',
+    what: 'The code that checks every record against the layout and refuses to continue on any failure, and that plays the tree out many thousands of times to produce the numbers. It is for anyone who wants to reproduce a figure; with the fixed seed, the published numbers reproduce exactly on any machine.',
+  },
+  {
+    title: 'The computed result',
+    file: 'data/headline.json',
+    what: 'What the computation wrote: the date, the settings, the three numbers, the spread, and for each branch the year it counts as handled and what each treatment supplied. It is committed with the records it is computed from, so every change to the year is a visible change with a line in the changelog.',
+  },
+  {
+    title: 'The changelog',
+    file: 'CHANGELOG.md',
+    what: 'Every change to a record, the method or the site, with its date. It is shown on the story so far page as well.',
+  },
+];
+---
+
+<Base title="How the numbers are worked out — Outrunning Ageing" description="How the year at the top of the site is computed: every treatment carries a range for the year it reaches the clinic, the tree is played out two hundred thousand times, and the three numbers are read off the spread. Every setting with its reason and its strongest alternative, and one run written out by hand.">
+  <section class="hero">
+    <p class="eyebrow">Method</p>
+    <h1>How the numbers are worked out</h1>
+    <p class="lede">
+      The year at the top of the site is never typed in. It is worked out from the treatments and tools on the tree, each carrying a range for the year it reaches the clinic with the reasoning beside it, by a method anyone can run from the public repository.
+    </p>
+  </section>
+
+  <section class="section who" id="who">
+    <div>
+      <p class="kicker">Who is asking</p>
+      <p>I'm John, and I write about AI, sentience and the spread of conscious life beyond Earth at <a href="https://sentient-horizons.com" rel="noopener">Sentient Horizons</a>. This is the fourth of a family of sites built the same way: <a href="https://beltequation.com" rel="noopener">The Belt Equation</a> tracks the odds of leaving Earth, <a href="https://thequietgalaxy.com" rel="noopener">The Quiet Galaxy</a> asks why the sky is quiet, and <a href="https://theupgradetree.com" rel="noopener">The Upgrade Tree</a> counts how much of a person can be changed on purpose today. Here the question is whether, and when, medicine starts giving back more than a year of healthy life for each year that passes. I wanted a place where that argument is laid out piece by piece, every number carries its source, and a new result moves the answer in public. My own health record is not part of it.</p>
+    </div>
+    <div>
+      <p class="kicker">Why the name?</p>
+      <p>Because that is the race. Ageing takes about a year from a middle-aged person's remaining years every year, and medicine gives a little back. The site asks when the second overtakes the first, so that someone who keeps up with the best available care finds their remaining years holding steady or rising. The phrase the field uses for that crossing is "longevity escape velocity", coined in 2004; the site does not presume it is coming, and works out from the record how far off it looks.</p>
+    </div>
+  </section>
+
+  <section class="section narrow prose">
+    <h2>What the computation does</h2>
+    <ol>
+      <li><strong>Every treatment and tool supplies a year it reaches the clinic.</strong> One already there supplies the year it happened: what has happened is not drawn. One below the clinic draws a year from its estimate, a range with three numbers, no earlier than, most likely, and no later than, written on its page with the reasoning. The draw is a triangle over the three, so the likely year is the most probable draw and the two ends are possible but rare.</li>
+      <li><strong>Every branch counts as handled in the year its second treatment reaches the clinic.</strong> The branch's years are sorted and the second is taken. So a branch's slow treatments never set its year, only its two fastest; a branch with two treatments in the clinic already is handled in a known year and cannot hold the year back.</li>
+      <li><strong>The run's answer is the latest handled year across the eight branches, plus a lag</strong> for treatments to spread from the clinic to ordinary people, drawn once per run from a range of {lag.earliest} to {lag.latest} years, most likely {lag.likely}. The year is meant to be when a person who keeps up with the best available care actually gets the gain, not when the paper came out.</li>
+      <li><strong>Many thousands of runs</strong>, each with fresh draws, give a spread of years. Three numbers are read off it: the middle year, which is the year at the top; the share of runs before {fixed.before}; and the share after {fixed.century_end}, said in public as "not this century". The middle nine tenths of the runs are reported as the spread.</li>
+    </ol>
+    <p>
+      Two honesty rules from the start. The combination rule, that every branch must be handled and then a lag added, is the project's judgment, and the strongest alternative, a weighted sum in which some branches count for more, is recorded below with why it was not chosen. And the ranges are the project's reading of the evidence, revised only with a dated reason and a source, never because a number looked wrong.
+    </p>
+
+    {h.available ? (
+      <>
+        <h2>The numbers as they stand</h2>
+        <p>
+          Computed on {longDate(h.computed_on)} from {plainNumber(h.method.runs)} runs over {plural(h.counts.leaves_counted, 'treatment and tool', 'treatments and tools')}, {h.counts.leaves_in_clinic_already} of them already in the clinic: the middle year is <strong>{h.median_year}</strong>, {spreadWords()}; the chance before {fixed.before} is <strong>{percent(h.before_2050)}</strong>; and the share of runs not this century is <strong>{percent(h.after_2100)}</strong>. A quarter of the runs land by {yearWords(h.percentiles.p25)} and three quarters by {yearWords(h.percentiles.p75)}. {h.counts.estimates_first_pass} of the estimates are still a first pass, so these numbers are the shape of the first reading of the evidence and not a settled forecast; the outside review of the ranges is the next step, and every change it brings is dated on each treatment's page.
+        </p>
+        <div class="chart">
+          <div class="chart-head">
+            <span class="chart-title">The spread of escape years, by five-year span</span>
+            <span class="chart-note">Share of {plainNumber(h.method.runs)} runs landing in each span. The middle year, {h.median_year}, is marked.</span>
+          </div>
+          <svg class="chart-svg" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`A bar chart of the share of runs landing in each five-year span, from ${bins[0]?.from} onward; most runs land between ${h.percentiles.p5} and ${h.percentiles.p95}.`}>
+            {gridShares.map((g) => (
+              <>
+                <line class="chart-grid" x1={padL} x2={W - padR} y1={y(g)} y2={y(g)} />
+                <text class="chart-axis" x={padL - 6} y={y(g) + 4} text-anchor="end">{Math.round(g * 100)}%</text>
+              </>
+            ))}
+            {bins.map((b, i) => {
+              const x = padL + i * bw + 3;
+              const top = y(b.share);
+              const isMedian = i === medianBin;
+              return (
+                <>
+                  <rect class={`chart-bar ${isMedian ? 'median' : ''}`} x={x} y={top} width={Math.max(bw - 6, 2)} height={Math.max(H - padB - top, 0)} rx="2" />
+                  {b.share >= 0.01 && <text class="chart-label" x={x + (bw - 6) / 2} y={top - 4} text-anchor="middle">{Math.round(b.share * 100)}%</text>}
+                  <text class="chart-axis" x={x + (bw - 6) / 2} y={H - padB + 16} text-anchor="middle">{b.to === null ? `${b.from}+` : String(b.from)}</text>
+                </>
+              );
+            })}
+          </svg>
+          <p class="chart-source">Source: the computed result in the public repository (data/headline.json), {longDate(h.computed_on)}. Each span is labelled with its first year; the last bar is every run after {fixed.century_end}.</p>
+        </div>
+
+        {run && (
+          <>
+            <h2>One run, written out</h2>
+            <p>
+              {run.note} Every treatment under a branch is listed with its year; the branch is handled at its second; the latest handled branch, {run.latest_branch ? lowerFirst(run.latest_branch) : ''}, sets the year; and the lag is added.
+            </p>
+            <table class="run-table">
+              <thead><tr><th>Branch</th><th>The years its treatments supply</th><th>Handled at its second</th></tr></thead>
+              <tbody>
+                {run.rows.map((r) => (
+                  <tr>
+                    <td><a href={`/branches/${r.key}/`}>{r.name}</a></td>
+                    <td class="yrs">{r.years.map((yr) => (yr.known ? `${yr.year}` : `${yearWords(yr.year ?? 0)}`)).join(', ')}</td>
+                    <td class="yr">{r.handled_year !== null ? yearWords(r.handled_year) : 'not enough treatments'}</td>
+                  </tr>
+                ))}
+                <tr class="total"><td>Latest handled year across the branches</td><td class="yrs">{run.latest_branch}</td><td class="yr">{run.latest_handled_year !== null ? yearWords(run.latest_handled_year) : ''}</td></tr>
+                <tr class="total"><td>Plus the lag from the clinic to ordinary people</td><td class="yrs">most likely value</td><td class="yr">+{run.lag}</td></tr>
+                <tr class="total"><td>This run's escape year</td><td></td><td class="yr">{run.escape_year !== null ? yearWords(run.escape_year) : ''}</td></tr>
+              </tbody>
+            </table>
+            <p>
+              This one run lands {run.escape_year !== null && run.escape_year < h.median_year ? 'earlier' : 'later'} than the middle of all the runs, {h.median_year}, and that is expected: the real runs draw a year for every treatment at once, and the latest of eight drawn years is usually later than the latest of eight likely years, because any one of the eight can come in late. That is what the combination rule does, and why the honest spread is wider than any one run.
+            </p>
+            <p>
+              By branch, the middle year each counts as handled across all the runs: {h.branches.map((b, i) => <>{lowerFirst(b.name)}{' '}{yearWords(b.median_handled_year)}{i < h.branches.length - 1 ? ', ' : '.'}</>)} The <a href="/branches/">tree</a> shows each one.
+            </p>
+          </>
+        )}
+      </>
+    ) : (
+      <>
+        <h2>The numbers as they stand</h2>
+        <p class="dim">The year is not computed yet. {h.reason} The method above is settled; the run's own settings are reported here once it exists, and the code is public.</p>
+      </>
+    )}
+
+    <h2>The settings, each with its reason and its strongest alternative</h2>
+    <p>Ten choices, proposed on 16 October 2026 with a confidence level each and ruled by John the same day; the lag is flagged for the outside review because its three numbers are a first guess with no source behind them.</p>
+    <ol class="params">
+      <li><strong>The draw for a treatment below the clinic is a triangle</strong> over its no-earlier-than, most-likely and no-later-than years. Moderate confidence: three numbers are what a person can argue about in public, and the triangle is the simplest shape that uses all three and nothing else. <span class="alt">Alternative: a bell curve centred on the likely year. Smoother, but it never says "no earlier than", and the earliest year on a treatment with no human result is a real floor.</span></li>
+      <li><strong>The lag from the clinic to ordinary people is a triangle over {lag.earliest}, {lag.likely} and {lag.latest} years</strong>, drawn once per run and shared by every branch. Low confidence on the numbers, moderate on the shape; flagged for the outside review. <span class="alt">Alternative: a lag per branch, drawn separately. More honest about the difference between a pill and a transplant, at the cost of eight more guesses. Or no lag at all, which would count the year a drug is approved as the year everyone has it.</span></li>
+      <li><strong>All required branches must be handled</strong>, and the latest handled year is taken. Moderate confidence: it says in the model what the published science says in prose, that ageing is many kinds of damage and outrunning it means dealing with each. <span class="alt">Alternative: a weighted sum, in which the branches with the most deaths behind them count for more and a branch could be skipped. It would pull the year in and would need eight weights nobody has published; a weight is a second judgment on top of the ranges, and the ranges are already the arguable part.</span></li>
+      <li><strong>The fixed dates are {fixed.before} and {fixed.century_end}.</strong> High confidence: the loudest promises on the claims log land before {fixed.before}, most readers under fifty expect to see it, and {fixed.century_end} is the century's end. Both are project constants, changed only at a yearly review and logged. <span class="alt">Alternative: the reader's own life expectancy, as The Belt Equation frames its question; deferred to a later version.</span></li>
+      <li><strong>{h.available ? plainNumber(h.method.runs) : '200,000'} runs.</strong> High confidence: the percentages then wobble by about a tenth of a point from one random start to another, far below any rounding the site shows, and the run takes under a second. <span class="alt">Alternative: a million runs for a twentieth of a point, or twenty thousand for noise that would show in the published file.</span></li>
+      <li><strong>A fixed starting point for the random draws{h.available ? ` (${h.method.seed}, the year the phrase "longevity escape velocity" became known)` : ''}.</strong> High confidence that it is fixed: the published numbers then reproduce exactly on any machine, and the result changes only when a record changes, so every change to the year is a visible change with a changelog line. <span class="alt">Alternative: none, so the numbers wobble on every run and every build produces a change.</span></li>
+      <li><strong>Independent draws:</strong> every treatment's year and the lag are drawn with no link between them. Moderate confidence: nothing published gives a rule for how a breakthrough in one branch speeds another, and a rule invented here would be a third judgment. <span class="alt">Alternative: linked draws, a shared "the field is going well" factor. More realistic, since the branches share money, regulators and tools, and it would widen the spread; it needs a number with no source.</span></li>
+      <li><strong>The computation refuses to run until every branch has at least two treatments to draw from</strong>, naming the branches short of it. High confidence: without them a branch could never be handled and every run would say "never", which would be the shape of the record and not of the world. <span class="alt">Alternative: treat a short branch as handled at its last treatment's year, or skip it. Either hides the gap.</span></li>
+      <li><strong>The result is written to a file and committed with the records</strong>, and the site reads that file. Moderate confidence: a change to the year is then a reviewable change beside the record that caused it. <span class="alt">Alternative: compute at build time with no file. Nothing to commit, but the year could change without a changelog line.</span></li>
+      <li><strong>Years past 2300 are refused in a record; a drawn year past {fixed.century_end} counts as "not this century"</strong> and is otherwise left as it is in the spread. Moderate confidence: "never" has to be expressible, and a far year is how a three-number estimate says it. <span class="alt">Alternative: a separate "chance it never happens" number per treatment. Cleaner in meaning, one more number to argue about, and it needs a rule for combining with the years.</span></li>
+    </ol>
+
+    <h2>Where the ranges come from</h2>
+    <p>
+      The ranges are the least certain part of the method, and the rest of the method exists to correct them over time. Each treatment's page shows its range with the reasoning in plain words, naming the evidence it rests on, and the papers behind its stage. The range is set by hand from that evidence, not computed from it, because the judgment about what to lean on is the arguable part and it should be visible and arguable. Every range starts life marked as a first pass. Before it is called settled it goes through an outside review, in which the ranges and their reasons are put to other readers, including other AI models, with a fixed brief to argue each one up or down, and I rule on every disagreement. Until that has happened the site says so. Each range was first drafted by Claude, the AI I build this project with, from the published record, and is accepted or moved by me; every change since is a dated revision on the treatment's page with the old numbers, the new ones and the reason.
+    </p>
+
+    <h2>What counts as a record</h2>
+    <p>
+      A treatment moves up its ladder only on a public record of the kind its own page names: a peer-reviewed report with a measured result, a regulator's approval record, a trial registry. A press release, a funding round, a target date or a first dose with no measured result settles nothing, on any rung. A claim on the <a href="/claims/">claims log</a> needs a primary source, the book and page or the recording and its minute, and news coverage of a remark is coverage, not a source. A fact written into any record from memory or from a secondary source is listed on that record's page as not yet verified, and the record is not treated as settled until the list is empty; {c.verify} such facts are open across the records today, and the pages say which.
+    </p>
+
+    <h2>What is beside the year, and moves it not at all</h2>
+    <p>
+      Two records sit beside the tree and never touch it. The <a href="/claims/">claims log</a> is what named people and companies have said about when, each dated and sourced, with a verdict as the dates pass; a claim moves nothing, and nothing on the tree makes a claim true. The <a href="/self-experiments/">self-experiments</a> are what people have tried on themselves in public, with what the public record actually shows; a claim about one person is a story, not a record, and it moves nothing on the tree. The record layout makes both structural: neither kind of record has a field that could move a stage or an estimate, and the checking script refuses one.
+    </p>
+
+    <h2>Who does what</h2>
+    <p>
+      John Fredrickson rules on what goes on the tree, on every test, on every range and on every verdict. Claude, an AI assistant, drafts the records, proposes the ranges, checks the papers, runs the weekly reading once it starts, and built this site. Nothing goes in without a source, and anything written from memory is marked until it is checked.
+    </p>
+
+    <h2>The working documents, as written</h2>
+    <p>
+      The documents below are the project's own working record, published as they are written because rewriting them would change the record. Each is written for the project rather than for a visitor, uses the project's own words, and may be out of date where this page is current; this page is the plain account.
+    </p>
+    <ul class="docs">
+      {docs.map((d) => (
+        <li>
+          <span class="preface">A working document, published as written</span>
+          <h3><a href={`${REPO}/blob/main/${d.file}`} rel="noopener">{d.title}</a> <span class="dim" style="font-weight: 400;">({d.file})</span></h3>
+          <p>{d.what}</p>
+        </li>
+      ))}
+    </ul>
+    <p class="dim" style="font-size: 14px;">
+      Cite as: Fredrickson, J. (2026). <em>Outrunning Ageing</em> [dataset]. Version of {records.exported_on}{records.commit ? `, commit ${records.commit}` : ''}. https://outrunningageing.com. The records are free to reuse with credit, and the code is under the MIT licence. {h.available ? `As the site stands the chance before ${fixed.before} is ${percentWords(h.before_2050)}.` : ''}
+    </p>
+  </section>
+</Base>

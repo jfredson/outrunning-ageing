@@ -1,0 +1,143 @@
+---
+// The claims log: who promised what, when, with the primary source, the due year and the verdict,
+// set beside the delivery: the treatment each claim rests on and how far that treatment has got
+// (tracker pattern, section 6, ruled by John 2026-10-16: talk and delivery on one page, side by
+// side, dated, so the reader can see the gap). Every claim comes from data/claims/ through
+// scripts/export.py; the delivery column comes from the leaves and the computed headline. The
+// five sourcing rulings of 2026-10-17 (docs/record-schema.md) govern what is shown and marked: a
+// withdrawn claim stays missed; a far-future claim keeps its due year; an undated standing claim
+// is scored at the fixed 2050 date; an entry held on coverage only is shown and marked; a printed
+// question-and-answer interview counts as a primary source. The page layout is copied from The
+// Upgrade Tree's claims page (2026-10-16), the family's first claims log.
+import Base from '../layouts/Base.astro';
+import StageBadge from '../components/StageBadge.astro';
+import { records, longDate, worldDate, hostOf, recordUrl, percent, yearWords, spreadWords, plural, lowerFirst } from '../lib/records';
+
+const list = records.claims;
+const k = records.claims_counts;
+const h = records.headline;
+const c = records.counts;
+const fixed = records.fixed_dates;
+---
+
+<Base title="The claims log — Outrunning Ageing" description="What named people and companies have said about when ageing will be outrun, each on a dated occasion with its primary source, what it commits to, and a verdict as the dates pass, set beside what has actually been shown.">
+  <section class="hero wide">
+    <p class="eyebrow">The claims log</p>
+    <h1>Who promised what, beside what has been shown</h1>
+    <p class="lede">
+      {k.claims} claims by {k.speakers} people and organisations, {k.first_year} to {k.last_year}, oldest first, each with the primary source and a verdict as of the last build. On the right, what the tree has actually reached. The two never mix: a claim moves nothing on the tree, and nothing on the tree makes a claim true.
+    </p>
+  </section>
+
+  <section class="section explain narrow">
+    <p>
+      A <em>claim</em>, here, is one named person or organisation saying one thing in public about when: when a treatment will reach people, when a trial will start, when ageing itself will be outrun. It is dated by when it was said, and it needs a primary source: the book and page, the recording and its minute, the company's own release, or an interview printed in question-and-answer form in the speaker's own words. News coverage of a remark is coverage, not a source; where a remark exists only as a reporter's version, the entry is shown anyway and marked as held on coverage, because the repeated versions are what this log exists to check. Each entry says in plain words what the claim commits to and by when, so that it can be judged: <strong>delivered</strong>, <strong>missed</strong>, <strong>not yet due</strong>, or <strong>cannot be settled</strong> because it names no date and no result that could ever decide it. A claim its maker later withdrew stays missed. A standing claim with no date is judged against this site's fixed date of {fixed.before}, and says so.
+    </p>
+  </section>
+
+  <div class="claims-grid">
+    <div class="claims-list">
+      <div class="shead">
+        <h2>The talk: {k.claims} claims</h2>
+        <span>{k.by_verdict['not-yet-due']} not yet due · {k.by_verdict.delivered} delivered · {k.by_verdict.missed} missed · {k.by_verdict.unfalsifiable} cannot be settled{k.coverage_only ? ` · ${k.coverage_only} held on coverage only` : ''}</span>
+      </div>
+      <ol class="claims">
+        {list.map((cl) => (
+          <li id={cl.id} class={`claim ${cl.verdict}`}>
+            <header class="claim-head">
+              <p class="claim-when"><a href={`#${cl.id}`}>{worldDate(cl.said_on)}</a></p>
+              <p class="claim-who"><strong>{cl.who}</strong></p>
+              <p class="claim-where">{cl.who_is.charAt(0).toUpperCase() + cl.who_is.slice(1)}.</p>
+              <p class="chips">
+                <span class={`verdict ${cl.verdict}`}>{cl.verdict_label}{cl.verdict === 'not-yet-due' && cl.due ? `: due ${cl.due}` : ''}</span>
+                {cl.about_the_headline && <span class="chip accent">about the whole question</span>}
+                {cl.is_paraphrase && <span class="chip no">held on coverage only</span>}
+                {cl.example && <span class="stage-badge example">worked example</span>}
+                {cl.verify.length > 0 && <span class="chip">{cl.verify.length === 1 ? 'one fact' : `${cl.verify.length} facts`} still to check</span>}
+              </p>
+            </header>
+
+            <blockquote class={`claim-words ${cl.is_paraphrase ? 'paraphrase' : ''}`}>
+              <p>{cl.is_paraphrase ? cl.quote : `“${cl.quote}”`}</p>
+              <footer>{cl.is_paraphrase ? 'Not the speaker’s own words: a reporter’s version, recorded as such. Seen in ' + cl.paraphrase_seen_in : cl.where}</footer>
+            </blockquote>
+
+            <p class="claim-text"><strong>What it commits to.</strong> {cl.commits_to}</p>
+            {(cl.verdict === 'delivered' || cl.verdict === 'missed') && cl.verdict_on && (
+              <p class="claim-ruling"><strong>{cl.verdict_label}</strong>, judged {longDate(cl.verdict_on)}. {cl.verdict_why}</p>
+            )}
+            {cl.verdict === 'unfalsifiable' && (
+              <p class="claim-ruling">Cannot be settled: it names no date and no result that could ever decide it, so it is recorded and never scored.</p>
+            )}
+
+            {(cl.leaves.length > 0 || cl.branches.length > 0 || cl.about_the_headline) && (
+              <div class="claim-bears">
+                <span class="k">Rests on</span>
+                {cl.about_the_headline && <span>the whole question: whether, by the year it names, the best available care adds more than a year of remaining life per year lived, which the year at the top of this site is built to say{cl.leaves.length + cl.branches.length > 0 ? '; and' : '.'}</span>}
+                <ul class="rests">
+                  {cl.leaves.map((lf) => (
+                    <li><a href={lf.path}>{lf.name}</a> <StageBadge stage_rank={lf.stage_rank} stage_label={lf.stage_label} /></li>
+                  ))}
+                  {cl.branches.map((b) => {
+                    const br = records.branches.find((x) => x.key === b.key);
+                    return <li><a href={b.path}>the {lowerFirst(b.name)} branch</a> <span class="dim">{br && br.furthest_label ? `furthest stage ${br.furthest_label.toLowerCase()}; ${br.in_clinic} in the clinic` : ''}</span></li>;
+                  })}
+                </ul>
+              </div>
+            )}
+
+            <details class="claim-more">
+              <summary>The source in full, and the notes</summary>
+              <p><span class="k">Primary source</span> {cl.where}{cl.link && <>. <a href={cl.link} rel="noopener">{hostOf(cl.link)}</a></>}</p>
+              {cl.is_paraphrase && <p><span class="k">Seen in</span> {cl.paraphrase_seen_in}</p>}
+              {cl.notes && <p><span class="k">Notes</span> {cl.notes}</p>}
+              {cl.verify.length > 0 && <p><span class="k">Not yet verified</span> {cl.verify.join(' ')}</p>}
+              <p class="dim">This entry is <a href={recordUrl(cl.file)} rel="noopener">{cl.file}</a> in the public repository.</p>
+            </details>
+          </li>
+        ))}
+      </ol>
+    </div>
+
+    <aside class="claims-side">
+      <div class="side-card delivered">
+        <h3>The delivery: what the record says</h3>
+        {h.available ? (
+          <>
+            <p class="big-number">{h.median_year}</p>
+            <p class="delivered-claim">The middle estimate of the year repair overtakes ageing, computed from the record: {spreadWords()}; a {percent(h.before_2050)} chance before {fixed.before}; {percent(h.after_2100)} of runs not this century.</p>
+          </>
+        ) : (
+          <p class="delivered-claim">The year is not computed yet.</p>
+        )}
+        <ul class="delivered-branches">
+          {records.branches.map((b) => (
+            <li>
+              <a href={b.path}>{b.name}</a>
+              <span class={`stage-badge stage-${b.furthest_rank ?? 'none'}`}><i aria-hidden="true"></i>{b.furthest_label ? b.furthest_label.toLowerCase() : 'nothing recorded'}</span>
+            </li>
+          ))}
+        </ul>
+        <p class="delivered-note">Each branch is shown at the furthest stage any treatment under it has reached. {c.leaves_in_clinic} of {c.leaves} treatments and tools are in the clinic. <a href="/branches/">The tree</a> has the full list.</p>
+      </div>
+      <div class="side-card">
+        <h3>The loudest promises and the fixed date</h3>
+        <p>The chance before {fixed.before} is on the home page because the loudest promises on this log land before it. {h.available ? `As the record stands that chance is ${percent(h.before_2050)}, and the middle year is ${yearWords(h.median_year)}.` : ''}</p>
+      </div>
+      <div class="side-card">
+        <h3>Disagree with something</h3>
+        <p>A claim missing, a date wrong, a phrase misquoted, a verdict you would argue. <a href="/disagree/">Say so.</a></p>
+      </div>
+    </aside>
+  </div>
+
+  <section class="section narrow prose">
+    <h2>What the four verdicts mean</h2>
+    <ul>
+      {records.verdicts.map((v) => <li><strong>{v.label}.</strong> {v.meaning}</li>)}
+    </ul>
+    <p class="dim" style="font-size: 14px; margin-top: 24px;">
+      The record itself is one file per claim in <a href={`https://github.com/jfredson/outrunning-ageing/tree/main/data/claims`} rel="noopener">data/claims</a> in the public repository; the rules for an entry are in <a href="/method/">how the numbers are worked out</a>. {plural(k.to_verify, 'fact in these entries is', 'facts in these entries are')} still to be checked against a source, and each entry says which.
+    </p>
+  </section>
+</Base>

@@ -1,23 +1,28 @@
 ---
-// The home page, holding version (2026-10-16). The first screen follows the tracker pattern's
-// section 1.3 (ruled by John 2026-10-16), in order: the eyebrow, the thing held (the year, in words
-// until it is computed), the question as the page title, one paragraph for a reader who has never
-// heard of the project, the last-checked strip, two buttons. Below it: the three numbers to come,
-// the eight branches with live counts, the six kinds of record with live counts, how the numbers
-// are worked out, who is asking. Written for a reader who has never heard of any of this (design
-// standard, section 1a); UK spelling throughout. Every number comes from records.json
-// (scripts/export.py). The site's own skin and its trunk object, the crossing chart, come from the
-// design session: the Ledger skin (styles/skin.css) and the spread of escape years (Spread.astro),
-// ruled by John 2026-10-17; the first screen is two columns, the chart beside the year.
+// The home page. The first screen follows the tracker pattern's section 1.3 (ruled by John
+// 2026-10-16) in two columns, as the Ledger skin's proposal laid it out and John ruled on
+// 2026-10-17: left, the eyebrow, the computed year in the largest type with its claim and the three
+// statistics under it (the chance before 2050, the nine-in-ten span, the share not this century),
+// the question as the page title, one paragraph, the last-checked strip, two buttons; right, the
+// chart of the spread of escape years (Spread.astro), the trunk's picture, standing between double
+// rules as "Sheet I". The first-screen markup is the design session's (merged from main on
+// 2026-10-17); everything below the first screen is the site session's: what a treatment is, the
+// eight branches with live counts and the year each is handled in the middle run, the six kinds of
+// record with live counts, who is asking. Written for a reader who has never heard of any of this
+// (design standard, section 1a); UK spelling throughout. Every number comes from records.json
+// (scripts/export.py), which reads the computed headline from data/headline.json; nothing here is
+// typed in. The strip and the branch cards are copied from The Belt Equation and The Upgrade Tree
+// (tracker pattern, section 7).
 import Base from '../layouts/Base.astro';
 import Spread from '../components/Spread.astro';
-import { records, longDate, plural, REPO } from '../lib/records';
+import { records, longDate, plural, percentWords, spreadWords, yearWords, REPO } from '../lib/records';
 
 const c = records.counts;
 const h = records.headline;
 const reading = records.reading;
 const branches = records.branches;
-const exampleNote = c.examples > 0;
+const fixed = records.fixed_dates;
+const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : null;
 ---
 
 <Base>
@@ -36,8 +41,8 @@ const exampleNote = c.examples > 0;
     </p>
     {h.available && (
       <div class="stat-row" aria-label="The three numbers beside the year">
-        <div><span class="stat">{(h.before_2050 * 100).toFixed(1)}%</span><span class="stat-label">chance it arrives before {records.fixed_dates.before}</span></div>
-        <div><span class="stat">{h.percentiles?.p5}–{h.percentiles?.p95}</span><span class="stat-label">in nine runs of ten</span></div>
+        <div><span class="stat">{(h.before_2050 * 100).toFixed(1)}%</span><span class="stat-label">chance it arrives before {fixed.before}</span></div>
+        <div><span class="stat">{h.percentiles.p5}–{yearWords(h.percentiles.p95)}</span><span class="stat-label">in nine runs of ten</span></div>
         <div><span class="stat">{Math.round(h.after_2100 * 100)}%</span><span class="stat-label">not this century</span></div>
       </div>
     )}
@@ -49,13 +54,13 @@ const exampleNote = c.examples > 0;
       <span class="strip-dot" aria-hidden="true"></span>
       <span>
         {reading
-          ? <>Last checked {longDate(reading.read_on)}: {plural(reading.read, 'test read', 'tests read')}, {reading.moved.length === 0 ? 'none moved' : `${reading.moved.length} moved`}. <a href={reading.path}>See the week's reading.</a></>
-          : <>No reading of the week's news against the treatments has run yet. The first one follows the records, and this line will say when it ran and what came of it.</>}
+          ? <>Last checked {longDate(reading.read_on)}: {plural(reading.read, 'test read', 'tests read')}, {reading.moved.length === 0 ? 'none moved' : reading.moved.length === 1 ? 'one moved' : `${reading.moved.length} moved`}{loneMover ? <>: <a href={loneMover.path}>{loneMover.name}</a></> : ''}. <a href={reading.path}>See the week's reading.</a></>
+          : <>No reading of the week's news against the treatments has run yet. The first one follows the site's launch, and this line will say when it ran and what came of it. <a href="/reading/">About the weekly reading.</a></>}
       </span>
     </p>
     <p class="ctas">
-      <a class="btn" href="#branches">What has to happen</a>
-      <a class="btn ghost" href="#who">Who is asking</a>
+      <a class="btn" href="/branches/">What has to happen</a>
+      <a class="btn ghost" href="/method/#who">Who is asking</a>
     </p>
   </section>
 
@@ -64,101 +69,90 @@ const exampleNote = c.examples > 0;
     <Spread />
     <ul class="legend">
       <li><i class="bars"></i> share of runs ending in each five years</li>
-      <li><i class="before"></i> before {records.fixed_dates.before}, the date the loudest promises name</li>
+      <li><i class="before"></i> before {fixed.before}, the date the loudest promises name</li>
     </ul>
     <p class="figure-note">Two hundred thousand runs of the tree, each drawing a year for every treatment and tool; the year a run ends is when the last required branch is handled, plus the years it takes a treatment to reach ordinary people. Never typed in.</p>
   </div>
   </div>
 
-  <div class="prose narrow">
-    <h2 id="numbers">What the top of this page will show</h2>
-    <div class="numbers">
-      <div class="number">
-        <div class="value pending">{h.available ? h.median_year : 'not computed yet'}</div>
-        <p class="what">The middle estimate of the year repair overtakes ageing, with its spread: "2063, and anywhere from 2044 to not this century" is the shape of it.</p>
-      </div>
-      <div class="number">
-        <div class="value pending">{h.available ? `${Math.round(h.before_2050 * 100)}%` : 'not computed yet'}</div>
-        <p class="what">The chance it arrives before {records.fixed_dates.before}, a fixed date chosen because the loudest promises all land before it.</p>
-      </div>
-      <div class="number">
-        <div class="value pending">{h.available ? `${Math.round(h.after_2100 * 100)}%` : 'not computed yet'}</div>
-        <p class="what">The share of runs in which it does not arrive this century. That is the honest width of the argument.</p>
-      </div>
-    </div>
+  <section class="section explain narrow">
     <p>
-      {h.available ? '' : h.reason} None of the three is typed in. Every treatment and tool on the tree carries an estimate of the year it reaches the clinic, as a range with the reasoning beside it; the tree is played out many thousands of times, drawing a year for each; and the three numbers are read off the spread of results.
+      A <em>treatment</em>, here, is one specific thing that would have to arrive for the year to move: a drug, a procedure, a gene therapy, or a measurement a regulator accepts as proof that something slowed ageing. Each one is written down with a plain test of what would count, written so that two readers would agree; who or what settles that test; where it stands today on a five-rung ladder from idea only to in wide use, with the date and the public record for every rung reached; and the project's estimate of the year it reaches the clinic, as a range with the reasoning beside it. The eight <em>branches</em> are the eight things that would have to be dealt with: seven kinds of damage that build up in a body over a lifetime, and the tools that would show whether any repair worked. Beside the year the site keeps a dated record of who promised what and when, held against what has actually been shown.
     </p>
+    {h.available ? (
+      <p>
+        None of the numbers on the first screen is typed in. The tree of {plural(c.leaves, 'treatment and tool', 'treatments and tools')} is played out {h.method.runs.toLocaleString('en-GB')} times, drawing a year for each from its range; the middle of all those runs is the year at the top, and the numbers beside it and every mark on the chart are read off the same spread, {spreadWords()}. Every estimate is still a first pass, written on {longDate(h.computed_on)} and waiting on an outside review; the year will move as the ranges are argued, and every move is dated with its reason. <a href="/method/">How the numbers are worked out.</a>
+      </p>
+    ) : (
+      <p>{h.reason} <a href="/method/">How the numbers are worked out.</a></p>
+    )}
+  </section>
 
-    <h2 id="branches">The eight branches</h2>
-    <p>
-      The published science groups ageing into twelve "hallmarks": twelve kinds of damage and failure that build up in a body over a lifetime. Twelve is too many to hold after one visit, so this site groups them into seven kinds of damage that repair would have to address, and adds an eighth branch for the tools that would show whether any repair worked. Each branch is a reason the year reads as it does: a branch with no treatment in the clinic pushes the year out; a branch where a regulator accepts a measure of ageing as proof pulls it in.
-    </p>
-    <div class="branches">
+  <section class="section" id="branches">
+    <div class="shead"><h2>The eight branches</h2><span>what has to be dealt with, and what is recorded under each</span></div>
+    <ul class="branches">
       {branches.map((b) => (
-        <div class="branch" id={`branch-${b.key}`}>
-          <span class="bnum">{b.order}</span>
-          <h3>{b.name}</h3>
-          <p>{b.meaning}</p>
-          <span class="count">{b.leaves === 0 ? 'nothing written under it yet' : `${plural(b.leaves, 'treatment or tool', 'treatments and tools')} written so far`}</span>
-        </div>
+        <li>
+          <a class="bcard" href={b.path}>
+            <div class="bcard-top"><span class="n">{b.order} of {branches.length}</span><span>{b.leaves === 0 ? 'nothing yet' : plural(b.leaves, 'treatment or tool', 'treatments and tools')}</span></div>
+            <div class="bcard-title">{b.name}</div>
+            <div class="bcard-sub">{b.meaning}</div>
+            <div class="bcard-foot">
+              {b.furthest_label ? `Furthest stage: ${b.furthest_label.toLowerCase()}` : 'No stage reached'}
+              {b.median_handled_year !== null && <>. Handled, in the middle run, by <span class="year">{yearWords(b.median_handled_year)}</span></>}
+            </div>
+          </a>
+        </li>
       ))}
-    </div>
-    <p>
-      Under each branch will hang the specific things that would have to arrive: a drug, a procedure, a gene therapy, a measurement a regulator accepts. Each gets a page with a plain test of what would count, written so that two readers agree; who settles it; where it stands today on a five-rung ladder from idea only to in wide use, with the date and the public record for every rung reached; the estimate of when it reaches the clinic; and every change to that estimate, dated, with its reason. About forty in the first version.
+    </ul>
+    <p class="dim" style="font-size: 14px; margin-top: 12px;">
+      A branch counts as handled in the year its second treatment reaches the clinic, so a branch with nothing in the clinic pushes the year out and one where a regulator accepts a measure of ageing as proof pulls it in. <a href="/branches/">The tree</a> has the branches one at a time.
     </p>
+  </section>
 
-    <h2 id="records">What is recorded</h2>
-    <div class="records">
-      <div class="record">
-        <h3>The treatments and tools</h3>
-        <p>One page each, under its branch, with the test, who settles it, the stage reached and the estimate of when it reaches the clinic. Five are shared with the sister site The Upgrade Tree, and the two records point at each other.</p>
-        <span class="count">{plural(c.leaves, 'written so far', 'written so far')}</span>
-      </div>
-      <div class="record">
-        <h3>Who promised what</h3>
+  <section class="section narrow" id="records">
+    <div class="shead"><h2>What is recorded</h2><span>six kinds of record, each with its own page</span></div>
+    <ul class="records">
+      <li class="record-card">
+        <h3><a href="/branches/">The treatments and tools</a></h3>
+        <p>One page each, under its branch, with the test, who settles it, the stage reached and the estimate of when it reaches the clinic. {c.siblings} are shared with the sister site The Upgrade Tree, and the two records point at each other.</p>
+        <span class="count">{plural(c.leaves, 'written so far', 'written so far')}, {c.leaves_in_clinic} already in the clinic</span>
+      </li>
+      <li class="record-card">
+        <h3><a href="/claims/">Who promised what</a></h3>
         <p>A dated log of what named people and companies have said about when, each with the primary source and what it commits to, and a verdict filled in as the dates pass. It sits beside the year and moves no number.</p>
-        <span class="count">{plural(c.claims, 'written so far', 'written so far')}</span>
-      </div>
-      <div class="record">
-        <h3>Other people's public self-experiments</h3>
+        <span class="count">{plural(c.claims, 'claim', 'claims')} by {records.claims_counts.speakers} people and organisations</span>
+      </li>
+      <li class="record-card">
+        <h3><a href="/self-experiments/">Other people's public self-experiments</a></h3>
         <p>Who, what they do, what they measure, what they claim, and what the public record actually shows. A claim about one person is a story, not a record, and it moves nothing on the tree.</p>
         <span class="count">{plural(c.experiments, 'written so far', 'written so far')}</span>
-      </div>
-      <div class="record">
-        <h3>The publications</h3>
-        <p>A dated list of the papers, trial reports and regulators' records that bear on the tree, from the founding papers to the newest results, each saying what it changed.</p>
-        <span class="count">{plural(c.publications, 'written so far', 'written so far')}</span>
-      </div>
-      <div class="record">
-        <h3>This week's reading</h3>
+      </li>
+      <li class="record-card">
+        <h3><a href="/story/">The story so far</a></h3>
+        <p>Every paper, trial report and regulator's record that bears on the tree, dated, each saying what it settled or moved, and the ones that moved nothing beside them with equal billing.</p>
+        <span class="count">{plural(c.publications, 'publication logged', 'publications logged')}</span>
+      </li>
+      <li class="record-card">
+        <h3><a href="/reading/">This week's reading</a></h3>
         <p>Every treatment and tool read against the week's news, with a verdict for each, including the weeks when nothing moved. The weeks when nothing moved are the point.</p>
-        <span class="count">{c.scans_real === 0 ? 'none has run yet' : plural(c.scans_real, 'reading so far', 'readings so far')}</span>
-      </div>
-      <div class="record">
-        <h3>The story so far</h3>
-        <p>Everything that moved the year, by how much and why, and everything widely reported that moved nothing, with the test it was read against.</p>
-        <span class="count">starts with the first record</span>
-      </div>
-    </div>
-    {exampleNote && (
-      <p class="dim" style="font-size: 15px;">
-        The records so far include {plural(c.examples, 'worked example of the layout', 'worked examples of the layout')}, written with the record format on {longDate('2026-10-16')} and marked as such; the real records are being written and replace them.
-      </p>
-    )}
+        <span class="count">{c.scans_real === 0 ? 'none has run yet; the first follows the launch' : plural(c.scans_real, 'reading so far', 'readings so far')}</span>
+      </li>
+      <li class="record-card">
+        <h3><a href="/method/">How the numbers are worked out</a></h3>
+        <p>The model in plain words, every setting with its reason and its strongest alternative, one run written out by hand, and the working documents published as written.</p>
+        <span class="count">{h.available ? `computed ${longDate(h.computed_on)}` : 'not computed yet'}</span>
+      </li>
+    </ul>
+  </section>
 
-    <h2 id="method">How the numbers are worked out</h2>
+  <section class="section narrow prose" id="who">
+    <h2 style="margin-top: 0.4em;">Who is asking</h2>
     <p>
-      Every treatment and tool on the tree carries a range for the year it reaches the clinic: the earliest it plausibly could, the most likely year, and the latest. A branch counts as handled in the year its second treatment reaches the clinic. The tree is played out two hundred thousand times; in each run a year is drawn for every treatment, each branch's handled year is worked out, the latest across the branches is taken, and a few years are added for treatments to spread from the clinic to ordinary people. The middle of all those runs is the year at the top; the share before {records.fixed_dates.before} and the share after {records.fixed_dates.century_end} are the two numbers beside it. The combination rule is the project's judgment, and the alternatives are written up with it. The full method, with every parameter and the reasons for it, is a working document in the <a href={`${REPO}/blob/main/docs/method.md`} rel="noopener">public repository</a>, written for the project rather than for a visitor; the plain account will live on this page.
+      John Fredrickson, who also keeps <a href="https://beltequation.com" rel="noopener">The Belt Equation</a>, <a href="https://thequietgalaxy.com" rel="noopener">The Quiet Galaxy</a> and <a href="https://theupgradetree.com" rel="noopener">The Upgrade Tree</a>, three sister sites built the same way: one question at the top, a small fixed set of reasons under it, and under each reason the specific things that would have to happen, each with a test, each watched and dated. This one is the fourth. It records what has been shown and what has been promised; it recommends nothing, and nothing on it is medical advice. The author's own health record is not part of it. The place to push back is <a href="/disagree/">Disagree with something</a>.
     </p>
-
-    <h2 id="who">Who is asking</h2>
-    <p>
-      John Fredrickson, who also keeps <a href="https://beltequation.com" rel="noopener">The Belt Equation</a>, <a href="https://thequietgalaxy.com" rel="noopener">The Quiet Galaxy</a> and <a href="https://theupgradetree.com" rel="noopener">The Upgrade Tree</a>, three sister sites built the same way: one question at the top, a small fixed set of reasons under it, and under each reason the specific things that would have to happen, each with a test, each watched and dated. This one is the fourth. It records what has been shown and what has been promised; it recommends nothing, and nothing on it is medical advice. The author's own health record is not part of it.
-    </p>
-
     <p class="status-line">
-      Records as of {longDate(records.exported_on)}. Everything on this site is built from a public repository, <a href={REPO} rel="noopener">on GitHub</a>, where every number carries its source and every change its date. First version planned for 25 October 2026.
+      Records as of {longDate(records.exported_on)}. Everything on this site is built from a public repository, <a href={REPO} rel="noopener">on GitHub</a>, where every number carries its source and every change its date. {h.available ? `The year was computed on ${longDate(h.computed_on)} and the chance before ${fixed.before} is ${percentWords(h.before_2050)}.` : ''}
     </p>
-  </div>
+  </section>
 </Base>
