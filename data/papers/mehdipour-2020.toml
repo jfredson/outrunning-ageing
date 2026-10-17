@@ -16,9 +16,10 @@ the memory centre of the brain. In a small human arm, serum taken after one ordi
 plasma exchange no longer suppressed the growth of progenitor cells the way old serum does. The
 authors' reading is that diluting what accumulates in old blood matters more than adding anything
 young; the abstract gives no percentages."""
+leaves = ["replacing-a-persons-plasma-slows-an-age-related-disease"]
 branches = ["inflammation-and-signalling"]
 moved_range = false
-settled_stage = false
+settled_stage = true
 notes = """
 Intended leaf: plasma exchange or dilution with a measured effect in people, under inflammation
 and the body's messaging. The animal founding paper is conboy-2005 from the same group; the

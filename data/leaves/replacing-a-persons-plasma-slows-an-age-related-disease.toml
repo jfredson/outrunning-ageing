@@ -41,6 +41,7 @@ chemical marks on DNA); its main aims were safety and those clocks."""
 stage = "shown-in-animals"
 reached_on = "2020-05-30"
 record = "https://doi.org/10.18632/aging.103418"
+publication = "mehdipour-2020"
 
 [estimate]
 status = "first-pass"

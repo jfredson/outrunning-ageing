@@ -15,9 +15,10 @@ for 56 days under the control of an oral antibiotic, in a phase 1 safety trial f
 glaucoma and a sudden loss of blood supply to the optic nerve. The registry entry plans about 18
 adults in sequential dose groups and measures safety to days 56 and 112. This is a first person
 dosed, not a result: the release reports no measurement of any kind."""
+leaves = ["a-person-receives-cell-resetting-genes-in-a-trial"]
 branches = ["cell-settings"]
 moved_range = false
-settled_stage = false
+settled_stage = true
 notes = """
 Intended leaf: a first person dosed with a reprogramming therapy (the cell's settings branch).
 The animal result behind it is the 2020 optic nerve paper, lu-2020. The company's earlier release

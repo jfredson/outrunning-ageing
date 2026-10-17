@@ -15,9 +15,10 @@ delayed the age-related decline of fat tissue, muscle and the eye, and clearing 
 slowed decline already under way. A gain in healthy life in a fast-ageing mouse, not in lifespan or
 in a normally ageing animal; the first direct evidence that worn-out cells drive ageing rather
 than merely mark it."""
+leaves = ["aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial", "drug-clears-aged-cells-from-a-person"]
 branches = ["worn-out-cells"]
 moved_range = false
-settled_stage = false
+settled_stage = true
 notes = """
 Intended leaf: a drug clears aged cells from a person (its shown-in-animals rung, which the leaf's
 earlier_stage entry already cites by this paper's link). Online 2011-11-02; the print issue is

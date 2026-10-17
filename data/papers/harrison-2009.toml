@@ -16,9 +16,10 @@ of Texas Health Science Center). Across 1,901 mice the age by which nine in ten 
 14 percent in females and 9 percent in males, and mean lifespan by 13 and 9 percent; the pattern
 of diseases at death did not change. The first drug shown to lengthen life in a mammal when
 started in old age, and the result the rapamycin trials in dogs and people grow from."""
+leaves = ["a-drug-adds-healthy-years-to-a-life"]
 branches = ["energy-and-fuel"]
 moved_range = false
-settled_stage = false
+settled_stage = true
 notes = """
 Intended leaf: a drug makes people live longer in good health (rapamycin), under energy and fuel
 sensing; this is its animal record. The paper attaches no percentage to median lifespan: the 14

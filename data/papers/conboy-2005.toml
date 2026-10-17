@@ -14,9 +14,10 @@ muscle repair cells regained a young animal's ability to multiply and mend damag
 cells divided more, and young serum alone did the same to old muscle cells in a dish. The paper
 that showed something in young blood, or something missing from old blood, drives part of ageing
 in tissue; the abstract gives no sample sizes or effect sizes."""
+leaves = ["young-blood-rejuvenates-an-old-animal"]
 branches = ["inflammation-and-signalling"]
 moved_range = false
-settled_stage = false
+settled_stage = true
 notes = """
 Intended leaf: plasma exchange or dilution with a measured effect in people, under inflammation
 and the body's messaging; this is the animal result the field traces that leaf to. The later

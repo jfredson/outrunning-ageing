@@ -16,9 +16,10 @@ and four DNA-methylation clocks read about 1.5 years younger than at the start, 
 years against the one year of ageing expected with no treatment. Nine men, no placebo group, and
 the clocks were the outcome; the paper most often cited for age reversal in people, and the one
 that shows how thin that claim is."""
+leaves = ["a-persons-biological-age-reading-falls-after-treatment"]
 branches = ["inflammation-and-signalling", "measuring-age"]
 moved_range = false
-settled_stage = false
+settled_stage = true
 notes = """
 Intended leaves: immune rejuvenation with a measured effect in people, under inflammation and the
 body's messaging; and a clock as a trial measure, under measuring ageing. The 2.5-year figure

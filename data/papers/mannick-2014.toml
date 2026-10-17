@@ -15,9 +15,10 @@ reasonably well tolerated, the antibody response to the vaccine was about 20 per
 fewer of their T cells carried the exhaustion marker PD-1. The first controlled trial in people to
 show that a drug acting on the ageing pathways found in animals improves an age-related function,
 here the immune system's."""
+leaves = ["rapamycin-improves-an-age-related-measure-in-older-people"]
 branches = ["inflammation-and-signalling", "energy-and-fuel"]
 moved_range = false
-settled_stage = false
+settled_stage = true
 
 notes = """
 Intended leaves: immune rejuvenation with a measured effect in people, under inflammation and the

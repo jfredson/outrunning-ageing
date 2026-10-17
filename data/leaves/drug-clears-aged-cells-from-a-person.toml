@@ -39,6 +39,7 @@ Upgrade Tree keeps the same leaf at first human; the weekly reading checks the t
 stage = "shown-in-animals"
 reached_on = "2011-11-02"
 record = "https://doi.org/10.1038/nature10600"
+publication = "baker-2011"
 
 [estimate]
 status = "first-pass"
