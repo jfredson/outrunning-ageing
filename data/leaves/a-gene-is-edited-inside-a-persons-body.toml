@@ -13,7 +13,7 @@ at a chosen spot) packaged in fat droplets, which went to the liver and switched
 misfolds and clogs the heart and nerves in an inherited disease and, in its ordinary form, in many
 old people. The protein fell by about nine tenths and stayed down. The treatment is in a large
 late-stage trial for the heart form of the disease, which was paused in late 2025 after a
-patient's liver was harmed, and nothing is approved yet."""
+patient's liver was harmed, and restarted in March 2026 with closer liver monitoring; nothing is approved yet."""
 test = """
 A person is given a treatment that edits a gene inside their body, and afterwards the gene's
 product is measurably changed in the way intended, in a peer-reviewed report. For the clinic rung:
@@ -26,11 +26,6 @@ stage_record = "https://doi.org/10.1056/NEJMoa2107454"
 status = "tracked"
 horizon = "near"
 
-verify = [
-  "The 2021 New England Journal of Medicine report (Gillmore and colleagues, NTLA-2001 in six people with hereditary transthyretin amyloidosis, serum transthyretin down 87 per cent at the higher dose) and its date, 26 June 2021, are from memory.",
-  "That the late-stage (phase 3) trial in the heart form of the disease (MAGNITUDE, about 1,200 people, now called nex-z) was put on hold in October 2025 after a patient's severe liver abnormality, that the hold on the nerve-disease trial was lifted by January 2026, and that the heart trial's hold had not been reported lifted as of the sponsor's mid-2026 filing, are from trade summaries of the sponsor's filings, not the filings themselves.",
-  "No animal rung is recorded: the mouse and primate work that preceded the 2021 trial (Intellia, 2018 to 2020) was not checked for a date.",
-]
 notes = """
 Transthyretin amyloidosis in its non-inherited form is a disease of old age, which is why a
 treatment aimed at an inherited disease sits on this tree. The other way to the same end, a drug
@@ -38,6 +33,11 @@ that steadies the protein without touching the gene, is approved and has its own
 broken-proteins branch. This leaf does not ask for the editing to repair ageing damage in
 general; it asks for the tool to be in the clinic, because every DNA-repair leaf above it needs
 the tool first."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "2011-06-26"
+record = "https://doi.org/10.1038/nature10177"
 
 [estimate]
 status = "first-pass"

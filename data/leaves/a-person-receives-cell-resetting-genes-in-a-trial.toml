@@ -10,7 +10,7 @@ The genes that can partially reset a cell's age had been tried only in animals u
 9 June 2026 the company Life Biosciences said the first participant had been dosed in its
 early-stage trial of ER-100, three of the four resetting genes carried into the nerve cells at the
 back of the eye by a harmless virus, in people with glaucoma or a sudden loss of blood supply to
-the optic nerve. The trial is a safety study of about twenty people, followed for up to five
+the optic nerve. The trial is a safety study of about eighteen people, followed for up to five
 years. This leaf counts the dose; whether it reversed anything is the test of the leaf it sits
 beside, because a company announcing a dose and a journal reporting a reversal are different
 events and the tree should say so."""
@@ -28,8 +28,6 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "The trial's registry number was not found when this was written; the sponsor's notice is the record until it is, and the test names the registry as a settler for that reason.",
-  "That the United States regulator cleared the trial in January 2026, that the three genes are OCT4, SOX2 and KLF4, and that the study enrols about eighteen to twenty adults, are from the sponsor's notice and trade coverage of it.",
   "No earlier stage is recorded: the animal rung for this leaf is the same 2016 and 2020 work that the companion leaf carries, and is not repeated here.",
 ]
 notes = """
@@ -37,7 +35,7 @@ The companion leaf, partially resetting cells reverses ageing in a living animal
 shared with The Upgrade Tree and the one that needs a measured result in a person; this leaf
 exists so that the June 2026 dose is on the record at the rung it earned. A press release is not
 normally a settler on this site; for the bare fact of a dose, the sponsor's dated notice and the
-registry are the only records there are, and the test says so."""
+registry are the only records there are, and the test says so. The trial's ClinicalTrials.gov entry (NCT07290244) gives a study start of 2026-03-02 and an estimated enrolment of 18."""
 
 [estimate]
 status = "first-pass"

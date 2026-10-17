@@ -8,7 +8,7 @@ description = """
 Resetting a cell's age with genes needs a virus to carry them and a way to switch them off, which
 is why the first human trial is in the eye, a small sealed organ. A pill or an infusion that did
 the same with ordinary chemicals could reach the whole body. In 2023 a Harvard group reported six
-mixes of known drugs that, in a dish, turned human cells' chemical age marks back by several
+mixes of known drugs that, in a dish, turned back a reading of human cells' age (taken from which genes are active) by several
 years within a week without turning the cells into stem cells, following a 2022 Chinese report
 that a chemical mix could fully reset human cells. None has been shown to work in a living animal
 in a peer-reviewed report, so the leaf is at idea only."""
@@ -24,9 +24,7 @@ status = "tracked"
 horizon = "far"
 
 verify = [
-  "The 2023 report (Yang, Sinclair and colleagues, in the journal Aging, 12 July 2023, DOI 10.18632/aging.204896; six chemical cocktails reversing a transcriptomic age measure in human cells) is from memory.",
-  "The 2022 Nature report of full chemical reprogramming of human cells (Guan, Deng and colleagues, Peking University) is from memory.",
-  "That no peer-reviewed report of a chemical cocktail reversing an age marker in a living animal existed as of 2026-10-16 is from memory, and a reader should expect this to change first.",
+  "That no peer-reviewed report existed by 2026-10-16 of a chemical cocktail moving an age marker towards youth in a living mammal (a 2025 report extended the lifespan and healthspan of worms with a two-chemical mix, and a 2026 report found no change in mouse tissue age and toxicity at higher doses) is from searches of Europe PMC and the web, not a complete survey; whether the worm result counts as the animal rung is undecided.",
 ]
 notes = """
 This is the version of cell resetting that could matter for the headline, because it is the one
