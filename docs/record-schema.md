@@ -366,9 +366,9 @@ Marked `example = true`: no reading has run, and the site's strip says so until 
 
 `python3 scripts/compute.py run` validates first, refuses with a plain message until every branch has at least `handled_when` tracked leaves, and otherwise plays the tree out and writes `data/headline.json`. How it does that, and the parameters proposed for it on 2026-10-16, are in `docs/method.md`.
 
-## Decisions (proposed 2026-10-16, awaiting John's ruling)
+## Decisions (proposed 2026-10-16, ruled by John the same day)
 
-Proposed by Claude with a confidence level and the strongest alternative for each, per the ground rule of 2026-09-08. Items 2, 4 and 11 depart from the kickoff document and say why. Nothing here is settled until John says so.
+Proposed by Claude with a confidence level and the strongest alternative for each, per the ground rule of 2026-09-08. Items 2, 4 and 11 depart from the kickoff document and say why. **Ruled by John on 2026-10-16:** "Accept all 17 record-layout choices and all 10 headline parameters for Outrunning Ageing as proposed, with the clinic-to-ordinary-people lag flagged for the outside review." This document is the source of truth for the record layout from that date; a change to it is a new proposal, made the same way.
 
 1. **One TOML file per record, in five folders plus one branches file, named for the id.** High confidence: it is the siblings' format, the standard-library reader exists, a one-line diff per change, and the parallel record sessions can each write a folder without touching the others. Standard practice for a data-as-text project. Alternative: one file per kind, which is fewer files and makes every session edit the same file.
 2. **Leaves are one file each under `data/leaves/`, not one file per branch (`data/<branch>.toml`) as the kickoff wrote and The Upgrade Tree does.** Moderate confidence; a judgment call. The brief for this step asked for the Quiet Galaxy shape, one file per record; a leaf is a public address with its own revision log, and the renamed-id check reads file names from git history, which works per file and not per table; and the one session writing forty leaves can still work branch by branch. Alternative: the kickoff's one file per branch, which keeps a branch's leaves together on disk at the cost of the history check and of forty leaves in eight files that every edit touches.

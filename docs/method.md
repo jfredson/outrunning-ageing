@@ -23,7 +23,7 @@ For the method page, once the leaves exist, one simplified run is written out so
 | latest handled year across the required branches | | 2047 |
 | plus a drawn lag of 9 years | | **2056**, this run's escape year |
 
-## The parameters (proposed 2026-10-16, awaiting John's ruling)
+## The parameters (proposed 2026-10-16, ruled by John the same day; parameter 2 flagged for the outside review)
 
 | # | Choice | Confidence | Standard or judgment | Strongest alternative and its cost |
 |---|---|---|---|---|
