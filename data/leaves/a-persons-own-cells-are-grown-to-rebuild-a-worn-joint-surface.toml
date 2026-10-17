@@ -29,7 +29,7 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "Carticel was first licensed in the United States in 1997 (its label says 'Initial U.S. Approval: 1997'); the month, and whether the licence rested on a controlled trial, were not checked. Whether this moves the clinic date back, and whether the description's 'oldest approved therapy' sentence stands, is for John to rule.",
+  "Carticel was first licensed in the United States in 1997 (its label says 'Initial U.S. Approval: 1997'); the month, and whether the licence rested on a controlled trial, were not checked. John ruled on 2026-10-17 that this stays open as written: the clinic date stays 2016-12-13 and the description stands until the 1997 licence basis is checked.",
 ]
 notes = """
 This leaf is on the tree with a caveat said plainly: the approved use is for defects in

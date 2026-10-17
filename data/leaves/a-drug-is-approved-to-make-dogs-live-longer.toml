@@ -1,6 +1,7 @@
 # Leaf record (docs/record-schema.md). Written 2026-10-17 by the verify session, to give the Loyal
 # claim (loyal-2025-senior-dog-approval-by-end-of-2025) a leaf to point at. The stage and the
-# estimate are PROPOSED and flagged for John; see the notes. Facts are from the company's own
+# estimate were proposed by the verify session and ruled by John on 2026-10-17 as proposed; see
+# the notes. Facts are from the company's own
 # posts, read in full on 2026-10-17 (loy-002-rxe, loy-002-tas, loy-003-rxe,
 # what-is-fda-conditional-approval, and the for-vets page), and from a trade report of the
 # safety step (longevity.technology, 2026-01-14).
@@ -36,7 +37,7 @@ verify = [
   "That the manufacturing section of the application was still outstanding on 2026-10-17, with the application now expected in 2027, is from the company's post of 2026-01-13 as the claims log records it and from the company's for-vets page, which lists the manufacturing section as in progress; a later company or regulator statement may exist.",
 ]
 notes = """
-Why the stage is idea only (PROPOSED, flagged for John). The ladder is written for treatments
+Why the stage is idea only (ruled by John on 2026-10-17 as the verify session proposed). The ladder is written for treatments
 meant for people, and its second rung asks for a peer-reviewed report that the treatment works in
 a living animal. Loyal has given the drug to more than 400 dogs in safety work and to 48 in a
 three-month pilot, and the regulator has accepted that the company's data give a reasonable
@@ -54,14 +55,15 @@ expectation of effectiveness, for up to five years while the full trial finishes
 veterinarian may prescribe it as normal in that time. This leaf counts such an approval as the
 clinic rung, which is a lower bar than the human leaves on this branch clear; a stricter test
 would wait for the full approval, perhaps two years later than the estimate. It is a judgment
-call and is flagged for John.
+call, and John ruled on 2026-10-17 that the conditional approval counts as the clinic rung.
 What this does to the headline. The leaf is on the energy and fuel branch because the drug
 (LOY-002) is said to act on the metabolic dysfunction of ageing, and because the claims log
 already files the Loyal claim there. Its early clinic estimate would make it the second leaf of
 that branch to reach the clinic, so the branch would count as handled much earlier than before.
 Run `scripts/compute.py run` to see the effect; the verify session's report to John gives the
 numbers before and after. An approval for dogs says nothing yet about people, which is the other
-reason to flag it.
+reason this leaf was put to John; he ruled on 2026-10-17 that the leaf stands with the stage idea
+only and the estimate as proposed (earliest 2027, likely 2028, latest 2032).
 Related: loyal-2025-senior-dog-approval-by-end-of-2025 (the end-of-2025 promise, missed)."""
 
 [estimate]

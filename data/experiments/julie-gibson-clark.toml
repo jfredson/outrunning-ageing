@@ -1,7 +1,7 @@
 # Written 2026-10-16. HELD AS COVERAGE ONLY: no publication of her own could be found (no site,
 # newsletter or confirmed account), so the link below is the fullest piece of coverage, and every
-# figure is a reporter's account of her test result. For John to rule whether an entry with no
-# own publication belongs in this record at all.
+# figure is a reporter's account of her test result. John ruled on 2026-10-17 that the entry stays,
+# with its figure marked plainly as a reporter's account.
 
 id = "julie-gibson-clark"
 who = "Julie Gibson Clark"
@@ -17,7 +17,8 @@ measures = """
 Repeated TruDiagnostic blood tests, scored by the pace-of-ageing clock the Rejuvenation Olympics
 ranks by; the results appeared on that leaderboard rather than anywhere of her own."""
 claims = """
-A pace of ageing of 0.665 years per calendar year (coverage, 2023-12-09), and, in her words in a
+A reporter's account, not her own figure: a pace of ageing of 0.665 years per calendar year
+(Fortune, 2023-12-09), and, in her words in a
 2026-07 press release for a company she now teaches for, that ageing well is a few fundamentals
 done consistently."""
 public_record = """
@@ -33,6 +34,7 @@ verify = [
   "Everything here is from coverage (Fortune 2023-11-04 and 2023-12-09; a NOVOS page of 2024-09-11; a podcast page of 2025-05-27; a press release of 2026-07-28); she has published nothing of her own that could be found. The start year 2023 is the year of her leaderboard place, not of her routine, which Fortune says began over a decade earlier.",
 ]
 notes = """
-The record layout requires a link to the person's own publication; this record has none, which is why
-it is flagged for John. The alternative is to drop it and let the Rejuvenation Olympics record
-carry her as a line."""
+The record layout requires a link to the person's own publication; this record has none. John ruled
+on 2026-10-17 that the entry stays, with the figure marked plainly as a reporter's account (the
+claims field says so). The alternative, dropping it and letting the Rejuvenation Olympics record
+carry her as a line, was not taken."""

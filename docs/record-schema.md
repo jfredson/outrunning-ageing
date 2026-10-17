@@ -215,7 +215,7 @@ The claims log is talk, set against delivery (tracker pattern, section 6). It si
 | `leaves` | one of these three | List of leaf ids the claim bears on. |
 | `branches` | one of these three | List of branch keys it bears on. |
 | `about_the_headline` | one of these three | `true` for a claim about escape velocity itself rather than any one leaf or branch. At least one of the three. |
-| `verdict` | yes | `"not-yet-due"`, `"delivered"`, `"missed"` or `"unfalsifiable"` (no date or result that could ever settle it). |
+| `verdict` | yes | `"not-yet-due"`, `"delivered"`, `"missed"` or `"unfalsifiable"` (no date or result that could ever settle it). A result claim its maker later withdrew is recorded as `missed` (ruled by John, 2026-10-17). |
 | `verdict_on`, `verdict_why` | if delivered or missed | The TOML date the verdict was given and the reason, naming the record it rests on. |
 | `verify`, `notes`, `example` | no | As above. |
 
