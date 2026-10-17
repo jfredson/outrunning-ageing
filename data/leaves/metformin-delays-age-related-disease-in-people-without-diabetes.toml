@@ -22,15 +22,13 @@ living animal. For the clinic rung: a regulator approves metformin, or a drug bu
 mechanism, to delay age-related disease."""
 settler = "The peer-reviewed trial report; the trial registry; the regulator's approval record for the clinic rung"
 stage = "shown-in-animals"
-stage_reached_on = "2013-07-31"
+stage_reached_on = "2013-07-30"
 stage_record = "https://doi.org/10.1038/ncomms3192"
 status = "tracked"
 horizon = "mid"
 
 verify = [
-  "The 2013 Nature Communications report (Martin-Montalvo, de Cabo and colleagues; 0.1 per cent metformin in the diet of middle-aged male mice extended life by about 6 per cent, a higher dose shortened it) and its date, 31 July 2013, are from memory.",
-  "That the TAME trial had enrolled no one as of mid-2026 is from a September 2026 trade article and other 2026 explainers; two other 2026 web pages said enrolment was complete and were judged unreliable, and the registry was not checked.",
-  "That the National Institute on Aging's testing programme did not find a lifespan benefit from metformin alone in its own multi-site study (2016) is from memory and cuts against the 2013 result.",
+  "That the TAME trial had enrolled no one as of mid-2026 rests on 2026 web articles that disagree with each other; no registry entry for it was found on 2026-10-17 and no statement from its funder dated 2025 or later could be read.",
 ]
 notes = """
 The leaf is as much about the trial as the drug: it is the clearest case on the tree of a

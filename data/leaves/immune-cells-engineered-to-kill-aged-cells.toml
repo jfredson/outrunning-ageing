@@ -25,11 +25,6 @@ stage_record = "https://doi.org/10.1038/s41586-020-2403-9"
 status = "tracked"
 horizon = "far"
 
-verify = [
-  "The 2020 Nature report (Amor and colleagues, uPAR-targeted CAR T cells clearing aged cells in mice) and its date, 17 June 2020, are from memory.",
-  "The 2024 follow-up (Amor and colleagues, Nature Aging, a single dose in young mice preventing age-related decline) is from memory and its DOI was not in hand.",
-  "That no trial of aged-cell-targeted immune cells in people had started as of 2026-10-16 is from memory.",
-]
 notes = """
 Related work, not the record here: a 2021 Japanese group reported a vaccine against a different
 surface protein (GPNMB) that cleared aged cells in mice. Engineered T cells cost hundreds of

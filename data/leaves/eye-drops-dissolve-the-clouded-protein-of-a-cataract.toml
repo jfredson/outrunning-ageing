@@ -25,16 +25,14 @@ stage_record = "https://doi.org/10.1038/nature14650"
 status = "tracked"
 horizon = "far"
 
-verify = [
-  "The 2015 Nature report (Zhao, Zhang and colleagues; lanosterol cleared cataracts in dogs and in lens cells) and its date, 22 July 2015, are from memory.",
-  "That two later groups (one reported in 2019 in Experimental Eye Research) could not reproduce the clearing of lenses with lanosterol is from memory.",
-  "The test asks for a replication, and the stage is recorded at shown in animals on the 2015 report alone; if the replication failures are confirmed, the stage stands (a rung never moves down) but the notes should say the animal result is contested.",
-]
 notes = """
 A related compound, a sterol called compound 29, was reported in Science in 2015 to do the same
 in mice, by a different group; it is not the record here because the dog result came first, and
 it has the same replication question. The reader should take this leaf as the branch's warning
-case: one striking animal result, not confirmed, a decade on."""
+case: one striking animal result, not confirmed, a decade on. Two later laboratories could
+not repeat the clearing: one in 2015 on human cataract lenses in a dish (Indian Journal of
+Ophthalmology), one in 2019 on rat and human lenses in a dish (Scientific Reports). Neither
+tried dogs, so the dog result is contested but has not itself been retested."""
 
 [estimate]
 status = "first-pass"
