@@ -1,0 +1,24 @@
+# Written 2026-10-16 from a third-party machine transcript of the recording; the podcast's own
+# site has no transcript page for this episode.
+
+id = "kurzweil-2022-end-of-the-decade"
+who = "Ray Kurzweil"
+who_is = "the inventor and futurist Ray Kurzweil, a director of engineering at Google and the author of The Singularity Is Near (2005) and The Singularity Is Nearer (2024)"
+said_on = "2022-09-17"
+where = "The Lex Fridman Podcast, episode 321, in the segment on mortality, about one hour thirty-three minutes in; read in a machine-made transcript on podscripts.co, not an official transcript, and not checked against the recording"
+link = "https://lexfridman.com/ray-kurzweil/"
+quote = "I think we can probably get there within, say, by the end of the decade. And that's my goal."
+is_paraphrase = false
+commits_to = "Longevity escape velocity, which he defines in the same passage as adding more than a year of life expectancy every year, reached by the end of the 2020s, starting with people who are very diligent about it."
+due = 2030
+about_the_headline = true
+verdict = "not-yet-due"
+
+verify = [
+  "The words are from a machine transcript that mangles names; listen to the recording at about one hour thirty-two to thirty-six minutes and correct the wording and timestamp.",
+]
+notes = """
+Two years before the book (kurzweil-2029-escape-velocity), the same claim with the same hedge: the
+diligent first, and by the end of the decade rather than a named year. The podcast's episode page
+is the link because the transcript site is a third party; the episode's own transcript address on
+lexfridman.com returned an error on 2026-10-16."""

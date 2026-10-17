@@ -1,0 +1,25 @@
+# Written 2026-10-16 from XPRIZE's own releases on its site, read in full.
+
+id = "xprize-healthspan-2023-launch"
+who = "XPRIZE"
+who_is = "the XPRIZE Foundation, which runs large public competitions, here with the Hevolution Foundation and the charity Solve FSHD as sponsors of a hundred and one million dollar prize for a treatment that restores function in older people"
+said_on = "2023-11-29"
+where = "The launch release, dated Riyadh 2023-11-29, on xprize.org; read in full. The 2030 date is from the foundation's later releases of 2025-05-12 and 2026-08-11"
+link = "https://www.xprize.org/prizes/healthspan/articles/xprize-hevolution-solve-fshd-launch-101-million-healthspan-largest-history"
+quote = "restores muscle, cognition, and immune function by a minimum of 10 years, with a goal of 20 years"
+is_paraphrase = false
+commits_to = "By 2030, a team demonstrating a treatment of one year or less that restores muscle, thinking and immune function in people aged sixty-five to eighty by at least ten years (twenty for the top prize); the grand prize of up to eighty-one million dollars is awarded that year."
+due = 2030
+about_the_headline = true
+branches = ["measuring-age"]
+verdict = "not-yet-due"
+
+notes = """
+Progress by the foundation's own releases: a hundred semifinalists from over six hundred teams on
+2025-05-12, forty of them paid a quarter of a million dollars; twenty finalists on 2026-08-11
+(a month later than the promised 2026-07), ten paid a million. A quiet change of terms along the
+way: the launch said ages sixty-five to eighty, the 2025 release fifty to eighty, and the 2026
+release says trials run in adults aged fifty to ninety. The prize bears on the measuring branch
+because its judging is itself an attempt to define what counts as restored function in a person;
+it is marked about the headline because the ten-to-twenty-year target is the scale of the whole
+question."""

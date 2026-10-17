@@ -1,0 +1,35 @@
+# Written 2026-10-16 from a 2024 podcast transcript carrying his own words and his own site. He is
+# included because he is often cited as a public self-experimenter; the record's point is that he
+# publishes what he takes and claims nothing about his own ageing.
+
+id = "peter-attia-rapamycin"
+who = "Peter Attia"
+who_is = "the physician and author Peter Attia, whose 2023 book Outlive and podcast The Drive reach a large audience, and who has said in public that he takes rapamycin, the drug this site tracks under energy and fuel sensing"
+started = "2018"
+status = "running"
+what = """
+By his own account on a podcast recorded in 2024: eight milligrams of rapamycin once a week, for
+about two months at a time with a month off because of mouth ulcers, over about six years. In
+2018 he had said on another podcast that he was not yet taking it."""
+measures = """
+Nothing he has published about himself beyond the regimen; he said on the same 2024 podcast that
+he had no idea whether he felt any effect, and that he puts little stock in biological-age clocks.
+His book describes a medical approach to ageing for readers, not his own data."""
+claims = """
+None about his own ageing. He calls rapamycin the most promising drug of its kind on the evidence
+from animals, and says of his own use that he does not know what it has done."""
+public_record = """
+A physician taking a prescription drug off-label and saying so, with no measurement published and
+no claim of a result; the public record is his statement and nothing else. That is the honest
+version of a self-experiment, and it still moves no leaf: a claim about one person is a story, not
+a record, and a non-claim about one person is not a record either."""
+link = "https://hubermanlab.com/episode/dr-peter-attia-supplements-for-longevity-their-efficacy"
+branches = ["energy-and-fuel"]
+
+verify = [
+  "The start year is calculated from his 2024 statement of about six years and is not a date he gave.",
+  "The 2018 statement that he was not yet taking it is from a transcript posted 2018-06-05 on tim.blog; the recording may be earlier.",
+]
+notes = """
+His own site's 2021 article on rapamycin is about the drug's history, not his use; his book page
+says nothing about his own regimen."""

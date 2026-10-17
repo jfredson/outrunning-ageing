@@ -1,0 +1,20 @@
+# Written 2026-10-16 from the company's launch release as distributed on PR Newswire, which the
+# company's own site links to as its release; read in full.
+
+id = "altos-labs-2022-launch"
+who = "Altos Labs"
+who_is = "Altos Labs, the research company launched in 2022 with three billion dollars committed, built around resetting the cell's settings (cellular rejuvenation programming) and staffed by many of the field's best-known scientists, including Juan Carlos Izpisua Belmonte and Shinya Yamanaka as an adviser"
+said_on = "2022-01-19"
+where = "The launch press release, Altos Labs launches with the goal to transform medicine through cellular rejuvenation programming, 2022-01-19, as distributed on PR Newswire; read in full"
+link = "https://www.prnewswire.com/news-releases/altos-labs-launches-with-the-goal-to-transform-medicine-through-cellular-rejuvenation-programming-301463541.html"
+quote = "Altos' mission is to restore cell health and resilience to reverse disease, injury, and the disabilities that can occur throughout life."
+is_paraphrase = false
+commits_to = "No date and no named treatment: a mission statement, with three billion dollars fully committed. The only date in the release is its chief executive's start date."
+branches = ["cell-settings"]
+verdict = "unfalsifiable"
+
+notes = """
+The release never says reverse ageing; the nearest is a board member's line about reversing the
+ravages of disease and ageing. The company is recorded because its funding is the largest single
+bet on one branch of this tree, and the log should show that the bet came with no date. Its
+founding scientist's 2016 forecast is salk-2016-up-to-ten-years-to-trials."""

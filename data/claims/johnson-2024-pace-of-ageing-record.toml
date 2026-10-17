@@ -1,0 +1,23 @@
+# Written 2026-10-16 from his own post, read through X's public embed feed.
+
+id = "johnson-2024-pace-of-ageing-record"
+who = "Bryan Johnson"
+who_is = "the technology entrepreneur Bryan Johnson, who founded and sold the payments company Braintree and since 2021 has run a published programme to slow his own ageing, which he calls Blueprint"
+said_on = "2024-06-11"
+where = "His own post on X, 2024-06-11; read through the platform's public embed feed, which returns the text and timestamp"
+link = "https://x.com/bryan_johnson/status/1800602324475531435"
+quote = "My new record: 0.64 pace-of-aging. My birthday is now every 19 months."
+is_paraphrase = false
+commits_to = "A result about himself: a reading of 0.64 years of ageing per calendar year on one clock that reads the chemical marks on DNA (DunedinPACE), presented as meaning that he ages a year every nineteen months."
+branches = ["measuring-age"]
+verdict = "unfalsifiable"
+
+notes = """
+The sequence in his own words: 0.82 initial, 0.73 and 0.69 by 2023-04-07 (a Medium post, read
+in an archive capture), 0.64 here, and 0.48 on 2025-03-05. The verdict is the fixed set's word
+for a claim nothing could settle: the clock is a research tool whose reading for one person has
+no established meaning for remaining life, which is what the measuring branch tracks, so the
+birthday-every-nineteen-months reading cannot be checked against anything but his eventual
+lifespan. The 2023 comparison to eighteen-year-olds (slower than 88 percent of them) belongs to
+the 0.69 reading and is often attached to this one. His programme is the self-experiment record
+bryan-johnson-blueprint."""

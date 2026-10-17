@@ -1,0 +1,28 @@
+# Written 2026-10-16 from the Salk Institute's own press release, read in full, and the paper's
+# abstract.
+
+id = "salk-2016-up-to-ten-years-to-trials"
+who = "Salk Institute (Juan Carlos Izpisua Belmonte's laboratory)"
+who_is = "the Salk Institute in La Jolla, announcing the first report that briefly switching on four reprogramming genes in living mice reversed signs of ageing, from the laboratory of Juan Carlos Izpisua Belmonte, who later became a founding scientist of Altos Labs"
+said_on = "2016-12-15"
+where = "The Salk Institute's press release of 2016-12-15, Turning back time: Salk scientists reverse signs of aging, for the paper by Ocampo and colleagues in Cell (volume 167, pages 1719 to 1733); read in full. The sentence is the release's own caution, attributed to the researchers as a group, not a quotation from Belmonte"
+link = "https://www.salk.edu/news-release/turning-back-time-salk-scientists-reverse-signs-aging/"
+quote = "these therapies may take up to 10 years to reach clinical trials"
+is_paraphrase = false
+commits_to = "A first human trial of a treatment based on partial reprogramming (resetting the chemical marks that tell a cell which genes to read) by 2026 at the latest, hedged as may and up to."
+due = 2026
+branches = ["cell-settings"]
+verdict = "delivered"
+verdict_on = 2026-10-16
+verdict_why = "Life Biosciences' own releases: the United States regulator cleared its partial-reprogramming treatment ER-100 for a first human trial on 2026-01-28, and the company announced the first participant dosed on 2026-06-09, nine and a half years after the release; the related promise of the company's own timing is life-biosciences-2024-first-human-study-second-half-2025."
+
+verify = [
+  "The exact day of the first dosing; the company's release of 2026-06-09 gives the announcement date, not the dosing date.",
+]
+notes = """
+The ten-years figure that coverage repeated as Belmonte's own comes from this sentence in the
+release; his quoted words there are the opposite caution, that mice are not humans and
+rejuvenating a person will be much more complex. The release reports a thirty percent longer life
+in prematurely ageing mice. Intended leaf, for the master session to wire when the leaf record
+exists: a brief, controlled dose of reprogramming genes reverses a marker of age in a person
+(the cell's settings branch, the test named in data/branches.toml)."""

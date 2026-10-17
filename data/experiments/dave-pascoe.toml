@@ -1,0 +1,41 @@
+# Written 2026-10-16 from his own site (read that day) and one piece of coverage for the dates.
+
+id = "dave-pascoe"
+who = "Dave Pascoe"
+who_is = "a retired network security engineer and massage therapist in his early sixties who has spent more than a decade on a self-designed programme to slow his own ageing, and who placed near the top of the Rejuvenation Olympics leaderboard in 2024"
+started = "2013"
+status = "running"
+what = """
+Daily walking, running, home workout videos, yoga and cycling intervals; whole home-cooked food;
+about two hundred supplements a day by his own count; prescription thyroid hormone and a low-dose
+statin; and procedures he pays for himself, including plasma exchange, hyperbaric oxygen, stem
+cell and exosome infusions, sauna and cold exposure. He says he has done it alone, without a
+medical team, for more than a decade."""
+measures = """
+Blood, urine, stool, hair and tissue tests; body scans of several kinds; wearable data; monthly
+hormone levels; and biological-age clocks read from blood, including the pace-of-ageing clock
+the Rejuvenation Olympics ranks by, all posted on his own site."""
+claims = """
+His own figures, undated on his page: a best clock age of 37.95 against a calendar age of 61 at
+the time; a current clock age of 43; a best pace of ageing of 0.66 years per calendar year; and,
+through a separate contest called the Longevity World Cup, what that contest calls a medically
+verified age reduction of 17.2 years. Coverage from 2024-01 placed him sixth on the Rejuvenation
+Olympics, one place above Bryan Johnson, on a budget under thirty thousand dollars a year; his
+page on 2026-10-16 gave his rank there as 92nd."""
+public_record = """
+One person's commercial test results, posted by himself, with no control, no independent
+re-measurement and no peer review. The contest's "medically verified" label means the contest
+checked the tests were his, not that anyone independent measured him. His programme has
+changed over the years, so even his own series cannot say which part did what. A claim about one
+person is a story, not a record, and it moves no leaf."""
+link = "https://www.davepascoe.net/"
+branches = ["measuring-age", "inflammation-and-signalling", "replacing-parts"]
+
+verify = [
+  "The start year is a reading of his own phrase, more than a decade, from a page written in 2024 or 2025; he gives no start date.",
+  "The calendar age of 61, the rank of sixth and the yearly cost are from one newsletter's coverage of 2024-01-23, not his page.",
+  "Which clock his 0.66 figure comes from; his page does not name it.",
+]
+notes = """
+His bare domain refused connections on 2026-10-16; the www address served the page. He presented
+his blood results on Michael Lustgarten's channel on 2025-04-20 (michael-lustgarten)."""

@@ -1,0 +1,38 @@
+# Written 2026-10-16 from his own account, a paper he published in 2024-01 in a journal he
+# co-founded, and the journal's tribute notice of 2024-10-22.
+
+id = "mikhail-blagosklonny-rapamycin"
+who = "Mikhail Blagosklonny"
+who_is = "the cancer researcher Mikhail Blagosklonny of Roswell Park, the most-cited advocate of rapamycin as a drug to slow human ageing, who wrote that he took it himself and who died of lung cancer in 2024-10 at 63"
+started = "2010"
+status = "ended"
+ended = "2024-10"
+what = """
+Taking rapamycin himself, by his own account irregularly and on schedules he called suboptimal
+for cancer prevention, while publishing for fifteen years the argument that it should be taken to
+slow ageing. He also wrote that he had quit smoking. He gave no dose or duration."""
+measures = """
+Nothing published as a self-experiment; his account is a narrative of his own cancer, written
+after a diagnosis of lung cancer with brain metastases in 2023-01, in which he dates a small lung
+shadow on an X-ray to 1991, long before he began the drug."""
+claims = """
+In his 2024-01 paper, that rapamycin may delay cancer but not prevent it completely, and that his
+own irregular use did not test the drug properly."""
+public_record = """
+One person's own account in a journal he co-founded, written during treatment, with no
+measurements, no control and no way to separate the drug from anything else; and the outcome, his
+death from the cancer in 2024-10, which neither confirms nor refutes anything about rapamycin and
+ageing. The record is included because his case is often cited both for and against the drug,
+and because he himself was careful to say it proved nothing. A claim about one person is a story,
+not a record, and it moves no leaf."""
+link = "https://www.oncoscience.us/article/593/text/"
+branches = ["energy-and-fuel"]
+
+verify = [
+  "The start year (2010) is a guess from his own phrase that the lesion predated the drug and the dates of his papers; he gave no start date. Find one or remove the year.",
+  "The age at death (63) is from Wikipedia; the tribute gives no age.",
+]
+notes = """
+His 2019 opinion article in the journal Aging on rapamycin for longevity, read in part, contains
+no statement of personal use. His blog, which coverage says carried the first version of his
+account on 2023-10-26, no longer resolves."""

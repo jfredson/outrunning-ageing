@@ -1,0 +1,26 @@
+# Written 2026-10-16 from a written question-and-answer interview published by a newsletter, with
+# the answers attributed to him; the same passage is reproduced on fightaging.org (2024-03-11).
+
+id = "de-grey-2024-fifty-percent-twelve-to-fifteen-years"
+who = "Aubrey de Grey"
+who_is = "the biogerontologist Aubrey de Grey, who coined the phrase longevity escape velocity, co-founded the Methuselah Foundation and the SENS Research Foundation, and since 2022 has run the Longevity Escape Velocity Foundation"
+said_on = "2024-03-01"
+where = "A written question-and-answer interview in the Ambrosia Path newsletter, answer to the third question, published 2024-03-01; read on the page"
+link = "https://ambrosiapath.beehiiv.com/p/exclusive-aubrey-de-grey-interview"
+quote = "I currently think we have a 50% chance of reaching that point within about 12-15 years from now"
+is_paraphrase = false
+commits_to = "Even odds, by 2036 to 2039, of medicines that postpone ageing by around twenty years, which he defines in the same answer as the point at which longevity escape velocity first becomes achievable."
+due = 2039
+about_the_headline = true
+verdict = "not-yet-due"
+
+verify = [
+  "Whether the newsletter edited his written answers; it is his own words in writing but not his own platform. A statement of the same odds on the Longevity Escape Velocity Foundation's site or in a recorded talk would be a stronger source.",
+]
+notes = """
+The circulating version, fifty percent within twelve to fifteen years, matches; what it drops is
+his definition, medicines that postpone ageing by around twenty years. Nineteen years after the
+2005 talk put even odds about twenty-five years out (de-grey-2005-fifty-fifty-fifteen-years), the
+horizon is twelve to fifteen. A talk of 2025-08-28 at the Longevity Summit Dublin, read in a
+third-party transcript, urges other researchers to give time frames but gives no new odds of his
+own."""

@@ -1,0 +1,35 @@
+# Written 2026-10-16 from two pages on a testing company's site carrying his own words (both
+# updated 2024-12-05) and coverage quoting an interview of 2023. His public claims about other
+# people's age reversal are in the claims log; this record is only about what he says of himself.
+
+id = "david-sinclair-own-regimen"
+who = "David Sinclair"
+who_is = "the Harvard genetics professor David Sinclair, author of the 2019 book Lifespan, co-founder of several longevity companies including a biological-age testing company, who describes his own supplement and fasting routine in public and reports his own clock readings"
+started = "1999"
+status = "running"
+what = """
+By his own account he started at thirty: a daily dose of a precursor of a cell-energy molecule
+(NMN), resveratrol, metformin taken in alternation with his training, no breakfast beyond a few
+bites of yoghurt, and exercise. He has not published doses on the pages read for this record."""
+measures = """
+Blood markers through a testing company whose scientific board he chairs, and a biological-age
+clock sold by a company he co-founded; he reports the results in interviews and posts rather than
+as a data set."""
+claims = """
+That his calculated biological age has fallen for a decade or more and now runs about ten years
+below his calendar age; in his words, he did not expect to gain an extra decade."""
+public_record = """
+Self-reported readings from tests sold by companies he advises or co-founded, with no control, no
+independent re-measurement and no peer review of his own case. The clocks are research tools; one
+of their inventors has said in coverage that such consumer readings are for fun. His own case is
+also the public face of products he sells, which is a reason to read it as a story about one
+person rather than a record. A claim about one person is a story, not a record, and it moves no
+leaf."""
+link = "https://www.insidetracker.com/a/articles/how-harvards-david-sinclair-unlocked-his-own-fountain-of-youth"
+branches = ["energy-and-fuel", "measuring-age"]
+
+verify = [
+  "The start year is calculated from his phrase that he started at thirty and his birth year (1969); find a dated statement.",
+  "The specific figures that circulate (late fifties calendar age, low forties clock age) were not found in his own words; coverage of 2023-03-16 gives 53 against 43 without a source post.",
+  "Whether he has qualified or updated his own-age claim since 2024.",
+]

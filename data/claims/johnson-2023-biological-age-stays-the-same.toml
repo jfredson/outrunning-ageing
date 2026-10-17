@@ -1,0 +1,25 @@
+# Written 2026-10-16 from his own protocol page as captured by the Wayback Machine on 2023-10-31
+# (the sentence was still there on the 2024-06-03 capture; the page has since been rewritten).
+
+id = "johnson-2023-biological-age-stays-the-same"
+who = "Bryan Johnson"
+who_is = "the technology entrepreneur Bryan Johnson, who founded and sold the payments company Braintree and since 2021 has run a published programme to slow his own ageing, which he calls Blueprint"
+said_on = "2023-10-31"
+where = "His own protocol page, protocol.bryanjohnson.com, the objective at the top, as captured by the Wayback Machine on 2023-10-31 and again on 2024-06-03; read in the captures"
+link = "https://web.archive.org/web/20231031000000*/protocol.bryanjohnson.com"
+quote = "My goal: one year of chronological time passes and my biological age stays the same."
+is_paraphrase = false
+commits_to = "A measured pace of ageing of zero, that is, no biological ageing at all over a calendar year, plus the rejuvenation of seventy-eight organs; no date."
+branches = ["measuring-age"]
+verdict = "unfalsifiable"
+
+verify = [
+  "The date the sentence first appeared; 2023-10-31 is the earliest capture read, not the first.",
+]
+notes = """
+The version that circulates, that his goal is the organs of an eighteen-year-old, is press
+framing from interviews; on his own pages eighteen-year-olds appear only as comparisons for single
+markers and in a line about restoring his joints. The verdict is the fixed set's word for a goal
+with no date; by his own figures (johnson-2024-pace-of-ageing-record) his pace has run between
+0.48 and 0.76 years per year, never zero. His programme is the self-experiment record
+bryan-johnson-blueprint."""

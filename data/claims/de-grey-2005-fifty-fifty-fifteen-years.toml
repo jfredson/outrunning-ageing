@@ -1,0 +1,24 @@
+# Written 2026-10-16 from TED's official transcript of the talk (the subtitle cues, read in the
+# browser; the timestamps are the cues' minutes and seconds).
+
+id = "de-grey-2005-fifty-fifty-fifteen-years"
+who = "Aubrey de Grey"
+who_is = "the biogerontologist Aubrey de Grey, who coined the phrase longevity escape velocity, co-founded the Methuselah Foundation and the SENS Research Foundation, and since 2022 has run the Longevity Escape Velocity Foundation"
+said_on = "2005-07"
+where = "TED talk, A roadmap to end aging, TEDGlobal, 2005-07, at about thirteen minutes twenty seconds; read in TED's official transcript"
+link = "https://www.ted.com/talks/aubrey_de_grey_a_roadmap_to_end_aging/transcript"
+quote = "we have a 50/50 chance of reaching this RHR milestone, robust human rejuvenation, within 15 years from the point that we get to robust mouse rejuvenation"
+is_paraphrase = false
+commits_to = "Even odds of robust human rejuvenation, which he defines in the talk as thirty extra healthy years for people already fifty-five and equates with longevity escape velocity, within fifteen years of robust mouse rejuvenation; and, with suitable funding, robust mouse rejuvenation probably within ten years, so about 2015."
+about_the_headline = true
+verdict = "unfalsifiable"
+
+notes = """
+The famous version is fifteen to seventeen years; the transcript says fifteen, twice, and never
+seventeen. The verdict is unfalsifiable as worded because the fifteen-year clock starts from a
+mouse milestone that has not arrived and whose own date was conditional on funding he says never
+came: his foundation's first mouse study, reported at the Longevity Summit Dublin on 2025-08-28,
+gained about four months of life against a target of twelve. The chain's calendar implication,
+even odds by about 2030, is the version that circulates; the record keeps his own two-step form.
+His other dated occasions are de-grey-2004-first-thousand-year-old,
+de-grey-2004-humans-within-twenty-years and de-grey-2024-fifty-percent-twelve-to-fifteen-years."""

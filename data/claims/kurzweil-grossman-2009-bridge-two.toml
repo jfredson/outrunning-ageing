@@ -1,0 +1,23 @@
+# Written 2026-10-16 from a Google Books full-page preview of the 2010 paperback edition.
+
+id = "kurzweil-grossman-2009-bridge-two"
+who = "Ray Kurzweil and Terry Grossman"
+who_is = "the futurist Ray Kurzweil and the physician Terry Grossman, co-authors of two books on living long enough to benefit from future medicine"
+said_on = "2009"
+where = "Transcend: Nine Steps to Living Well Forever (Rodale, 2009), introduction, page xx; read in Google Books' full-page preview of the 2010 paperback on 2026-10-16"
+link = "https://books.google.com/books?id=J0XFdYjYE9AC&pg=PR20"
+quote = "In about 20 years, we will have the means to perfect our own biology by fully reprogramming its information processes."
+is_paraphrase = false
+commits_to = "By about 2029, the means to reprogram human biology and change genes so as to live decades longer than a long life now (their bridge two), with circulating nanorobots within the same two decades; bridge three, living indefinitely, undated beyond following in turn."
+due = 2029
+branches = ["cell-settings", "damaged-dna"]
+verdict = "not-yet-due"
+
+verify = [
+  "The first edition's year (2009) is Google Books' label for the Rodale hardcover; confirm it.",
+]
+notes = """
+Five years after the first book put the same means two decades out (kurzweil-grossman-2004-two-decades),
+the second moves the date with the calendar. It bears on the cell's settings and damaged DNA
+because the promised means are reprogramming and gene change; it is not marked about the headline
+because the sentence promises a capability, not the crossing itself."""

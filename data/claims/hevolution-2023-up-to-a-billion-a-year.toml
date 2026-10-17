@@ -1,0 +1,24 @@
+# Written 2026-10-16 from the foundation's own pages and releases, read on its site.
+
+id = "hevolution-2023-up-to-a-billion-a-year"
+who = "Hevolution Foundation"
+who_is = "the Hevolution Foundation, a non-profit funder of ageing research headquartered in Riyadh and backed by the Saudi royal court, launched in 2021 and public from 2022, the largest new funder the field has had"
+said_on = "2023-11-29"
+where = "The foundation's own introductory page (undated, first archived 2023-03-27) and the standard description at the foot of its release of 2023-11-29 on its first Global Healthspan Summit; both read on the page"
+link = "https://www.hevolution.com/en/web/guest/w/introducing-hevolution-foundation"
+quote = "Our annual budget of up to $1 billion USD enables us to accelerate science and bring therapies to the market."
+is_paraphrase = false
+commits_to = "A ceiling, not a pledge: a budget of up to a billion dollars a year, with no date and no stated floor."
+about_the_headline = true
+verdict = "unfalsifiable"
+
+verify = [
+  "The earliest dated statement of the billion figure in the foundation's own words; the 2022 debut (a release of 2022-08-30 on Business Wire) could not be reached, and the 2022-06-07 version is a chief executive's words in coverage.",
+]
+notes = """
+Against the ceiling, the foundation's own figures: commitments of about two hundred and fifty
+million dollars by 2023-11-29, over four hundred million by 2024-06-10 (its own words, within the
+past twenty-one months), and four hundred million over three years in its summit release of
+2025-01-27. The hedge, up to, is why the fixed set's verdict is unfalsifiable; the gap between
+ceiling and spend is why the record exists. The foundation is a co-sponsor of the XPRIZE Healthspan
+(xprize-healthspan-2023-launch)."""

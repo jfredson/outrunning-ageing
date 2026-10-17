@@ -1,0 +1,42 @@
+# Written 2026-10-16 from BioViva's press release of 2016-04-21, read in two reproductions (the
+# original page is gone), and from one magazine interview for her own words.
+
+id = "elizabeth-parrish-bioviva"
+who = "Elizabeth Parrish"
+who_is = "the chief executive of BioViva, a small gene therapy company, who in 2015 at the age of 44 had two of her own company's experimental gene therapies injected into herself, outside any trial and outside the United States"
+started = "2015-09"
+status = "ended"
+ended = "2015-09"
+what = """
+In 2015-09 she received two gene therapies made by her company: one meant to lengthen the
+protective caps on chromosome ends (a telomerase gene), the other meant to protect muscle (a
+follistatin gene). The treatment was a single occasion; what has continued since is measurement
+and publication by the company."""
+measures = """
+The length of chromosome caps in white blood cells, measured by one commercial laboratory in
+Houston before and after; BioViva has since published follow-up measurements and, in 2022, a case
+report in a small journal."""
+claims = """
+BioViva's release of 2016-04-21 said her telomeres had lengthened by approximately twenty years,
+from 6.71 to 7.33 thousand base pairs, and called it the first successful gene therapy against
+human ageing; her own words in the release were that if the results were anywhere near accurate,
+history had been made."""
+public_record = """
+One person, one laboratory, two time points, measured by a company reporting on its own chief
+executive, with no peer review at the time; the two bodies the release named as having verified
+the result were advocacy non-profits, not laboratories. Telomere-length tests on blood cells vary
+by around ten percent between measurements, which is about the size of the change reported. The
+release did not say where the injections were given; a magazine interview placed it in Colombia.
+A claim about one person is a story, not a record, and it moves no leaf."""
+link = "https://www.fightaging.org/archives/2016/04/bioviva-claims-telomere-lengthening-in-elizabeth-parrish/"
+branches = ["damaged-dna"]
+
+verify = [
+  "The release was read in reproductions on fightaging.org (2016-04-22) and technologynetworks.com (2016-04-26); the original BioViva page returns an error. Find an archived copy.",
+  "The ten-percent variation in telomere tests is a critic's figure quoted in coverage, not from a source read directly.",
+  "The 2022 case report (BioViva, in a journal called Maples) was not read.",
+]
+notes = """
+The release named telomerase and follistatin only by what they were for, not by name; the gene
+names are from the magazine interview and later coverage. The status is marked ended because the
+dosing was a single occasion in 2015-09; the measurements continued."""
