@@ -1,0 +1,27 @@
+# Founding publications log, written 2026-10-16. Checked against the publisher's record and
+# abstract on 2026-10-16; the group sizes are from Nature's news report of the paper.
+
+id = "yang-2024"
+date = "2024-09-12"
+added_on = 2026-10-16
+authors = ["Yuanhan Yang", "Xiaoyong Lu", "Ning Liu", "Shuai Ma", "Hui Zhang", "Zhiyi Zhang", "Kuan Yang", "Mengmeng Jiang", "Zikai Zheng", "Yicheng Qiao", "Qinchao Hu", "Ying Huang", "Yiyuan Zhang", "Muzhao Xiong", "Lixiao Liu", "Xiaoyu Jiang", "Pradeep Reddy", "Xueda Dong", "Fanshu Xu", "Qiaoran Wang", "Qian Zhao", "Jinghui Lei", "Shuhui Sun", "Ying Jing", "Jingyi Li", "Yusheng Cai", "Yanling Fan", "Kaowen Yan", "Yaobin Jing", "Amin Haghani", "Mengen Xing", "Xuan Zhang", "Guodong Zhu", "Weihong Song", "Steve Horvath", "Concepcion Rodriguez Esteban", "Moshi Song", "Si Wang", "Guoguang Zhao", "Wei Li", "Juan Carlos Izpisua Belmonte", "Jing Qu", "Weiqi Zhang", "Guang-Hui Liu"]
+title = "Metformin decelerates aging clock in male monkeys"
+venue = "Cell 187(22), 6358–6378.e29 (2024)"
+link = "https://doi.org/10.1016/j.cell.2024.08.021"
+finding = """
+Adult male cynomolgus monkeys were given metformin daily for 40 months and compared with untreated
+monkeys of the same and younger ages on several biological age clocks built from gene activity,
+DNA marks, blood proteins and metabolites across many tissues. The clocks ran slower in the treated
+animals, with the brain reading about six years younger; the authors tie the brain effect partly to
+the protective Nrf2 pathway. A controlled animal study on measurements, not on lifespan or
+disease, in a small group."""
+branches = ["energy-and-fuel", "measuring-age"]
+moved_range = false
+settled_stage = false
+verify = [
+  "The group sizes (12 treated elderly males, 16 elderly untreated, 18 young or middle-aged) and the dose (20 milligrams per kilogram a day) are from Nature's news report of 2024-09-12 and a commentary, not from the paper's own text, which was behind the publisher's access wall.",
+]
+notes = """
+Intended leaves: a drug makes people live longer in good health (metformin), under energy and fuel
+sensing; and a clock validated as a trial measure, under measuring ageing. Online 2024-09-12; the
+print issue is dated 2024-10-31."""

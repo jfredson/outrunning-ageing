@@ -1,0 +1,23 @@
+# Founding publications log, written 2026-10-16. Checked against the publisher's record and
+# abstract on 2026-10-16.
+
+id = "lopez-otin-2023"
+date = "2023-01-03"
+added_on = 2026-10-16
+authors = ["Carlos López-Otín", "Maria A. Blasco", "Linda Partridge", "Manuel Serrano", "Guido Kroemer"]
+title = "Hallmarks of aging: An expanding universe"
+venue = "Cell 186(2), 243–278 (2023)"
+link = "https://doi.org/10.1016/j.cell.2022.11.001"
+finding = """
+The same five authors' update ten years on, raising the count from nine hallmarks to twelve by
+adding the failure of the cell's recycling of its own worn parts (disabled macroautophagy),
+low-grade inflammation that never switches off, and an unbalanced community of gut microbes
+(dysbiosis). It restates the three tests a hallmark must pass: it shows up with age, making it worse
+speeds ageing, and treating it slows, stops or reverses ageing."""
+branches = ["worn-out-cells", "damaged-dna", "cell-settings", "broken-proteins", "energy-and-fuel", "replacing-parts", "inflammation-and-signalling", "measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Bears on every branch; the twelve hallmarks named here are the ones data/branches.toml groups, and
+the validator refuses a grouping that drops or doubles one. Online 2023-01-03; the print issue is
+dated 2023-01-19."""

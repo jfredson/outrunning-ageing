@@ -1,0 +1,27 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "harrison-2009"
+date = "2009-07-08"
+added_on = 2026-10-16
+authors = ["David E. Harrison", "Randy Strong", "Zelton Dave Sharp", "James F. Nelson", "Clinton M. Astle", "Kevin Flurkey", "Nancy L. Nadon", "J. Erby Wilkinson", "Krystyna Frenkel", "Christy S. Carter", "Marco Pahor", "Martin A. Javors", "Elizabeth Fernandez", "Richard A. Miller"]
+title = "Rapamycin fed late in life extends lifespan in genetically heterogeneous mice"
+venue = "Nature 460(7253), 392–395 (2009)"
+link = "https://doi.org/10.1038/nature08221"
+finding = """
+Mice of a deliberately mixed genetic background were fed rapamycin, a drug that damps the cell's
+main fuel-sensing pathway, from 600 days of age, the equivalent of about sixty human years, at
+three laboratories at once (The Jackson Laboratory, the University of Michigan and the University
+of Texas Health Science Center). Across 1,901 mice the age by which nine in ten had died rose by
+14 percent in females and 9 percent in males, and mean lifespan by 13 and 9 percent; the pattern
+of diseases at death did not change. The first drug shown to lengthen life in a mammal when
+started in old age, and the result the rapamycin trials in dogs and people grow from."""
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a drug makes people live longer in good health (rapamycin), under energy and fuel
+sensing; this is its animal record. The paper attaches no percentage to median lifespan: the 14
+and 9 percent figures are for the age at 90 percent mortality, and the 13 and 9 percent for mean
+lifespan, so a line reading "median lifespan up 14 percent" would mislabel the figure. Online
+2009-07-08; the print issue is dated 2009-07-16."""

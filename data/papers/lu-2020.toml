@@ -1,0 +1,27 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "lu-2020"
+date = "2020-12-02"
+added_on = 2026-10-16
+authors = ["Yuancheng Lu", "Benedikt Brommer", "Xiao Tian", "Anitha Krishnan", "Margarita Meer", "Chen Wang", "Daniel L. Vera", "Qiurui Zeng", "Doudou Yu", "Michael S. Bonkowski", "Jae-Hyun Yang", "Songlin Zhou", "Emma M. Hoffmann", "Margarete M. Karg", "Michael B. Schultz", "Alice E. Kane", "Noah Davidsohn", "Ekaterina Korobkina", "Karolina Chwalek", "Luis A. Rajman", "George M. Church", "Konrad Hochedlinger", "Vadim N. Gladyshev", "Steve Horvath", "Morgan E. Levine", "Meredith S. Gregory-Ksander", "Bruce R. Ksander", "Zhigang He", "David A. Sinclair"]
+title = "Reprogramming to recover youthful epigenetic information and restore vision"
+venue = "Nature 588(7836), 124–129 (2020)"
+link = "https://doi.org/10.1038/s41586-020-2975-4"
+finding = """
+Three of the four Yamanaka reprogramming genes (Oct4, Sox2 and Klf4, leaving out the cancer-linked
+c-Myc) were delivered by a gene-therapy virus into the eyes of mice and switched on with an
+antibiotic. The treatment made crushed optic nerves regrow, restored sight lost to a glaucoma model
+and to ordinary ageing in twelve-month-old mice, and turned back a DNA-methylation measure of the
+cells' age; the effect needed two enzymes that strip methylation marks, and switching the genes on
+for up to fifteen months caused no tumours. The animal result behind the first reprogramming
+therapy to be dosed in a person (life-biosciences-2026)."""
+branches = ["cell-settings"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaves: partially resetting cells reverses ageing in a living animal (the cell's settings;
+shared with The Upgrade Tree), and a first person dosed with a reprogramming therapy, whose
+company trial uses the same three genes. The paper gives the age reversal as a direction of change
+against controls in its figures, not as a single number of years. Online 2020-12-02; the print
+issue is dated 2020-12-03."""

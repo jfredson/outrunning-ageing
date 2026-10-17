@@ -1,0 +1,25 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "mehdipour-2020"
+date = "2020-05-30"
+added_on = 2026-10-16
+authors = ["Melod Mehdipour", "Colin Skinner", "Nathan Wong", "Michael Lieb", "Chao Liu", "Jessy Etienne", "Cameron Kato", "Dobri Kiprov", "Michael J. Conboy", "Irina M. Conboy"]
+title = "Rejuvenation of three germ layers tissues by exchanging old blood plasma with saline-albumin"
+venue = "Aging (Albany NY) 12(10), 8790–8819 (2020)"
+link = "https://doi.org/10.18632/aging.103418"
+finding = """
+Half of the blood plasma of old mice was replaced with salt water containing 5 percent albumin,
+with no young blood involved. A single exchange matched or exceeded what young blood had done in
+earlier work: better muscle repair, less fat and scarring in the liver, and more new neurons in
+the memory centre of the brain. In a small human arm, serum taken after one ordinary therapeutic
+plasma exchange no longer suppressed the growth of progenitor cells the way old serum does. The
+authors' reading is that diluting what accumulates in old blood matters more than adding anything
+young; the abstract gives no percentages."""
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: plasma exchange or dilution with a measured effect in people, under inflammation
+and the body's messaging. The animal founding paper is conboy-2005 from the same group; the
+young-plasma trial in Alzheimer's is sha-2019."""

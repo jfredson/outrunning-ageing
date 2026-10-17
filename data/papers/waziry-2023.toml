@@ -1,0 +1,26 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "waziry-2023"
+date = "2023-02-09"
+added_on = 2026-10-16
+authors = ["R. Waziry", "C. P. Ryan", "D. L. Corcoran", "K. M. Huffman", "M. S. Kobor", "M. Kothari", "G. H. Graf", "V. B. Kraus", "W. E. Kraus", "D. T. S. Lin", "C. F. Pieper", "M. E. Ramaker", "M. Bhapkar", "S. K. Das", "L. Ferrucci", "W. J. Hastings", "M. Kebbe", "D. C. Parker", "S. B. Racette", "I. Shalev", "B. Schilling", "D. W. Belsky"]
+title = "Effect of long-term caloric restriction on DNA methylation measures of biological aging in healthy adults from the CALERIE trial"
+venue = "Nature Aging 3(3), 248–257 (2023)"
+link = "https://doi.org/10.1038/s43587-022-00357-y"
+finding = """
+The CALERIE trial had randomised 220 healthy adults without obesity to cut their calories by a
+quarter or eat as usual for two years; those assigned to restriction managed 11.9 percent on
+average. In the 197 with blood samples, a clock that reads the pace of ageing from DNA
+methylation (DunedinPACE) ran 2 to 3 percent slower in the restricted group at one and two years,
+while two clocks that read accumulated age (PhenoAge and GrimAge) did not move. The first
+randomised trial in people to show an intervention slowing a biological age clock, by an amount the
+authors call small."""
+branches = ["measuring-age", "energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaves: a clock validated to predict outcomes and used as a trial measure, under measuring
+ageing; and the fuel-sensing branch, since calorie restriction is the intervention the rapamycin
+and metformin leaves imitate. A correction appeared on 2023-05-09 (Nature Aging 3(6), 753) and was
+not read here. Online 2023-02-09; the print issue is March 2023."""

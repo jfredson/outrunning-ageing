@@ -1,0 +1,24 @@
+# Founding publications log, written 2026-10-16. Checked against the publisher's record and
+# abstract on 2026-10-16. The animal record the example leaf already cites by link.
+
+id = "baker-2011"
+date = "2011-11-02"
+added_on = 2026-10-16
+authors = ["Darren J. Baker", "Tobias Wijshake", "Tamar Tchkonia", "Nathan K. LeBrasseur", "Bennett G. Childs", "Bart van de Sluis", "James L. Kirkland", "Jan M. van Deursen"]
+title = "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders"
+venue = "Nature 479(7372), 232–236 (2011)"
+link = "https://doi.org/10.1038/nature10600"
+finding = """
+In mice bred to age fast (the BubR1 progeroid strain), a genetic switch was added that kills cells
+carrying the senescence marker p16 whenever a drug is given. Clearing those cells throughout life
+delayed the age-related decline of fat tissue, muscle and the eye, and clearing them late in life
+slowed decline already under way. A gain in healthy life in a fast-ageing mouse, not in lifespan or
+in a normally ageing animal; the first direct evidence that worn-out cells drive ageing rather
+than merely mark it."""
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a drug clears aged cells from a person (its shown-in-animals rung, which the leaf's
+earlier_stage entry already cites by this paper's link). Online 2011-11-02; the print issue is
+November 2011 and its exact day was not confirmed from the indexed records."""

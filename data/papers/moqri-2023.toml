@@ -1,0 +1,24 @@
+# Founding publications log, written 2026-10-16. Checked against the publisher's first page on
+# 2026-10-16.
+
+id = "moqri-2023"
+date = "2023-08-31"
+added_on = 2026-10-16
+authors = ["Mahdi Moqri", "Chiara Herzog", "Jesse R. Poganik", "Biomarkers of Aging Consortium", "Jamie Justice", "Daniel W. Belsky", "Albert Higgins-Chen", "Alexey Moskalev", "Georg Fuellen", "Alan A. Cohen", "Ivan Bautmans", "Martin Widschwendter", "Jingzhong Ding", "Alexander Fleming", "Joan Mannick", "Jing-Dong Jackie Han", "Alex Zhavoronkov", "Nir Barzilai", "Matt Kaeberlein", "Steven Cummings", "Brian K. Kennedy", "Luigi Ferrucci", "Steve Horvath", "Eric Verdin", "Andrea B. Maier", "Michael P. Snyder", "Vittorio Sebastiano", "Vadim N. Gladyshev"]
+title = "Biomarkers of aging for the identification and evaluation of longevity interventions"
+venue = "Cell 186(18), 3758–3775 (2023)"
+link = "https://doi.org/10.1016/j.cell.2023.08.003"
+finding = """
+A position paper from a consortium of ageing researchers setting out what a measure of biological
+age would have to do before a trial could use it in place of waiting for disease and death: be
+practical to take, track age, predict function and death better than a birth date does, rest on a
+mechanism, and move when an intervention works, then pass laboratory and clinical validation. It
+states that no such measure has yet been validated as a stand-in outcome for a trial. The
+field's own account of how far the measuring branch has to go."""
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a regulator accepts a marker of ageing as a trial endpoint, under measuring ageing;
+this paper is the criteria such a marker must meet, not an acceptance. Cell prints the consortium
+fourth in the author list, as given here; some indexes move it first or drop it."""

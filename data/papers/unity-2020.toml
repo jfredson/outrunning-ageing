@@ -1,0 +1,29 @@
+# Founding publications log, written 2026-10-16. The company's release is no longer on its own
+# site; the same text filed with the US securities regulator the same day is the copy read on
+# 2026-10-16.
+
+id = "unity-2020"
+date = "2020-08-17"
+added_on = 2026-10-16
+authors = ["UNITY Biotechnology, Inc."]
+title = "UNITY Biotechnology Announces 12-week data from UBX0101 Phase 2 Clinical Study in Patients with Painful Osteoarthritis of the Knee"
+venue = "Company press release, South San Francisco, 2020-08-17, filed the same day as exhibit 99.1 to a Form 8-K with the US Securities and Exchange Commission"
+link = "https://www.sec.gov/Archives/edgar/data/1463361/000119312520222493/d28349dex991.htm"
+finding = """
+In a phase 2 trial, 183 people with moderate to severe knee osteoarthritis pain had a single
+injection into the knee of placebo or one of three doses of UBX0101, a drug meant to kill
+worn-out cells in the joint. At twelve weeks there was no statistically significant difference in
+pain between any dose and placebo (p-values 0.52, 0.81 and 0.99 against placebo); the drug was
+well tolerated. The company said it would not take the drug into pivotal trials and would narrow
+its work to eye and nerve diseases. The first controlled trial of a cell-clearing drug on a
+clinical outcome, and it failed."""
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a drug clears aged cells from a person, under worn-out cells; the example leaf's
+description and verify list already refer to this failure, so the master can clear that verify
+line against this record. The release's own page on unitybiotechnology.com and the wire copy on
+GlobeNewswire are no longer served; the wire address was
+https://www.globenewswire.com/news-release/2020/08/17/2079116/0/en/. Doses 0.5, 2.0 and 4.0 mg,
+45 to 46 people per arm; the primary outcome was change in the WOMAC-A pain score at week 12."""

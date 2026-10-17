@@ -1,0 +1,25 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "horvath-2013"
+date = "2013-10-21"
+added_on = 2026-10-16
+authors = ["Steve Horvath"]
+title = "DNA methylation age of human tissues and cell types"
+venue = "Genome Biology 14(10), R115 (2013)"
+link = "https://doi.org/10.1186/gb-2013-14-10-r115"
+finding = """
+From about 8,000 samples across 51 healthy tissues and cell types, a predictor of a person's age
+was built from the chemical methyl marks on 353 sites in their DNA. In samples it had not been
+trained on it matched birth-certificate age with a correlation of 0.96 and a median error of 3.6
+years, across tissues as different as blood, brain and skin; 20 kinds of cancer tissue read on
+average 36 years older than the patient. The first multi-tissue "epigenetic clock", and the tool
+every later claim of age reversal in people is measured with."""
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a clock validated to predict outcomes in a large cohort, under measuring ageing;
+this is the clock, and the validation against outcomes came in later clocks (PhenoAge, GrimAge,
+DunedinPACE) and in moqri-2023's criteria. The training-set error is 2.9 years; 3.6 years is the
+test-set figure. An erratum appeared in Genome Biology 16, 96 (2015) and was not read here."""

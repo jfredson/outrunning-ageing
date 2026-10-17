@@ -1,0 +1,25 @@
+# Founding publications log, written 2026-10-16. Checked against the publisher's record and
+# abstract on 2026-10-16.
+
+id = "atala-2006"
+date = "2006-04-15"
+added_on = 2026-10-16
+authors = ["Anthony Atala", "Stuart B Bauer", "Shay Soker", "James J Yoo", "Alan B Retik"]
+title = "Tissue-engineered autologous bladders for patients needing cystoplasty"
+venue = "The Lancet 367(9518), 1241–1246 (2006)"
+link = "https://doi.org/10.1016/S0140-6736(06)68438-9"
+finding = """
+Seven children and young adults aged 4 to 19 with spina bifida and failing bladders had cells taken
+from their own bladders, grown on a scaffold shaped like a bladder for about seven weeks, and
+implanted to enlarge the organ. Over a mean follow-up of 46 months the best results came from the
+composite scaffold wrapped in abdominal tissue: pressure at capacity fell by 56 percent, capacity
+rose 1.58-fold and the bladder stretched 2.79 times better, with kidneys preserved and no stones.
+The first organ-like tissue grown from a person's own cells to work in people for years."""
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a lab-grown organ works in a person for a year, under replacing lost cells and parts;
+one of the five leaves shared with The Upgrade Tree. A bladder is the simplest organ to grow, and
+the approach has not reached a solid organ. Only the issue date, 2006-04-15, is on record; no
+online-first date was confirmed."""

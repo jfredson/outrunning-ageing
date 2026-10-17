@@ -1,0 +1,27 @@
+# Founding publications log, written 2026-10-16. Checked against the company's release and the
+# trial's registry entry on 2026-10-16.
+
+id = "life-biosciences-2026"
+date = "2026-06-09"
+added_on = 2026-10-16
+authors = ["Life Biosciences, Inc."]
+title = "Life Biosciences Announces First Patient Dosed in Phase 1 Trial of ER-100 for Optic Neuropathies"
+venue = "Company press release, Boston, 2026-06-09; trial registered as NCT07290244"
+link = "https://www.lifebiosciences.com/life-biosciences-announces-first-patient-dosed-in-phase-1-trial-of-er-100-for-optic-neuropathies/"
+finding = """
+The company says a first participant has been given ER-100, a one-time injection into one eye of a
+gene therapy that switches on three of the four Yamanaka reprogramming genes (OCT4, SOX2 and KLF4)
+for 56 days under the control of an oral antibiotic, in a phase 1 safety trial for open-angle
+glaucoma and a sudden loss of blood supply to the optic nerve. The registry entry plans about 18
+adults in sequential dose groups and measures safety to days 56 and 112. This is a first person
+dosed, not a result: the release reports no measurement of any kind."""
+branches = ["cell-settings"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a first person dosed with a reprogramming therapy (the cell's settings branch).
+The animal result behind it is the 2020 optic nerve paper, lu-2020. The company's earlier release
+of 2026-01-28 announced the FDA's clearance to start the trial and called ER-100 the first
+reprogramming therapy cleared for human trials. The registry entry (last updated 2026-05-19) says
+the trial started on 2026-03-02 and gives the doses; the release itself gives no site, dose or
+participant count."""

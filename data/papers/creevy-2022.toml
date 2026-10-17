@@ -1,0 +1,26 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access author manuscript
+# on 2026-10-16.
+
+id = "creevy-2022"
+date = "2022-02-02"
+added_on = 2026-10-16
+authors = ["The Dog Aging Project Consortium (Kate E. Creevy, Joshua M. Akey, Matt Kaeberlein, Daniel E. L. Promislow and members)"]
+title = "An open science study of ageing in companion dogs"
+venue = "Nature 602(7895), 51–57 (2022)"
+link = "https://doi.org/10.1038/s41586-021-04282-9"
+finding = """
+The Dog Aging Project's description of itself as of its first data release: more than 30,000 pet
+dogs and their owners enrolled, more than 100 staff at more than 20 institutions, genome
+sequencing planned for at least 10,000 dogs, a closely studied group of 1,000, and a
+placebo-controlled trial of rapamycin in 350 middle-aged large dogs (TRIAD, the Test of Rapamycin
+In Ageing Dogs) at seven US veterinary teaching hospitals, into which enrolment began in June
+2021. The largest study of ageing in any animal that lives with people; the rapamycin result is
+still to come."""
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a drug makes people live longer in good health (rapamycin), under energy and fuel
+sensing. Nature prints the author as the consortium with a member list that begins with the four
+names given; indexes list those four and the consortium. The enrolment figures are as of
+December 2020. Online 2022-02-02; the print issue is February 2022."""

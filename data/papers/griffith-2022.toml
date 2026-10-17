@@ -1,0 +1,24 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access author manuscript
+# on 2026-10-16.
+
+id = "griffith-2022"
+date = "2022-06-22"
+added_on = 2026-10-16
+authors = ["Bartley P. Griffith", "Corbin E. Goerlich", "Avneesh K. Singh", "Martine Rothblatt", "Christine L. Lau", "Aakash Shah", "Marc Lorber", "Alison Grazioli", "Kapil K. Saharia", "Susie N. Hong", "Susan M. Joseph", "David Ayares", "Muhammad M. Mohiuddin"]
+title = "Genetically Modified Porcine-to-Human Cardiac Xenotransplantation"
+venue = "New England Journal of Medicine 387(1), 35–44 (2022)"
+link = "https://doi.org/10.1056/NEJMoa2201422"
+finding = """
+On 2022-01-07 a 57-year-old man with heart failure who could not get a human heart received the
+heart of a pig carrying ten gene edits (four pig genes removed, six human genes added) at the
+University of Maryland. The heart worked for seven weeks, then thickened and failed suddenly from
+day 49; life support was withdrawn on day 60, and the damage did not look like ordinary rejection.
+The first pig organ to keep a living person alive, for two months."""
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a pig organ keeps a person alive, under replacing lost cells and parts; one of the
+five leaves shared with The Upgrade Tree. Online 2022-06-22; the print issue is dated 2022-07-07.
+Later pig kidney transplants into living people (2024 onward) are for the leaf session to cite from
+their own reports."""

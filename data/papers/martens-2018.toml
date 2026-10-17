@@ -1,0 +1,24 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "martens-2018"
+date = "2018-03-29"
+added_on = 2026-10-16
+authors = ["Christopher R. Martens", "Blair A. Denman", "Melissa R. Mazzo", "Michael L. Armstrong", "Nichole Reisdorph", "Matthew B. McQueen", "Michel Chonchol", "Douglas R. Seals"]
+title = "Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults"
+venue = "Nature Communications 9, 1286 (2018)"
+link = "https://doi.org/10.1038/s41467-018-03421-7"
+finding = """
+Thirty healthy adults aged 55 to 79 were enrolled, and 24 completed, a crossover in which each
+took 1,000 mg a day of nicotinamide riboside (a form of vitamin B3 that the body turns into NAD)
+and a placebo for six weeks each. Levels of NAD in white blood cells rose by about 60 percent on
+the supplement; blood pressure trended lower by about 4 points but not significantly after
+correction for multiple comparisons; no serious side effects. The first trial to show the
+supplement raises NAD in older people, with no effect on any health outcome tested."""
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: an NAD precursor with a measured effect in people, under energy and fuel sensing.
+The NAD rise was measured in blood mononuclear cells; the paper says the molecules are not
+detectable in plasma, so "blood NAD" would overstate it."""

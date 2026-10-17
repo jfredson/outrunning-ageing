@@ -1,0 +1,25 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "yoshino-2021"
+date = "2021-04-22"
+added_on = 2026-10-16
+authors = ["Mihoko Yoshino", "Jun Yoshino", "Brandon D. Kayser", "Gary J. Patti", "Michael P. Franczyk", "Kathryn F. Mills", "Miriam Sindelar", "Terri Pietka", "Bruce W. Patterson", "Shin-Ichiro Imai", "Samuel Klein"]
+title = "Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women"
+venue = "Science 372(6547), 1224–1229 (2021)"
+link = "https://doi.org/10.1126/science.abe9985"
+finding = """
+Twenty-five overweight or obese post-menopausal women with prediabetes took either 250 mg a day
+of nicotinamide mononucleotide (NMN, a building block of the cell's energy-carrying molecule NAD)
+or a placebo for ten weeks in a double-blind trial. Muscle insulin sensitivity, measured directly
+with an insulin clamp, rose by 25 percent in the NMN group and not at all on placebo; blood sugar,
+blood pressure, blood fats, liver insulin sensitivity and liver fat did not change. The first
+controlled trial to show an NAD precursor doing anything measurable in people, on one tissue and
+one measurement."""
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: an NAD precursor with a measured effect in people, under energy and fuel sensing.
+Thirteen women were randomised to NMN and twelve to placebo. Online 2021-04-22; the print issue is
+dated 2021-06-11. Registered as NCT03151239."""

@@ -1,0 +1,28 @@
+# Founding publications log, written 2026-10-16. Checked against the publisher's record and
+# abstract on 2026-10-16; the paper's full text is behind an access wall.
+
+id = "mannick-2014"
+date = "2014-12-24"
+added_on = 2026-10-16
+authors = ["Joan B. Mannick", "Giuseppe Del Giudice", "Maria Lattanzi", "Nicholas M. Valiante", "Jens Praestgaard", "Baisong Huang", "Michael A. Lonetto", "Holden T. Maecker", "John Kovarik", "Simon Carson", "David J. Glass", "Lloyd B. Klickstein"]
+title = "mTOR inhibition improves immune function in the elderly"
+venue = "Science Translational Medicine 6(268), 268ra179 (2014)"
+link = "https://doi.org/10.1126/scitranslmed.3009892"
+finding = """
+Volunteers aged 65 and over took RAD001 (everolimus, a relative of rapamycin that damps the cell's
+main fuel-sensing pathway) or a placebo for six weeks, then had a flu vaccine. At doses that were
+reasonably well tolerated, the antibody response to the vaccine was about 20 percent stronger, and
+fewer of their T cells carried the exhaustion marker PD-1. The first controlled trial in people to
+show that a drug acting on the ageing pathways found in animals improves an age-related function,
+here the immune system's."""
+branches = ["inflammation-and-signalling", "energy-and-fuel"]
+moved_range = false
+settled_stage = false
+verify = [
+  "The trial size (218 volunteers), the three dose arms (0.5 mg daily, 5 mg weekly, 20 mg weekly) and the six-week dosing are from a patent reproducing the trial design and from a 2021 review, not from the paper's own text, which was behind the publisher's access wall; the abstract confirms only the age group, the drug and the roughly 20 percent gain.",
+]
+notes = """
+Intended leaves: immune rejuvenation with a measured effect in people, under inflammation and the
+body's messaging; and a drug makes people live longer in good health (rapamycin and relatives),
+under energy and fuel sensing. The same group's 2018 follow-up (not logged here) reported fewer
+infections in older people on a related drug."""

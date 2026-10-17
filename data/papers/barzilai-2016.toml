@@ -1,0 +1,32 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access author manuscript
+# on 2026-10-16.
+
+id = "barzilai-2016"
+date = "2016-06"
+added_on = 2026-10-16
+authors = ["Nir Barzilai", "Jill P. Crandall", "Stephen B. Kritchevsky", "Mark A. Espeland"]
+title = "Metformin as a Tool to Target Aging"
+venue = "Cell Metabolism 23(6), 1060–1065 (2016)"
+link = "https://doi.org/10.1016/j.cmet.2016.05.011"
+finding = """
+The design paper for the Targeting Aging with Metformin (TAME) trial: the authors plan to enrol
+3,000 people aged 65 to 79 at about 14 US centres and measure the time to a first new occurrence
+of any of heart attack and stroke, cancer, dementia or death, a composite chosen so that a trial
+can test whether a drug slows ageing as a whole rather than one disease, with function and frailty
+measured alongside. The paper reviews the observational and animal evidence for metformin and says
+the trial has planning money from the American Federation for Aging Research. The template for how
+an ageing trial could be run and judged; as of 2026-10-16 the trial has not been shown to have
+started (see afar-2026)."""
+branches = ["energy-and-fuel", "measuring-age"]
+moved_range = false
+settled_stage = false
+verify = [
+  "The authors' full first names (Nir, Jill P., Stephen B., Mark A.) are from memory; the indexed record gives only initials (Barzilai N, Crandall JP, Kritchevsky SB, Espeland MA).",
+  "The exact day of the June 2016 issue was not confirmed; the indexed record gives only the month.",
+]
+notes = """
+Intended leaves: the TAME trial enrolling, and a drug makes people live longer in good health
+(metformin), under energy and fuel sensing; and a regulator accepting an ageing marker or a
+composite as a trial endpoint, under measuring ageing. The paper does not give the six-year
+duration or describe the 2015 meeting with the FDA; those are from AFAR's pages and news reports,
+logged under afar-2026."""

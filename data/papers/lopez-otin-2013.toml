@@ -1,0 +1,25 @@
+# Founding publications log, written 2026-10-16. The paper whose nine hallmarks the branches are
+# grouped from. Checked against the publisher's record and abstract on 2026-10-16.
+
+id = "lopez-otin-2013"
+date = "2013-06-06"
+added_on = 2026-10-16
+authors = ["Carlos López-Otín", "Maria A. Blasco", "Linda Partridge", "Manuel Serrano", "Guido Kroemer"]
+title = "The Hallmarks of Aging"
+venue = "Cell 153(6), 1194–1217 (2013)"
+link = "https://doi.org/10.1016/j.cell.2013.05.039"
+finding = """
+A review that proposed nine "hallmarks" of ageing, the kinds of damage and malfunction that build
+up with age in most animals: unstable DNA, shortening chromosome ends, drifting gene settings,
+misfolded proteins, mis-set fuel sensing, failing power plants in the cell, worn-out cells that
+will not die, exhausted stem cells, and garbled signalling between cells. It argued that each
+should get worse with age, speed ageing when made worse, and slow ageing when treated. The
+starting map for the field, and for this site's branches."""
+branches = ["worn-out-cells", "damaged-dna", "cell-settings", "broken-proteins", "energy-and-fuel", "replacing-parts", "inflammation-and-signalling", "measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Bears on every branch: the eight branches group these hallmarks and the three added in 2023
+(lopez-otin-2023). The mapping from each hallmark to a branch is in docs/record-schema.md. Cell
+prints the title in capitals as given; the issue date is 2013-06-06 and no earlier online date is
+recorded."""

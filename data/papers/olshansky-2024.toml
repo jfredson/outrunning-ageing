@@ -1,0 +1,27 @@
+# Founding publications log, written 2026-10-16. The paper the kickoff calls the argument that
+# radical life extension is implausible on current trends. Checked against the open-access text on
+# 2026-10-16.
+
+id = "olshansky-2024"
+date = "2024-10-07"
+added_on = 2026-10-16
+authors = ["S. Jay Olshansky", "Bradley J. Willcox", "Lloyd Demetrius", "Hiram Beltrán-Sánchez"]
+title = "Implausibility of radical life extension in humans in the twenty-first century"
+venue = "Nature Aging 4(11), 1635–1642 (2024)"
+link = "https://doi.org/10.1038/s43587-024-00702-3"
+finding = """
+Using national death records from 1990 to 2019 for the eight longest-lived countries plus Hong Kong
+and the United States, the authors show that gains in life expectancy have slowed since 1990:
+life expectancy at birth rose 6.5 years on average over the period, and in every population but
+Hong Kong and South Korea the yearly gain has fallen below 0.2 years. They conclude that survival
+to 100 is unlikely to exceed 15 percent for women and 5 percent for men, and that radical life
+extension (defined as three years gained per decade, the twentieth-century pace) is implausible
+this century unless biological ageing itself is markedly slowed. The demographers' case against
+the headline, and the baseline the headline has to beat."""
+branches = ["worn-out-cells", "damaged-dna", "cell-settings", "broken-proteins", "energy-and-fuel", "replacing-parts", "inflammation-and-signalling", "measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Bears on the headline question itself rather than any one branch, so listed against all eight. Its
+own escape clause, that the trend holds unless ageing is slowed, is exactly what the branches
+track. Online 2024-10-07; the print issue is November 2024."""

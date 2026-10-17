@@ -1,0 +1,25 @@
+# Founding publications log, written 2026-10-16. Checked against the publisher's page on
+# 2026-10-16.
+
+id = "emani-2017"
+date = "2017-02-15"
+added_on = 2026-10-16
+authors = ["Sitaram M. Emani", "Breanna L. Piekarski", "David Harrild", "Pedro J. del Nido", "James D. McCully"]
+title = "Autologous mitochondrial transplantation for dysfunction after ischemia-reperfusion injury"
+venue = "The Journal of Thoracic and Cardiovascular Surgery 154(1), 286–289 (2017)"
+link = "https://doi.org/10.1016/j.jtcvs.2017.02.018"
+finding = """
+Five babies and young children at Boston Children's Hospital whose hearts had failed after surgery
+and who were on a heart-lung machine had mitochondria, the cell's power plants, taken from a small
+piece of their own abdominal muscle and injected straight into the heart muscle, about a hundred
+million in ten small injections. Four of the five regained enough heart function to come off the
+machine within three to six days; two of the five later died of other organ failure. The first
+report of mitochondria moved from one tissue to another in people, in a handful of emergencies with
+no comparison group."""
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: mitochondrial transfer with a measured effect in people, under energy and fuel
+sensing. The paper has no abstract; the figures are from its text. Online 2017-02-15; the print
+issue is July 2017 and the journal gives no day."""

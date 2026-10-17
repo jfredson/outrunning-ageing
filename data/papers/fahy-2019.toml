@@ -1,0 +1,27 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "fahy-2019"
+date = "2019-09-08"
+added_on = 2026-10-16
+authors = ["Gregory M. Fahy", "Robert T. Brooke", "James P. Watson", "Zinaida Good", "Shreyas S. Vasanawala", "Holden Maecker", "Michael D. Leipold", "David T. S. Lin", "Michael S. Kobor", "Steve Horvath"]
+title = "Reversal of epigenetic aging and immunosenescent trends in humans"
+venue = "Aging Cell 18(6), e13028 (2019)"
+link = "https://doi.org/10.1111/acel.13028"
+finding = """
+Ten healthy men aged 51 to 65 were recruited, and nine analysed, in a one-year trial (TRIIM) of
+growth hormone with DHEA and metformin, aimed at regrowing the thymus, the gland that trains immune
+cells and turns to fat with age. The thymus did regain working tissue on MRI in seven of nine men,
+and four DNA-methylation clocks read about 1.5 years younger than at the start, which is about 2.5
+years against the one year of ageing expected with no treatment. Nine men, no placebo group, and
+the clocks were the outcome; the paper most often cited for age reversal in people, and the one
+that shows how thin that claim is."""
+branches = ["inflammation-and-signalling", "measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaves: immune rejuvenation with a measured effect in people, under inflammation and the
+body's messaging; and a clock as a trial measure, under measuring ageing. The 2.5-year figure
+often quoted is relative to expected ageing; the absolute change from baseline is about 1.5 years.
+Why one of the ten recruited men is missing from the analysis is not stated in the main text.
+Online 2019-09-08; the print issue is December 2019."""

@@ -1,0 +1,27 @@
+# Founding publications log, written 2026-10-16. Checked against the publisher's record and
+# abstract on 2026-10-16.
+
+id = "lincoff-2023"
+date = "2023-11-11"
+added_on = 2026-10-16
+authors = ["A. Michael Lincoff", "Kirstine Brown-Frandsen", "Helen M. Colhoun", "John Deanfield", "Scott S. Emerson", "Sille Esbjerg", "Soren Hardt-Lindberg", "G. Kees Hovingh", "Steven E. Kahn", "Robert F. Kushner", "Ildiko Lingvay", "Tugce K. Oral", "Marie M. Michelsen", "Jorge Plutzky", "Christoffer W. Tornøe", "Donna H. Ryan", "for the SELECT Trial Investigators"]
+title = "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes"
+venue = "New England Journal of Medicine 389(24), 2221–2232 (2023)"
+link = "https://doi.org/10.1056/NEJMoa2307563"
+finding = """
+The SELECT trial randomised 17,604 adults aged 45 and over with existing heart or blood-vessel
+disease and a body mass index of 27 or more, but no diabetes, to a weekly injection of semaglutide
+2.4 mg or placebo, and followed them for a mean of 39.8 months. Heart attack, stroke or death from
+cardiovascular causes came to 6.5 percent on the drug against 8.0 percent on placebo, a hazard
+ratio of 0.80 (95 percent confidence interval 0.72 to 0.90). The first large controlled trial to
+show that a GLP-1 drug prevents hard outcomes in people without diabetes; it was not designed to
+measure ageing, and 16.6 percent stopped the drug for side effects against 8.2 percent on
+placebo."""
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a GLP-1 drug with an ageing endpoint, under energy and fuel sensing; this is the
+result that made such a trial thinkable, not that trial. Sixteen named authors write for the
+SELECT Trial Investigators, who are listed as a group. Funded by Novo Nordisk; registered as
+NCT03574597. Online 2023-11-11; print issue 2023-12-14."""

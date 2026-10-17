@@ -1,0 +1,39 @@
+# Founding publications log, written 2026-10-16. The TAME trial's funding history, as the trial's
+# sponsor states it on its own page and as dated reports have given it. The sponsor's live page
+# returned "not found" on 2026-10-16; the link is to the web archive's copy of 2026-07-04.
+
+id = "afar-2026"
+date = "2026-07-04"
+added_on = 2026-10-16
+authors = ["American Federation for Aging Research"]
+title = "The TAME Trial (Targeting Aging with Metformin)"
+venue = "AFAR's own trial page, afar.org/tame-trial, as archived on 2026-07-04"
+link = "https://web.archive.org/web/2026/https://www.afar.org/tame-trial"
+finding = """
+Ten years after its design paper, the sponsor's own page still describes TAME in the future tense:
+a six-year trial at 14 US institutions that "will engage" over 3,000 people aged 65 to 79, with Wake
+Forest as coordinating centre, under the heading "Raising Funds to Launch" and a call for donors.
+The published funding history runs: planning money from AFAR (2016); nearly half of a stated 75
+million dollar budget pledged through AFAR by the philanthropist Paul Glenn, two refusals by the
+National Institute on Aging, and a reported anonymous pledge for the remaining 40 million in
+September 2019 that no later source confirms; a claim in April 2022 that the Hevolution Foundation
+would fund a third, which the foundation did not confirm; about 5 million dollars set aside by the
+National Institute on Aging and cost estimates of 45 to 70 million dollars in April 2024. No
+primary source says enrolment has begun, and no registration for the trial was found on
+ClinicalTrials.gov on 2026-10-16."""
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+verify = [
+  "The Paul Glenn pledge and the two National Institute on Aging refusals are from Aubrey de Grey's 2019 editorial (de-grey-2019), read secondhand through a 2019-10-22 Fight Aging! post, not from the editorial itself.",
+  "The anonymous 40 million dollar pledge of September 2019 is from a Longevity.Technology report of 2019-09-04, which also put AFAR's share at 35 million; the two 2019 sources split the 75 million differently.",
+  "The Hevolution claim is from MIT Technology Review of 2022-06-07 reporting a talk by Nir Barzilai in April 2022; STAT reported on 2022-08-09 that a Hevolution spokesperson said no decision had been made.",
+  "The 5 million dollars set aside and the 45 to 70 million cost range are from NPR's report of 2024-04-22; STAT in 2022 gave 30 to 50 million.",
+  "Whether the live AFAR page has moved rather than gone is not known; the web archive shows it returning 'not found' from 2026-10-01.",
+]
+notes = """
+Intended leaf: the TAME trial enrolling, under energy and fuel sensing. This record exists so the
+leaf can say, with sources, that the field's flagship ageing trial has been announced as imminent
+since 2015 and has not started. The weekly reading should check AFAR's page and the trial
+registry; the day a registration or a first-participant notice appears, that becomes a new record.
+AFAR's 2024 news post gives the age range as 65 to 80; the trial page says 65 to 79."""

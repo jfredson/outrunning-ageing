@@ -1,0 +1,24 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access author manuscript
+# on 2026-10-16.
+
+id = "kaeberlein-2016"
+date = "2016-05-03"
+added_on = 2026-10-16
+authors = ["Matt Kaeberlein", "Kate E. Creevy", "Daniel E. L. Promislow"]
+title = "The dog aging project: translational geroscience in companion animals"
+venue = "Mammalian Genome 27(7–8), 279–288 (2016)"
+link = "https://doi.org/10.1007/s00335-016-9638-7"
+finding = """
+The paper that set out the Dog Aging Project: the case that pet dogs, which age ten times faster
+than people, share our homes and get our diseases and our veterinary care, are the right animal
+for testing whether a drug slows ageing within a human researcher's working life, and the plan for
+a long-term study of tens of thousands of dogs with a rapamycin trial inside it. A rationale paper
+with no results."""
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a drug makes people live longer in good health (rapamycin), under energy and fuel
+sensing; the dog trial is the step between harrison-2009 in mice and any trial in people. The
+project's founding paper proper, with the study's design and first enrolment, is creevy-2022.
+Online 2016-05-03; the print issue is August 2016."""

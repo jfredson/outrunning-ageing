@@ -1,0 +1,25 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "sha-2019"
+date = "2018-10-29"
+added_on = 2026-10-16
+authors = ["Sharon J. Sha", "Gayle K. Deutsch", "Lu Tian", "Kara Richardson", "Maria Coburn", "Jennifer L. Gaudioso", "Tatiana Marcal", "Ethan Solomon", "Athanasia Boumis", "Anthony Bet", "Maarten Mennes", "Erik van Oort", "Christian F. Beckmann", "Steven P. Braithwaite", "Sam Jackson", "Karoly Nikolich", "Darby Stephens", "Geoffrey A. Kerchner", "Tony Wyss-Coray"]
+title = "Safety, Tolerability, and Feasibility of Young Plasma Infusion in the Plasma for Alzheimer Symptom Amelioration Study: A Randomized Clinical Trial"
+venue = "JAMA Neurology 76(1), 35–40 (2019)"
+link = "https://doi.org/10.1001/jamaneurol.2018.3288"
+finding = """
+Eighteen people aged 50 to 90 with mild to moderate Alzheimer's disease were given four weekly
+infusions of plasma from male donors aged 18 to 30 at Stanford: nine in a double-blind crossover
+against salt water, and nine more in an open-label plasma-only group. The infusions were safe and
+well tolerated, with no related serious adverse events. Cognition, measured only as an exploratory
+outcome, did not change; caregivers rated day-to-day function better, which the authors treated as
+unconfirmed. A safety trial of the young-blood idea in people, not a test of whether it works."""
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: plasma exchange or dilution with a measured effect in people, under inflammation
+and the body's messaging. The trial had no primary measure of cognition, so "no effect" should
+not be read as a failed efficacy trial. Online 2018-10-29; the print issue is dated 2019-01-01,
+which is why the id carries 2019. Registered as NCT02256306."""

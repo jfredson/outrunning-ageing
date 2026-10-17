@@ -1,0 +1,29 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "ocampo-2016"
+date = "2016-12-15"
+added_on = 2026-10-16
+authors = ["Alejandro Ocampo", "Pradeep Reddy", "Paloma Martinez-Redondo", "Aida Platero-Luengo", "Fumiyuki Hatanaka", "Tomoaki Hishida", "Mo Li", "David Lam", "Masakazu Kurita", "Ergin Beyret", "Toshikazu Araoka", "Eric Vazquez-Ferrer", "David Donoso", "Jose Luis Roman", "Jinna Xu", "Concepcion Rodriguez Esteban", "Gabriel Nuñez", "Estrella Nuñez Delicado", "Josep M. Campistol", "Isabel Guillen", "Pedro Guillen", "Juan Carlos Izpisua Belmonte"]
+title = "In Vivo Amelioration of Age-Associated Hallmarks by Partial Reprogramming"
+venue = "Cell 167(7), 1719–1733.e12 (2016)"
+link = "https://doi.org/10.1016/j.cell.2016.11.052"
+finding = """
+Mice were given the four Yamanaka genes that turn an adult cell back into an embryonic-like stem
+cell, but switched on for only two days in every seven so that cells reset part of the way without
+losing their identity. In mice bred to age fast (the LAKI progeria model) the cycling treatment
+reduced the signs of ageing in several tissues and lengthened life; in normally aged mice it
+improved the repair of muscle and pancreas after injury. The first demonstration that partial
+reprogramming can be done in a living animal without killing it with tumours."""
+branches = ["cell-settings"]
+moved_range = false
+settled_stage = false
+verify = [
+  "The author list is from the publisher's indexed record and was not read off the paper's own first page; the first and last authors (Ocampo; Izpisua Belmonte) are confirmed.",
+]
+notes = """
+Intended leaf: partially resetting cells reverses ageing in a living animal, under the cell's
+settings; one of the five leaves shared with The Upgrade Tree. The paper itself gives no
+percentage for the lifespan gain, only "a dramatic increase in median and maximal lifespan" and a
+survival curve; the widely quoted figure of about 30 percent longer comes from the Salk Institute's
+news release of 2016-12-15, not from the paper, so the record does not carry it."""

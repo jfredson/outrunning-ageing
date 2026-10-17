@@ -1,0 +1,24 @@
+# Founding publications log, written 2026-10-16. Checked against the publisher's record and
+# abstract on 2026-10-16.
+
+id = "conboy-2005"
+date = "2005-02-17"
+added_on = 2026-10-16
+authors = ["Irina M. Conboy", "Michael J. Conboy", "Amy J. Wagers", "Eric R. Girma", "Irving L. Weissman", "Thomas A. Rando"]
+title = "Rejuvenation of aged progenitor cells by exposure to a young systemic environment"
+venue = "Nature 433(7027), 760–764 (2005)"
+link = "https://doi.org/10.1038/nature03260"
+finding = """
+Old and young mice were surgically joined so that they shared one bloodstream. The old mice's
+muscle repair cells regained a young animal's ability to multiply and mend damage, their liver
+cells divided more, and young serum alone did the same to old muscle cells in a dish. The paper
+that showed something in young blood, or something missing from old blood, drives part of ageing
+in tissue; the abstract gives no sample sizes or effect sizes."""
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: plasma exchange or dilution with a measured effect in people, under inflammation
+and the body's messaging; this is the animal result the field traces that leaf to. The later
+dilution paper (mehdipour-2020) and the young-plasma trial in Alzheimer's (sha-2019) follow from
+it."""

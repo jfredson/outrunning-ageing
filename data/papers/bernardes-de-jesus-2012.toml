@@ -1,0 +1,24 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "bernardes-de-jesus-2012"
+date = "2012-05-15"
+added_on = 2026-10-16
+authors = ["Bruno Bernardes de Jesus", "Elsa Vera", "Kerstin Schneeberger", "Agueda M. Tejera", "Eduard Ayuso", "Fatima Bosch", "Maria A. Blasco"]
+title = "Telomerase gene therapy in adult and old mice delays aging and increases longevity without increasing cancer"
+venue = "EMBO Molecular Medicine 4(8), 691–704 (2012)"
+link = "https://doi.org/10.1002/emmm.201200245"
+finding = """
+Mice aged one year and two years were given a single injection of a gene-therapy virus (AAV9)
+carrying the gene for telomerase, the enzyme that rebuilds the protective caps on chromosome ends.
+Median lifespan rose by 24 percent in the one-year-old group and 13 percent in the two-year-old
+group, with better insulin sensitivity, bone and coordination, and no more cancer than in untreated
+littermates; an inactive version of the gene did nothing. The animal record for lengthening
+chromosome ends in a living adult without a rise in cancer."""
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: telomerase therapy in a living animal, under damaged DNA. The AAV9 serotype is given
+in the full text; the abstract says only a wide-tropism AAV. Online 2012-05-15; the print issue is
+August 2012."""

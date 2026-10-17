@@ -1,0 +1,24 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "baker-2016"
+date = "2016-02-03"
+added_on = 2026-10-16
+authors = ["Darren J. Baker", "Bennett G. Childs", "Matej Durik", "Melinde E. Wijers", "Cynthia J. Sieben", "Jian Zhong", "Rachel A. Saltness", "Karthik B. Jeganathan", "Grace Casaclang Verzosa", "Abdulmohammad Pezeshki", "Khashayarsha Khazaie", "Jordan D. Miller", "Jan M. van Deursen"]
+title = "Naturally occurring p16Ink4a-positive cells shorten healthy lifespan"
+venue = "Nature 530(7589), 184–189 (2016)"
+link = "https://doi.org/10.1038/nature16932"
+finding = """
+The same genetic switch as in the 2011 paper, this time in normally ageing mice of two genetic
+backgrounds, with the cell-killing drug given twice a week from twelve months of age until death.
+Median lifespan rose by 27 percent in the mixed-background mice and 24 percent in the inbred
+strain, with increases of 17 to 35 percent by sex; kidney, heart and fat deteriorated more slowly,
+cataracts came later, and tumours came later though not less often. The result that turned
+clearing worn-out cells from a curiosity into a drug programme."""
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a drug clears aged cells from a person (animal record for lifespan, where baker-2011
+is the record for healthy life). The percentages are in the results text, not the abstract, which
+gives none. Online 2016-02-03; the print issue is dated 2016-02-11."""

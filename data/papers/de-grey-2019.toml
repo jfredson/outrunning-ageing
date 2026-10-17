@@ -1,0 +1,30 @@
+# Founding publications log, written 2026-10-16. The editorial is behind an access wall; its
+# quoted lines were read on 2026-10-16 through a Fight Aging! post of 2019-10-22 that reproduces
+# them, so the record carries a verify entry.
+
+id = "de-grey-2019"
+date = "2019-10"
+added_on = 2026-10-16
+authors = ["Aubrey D. N. J. de Grey"]
+title = "TAME: A Genuinely Good Use of 75 Million Dollars"
+venue = "Rejuvenation Research 22(5), 375–376 (2019)"
+link = "https://doi.org/10.1089/rej.2019.2274"
+finding = """
+An editorial welcoming the news that the TAME metformin trial's 75 million dollar budget had been
+found: nearly half pledged through the American Federation for Aging Research by the
+philanthropist Paul Glenn, the National Institute on Aging having twice turned down applications
+for the rest, and the remainder, "very recently", from an anonymous donor. De Grey, no admirer of
+metformin as a treatment, argues the trial is worth the money because it would establish ageing as
+something a regulator lets a drug be tested against. Seven years on, the trial has not started
+(afar-2026)."""
+branches = ["energy-and-fuel", "measuring-age"]
+moved_range = false
+settled_stage = false
+verify = [
+  "The quoted lines and the funding figures are from a Fight Aging! post of 2019-10-22 reproducing the editorial, not from the editorial itself; the issue month (October 2019) and pages are from the publisher's index.",
+]
+notes = """
+Intended leaves: the TAME trial enrolling, under energy and fuel sensing, and a regulator accepting
+ageing as something a drug can be tested against, under measuring ageing. Kept because it is a
+dated, published statement that the money was in hand, against which the later record (afar-2026)
+can be read."""

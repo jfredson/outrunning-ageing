@@ -1,0 +1,24 @@
+# Founding publications log, written 2026-10-16. The paper that named the question this site
+# tracks. Checked against the open-access text on 2026-10-16.
+
+id = "de-grey-2004"
+date = "2004-06-15"
+added_on = 2026-10-16
+authors = ["Aubrey D. N. J. de Grey"]
+title = "Escape Velocity: Why the Prospect of Extreme Human Life Extension Matters Now"
+venue = "PLoS Biology 2(6), e187 (2004)"
+link = "https://doi.org/10.1371/journal.pbio.0020187"
+finding = """
+An essay arguing that once treatments cut the yearly risk of death at a given age fast enough, by
+roughly a tenth a year in the age range where most people die, remaining life expectancy stops
+falling with age and people pull away from death the way a rocket pulls away from the ground. De
+Grey names that rate "actuarial escape velocity". The paper does not use the phrase "longevity
+escape velocity"; that wording came later."""
+branches = ["worn-out-cells", "damaged-dna", "cell-settings", "broken-proteins", "energy-and-fuel", "replacing-parts", "inflammation-and-signalling", "measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Bears on the headline question itself rather than any one branch, so it is listed against all
+eight. Early PLoS Biology also carried print page numbers (723–726); the article number is the
+publisher's citation. The companion claims log holds de Grey's dated predictions; this record is
+only the paper that framed the question."""

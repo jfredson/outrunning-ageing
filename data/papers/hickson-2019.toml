@@ -1,6 +1,6 @@
 # Worked example of a publication record (docs/record-schema.md), written 2026-10-16 with the
-# schema. The record that settles the first-human rung of the aged-cells leaf. Title, venue and
-# link are from The Upgrade Tree's checked record; the author list is from memory.
+# schema. The record that settles the first-human rung of the aged-cells leaf. Author list, counts
+# and findings checked against the paper's open-access text on 2026-10-16 (verify list cleared).
 
 id = "hickson-2019"
 date = "2019-09-18"
@@ -19,7 +19,10 @@ leaves = ["drug-clears-aged-cells-from-a-person"]
 moved_range = false
 settled_stage = true
 
-verify = [
-  "The author list is from memory and should be checked against the paper; the first and last authors (Hickson; Kirkland) are the ones to confirm.",
-  "The counts (nine people, a three-day course, samples eleven days later) are from memory of the abstract.",
-]
+notes = """
+Checked against the open-access text on 2026-10-16: 33 authors as listed; nine people; dasatinib
+100 mg and quercetin 1,000 mg daily for three days; fat and skin samples on study days 0 and 14,
+so eleven days after the last dose. A corrigendum of 2020-01-23 (EBioMedicine 52, 102595,
+https://doi.org/10.1016/j.ebiom.2019.12.004) re-analysed the raw data with five added statistical
+authors and says some conclusions changed; the detail is in its appendix, not read here, so the
+finding above should be read with that in mind."""

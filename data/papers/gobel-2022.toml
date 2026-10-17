@@ -1,0 +1,28 @@
+# Founding publications log, written 2026-10-16. Stands in for the "gobel-2004" record the kickoff
+# hoped for: no primary source from 2004 for David Gobel using the phrase "longevity escape
+# velocity" could be found on 2026-10-16, so the record is his own later account, labelled as such.
+
+id = "gobel-2022"
+date = "2022-05-12"
+added_on = 2026-10-16
+authors = ["David Gobel"]
+title = "Foreword to the Aubrey de Grey and Charles Brenner debate (Let's Talk Longevity newsletter)"
+venue = "Let's Talk Longevity, Substack newsletter, 2022-05-12"
+link = "https://letstalklongevity.substack.com/p/aubrey-de-grey-and-charles-brenner"
+finding = """
+David Gobel, co-founder of the Methuselah Foundation, opens the foreword by saying he coined the
+phrase "longevity escape velocity" while working with Aubrey de Grey and Peter Diamandis on the
+history of prizes. He gives no year, and no dated document from 2004 or earlier in which he uses
+the phrase has been found; the earliest dated publication of the idea is de Grey's 2004 essay,
+which uses the words "actuarial escape velocity" instead."""
+branches = ["worn-out-cells", "damaged-dna", "cell-settings", "broken-proteins", "energy-and-fuel", "replacing-parts", "inflammation-and-signalling", "measuring-age"]
+moved_range = false
+settled_stage = false
+verify = [
+  "That no earlier dated source for Gobel's use of the phrase exists rests on one session's web search of 2026-10-16 (the Methuselah Foundation site, the 2003 and 2004 Fight Aging! posts, and a 2018 Lifespan.io interview were checked); a dated 2004 or 2005 document may yet surface.",
+]
+notes = """
+Bears on the headline question itself, so listed against all eight branches. Secondary sources
+(Wikipedia; a 2018-09-05 Lifespan.io interview whose interviewer calls Gobel the first to put the
+concept forward) repeat the attribution without a dated primary source. Kept so that the site can
+say plainly who is credited with the phrase and on what evidence."""

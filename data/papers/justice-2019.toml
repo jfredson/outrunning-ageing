@@ -1,0 +1,25 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "justice-2019"
+date = "2019-01-05"
+added_on = 2026-10-16
+authors = ["Jamie N. Justice", "Anoop M. Nambiar", "Tamar Tchkonia", "Nathan K. LeBrasseur", "Rodolfo Pascual", "Shahrukh K. Hashmi", "Larissa Prata", "Michal M. Masternak", "Stephen B. Kritchevsky", "Nicolas Musi", "James L. Kirkland"]
+title = "Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study"
+venue = "EBioMedicine 40, 554–563 (2019)"
+link = "https://doi.org/10.1016/j.ebiom.2018.12.052"
+finding = """
+Fourteen people with stable scarring of the lungs (idiopathic pulmonary fibrosis) at two centres
+took dasatinib 100 mg and quercetin 1,250 mg a day for three days a week over three weeks, with no
+placebo group. All fourteen stayed in; their six-minute walking distance, walking speed and
+chair-stand time improved, while lung function, blood chemistry and frailty did not change, and
+the effect on blood markers of worn-out cells was inconclusive. The first trial of a drug meant to
+kill such cells in people, on physical function rather than on the cells themselves."""
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a drug clears aged cells from a person, under worn-out cells; as the leaf's notes
+already say, this trial did not measure the cells, so hickson-2019 is the stage record and this is
+the first human dosing. Online 2019-01-05; the print issue is February 2019. Registered as
+NCT02874989."""

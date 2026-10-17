@@ -1,0 +1,25 @@
+# Founding publications log, written 2026-10-16. Checked against the publisher's page and record on
+# 2026-10-16.
+
+id = "mandai-2017"
+date = "2017-03-16"
+added_on = 2026-10-16
+authors = ["Michiko Mandai", "Akira Watanabe", "Yasuo Kurimoto", "Yasuhiko Hirami", "Chikako Morinaga", "Takashi Daimon", "Masashi Fujihara", "Hiroshi Akimaru", "Noriko Sakai", "Yumiko Shibata", "Motoki Terada", "Yui Nomiya", "Shigeki Tanishima", "Masahiro Nakamura", "Hiroyuki Kamao", "Sunao Sugita", "Akishi Onishi", "Tomoko Ito", "Kanako Fujita", "Shin Kawamata", "Masahiro J. Go", "Chikara Shinohara", "Ken-ichiro Hata", "Masanori Sawada", "Midori Yamamoto", "Sachiko Ohta", "Yasuo Ohara", "Kenichi Yoshida", "Junko Kuwahara", "Yuko Kitano", "Naoki Amano", "Masafumi Umekage", "Fumiyo Kitaoka", "Azusa Tanaka", "Chihiro Okada", "Naoko Takasu", "Seishi Ogawa", "Shinya Yamanaka", "Masayo Takahashi"]
+title = "Autologous Induced Stem-Cell–Derived Retinal Cells for Macular Degeneration"
+venue = "New England Journal of Medicine 376(11), 1038–1046 (2017)"
+link = "https://doi.org/10.1056/NEJMoa1608368"
+finding = """
+A 77-year-old Japanese woman with a wet form of age-related macular degeneration had skin cells
+turned back into stem cells, grown into a sheet of the retina's supporting layer 1.3 by 3 millimetres
+across, and transplanted under her retina on 2014-09-12. A year later the sheet was intact, her
+sight was unchanged rather than worse, and there was no rejection and no serious complication
+without any immune-suppressing drugs. The first person to receive tissue made from their own
+reprogrammed cells; a second patient was not treated because of DNA changes found in his cells."""
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a stem cell therapy restores a lost function in a controlled trial, under replacing
+lost cells and parts; this is a first-human safety record, not a restored function or a controlled
+trial. Thirty-nine authors; Mandai, Watanabe and Kurimoto contributed equally. Registered as
+UMIN000011929."""

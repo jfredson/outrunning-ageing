@@ -1,0 +1,28 @@
+# Founding publications log, written 2026-10-16. Checked against the open-access text on
+# 2026-10-16.
+
+id = "moel-2025"
+date = "2025-04-04"
+added_on = 2026-10-16
+authors = ["Mauricio Moel", "Girish Harinath", "Virginia Lee", "Andy Nyquist", "Stefanie L. Morgan", "Anar Isman", "Sajad Zalzala"]
+title = "Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results"
+venue = "Aging (Albany NY) 17(4), 908–936 (2025)"
+link = "https://doi.org/10.18632/aging.206235"
+finding = """
+The PEARL trial gave healthy adults aged 50 to 85 a weekly 5 mg or 10 mg dose of compounded
+rapamycin, or placebo, for 48 weeks in a double-blind trial run remotely; 114 completed (40, 35 and
+39 in the three groups) and 11 dropped out. The primary outcome, deep abdominal fat on a body
+scan, did not change. Women on the higher dose gained lean mass and reported less pain, and the
+lower-dose group reported better emotional well-being and general health; serious adverse events
+were 1, 2 and 3 in the three groups. Mid-trial the team found the compounded drug reached about a
+third of the blood level of the commercial product, so the real doses were about two-thirds lower
+than intended. The first year-long placebo-controlled trial of rapamycin in healthy people, run and
+paid for by the company that sells it, and it missed its primary outcome."""
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Intended leaf: a drug makes people live longer in good health (rapamycin), under energy and fuel
+sensing; a first human on a measurement, not a healthy-years result. All seven authors are
+employees and shareholders of AgelessRx. Registered as NCT04488601 on 2020-07-28. The paper gives
+no single randomised total in its text; 125 is the completers plus the dropouts."""
