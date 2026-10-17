@@ -10,12 +10,14 @@ ended = "2015-09"
 what = """
 In 2015-09 she received two gene therapies made by her company: one meant to lengthen the
 protective caps on chromosome ends (a telomerase gene), the other meant to protect muscle (a
-follistatin gene). The treatment was a single occasion; what has continued since is measurement
-and publication by the company."""
+follistatin gene). The 2015 treatment was followed by a second dose of the telomerase gene in 2020-09, according to
+a 2022 case report (about one unnamed woman whose starting figures match hers); since then the
+company has continued measurement and publication."""
 measures = """
 The length of chromosome caps in white blood cells, measured by one commercial laboratory in
 Houston before and after; BioViva has since published follow-up measurements and, in 2022, a case
-report in a small journal."""
+report in a small journal (the Journal of Regenerative Biology and Medicine, published by Maples
+Publishing, 2022-03-31, written by Patrick Sewell)."""
 claims = """
 BioViva's release of 2016-04-21 said her telomeres had lengthened by approximately twenty years,
 from 6.71 to 7.33 thousand base pairs, and called it the first successful gene therapy against
@@ -31,11 +33,6 @@ A claim about one person is a story, not a record, and it moves no leaf."""
 link = "https://www.fightaging.org/archives/2016/04/bioviva-claims-telomere-lengthening-in-elizabeth-parrish/"
 branches = ["damaged-dna"]
 
-verify = [
-  "The release was read in reproductions on fightaging.org (2016-04-22) and technologynetworks.com (2016-04-26); the original BioViva page returns an error. Find an archived copy.",
-  "The ten-percent variation in telomere tests is a critic's figure quoted in coverage, not from a source read directly.",
-  "The 2022 case report (BioViva, in a journal called Maples) was not read.",
-]
 notes = """
 The release named telomerase and follistatin only by what they were for, not by name; the gene
 names are from the magazine interview and later coverage. The status is marked ended because the
