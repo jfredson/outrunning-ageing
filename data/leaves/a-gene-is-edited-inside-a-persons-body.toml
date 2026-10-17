@@ -1,0 +1,62 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The 2021 stage
+# record is from memory; the trial's 2025-2026 status was checked against the sponsor's filings as
+# summarised in trade coverage on 2026-10-16. The estimate is a first pass.
+
+id = "a-gene-is-edited-inside-a-persons-body"
+name = "A gene is edited inside a person's body to stop an age-related disease"
+branch = "damaged-dna"
+description = """
+Most gene editing so far has been done on cells taken out of the body and put back. Editing a
+gene inside a living person is the step that would let the damage of ageing be repaired where it
+sits. In 2021 a London group gave six people a single infusion of a CRISPR gene editor (a tool that cuts DNA
+at a chosen spot) packaged in fat droplets, which went to the liver and switched off the gene for transthyretin, a protein that
+misfolds and clogs the heart and nerves in an inherited disease and, in its ordinary form, in many
+old people. The protein fell by about nine tenths and stayed down. The treatment is in a large
+late-stage trial for the heart form of the disease, which was paused in late 2025 after a
+patient's liver was harmed, and nothing is approved yet."""
+test = """
+A person is given a treatment that edits a gene inside their body, and afterwards the gene's
+product is measurably changed in the way intended, in a peer-reviewed report. For the clinic rung:
+a regulator approves a gene-editing treatment given inside the body for an age-related disease,
+or for a disease of DNA damage, so a doctor can give it outside a trial."""
+settler = "The peer-reviewed trial report; the trial registry; the regulator's approval record for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2021-06-26"
+stage_record = "https://doi.org/10.1056/NEJMoa2107454"
+status = "tracked"
+horizon = "near"
+
+verify = [
+  "The 2021 New England Journal of Medicine report (Gillmore and colleagues, NTLA-2001 in six people with hereditary transthyretin amyloidosis, serum transthyretin down 87 per cent at the higher dose) and its date, 26 June 2021, are from memory.",
+  "That the late-stage (phase 3) trial in the heart form of the disease (MAGNITUDE, about 1,200 people, now called nex-z) was put on hold in October 2025 after a patient's severe liver abnormality, that the hold on the nerve-disease trial was lifted by January 2026, and that the heart trial's hold had not been reported lifted as of the sponsor's mid-2026 filing, are from trade summaries of the sponsor's filings, not the filings themselves.",
+  "No animal rung is recorded: the mouse and primate work that preceded the 2021 trial (Intellia, 2018 to 2020) was not checked for a date.",
+]
+notes = """
+Transthyretin amyloidosis in its non-inherited form is a disease of old age, which is why a
+treatment aimed at an inherited disease sits on this tree. The other way to the same end, a drug
+that steadies the protein without touching the gene, is approved and has its own leaf on the
+broken-proteins branch. This leaf does not ask for the editing to repair ageing damage in
+general; it asks for the tool to be in the clinic, because every DNA-repair leaf above it needs
+the tool first."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The late-stage heart trial was designed to read out around 2027 to 2028 before the hold; the
+likely year assumes the hold is resolved, the trial finishes a year or two late, and the first
+approval of an in-body gene editor for an age-related disease comes in 2030. The earliest assumes
+the nerve-disease trial, which is running, supports an approval first. The latest allows for the
+liver-safety problem ending this programme and a competitor taking most of a decade more."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2028
+likely = 2030
+latest = 2042
+
+[[estimate.rung]]
+rung = "in-wide-use"
+earliest = 2032
+likely = 2038
+latest = 2060

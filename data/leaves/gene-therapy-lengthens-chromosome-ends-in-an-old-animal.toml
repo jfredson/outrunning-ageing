@@ -1,0 +1,61 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the paper and are in the verify list. The estimate is a first pass.
+
+id = "gene-therapy-lengthens-chromosome-ends-in-an-old-animal"
+name = "A gene therapy lengthens the ends of chromosomes in an old animal, with no rise in cancer"
+branch = "damaged-dna"
+description = """
+Each time a cell divides, the protective caps on the ends of its chromosomes (telomeres) get a
+little shorter, and a cell whose caps run out stops dividing. An enzyme called telomerase rebuilds
+the caps, and most adult cells keep it switched off, partly because cancers switch it on. In 2012
+a Madrid group carried the telomerase gene into adult and old mice with a harmless virus, once,
+and the mice lived longer (by about a quarter when treated at one year old, about an eighth at
+two) without more cancer. The leaf asks for that result and for its safety, because a longer life
+with more cancer would not count."""
+test = """
+A living animal given a treatment that lengthens its telomeres (the caps on chromosome ends)
+afterwards lives longer, or stays healthier for longer, than untreated controls, with no rise in
+cancer, in a peer-reviewed report. The first-human rung needs measurably longer telomeres in a
+person after such a gene therapy, with the cancer rate reported, in a peer-reviewed report. For
+the clinic rung: a regulator approves a telomere-lengthening gene therapy for any condition."""
+settler = "Peer-reviewed reports; the trial registry and report when a first person is treated; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2012-05"
+stage_record = "https://doi.org/10.1002/emmm.201200245"
+status = "tracked"
+horizon = "far"
+
+verify = [
+  "The 2012 EMBO Molecular Medicine report (Bernardes de Jesus, Blasco and colleagues; one dose of a telomerase gene therapy extended the lives of one- and two-year-old mice by about 24 and 13 per cent with no increase in cancer), its month (May 2012) and its DOI are from memory.",
+  "That a company founder, Elizabeth Parrish of BioViva, said in 2015 that she had taken a telomerase gene therapy herself, with no peer-reviewed report, is from memory; a self-report is not a record under the test and is noted only so that it is not mistaken for one.",
+]
+notes = """
+The same Madrid group later reported telomerase gene therapy repairing lung scarring and
+anaemia in mice with short telomeres. A separate leaf on this branch holds the one human result
+of lengthened telomeres, which came from an ordinary hormone drug and not a gene therapy. The
+reason this leaf's horizon is far is the cancer question: a treatment that lengthens telomeres
+in every cell lengthens them in any cancer cell too, and a regulator will want decades of data."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+No registered trial of a telomerase gene therapy in people existed when this was written. The
+first person would come through a rare telomere disease (dyskeratosis congenita, pulmonary
+fibrosis from short telomeres), where the risk is worth taking; the likely year for that is the
+early 2030s, and an approval for such a disease the early 2040s. The earliest assumes a sponsor
+files within three years on the strength of the mouse data; the latest allows for the cancer
+risk closing the route for good and the rung being reached, if at all, by a very different kind
+of treatment late in the century."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2029
+likely = 2033
+latest = 2055
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2036
+likely = 2044
+latest = 2110

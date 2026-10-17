@@ -1,0 +1,68 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The approval date
+# was checked against coverage of the regulator's notice on 2026-10-16; the earlier stages are
+# from memory and in the verify list. The estimate is a first pass.
+
+id = "antibody-clears-amyloid-from-the-brain-and-slows-decline"
+name = "An antibody clears amyloid from the brain and slows the decline of Alzheimer's disease"
+branch = "broken-proteins"
+description = """
+Amyloid is a protein that misfolds and piles up between brain cells with age, and in Alzheimer's
+disease it piles up faster. Antibodies that stick to it and get the immune system to clear it
+were first shown to work in mice in 1999, failed in people for twenty years, and in 2022 one of
+them, lecanemab, slowed the decline of people with early Alzheimer's by about a quarter over
+eighteen months in a trial of nearly eighteen hundred people. The United States regulator gave it
+full approval on 6 July 2023, and a second antibody followed in 2024. The effect is modest, the
+drug needs infusions and brain scans, and some patients bleed or swell in the brain; so it is in
+clinical use, not wide use."""
+test = """
+A person given an antibody against amyloid afterwards has measurably less of it in the brain on
+a scan, and in a controlled trial such people decline more slowly on a pre-stated measure of
+thinking and function than those on placebo, in a peer-reviewed report. The animal rung is amyloid
+cleared from a living animal's brain. For the clinic rung: a regulator's full approval, not an
+accelerated one, for Alzheimer's disease. For wide use: available by prescription in several
+countries and taken by a substantial share of eligible patients."""
+settler = "Peer-reviewed trial reports; the regulator's approval record; published uptake figures for the wide-use rung"
+stage = "in-clinical-use"
+stage_reached_on = "2023-07-06"
+stage_record = "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The address of the regulator's 6 July 2023 notice is reconstructed from its title ('FDA converts novel Alzheimer's disease treatment to traditional approval') and was not opened; the date and title were confirmed from reposts of it.",
+  "The 2022 Clarity AD report (van Dyck and colleagues, New England Journal of Medicine, online 29 November 2022; 1,795 people, 27 per cent slowing on the main measure at 18 months) and its DOI are from memory.",
+  "The 1999 Nature report (Schenk and colleagues; immunising mice against amyloid cleared it from their brains) and its date, 8 July 1999, are from memory.",
+  "That donanemab was approved on 2 July 2024, and that uptake of both antibodies has been slow (tens of thousands of patients against millions eligible), are from memory.",
+]
+notes = """
+The branch's own line on what would move it asks for a kind of waste cleared throughout the body,
+not one organ; this leaf is one organ and one protein, and the branch's notes say so. It is on the
+tree because it is the first approved drug that removes an age-related protein deposit from a
+person and changes the course of the disease, and because the twenty years of failure before it
+are the best record the tree has of how long such a drug takes."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "1999-07-08"
+record = "https://doi.org/10.1038/22124"
+
+[[earlier_stage]]
+stage = "first-human"
+reached_on = "2022-11-29"
+record = "https://doi.org/10.1056/NEJMoa2212948"
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+Wide use needs a form that does not require infusions and frequent scans (an under-the-skin
+version was approved in 2025 for maintenance), lower prices, and clinics able to give it. The
+likely year assumes those come together in the mid 2030s; the earliest assumes the next
+generation of antibodies, with fewer brain-swelling events, arrives sooner; the latest allows for
+the drugs staying a specialist treatment given to a small share of patients."""
+
+[[estimate.rung]]
+rung = "in-wide-use"
+earliest = 2028
+likely = 2035
+latest = 2055

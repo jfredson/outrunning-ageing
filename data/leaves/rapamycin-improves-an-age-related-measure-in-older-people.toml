@@ -1,0 +1,60 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The 2014 record is
+# from memory; the 2025 trial was checked against the journal's listing on 2026-10-16. The
+# estimate is a first pass.
+
+id = "rapamycin-improves-an-age-related-measure-in-older-people"
+name = "A rapamycin-type drug improves an age-related measure in older people"
+branch = "energy-and-fuel"
+description = """
+Rapamycin and its relatives damp down a pathway (mTOR) that senses how much food is coming in,
+and they are the drugs with the strongest record of extending life in animals. The question for
+people is whether a dose low enough to be safe does anything measurable. In 2014 a Novartis team
+gave a relative of rapamycin, everolimus, to 218 people over sixty-five for six weeks and found
+that their response to the flu vaccine improved by about a fifth compared with placebo, the first
+controlled sign that the drug touches ageing in people. A larger late-stage trial of a successor
+drug, aimed at winter infections, failed in 2019; and a crowd-funded year-long trial of low-dose
+rapamycin in 114 adults, published in 2025, found no change on its main measure, body fat, with
+small gains in lean mass and well-being in some groups."""
+test = """
+A controlled trial in people reports that a drug acting on the mTOR pathway, at a dose given for
+ageing rather than for transplant or cancer, improves an age-related measure (immune response,
+muscle, a validated clock, a function) more than placebo on the trial's pre-stated main measure,
+in a peer-reviewed report. For the clinic rung: a regulator approves such a drug for an
+age-related condition in otherwise healthy older people, or a named clinical setting prescribes it
+for that purpose in routine care and publishes that practice."""
+settler = "The peer-reviewed trial report; the regulator's approval record, or a named clinical setting's published practice, for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2014-12-24"
+stage_record = "https://doi.org/10.1126/scitranslmed.3009892"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The 2014 Science Translational Medicine report (Mannick and colleagues; everolimus improved flu vaccine response in 218 older adults) and its date, 24 December 2014, are from memory.",
+  "That the successor company's (resTORbio) late-stage (phase 3) trial of RTB101 for respiratory infections failed in November 2019 is from memory.",
+  "The 2025 PEARL trial (Moel and colleagues, in Aging, 4 April 2025; 114 people, 48 weeks, no change in visceral fat, lean mass and well-being gains in subgroups, a dosing-formulation problem mid-trial) was checked against the journal listing; its DOI was not in hand.",
+  "No animal rung is recorded on this leaf: the 2009 mouse lifespan result is on the companion leaf and is not repeated here.",
+]
+notes = """
+Doctors at a number of private clinics prescribe rapamycin off-label for ageing, and many people
+take it; the test asks for a regulator's approval or a published routine practice on the
+strength of a controlled trial, and neither exists. The 2014 trial is the one positive controlled
+result and it is twelve years old. A separate leaf, a drug makes people live longer in good
+health, holds the lifespan question; this one holds the measurable short-term effect."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The 2019 failure cost the field its one company sponsor; the trials now running are academic and
+small. The likely year assumes a mid-sized controlled trial (in the immune system, muscle or
+the gums, where several are running) reports positive in the early 2030s and a regulator or a
+named clinic adopts the drug for that purpose later in the decade; the earliest allows that a
+clinic publishes its practice soon after a positive trial; the latest allows for the drug staying
+off-label for good."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2031
+likely = 2039
+latest = 2080

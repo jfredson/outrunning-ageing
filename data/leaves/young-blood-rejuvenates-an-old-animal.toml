@@ -1,0 +1,61 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the papers and are in the verify list. The estimate is a first pass.
+
+id = "young-blood-rejuvenates-an-old-animal"
+name = "Young blood rejuvenates an old animal"
+branch = "inflammation-and-signalling"
+description = """
+In 2005 a Stanford group joined the circulations of a young and an old mouse, an old surgical
+trick called parabiosis, and found that the old mouse's muscle and liver stem cells woke up and
+repaired damage like a young animal's. The finding started a search for the factors in young
+blood that do it and the factors in old blood that stop it, and a cottage industry of selling
+young plasma to old people. Infusions of young plasma into people with Alzheimer's disease were
+reported safe in 2019 in a tiny trial with no sign of effect, and no controlled trial has found
+a benefit. The leaf is at the animal rung and the test asks for a person to measurably improve,
+not to receive the infusion."""
+test = """
+An old living animal given blood or plasma from a young one afterwards has a measurably
+rejuvenated tissue function compared with untreated old controls, in a peer-reviewed report. The
+first-human rung needs a controlled trial in which older people given young plasma, or a defined
+factor from it, improve on an age-related measure more than placebo. For the clinic rung: a
+regulator approves such a treatment for an age-related condition."""
+settler = "Peer-reviewed reports; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2005-02-17"
+stage_record = "https://doi.org/10.1038/nature03260"
+status = "tracked"
+horizon = "far"
+
+verify = [
+  "The 2005 Nature report (Conboy, Rando and colleagues; young blood restored muscle and liver stem cell activity in old mice joined to young ones) and its date, 17 February 2005, are from memory.",
+  "That a 2019 trial (Sha and colleagues, JAMA Neurology; young plasma in 18 people with Alzheimer's disease) found the infusions safe but no effect is from memory.",
+  "That a company (Ambrosia) sold young plasma infusions to the public from 2017 until the United States regulator warned against them in 2019 is from memory; a sale is not a record under the test.",
+]
+notes = """
+Later mouse work split the effect: diluting old plasma helps as much as adding young, which is
+the plasma-exchange leaf beside this one; and single factors (GDF11, oxytocin, TIMP2) each
+account for part of it. The branch's own line asks for a measured effect in people of
+exchanging or diluting plasma, and that is the companion leaf."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+Twenty years after the mouse result there is no positive controlled human trial, and the
+defined-factor route (a single protein from young blood as a drug) is where the companies now
+are. The likely year assumes one such factor shows a controlled human benefit in the early
+2030s and reaches an approval in the late 2040s; the earliest assumes a factor already in trials
+reads out positive soon; the latest allows for the whole effect being a mouse artefact of the
+joined circulation."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2029
+likely = 2034
+latest = 2060
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2035
+likely = 2048
+latest = 2110

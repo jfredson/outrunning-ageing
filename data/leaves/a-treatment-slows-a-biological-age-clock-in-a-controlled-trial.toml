@@ -1,0 +1,56 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the paper and are in the verify list. The estimate is a first pass.
+
+id = "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial"
+name = "A treatment slows a biological age clock in a controlled trial"
+branch = "measuring-age"
+description = """
+A clock is only useful to a trial if a treatment can move it, and the first clear case came from
+the oldest treatment in the field. The CALERIE trial cut the calories of 143 healthy adults by
+about twelve per cent for two years, against 75 who ate as usual, and in 2023 a Columbia and
+Duke group read the pace of ageing from their blood, with DunedinPACE, before and after: the
+restricted group's pace had slowed by two to three per cent, while the clocks that read the level
+of age (not the pace) did not move. It is a controlled, pre-planned analysis of a treatment on a
+clock, with the caution that the clock's own validity is the companion leaf's business. The
+treatment here, eating less, is not a drug; the leaf is about the measurement, and any treatment
+counts."""
+test = """
+A controlled trial in people, with the clock analysis planned before the data were unblinded,
+reports that a treatment slowed or reversed a validated clock compared with the control group,
+in a peer-reviewed report that names the clock. For the clinic rung: a regulator's approval, or a
+named clinical setting's published routine practice, rests on a clock result from such a
+trial."""
+settler = "The peer-reviewed trial report with its pre-registered plan; the regulator's approval record, or a named clinical setting's published practice, for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2023-02-09"
+stage_record = "https://doi.org/10.1038/s43587-022-00357-y"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The 2023 Nature Aging report (Waziry, Belsky and colleagues; the CALERIE trial, DunedinPACE slowed by 2 to 3 per cent in the restricted group, PhenoAge and GrimAge unchanged) and its date, 9 February 2023, are from memory.",
+  "Whether the clock analysis was pre-registered before unblinding, as the test asks, is from memory of the paper's methods and should be checked; if it was not, the leaf's stage still stands on the controlled result but the notes should say so.",
+  "The CALERIE figures (143 restricted, 75 control, about 12 per cent restriction over two years) are from memory.",
+]
+notes = """
+The leaf exists so that the tree separates three things that get mixed up: a clock that
+predicts outcomes (the companion leaf), a treatment that moves a clock in a controlled trial
+(this leaf), and a regulator accepting the clock as proof (the regulatory leaf). The 2019 TRIIM
+result on the cell-settings branch moved clocks but had no control group, which is why this leaf
+rests on the 2023 result."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The clinic rung needs an approval or a published routine practice resting on a clock result,
+which waits on a regulator accepting a clock (likely around 2040 on that leaf) or on a named
+clinic adopting clock-guided treatment and publishing it, which the test allows and which could
+come sooner; the likely year is 2037, the earliest assumes a clinic's practice is published
+within four years, and the latest allows for the clocks never earning that standing."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2030
+likely = 2037
+latest = 2070

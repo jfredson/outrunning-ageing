@@ -1,0 +1,54 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage record
+# was checked against coverage of the paper on 2026-10-16; the rest is in the verify list. The
+# estimate is a first pass.
+
+id = "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart"
+name = "Heart muscle grown from stem cells is grafted onto a person's failing heart"
+branch = "replacing-parts"
+description = """
+A heart that has lost muscle to a heart attack does not grow it back, and heart failure is among
+the commonest ways an old person dies. A Göttingen group grows sheets of beating heart muscle
+from stem cells and sews them onto the outside of the heart. In 2025 they reported that in
+monkeys the patches took, grew blood vessels and strengthened the heart's pumping, and that in a
+46-year-old woman with heart failure, given ten patches in 2021 while she waited for a donor
+heart, the patches were alive and vascularised when her old heart was removed three months
+later. A controlled trial in people was under way. It is the first grafted human heart muscle
+found alive in a person."""
+test = """
+Heart muscle grown from stem cells is grafted onto a person's failing heart and is afterwards
+found alive and supplied with blood there, or the heart's pumping measurably improves, in a
+peer-reviewed report. The animal rung is the same in a living animal with improved pumping. For
+the clinic rung: a regulator approves such a graft for heart failure."""
+settler = "The peer-reviewed report; the trial registry; the regulator's approval record for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2025-01-29"
+stage_record = "https://doi.org/10.1038/s41586-024-08463-0"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The paper is Jebran, Zimmermann and colleagues, 'Engineered heart muscle allografts for heart repair in primates and humans', Nature, 2025, DOI 10.1038/s41586-024-08463-0; the DOI was confirmed against a surgical society's listing, and the date (29 January 2025) is from memory.",
+  "The patient details (46 years old, ten patches of about 400 million cells each, grafted in 2021, donor heart three months later) are from secondary coverage of the paper, not the paper itself.",
+  "That the follow-on controlled trial (BioVAT-HF) was enrolling in Germany as of 2026-10-16 is from memory.",
+]
+notes = """
+The animal rung is settled by the same 2025 paper (rhesus monkeys), so no separate earlier
+stage is recorded. The patches are made from a donor stem cell line, not the patient's own cells,
+and need anti-rejection drugs; a version from the patient's own cells is the next step and is
+not yet in people."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+A controlled trial was running in 2026 with the heart's pumping as its main measure; the likely year assumes
+it reports positive around 2030 and a larger trial carries the graft to approval in the late
+2030s. The earliest assumes a conditional approval in Europe or Japan on the first trial; the
+latest allows for the grafts not improving pumping enough to matter, which the monkey data
+suggest but do not prove in people."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2031
+likely = 2038
+latest = 2070

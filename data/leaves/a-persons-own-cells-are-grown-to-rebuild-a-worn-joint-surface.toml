@@ -1,0 +1,64 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The approval date
+# was checked against the regulator's and the company's notices on 2026-10-16; the earlier stage
+# is from memory and in the verify list. The estimate is a first pass.
+
+id = "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface"
+name = "A person's own cells are grown outside the body and used to rebuild a worn joint surface"
+branch = "replacing-parts"
+description = """
+Cartilage, the smooth surface that lets a joint glide, does not heal; a hole in it is for life
+and is where osteoarthritis starts. In 1994 a Swedish group reported taking a little cartilage
+from a patient's knee, growing the cells for weeks in the laboratory, and putting them back
+under a flap of tissue to fill the hole; most of the 23 patients had good knees two years on. The
+cells-on-a-membrane version, MACI, was approved by the United States regulator on 14 December
+2016 after a controlled trial of 144 people in which it beat the standard operation on pain and
+function. It is the oldest approved therapy made from a person's own grown cells, and the
+branch's one leaf in the clinic. It repairs injuries in younger knees; whether grown cells can
+resurface an old, worn joint is the open question."""
+test = """
+A person's own cells are grown outside the body and placed into a joint, and the joint's pain
+and function are afterwards measurably better than with the standard treatment in a controlled
+trial, in a peer-reviewed report. For the clinic rung: a regulator approves such a product. For
+wide use: the product is available in several countries and used in a substantial share of
+eligible cases, including worn joints in older people, not only injuries in younger ones."""
+settler = "The peer-reviewed trial report; the regulator's approval record; published use figures for the wide-use rung"
+stage = "in-clinical-use"
+stage_reached_on = "2016-12-14"
+stage_record = "https://www.fda.gov/news-events/press-announcements/fda-approves-first-autologous-cellularized-scaffold-repair-cartilage-defects-knee"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The address of the regulator's 14 December 2016 notice ('FDA approves first autologous cellularized scaffold for the repair of cartilage defects of the knee') is reconstructed from its title and was not opened; the date and title were confirmed from the company's notice and reposts.",
+  "The 1994 New England Journal of Medicine report (Brittberg, Peterson and colleagues; 23 patients, grown cartilage cells under a periosteal flap) and its date, 6 October 1994, are from memory; its DOI is given from memory as 10.1056/NEJM199410063311401.",
+  "That the first-generation product (Carticel) was licensed in the United States in 1997, which would make the clinic rung earlier than 2016, is from memory; the 2016 record is used because it was checked and because it rests on a controlled trial, and the earlier date should be checked and the stage date moved back if confirmed.",
+  "No animal rung is recorded: the rabbit work of the 1980s that preceded the 1994 trial was not checked for a date.",
+]
+notes = """
+This leaf is on the tree with a caveat said plainly: the approved use is for defects in
+otherwise healthy knees, mostly in people under fifty-five, and osteoarthritis of old age is
+excluded from the label. It counts toward the branch under the test as written because the test
+is about grown cells rebuilding a worn surface; the wide-use rung is where the age question is
+asked, and the yearly review may decide the leaf should be narrower."""
+
+[[earlier_stage]]
+stage = "first-human"
+reached_on = "1994-10-06"
+record = "https://doi.org/10.1056/NEJM199410063311401"
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The product has been sold for a decade and a next-generation version that needs one operation
+instead of two was in trials; wide use under the test needs use in worn older joints, which
+needs a trial in osteoarthritis that nobody had run. The likely year assumes such a trial reads
+out in the early 2030s and use widens through the decade; the earliest assumes use figures already
+meet the bar once counted; the latest allows for grown cells never working in an arthritic
+joint."""
+
+[[estimate.rung]]
+rung = "in-wide-use"
+earliest = 2028
+likely = 2036
+latest = 2065

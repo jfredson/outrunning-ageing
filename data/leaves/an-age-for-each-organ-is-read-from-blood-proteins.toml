@@ -1,0 +1,51 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the paper and are in the verify list. The estimate is a first pass.
+
+id = "an-age-for-each-organ-is-read-from-blood-proteins"
+name = "An age for each organ is read from the proteins in a person's blood"
+branch = "measuring-age"
+description = """
+A single number for a person's biological age hides that their heart may be old and their liver
+young. In 2023 a Stanford group measured thousands of proteins in the blood of over five
+thousand people, assigned each protein to the organ that makes it, and read an age for eleven
+organs per person. About one person in five had at least one organ ageing fast, and a fast-ageing
+heart predicted heart failure, a fast-ageing brain predicted dementia, over the following fifteen
+years. It is the kind of reading a trial of a repair treatment would want: not whether the
+person is younger, but whether the organ the treatment aimed at is. It is a research tool, not a
+test anyone can order from a doctor."""
+test = """
+A panel of blood proteins read as an age for each of several organs predicts disease of that
+organ better than calendar age, in two or more independent groups of at least a thousand people
+followed for years, in peer-reviewed reports. For the clinic rung: a regulator clears such a panel
+as a medical test, or a named health system uses it in routine care and publishes that practice."""
+settler = "Peer-reviewed validation reports; the regulator's clearance record, or a named health system's published practice, for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2023-12-06"
+stage_record = "https://doi.org/10.1038/s41586-023-06802-1"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The 2023 Nature report (Oh, Wyss-Coray and colleagues, 'Organ aging signatures in the plasma proteome track health and disease'; 5,676 people, eleven organs) and its date, 6 December 2023, are from memory.",
+  "That a 2025 follow-up from the same group in the UK Biobank (about 45,000 people) found organ ages predicting the diseases of each organ, and a young brain predicting a long life, is from memory; it would be the second independent group the test asks for and should be checked.",
+]
+notes = """
+The protein approach and the DNA-mark clocks (the companion leaf) are the two main families of
+ageing marker; this one is newer and has the organ-by-organ reading the other lacks. Neither is
+a medical test yet. The regulator-acceptance leaf is where either would have to go to count for
+a trial."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The protein-measuring platforms are expensive and the panels are two years old; the likely year
+assumes a health system publishes routine use of an organ-age panel around 2036, after a few
+years of cheaper assays; the earliest assumes a specialist clinic's published practice counts
+sooner; the latest allows for the panels staying a research tool."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2029
+likely = 2036
+latest = 2070

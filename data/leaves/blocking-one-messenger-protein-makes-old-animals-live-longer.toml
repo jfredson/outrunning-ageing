@@ -1,0 +1,61 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage record
+# was checked against the paper's listing on 2026-10-16; the rest is in the verify list. The
+# estimate is a first pass.
+
+id = "blocking-one-messenger-protein-makes-old-animals-live-longer"
+name = "Blocking one inflammatory messenger protein makes old animals live longer"
+branch = "inflammation-and-signalling"
+description = """
+Cells talk to each other through proteins in the blood, and some of those messages go wrong with
+age. Interleukin-11 is one such messenger, rising with age and driving scarring and
+inflammation. In 2024 a Singapore and London group reported that mice bred without it, or old
+mice given an antibody that blocks it from 75 weeks of age (about 55 in human years), lived about
+a quarter longer, with less frailty and fewer tumours. It is among the largest lifespan gains
+from a single drug started late in life in mice. Antibodies against the same protein were in
+early trials in people for lung scarring, not for ageing, when this was written."""
+test = """
+An old living animal given a drug that blocks a single messenger protein in the blood, started
+in the second half of its life, afterwards lives longer than untreated controls, in a
+peer-reviewed report. The first-human rung needs a controlled trial in which people given such a
+drug improve on an age-related measure (frailty, muscle, a validated clock) more than placebo. For
+the clinic rung: a regulator approves such a drug for an age-related condition."""
+settler = "Peer-reviewed reports; the trial registry; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2024-07-17"
+stage_record = "https://doi.org/10.1038/s41586-024-07701-9"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The paper is Widjaja, Cook and colleagues, 'Inhibition of IL-11 signalling extends mammalian healthspan and lifespan', Nature 632, pages 157 to 165, 2024, DOI 10.1038/s41586-024-07701-9; the DOI was confirmed against a university listing, and the date (17 July 2024) is from memory.",
+  "The lifespan figures (22.5 per cent in males, 25 per cent in females, antibody from 75 weeks) are from secondary coverage of the paper.",
+  "That anti-interleukin-11 antibodies were in early human trials for lung scarring (Boehringer Ingelheim and others) as of 2026-10-16 is from memory.",
+]
+notes = """
+Other single messengers with animal results sit under this leaf in spirit (GDF11, oxytocin,
+klotho, the TGF-beta family); interleukin-11 is the record because its result is a full
+lifespan study with a drug started late. A human lifespan result is not asked for at the
+first-human rung, because no such trial can be run in a working lifetime; a controlled
+age-related measure is."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+An antibody already in people for scarring could be tried in frailty quickly; the likely year
+for a first human result is 2032, and for an approval in an age-related condition the mid 2040s,
+allowing for the lung-scarring programmes to establish safety first. The earliest assumes the
+scarring trials double as the age-related trial; the latest allows for the mouse result being
+one of the many that do not carry to people."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2028
+likely = 2032
+latest = 2050
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2034
+likely = 2045
+latest = 2100

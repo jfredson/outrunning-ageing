@@ -15,12 +15,14 @@ self-experiment that tries to move a leaf, a link to a record that does not exis
 name and id disagree, an id that was committed before and has disappeared without an entry in
 data/retired.toml. It exits non-zero on any failure, and nothing downstream runs until it passes.
 
-"run" will play the tree out many thousands of times (docs/method.md) and write the headline.
-For now it is a stub: it validates, then refuses until every branch has at least as many tracked
-leaves as its handled_when, naming the branches short of it. The leaf session (weekend step 3 of
-docs/2026-10-16-kickoff.md) fills it in.
+"run" validates, refuses until every branch has at least as many tracked leaves as its
+handled_when (naming the branches short of it), and otherwise plays the tree out 200,000 times
+with a fixed seed (docs/method.md) and writes the headline to data/headline.json: the median
+escape year, the share of runs before 2050, the share after 2100, the spread, a histogram, and
+each branch's median handled year.
 
-Written 2026-10-16 (weekend step 2 of docs/2026-10-16-kickoff.md).
+Written 2026-10-16 (weekend step 2 of docs/2026-10-16-kickoff.md); the computation filled in the
+same day by the leaf session (weekend step 3).
 """
 
 from __future__ import annotations
@@ -754,13 +756,21 @@ def cmd_validate(args: argparse.Namespace) -> int:
     return 0
 
 
-# ---------------------------------------------------------------- the headline (stub)
+# ---------------------------------------------------------------- the headline
 #
-# docs/method.md: every tracked leaf supplies the year it reaches the clinic (known if it is
-# there, drawn from a triangle over earliest, likely and latest if not); a branch is handled in
-# the year its handled_when-th leaf arrives; the run's escape year is the latest handled year
-# across the required branches plus a drawn lag; many thousands of runs give the spread. The
-# leaf session fills this in. Until then, `run` refuses with the readiness rule (method item 8).
+# docs/method.md (parameters ruled by John 2026-10-16): every tracked leaf supplies the year it
+# reaches the clinic (known if it is there, drawn from a triangle over earliest, likely and
+# latest if not); a branch is handled in the year its handled_when-th leaf arrives; the run's
+# escape year is the latest handled year across the required branches plus a drawn lag, shared by
+# every branch in that run; many thousands of runs give the spread. Written 2026-10-16 by the
+# leaf session (weekend step 3 of docs/2026-10-16-kickoff.md).
+
+RUNS = 200_000              # method parameter 5
+SEED = 2004                 # method parameter 6: the year the phrase became known
+LAG = (3, 8, 15)            # method parameter 2: earliest, likely, latest years from the clinic to ordinary people
+BEFORE_YEAR = 2050          # method parameter 4
+CENTURY_END = 2100          # method parameter 4: a year after this is "not this century"
+METHOD_STATUS = "ruled by John 2026-10-16; the lag (parameter 2) is flagged for the outside review"
 
 
 def branches_short(loaded: dict) -> list[tuple[str, int, int]]:
@@ -778,7 +788,176 @@ def branches_short(loaded: dict) -> list[tuple[str, int, int]]:
     return short
 
 
+def _year_of(text: str) -> int:
+    """The year in a world date written as text ("2019", "2019-09" or "2019-09-18")."""
+    return int(str(text)[:4])
+
+
+def leaf_counts(leaf: dict) -> bool:
+    """Whether a leaf feeds the headline: tracked, or withdrawn but already past the clinic rung
+    (what happened is not undone by a withdrawal; docs/record-schema.md)."""
+    if leaf.get("status") == "tracked":
+        return True
+    return STAGE_RANK.get(leaf.get("stage"), -1) >= STAGE_RANK[CLINIC]
+
+
+def clinic_year(leaf: dict) -> int | None:
+    """The known year a leaf reached the clinic, or None if it is still below that rung.
+
+    At in-clinical-use it is the year of stage_reached_on. At in-wide-use it is the year of the
+    earlier_stage entry for in-clinical-use if there is one, else the year the current stage
+    was reached (the latest it could have been)."""
+    stage = leaf.get("stage")
+    if stage == CLINIC:
+        return _year_of(leaf["stage_reached_on"])
+    if stage == "in-wide-use":
+        for e in leaf.get("earlier_stage") or []:
+            if isinstance(e, dict) and e.get("stage") == CLINIC and e.get("reached_on"):
+                return _year_of(e["reached_on"])
+        return _year_of(leaf["stage_reached_on"])
+    return None
+
+
+def clinic_range(leaf: dict) -> tuple[int, int, int]:
+    """(earliest, likely, latest) for the in-clinical-use rung of a leaf below the clinic."""
+    for g in leaf["estimate"]["rung"]:
+        if g.get("rung") == CLINIC:
+            return int(g["earliest"]), int(g["likely"]), int(g["latest"])
+    raise RecordError(f"leaf {leaf.get('id')!r} has no estimate rung for {CLINIC!r}")
+
+
+def compute_headline(loaded: dict, runs: int = RUNS, seed: int = SEED,
+                     lag: tuple[int, int, int] = LAG) -> dict:
+    """Play the tree out `runs` times and return the headline block (docs/method.md).
+
+    Draw order is fixed so the numbers reproduce exactly: for each branch in order, for each of
+    its counting leaves sorted by id, `runs` years are drawn (a leaf already in the clinic
+    contributes its known year, with no draw); then `runs` lags are drawn. A leaf's drawn year is
+    a triangle over its clinic rung's earliest, likely and latest; the lag is a triangle over the
+    three lag years. Every draw is independent of every other (method parameter 7). A run's
+    escape year is the latest handled year across the required branches plus the run's lag,
+    rounded down to a whole year."""
+    import random
+
+    records = loaded["records"]
+    branches = {r["key"]: r for r in records if r["_kind"] == "branch"}
+    leaves_by_branch: dict[str, list[dict]] = {k: [] for k in BRANCH_ORDER}
+    for r in records:
+        if r["_kind"] == "leaf" and r.get("branch") in leaves_by_branch and leaf_counts(r):
+            leaves_by_branch[r["branch"]].append(r)
+    for k in BRANCH_ORDER:
+        leaves_by_branch[k].sort(key=lambda leaf: leaf["id"])
+
+    rng = random.Random(seed)
+    tri = rng.triangular
+
+    # Years per leaf, per run.
+    leaf_years: dict[str, list[float]] = {}
+    leaf_facts: dict[str, dict] = {}
+    for k in BRANCH_ORDER:
+        for leaf in leaves_by_branch[k]:
+            known = clinic_year(leaf)
+            if known is not None:
+                leaf_years[leaf["id"]] = [float(known)] * runs
+                leaf_facts[leaf["id"]] = {"id": leaf["id"], "name": leaf["name"], "stage": leaf["stage"],
+                                          "known": True, "year": known}
+            else:
+                lo, mode, hi = clinic_range(leaf)
+                if lo == hi:
+                    leaf_years[leaf["id"]] = [float(lo)] * runs
+                else:
+                    leaf_years[leaf["id"]] = [tri(lo, hi, mode) for _ in range(runs)]
+                leaf_facts[leaf["id"]] = {"id": leaf["id"], "name": leaf["name"], "stage": leaf["stage"],
+                                          "known": False, "earliest": lo, "likely": mode, "latest": hi,
+                                          "estimate_status": leaf["estimate"].get("status")}
+    lo_l, mode_l, hi_l = lag
+    lags = [tri(lo_l, hi_l, mode_l) for _ in range(runs)]
+
+    # Handled year per branch, per run: the handled_when-th smallest of its leaves' years.
+    handled: dict[str, list[float]] = {}
+    for k in BRANCH_ORDER:
+        need = int(branches[k].get("handled_when", 2))
+        cols = [leaf_years[leaf["id"]] for leaf in leaves_by_branch[k]]
+        if len(cols) < need:
+            raise RecordError(f"branch {k!r} has {len(cols)} counting leaves and needs {need}")
+        if need == 1:
+            handled[k] = [min(vals) for vals in zip(*cols)]
+        else:
+            handled[k] = [sorted(vals)[need - 1] for vals in zip(*cols)]
+
+    required = [k for k in BRANCH_ORDER if branches[k].get("required") is True]
+    if not required:
+        raise RecordError("no branch is marked required, so there is nothing to wait for")
+    req_cols = [handled[k] for k in required]
+    escape = [int(max(vals) + lags[i]) for i, vals in enumerate(zip(*req_cols))]
+    escape.sort()
+
+    def pct(p: float) -> int:
+        return escape[min(runs - 1, int(p / 100 * (runs - 1)))]
+
+    def median_of(xs: list[float]) -> int:
+        s = sorted(xs)
+        return int(s[len(s) // 2])
+
+    before = sum(1 for y in escape if y < BEFORE_YEAR) / runs
+    after = sum(1 for y in escape if y > CENTURY_END) / runs
+
+    # Histogram by five-year bin up to the century's end, then one bin for the rest.
+    first_bin = (escape[0] // 5) * 5
+    bins: list[dict] = []
+    start = first_bin
+    while start <= CENTURY_END:
+        end = start + 4
+        n = sum(1 for y in escape if start <= y <= end)
+        bins.append({"from": start, "to": end, "share": round(n / runs, 4)})
+        start += 5
+    n_after = sum(1 for y in escape if y > CENTURY_END)
+    bins.append({"from": CENTURY_END + 1, "to": None, "share": round(n_after / runs, 4)})
+
+    branch_block = []
+    for k in BRANCH_ORDER:
+        b = branches[k]
+        branch_block.append({
+            "key": k, "name": b.get("name"), "required": b.get("required") is True,
+            "handled_when": int(b.get("handled_when", 2)),
+            "median_handled_year": median_of(handled[k]),
+            "leaves": [leaf_facts[leaf["id"]] for leaf in leaves_by_branch[k]],
+        })
+
+    first_pass = sum(1 for f in leaf_facts.values() if not f["known"] and f.get("estimate_status") == "first-pass")
+    verify_count = sum(len(r.get("verify") or []) for r in records)
+
+    return {
+        "computed_on": dt.date.today().isoformat(),
+        "method": {
+            "document": "docs/method.md",
+            "status": METHOD_STATUS,
+            "runs": runs,
+            "seed": seed,
+            "lag_years": {"earliest": lo_l, "likely": mode_l, "latest": hi_l},
+            "before_year": BEFORE_YEAR,
+            "century_end": CENTURY_END,
+            "draw": "a triangle over each leaf's earliest, likely and latest clinic year; the lag likewise; all draws independent",
+            "combination": "the latest handled year across the required branches, plus the lag; a branch is handled when its handled_when-th leaf is in clinical use",
+        },
+        "median_year": pct(50),
+        "before_2050": round(before, 4),
+        "after_2100": round(after, 4),
+        "percentiles": {"p5": pct(5), "p25": pct(25), "p50": pct(50), "p75": pct(75), "p95": pct(95)},
+        "histogram": bins,
+        "branches": branch_block,
+        "counts": {
+            "leaves_counted": len(leaf_facts),
+            "leaves_in_clinic_already": sum(1 for f in leaf_facts.values() if f["known"]),
+            "estimates_first_pass": first_pass,
+            "verify_entries": verify_count,
+        },
+    }
+
+
 def cmd_run(args: argparse.Namespace) -> int:
+    import json
+
     data_dir = Path(args.data).resolve()
     try:
         loaded = load_and_validate(data_dir)
@@ -796,9 +975,19 @@ def cmd_run(args: argparse.Namespace) -> int:
             print(f"  {k}: {have} of {need}")
         print("Nothing computed.")
         return 2
-    print("The leaves are in place, but the headline computation is not written yet (weekend step 3 of "
-          "docs/2026-10-16-kickoff.md fills in scripts/compute.py run). Nothing computed.")
-    return 3
+    headline = compute_headline(loaded)
+    out = data_dir / "headline.json"
+    out.write_text(json.dumps(headline, indent=2) + "\n", encoding="utf-8")
+    p = headline["percentiles"]
+    print(f"Escape year: {headline['median_year']} (median of {headline['method']['runs']:,} runs, seed {headline['method']['seed']})")
+    print(f"Chance before {BEFORE_YEAR}: {headline['before_2050'] * 100:.1f}%")
+    print(f"Not this century (after {CENTURY_END}): {headline['after_2100'] * 100:.1f}%")
+    print(f"Spread: 5th percentile {p['p5']}, 25th {p['p25']}, 75th {p['p75']}, 95th {p['p95']}")
+    for b in headline["branches"]:
+        print(f"  {b['key']}: handled around {b['median_handled_year']} "
+              f"({len(b['leaves'])} leaves, {sum(1 for f in b['leaves'] if f['known'])} already in the clinic)")
+    print(f"Written to {out}")
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -806,7 +995,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--data", default=str(ROOT / "data"), help="data folder (default: the repository's data/)")
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("validate", help="check every record against docs/record-schema.md")
-    sub.add_parser("run", help="compute the headline and write data/headline.json (a stub until the leaves exist)")
+    sub.add_parser("run", help="compute the headline and write data/headline.json")
     args = parser.parse_args(argv)
     if args.command == "validate":
         return cmd_validate(args)

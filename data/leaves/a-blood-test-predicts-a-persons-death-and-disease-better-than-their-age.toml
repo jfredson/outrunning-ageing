@@ -1,0 +1,62 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the papers and are in the verify list. The estimate is a first pass.
+
+id = "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age"
+name = "A clock read from blood predicts a person's death and disease better than their age does"
+branch = "measuring-age"
+description = """
+A trial that slows ageing cannot wait thirty years to count deaths; it needs a reading, taken at
+the start and the end, that stands in for them. The best candidates read the chemical marks on
+DNA from a blood sample. The first such clock, in 2013, matched a person's calendar age to within
+a few years from any tissue; the useful ones came later, trained not on age but on outcomes. In
+2019 a Los Angeles group published GrimAge, trained on smoking and blood proteins, which
+predicted who would die, and when, better than age in several large groups of people, and later
+clocks (DunedinPACE, 2022) read the pace of ageing rather than its level. No regulator treats
+any of them as a medical test, and none is used in routine care, though several are sold to the
+public."""
+test = """
+A clock read from a blood or saliva sample predicts time to death or to an age-related disease
+better than calendar age, in two or more independent groups of at least a thousand people
+followed for years, in peer-reviewed reports. For the clinic rung: a regulator clears or approves
+such a clock as a medical test, or a named health system uses it in routine care and publishes
+that practice. For wide use: offered in routine care in several countries."""
+settler = "Peer-reviewed validation reports; the regulator's clearance record, or a named health system's published practice, for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2019-01-21"
+stage_record = "https://doi.org/10.18632/aging.101684"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The 2019 report in Aging (Lu, Horvath and colleagues, 'DNA methylation GrimAge strongly predicts lifespan and healthspan') and its date, 21 January 2019, are from memory.",
+  "That a 2015 report (Marioni and colleagues, Genome Biology) was the first to show a clock read from DNA marks (an 'epigenetic' clock) predicting death in large groups, and that Horvath's 2013 clock (Genome Biology, 21 October 2013) was the first multi-tissue clock, are from memory; the 2019 record is used because its prediction was the stronger and was validated in several groups, and the stage date could move back to 2015 if that paper is confirmed to meet the test.",
+  "That DunedinPACE was published in 2022 (Belsky and colleagues, eLife) and that no clock has been cleared by any regulator as a medical test as of 2026-10-16 are from memory.",
+]
+notes = """
+The ladder fits a measuring tool loosely, and the test says how it is read here: first human is
+a validated clock in people, the clinic rung is a regulator or a health system treating it as a
+test, wide use is routine care. Clocks sold to the public (several companies since 2019) are not
+a rung, because a sale is not a validation. A clock used as the thing a trial must move is the leaf
+beside this one."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+Clocks are improving fast and several large health systems were piloting them in 2026; the
+likely year assumes a health system publishes routine use, or a regulator clears one as a test,
+around 2034. The earliest assumes a pilot already running becomes routine within two years; the
+latest allows for the clocks staying research and consumer tools because no regulator sees a
+treatment decision that depends on them."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2028
+likely = 2034
+latest = 2060
+
+[[estimate.rung]]
+rung = "in-wide-use"
+earliest = 2032
+likely = 2042
+latest = 2080

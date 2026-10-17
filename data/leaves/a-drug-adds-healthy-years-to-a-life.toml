@@ -1,0 +1,68 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. One of the five
+# leaves shared with The Upgrade Tree; the stage facts are copied from its record
+# (upgrade-tree/data/lifespan.toml, id lifespan-a-drug-adds-healthy-years-to-a-life), which a
+# session there checked on 2026-10-16. The estimate is a first pass.
+
+id = "a-drug-adds-healthy-years-to-a-life"
+name = "A drug makes people live longer in good health"
+branch = "energy-and-fuel"
+description = """
+A pill that slows ageing itself, rather than treating one disease, so that the people who take
+it live longer and stay well longer. Rapamycin does this in mice, even when started late in life,
+and several other drugs have followed it. None has been shown to do it in people, because a trial
+that could show it takes many years, and that gap between the animal result and the human one is
+exactly what the stage ladder is for. People already take rapamycin and metformin in the hope of
+it; hope is not a record."""
+test = """
+A peer-reviewed, controlled trial in people reports that those taking the drug lived longer, or
+stayed free of age-related disease longer, than those taking a placebo, by a margin the trial was
+designed to detect. Swallowing the pill is not the leaf; the extra healthy years are, so the
+first-human rung needs a human result, not a human volunteer. For the clinic rung: a regulator
+approves the drug to slow ageing or delay age-related disease, or a named clinical setting
+prescribes it for that purpose in routine care on the strength of such a trial."""
+settler = "The peer-reviewed trial report, and the regulator's approval record if it comes to that"
+stage = "shown-in-animals"
+stage_reached_on = "2009-07-08"
+stage_record = "https://doi.org/10.1038/nature08221"
+status = "tracked"
+horizon = "mid"
+sibling = "lifespan-a-drug-adds-healthy-years-to-a-life"
+
+verify = [
+  "The date of the 2009 Nature report (8 July 2009; Harrison and colleagues, the National Institute on Aging's testing programme, rapamycin from twenty months of age) is copied from The Upgrade Tree's record and not re-checked here.",
+  "That the long-planned metformin trial (TAME) had still not enrolled anyone as of mid-2026, for lack of money, is from 2026 trade coverage; some 2026 web pages say the opposite and were judged unreliable.",
+]
+notes = """
+The record is the 2009 report from the National Institute on Aging's testing programme, in which
+rapamycin fed to mice from twenty months of age (old, for a mouse) extended their lives. Human
+trials exist: a year-long rapamycin trial in healthy adults published in April 2025 measured body
+composition and blood markers, not lifespan, and found little; the metformin trial designed to
+measure time to age-related disease had not enrolled anyone when this was written. The Upgrade
+Tree keeps the same leaf at shown in animals; the weekly reading checks the two stages agree. The
+separate leaves on this branch for rapamycin, metformin and the GLP-1 drugs hold the narrower
+human results; this one holds the lifespan question itself."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+A trial that could show extra healthy years in people needs thousands of participants and most
+of a decade, and the one designed for it has waited since 2015 for money. The likely year for the
+first human assumes such a trial, of metformin or a successor, starts by 2029 and reads out
+positive in the late 2030s; the clinic rung follows a few years later, likely in the mid 2040s.
+The earliest assumes a regulator accepts a marker of ageing as proof (a leaf on the measuring
+branch) and a shorter trial reads out in the early 2030s; the latest allows for the trial never
+being funded and the rung reached, if at all, by a drug approved for something else and then
+shown to add years in a records study late in the century."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2031
+likely = 2038
+latest = 2065
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2034
+likely = 2045
+latest = 2095

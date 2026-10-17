@@ -1,0 +1,59 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the papers and are in the verify list. The estimate is a first pass.
+
+id = "eye-drops-dissolve-the-clouded-protein-of-a-cataract"
+name = "Eye drops dissolve the clouded protein of a cataract"
+branch = "broken-proteins"
+description = """
+A cataract is the clearest everyday case of a broken protein: the crystallins that keep the
+lens of the eye transparent misfold and clump with age until the lens goes cloudy, and the only
+treatment is to cut the lens out and put in a plastic one. In 2015 a group in San Diego and
+Guangzhou reported that lanosterol, a natural molecule, dissolved the clumps in a dish and
+cleared the lenses of dogs with cataracts when given as drops. Two later laboratories could not
+repeat the effect, and no human trial has been published. The leaf is on the tree because
+cataract surgery is the most common operation in the world, and a drop that undid the protein
+damage would be the first drug anywhere to reverse an age-related protein clump."""
+test = """
+A living animal with cataracts given eye drops afterwards has measurably clearer lenses, in a
+peer-reviewed report that a second group has repeated. The first-human rung is the same in a
+person, in a controlled trial. For the clinic rung: a regulator approves a drug that reverses or
+halts cataract."""
+settler = "Peer-reviewed reports, with a replication; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2015-07-22"
+stage_record = "https://doi.org/10.1038/nature14650"
+status = "tracked"
+horizon = "far"
+
+verify = [
+  "The 2015 Nature report (Zhao, Zhang and colleagues; lanosterol cleared cataracts in dogs and in lens cells) and its date, 22 July 2015, are from memory.",
+  "That two later groups (one reported in 2019 in Experimental Eye Research) could not reproduce the clearing of lenses with lanosterol is from memory.",
+  "The test asks for a replication, and the stage is recorded at shown in animals on the 2015 report alone; if the replication failures are confirmed, the stage stands (a rung never moves down) but the notes should say the animal result is contested.",
+]
+notes = """
+A related compound, a sterol called compound 29, was reported in Science in 2015 to do the same
+in mice, by a different group; it is not the record here because the dog result came first, and
+it has the same replication question. The reader should take this leaf as the branch's warning
+case: one striking animal result, not confirmed, a decade on."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+With the animal result contested and no human trial registered, the likely year for the clinic
+is distant: 2050 assumes a different molecule reaches a controlled human trial in the 2030s and
+an approval follows. The earliest assumes a trial starts within three years; the latest allows
+for the biology (dissolving a clump without harming the lens) never being solved, in which case
+surgery stays the answer and the rung is never reached."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2029
+likely = 2036
+latest = 2060
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2035
+likely = 2050
+latest = 2120

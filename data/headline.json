@@ -1,0 +1,595 @@
+{
+  "computed_on": "2026-10-16",
+  "method": {
+    "document": "docs/method.md",
+    "status": "ruled by John 2026-10-16; the lag (parameter 2) is flagged for the outside review",
+    "runs": 200000,
+    "seed": 2004,
+    "lag_years": {
+      "earliest": 3,
+      "likely": 8,
+      "latest": 15
+    },
+    "before_year": 2050,
+    "century_end": 2100,
+    "draw": "a triangle over each leaf's earliest, likely and latest clinic year; the lag likewise; all draws independent",
+    "combination": "the latest handled year across the required branches, plus the lag; a branch is handled when its handled_when-th leaf is in clinical use"
+  },
+  "median_year": 2058,
+  "before_2050": 0.0266,
+  "after_2100": 0.0,
+  "percentiles": {
+    "p5": 2051,
+    "p25": 2055,
+    "p50": 2058,
+    "p75": 2062,
+    "p95": 2068
+  },
+  "histogram": [
+    {
+      "from": 2040,
+      "to": 2044,
+      "share": 0.0003
+    },
+    {
+      "from": 2045,
+      "to": 2049,
+      "share": 0.0263
+    },
+    {
+      "from": 2050,
+      "to": 2054,
+      "share": 0.1999
+    },
+    {
+      "from": 2055,
+      "to": 2059,
+      "share": 0.3712
+    },
+    {
+      "from": 2060,
+      "to": 2064,
+      "share": 0.268
+    },
+    {
+      "from": 2065,
+      "to": 2069,
+      "share": 0.103
+    },
+    {
+      "from": 2070,
+      "to": 2074,
+      "share": 0.0264
+    },
+    {
+      "from": 2075,
+      "to": 2079,
+      "share": 0.0044
+    },
+    {
+      "from": 2080,
+      "to": 2084,
+      "share": 0.0005
+    },
+    {
+      "from": 2085,
+      "to": 2089,
+      "share": 0.0
+    },
+    {
+      "from": 2090,
+      "to": 2094,
+      "share": 0.0
+    },
+    {
+      "from": 2095,
+      "to": 2099,
+      "share": 0.0
+    },
+    {
+      "from": 2100,
+      "to": 2104,
+      "share": 0.0
+    },
+    {
+      "from": 2101,
+      "to": null,
+      "share": 0.0
+    }
+  ],
+  "branches": [
+    {
+      "key": "worn-out-cells",
+      "name": "Worn-out cells",
+      "required": true,
+      "handled_when": 2,
+      "median_handled_year": 2043,
+      "leaves": [
+        {
+          "id": "aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial",
+          "name": "A drug that clears aged cells beats a sham treatment in a controlled trial",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2031,
+          "likely": 2037,
+          "latest": 2065,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "aged-cell-clearing-drug-relieves-knee-arthritis",
+          "name": "A drug that clears aged cells relieves knee osteoarthritis",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2032,
+          "likely": 2039,
+          "latest": 2080,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "clearing-aged-cells-makes-old-animals-live-longer",
+          "name": "Clearing aged cells makes old animals live longer",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2038,
+          "likely": 2050,
+          "latest": 2100,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "drug-clears-aged-cells-from-a-person",
+          "name": "A drug clears aged cells from a person",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2031,
+          "likely": 2038,
+          "latest": 2060,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "immune-cells-engineered-to-kill-aged-cells",
+          "name": "A person's immune cells are engineered to hunt down aged cells",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2036,
+          "likely": 2046,
+          "latest": 2095,
+          "estimate_status": "first-pass"
+        }
+      ]
+    },
+    {
+      "key": "damaged-dna",
+      "name": "Damaged DNA",
+      "required": true,
+      "handled_when": 2,
+      "median_handled_year": 2040,
+      "leaves": [
+        {
+          "id": "a-drug-lengthens-chromosome-ends-in-a-person",
+          "name": "A drug lengthens the ends of chromosomes in a person",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2030,
+          "likely": 2036,
+          "latest": 2070,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "a-gene-is-edited-inside-a-persons-body",
+          "name": "A gene is edited inside a person's body to stop an age-related disease",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2028,
+          "likely": 2030,
+          "latest": 2042,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "gene-therapy-lengthens-chromosome-ends-in-an-old-animal",
+          "name": "A gene therapy lengthens the ends of chromosomes in an old animal, with no rise in cancer",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2036,
+          "likely": 2044,
+          "latest": 2110,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "premature-ageing-mutation-corrected-in-a-living-animal",
+          "name": "The mutation behind a premature-ageing disease is corrected in a living animal",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2032,
+          "likely": 2038,
+          "latest": 2080,
+          "estimate_status": "first-pass"
+        }
+      ]
+    },
+    {
+      "key": "cell-settings",
+      "name": "The cell's settings",
+      "required": true,
+      "handled_when": 2,
+      "median_handled_year": 2044,
+      "leaves": [
+        {
+          "id": "a-cells-settings-are-rewritten-at-one-gene-in-a-person",
+          "name": "The chemical marks on one gene are rewritten in a person, with no cut in the DNA",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2031,
+          "likely": 2036,
+          "latest": 2070,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "a-cocktail-of-ordinary-drugs-resets-cell-age",
+          "name": "A mix of small-molecule drugs resets a cell's age without gene therapy",
+          "stage": "idea-only",
+          "known": false,
+          "earliest": 2038,
+          "likely": 2050,
+          "latest": 2110,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "a-person-receives-cell-resetting-genes-in-a-trial",
+          "name": "A person receives cell-resetting genes in a registered trial",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2033,
+          "likely": 2040,
+          "latest": 2075,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "a-persons-biological-age-reading-falls-after-treatment",
+          "name": "A person's biological age, read from the marks on their DNA, falls after a treatment",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2032,
+          "likely": 2042,
+          "latest": 2085,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "partially-resetting-cells-reverses-ageing-in-an-animal",
+          "name": "Partially resetting cells reverses ageing in a living animal",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2033,
+          "likely": 2041,
+          "latest": 2075,
+          "estimate_status": "first-pass"
+        }
+      ]
+    },
+    {
+      "key": "broken-proteins",
+      "name": "Broken proteins and waste",
+      "required": true,
+      "handled_when": 2,
+      "median_handled_year": 2023,
+      "leaves": [
+        {
+          "id": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+          "name": "An antibody clears amyloid from the brain and slows the decline of Alzheimer's disease",
+          "stage": "in-clinical-use",
+          "known": true,
+          "year": 2023
+        },
+        {
+          "id": "drug-boosts-the-cells-recycling-of-worn-parts",
+          "name": "A drug that boosts the cell's recycling of its worn parts improves an age-related function in people",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2033,
+          "likely": 2045,
+          "latest": 2095,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "drug-breaks-the-sugar-cross-links-that-stiffen-old-tissue",
+          "name": "A drug breaks the sugar cross-links that stiffen old tissue",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2036,
+          "likely": 2050,
+          "latest": 2120,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+          "name": "A drug stops a misfolded protein piling up in the heart and extends life",
+          "stage": "in-clinical-use",
+          "known": true,
+          "year": 2019
+        },
+        {
+          "id": "eye-drops-dissolve-the-clouded-protein-of-a-cataract",
+          "name": "Eye drops dissolve the clouded protein of a cataract",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2035,
+          "likely": 2050,
+          "latest": 2120,
+          "estimate_status": "first-pass"
+        }
+      ]
+    },
+    {
+      "key": "energy-and-fuel",
+      "name": "Energy and fuel sensing",
+      "required": true,
+      "handled_when": 2,
+      "median_handled_year": 2039,
+      "leaves": [
+        {
+          "id": "a-drug-adds-healthy-years-to-a-life",
+          "name": "A drug makes people live longer in good health",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2034,
+          "likely": 2045,
+          "latest": 2095,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people",
+          "name": "A drug that renews the cell's power plants improves muscle in older people",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2031,
+          "likely": 2039,
+          "latest": 2085,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+          "name": "A weight-loss drug is approved to prevent heart attacks and strokes in people without diabetes",
+          "stage": "in-clinical-use",
+          "known": true,
+          "year": 2024
+        },
+        {
+          "id": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+          "name": "A supplement that raises a cell's NAD improves an age-related function in a controlled trial",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2032,
+          "likely": 2042,
+          "latest": 2090,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "metformin-delays-age-related-disease-in-people-without-diabetes",
+          "name": "Metformin delays age-related disease in people who do not have diabetes",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2036,
+          "likely": 2043,
+          "latest": 2100,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "mitochondria-are-transplanted-into-a-person",
+          "name": "Fresh mitochondria are transplanted into a person's failing tissue",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2033,
+          "likely": 2045,
+          "latest": 2095,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "rapamycin-improves-an-age-related-measure-in-older-people",
+          "name": "A rapamycin-type drug improves an age-related measure in older people",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2031,
+          "likely": 2039,
+          "latest": 2080,
+          "estimate_status": "first-pass"
+        }
+      ]
+    },
+    {
+      "key": "replacing-parts",
+      "name": "Replacing lost cells and parts",
+      "required": true,
+      "handled_when": 2,
+      "median_handled_year": 2029,
+      "leaves": [
+        {
+          "id": "a-human-organ-is-grown-inside-an-animal",
+          "name": "A human organ is grown inside an animal and transplanted into a person",
+          "stage": "idea-only",
+          "known": false,
+          "earliest": 2040,
+          "likely": 2060,
+          "latest": 2160,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface",
+          "name": "A person's own cells are grown outside the body and used to rebuild a worn joint surface",
+          "stage": "in-clinical-use",
+          "known": true,
+          "year": 2016
+        },
+        {
+          "id": "an-old-animals-blood-stem-cells-are-rejuvenated",
+          "name": "An old animal's blood-making stem cells are made young again, and its immune system with them",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2036,
+          "likely": 2048,
+          "latest": 2100,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+          "name": "Cells grown from stem cells restore a lost organ function in people",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2027,
+          "likely": 2028,
+          "latest": 2036,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart",
+          "name": "Heart muscle grown from stem cells is grafted onto a person's failing heart",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2031,
+          "likely": 2038,
+          "latest": 2070,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "lab-grown-organ-works-in-a-person-for-a-year",
+          "name": "A printed or lab-grown organ works in a person for a year",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2032,
+          "likely": 2045,
+          "latest": 2100,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
+          "name": "An organ from a gene-edited pig keeps a person alive",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2028,
+          "likely": 2032,
+          "latest": 2045,
+          "estimate_status": "first-pass"
+        }
+      ]
+    },
+    {
+      "key": "inflammation-and-signalling",
+      "name": "Inflammation and the body's messaging",
+      "required": true,
+      "handled_when": 2,
+      "median_handled_year": 2042,
+      "leaves": [
+        {
+          "id": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+          "name": "A drug that acts only on inflammation is approved to prevent heart attacks",
+          "stage": "in-clinical-use",
+          "known": true,
+          "year": 2023
+        },
+        {
+          "id": "blocking-one-messenger-protein-makes-old-animals-live-longer",
+          "name": "Blocking one inflammatory messenger protein makes old animals live longer",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2034,
+          "likely": 2045,
+          "latest": 2100,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "replacing-a-persons-plasma-slows-an-age-related-disease",
+          "name": "Replacing the liquid part of a person's blood slows an age-related disease",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2030,
+          "likely": 2038,
+          "latest": 2075,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "young-blood-rejuvenates-an-old-animal",
+          "name": "Young blood rejuvenates an old animal",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2035,
+          "likely": 2048,
+          "latest": 2110,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "young-gut-microbes-rejuvenate-an-old-animal",
+          "name": "Gut microbes from a young animal rejuvenate an old one",
+          "stage": "shown-in-animals",
+          "known": false,
+          "earliest": 2035,
+          "likely": 2050,
+          "latest": 2110,
+          "estimate_status": "first-pass"
+        }
+      ]
+    },
+    {
+      "key": "measuring-age",
+      "name": "Measuring ageing",
+      "required": true,
+      "handled_when": 2,
+      "median_handled_year": 2040,
+      "leaves": [
+        {
+          "id": "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age",
+          "name": "A clock read from blood predicts a person's death and disease better than their age does",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2028,
+          "likely": 2034,
+          "latest": 2060,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked",
+          "name": "A regulator accepts a marker of ageing as proof that a treatment slowed it",
+          "stage": "idea-only",
+          "known": false,
+          "earliest": 2032,
+          "likely": 2040,
+          "latest": 2080,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat",
+          "name": "A regulator recognises ageing itself as a condition a drug can be approved to treat",
+          "stage": "idea-only",
+          "known": false,
+          "earliest": 2034,
+          "likely": 2045,
+          "latest": 2100,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial",
+          "name": "A treatment slows a biological age clock in a controlled trial",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2030,
+          "likely": 2037,
+          "latest": 2070,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "an-age-for-each-organ-is-read-from-blood-proteins",
+          "name": "An age for each organ is read from the proteins in a person's blood",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2029,
+          "likely": 2036,
+          "latest": 2070,
+          "estimate_status": "first-pass"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "leaves_counted": 43,
+    "leaves_in_clinic_already": 5,
+    "estimates_first_pass": 38,
+    "verify_entries": 135
+  }
+}

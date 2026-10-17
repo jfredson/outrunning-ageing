@@ -1,0 +1,72 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts
+# were checked against the trial registry and the company's publication notice on 2026-10-16;
+# anything still from memory is in the verify list. The estimate is a first pass and is the
+# arguable part.
+
+id = "aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial"
+name = "A drug that clears aged cells beats a sham treatment in a controlled trial"
+branch = "worn-out-cells"
+description = """
+Clearing aged cells (cells that have stopped dividing but will not die, and inflame their
+neighbours) from a person is one thing; making a person measurably better is another. This leaf
+is the second: a controlled trial in which people given such a drug do better on the trial's main
+measure than people given a sham or placebo. The first such result came in a small trial in the
+eye: in 2022 the company Unity Biotechnology reported that a single injection of its drug UBX1325
+into the eyes of people with diabetic macular oedema (swelling at the back of the eye) improved
+their vision over eighteen weeks compared with a sham injection, and the trial was published in a
+peer-reviewed journal in 2025. The follow-on trial against the standard drug missed its main goal
+in 2025 and the company let its staff go, so the result stands but nothing is approved."""
+test = """
+A controlled trial in people, with a placebo or sham group, in which a drug meant to kill aged
+cells improves the trial's pre-stated main measure (vision, walking, joint function, disease
+progression) by a statistically significant margin, in a peer-reviewed report or a trial
+registry's posted results. For the clinic rung: a regulator approves such a drug for an
+age-related condition on the strength of such a trial."""
+settler = "A peer-reviewed trial report or the trial registry's posted results for the first-human rung; a regulator's approval record for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2022"
+stage_record = "https://clinicaltrials.gov/study/NCT04857996"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "That Unity Biotechnology first announced the BEHOLD result (a 5-letter gain over sham at 18 weeks, 65 people) in 2022 is from memory; the registry entry carries the dates to confirm it against, and the year is written as 2022 for that reason.",
+  "The peer-reviewed report is in NEJM Evidence, April 2025 (the company's notice is dated 2025-04-23); the article's own date and DOI were not in hand when this was written.",
+  "That the follow-on ASPIRE trial missed its main goal (showing it was no worse than the standard drug aflibercept at weeks 20 and 24) in 2025, and that the company then let its whole staff go and sought a buyer, is from the company's May 2025 filing as summarised in trade coverage, not read in the filing itself.",
+]
+notes = """
+The animal record is shared with the aged-cell leaf that is the worked example: the 2011 Mayo
+Clinic report in which clearing such cells from mice delayed several age-related conditions. The
+knee osteoarthritis trial of Unity's earlier drug UBX0101 failed its main measure in 2020; the
+2022 eye result is the first controlled human result in the drug class, and it is a small trial
+of one dose. Two other leaves on this branch hold the measurement result (fewer aged cells in a
+tissue sample) and the knee result; this one holds the clinical benefit."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "2011-11-02"
+record = "https://doi.org/10.1038/nature10600"
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+One positive controlled trial exists, small and in one eye condition, and the company that ran it
+has no staff. Reaching the clinic needs a sponsor to carry a drug of this class through a large
+trial and an approval; several academic and company programmes in the knee, the lung and the eye
+are at early stages. The likely year assumes one of them reads out positive in the early 2030s
+and approval follows in two or three years; the earliest assumes the UBX1325 asset is picked up
+and a confirmatory trial starts within two years; the latest allows for the whole first generation
+failing on safety or effect and a second generation starting over."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2031
+likely = 2037
+latest = 2065
+
+[[estimate.rung]]
+rung = "in-wide-use"
+earliest = 2035
+likely = 2045
+latest = 2085

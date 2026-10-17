@@ -1,0 +1,66 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The facts are from
+# memory of the papers and are in the verify list. A long shot, with its mechanism and breaking
+# point as the schema asks. The estimate is a first pass.
+
+id = "a-human-organ-is-grown-inside-an-animal"
+name = "A human organ is grown inside an animal and transplanted into a person"
+branch = "replacing-parts"
+description = """
+Between a pig's organ and an organ grown in a dish lies a third idea: grow a human organ inside
+a pig, from a person's own cells, so that it is the right size, has its own blood supply, and is
+not rejected. The trick is to breed pig embryos that cannot make the organ and add human stem
+cells to fill the gap. In 2023 a Guangzhou group reported pig embryos carrying early kidneys made
+mostly of human cells, grown in sows for 28 days; the kidneys were the size of a fingertip and
+not working, and the embryos were not carried to term. No animal has been born with a working
+human organ, so the leaf is at idea only, and it is marked as a long shot because the two
+species' cells do not yet cooperate well enough to build one."""
+test = """
+An animal is born carrying an organ (kidney, liver, pancreas, heart or lung) made mostly of human
+cells, and that organ does its job in the animal, in a peer-reviewed report; that is the animal
+rung. The first-human rung is such an organ transplanted into a person and working for at least
+thirty days. For the clinic rung: a regulator approves organs grown this way for use outside a
+trial."""
+settler = "Peer-reviewed reports; the transplant centre's report and the regulator's record for the later rungs"
+stage = "idea-only"
+status = "tracked"
+horizon = "far"
+long_shot = true
+mechanism = "Breed pig embryos lacking the gene for one organ; add human stem cells tuned to survive among pig cells; carry the embryos to term with the human cells building that organ; keep human cells out of the pig's brain and germ line; show the organ works in the grown animal; transplant it into the person whose cells it came from; then a trial and an approval."
+breaking_point = "Human and pig cells grow at different speeds and answer different signals, so human cells have so far made up only a small share of the organ past the embryo stage; a working organ needs them to win that competition throughout, and nothing yet does that. The ethics of human cells reaching a pig's brain or sperm adds a second barrier that is not technical."
+
+verify = [
+  "The 2023 Cell Stem Cell report (Wang, Lai and colleagues; humanised kidney structures in pig embryos at 25 to 28 days, with the DOI 10.1016/j.stem.2023.08.003 and the date 7 September 2023) is from memory.",
+  "That human-mouse and human-pig chimeric embryos from 2017 (Wu, Izpisua Belmonte and colleagues, Cell) had a human cell share below one in a thousand is from memory.",
+]
+notes = """
+The pig-organ leaf (a gene-edited pig's own organ) and the lab-grown-organ leaf are the two
+nearer routes; this one would be the better organ if it could be built, and the tree keeps it so
+that a reader can see how far it is."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+No animal has been born with a working mostly-human organ; the likely year for that is 2035, for
+a first person about a decade later, and for an approval around 2060, each step allowing for the
+species barrier and the ethics review to take longer than the biology. The earliest assumes the
+cell-competition problem is solved within a few years; the latest says it may not be solved this
+century."""
+
+[[estimate.rung]]
+rung = "shown-in-animals"
+earliest = 2028
+likely = 2035
+latest = 2070
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2034
+likely = 2045
+latest = 2100
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2040
+likely = 2060
+latest = 2160

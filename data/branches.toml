@@ -48,6 +48,12 @@ hallmarks = ["loss-of-proteostasis", "disabled-macroautophagy"]
 required = true
 handled_when = 2
 what_would_move_this = "A drug that clears a kind of waste throughout the body, not one organ, with a healthy-years or function result in a controlled trial in people."
+notes = """
+Two of this branch's leaves were already in the clinic when the leaves were written on
+2026-10-16 (an antibody that clears amyloid from the brain, approved 2023; a drug that stops one
+misfolded protein settling in the heart, approved 2019), so with handled_when at two the branch
+counts as handled in 2023. Each treats one protein in one organ, which is less than the line
+above asks; the yearly review may raise handled_when for this branch or narrow what counts."""
 
 [[branch]]
 key = "energy-and-fuel"

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Checks that the validator accepts the worked examples and refuses what the schema forbids, and
-that the run command refuses until the leaves exist.
+that the run command refuses until the leaves exist and otherwise writes a reproducible headline.
 
 Written 2026-10-16 with the validator (weekend step 2 of docs/2026-10-16-kickoff.md). Plain
 Python, standard library only, no dependencies:
@@ -468,15 +468,21 @@ class RenamedIds(unittest.TestCase):
         self.assertTrue(any_with(problems, "'hickson-2019' is also used by"), problems)
 
 
-class TheRunStub(unittest.TestCase):
-    def test_run_refuses_until_the_leaves_exist(self):
-        o, e = io.StringIO(), io.StringIO()
-        with redirect_stdout(o), redirect_stderr(e):
-            code = compute.main(["--data", str(DATA), "run"])
+class TheRun(unittest.TestCase):
+    def test_run_refuses_until_every_branch_has_enough_leaves(self):
+        with TempData() as data:
+            (data / "headline.json").unlink(missing_ok=True)
+            # Ask the measuring branch for more leaves than it has: the readiness rule refuses.
+            text = (data / "branches.toml").read_text(encoding="utf-8")
+            head, tail = text.rsplit("handled_when = 2", 1)
+            (data / "branches.toml").write_text(head + "handled_when = 99" + tail, encoding="utf-8")
+            o, e = io.StringIO(), io.StringIO()
+            with redirect_stdout(o), redirect_stderr(e):
+                code = compute.main(["--data", str(data), "run"])
+            self.assertFalse((data / "headline.json").exists())
         self.assertEqual(code, 2)
         self.assertIn("not written yet", o.getvalue())
-        self.assertIn("worn-out-cells: 1 of 2", o.getvalue())
-        self.assertIn("measuring-age: 0 of 2", o.getvalue())
+        self.assertIn("measuring-age: 5 of 99", o.getvalue())
 
     def test_run_refuses_invalid_data(self):
         with TempData() as data:
@@ -489,11 +495,77 @@ class TheRunStub(unittest.TestCase):
 
     def test_branches_short_counts_tracked_leaves_only(self):
         with TempData() as data:
+            text = (data / "branches.toml").read_text(encoding="utf-8")
+            head, tail = text.rsplit("handled_when = 2", 1)
+            (data / "branches.toml").write_text(head + "handled_when = 6" + tail, encoding="utf-8")
+            loaded = compute.load_and_validate(data, history=False)
+            short = compute.branches_short(loaded)
+        self.assertEqual(short, [("measuring-age", 5, 6)])
+
+    def test_a_withdrawn_leaf_below_the_clinic_does_not_count(self):
+        with TempData() as data:
             edit(data / LEAF, r'^status = "tracked"', 'status = "withdrawn"')
             loaded = compute.load_and_validate(data, history=False)
             short = compute.branches_short(loaded)
-        self.assertEqual(short[0], ("worn-out-cells", 0, 2))
-        self.assertEqual(len(short), 8)
+            leaf = next(r for r in loaded["records"] if r["_kind"] == "leaf" and r["id"] == LEAF.stem)
+        self.assertFalse(compute.leaf_counts(leaf))
+        self.assertEqual(short, [])  # four other worn-out-cells leaves remain
+
+    def test_run_writes_the_headline_and_reproduces(self):
+        with TempData() as data:
+            o, e = io.StringIO(), io.StringIO()
+            with redirect_stdout(o), redirect_stderr(e):
+                code = compute.main(["--data", str(data), "run"])
+            self.assertEqual(code, 0, e.getvalue())
+            import json
+            h = json.loads((data / "headline.json").read_text(encoding="utf-8"))
+            again = compute.compute_headline(compute.load_and_validate(data, history=False))
+        for key in ("median_year", "before_2050", "after_2100", "percentiles", "histogram", "branches", "counts", "method"):
+            self.assertIn(key, h)
+        self.assertEqual(h["median_year"], again["median_year"])
+        self.assertEqual(h["percentiles"], again["percentiles"])
+        self.assertEqual(h["before_2050"], again["before_2050"])
+        self.assertEqual(h["method"]["runs"], compute.RUNS)
+        self.assertEqual(h["method"]["seed"], compute.SEED)
+        self.assertLessEqual(h["percentiles"]["p5"], h["median_year"])
+        self.assertLessEqual(h["median_year"], h["percentiles"]["p95"])
+        self.assertAlmostEqual(sum(b["share"] for b in h["histogram"]), 1.0, places=2)
+        self.assertEqual(len(h["branches"]), 8)
+        self.assertIn("Escape year:", o.getvalue())
+
+    def test_a_different_seed_or_run_count_changes_nothing_structural(self):
+        loaded = compute.load_and_validate(DATA, history=False)
+        small = compute.compute_headline(loaded, runs=2000, seed=1)
+        self.assertEqual(len(small["branches"]), 8)
+        self.assertGreaterEqual(small["percentiles"]["p5"], 2026)
+
+    def test_known_clinic_years_are_read_not_drawn(self):
+        loaded = compute.load_and_validate(DATA, history=False)
+        leaves = {r["id"]: r for r in loaded["records"] if r["_kind"] == "leaf"}
+        self.assertEqual(compute.clinic_year(leaves["drug-stops-a-misfolded-protein-piling-up-in-the-heart"]), 2019)
+        self.assertIsNone(compute.clinic_year(leaves[LEAF.stem]))
+        self.assertEqual(compute.clinic_range(leaves[LEAF.stem]), (2031, 2038, 2060))
+
+    def test_a_leaf_in_wide_use_reads_its_clinic_year_from_the_earlier_stage(self):
+        leaf = {"stage": "in-wide-use", "stage_reached_on": "2030-01-01",
+                "earlier_stage": [{"stage": "in-clinical-use", "reached_on": "2021-05"}]}
+        self.assertEqual(compute.clinic_year(leaf), 2021)
+        leaf["earlier_stage"] = []
+        self.assertEqual(compute.clinic_year(leaf), 2030)
+
+    def test_the_escape_year_is_never_before_the_latest_known_branch(self):
+        # Every branch's handled year is at least its handled_when-th earliest possible year, so
+        # the 5th percentile cannot be before the latest of those across required branches
+        # plus the smallest lag.
+        loaded = compute.load_and_validate(DATA, history=False)
+        h = compute.compute_headline(loaded, runs=5000)
+        floors = []
+        for b in h["branches"]:
+            if not b["required"]:
+                continue
+            years = sorted(f["year"] if f["known"] else f["earliest"] for f in b["leaves"])
+            floors.append(years[b["handled_when"] - 1])
+        self.assertGreaterEqual(h["percentiles"]["p5"], max(floors) + compute.LAG[0])
 
 
 if __name__ == "__main__":

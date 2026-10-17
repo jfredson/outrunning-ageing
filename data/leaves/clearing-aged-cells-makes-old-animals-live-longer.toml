@@ -1,0 +1,61 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the papers and are in the verify list. The estimate is a first pass.
+
+id = "clearing-aged-cells-makes-old-animals-live-longer"
+name = "Clearing aged cells makes old animals live longer"
+branch = "worn-out-cells"
+description = """
+Aged cells (cells that have stopped dividing but will not die, and inflame their neighbours) build
+up with age. The question that matters for the headline is not whether they can be cleared but
+whether clearing them adds life. In 2016 a Mayo Clinic group bred mice in which such cells could be
+killed on command from middle age on, and the mice lived about a quarter longer and stayed
+healthier; in 2018 the same group gave old ordinary mice a two-drug course that kills such cells
+and the mice lived longer from that point. No human result of that kind exists, because a trial
+that could show it would take many years, and that gap is what this leaf tracks."""
+test = """
+A peer-reviewed, controlled trial in people reports that those given a drug meant to kill aged
+cells lived longer, or stayed free of age-related disease longer, than those given a placebo, by
+a margin the trial was designed to detect. The animal rung is the same result in a living animal.
+For the clinic rung: a regulator approves such a drug to prevent age-related decline or disease,
+or it is in routine use in a named clinical setting for that purpose."""
+settler = "The peer-reviewed trial report; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2016-02-03"
+stage_record = "https://doi.org/10.1038/nature16932"
+status = "tracked"
+horizon = "far"
+
+verify = [
+  "The 2016 Nature report (Baker and colleagues; mice engineered so their aged cells could be killed from middle age lived about 25 per cent longer) and its date, 3 February 2016, are from memory.",
+  "The 2018 Nature Medicine report (Xu and colleagues; a course of dasatinib plus quercetin given to old mice extended their remaining life) and its DOI, 10.1038/s41591-018-0092-9, are from memory.",
+]
+notes = """
+This is the lifespan leaf for the branch; the measurement leaf (fewer aged cells in a person) and
+the clinical-benefit leaf (a controlled trial won) are separate, because a drug can clear the
+cells and help a knee without adding a year to anyone's life. The 2018 result is the one that
+matters most for people, since it used ordinary mice and ordinary drugs, and it is in the notes
+rather than the record because the 2016 engineered-mouse result came first."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+A human lifespan or healthy-years trial of a drug of this class has not been proposed, and the
+measuring branch says why: without an accepted marker of slowed ageing, such a trial needs
+thousands of people for a decade. The likely year assumes the clinic rung is reached through a
+healthy-years trial that starts in the mid 2030s once a drug of the class is approved for a
+single condition, and reads out a decade later; the earliest assumes a regulator accepts a marker
+of ageing as the proof before then; the latest is the case where no such trial is ever funded
+and the rung is reached, if at all, by a drug approved for ageing itself late in the century."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2034
+likely = 2042
+latest = 2070
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2038
+likely = 2050
+latest = 2100

@@ -1,0 +1,67 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The 2025 stage
+# record and the sponsor's filing plan were checked against trade coverage on 2026-10-16; the
+# rest is from memory and in the verify list. The estimate is a first pass.
+
+id = "cells-grown-from-stem-cells-restore-a-lost-organ-function"
+name = "Cells grown from stem cells restore a lost organ function in people"
+branch = "replacing-parts"
+description = """
+The promise of stem cells was always this: grow the cells an organ has lost and put them back.
+Insulin-making cells were grown from embryonic stem cells in bulk in 2014 and cured diabetic
+mice; in June 2025 a Vertex Pharmaceuticals trial reported that twelve people with type 1
+diabetes given an infusion of such cells into the liver all had their blood sugar back in the
+target range a year later, and ten of them no longer needed insulin. They take anti-rejection
+drugs, and the company planned to file for approval in 2026. Parkinson's disease is close
+behind: dopamine-making cells grown the same way were reported safe in 2025 and a late-stage
+trial began in 2025. It is the first time grown cells have replaced a lost function, not just
+survived."""
+test = """
+A person given cells grown from stem cells afterwards regains a lost organ function (makes their
+own insulin, moves without dopamine drugs, sees) in a peer-reviewed report, with the function
+measured. The animal rung is the same in a living animal. For the clinic rung: a regulator
+approves such a cell therapy for use outside a trial."""
+settler = "The peer-reviewed trial report; the trial registry; the regulator's approval record for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2025-06"
+stage_record = "https://doi.org/10.1056/NEJMoa2503022"
+status = "tracked"
+horizon = "near"
+
+verify = [
+  "The 2025 New England Journal of Medicine report (Reichman and colleagues; zimislecel, 12 people, 10 insulin-free at a year) and its DOI are from memory; the month, June 2025, matches the company's notice and the diabetes association meeting it was presented at.",
+  "The 2014 Cell report (Pagliuca, Melton and colleagues; insulin-producing cells made from human stem cells in bulk, reversing diabetes in mice) and its date, 9 October 2014, are from memory.",
+  "That the company said in 2025 it would file for approval in 2026, and that the late-stage dosing was briefly paused for a manufacturing review, are from 2025 coverage; whether the filing had been made by 2026-10-16 was not found.",
+  "That the Parkinson's cell therapy bemdaneprocel entered a 102-person late-stage trial in June 2025 with its first patient treated in September 2025 and a main readout expected in 2027 is from the trial registry as summarised in coverage.",
+]
+notes = """
+The branch's own line asks for a stem cell therapy restoring a lost function in a controlled
+trial; the 2025 diabetes result had no control group, and the Parkinson's trial is the first
+with one. The anti-rejection drugs are the catch for ageing: a treatment that needs them trades
+one failing system for another, and the encapsulated version that would avoid them was dropped in
+2025."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "2014-10-09"
+record = "https://doi.org/10.1016/j.cell.2014.09.040"
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The diabetes therapy was due to be filed in 2026 on data from a late-stage trial that finished
+dosing in 2025; the likely year for approval is 2028, the earliest 2027 if the filing is made this
+year and reviewed fast, and the latest allows for a manufacturing or safety setback and the
+Parkinson's therapy, due to read out in 2027, carrying the rung instead in the mid 2030s."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2027
+likely = 2028
+latest = 2036
+
+[[estimate.rung]]
+rung = "in-wide-use"
+earliest = 2030
+likely = 2035
+latest = 2055

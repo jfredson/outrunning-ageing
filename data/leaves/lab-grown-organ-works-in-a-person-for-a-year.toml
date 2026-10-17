@@ -1,0 +1,55 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. One of the five
+# leaves shared with The Upgrade Tree; the stage facts are copied from its record
+# (upgrade-tree/data/lifespan.toml, id lifespan-lab-grown-organ-works-in-a-person-for-a-year),
+# which a session there checked on 2026-10-16. The estimate is a first pass.
+
+id = "lab-grown-organ-works-in-a-person-for-a-year"
+name = "A printed or lab-grown organ works in a person for a year"
+branch = "replacing-parts"
+description = """
+Take a few of a person's own cells, grow them on a scaffold shaped like the organ, and put the
+result in. In 2006 a North Carolina group reported seven young people with bladders made this way,
+working for years. Nothing more complicated than a hollow organ has been done, and printed organs
+with their own blood supply remain in the laboratory. The leaf is written to count working organs,
+not patches: skin, cartilage and blood vessels grown from cells are already approved, but they
+replace a surface or a tube, not an organ's job."""
+test = """
+An organ built outside the body from living cells, with or without a printed scaffold, is placed
+in a person and does that organ's job for at least a year, in a peer-reviewed report. Organ here
+means a bladder, kidney, liver, heart, lung, pancreas, windpipe, oesophagus or length of
+intestine; skin, cartilage, cornea and blood vessels are counted as tissues and left out. For the
+clinic rung: a regulator approves an engineered organ for use outside a trial."""
+settler = "Peer-reviewed reports with follow-up of a year or more; a regulator's approval record if an engineered organ is approved"
+stage = "first-human"
+stage_reached_on = "2006-04-15"
+stage_record = "https://doi.org/10.1016/S0140-6736(06)68438-9"
+status = "tracked"
+horizon = "mid"
+sibling = "lifespan-lab-grown-organ-works-in-a-person-for-a-year"
+
+verify = [
+  "The date of the 2006 Lancet report (15 April 2006; Atala and colleagues, seven patients followed for up to five years) is copied from The Upgrade Tree's record and not re-checked here.",
+  "That a lab-grown blood vessel was approved by the United States regulator in December 2024, and that the engineered bladder never reached approval after its company's later trials, are copied from The Upgrade Tree's record and from memory respectively.",
+]
+notes = """
+The record is the 2006 Lancet report of engineered bladders in seven patients. The printed ear
+of 2022 (a company announcement with no peer-reviewed report) is cartilage, not an organ, and
+would not count under the test even if published. The later synthetic windpipe cases of the
+2010s were found to be fraudulent and do not count. The Upgrade Tree keeps the same leaf at first
+human; the weekly reading checks the two stages agree."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+Twenty years after the bladders, no engineered organ is in a late-stage trial; the solid organs
+need a blood supply that nobody has grown at scale. The likely year assumes a hollow organ (a
+bladder or a length of windpipe or gut) reaches an approval in the mid 2040s through a rare
+condition; the earliest assumes one of the bladder programmes restarts and files on existing
+data; the latest allows for the vascular problem staying unsolved for the century."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2032
+likely = 2045
+latest = 2100

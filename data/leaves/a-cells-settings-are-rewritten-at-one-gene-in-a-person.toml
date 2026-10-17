@@ -1,0 +1,60 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The animal record
+# is from memory; the human trial's status was checked against the sponsor's 2026 notice on
+# 2026-10-16. The estimate is a first pass.
+
+id = "a-cells-settings-are-rewritten-at-one-gene-in-a-person"
+name = "The chemical marks on one gene are rewritten in a person, with no cut in the DNA"
+branch = "cell-settings"
+description = """
+Wholesale resetting of a cell's settings is one route; the other is to rewrite the marks on a
+single chosen gene, switching it off or on for good without cutting the DNA. In 2024 a Milan group
+did this in mice for a cholesterol gene in the liver, with one dose, and the gene stayed off for
+nearly a year. The same tool, aimed at a liver-infecting virus rather than an ageing gene, has
+been given to people since late 2024, and the company reported in May 2026 that the virus's
+markers stayed down for seventeen months after one dose; that report is a conference
+presentation, not a peer-reviewed paper, so the leaf waits at the animal rung for one."""
+test = """
+A person is given a treatment that rewrites the chemical marks on one chosen gene, without
+cutting the DNA, and the gene's product is measurably changed in the way intended for at least
+six months, in a peer-reviewed report or a trial registry's posted results. The animal rung is the
+same in a living animal. For the clinic rung: a regulator approves such a treatment for any
+condition."""
+settler = "Peer-reviewed reports or the trial registry's posted results; the regulator's approval record for the clinic rung"
+stage = "shown-in-animals"
+stage_reached_on = "2024-02-28"
+stage_record = "https://doi.org/10.1038/s41586-024-07087-8"
+status = "tracked"
+horizon = "near"
+
+verify = [
+  "The 2024 Nature report (Cappelluti, Lombardo and colleagues; one dose of a mark-rewriting ('epigenetic') silencer kept the PCSK9 gene off in mouse liver for nearly a year) and its date, 28 February 2024, are from memory.",
+  "That Tune Therapeutics dosed the first person with TUNE-401 for chronic hepatitis B in late 2024, in Auckland and Hong Kong, and presented results at a liver conference on 30 May 2026, is from the company's own notice; the registry number was not in hand.",
+]
+notes = """
+The company's 2026 presentation would meet the test if it were peer-reviewed or posted to the
+registry as results; the weekly reading should expect this leaf to move to first human soon
+after either happens. The gene in the human trial is a virus's, not a person's, and the test
+allows that on purpose: the tool is what this leaf tracks, and an ageing gene can be aimed at
+later."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+The first-human rung waits only on a peer-reviewed report of a trial that has already reported
+at a conference; likely 2027. The clinic rung needs an approval for some condition: the hepatitis
+B programme was moving to a larger trial in 2026, so an approval in the mid 2030s is likely, with
+the earliest a fast route on strong late-stage data and the latest allowing for the first
+indication failing and the tool waiting for another."""
+
+[[estimate.rung]]
+rung = "first-human"
+earliest = 2026
+likely = 2027
+latest = 2032
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2031
+likely = 2036
+latest = 2070

@@ -1,0 +1,55 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-16 by the leaf session. The stage facts are
+# from memory of the papers and are in the verify list. The estimate is a first pass.
+
+id = "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people"
+name = "A drug that renews the cell's power plants improves muscle in older people"
+branch = "energy-and-fuel"
+description = """
+Cells clear out worn mitochondria (their power plants) and build new ones, and both slow with
+age, so old muscle runs on tired machinery. Urolithin A, a molecule the gut makes from
+pomegranate and nuts, turns the clear-out back on; in 2016 it lengthened the lives of worms and
+improved the running of old mice. In 2019 a Swiss company reported the first people: four weeks
+of the compound in sixty healthy older adults was safe and switched on the mitochondrial genes
+in their muscle, and later controlled trials found modest gains in muscle endurance. It is sold
+as a supplement; no regulator has approved it as a drug."""
+test = """
+A controlled trial in people reports that a drug given to renew or protect mitochondria
+improves muscle strength, endurance or walking more than placebo on the trial's pre-stated main
+measure, in a peer-reviewed report. The animal rung is the same in a living animal. For the
+clinic rung: a regulator approves such a drug for an age-related condition; sale as a supplement
+does not count."""
+settler = "The peer-reviewed trial report; the regulator's approval record for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2019-06-14"
+stage_record = "https://doi.org/10.1038/s42255-019-0073-4"
+status = "tracked"
+horizon = "mid"
+
+verify = [
+  "The 2019 Nature Metabolism report (Andreux, Auwerx, Rinsch and colleagues at Amazentis; urolithin A in 60 sedentary older adults, safe, mitochondrial gene expression up in muscle) and its date, 14 June 2019, are from memory.",
+  "The 2016 Nature Medicine report (Ryu and colleagues; urolithin A extended the life of worms and improved muscle function in old mice) is from memory and is not recorded as an earlier stage for lack of a checked date.",
+  "That two later controlled trials (2022, in JAMA Network Open and Cell Reports Medicine) found gains in muscle endurance but not in the six-minute walk is from memory.",
+  "That elamipretide, a different mitochondria-protecting drug, was approved by the United States regulator in September 2025 for a rare inherited disease (Barth syndrome) is from memory; it is not the record here because the condition is not age-related, and the leaf should move if it is approved for one.",
+]
+notes = """
+Two routes sit under this leaf: a molecule that makes the cell replace its own power plants, and
+drugs that shield the ones it has. The approval of such a drug for a rare inherited disease in
+2025, if confirmed, means the regulatory path exists; what is missing is a trial in ordinary
+age-related muscle loss (sarcopenia), which has no approved drug at all."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+Age-related muscle loss has no approved drug and several companies want the first one, which
+is the fastest route to the clinic rung; the likely year assumes a controlled trial in that
+condition reports positive around 2032 and approval follows in the late 2030s. The earliest
+assumes the drug approved for the rare disease in 2025 wins an age-related indication within
+five years; the latest allows for the supplement route keeping the molecule out of drug trials
+altogether."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2031
+likely = 2039
+latest = 2085
