@@ -34,7 +34,7 @@ const h = records.headline;
     <ul class="tally">
       <li><span class="stat">{story.entries.length}</span><span class="stat-label">{story.entries.length === 1 ? 'entry' : 'entries'} in the log</span></li>
       <li><span class="stat">{totals['stage-settled']}</span><span class="stat-label">settled a stage</span></li>
-      <li><span class="stat">{totals['moved-range'] + totals.revision + totals.reading}</span><span class="stat-label">moved an estimate</span></li>
+      <li><span class="stat">{story.moved_estimate}</span><span class="stat-label">moved an estimate</span></li>
       <li><span class="stat">{totals.held}</span><span class="stat-label">read and logged; moved nothing</span></li>
       <li><span class="stat">{days.length}</span><span class="stat-label">{days.length === 1 ? 'day' : 'days'} on which something was logged</span></li>
     </ul>
@@ -72,7 +72,7 @@ const h = records.headline;
                     {p.settled_stage && p.settles.length > 0 && (
                       <p style="font-size: 15px;"><strong>What it settled:</strong> {p.settles.map((s, i) => <>the rung "{s.rung_label.toLowerCase()}" of <a href={s.path}>{s.name}</a>{i < p.settles.length - 1 ? '; ' : '.'}</>)}</p>
                     )}
-                    {p.moved.length > 0 && (
+                    {p.moved_range && p.moved.length > 0 && (
                       <p style="font-size: 15px;"><strong>What it moved:</strong> {p.moved.map((m, i) => <>{m.field} on <a href={m.path}>{m.name}</a>, {String(m.old)} to {String(m.new)}, on {longDate(m.date)}: {m.why}{i < p.moved.length - 1 ? '; ' : ''}</>)}</p>
                     )}
                     {p.kind === 'held' && (

@@ -35,6 +35,8 @@ treatments shared with The Upgrade Tree stand at the same rung on both sites."""
 [[item]]
 leaf = "aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the description and notes now give the liver trial as a second controlled result, and the reasoning carries a dated note."
 queries = [
   "Unity Biotechnology UBX1325 October 2026",
   "senolytic randomised placebo-controlled trial results published October 2026",
@@ -117,6 +119,8 @@ started. The session's search budget ran out before a third query could be run f
 [[item]]
 leaf = "drug-clears-aged-cells-from-a-person"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the description now records the liver trial, and the reasoning carries a dated note; the paper on the protein PD-L2 stays unlogged and on the list of things to check."
 queries = [
   "dasatinib quercetin human trial senescent cells results October 2026",
   "senolytic clinical trial peer-reviewed paper senescent cell burden reduced patients 2026",
@@ -216,6 +220,8 @@ sources = [
 [[item]]
 leaf = "a-gene-is-edited-inside-a-persons-body"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the description now says a patient in the heart trial died on 2025-11-05, with the two accounts of the cause."
 queries = [
   "Intellia nex-z MAGNITUDE transthyretin gene editing news October 2026",
   "in vivo CRISPR gene editing trial update October 2026",
@@ -364,6 +370,8 @@ sources = [
 [[item]]
 leaf = "a-person-receives-cell-resetting-genes-in-a-trial"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the notes now record the interim data of 2026-10-08; the rung does not change."
 queries = [
   "Life Biosciences ER-100 optic neuropathy trial update October 2026",
   "Life Biosciences partial reprogramming eye trial results readout 2026",
@@ -411,6 +419,8 @@ sources = [
 [[item]]
 leaf = "partially-resetting-cells-reverses-ageing-in-an-animal"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the description now reports the interim data of 2026-10-08 and says it is a company announcement."
 queries = [
   "Life Biosciences ER-100 optic neuropathy trial update October 2026",
   "Life Biosciences partial reprogramming eye trial results readout 2026",
@@ -457,6 +467,8 @@ sibling_agrees = true
 [[item]]
 leaf = "antibody-clears-amyloid-from-the-brain-and-slows-decline"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the description no longer says the drug needs infusions, and the reasoning carries a dated note."
 queries = [
   "lecanemab donanemab FDA EMA approval October 2026",
   "Leqembi Kisunla uptake patients treated number 2026 news",
@@ -572,6 +584,8 @@ sources = [
 [[item]]
 leaf = "eye-drops-dissolve-the-clouded-protein-of-a-cataract"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the description names the registered pilot trial, and the reasoning carries a dated note that its premise no longer holds; the years are left for John."
 queries = [
   "lanosterol cataract eye drops study 2026",
   "cataract dissolving eye drops clinical trial news October 2026",
@@ -692,6 +706,8 @@ sources = [
 [[item]]
 leaf = "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the first uptake figure is in the notes and the paper is logged, and the reasoning carries a dated note; the years are left for John."
 queries = [
   "semaglutide cardiovascular prevention approval news October 2026",
   "GLP-1 cardiovascular outcomes trial people without diabetes published October 2026",
@@ -902,6 +918,8 @@ session's web fetching was refused, so a release in the window cannot be ruled o
 [[item]]
 leaf = "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the description reports the New England Journal of Medicine paper, and the reasoning carries a dated note; the years are left for John."
 queries = [
   "engineered heart muscle patch BioVAT-HF Göttingen Zimmermann trial results 2026",
   "stem cell heart patch heart failure patients news October 2026",
@@ -977,6 +995,8 @@ sibling_agrees = true
 [[item]]
 leaf = "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the notes now carry the ZEUS result as a second mark against, and the paper is logged."
 queries = [
   "low-dose colchicine cardiovascular prescribing uptake study October 2026",
   "colchicine heart attack prevention news October 2026",
@@ -1203,6 +1223,8 @@ sources = [
 [[item]]
 leaf = "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the rentosertib clock paper is logged and the notes say why it does not settle a rung."
 queries = [
   "randomised controlled trial epigenetic age slowed intervention paper October 2026",
   "treatment reversed biological age clock trial results news 2026-10",
@@ -1323,6 +1345,8 @@ sources = [
 [[item]]
 claim = "brenner-2022-age-reversal-an-old-grift"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): his introduction now says where he was and where he is now."
 queries = [
   "Charles Brenner age reversal October 2026",
   "Charles Brenner City of Hope Sinclair critique 2026 paper",
@@ -1344,6 +1368,8 @@ summary of Wikipedia, unopened and undated, so it is not mine to assert, and the
 [[item]]
 claim = "calico-2013-launch"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the notes record the reported end of the AbbVie partnership, marked press only and listed to check."
 queries = ["Calico Life Sciences news October 2026", "Calico AbbVie press release 2026 trial"]
 found = """
 Nothing dated in the window. Outside it, and not in the record: BioSpace reports, citing STAT, that
@@ -1424,6 +1450,8 @@ not been reported met."""
 [[item]]
 claim = "de-grey-2024-fifty-percent-twelve-to-fifteen-years"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the 2026-02-16 podcast is recorded in the notes and the list of things to check; the recording was not heard."
 queries = [
   "Aubrey de Grey 50% chance 12 to 15 years 2026",
   "Aubrey de Grey longevity escape velocity 2026 timeline statement",
@@ -1479,6 +1507,8 @@ unrelated companies with similar names; no statement by the foundation dated 202
 [[item]]
 claim = "johnson-2023-biological-age-stays-the-same"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): the 2026 statements are recorded in the notes and the list of things to check."
 queries = [
   "\"Bryan Johnson\" news this week October 2026 longevity",
   "\"Bryan Johnson\" \"biological age\" goal \"stays the same\" protocol 2026",
@@ -1540,6 +1570,8 @@ year."""
 [[item]]
 claim = "kurzweil-2029-escape-velocity"
 verdict = "flagged"
+resolved_on = 2026-10-17
+resolved_by = "Applied in the dated batch of 2026-10-17 (the changelog entry \"The first reading's nineteen flagged items are applied as one dated batch\"): his 2032 restatement is entered as a new claim and the old claim points to it."
 queries = [
   "Ray Kurzweil longevity escape velocity 2029 October 2026 interview",
   "\"The Singularity Is Nearer\" \"longevity escape velocity\" \"2030\" review 2026",

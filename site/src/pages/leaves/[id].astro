@@ -127,7 +127,7 @@ const firstSentence = (s: string) => s.split('. ')[0];
             <li>
               <a class="check-date" href={r.path}>{longDate(r.read_on)}</a>
               <span class={`badge v-${r.verdict}`}>{r.verdict_label}</span>
-              <p>{r.found}{r.moved_to_label && <> <strong>Moved from {r.moved_from_label} to {r.moved_to_label}.</strong></>}{r.for_john && <> <em>Left for the author:</em> {r.for_john}</>}{r.sources.length > 0 && <> {r.sources.map((s, i) => <><a href={s} rel="noopener nofollow">source {i + 1}</a>{i < r.sources.length - 1 ? ', ' : ''}</>)}</>}</p>
+              <p>{r.found}{r.moved_to_label && <> <strong>Moved from {r.moved_from_label} to {r.moved_to_label}.</strong></>}{r.for_john && (r.resolved_on ? <> <em>Left for the author, resolved on {longDate(r.resolved_on)}:</em> {r.for_john}</> : <> <em>Left for the author:</em> {r.for_john}</>)}{r.sources.length > 0 && <> {r.sources.map((s, i) => <><a href={s} rel="noopener nofollow">source {i + 1}</a>{i < r.sources.length - 1 ? ', ' : ''}</>)}</>}</p>
             </li>
           ))}
         </ul>

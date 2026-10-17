@@ -24,7 +24,11 @@ const whatWasRead = (r: Reading) =>
 const whatCameOfIt = (r: Reading) => {
   const parts = [r.moved.length === 0 ? 'none moved' : r.moved.length === 1 ? 'one moved a rung' : `${r.moved.length} moved a rung`];
   if (r.logged.length > 0) parts.push(`${plural(r.logged.length, 'paper', 'papers')} logged`);
-  if (r.counts.flagged > 0) parts.push(`${r.counts.flagged} left for the author`);
+  if (r.counts.flagged > 0) {
+    parts.push(r.waiting === r.counts.flagged ? `${r.waiting} left for the author`
+      : r.waiting === 0 ? `${r.counts.flagged} flagged for the author, all since resolved`
+      : `${r.counts.flagged} flagged for the author, ${r.waiting} still open`);
+  }
   return parts.join(', ');
 };
 const recordPath = (item: ReadingItem) => item.record.path;
@@ -85,7 +89,8 @@ const description = latest
                   <p class="card-found dim">Logged: {item.publications.map((p, i) => <>{i > 0 ? '; ' : ''}<a href={p.path}>{p.authors_short}, {p.date}</a></>)}.</p>
                 )}
                 {item.sibling_stage_label && <p class="card-found dim">The Upgrade Tree shows it at {item.sibling_stage_label.toLowerCase()}{item.sibling_agrees ? ', which agrees' : ', which does not agree, and a reading is filed on both sites'}.</p>}
-                {item.for_john && <p class="for-john"><strong>Left for the author.</strong> {item.for_john}</p>}
+                {item.for_john && item.resolved_on && <p class="for-john"><strong>Resolved on {longDate(item.resolved_on)}.</strong> {item.resolved_by} <span class="dim">What the reading left for the author: {item.for_john}</span></p>}
+                {item.for_john && !item.resolved_on && <p class="for-john"><strong>Left for the author.</strong> {item.for_john}</p>}
                 {item.search_short && <p class="card-found dim" style="font-size: 13px;">{item.search_short}</p>}
                 <details>
                   <summary>{plural(item.queries.length, 'search', 'searches')}{item.sources.length > 0 ? `, ${plural(item.sources.length, 'source', 'sources')}` : ''}</summary>
@@ -107,7 +112,7 @@ const description = latest
     <section class="section">
       <div class="shead"><h2>Waiting on the author</h2><span>{plural(waiting.length, 'item', 'items')} the reading could not decide</span></div>
       <p class="dim" style="font-size: 15px;">
-        A flagged item stays here until a later reading reads the record again with another verdict, or the record carries a dated change that names the reading. The author rules by editing the record, never by editing the reading.
+        A flagged item stays here until a later reading reads the record again with another verdict, or a dated batch deals with it and the reading's record is marked resolved, with the date and what resolved it. Resolved items stay on the reading, marked. The author rules by editing the record, never by editing the reading's verdicts.
       </p>
       <ul class="checks">
         {waiting.map((w) => (
@@ -136,7 +141,7 @@ const description = latest
                 <h4 style="font-family: var(--sans); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 14px 0 4px;">{g.name}</h4>
                 <ul class="checks">
                   {g.items.map((item) => (
-                    <li><span class={`badge v-${item.verdict}`}>{item.verdict_label}</span> {item.kind !== 'leaf' && <span class="badge kind">{item.kind_label}</span>} <a href={recordPath(item)}>{item.name}</a><p>{item.found}{item.for_john && <> <em>Left for the author:</em> {item.for_john}</>}</p></li>
+                    <li><span class={`badge v-${item.verdict}`}>{item.verdict_label}</span> {item.kind !== 'leaf' && <span class="badge kind">{item.kind_label}</span>} <a href={recordPath(item)}>{item.name}</a><p>{item.found}{item.for_john && (item.resolved_on ? <> <em>Left for the author, resolved on {longDate(item.resolved_on)}:</em> {item.for_john}</> : <> <em>Left for the author:</em> {item.for_john}</>)}</p></li>
                   ))}
                 </ul>
               </>
