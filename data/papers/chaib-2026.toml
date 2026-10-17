@@ -1,0 +1,19 @@
+# Publications log. Added 2026-10-17 while clearing the unchecked statements on the leaf for a drug that clears aged cells. The abstract was read on 2026-10-17 (PubMed and Europe PMC entry 42721966); the journal's own page is behind an access wall.
+
+id = "chaib-2026"
+date = "2026-09-10"
+added_on = 2026-10-17
+authors = ["Selim Chaib", "Larissa G. P. Langhi Prata", "Masayoshi Suda", "and 45 others, ending with Ikeno, Tchkonia and James L. Kirkland (48 in all)"]
+title = "Blocking PD-L2 prevents senescent cell accumulation and age-related dysfunction"
+venue = "Cell Metabolism, online 2026-09-10 (September 2026 issue; the publisher's article number is S1550-4131(26)00339-6; volume and pages were not in the records read)"
+link = "https://doi.org/10.1016/j.cmet.2026.08.014"
+finding = """
+The authors report that a protein called PD-L2, which immune cells read as a signal not to attack, is higher on aged (senescent) human cells grown in the laboratory and rises during ageing, and that drugs which kill aged cells remove the aged cells that carry the most of it. Old mice bred without PD-L2 held fewer aged cells than ordinary old mice, and had better insulin sensitivity and grip strength; a treatment against PD-L2 restored insulin sensitivity in ordinary old mice. They conclude that PD-L2 helps aged cells escape the immune system and persist.
+"""
+leaves = ["drug-clears-aged-cells-from-a-person"]
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Added 2026-10-17. This is work in mice and in human cells in the laboratory, not a person given a drug, so it moves no stage and no estimate year. Only the abstract could be read: the journal's page asks for a subscription, and there is no open copy. A statement in trade coverage (GEN), quoting the paper's own highlights, that a form of PD-L2 circulating in the blood rose with age and fell after aged-cell-clearing drugs in people, and so might serve as a blood marker, is not in the abstract; the highlights themselves could not be opened, so that statement is not recorded here. The release of 2026-09-10 from Cedars-Sinai (the senior author's institution) says only that PD-L2 could serve as a blood marker.
+"""

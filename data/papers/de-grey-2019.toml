@@ -1,6 +1,6 @@
-# Founding publications log, written 2026-10-16. The editorial is behind an access wall; its
-# quoted lines were read on 2026-10-16 through a Fight Aging! post of 2019-10-22 that reproduces
-# them, so the record carries a verify entry.
+# Founding publications log, written 2026-10-16. The quoted lines were first read through a Fight
+# Aging! post of 2019-10-22 that reproduces them; on 2026-10-17 the editorial itself was opened
+# (free access on the publisher's page) and the lines and figures were checked there.
 
 id = "de-grey-2019"
 date = "2019-10"
@@ -21,11 +21,11 @@ leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes", "a-
 branches = ["energy-and-fuel", "measuring-age"]
 moved_range = false
 settled_stage = false
-verify = [
-  "The quoted lines and the funding figures are from a Fight Aging! post of 2019-10-22 reproducing only the opening of the editorial, not from the editorial itself; the issue month and pages are confirmed (Crossref, PubMed).",
-]
 notes = """
 Intended leaves: the TAME trial enrolling, under energy and fuel sensing, and a regulator accepting
 ageing as something a drug can be tested against, under measuring ageing. Kept because it is a
 dated, published statement that the money was in hand, against which the later record (afar-2026)
-can be read."""
+can be read.
+
+Checked 2026-10-17 against the editorial itself, which is free to read on the publisher's page (https://doi.org/10.1089/rej.2019.2274; first published online 2019-10-09, issue of October 2019, pages 375 to 376). It says that nearly half of the required 75 million dollars was pledged by Paul Glenn through the American Federation for Aging Research, that the National Institute on Aging twice rejected applications for the remaining money, and that the remaining support "materialized very recently, courtesy of an anonymous donor".
+"""

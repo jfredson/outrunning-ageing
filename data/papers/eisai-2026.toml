@@ -14,7 +14,8 @@ leaves = ["antibody-clears-amyloid-from-the-brain-and-slows-decline"]
 branches = ["broken-proteins"]
 moved_range = false
 settled_stage = false
-verify = ["The regulator's own notice of the approval was not found or opened; the date and the regimen are the companies'."]
 notes = """
 Added under the weekly reading of 2026-10-17. It removes the entry's stated condition that the drug needs infusions, but not the brain scans, the price or the missing uptake figures, so the entry stays at clinical use. Whether it moves the estimate's earliest or likely wide-use year is for John.
+
+Checked 2026-10-17. The regulator's approved prescribing information, as published on the National Library of Medicine's DailyMed site (revised 7/2026, posted 2026-07-27; https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d1ff786-e577-410a-a273-c4d7d0e4e975), confirms the regimen: a starting dose of 500 mg a week as two 250 mg injections with the autoinjector, a 360 mg weekly maintenance dose, and the option, after 18 months, of continuing the starting dose or moving to maintenance. The label gives the month of its revision, not the day, and the regulator's own approvals page (Drugs@FDA) had not yet listed the supplement on 2026-10-17, so the approval date of 2026-07-13 is the date of the companies' announcement.
 """

@@ -5,7 +5,7 @@ date = "2026-10-08"
 added_on = 2026-10-17
 authors = ["Life Biosciences, Inc."]
 title = "Life Biosciences Announces First-in-Human Data from Ongoing Phase 1 Trial Evaluating ER-100 in Optic Neuropathies"
-venue = "Company press release, Boston, 2026-10-08, with data presented at a meeting of the American Academy of Ophthalmology; trial registered as NCT07290244"
+venue = "Company press release, Boston, 2026-10-08, with data presented at the session named 'Eyecelerator @ American Academy of Ophthalmology (AAO) 2026'; trial registered as NCT07290244"
 link = "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/"
 finding = """
 The company reports interim results from the first three people with open-angle glaucoma given its eye-injected reprogramming therapy ER-100 (first dose level, with a daily antibiotic to switch the genes on for 56 days) in an open-label safety trial: no dose-limiting toxicity and no serious adverse events by day 56, and a safety board's recommendation to move to the second dose level. In two of the three people, at least 28 per cent of tested points in the visual field improved by more than 4 decibels at day 56; the company calls this a preliminary signal in a trial designed to measure safety.
@@ -14,7 +14,8 @@ leaves = ["a-person-receives-cell-resetting-genes-in-a-trial", "partially-resett
 branches = ["cell-settings"]
 moved_range = false
 settled_stage = false
-verify = ["The release is the sponsor's own and has not been checked against the conference presentation, which was not opened; the visual-field figures are the company's."]
 notes = """
 Added under the weekly reading of 2026-10-17. An open-label company announcement of a visual-function change in two of three people is not the peer-reviewed report the cell-resetting-in-animals entry asks for at its first-human rung, and it measures sight, not a marker of biological age; the entry stays at shown in animals. The first-dose record of 2026-06-09 is life-biosciences-2026.
+
+Checked 2026-10-17 against the company's release (opened on the company's own site), which gives the figures used here: three people with open-angle glaucoma, the first dose level, daily doxycycline by mouth for 56 days, no dose-limiting toxicity and no serious adverse events by day 56, the safety board's recommendation to move to the second dose level, and, in two of the three, at least 28 per cent of visual-field points improving by more than 4 decibels. The release itself does not name the meeting; the company's announcement of 2026-10-01 (https://www.lifebiosciences.com/life-biosciences-to-present-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies-at-eyecelerator-2026/) says the data would be given in an oral session at that event on 2026-10-08 in New Orleans. No conference abstract or published slides were found, so the figures rest on the company's own release and are the company's.
 """

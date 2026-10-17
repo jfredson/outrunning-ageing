@@ -1,5 +1,5 @@
 # Founding publications log, written 2026-10-16. Checked against the publisher's record and
-# abstract on 2026-10-16; the group sizes are from Nature's news report of the paper.
+# abstract on 2026-10-16; the group sizes and dose were corrected from the paper's own text on 2026-10-17.
 
 id = "yang-2024"
 date = "2024-09-12"
@@ -9,20 +9,28 @@ title = "Metformin decelerates aging clock in male monkeys"
 venue = "Cell 187(22), 6358–6378.e29 (2024)"
 link = "https://doi.org/10.1016/j.cell.2024.08.021"
 finding = """
-Adult male cynomolgus monkeys were given metformin daily for 40 months and compared with untreated
-monkeys of the same and younger ages on several biological age clocks built from gene activity,
-DNA marks, blood proteins and metabolites across many tissues. The clocks ran slower in the treated
-animals, with the brain reading about six years younger; the authors tie the brain effect partly to
+Adult male cynomolgus monkeys, aged 13 to 16 years at the start (about 40 to 50 in human years), were
+given metformin daily in their drinking water at 20 milligrams per kilogram of body weight for 40 months
+and compared with untreated monkeys of the same age and with younger ones, on several biological age
+clocks built from gene activity, DNA marks, blood proteins and metabolites across many tissues. The
+clocks ran slower in the treated animals, with the brain reading about six years younger; the authors tie the brain effect partly to
 the protective Nrf2 pathway. A controlled animal study on measurements, not on lifespan or
-disease, in a small group."""
+disease, in a small group: in the figures, mostly six treated monkeys and five untreated monkeys of the
+same age (one of the untreated animals died of kidney failure during the study), three middle-aged
+and six young adult comparison monkeys, with a few analyses using one fewer."""
 leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes"]
 branches = ["energy-and-fuel", "measuring-age"]
 moved_range = false
 settled_stage = false
-verify = [
-  "The group sizes (12 treated elderly males, 16 elderly untreated, 18 young or middle-aged) are from news coverage, not the paper's own text, which was behind the publisher's access wall; the dose of 20 milligrams per kilogram a day is supported by a published commentary but not checked in the paper itself.",
-]
 notes = """
 Intended leaves: a drug makes people live longer in good health (metformin), under energy and fuel
 sensing; and a clock validated as a trial measure, under measuring ageing. Online 2024-09-12; the
-print issue is dated 2024-10-31."""
+print issue is dated 2024-10-31.
+
+Checked 2026-10-17 against the full text of the paper (a copy of the journal's proof, held at
+https://gwern.net/doc/longevity/metformin/2024-yang.pdf , as the publisher's own page could not be opened
+by the checking tools). Corrected on 2026-10-17: the group sizes recorded on 2026-10-16 from a news
+report (12 treated, 16 untreated elderly and 18 younger monkeys) do not match the paper, whose figure
+legends give six treated, five untreated of the same age, three middle-aged and six young adult monkeys.
+The dose of 20 milligrams per kilogram a day, given in drinking water for 1,200 days (40 months), is
+stated in the paper's results and methods."""
