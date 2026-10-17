@@ -18,9 +18,7 @@ reprogramming can be done in a living animal without killing it with tumours."""
 branches = ["cell-settings"]
 moved_range = false
 settled_stage = false
-verify = [
-  "The author list is from the publisher's indexed record and was not read off the paper's own first page; the first and last authors (Ocampo; Izpisua Belmonte) are confirmed.",
-]
+
 notes = """
 Intended leaf: partially resetting cells reverses ageing in a living animal, under the cell's
 settings; one of the five leaves shared with The Upgrade Tree. The paper itself gives no

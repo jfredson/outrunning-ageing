@@ -18,9 +18,7 @@ here the immune system's."""
 branches = ["inflammation-and-signalling", "energy-and-fuel"]
 moved_range = false
 settled_stage = false
-verify = [
-  "The trial size (218 volunteers), the three dose arms (0.5 mg daily, 5 mg weekly, 20 mg weekly) and the six-week dosing are from a patent reproducing the trial design and from a 2021 review, not from the paper's own text, which was behind the publisher's access wall; the abstract confirms only the age group, the drug and the roughly 20 percent gain.",
-]
+
 notes = """
 Intended leaves: immune rejuvenation with a measured effect in people, under inflammation and the
 body's messaging; and a drug makes people live longer in good health (rapamycin and relatives),
