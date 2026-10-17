@@ -26,6 +26,7 @@ settler = "The peer-reviewed trial report; the regulator's approval record, or a
 stage = "first-human"
 stage_reached_on = "2014-12-24"
 stage_record = "https://doi.org/10.1126/scitranslmed.3009892"
+stage_publication = "mannick-2014"
 status = "tracked"
 horizon = "mid"
 

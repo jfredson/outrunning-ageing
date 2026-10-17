@@ -23,6 +23,7 @@ settler = "Peer-reviewed reports; the regulator's approval record for the clinic
 stage = "shown-in-animals"
 stage_reached_on = "2005-02-17"
 stage_record = "https://doi.org/10.1038/nature03260"
+stage_publication = "conboy-2005"
 status = "tracked"
 horizon = "far"
 

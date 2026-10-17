@@ -24,6 +24,7 @@ settler = "The peer-reviewed trial report, and the regulator's approval record i
 stage = "shown-in-animals"
 stage_reached_on = "2009-07-08"
 stage_record = "https://doi.org/10.1038/nature08221"
+stage_publication = "harrison-2009"
 status = "tracked"
 horizon = "mid"
 sibling = "lifespan-a-drug-adds-healthy-years-to-a-life"

@@ -22,6 +22,7 @@ settler = "Peer-reviewed reports; the trial registry and report when a first per
 stage = "shown-in-animals"
 stage_reached_on = "2012-05"
 stage_record = "https://doi.org/10.1002/emmm.201200245"
+stage_publication = "bernardes-de-jesus-2012"
 status = "tracked"
 horizon = "far"
 

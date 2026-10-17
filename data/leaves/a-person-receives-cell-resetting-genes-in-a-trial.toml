@@ -23,6 +23,7 @@ settler = "The trial registry entry and the sponsor's dated notice of the dose f
 stage = "first-human"
 stage_reached_on = "2026-06-09"
 stage_record = "https://www.lifebiosciences.com/life-biosciences-announces-first-patient-dosed-in-phase-1-trial-of-er-100-for-optic-neuropathies/"
+stage_publication = "life-biosciences-2026"
 status = "tracked"
 horizon = "mid"
 

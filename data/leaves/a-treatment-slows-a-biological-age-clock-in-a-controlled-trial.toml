@@ -24,6 +24,7 @@ settler = "The peer-reviewed trial report with its pre-registered plan; the regu
 stage = "first-human"
 stage_reached_on = "2023-02-09"
 stage_record = "https://doi.org/10.1038/s43587-022-00357-y"
+stage_publication = "waziry-2023"
 status = "tracked"
 horizon = "mid"
 

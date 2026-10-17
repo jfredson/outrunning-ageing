@@ -23,6 +23,7 @@ settler = "The peer-reviewed report; the regulator's approval record, or a named
 stage = "first-human"
 stage_reached_on = "2019-09-08"
 stage_record = "https://doi.org/10.1111/acel.13028"
+stage_publication = "fahy-2019"
 status = "tracked"
 horizon = "mid"
 

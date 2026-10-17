@@ -22,6 +22,7 @@ settler = "Peer-reviewed reports; the trial registry; the regulator's approval r
 stage = "first-human"
 stage_reached_on = "2017-07"
 stage_record = "https://doi.org/10.1016/j.jtcvs.2017.02.018"
+stage_publication = "emani-2017"
 status = "tracked"
 horizon = "mid"
 

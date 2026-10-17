@@ -25,6 +25,7 @@ settler = "Peer-reviewed reports; the trial registry and report for the first pe
 stage = "shown-in-animals"
 stage_reached_on = "2016-12-15"
 stage_record = "https://doi.org/10.1016/j.cell.2016.11.052"
+stage_publication = "ocampo-2016"
 status = "tracked"
 horizon = "mid"
 sibling = "lifespan-partially-resetting-cells-reverses-ageing-in-an-animal"

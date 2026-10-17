@@ -23,6 +23,7 @@ settler = "The peer-reviewed trial report; the regulator's approval record for t
 stage = "first-human"
 stage_reached_on = "2021-04-22"
 stage_record = "https://doi.org/10.1126/science.abe9985"
+stage_publication = "yoshino-2021"
 status = "tracked"
 horizon = "mid"
 
