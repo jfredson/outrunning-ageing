@@ -1,0 +1,51 @@
+# Deploys outrunningageing.com on every push to main that could change the site, the same
+# pattern as The Belt Equation (added there 2026-09-19). Needs two repository secrets:
+# CLOUDFLARE_API_TOKEN (Workers Scripts: Edit, plus the zone's Workers Routes: Edit)
+# and CLOUDFLARE_ACCOUNT_ID. Until they exist the workflow fails at the deploy step
+# and the site simply stays as it was.
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - "site/**"
+      - "CHANGELOG.md"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-site
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Validate the records
+        run: python3 scripts/export.py --check
+      - name: Run the validator's tests
+        run: python3 scripts/test_compute.py
+      - name: Install and build
+        working-directory: site
+        run: |
+          npm ci
+          npm run build
+      - name: Deploy to Cloudflare Workers
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: site
+          command: deploy

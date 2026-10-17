@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import { records } from '../lib/records';
+const retired = records.retired;
+---
+
+<Base title="Not found — Outrunning Ageing" description="This page does not exist, or does not exist yet." noindex>
+  <section class="hero">
+    <p class="eyebrow">404</p>
+    <h1>Nothing here yet</h1>
+    <p class="lede">
+      The page you are looking for does not exist, or does not exist yet. The address of a treatment or tool never changes once it is published, so a link that fails probably never pointed at one.
+    </p>
+    <p>
+      Try the <a href="/">home page</a>, or <a href="/#branches">the eight branches</a>.
+    </p>
+    {retired.length > 0 && (
+      <p class="dim" style="font-size: 14.5px;">
+        Pages that once existed and were retired: {retired.map((r, i) => (
+          <>{r.id}{r.replaced_by ? <> (replaced by {r.replaced_by})</> : ''}{i < retired.length - 1 ? ', ' : '.'}</>
+        ))}
+      </p>
+    )}
+  </section>
+</Base>

@@ -1,0 +1,13 @@
+# build output
+dist/
+# generated types
+.astro/
+# dependencies
+node_modules/
+# wrangler's local state
+.wrangler/
+# the JSON the export script writes; rebuilt from ../data on every build
+src/data/*.json
+# logs and macOS
+npm-debug.log*
+.DS_Store

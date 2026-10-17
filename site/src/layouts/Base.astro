@@ -1,0 +1,93 @@
+---
+// The page shell, from the Sentient Horizons design standard (design/shell.html): the theme script,
+// the top bar (Nav.astro), the page, and the footer with its four lines, the medical notice John
+// ruled for this site on 2026-10-16, and the family line last. Holding version, 2026-10-16, on the
+// standard's base (Deep Field); the site's own skin is proposed separately and replaces the
+// backdrop when it lands.
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+import Starfield from '../components/Starfield.astro';
+import { records, longDate, builtFrom, REPO, SITE_NAME } from '../lib/records';
+
+interface Props {
+  title?: string;
+  description?: string;
+  noindex?: boolean;
+}
+
+const {
+  title = SITE_NAME,
+  description = 'When, if ever, does the rate of repairing the human body overtake the rate at which it ages? A public tracker: a year computed from the record of treatments and measuring tools, and a dated log of who promised what and when.',
+  noindex = false,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const currentYear = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {/* Set the theme before first paint so there is no flash on load. */}
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia('(prefers-color-scheme: light)').matches
+                ? 'light'
+                : 'dark';
+          document.documentElement.dataset.theme = theme;
+        } catch (e) {}
+      })();
+    </script>
+    <meta id="theme-color-meta" name="theme-color" content="#08070f" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content="John Fredrickson" />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta name="twitter:card" content="summary" />
+  </head>
+  <body>
+    <div class="space-bg" aria-hidden="true">
+      <div class="galaxy"></div>
+      <div class="core"></div>
+      <Starfield count={150} />
+    </div>
+    <Nav />
+    <main class="container">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <span class="footer-brand">{SITE_NAME}</span>
+          <p class="footer-tag">A public tracker of when the rate of repairing the human body overtakes the rate at which it ages. Every number on this site is computed from the records in the public repository.</p>
+          <p class="footer-links">
+            <a href="/#branches">The eight branches</a>
+            <a href="/#records">What is recorded</a>
+            <a href="/#method">How the numbers are worked out</a>
+            <a href={`${REPO}/issues/new`} rel="noopener">Disagree with something</a>
+            <a href={REPO} rel="noopener">Source on GitHub</a>
+          </p>
+          <p class="footer-meta">
+            © {currentYear} John Fredrickson. Last built {longDate(records.exported_on)}{records.commit ? ` (version ${records.commit})` : ''} from {builtFrom()}. Free to reuse with credit (<a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>); code under the MIT licence.
+          </p>
+          <p class="footer-notice">This site records what has been shown and what has been promised. It recommends nothing, and nothing on it is medical advice.</p>
+          <p class="footer-parent"><a href="https://sentient-horizons.com" rel="noopener">A Sentient Horizons project.</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

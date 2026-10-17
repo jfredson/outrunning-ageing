@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Holding favicon on the Deep Field tokens: two lines crossing, the idea of the site. The skin session may replace it. -->
+  <rect width="64" height="64" rx="12" fill="#08070f"/>
+  <path d="M10 46 L54 18" fill="none" stroke="#6fb6c9" stroke-width="3" stroke-linecap="round"/>
+  <path d="M10 22 L54 40" fill="none" stroke="#e3a96b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="36" cy="30" r="4" fill="#f2eee7"/>
+</svg>

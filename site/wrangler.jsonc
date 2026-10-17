@@ -1,0 +1,28 @@
+{
+  // Cloudflare Workers config: a static-assets deployment, the same pattern as
+  // thequietgalaxy.com, theupgradetree.com and beltequation.com. outrunningageing.com and the
+  // American-spelled outrunningaging.com were both registered by John on 2026-10-16 and are
+  // attached, each with its www, as custom domains; the routes below keep the config in step
+  // with what is deployed so a deploy from a fresh machine does not drop them. worker/redirect.js
+  // forwards every address but outrunningageing.com (its www, and outrunningaging.com with its
+  // www) to the same page at outrunningageing.com, so there is one address for citations.
+  "name": "outrunningageing",
+  "main": "worker/redirect.js",
+  "compatibility_date": "2026-10-01",
+  // Keep the workers.dev preview address alongside the custom domains, as the sister sites do.
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "outrunningageing.com", "custom_domain": true },
+    { "pattern": "www.outrunningageing.com", "custom_domain": true },
+    // The forwarding address, the American spelling: worker/redirect.js answers it with a
+    // permanent redirect to the same page at outrunningageing.com.
+    { "pattern": "outrunningaging.com", "custom_domain": true },
+    { "pattern": "www.outrunningaging.com", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": true
+  }
+}
