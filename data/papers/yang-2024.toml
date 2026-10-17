@@ -19,7 +19,7 @@ branches = ["energy-and-fuel", "measuring-age"]
 moved_range = false
 settled_stage = false
 verify = [
-  "The group sizes (12 treated elderly males, 16 elderly untreated, 18 young or middle-aged) and the dose (20 milligrams per kilogram a day) are from Nature's news report of 2024-09-12 and a commentary, not from the paper's own text, which was behind the publisher's access wall.",
+  "The group sizes (12 treated elderly males, 16 elderly untreated, 18 young or middle-aged) are from news coverage, not the paper's own text, which was behind the publisher's access wall; the dose of 20 milligrams per kilogram a day is supported by a published commentary but not checked in the paper itself.",
 ]
 notes = """
 Intended leaves: a drug makes people live longer in good health (metformin), under energy and fuel

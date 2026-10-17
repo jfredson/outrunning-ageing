@@ -860,7 +860,8 @@ def compute_headline(loaded: dict, runs: int = RUNS, seed: int = SEED,
             if known is not None:
                 leaf_years[leaf["id"]] = [float(known)] * runs
                 leaf_facts[leaf["id"]] = {"id": leaf["id"], "name": leaf["name"], "stage": leaf["stage"],
-                                          "known": True, "year": known}
+                                          "known": True, "year": known,
+                                          "estimate_status": (leaf.get("estimate") or {}).get("status")}
             else:
                 lo, mode, hi = clinic_range(leaf)
                 if lo == hi:
@@ -924,7 +925,11 @@ def compute_headline(loaded: dict, runs: int = RUNS, seed: int = SEED,
             "leaves": [leaf_facts[leaf["id"]] for leaf in leaves_by_branch[k]],
         })
 
-    first_pass = sum(1 for f in leaf_facts.values() if not f["known"] and f.get("estimate_status") == "first-pass")
+    # Every estimate the leaves carry that is still a first pass, and the part of those the headline
+    # actually draws from: a leaf already in the clinic has a known year, so its estimate (for the
+    # wide-use rung) is kept on the page but is not drawn.
+    first_pass = sum(1 for f in leaf_facts.values() if f.get("estimate_status") == "first-pass")
+    first_pass_drawn = sum(1 for f in leaf_facts.values() if not f["known"] and f.get("estimate_status") == "first-pass")
     verify_count = sum(len(r.get("verify") or []) for r in records)
 
     return {
@@ -950,6 +955,7 @@ def compute_headline(loaded: dict, runs: int = RUNS, seed: int = SEED,
             "leaves_counted": len(leaf_facts),
             "leaves_in_clinic_already": sum(1 for f in leaf_facts.values() if f["known"]),
             "estimates_first_pass": first_pass,
+            "estimates_first_pass_drawn": first_pass_drawn,
             "verify_entries": verify_count,
         },
     }

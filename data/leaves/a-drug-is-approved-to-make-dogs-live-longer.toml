@@ -1,0 +1,84 @@
+# Leaf record (docs/record-schema.md). Written 2026-10-17 by the verify session, to give the Loyal
+# claim (loyal-2025-senior-dog-approval-by-end-of-2025) a leaf to point at. The stage and the
+# estimate are PROPOSED and flagged for John; see the notes. Facts are from the company's own
+# posts, read in full on 2026-10-17 (loy-002-rxe, loy-002-tas, loy-003-rxe,
+# what-is-fda-conditional-approval, and the for-vets page), and from a trade report of the
+# safety step (longevity.technology, 2026-01-14).
+
+id = "a-drug-is-approved-to-make-dogs-live-longer"
+name = "A drug is approved to make dogs live longer"
+branch = "energy-and-fuel"
+description = """
+Dogs share our homes, our food and many of our diseases, and they age fast enough that a lifespan
+trial finishes in years, not decades. A drug approved to lengthen a dog's life would be the first
+approval of its kind in any species. One company, Loyal, has taken three such drugs to the United
+States veterinary regulator and has had the regulator accept that each can reasonably be expected
+to work. None has yet been approved, and none has yet been shown to lengthen dogs' lives in a
+published, peer-reviewed report. The leaf sits beside the human ones on this branch because it is
+the first place a regulator is being asked to put "extends lifespan" on a label."""
+test = """
+A regulator (the United States Food and Drug Administration's Center for Veterinary Medicine, or
+the regulator of any other country) grants an approval, full or conditional, for a drug whose
+stated purpose is to extend the lifespan of dogs, or their healthy lifespan, in the regulator's
+own approval record. A conditional approval counts for the clinic rung, because under it a
+veterinarian can prescribe the drug outside a trial; the leaf notes whether the approval is
+conditional. Acceptance of one section of an application, a company's announcement and a
+supplement sold without approval are not the leaf. For the first rung above idea only: a
+peer-reviewed report that dogs given such a drug lived longer, or stayed free of age-related
+disease longer, than dogs given a placebo."""
+settler = "The regulator's own approval record; for the first rung, the peer-reviewed report of the trial"
+stage = "idea-only"
+status = "tracked"
+horizon = "near"
+
+verify = [
+  "That no lifespan drug for dogs had been approved by any regulator as of 2026-10-17 rests on the company's own posts and a web search; the regulator's own list of conditional approvals was not read.",
+  "That the manufacturing section of the application was still outstanding on 2026-10-17, with the application now expected in 2027, is from the company's post of 2026-01-13 as the claims log records it and from the company's for-vets page, which lists the manufacturing section as in progress; a later company or regulator statement may exist.",
+]
+notes = """
+Why the stage is idea only (PROPOSED, flagged for John). The ladder is written for treatments
+meant for people, and its second rung asks for a peer-reviewed report that the treatment works in
+a living animal. Loyal has given the drug to more than 400 dogs in safety work and to 48 in a
+three-month pilot, and the regulator has accepted that the company's data give a reasonable
+expectation of effectiveness (accepted 2025-02-26 for LOY-002, the senior-dog drug; the large-dog
+drugs LOY-001 and LOY-003 were accepted earlier and on 2026-09-16 respectively), and the safety
+section for LOY-002 was accepted on 2026-01-13. But the effectiveness evidence behind those
+acceptances is the company's own, not a peer-reviewed report of dogs living longer, and the
+pivotal trial (STAY: first dog dosed in December 2023, about 1,000 to 1,300 dogs at 55 to 70
+clinics, about four years) has not read out. Read strictly, the record supports idea only. The
+alternative is shown in animals, on the regulator's acceptance of effectiveness; that would
+credit a private data package that no reader can check, so it was not taken.
+What counts as the clinic. Under the regulator's expanded conditional approval route a drug may
+be conditionally approved on full safety data, full manufacturing data and a reasonable
+expectation of effectiveness, for up to five years while the full trial finishes, and a
+veterinarian may prescribe it as normal in that time. This leaf counts such an approval as the
+clinic rung, which is a lower bar than the human leaves on this branch clear; a stricter test
+would wait for the full approval, perhaps two years later than the estimate. It is a judgment
+call and is flagged for John.
+What this does to the headline. The leaf is on the energy and fuel branch because the drug
+(LOY-002) is said to act on the metabolic dysfunction of ageing, and because the claims log
+already files the Loyal claim there. Its early clinic estimate would make it the second leaf of
+that branch to reach the clinic, so the branch would count as handled much earlier than before.
+Run `scripts/compute.py run` to see the effect; the verify session's report to John gives the
+numbers before and after. An approval for dogs says nothing yet about people, which is the other
+reason to flag it.
+Related: loyal-2025-senior-dog-approval-by-end-of-2025 (the end-of-2025 promise, missed)."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-17
+why = """
+The company's own timetable is the only schedule there is, and it has slipped once: in February
+2025 it expected the manufacturing and safety sections by the end of 2025; safety was accepted in
+January 2026 and manufacturing was still open when its next posts went out, with the application
+now expected in 2027. Approval then needs the regulator's review of the full application, so the
+likely year is 2028, a year after the application. The earliest assumes the review is quick
+because the regulator has already accepted two of the three sections; the latest allows for
+manufacturing problems, for the regulator asking for more, or for the company running short of
+money, which in a company with one product family is a real risk."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2027
+likely = 2028
+latest = 2032

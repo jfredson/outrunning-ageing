@@ -29,10 +29,7 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "The address of the regulator's 6 July 2023 notice is reconstructed from its title ('FDA converts novel Alzheimer's disease treatment to traditional approval') and was not opened; the date and title were confirmed from reposts of it.",
-  "The 2022 Clarity AD report (van Dyck and colleagues, New England Journal of Medicine, online 29 November 2022; 1,795 people, 27 per cent slowing on the main measure at 18 months) and its DOI are from memory.",
-  "The 1999 Nature report (Schenk and colleagues; immunising mice against amyloid cleared it from their brains) and its date, 8 July 1999, are from memory.",
-  "That donanemab was approved on 2 July 2024, and that uptake of both antibodies has been slow (tens of thousands of patients against millions eligible), are from memory.",
+  "That uptake of both antibodies has been slow is supported by trade coverage (2025-11-10); the patient counts (tens of thousands) and the number eligible (millions) were not found in a primary source.",
 ]
 notes = """
 The branch's own line on what would move it asks for a kind of waste cleared throughout the body,

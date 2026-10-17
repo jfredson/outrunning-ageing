@@ -8,7 +8,7 @@ branch = "cell-settings"
 description = """
 Wholesale resetting of a cell's settings is one route; the other is to rewrite the marks on a
 single chosen gene, switching it off or on for good without cutting the DNA. In 2024 a Milan group
-did this in mice for a cholesterol gene in the liver, with one dose, and the gene stayed off for
+did this in mice for a cholesterol gene in the liver, with one dose, and the gene stayed silenced, with the protein in the blood almost halved, for
 nearly a year. The same tool, aimed at a liver-infecting virus rather than an ageing gene, has
 been given to people since late 2024, and the company reported in May 2026 that the virus's
 markers stayed down for seventeen months after one dose; that report is a conference
@@ -27,8 +27,7 @@ status = "tracked"
 horizon = "near"
 
 verify = [
-  "The 2024 Nature report (Cappelluti, Lombardo and colleagues; one dose of a mark-rewriting ('epigenetic') silencer kept the PCSK9 gene off in mouse liver for nearly a year) and its date, 28 February 2024, are from memory.",
-  "That Tune Therapeutics dosed the first person with TUNE-401 for chronic hepatitis B in late 2024, in Auckland and Hong Kong, and presented results at a liver conference on 30 May 2026, is from the company's own notice; the registry number was not in hand.",
+  "That Tune Therapeutics dosed its first person with TUNE-401 in late 2024 is not stated by any source read: the registry entry (NCT06671093) gives a study start of 2024-11-29 in Auckland, and the Hong Kong site was approved only on 2025-01-07; the company's May 2026 release (results presented 2026-05-30, markers down to 17 months) was read and matches.",
 ]
 notes = """
 The company's 2026 presentation would meet the test if it were peer-reviewed or posted to the

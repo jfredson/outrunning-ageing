@@ -25,9 +25,9 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "That the TAME designers met the United States regulator in 2015 and reported that it would accept the time to any of a set of age-related diseases as what the trial must show is from memory of the trial's published design papers.",
-  "That the trial had enrolled no one as of mid-2026 is from a September 2026 trade article; a 2026 web page saying enrolment was complete was judged unreliable.",
-  "That the World Health Organization's 2022 disease classification added an extension code for 'ageing-associated decline in intrinsic capacity', after dropping a proposed 'old age' code, is from memory; a classification code is not a regulator's indication and does not meet the test.",
+  "The papers on TAME's design (Justice and colleagues 2018) say the United States regulator was consulted and favoured an outcome based on disease, but give no date and no promise to accept time to any of several age-related diseases; the 2015 meeting and that acceptance rest on trade coverage and a 2015 Science news feature (Hall) that was not opened, and should be checked.",
+  "That the TAME trial had enrolled no one as of mid-2026 is from September 2026 trade reports (not opened) and is consistent with there being no ClinicalTrials.gov registration found on 2026-10-17; AFAR's own status page was not found, and web pages saying enrolment was complete were judged unreliable.",
+  "The World Health Organization's 2022 disease classification dropped the title 'old age' (code MG2A, now titled 'ageing-associated decline in intrinsic capacity') and carries an extension code XT9T 'ageing-related'; this is from a peer-reviewed review (PMC10894070) and not yet from the organization's own browser, and the record's earlier wording of 'added an extension code' should be reworded once checked. A classification code is not a regulator's indication and does not meet the test.",
 ]
 notes = """
 The metformin leaf on the energy branch is the same trial seen from the drug's side; this leaf

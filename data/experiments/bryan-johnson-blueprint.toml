@@ -47,10 +47,7 @@ link = "https://protocol.bryanjohnson.com/"
 branches = ["energy-and-fuel", "inflammation-and-signalling", "replacing-parts", "measuring-age"]
 
 verify = [
-  "The start date (2021-10-13) and the reported spend of about two million dollars a year are from news coverage (Bloomberg, 2023-01-25, cited by Wikipedia); his own page says only that he started as a broken-down 42-year-old and has spent millions. Find his own announcement.",
-  "That the 2013 sale of Braintree was to PayPal is from coverage; in a 2023-07-14 interview he said only that it sold for eight hundred million dollars.",
-  "The 0.64 figure (2024-06), the rapamycin stop date (2024-09-28) and his post of 2024-11 giving the side effects were read in coverage quoting his posts (WION 2024-06-12; AOL 2025-01-10); the posts themselves were not reached.",
-  "The plasma exchange post of 2023-07-05 was read as quoted by Fortune on 2023-07-08, not on his own feed.",
+  "The reported spend of about two million dollars a year is from news coverage (Bloomberg, 2023-01-25); in a post of 2023-02-04 he wrote that Blueprint does not cost two million dollars a year and can be done for about 1,684 dollars a month including food.",
 ]
 notes = """
 He co-founded the Rejuvenation Olympics leaderboard, which ranks people by their measured pace

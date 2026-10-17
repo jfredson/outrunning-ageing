@@ -28,9 +28,7 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "That no clock read from DNA marks, nor any other marker of ageing, had been qualified by the United States or European regulators as a stand-in outcome as of 2026-10-16 is from trade commentary found by a web search, not from the regulators' own lists, which should be checked.",
-  "That the Clock Foundation and others state the aim of qualifying such markers is from their own public statements.",
-  "That a 2026 company trial (Insilico Medicine's rentosertib) used several clocks read from blood proteins as exploratory measures is from trade coverage; it is a trial use, not a regulator's acceptance, and does not meet either rung.",
+  "That no marker of ageing had been qualified by the United States regulator as a stand-in outcome as of 2026-10-16, and that none had been submitted far enough to be listed, rests on a peer-reviewed count (eight markers qualified, the newest in 2018, to 2025-07-01) and an August 2026 trade article, not on the regulator's own searchable list, which should be checked. The European regulator's own list was read on 2026-10-17 and has no ageing marker.",
 ]
 notes = """
 This leaf and the one on a regulator recognising ageing as a treatable condition are the two

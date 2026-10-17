@@ -21,7 +21,7 @@ branches = ["energy-and-fuel", "measuring-age"]
 moved_range = false
 settled_stage = false
 verify = [
-  "The quoted lines and the funding figures are from a Fight Aging! post of 2019-10-22 reproducing the editorial, not from the editorial itself; the issue month (October 2019) and pages are from the publisher's index.",
+  "The quoted lines and the funding figures are from a Fight Aging! post of 2019-10-22 reproducing only the opening of the editorial, not from the editorial itself; the issue month and pages are confirmed (Crossref, PubMed).",
 ]
 notes = """
 Intended leaves: the TAME trial enrolling, under energy and fuel sensing, and a regulator accepting

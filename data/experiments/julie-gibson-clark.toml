@@ -30,8 +30,7 @@ link = "https://www.fortune.com/well/article/reverse-aging-habits-daily-routine-
 branches = ["measuring-age"]
 
 verify = [
-  "Everything here is from coverage (Fortune 2023-12-09; a podcast page; a 2026-07-27 press release); she has published nothing of her own that could be found. The start year is an inference from the 2023 ranking.",
-  "Whether she still appears on the Rejuvenation Olympics board.",
+  "Everything here is from coverage (Fortune 2023-11-04 and 2023-12-09; a NOVOS page of 2024-09-11; a podcast page of 2025-05-27; a press release of 2026-07-28); she has published nothing of her own that could be found. The start year 2023 is the year of her leaderboard place, not of her routine, which Fortune says began over a decade earlier.",
 ]
 notes = """
 The record layout requires a link to the person's own publication; this record has none, which is why

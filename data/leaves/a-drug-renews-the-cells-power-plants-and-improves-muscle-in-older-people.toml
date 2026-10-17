@@ -10,7 +10,7 @@ age, so old muscle runs on tired machinery. Urolithin A, a molecule the gut make
 pomegranate and nuts, turns the clear-out back on; in 2016 it lengthened the lives of worms and
 improved the running of old mice. In 2019 a Swiss company reported the first people: four weeks
 of the compound in sixty healthy older adults was safe and switched on the mitochondrial genes
-in their muscle, and later controlled trials found modest gains in muscle endurance. It is sold
+in their muscle; a later controlled trial in older adults found modest gains in muscle endurance, and one in middle-aged adults gains in muscle strength. It is sold
 as a supplement; no regulator has approved it as a drug."""
 test = """
 A controlled trial in people reports that a drug given to renew or protect mitochondria
@@ -25,17 +25,16 @@ stage_record = "https://doi.org/10.1038/s42255-019-0073-4"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "The 2019 Nature Metabolism report (Andreux, Auwerx, Rinsch and colleagues at Amazentis; urolithin A in 60 sedentary older adults, safe, mitochondrial gene expression up in muscle) and its date, 14 June 2019, are from memory.",
-  "The 2016 Nature Medicine report (Ryu and colleagues; urolithin A extended the life of worms and improved muscle function in old mice) is from memory and is not recorded as an earlier stage for lack of a checked date.",
-  "That two later controlled trials (2022, in JAMA Network Open and Cell Reports Medicine) found gains in muscle endurance but not in the six-minute walk is from memory.",
-  "That elamipretide, a different mitochondria-protecting drug, was approved by the United States regulator in September 2025 for a rare inherited disease (Barth syndrome) is from memory; it is not the record here because the condition is not age-related, and the leaf should move if it is approved for one.",
-]
 notes = """
 Two routes sit under this leaf: a molecule that makes the cell replace its own power plants, and
 drugs that shield the ones it has. The approval of such a drug for a rare inherited disease in
 2025, if confirmed, means the regulatory path exists; what is missing is a trial in ordinary
 age-related muscle loss (sarcopenia), which has no approved drug at all."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "2013-06-11"
+record = "https://doi.org/10.1111/acel.12102"
 
 [estimate]
 status = "first-pass"

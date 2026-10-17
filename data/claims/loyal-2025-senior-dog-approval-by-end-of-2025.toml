@@ -10,6 +10,7 @@ quote = "the company anticipates completion of the manufacturing and safety requ
 is_paraphrase = false
 commits_to = "The two remaining sections of the conditional-approval application for LOY-002 complete by the end of 2025, and, in the same post, an approved longevity drug for millions of dogs within the next year."
 branches = ["energy-and-fuel"]
+leaves = ["a-drug-is-approved-to-make-dogs-live-longer"]
 verdict = "missed"
 verdict_on = 2026-10-16
 verdict_why = "The company's own post of 2026-01-13 says the safety section was accepted but the manufacturing section remains, with the application now expected in 2027; its posts of 2026-02-11 and 2026-09-16 report no approval for any of its drugs."

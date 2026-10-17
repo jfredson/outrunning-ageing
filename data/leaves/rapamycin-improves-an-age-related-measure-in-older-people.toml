@@ -31,10 +31,7 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "The 2014 Science Translational Medicine report (Mannick and colleagues; everolimus improved flu vaccine response in 218 older adults) and its date, 24 December 2014, are from memory.",
-  "That the successor company's (resTORbio) late-stage (phase 3) trial of RTB101 for respiratory infections failed in November 2019 is from memory.",
-  "The 2025 PEARL trial (Moel and colleagues, in Aging, 4 April 2025; 114 people, 48 weeks, no change in visceral fat, lean mass and well-being gains in subgroups, a dosing-formulation problem mid-trial) was checked against the journal listing; its DOI was not in hand.",
-  "No animal rung is recorded on this leaf: the 2009 mouse lifespan result is on the companion leaf and is not repeated here.",
+  "No animal rung is recorded on this leaf: the 2009 mouse lifespan result (Harrison and colleagues, Nature, 2009-07-08) is on the companion leaf and shows longer life, not the improvement of an age-related function that this leaf asks for; whether it should also be recorded here is undecided.",
 ]
 notes = """
 Doctors at a number of private clinics prescribe rapamycin off-label for ageing, and many people

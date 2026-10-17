@@ -29,8 +29,7 @@ mechanism = "Breed pig embryos lacking the gene for one organ; add human stem ce
 breaking_point = "Human and pig cells grow at different speeds and answer different signals, so human cells have so far made up only a small share of the organ past the embryo stage; a working organ needs them to win that competition throughout, and nothing yet does that. The ethics of human cells reaching a pig's brain or sperm adds a second barrier that is not technical."
 
 verify = [
-  "The 2023 Cell Stem Cell report (Wang, Lai and colleagues; humanised kidney structures in pig embryos at 25 to 28 days, with the DOI 10.1016/j.stem.2023.08.003 and the date 7 September 2023) is from memory.",
-  "That human-mouse and human-pig chimeric embryos from 2017 (Wu, Izpisua Belmonte and colleagues, Cell) had a human cell share below one in a thousand is from memory.",
+  "That human cells made up less than one in a thousand of the cells in the 2017 human-pig chimeric embryos (Wu, Izpisua Belmonte and colleagues, Cell) is from press coverage (under 0.001 per cent); the paper's own figure was not found in its text.",
 ]
 notes = """
 The pig-organ leaf (a gene-edited pig's own organ) and the lab-grown-organ leaf are the two

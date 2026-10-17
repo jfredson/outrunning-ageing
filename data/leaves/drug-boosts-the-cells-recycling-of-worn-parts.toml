@@ -26,9 +26,7 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "The 2016 Nature Medicine report (Eisenberg, Madeo and colleagues; spermidine in drinking water extended the lives of mice and protected ageing hearts) and its date, 14 November 2016, are from memory.",
-  "That the SmartAge trial (Schwarz and colleagues, JAMA Network Open, 2022; spermidine for a year in older adults with memory complaints, no effect on memory) found no benefit is from memory.",
-  "That trehalose, urolithin A and metformin are also described as autophagy boosters, and that none has a controlled human function result attributed to that mechanism, is from memory.",
+  "That trehalose, urolithin A and metformin are described as autophagy boosters holds (urolithin A as a mitophagy activator). Two controlled trials of urolithin A (2022) missed their main measures but improved muscle endurance or strength on secondary measures; the leaf's test asks for the main measure, so they are not counted.",
 ]
 notes = """
 The difficulty with this leaf is that most drugs on the energy branch also boost recycling, so a

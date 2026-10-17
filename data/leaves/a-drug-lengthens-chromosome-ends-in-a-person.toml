@@ -27,9 +27,7 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "That the 2016 report appeared on 19 May 2016 is from memory; the paper is Townsley and colleagues, New England Journal of Medicine 374, pages 1922 to 1931.",
-  "That a 2024 long-term follow-up from the same group (an American Society of Hematology abstract) found telomere length stable in five of nine patients and still shortening in three is from a conference listing, not a peer-reviewed paper.",
-  "No animal rung is recorded: whether danazol or a related hormone was shown to lengthen telomeres in a living animal before 2016 was not checked.",
+  "The 2024 long-term follow-up (conference abstract, 2024-12-08: telomere length stable in five of nine evaluable patients, still shortening in three, lengthening in one) now has a peer-reviewed version in Blood Advances (2026, volume 10, page 208); its figures have not been read.",
 ]
 notes = """
 Danazol is a prescription drug, and doctors at a few specialist centres give it to people with
@@ -37,6 +35,11 @@ telomere diseases on the strength of this trial. That is off-label use, which th
 from the clinic rung on purpose, so that the rung means a regulator looked at the evidence. A
 telomerase gene therapy, the other route to the same result, has its own leaf at the animal
 rung."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "2015-07-23"
+record = "https://doi.org/10.3324/haematol.2015.129239"
 
 [estimate]
 status = "first-pass"

@@ -20,10 +20,7 @@ started (see afar-2026)."""
 branches = ["energy-and-fuel", "measuring-age"]
 moved_range = false
 settled_stage = false
-verify = [
-  "The authors' full first names (Nir, Jill P., Stephen B., Mark A.) are from memory; the indexed record gives only initials (Barzilai N, Crandall JP, Kritchevsky SB, Espeland MA).",
-  "The exact day of the June 2016 issue was not confirmed; the indexed record gives only the month.",
-]
+
 notes = """
 Intended leaves: the TAME trial enrolling, and a drug makes people live longer in good health
 (metformin), under energy and fuel sensing; and a regulator accepting an ageing marker or a

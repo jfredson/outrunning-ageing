@@ -26,10 +26,6 @@ stage_publication = "baker-2016"
 status = "tracked"
 horizon = "far"
 
-verify = [
-  "The 2016 Nature report (Baker and colleagues; mice engineered so their aged cells could be killed from middle age lived about 25 per cent longer) and its date, 3 February 2016, are from memory.",
-  "The 2018 Nature Medicine report (Xu and colleagues; a course of dasatinib plus quercetin given to old mice extended their remaining life) and its DOI, 10.1038/s41591-018-0092-9, are from memory.",
-]
 notes = """
 This is the lifespan leaf for the branch; the measurement leaf (fewer aged cells in a person) and
 the clinical-benefit leaf (a controlled trial won) are separate, because a drug can clear the

@@ -6,7 +6,7 @@ name = "A treatment slows a biological age clock in a controlled trial"
 branch = "measuring-age"
 description = """
 A clock is only useful to a trial if a treatment can move it, and the first clear case came from
-the oldest treatment in the field. The CALERIE trial cut the calories of 143 healthy adults by
+the oldest treatment in the field. The CALERIE trial cut the calories of 145 healthy adults by
 about twelve per cent for two years, against 75 who ate as usual, and in 2023 a Columbia and
 Duke group read the pace of ageing from their blood, with DunedinPACE, before and after: the
 restricted group's pace had slowed by two to three per cent, while the clocks that read the level
@@ -29,9 +29,7 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "The 2023 Nature Aging report (Waziry, Belsky and colleagues; the CALERIE trial, DunedinPACE slowed by 2 to 3 per cent in the restricted group, PhenoAge and GrimAge unchanged) and its date, 9 February 2023, are from memory.",
-  "Whether the clock analysis was pre-registered before unblinding, as the test asks, is from memory of the paper's methods and should be checked; if it was not, the leaf's stage still stands on the controlled result but the notes should say so.",
-  "The CALERIE figures (143 restricted, 75 control, about 12 per cent restriction over two years) are from memory.",
+  "The CALERIE paper itself calls the clock analysis 'a post hoc analysis' (assays were blind to trial arm, but the analysis was not planned before unblinding); the description's 'pre-planned' and the test's 'planned before the data were unblinded' do not match it. John to rule.",
 ]
 notes = """
 The leaf exists so that the tree separates three things that get mixed up: a clock that

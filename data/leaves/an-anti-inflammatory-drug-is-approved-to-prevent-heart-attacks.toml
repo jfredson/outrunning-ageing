@@ -29,10 +29,7 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "The approval package link (application 215727, Lodoco, Agepha Pharma) and the approval date (16 June 2023; the company announced it on 20 June) are from the regulator's listing as found by a web search on 2026-10-16; the document was not opened.",
-  "The 2017 CANTOS report (Ridker and colleagues, New England Journal of Medicine, 21 September 2017; 10,061 people, a 15 per cent cut in the main heart outcome) and its DOI are from memory.",
-  "The 2020 LoDoCo2 report (Nidorf and colleagues, New England Journal of Medicine; 5,522 people, a 31 per cent cut) is from memory and is not recorded as a stage because the 2017 trial settled the first-human rung earlier.",
-  "No animal rung is recorded: the mouse work on inflammation and atherosclerosis goes back decades and a single settling report was not sought.",
+  "No animal rung is recorded: a 2011 mouse study (Bhaskar and colleagues, Atherosclerosis, DOI 10.1016/j.atherosclerosis.2011.02.026) found less plaque with an antibody against the inflammatory signal IL-1 beta, but whether it, or an earlier report, is the right animal record for this test was not settled.",
 ]
 notes = """
 The branch's own line asks for an anti-inflammatory drug with a healthy-years result; this is a
@@ -43,7 +40,7 @@ mark against, and the yearly review should weigh it."""
 
 [[earlier_stage]]
 stage = "first-human"
-reached_on = "2017-09-21"
+reached_on = "2017-08-27"
 record = "https://doi.org/10.1056/NEJMoa1707914"
 
 [estimate]

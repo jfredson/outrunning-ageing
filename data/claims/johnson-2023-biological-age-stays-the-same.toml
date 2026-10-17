@@ -14,7 +14,7 @@ branches = ["measuring-age"]
 verdict = "unfalsifiable"
 
 verify = [
-  "The date the sentence first appeared; 2023-10-31 is the earliest capture read, not the first.",
+  "The date the sentence first appeared on his own pages: the archive's earliest capture is 2023-10-31, but a Substack post of 2023-06-04 already quotes the sentence, so it is at least that old; the first source is not found.",
 ]
 notes = """
 The version that circulates, that his goal is the organs of an eighteen-year-old, is press

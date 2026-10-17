@@ -5,10 +5,10 @@
 id = "david-sinclair-own-regimen"
 who = "David Sinclair"
 who_is = "the Harvard genetics professor David Sinclair, author of the 2019 book Lifespan, co-founder of several longevity companies including a biological-age testing company, who describes his own supplement and fasting routine in public and reports his own clock readings"
-started = "1999"
+started = "2006"
 status = "running"
 what = """
-By his own account he started at thirty: a daily dose of a precursor of a cell-energy molecule
+By his own account (interview of 2026-09-15) he has taken resveratrol for about twenty years and NMN for at least thirteen. His routine: a daily dose of a precursor of a cell-energy molecule
 (NMN), resveratrol, metformin taken in alternation with his training, no breakfast beyond a few
 bites of yoghurt, and exercise. He has not published doses on the pages read for this record."""
 measures = """
@@ -29,7 +29,5 @@ link = "https://www.insidetracker.com/a/articles/how-harvards-david-sinclair-unl
 branches = ["energy-and-fuel", "measuring-age"]
 
 verify = [
-  "The start year is calculated from his phrase that he started at thirty and his birth year (1969); find a dated statement.",
-  "The specific figures that circulate (late fifties calendar age, low forties clock age) were not found in his own words; coverage of 2023-03-16 gives 53 against 43 without a source post.",
-  "Whether he has qualified or updated his own-age claim since 2024.",
+  "No update or qualification of his own-age claim was found in searches of 2026-10-17 or in a 2026-09-15 interview read to the point its transcript is cut off; 2025 podcasts were not checked.",
 ]

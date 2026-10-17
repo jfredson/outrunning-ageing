@@ -15,12 +15,11 @@ losing their identity. In mice bred to age fast (the LAKI progeria model) the cy
 reduced the signs of ageing in several tissues and lengthened life; in normally aged mice it
 improved the repair of muscle and pancreas after injury. The first demonstration that partial
 reprogramming can be done in a living animal without killing it with tumours."""
+leaves = ["partially-resetting-cells-reverses-ageing-in-an-animal"]
 branches = ["cell-settings"]
 moved_range = false
-settled_stage = false
-verify = [
-  "The author list is from the publisher's indexed record and was not read off the paper's own first page; the first and last authors (Ocampo; Izpisua Belmonte) are confirmed.",
-]
+settled_stage = true
+
 notes = """
 Intended leaf: partially resetting cells reverses ageing in a living animal, under the cell's
 settings; one of the five leaves shared with The Upgrade Tree. The paper itself gives no

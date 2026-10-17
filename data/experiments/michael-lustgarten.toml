@@ -30,7 +30,6 @@ link = "https://michaellustgarten.wordpress.com/"
 branches = ["measuring-age"]
 
 verify = [
-  "The start year is the earliest year in his site's archive; find his own account of when the tracking began.",
-  "The twenty-two-year figure is from post titles; the posts' bodies read on 2026-10-16 did not give his calendar age or the exact value.",
-  "His job title and paper count are from a podcast biography and the first page of his PubMed listing, not his own site.",
+  "The start year 2014 is the earliest year of his site's archive and not a start of tracking: show notes of a podcast of 2023-11-15 give 2008 for yearly blood tests and 2015 for diet logging, from his own account, which was not heard. Find his own words or the date he began publishing his results.",
+  "His job title ('Scientist II' in a 2023 podcast biography) is not confirmed by a current Tufts page: he is absent from the research centre's scientists list and his newest papers give the Friedman School of Nutrition Science and Policy as address. The paper count (36 on a PubMed author search) was not checked for namesakes.",
 ]

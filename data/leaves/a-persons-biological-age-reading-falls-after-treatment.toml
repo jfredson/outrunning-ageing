@@ -8,9 +8,9 @@ description = """
 The chemical marks that tell a cell which genes to read drift with age in a regular enough way
 that a reading of them from a blood sample gives a "biological age". Whether a treatment can turn
 that reading back in a person is the question this leaf asks. In 2019 a small California trial
-gave nine men in their fifties and sixties a year of growth hormone with two diabetes drugs, aimed
+gave nine men in their fifties and sixties a year of growth hormone with a second hormone (DHEA) and the diabetes drug metformin, aimed
 at regrowing the thymus (the gland that trains immune cells), and found that their readings on
-four such clocks had fallen by about two and a half years, and the fall held six months after the
+four such clocks had fallen by about a year and a half from the start (two and a half years below what was expected untreated), and the fall held six months after the
 course ended. There was no control group and only nine men, so it is a first human on a
 measurement, not a proof."""
 test = """
@@ -28,9 +28,8 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "The 2019 Aging Cell report (Fahy, Horvath and colleagues, the TRIIM trial: growth hormone, DHEA and metformin for a year in nine men, epigenetic age down about 2.5 years) and its date, 8 September 2019, are from memory.",
-  "That a larger controlled follow-up (TRIIM-X) was running and had not reported in a peer-reviewed journal as of 2026-10-16 is from memory.",
-  "No animal rung is recorded: whether a clock reading was reversed by a drug in a living animal before 2019 was not checked (the 2016 partial-resetting work used other markers).",
+  "That the larger controlled follow-up (TRIIM-X) was still running on 2026-10-16 is unconfirmed (its registry entry was last updated in May 2025); no peer-reviewed results report was found in searches of Europe PMC.",
+  "No animal rung is recorded: the nearest earlier report is a 2017 mouse study (Genome Biology, 2017-03-28) where dietary rapamycin left liver epigenetic age younger than in untreated mice, a slowed clock rather than a reversal, so it is not counted (the 2016 partial-resetting work used other markers).",
 ]
 notes = """
 This leaf and the measuring branch meet here: a falling clock reading is only worth what the

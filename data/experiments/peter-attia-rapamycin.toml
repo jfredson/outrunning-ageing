@@ -10,7 +10,7 @@ status = "running"
 what = """
 By his own account on a podcast recorded in 2024: eight milligrams of rapamycin once a week, for
 about two months at a time with a month off because of mouth ulcers, over about six years. In
-2018 he had said on another podcast that he was not yet taking it."""
+2016 he had said on another podcast (released 2016-10-20) that he was not yet taking it."""
 measures = """
 Nothing he has published about himself beyond the regimen; he said on the same 2024 podcast that
 he had no idea whether he felt any effect, and that he puts little stock in biological-age clocks.
@@ -26,10 +26,6 @@ a record, and a non-claim about one person is not a record either."""
 link = "https://hubermanlab.com/episode/dr-peter-attia-supplements-for-longevity-their-efficacy"
 branches = ["energy-and-fuel"]
 
-verify = [
-  "The start year is calculated from his 2024 statement of about six years and is not a date he gave.",
-  "The 2018 statement that he was not yet taking it is from a transcript posted 2018-06-05 on tim.blog; the recording may be earlier.",
-]
 notes = """
 His own site's 2021 article on rapamycin is about the drug's history, not his use; his book page
 says nothing about his own regimen."""

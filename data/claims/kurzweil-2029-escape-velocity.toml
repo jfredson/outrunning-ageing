@@ -18,8 +18,8 @@ about_the_headline = true
 verdict = "not-yet-due"
 
 verify = [
-  "The sentence was read in snippet view, so the words immediately before it on page 192 were not seen; check against a copy of the book.",
-  "The publication date, 2024-06-25, is the publisher's e-book date; the hardcover date was confirmed only from a bookseller's listing.",
+  "The sentence was read in snippet view, so the words immediately before it on page 192 were not seen; check against a copy of the book. Two reviews (Nautilus, a Substack review) restate the claim without page numbers.",
+  "The hardcover date (2024-06-25) rests on library catalogue and bookseller listings; the publisher's page confirms 2024-06-25 only for the e-book and audiobook.",
 ]
 notes = """
 The famous version is 2029. The book's longevity pages (189 to 194 and 255 to 257, by its index)

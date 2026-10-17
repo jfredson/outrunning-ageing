@@ -6,10 +6,11 @@ name = "Fresh mitochondria are transplanted into a person's failing tissue"
 branch = "energy-and-fuel"
 description = """
 Mitochondria are the cell's power plants, and they fail with age; one way around that is to put
-fresh ones in. A Boston group showed in the 2000s that mitochondria taken from a healthy muscle
-and injected into a rabbit's or pig's heart during a heart attack were taken up by the heart
-cells and helped the heart recover. In 2017 the same group reported the first people: five
-babies whose hearts had failed after surgery, given mitochondria from their own thigh muscle,
+fresh ones in. From 2009 to 2016 a Boston group showed, first in rabbit hearts kept alive in a dish and then in
+living rabbits and pigs, that mitochondria taken from a healthy muscle and injected into the heart
+during a heart attack were taken up by the heart cells and helped the heart recover. In 2017 the same group reported the first people: five
+babies and young children whose hearts had failed after surgery, given mitochondria from their own
+abdominal muscle,
 four of whom came off the heart-lung machine. It is a first human on a function, in a desperate
 setting, with no control group. Whether the same could refresh an old person's tissues is what
 the leaf tracks."""
@@ -27,15 +28,18 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "The 2017 Journal of Thoracic and Cardiovascular Surgery report (Emani, McCully and colleagues at Boston Children's; five infants, four weaned from support) and its month, July 2017, are from memory.",
-  "The animal work (McCully and colleagues, rabbit hearts, 2009, American Journal of Physiology) is from memory and is not recorded as an earlier stage for lack of a checked date.",
-  "That trials of mitochondrial transplantation in stroke, heart attack and muscle disease had treated people in Taiwan, the United States and elsewhere by 2026 is from memory; that none had reported a controlled result is from memory.",
+  "That trials of mitochondrial transplantation have treated people in stroke (United States), heart attack (Iran) and muscle disease (Korea) is confirmed; whether a trial in Taiwan exists is unchecked, and note that a small randomised heart-attack trial (Iran, 2024) has reported a controlled result.",
 ]
 notes = """
 This is a different thing from the mitochondrial replacement used in fertility clinics (a donor's
 mitochondria put into an egg), which is reproduction, not repair, and is not on this tree. The
 leaf's hard problem is that injected mitochondria do not last; whether they help by being taken
 up or by signalling is still argued."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "2013-01-25"
+record = "https://doi.org/10.1152/ajpheart.00883.2012"
 
 [estimate]
 status = "first-pass"

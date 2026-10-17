@@ -30,8 +30,7 @@ horizon = "mid"
 sibling = "lifespan-a-drug-adds-healthy-years-to-a-life"
 
 verify = [
-  "The date of the 2009 Nature report (8 July 2009; Harrison and colleagues, the National Institute on Aging's testing programme, rapamycin from twenty months of age) is copied from The Upgrade Tree's record and not re-checked here.",
-  "That the long-planned metformin trial (TAME) had still not enrolled anyone as of mid-2026, for lack of money, is from 2026 trade coverage; some 2026 web pages say the opposite and were judged unreliable.",
+  "That TAME had still not enrolled anyone as of mid-2026, for lack of money, rests on 2026 web coverage only; no statement from the trial team or its funder was read, no ClinicalTrials.gov entry was found, and some 2026 pages claim the opposite without sources.",
 ]
 notes = """
 The record is the 2009 report from the National Institute on Aging's testing programme, in which
