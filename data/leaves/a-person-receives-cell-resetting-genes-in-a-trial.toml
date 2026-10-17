@@ -27,9 +27,6 @@ stage_publication = "life-biosciences-2026"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "No earlier stage is recorded: the animal rung for this leaf is the same 2016 and 2020 work that the companion leaf carries, and is not repeated here.",
-]
 notes = """
 The companion leaf, partially resetting cells reverses ageing in a living animal, is the one
 shared with The Upgrade Tree and the one that needs a measured result in a person; this leaf
@@ -42,6 +39,10 @@ adverse events by day 56, a safety board's recommendation to move to the second 
 preliminary improvement in the visual field in two of the three. It is a company announcement of an
 open-label safety trial; this entry counts the dose, which was already on the record, so the stage does
 not change.
+No earlier stage is recorded because this leaf's test has no animal rung of its own: it asks for a dose to a person in a registered
+trial. The animal work on the same genes is carried by the companion leaf, whose stage record is the 2016 Cell paper
+(https://doi.org/10.1016/j.cell.2016.11.052) and which describes the 2020 mouse eye work (https://doi.org/10.1038/s41586-020-2975-4);
+it is not repeated here (checked 2026-10-17).
 """
 
 [estimate]

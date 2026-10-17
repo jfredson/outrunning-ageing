@@ -26,9 +26,6 @@ stage_publication = "bernardes-de-jesus-2012"
 status = "tracked"
 horizon = "far"
 
-verify = [
-  "That a company chief executive, Elizabeth Parrish of BioViva, said in 2015 that she had taken a telomerase gene therapy herself is confirmed (MIT Technology Review, 2015-10-14); a 2022 single-patient case report on the same therapy (journal and subject unconfirmed) and a 2019 registered AAV-hTERT trial in Colombia (NCT04133649, no result found) still need to be read.",
-]
 notes = """
 The same Madrid group later reported telomerase gene therapy repairing lung scarring and
 anaemia in mice with short telomeres. A separate leaf on this branch holds the one human result
@@ -41,6 +38,14 @@ blood stem cells were treated outside the body with the gene ZSCAN4 (myers-2025)
 length in a class of white blood cells rose from 3.6 to 6.7 thousand base pairs. It was not entered
 as the first-human rung, for the four reasons given in the estimate's dated note. FOR JOHN: whether
 that report counts is a reading of the test.
+Added 2026-10-17, after checking the registry: the telomerase gene therapy trial in Colombia is a
+small first trial (registry entry NCT04133649) of a single intravenous dose of a virus carrying the
+human telomerase gene, sponsored by a company, Libella Gene Therapeutics, at one site in Zipaquirá,
+Colombia. It started on 2019-10-17 with five people planned, was last updated on 2019-12-06 with its
+status unknown, and has posted no result, so it does not move the first-human rung. A 2022
+single-patient case report of this kind of therapy that was noted earlier was removed from the record
+on 2026-10-17 for want of a source: a report of that kind was found only as a publisher's abstract
+whose page does not open, and it does not name the person treated.
 """
 
 [estimate]
@@ -57,8 +62,8 @@ of treatment late in the century.
 [Note 2026-10-17, from the weekly reading of that date: the first sentence above is wrong as
 written. A registered gene-therapy trial in people with a telomere disease did exist, for a
 different gene, ZSCAN4 (registry entry NCT04211714), and it published two patients in 2025
-(myers-2025); the checks listed on this entry also name a 2019 trial of a telomerase gene therapy registered
-in Colombia. The ZSCAN4 report does not meet this entry's first-human test on a plain reading: the
+(myers-2025); the registry also holds a 2019 trial of a telomerase gene therapy registered
+in Colombia (registry entry NCT04133649; no result posted). The ZSCAN4 report does not meet this entry's first-human test on a plain reading: the
 gene is ZSCAN4 and not telomerase, the cells were treated outside the body, there are two patients,
 and no cancer rate is given. The years are unchanged. Whether the ZSCAN4 report should count for the
 first-human rung is John's ruling; if it does, the first-human estimate falls away with the move.]
@@ -91,3 +96,17 @@ old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, from the weekly reading of that date: the one human result of lengthened telomeres from a gene therapy is a 2025 report of two people with a rare telomere disease, whose own blood stem cells were treated outside the body with the gene ZSCAN4 (myers-2025); in one the average length in a class of white blood cells rose from 3.6 to 6.7 thousand base pairs. It was not entered as the first-human rung, for the four reasons given in the estimate's dated note. FOR JOHN: whether that report counts is a reading of the test."
 why = "[reading 2026-10-17] Records the ZSCAN4 report and leaves the first-human question for John."
 publication = "myers-2025"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "(myers-2025); the checks listed on this entry also name a 2019 trial of a telomerase gene therapy registered in Colombia."
+new = "(myers-2025); the registry also holds a 2019 trial of a telomerase gene therapy registered in Colombia (registry entry NCT04133649; no result posted)."
+why = "[verification 2026-10-17] The dated note pointed to a list of checks that no longer exists on this entry; it now names the registry entry itself. No year changed."
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-17, after checking the registry: the telomerase gene therapy trial in Colombia is a small first trial (registry entry NCT04133649) of a single intravenous dose of a virus carrying the human telomerase gene, sponsored by a company, Libella Gene Therapeutics, at one site in Zipaquirá, Colombia. It started on 2019-10-17 with five people planned, was last updated on 2019-12-06 with its status unknown, and has posted no result, so it does not move the first-human rung. A 2022 single-patient case report of this kind of therapy that was noted earlier was removed from the record on 2026-10-17 for want of a source: a report of that kind was found only as a publisher's abstract whose page does not open, and it does not name the person treated."
+why = "[verification 2026-10-17] Records what the registry entry says and removes an unsourced case report; no stage or year changed."

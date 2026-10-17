@@ -12,7 +12,7 @@ a National Institutes of Health group gave such people danazol, a synthetic horm
 on the market for decades, and measured their telomeres: in eleven of the twelve people who
 reached two years, the caps had grown longer, and most patients' blood counts improved. It is the
 first measured lengthening of telomeres in people by a drug. The drug is not approved for the
-purpose, a follow-up found the gain did not hold in everyone, and it was given for a rare disease,
+purpose, a long-term follow-up published in 2026 measured telomere length again, by a different method, in the few patients with usable samples, and found it stable, with no significant lengthening, and it was given for a rare disease,
 not for ageing."""
 test = """
 A person given a treatment afterwards has measurably longer telomeres (the caps on chromosome
@@ -26,15 +26,21 @@ stage_record = "https://doi.org/10.1056/NEJMoa1515319"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "The 2024 long-term follow-up (conference abstract, 2024-12-08: telomere length stable in five of nine evaluable patients, still shortening in three, lengthening in one) now has a peer-reviewed version in Blood Advances (2026, volume 10, page 208); its figures have not been read.",
-]
 notes = """
 Danazol is a prescription drug, and doctors at a few specialist centres give it to people with
 telomere diseases on the strength of this trial. That is off-label use, which the test excludes
 from the clinic rung on purpose, so that the rung means a regulator looked at the evidence. A
 telomerase gene therapy, the other route to the same result, has its own leaf at the animal
-rung."""
+rung.
+Checked 2026-10-17: the long-term follow-up is a research letter in Blood Advances (Lee and colleagues, volume 10, pages 208 to 212,
+online 2025-10-22, https://doi.org/10.1182/bloodadvances.2025017860; open access, https://pmc.ncbi.nlm.nih.gov/articles/PMC12805271/).
+It reports 26 evaluable patients, median follow-up 3.3 years, and says danazol 'stabilized telomere attrition'. Telomere length was
+re-measured by flow-FISH (a different method from the 2016 trial's): in two patients with stored samples from enrolment and two
+years after treatment it was stable, in eight patients followed after the trial it was stable whether or not danazol was restarted,
+and 'no significant TL elongation was observed in this limited number of samples'; the authors call the analysis limited by cohort
+size. The figures from the 2024 conference abstract (stable in five of nine evaluable patients, shortening in three, lengthening in
+one) are not in the letter and are no longer used here. The stage rests on the 2016 report of lengthening by its own method.
+"""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -58,3 +64,10 @@ rung = "in-clinical-use"
 earliest = 2030
 likely = 2036
 latest = 2070
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "a follow-up found the gain did not hold in everyone"
+new = "a long-term follow-up published in 2026 measured telomere length again, by a different method, in the few patients with usable samples, and found it stable, with no significant lengthening"
+why = "[verification 2026-10-17] The peer-reviewed long-term follow-up (Blood Advances, 2026, volume 10, page 208) was read. It reports stable telomere length by a second method and no significant lengthening in the few patients with later samples, not a gain that held in some and not in others; its figures differ from the 2024 conference abstract's. The stage does not change."

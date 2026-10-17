@@ -32,10 +32,6 @@ stage = "idea-only"
 status = "tracked"
 horizon = "near"
 
-verify = [
-  "That no lifespan drug for dogs had been approved by any regulator as of 2026-10-17 rests on the company's own posts and a web search; the regulator's own list of conditional approvals was not read.",
-  "That the manufacturing section of the application was still outstanding on 2026-10-17, with the application now expected in 2027, is from the company's post of 2026-01-13 as the claims log records it and from the company's for-vets page, which lists the manufacturing section as in progress; a later company or regulator statement may exist.",
-]
 notes = """
 Why the stage is idea only (ruled by John on 2026-10-17 as the verify session proposed). The ladder is written for treatments
 meant for people, and its second rung asks for a peer-reviewed report that the treatment works in
@@ -64,7 +60,23 @@ Run `scripts/compute.py run` to see the effect; the verify session's report to J
 numbers before and after. An approval for dogs says nothing yet about people, which is the other
 reason this leaf was put to John; he ruled on 2026-10-17 that the leaf stands with the stage idea
 only and the estimate as proposed (earliest 2027, likely 2028, latest 2032).
-Related: loyal-2025-senior-dog-approval-by-end-of-2025 (the end-of-2025 promise, missed)."""
+Related: loyal-2025-senior-dog-approval-by-end-of-2025 (the end-of-2025 promise, missed).
+Checked on 2026-10-17 against the regulator's own news list and the company's own pages. The United
+States veterinary regulator's list of its announcements, which runs to 2026-09-30
+(https://www.fda.gov/animal-veterinary/news-events/cvm-updates), shows no approval or conditional
+approval of a drug to extend dogs' lives; its conditional approvals there are for other uses (for
+example new world screwworm, a heart condition in cats, and a condition of the skull and spine in dogs). The company's
+page for veterinarians (https://loyal.com/for-vets, read the same day) lists the manufacturing section
+of the application and the conditional approval as "In progress", and the safety section as complete.
+The company's news release of 2026-01-13, as carried by Yahoo Finance
+(https://finance.yahoo.com/news/loyal-receives-fda-acceptance-safety-140000887.html), says it
+expected to complete the final major section and apply for expanded conditional approval "next year",
+that is 2027, and the veterinary trade paper dvm360 of the same day reports that the company expects
+the final section to be reviewed in 2027. The regulator's
+explanation of the route, including the five-year limit on a conditional approval, is at
+https://www.fda.gov/animal-veterinary/resources-you/conditional-approval-explained-resource-veterinarians.
+The regulators of other countries were not searched on their own lists; a web search on that day
+found no approval of a dog lifespan drug anywhere else."""
 
 [estimate]
 status = "first-pass"
@@ -84,3 +96,10 @@ rung = "in-clinical-use"
 earliest = 2027
 likely = 2028
 latest = 2032
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; the result of checking the regulator's own news list and the company's own pages added at the end of the notes)"
+new = "Checked on 2026-10-17: the United States veterinary regulator's list of announcements, to 2026-09-30, shows no approval or conditional approval of a drug to extend dogs' lives; the company's own page lists the manufacturing section and the conditional approval as in progress, and its news release of 2026-01-13 expected to apply 'next year', that is 2027."
+why = "Checked against the regulator's own list and the company's own pages on 2026-10-17; the two statements previously rested on the company's posts and a web search."

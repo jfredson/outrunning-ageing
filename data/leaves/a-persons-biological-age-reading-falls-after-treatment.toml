@@ -27,15 +27,24 @@ stage_publication = "fahy-2019"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "That the larger controlled follow-up (TRIIM-X) was still running on 2026-10-16 is unconfirmed (its registry entry was last updated in May 2025); no peer-reviewed results report was found in searches of Europe PMC.",
-  "No animal rung is recorded: the nearest earlier report is a 2017 mouse study (Genome Biology, 2017-03-28) where dietary rapamycin left liver epigenetic age younger than in untreated mice, a slowed clock rather than a reversal, so it is not counted (the 2016 partial-resetting work used other markers).",
-]
 notes = """
 This leaf and the measuring branch meet here: a falling clock reading is only worth what the
 clock is worth, and the clock's own leaf is on that branch. The thymus side of the same trial has
 its place on the replacing-parts branch in the notes of the blood-stem-cell leaf. Clocks read
-from a person's DNA marks are sold to the public today; buying a reading is not the leaf."""
+from a person's DNA marks are sold to the public today; buying a reading is not the leaf.
+Checked 2026-10-17: the larger follow-up, TRIIM-X, is listed on ClinicalTrials.gov (NCT04375657,
+https://clinicaltrials.gov/study/NCT04375657) as a phase 2 trial, randomised and run in parallel with the people assessing outcomes
+masked, sponsored by Intervene Immune, with an estimated 85 people. Read live on 2026-10-17, the entry says 'recruiting', with a start
+of 2020-11-23, an estimated primary completion of 2025-12, status last verified 2025-05 and last updated 2025-05-07; so the registry
+still shows it running, with a completion date that has passed. A search of Europe PMC on 2026-10-17 found no peer-reviewed report of
+its results, and the record does not rely on any.
+No earlier stage is recorded. The nearest earlier animal report is a 2017 mouse study (Wang and colleagues, Genome Biology,
+2017-03-28, https://doi.org/10.1186/s13059-017-1186-2) in which mice fed rapamycin had a liver epigenetic age significantly younger
+than untreated mice of the same age, on a clock built in that paper from 107 mouse livers. It is not a clean match for this leaf's
+test: it shows a slowed clock compared with untreated controls, not a reading that fell after treatment compared with before, and
+the clock was not validated beforehand. It is not entered as an earlier stage, and whether it should be is left for John to rule.
+The 2016 partial-resetting work used other markers.
+"""
 
 [estimate]
 status = "first-pass"

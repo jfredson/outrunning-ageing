@@ -12,8 +12,7 @@ from a patient's knee, growing the cells for weeks in the laboratory, and puttin
 under a flap of tissue to fill the hole; most of the 23 patients had good knees two years on. The
 cells-on-a-membrane version, MACI, was approved by the United States regulator on 13 December
 2016 after a controlled trial of 144 people in which it beat the standard operation on pain and
-function. It is the oldest approved therapy made from a person's own grown cells, and the
-branch's one leaf in the clinic. It repairs injuries in younger knees; whether grown cells can
+function. An earlier version of the same idea, Carticel, with the cells put back under a flap of tissue, was licensed by the same regulator on 1997-08-22 on the strength of two open-label studies with no control group. This is the one entry on the branch already in the clinic. It repairs injuries in younger knees; whether grown cells can
 resurface an old, worn joint is the open question."""
 test = """
 A person's own cells are grown outside the body and placed into a joint, and the joint's pain
@@ -28,15 +27,22 @@ stage_record = "https://web.archive.org/web/20180125064602/https://www.fda.gov/n
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "Carticel was first licensed in the United States in 1997 (its label says 'Initial U.S. Approval: 1997'); the month, and whether the licence rested on a controlled trial, were not checked. John ruled on 2026-10-17 that this stays open as written: the clinic date stays 2016-12-13 and the description stands until the 1997 licence basis is checked.",
-]
 notes = """
 This leaf is on the tree with a caveat said plainly: the approved use is for defects in
 otherwise healthy knees, mostly in people under fifty-five, and osteoarthritis of old age is
 excluded from the label. It counts toward the branch under the test as written because the test
 is about grown cells rebuilding a worn surface; the wide-use rung is where the age question is
-asked, and the yearly review may decide the leaf should be narrower."""
+asked, and the yearly review may decide the leaf should be narrower.
+Checked 2026-10-17 (John's ruling of the same day kept the clinic date at 2016-12-13 until this was checked): the regulator's own
+list of licensed biologics (the FDA Purple Book, https://purplebooksearch.fda.gov/downloads, monthly report for September 2026) shows
+Carticel (autologous cultured chondrocytes) from Vericel under licence number 103661, status discontinued, original approval
+1997-08-22, and MACI (licence number 125603) original approval 2016-12-13. Carticel's label (Revision M, 11/2015,
+https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=096cf052-6510-412a-abf3-24e5a33ea316) says 'Initial U.S. Approval: 1997'
+and, under 'Pre-Approval Studies', that the clinical information came from 2 open-label, observational studies: a series of 153
+patients treated in Sweden with a similar product, and the Cartilage Repair Registry. So the 1997 licence did not rest on a
+controlled trial, whereas MACI's 2016 approval did. The clinic date on this record stays 2016-12-13, the approval that followed a
+controlled trial; whether the test's clinic rung (a regulator approves such a product) was reached in 1997 is left for John to rule.
+"""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -71,3 +77,10 @@ field = "stage_reached_on"
 old = "2016-12-14"
 new = "2016-12-13"
 why = "The regulator's own release is dated 13 December 2016; 14 December was the company's notice. The stage itself is unchanged."
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "It is the oldest approved therapy made from a person's own grown cells, and the branch's one leaf in the clinic."
+new = "An earlier version of the same idea, Carticel, with the cells put back under a flap of tissue, was licensed by the same regulator on 1997-08-22 on the strength of two open-label studies with no control group. This is the one entry on the branch already in the clinic."
+why = "[verification 2026-10-17] 'The oldest approved therapy made from a person's own grown cells' is a priority claim that the regulator's record does not support for MACI: its forerunner Carticel was licensed on 1997-08-22 (FDA Purple Book; label 'Initial U.S. Approval: 1997') on open-label observational studies. The sentence now says that. The clinic date and the stage do not change, by John's ruling of 2026-10-17; whether the 1997 licence reached the clinic rung first is left for John."

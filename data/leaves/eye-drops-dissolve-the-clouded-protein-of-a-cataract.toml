@@ -10,10 +10,12 @@ lens of the eye transparent misfold and clump with age until the lens goes cloud
 treatment is to cut the lens out and put in a plastic one. In 2015 a group in San Diego and
 Guangzhou reported that lanosterol, a natural molecule, dissolved the clumps in a dish and
 cleared the lenses of dogs with cataracts when given as drops. Two later laboratories could not
-repeat the effect, and no human trial has been published. A controlled pilot trial of a drop derived
-from lanosterol (ZOC2017217, from the company Ocusun) in about 40 people has been running in the
-United States since 2026-02-10, with its first results expected from 2027-02; its makers also cite
-an unpublished exploratory study in China. The leaf is on the tree because
+repeat the effect, and no human trial has been published. A controlled pilot trial of a drop that its
+makers say is derived from lanosterol (ZOC2017217, from the company Ocusun) in about 40 people is
+registered in the United States with a start date of 2026-02-10, with its first results expected
+from 2027-02; the makers' release of 2026-07-14 also cites an exploratory study in China, described
+without a paper, in which, it says, 50.0 to 86.4 per cent of participants reached 20/40 vision 12
+to 24 weeks after treatment. The leaf is on the tree because
 cataract surgery is the most common operation in the world, and a drop that undid the protein
 damage would be the first drug anywhere to reverse an age-related protein clump."""
 test = """
@@ -28,9 +30,6 @@ stage_record = "https://doi.org/10.1038/nature14650"
 status = "tracked"
 horizon = "far"
 
-verify = [
-  "That the drop is derived from lanosterol, and the company's exploratory study in China (50.0 to 86.4 per cent reaching 20/40 vision at 12 to 24 weeks), are the sponsor's and its research partner's account in their release of 2026-07-14, which cites no paper; the registry entry itself does not name lanosterol.",
-]
 notes = """
 A related compound, a sterol called compound 29, was reported in Science in 2015 to do the same
 in mice, by a different group; it is not the record here because the dog result came first, and
@@ -38,7 +37,16 @@ it has the same replication question. The reader should take this leaf as the br
 case: one striking animal result, not confirmed, a decade on. Two later laboratories could
 not repeat the clearing: one in 2015 on human cataract lenses in a dish (Indian Journal of
 Ophthalmology), one in 2019 on rat and human lenses in a dish (Scientific Reports). Neither
-tried dogs, so the dog result is contested but has not itself been retested."""
+tried dogs, so the dog result is contested but has not itself been retested.
+
+That the new drop is derived from lanosterol, and the results of the exploratory study in China,
+are the company's own account, in the joint release of the sponsor (Ocusun) and its research
+organisation (Lexitas Pharma Services) of 2026-07-14, opened and read on 2026-10-17
+(https://www.biospace.com/press-releases/lexitas-pharma-services-and-ocusun-enroll-first-patient-in-a-pilot-study-for-an-upcoming-phase-iii-clinical-trial-evaluating-investigational-eye-drop-for-age-related-cataract).
+The registry entry (NCT07395986) does not name lanosterol, the release cites no paper for the study
+in China, and a search of the Europe PMC literature database on 2026-10-17 found no published report
+of it; the figures are therefore the company's statement, not a peer-reviewed result. The registry
+gives a start date of 2026-02-10 while the release says the first patient was enrolled on 2026-07-14."""
 
 [estimate]
 status = "first-pass"
@@ -51,8 +59,8 @@ for the biology (dissolving a clump without harming the lens) never being solved
 surgery stays the answer and the rung is never reached.
 [Note 2026-10-17, from the weekly reading of that date: the reasoning above rests on there being no
 registered human trial. That premise no longer holds: a randomised, double-masked,
-placebo-controlled phase 2 pilot of a lanosterol-derived drop has been registered and running since
-2026-02-10 (ocusun-2026), with a first patient announced on 2026-07-14, 8 people enrolled by the
+placebo-controlled phase 2 pilot of a drop that its makers say is derived from lanosterol has been
+registered with a start date of 2026-02-10 (ocusun-2026), with a first patient announced on 2026-07-14, 8 people enrolled by the
 registry's last update and a primary completion estimated for 2027-02. The earliest first-human
 year (2029), set on the premise that a trial would start within three years, was therefore met
 early. The years are unchanged; whether the first-human years should move, and whether this
@@ -85,4 +93,20 @@ field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
 new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above rests on there being no registered human trial. That premise no longer holds: a randomised, double-masked, placebo-controlled phase 2 pilot of a lanosterol-derived drop has been registered and running since 2026-02-10 (ocusun-2026), with a first patient announced on 2026-07-14, 8 people enrolled by the registry's last update and a primary completion estimated for 2027-02. The earliest first-human year (2029), set on the premise that a trial would start within three years, was therefore met early. The years are unchanged; whether the first-human years should move, and whether this company's drop answers the replication question about the 2015 dog result, are John's to weigh.]"
 why = "[reading 2026-10-17] A dated note that the estimate's premise of no registered human trial no longer holds; no year changed."
+publication = "ocusun-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "A controlled pilot trial of a drop derived from lanosterol (ZOC2017217, from the company Ocusun) in about 40 people has been running in the United States since 2026-02-10, with its first results expected from 2027-02; its makers also cite an unpublished exploratory study in China."
+new = "A controlled pilot trial of a drop that its makers say is derived from lanosterol (ZOC2017217, from the company Ocusun) in about 40 people is registered in the United States with a start date of 2026-02-10, with its first results expected from 2027-02; the makers' release of 2026-07-14 also cites an exploratory study in China, described without a paper, in which, it says, 50.0 to 86.4 per cent of participants reached 20/40 vision 12 to 24 weeks after treatment."
+why = "[verification 2026-10-17] The lanosterol origin and the China figures are the company's account in its release of 2026-07-14 (opened and read), not a registry or journal fact, so they are now attributed to it; the registry's start date is stated as the registry's, since the release says the first patient was enrolled on 2026-07-14."
+publication = "ocusun-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "placebo-controlled phase 2 pilot of a lanosterol-derived drop has been registered and running since 2026-02-10 (ocusun-2026)"
+new = "placebo-controlled phase 2 pilot of a drop that its makers say is derived from lanosterol has been registered with a start date of 2026-02-10 (ocusun-2026)"
+why = "[verification 2026-10-17] Wording only: attributes the lanosterol origin to the makers and the start date to the registry; no year changed."
 publication = "ocusun-2026"
