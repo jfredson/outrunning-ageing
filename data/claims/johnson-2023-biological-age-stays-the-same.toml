@@ -15,6 +15,7 @@ verdict = "unfalsifiable"
 
 verify = [
   "The date the sentence first appeared on his own pages: the archive's earliest capture is 2023-10-31, but a Substack post of 2023-06-04 already quotes the sentence, so it is at least that old; the first source is not found.",
+  "Bryan Johnson's 2026 statements are known only from coverage that was not opened or only partly opened: The Axios Show interview published 2026-10-08, headlined 'Inside Bryan Johnson's quest to make 300 the new 70' (the page was read to its paywall, and the interview itself was not heard or read); a Tages-Anzeiger interview reported by laRegione and Blue News on 2026-07-16, in which he is said to have called himself part of the first generation that will not die; Livemint of 2026-07-30; and the Honolulu Star-Advertiser of 2026-08-23. The exact words and dates are unchecked. The autoimmune gastritis he announced on X is covered by many outlets; his own post was not opened.",
 ]
 notes = """
 The version that circulates, that his goal is the organs of an eighteen-year-old, is press
@@ -22,4 +23,13 @@ framing from interviews; on his own pages eighteen-year-olds appear only as comp
 markers and in a line about restoring his joints. The verdict is the fixed set's word for a goal
 with no date; by his own figures (johnson-2024-pace-of-ageing-record) his pace has run between
 0.48 and 0.76 years per year, never zero. His programme is the self-experiment record
-bryan-johnson-blueprint."""
+bryan-johnson-blueprint.
+Updated 2026-10-17, from the weekly reading of that date: coverage in 2026 shows him restating the
+goal in different forms and not dropping it. By 2026-07 he was reported saying he belongs to the
+first generation that will not die, and on 2026-10-08 an Axios interview was headlined with the aim
+of making 300 the new 70 (the headline is Axios's wording, not his). Coverage also reports that after
+a diagnosis of autoimmune gastritis, which he announced himself, he said he may have taken his
+programme too far. None of this carries a date or a result that could settle it, so the verdict is
+unchanged, and the exact words await the interviews themselves. His programme is the self-experiment
+record bryan-johnson-blueprint, which this update does not change.
+"""

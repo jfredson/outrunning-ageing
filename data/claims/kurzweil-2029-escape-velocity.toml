@@ -20,6 +20,7 @@ verdict = "not-yet-due"
 verify = [
   "The sentence was read in snippet view, so the words immediately before it on page 192 were not seen; check against a copy of the book. Two reviews (Nautilus, a Substack review) restate the claim without page numbers.",
   "The hardcover date (2024-06-25) rests on library catalogue and bookseller listings; the publisher's page confirms 2024-06-25 only for the e-book and audiobook.",
+  "His 2026 statements of 2032 in Business Today (2026-06-20) and Ynet (undated in the result), and the attributions of 2032 or the early 2030s to a Nikkei interview and a Guardian interview, are coverage; the Nikkei and Guardian interviews were not found or opened.",
 ]
 notes = """
 The famous version is 2029. The book's longevity pages (189 to 194 and 255 to 257, by its index)
@@ -32,4 +33,12 @@ The claim is about the whole question, not any one branch, so it is marked as ab
 When 2030 passes the verdict turns on the record as a whole: whether, in that year, the best
 available care added more than a year of remaining life expectancy per year lived, which is what
 the headline is built to say. His earlier dated occasions are kurzweil-2022-end-of-the-decade,
-kurzweil-grossman-2004-two-decades and kurzweil-grossman-2009-bridge-two."""
+kurzweil-grossman-2004-two-decades and kurzweil-grossman-2009-bridge-two.
+Updated 2026-10-17, from the weekly reading of that date: in 2026 he has restated the date, later
+than the book's. In a printed question-and-answer interview with Boston Magazine, published online
+on 2026-02-11, he says that by 2032 a person will gain back one year for each year lived; that is
+entered as its own claim, kurzweil-2026-escape-velocity-by-2032, because the log keeps each dated
+occasion. Business Today (2026-06-20) repeats 2032 as coverage. A La Nacion piece of 2026-05-01
+still gave 2029. This entry, the book's sentence of 2024, stands as written and keeps its due year
+of 2030.
+"""
