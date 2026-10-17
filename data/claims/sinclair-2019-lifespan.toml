@@ -1,0 +1,23 @@
+# Written 2026-10-16 from Google Books' search-inside snippets of the book, which carry the printed
+# page marks.
+
+id = "sinclair-2019-lifespan"
+who = "David Sinclair"
+who_is = "the Harvard genetics professor David Sinclair, author of the 2019 book Lifespan and co-founder of Life Biosciences among other companies, whose laboratory's work on resetting the cell's settings is the most publicised age-reversal programme in the field"
+said_on = "2019-09-10"
+where = "Lifespan: Why We Age and Why We Don't Have To (Atria, 2019-09-10), introduction, page xxiii, with the passages on reaching a hundred (pages 217 to 218) and a hundred and fifty (page 245); read in Google Books search-inside snippets"
+link = "https://books.google.co.uk/books?id=x--oDwAAQBAJ"
+quote = "There is no biological law that says we must age. Those who say there is don't know what they're talking about."
+is_paraphrase = false
+commits_to = "No date. The book's nearest commitments are hedged: that if a few of the most promising therapies come to fruition it is not an unreasonable expectation for anyone alive and healthy in 2019 to reach a hundred in good health, and that if reprogramming reaches its potential a hundred and fifty might be possible for someone alive now."
+about_the_headline = true
+branches = ["cell-settings"]
+verdict = "unfalsifiable"
+
+notes = """
+The famous sentence matches the book word for word. What the glosses drop are the conditions on
+the hundred-and-fifty and the healthy-hundred passages, both of which are expectations contingent
+on therapies that did not yet exist, with no date; that is why the verdict is the fixed set's word
+for a claim nothing could settle. His dated prediction with a checkable year is
+sinclair-2023-age-reversal-in-people; the published critique of the book is
+brenner-2022-age-reversal-an-old-grift."""

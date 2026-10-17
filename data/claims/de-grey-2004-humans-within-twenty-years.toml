@@ -1,0 +1,20 @@
+# Written 2026-10-16 from his own viewpoint piece on the BBC News site, read in the browser.
+
+id = "de-grey-2004-humans-within-twenty-years"
+who = "Aubrey de Grey"
+who_is = "the biogerontologist Aubrey de Grey, who coined the phrase longevity escape velocity, co-founded the Methuselah Foundation and the SENS Research Foundation, and since 2022 has run the Longevity Escape Velocity Foundation"
+said_on = "2004-12-03"
+where = "The same BBC News viewpoint piece of 2004-12-03 as de-grey-2004-first-thousand-year-old, the paragraph on the timeline of his repair programme; read on the page"
+link = "http://news.bbc.co.uk/2/hi/uk_news/4003063.stm"
+quote = "all parts of the project should be fully working in mice within just 10 years and we might take only another 10 years to get them all working in humans"
+is_paraphrase = false
+commits_to = "His whole programme of repairs working in mice by about 2014 and in people by about 2024, hedged as should and might."
+about_the_headline = true
+verdict = "missed"
+verdict_on = 2026-10-16
+verdict_why = "By 2024 no package of repairs was working in mice, let alone people: his own foundation's first combined mouse study, reported on 2025-08-28, added about four months of life against a target of twelve, and no leaf on this site had reached clinical use at the first weekly reading."
+
+notes = """
+The hedges are kept in the commitment and do not rescue the date: the sentence names two
+ten-year steps from 2004. He has since restated the odds with the calendar
+(de-grey-2005-fifty-fifty-fifteen-years, de-grey-2024-fifty-percent-twelve-to-fifteen-years)."""

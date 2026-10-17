@@ -1,0 +1,25 @@
+# Written 2026-10-16 from the company's own posts on loyal.com, read in full.
+
+id = "loyal-2025-senior-dog-approval-by-end-of-2025"
+who = "Loyal"
+who_is = "Loyal, the San Francisco company founded by Celine Halioua to win the first regulatory approval for a drug that extends lifespan, in dogs first, with three candidates under the United States veterinary regulator's conditional-approval route"
+said_on = "2025-02-26"
+where = "The company's own post of 2025-02-26 announcing that the regulator had accepted the effectiveness section for its senior-dog drug LOY-002; read in full"
+link = "https://loyal.com/posts/loy-002-rxe"
+quote = "the company anticipates completion of the manufacturing and safety requirements"
+is_paraphrase = false
+commits_to = "The two remaining sections of the conditional-approval application for LOY-002 complete by the end of 2025, and, in the same post, an approved longevity drug for millions of dogs within the next year."
+branches = ["energy-and-fuel"]
+verdict = "missed"
+verdict_on = 2026-10-16
+verdict_why = "The company's own post of 2026-01-13 says the safety section was accepted but the manufacturing section remains, with the application now expected in 2027; its posts of 2026-02-11 and 2026-09-16 report no approval for any of its drugs."
+
+notes = """
+The quoted phrase is the first half of the sentence; the words by the end of 2025 follow a
+clause not read verbatim, so they are in the commitment and not the quotation. The company's own
+explainer of 2024-04 puts the full-approval data from its long-term study at an estimated 2029.
+The earlier large-dog drug LOY-001 had its effectiveness section accepted on 2023-11-28 with no
+year given, and a third, LOY-003, on 2026-09-16. Dogs matter to this site because a regulator
+accepting lifespan extension as something a drug can be approved for is the measuring branch's
+test one species early. Intended leaf, for the master session to wire: a drug approved to extend
+lifespan in dogs."""

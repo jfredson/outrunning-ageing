@@ -1,0 +1,20 @@
+# Written 2026-10-16 from the essay's abstract, read in Europe PMC's record.
+
+id = "hayflick-2000-fifteen-year-limit"
+who = "Leonard Hayflick"
+who_is = "the cell biologist Leonard Hayflick, who in 1961 showed that normal human cells divide a limited number of times, and who argued for the rest of his life that ageing is not a disease and that curing diseases does not touch it"
+said_on = "2000-11"
+where = "Nature, volume 408, pages 267 to 269, The future of ageing, 2000-11; the abstract, read in full"
+link = "https://doi.org/10.1038/35041709"
+quote = "if the ability to intervene in ageing ever becomes a reality, it will be rife with unintended and undesirable consequences"
+is_paraphrase = false
+commits_to = "No date: that resolving today's leading causes of death would add at most about fifteen years to life expectancy, that ageing itself is a different kind of process from disease, and that intervening in it, if ever possible, would carry consequences nobody has weighed."
+about_the_headline = true
+verdict = "unfalsifiable"
+
+notes = """
+The fixed set's word for a position with no date or result that could settle it. His 2007 essay in
+the Annals of the New York Academy of Sciences (Biological aging is no longer an unsolved problem)
+restates the position: ageing shares none of the six qualities of a disease, and curing
+age-associated diseases gives no insight into ageing itself. Neither abstract says ageing cannot
+be stopped, which is the version that circulates; the record keeps his words."""

@@ -1,0 +1,25 @@
+# Written 2026-10-16 from his own viewpoint piece on the BBC News site, read in the browser (the
+# BBC's archive refuses automated readers).
+
+id = "de-grey-2004-first-thousand-year-old"
+who = "Aubrey de Grey"
+who_is = "the biogerontologist Aubrey de Grey, who coined the phrase longevity escape velocity, co-founded the Methuselah Foundation and the SENS Research Foundation, and since 2022 has run the Longevity Escape Velocity Foundation"
+said_on = "2004-12-03"
+where = "A viewpoint piece in his own name on the BBC News site, headlined that we will be able to live to 1,000, dated 2004-12-03; read on the page"
+link = "http://news.bbc.co.uk/2/hi/uk_news/4003063.stm"
+quote = "I think the first person to live to 1,000 might be 60 already."
+is_paraphrase = false
+commits_to = "A person aged about sixty in 2004 living to a thousand, which could only be checked in about 2944; hedged as what he thinks and might be."
+due = 2944
+about_the_headline = true
+verdict = "not-yet-due"
+
+notes = """
+The famous version, that the first thousand-year-old is probably less than twenty years younger
+than the first hundred-and-fifty-year-old, is not in this piece and was not found in anything he
+wrote. In his 2005 TED talk (de-grey-2005-fifty-fifty-fifteen-years) his own figure was about ten
+years younger. The twenty-year wording is a Reuters reporter's sentence from 2011-07-04, widely
+reprinted, and so is recorded here as coverage and not as his words. The due year is written out
+because the fixed set has no verdict for a claim no reader can live to check; that is the point of
+recording it. The same piece's twenty-year timeline for the treatments is its own record,
+de-grey-2004-humans-within-twenty-years."""

@@ -1,0 +1,21 @@
+# Written 2026-10-16 from the full text of the review, read in PubMed Central.
+
+id = "brenner-2022-age-reversal-an-old-grift"
+who = "Charles Brenner"
+who_is = "the biochemist Charles Brenner of City of Hope, who discovered a vitamin B3 pathway that the supplement NR works on and has become the most persistent published critic of age-reversal claims, here reviewing David Sinclair's 2019 book Lifespan"
+said_on = "2022-09-26"
+where = "Archives of Gerontology and Geriatrics, volume 104 (2023), article 104825, A Science-Based Review of the World's Best-Selling Book on Aging, published online 2022-09-26; full text read"
+link = "https://doi.org/10.1016/j.archger.2022.104825"
+quote = "While age reversal is an old grift, the latest version has reached new heights of feigned legitimacy and hype."
+is_paraphrase = false
+commits_to = "No date or result: a critique holding that ageing is not a disease, that getting healthier is not age reversal, and that the book's claims of reversal in people are stories, not findings."
+branches = ["cell-settings", "energy-and-fuel", "measuring-age"]
+verdict = "unfalsifiable"
+
+notes = """
+The verdict is the fixed set's word for a claim with no date or result that could settle it; it is
+not a judgment on the critique, which is a reading of the evidence rather than a prediction. A
+second dated occasion, a thread of 2023-07-12 on the chemical reprogramming paper from the same
+laboratory, says the groundbreaking results claimed there and in Cell are not in the papers; it
+was read on a third-party archive of the thread. The claims he is answering are
+sinclair-2019-lifespan and sinclair-2023-age-reversal-in-people."""

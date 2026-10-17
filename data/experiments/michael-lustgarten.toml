@@ -1,0 +1,36 @@
+# Written 2026-10-16 from his own site and his listing on PubMed (read that day).
+
+id = "michael-lustgarten"
+who = "Michael Lustgarten"
+who_is = "a research scientist at a nutrition research centre at Tufts University, author of some three dozen peer-reviewed papers on ageing, who since at least 2014 has published his own blood tests against his diet on a site and a video channel called Conquer Aging or Die Trying"
+started = "2014"
+status = "running"
+what = """
+He eats a weighed, logged diet, takes a changing set of supplements and exercises, and runs blood
+panels several times a year, then publishes the correlations between what he ate and what the
+blood showed, adjusting the diet to move the markers. The programme is unusual in being explicitly
+his own data analysis rather than a bought protocol."""
+measures = """
+Standard blood panels, a biological-age calculation from those panels (PhenoAge, which turns nine
+routine blood values and calendar age into an age estimate), and from time to time clocks read from
+the chemical marks on DNA; all posted with the raw numbers on his site and channel. In 2025-04 he
+titled three posts with a biological age twenty-two years below his calendar age."""
+claims = """
+That his blood-panel biological age runs more than twenty years below his calendar age (post
+titles of 2025-04-13, 2025-04-18 and 2025-04-22), and that the correlations in his own data show
+which foods move which markers for him."""
+public_record = """
+One person's commercial blood panels, analysed by himself, with no control and no independent
+check; his peer-reviewed papers are on cohorts and mice, and none that could be found publishes
+his own tracking data. The blood-panel age he reports is a calculation that was built to predict
+mortality across populations, not a measure validated for one person's change over time. His site
+carries affiliate discount codes. A claim about one person is a story, not a record, and it moves
+no leaf."""
+link = "https://michaellustgarten.wordpress.com/"
+branches = ["measuring-age"]
+
+verify = [
+  "The start year is the earliest year in his site's archive; find his own account of when the tracking began.",
+  "The twenty-two-year figure is from post titles; the posts' bodies read on 2026-10-16 did not give his calendar age or the exact value.",
+  "His job title and paper count are from a podcast biography and the first page of his PubMed listing, not his own site.",
+]

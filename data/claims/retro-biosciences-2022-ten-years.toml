@@ -1,0 +1,27 @@
+# Written 2026-10-16 from the company's own announcement page, read in a Wayback Machine capture of
+# 2022-06-30 (first captured 2022-04-06; the page has since been removed), and its current site.
+
+id = "retro-biosciences-2022-ten-years"
+who = "Retro Biosciences"
+who_is = "Retro Biosciences, the San Francisco company led by Joe Betts-LaCroix and funded at its start by Sam Altman, working on the cell's recycling of its own worn parts, on blood plasma, and on resetting the cell's settings"
+said_on = "2022-04"
+where = "The company's announcement page, Announcing Retro Biosciences, undated, first captured by the Wayback Machine on 2022-04-06; read in the capture of 2022-06-30. The current home page carries the same aim"
+link = "https://www.retro.bio/"
+quote = "Our mission is to increase healthy human lifespan by ten years."
+is_paraphrase = false
+commits_to = "Ten more years of healthy life, with no date; the same page said its initial funding of a hundred and eighty million dollars would secure the company through the decade."
+about_the_headline = true
+verdict = "unfalsifiable"
+
+verify = [
+  "That the initial funding came from Sam Altman is from coverage (MIT Technology Review, 2023-03-08); the announcement does not name the funder.",
+  "The date of the announcement; 2022-04 is the first archive capture, not a date on the page.",
+]
+notes = """
+The same page made three dated promises for its programmes, of which the first is its own record
+(retro-biosciences-2022-clinic-next-year): a molecule into the clinic within a year, a plasma
+development candidate within two, and clinical proof of concept for reprogramming within four
+(by 2026). On 2026-05-22 the company's blog announced a new financing round at a valuation of
+one point eight billion dollars and said first-in-human milestones were planned for 2026 and
+2027. Ten years of healthy life is the kind of claim the headline is built to score, but with no
+date it cannot be."""

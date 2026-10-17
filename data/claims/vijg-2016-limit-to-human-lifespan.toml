@@ -1,0 +1,24 @@
+# Written 2026-10-16 from the paper's abstract, read in Europe PMC's record.
+
+id = "vijg-2016-limit-to-human-lifespan"
+who = "Jan Vijg"
+who_is = "the geneticist Jan Vijg of the Albert Einstein College of Medicine, writing with Xiao Dong and Brandon Milholland, whose analysis of the ages of the world's oldest people argued that the human lifespan has a ceiling"
+said_on = "2016-10-05"
+where = "Nature, volume 538, pages 257 to 259, Evidence for a limit to human lifespan; the abstract, read in full"
+link = "https://doi.org/10.1038/nature19793"
+quote = "Our results strongly suggest that the maximum lifespan of humans is fixed and subject to natural constraints."
+is_paraphrase = false
+commits_to = "No further rise in the age of the oldest person, which the abstract says has not increased since the 1990s; the main text puts the ceiling near a hundred and fifteen with a hundred and twenty-five as the outside. Judged here at the headline's first fixed date."
+due = 2050
+about_the_headline = true
+verdict = "not-yet-due"
+
+verify = [
+  "The figures of a hundred and fifteen and a hundred and twenty-five are from memory of the main text, which was not read; the abstract does not give them.",
+]
+notes = """
+A standing claim rather than a dated one: every year without a new record is consistent with it,
+and one verified death past a hundred and twenty-five would refute it. The due year is the
+headline's first fixed date so that the claim is scored with everything else. The paper drew
+published rebuttals in 2017 arguing the data could not distinguish a ceiling from a plateau, which
+the publications log may carry."""

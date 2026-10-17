@@ -1,0 +1,32 @@
+# Written 2026-10-16. HELD AS COVERAGE: the words are a reporter's transcription (STAT, Megan
+# Molteni, 2022-08-09), so under the sourcing standard they are recorded as a paraphrase with the
+# reporter named, not as a quotation. His own primary statement of the trial, in a 2016 paper,
+# gives no date and is in the notes.
+
+id = "barzilai-2022-tame-starts-this-year"
+who = "Nir Barzilai"
+who_is = "the geriatrician Nir Barzilai of the Albert Einstein College of Medicine, who has led since 2015 the effort to run the first trial designed to show that a drug, metformin, slows ageing itself, the Targeting Aging with Metformin trial known as TAME"
+said_on = "2022-08-09"
+where = "An interview reported by STAT on 2022-08-09; the words are the reporter's transcription and the article is coverage, so no quotation is recorded. His own primary statement of the trial is the 2016 paper in the notes"
+link = "https://doi.org/10.1016/j.cmet.2016.05.011"
+quote = "That he had been on the record saying he was pretty sure the trial would start that year, for the last seven years, and that it would happen because it had to."
+is_paraphrase = true
+paraphrase_seen_in = "STAT, 2022-08-09, Megan Molteni's article on the trial's funding; the same sense repeated in coverage by NPR on 2024-04-22 (the trial can start when the money comes in) and in longevity newsletters since 2019."
+commits_to = "A six-year trial of metformin against ageing in more than three thousand people aged sixty-five to seventy-nine at fourteen centres, starting in 2022, and by his own account promised for each year since about 2015."
+branches = ["energy-and-fuel", "measuring-age"]
+verdict = "missed"
+verdict_on = 2026-10-16
+verdict_why = "On 2026-10-16 the trial had no record on ClinicalTrials.gov, and the American Federation for Aging Research's own pages still described it as planned and said recruiting would begin when the money was raised; it had not started in 2022 or any year since."
+
+verify = [
+  "A primary occasion for the yearly promise: a recorded talk or his own writing giving a start year, so the entry can leave the coverage-only shelf.",
+  "The federation's TAME page itself returned an error on 2026-10-16; the trial's size and centres are from the federation's other pages and the 2016 paper.",
+]
+notes = """
+The primary source for the trial's existence and design is Barzilai, Crandall, Kritchevsky and
+Espeland, Metformin as a Tool to Target Aging, Cell Metabolism volume 23, pages 1060 to 1065,
+2016-06, whose abstract says metformin will be tested in the trial as the first step toward better
+drugs, with no date. The trial matters to this site twice over: it is the leading attempt on the
+energy and fuel branch, and it was designed to make regulators accept ageing as something a drug
+can be tested against, which is the measuring branch's test. Intended leaf, for the master session
+to wire: a regulator accepts ageing or a marker of ageing as the measure a trial is judged on."""

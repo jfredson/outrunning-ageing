@@ -1,0 +1,26 @@
+# Written 2026-10-16 from the company's own announcement page (Wayback Machine capture of
+# 2022-06-30) and its own blog post of 2026-05-22.
+
+id = "retro-biosciences-2022-clinic-next-year"
+who = "Retro Biosciences"
+who_is = "Retro Biosciences, the San Francisco company led by Joe Betts-LaCroix and funded at its start by Sam Altman, working on the cell's recycling of its own worn parts, on blood plasma, and on resetting the cell's settings"
+said_on = "2022-04"
+where = "The same announcement page as retro-biosciences-2022-ten-years, the paragraph on its programmes; read in the Wayback Machine capture of 2022-06-30"
+link = "https://www.retro.bio/blog/fundraise-2026"
+quote = "We have a molecule in our autophagy program that will enter the clinic in the next year"
+is_paraphrase = false
+commits_to = "A first human trial of a drug that boosts the cell's recycling of its own worn parts (autophagy) by about 2023-04."
+branches = ["broken-proteins"]
+verdict = "missed"
+verdict_on = 2026-10-16
+verdict_why = "The company's own blog post of 2026-05-22 says its autophagy drug RTR242 entered the clinic in 2025, about two years after the promised date; the first dosing itself rests on coverage, since the company issued no release for it and the Australian trial registry could not be read."
+
+verify = [
+  "The month of first dosing of RTR242 (coverage says 2025-12, in Australia); find the registry record ACTRN12625001274460 or a company statement.",
+]
+notes = """
+The link is the 2026-05-22 blog post because the announcement page is gone from the live site;
+the archive capture is where the words were read. The company's pipeline page lists the drug for
+Alzheimer's disease with no stage marked. Intended leaf, for the master session to wire: a drug
+that clears a kind of waste throughout the body with a function result in a controlled trial
+(the broken proteins and waste branch's test)."""

@@ -1,0 +1,43 @@
+# Written 2026-10-16 from the leaderboard's own site (home, about and rules pages, read that day).
+# A leaderboard is a self-experiment record here because every entry on it is one person's
+# commercial test result, ranked; nothing on it is a trial.
+
+id = "rejuvenation-olympics"
+who = "Bryan Johnson and Oliver Zolman"
+who_is = "a public leaderboard founded by the entrepreneur Bryan Johnson and the physician Oliver Zolman, run with the testing company TruDiagnostic, that ranks members of the public by how slowly a blood-based clock says they are ageing"
+name = "Rejuvenation Olympics"
+started = "2023"
+status = "running"
+what = """
+Anyone aged eighteen or over buys a TruDiagnostic blood test, registers, returns the sample and
+consents to share the result; the site asks them to retest every three months. Two leaderboards
+are kept: one by pace of ageing (DunedinPACE, a clock that reads the chemical marks on DNA and
+reports how many years of ageing the body shows per calendar year) and one by an organ-by-organ
+age from Yale's system-specific clocks. A participant is marked verified after three tests within
+two years, and the ranking is the average of their three lowest pace scores in that time."""
+measures = """
+The two clock readings per test, as reported by one commercial laboratory; a rank; a verified
+badge based on the count of tests, not on anything independent. On 2026-10-16 the top five by
+pace were Bryan Johnson at 0.50, then four other verified entrants between 0.51 and 0.57."""
+claims = """
+That the people at the top of the board are ageing at about half the normal rate, and that the
+board shows what is possible for ordinary people as well as for its founder."""
+public_record = """
+Every figure on the board is a self-selected person's result from one commercial test, run by one
+company that also sells the test, with no control group, no independent re-measurement and no
+peer review of the board itself. The clock it ranks by is a research tool; a low reading is not an
+accepted measure of slowed ageing, and the measuring branch of this site tracks exactly whether
+it ever becomes one. The site's own rules describe the verification: three tests in two years.
+No founding date is on the site; the 2023 start is from coverage. A claim about one person is a
+story, not a record, and a ranked list of such claims is a list of stories; it moves no leaf."""
+link = "https://rejuvenationolympics.com/"
+branches = ["measuring-age"]
+
+verify = [
+  "The 2023 founding year is from coverage, not the site, which gives no date.",
+  "Whether TruDiagnostic does anything to verify a sample beyond processing it; the rules page describes only a test count.",
+]
+notes = """
+Bryan Johnson's own programme is the record bryan-johnson-blueprint; Dave Pascoe's is
+dave-pascoe; Julie Gibson Clark, who held second place in 2023 and 2024, is
+julie-gibson-clark. The frequently-asked-questions page returned an error on 2026-10-16."""

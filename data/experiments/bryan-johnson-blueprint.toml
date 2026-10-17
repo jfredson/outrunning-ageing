@@ -1,46 +1,60 @@
-# Worked example of a self-experiment record (docs/record-schema.md), written 2026-10-16 with the
-# schema. The one the kickoff names as the famous case. Written from memory; the verify list says
-# what to check. There is no field here that can move a leaf, and that is the point.
+# Worked example of a self-experiment record (docs/record-schema.md), first written 2026-10-16
+# from memory and checked against sources the same day: his own protocol page and blog post, the
+# Rejuvenation Olympics site, and news coverage quoting his posts where the posts themselves could
+# not be reached. There is no field here that can move a leaf, and that is the point.
 
 id = "bryan-johnson-blueprint"
 who = "Bryan Johnson"
-who_is = "the technology entrepreneur Bryan Johnson, who sold a payments company in 2013 and since 2021 has spent a reported two million dollars a year on a published programme to slow his own ageing, run with a team of doctors"
+who_is = "the technology entrepreneur Bryan Johnson, who founded the payments company Braintree, sold it in 2013, and since late 2021 has run a published, team-measured programme to slow his own ageing, which he calls Blueprint"
 name = "Blueprint"
 started = "2021"
 status = "running"
 what = """
-A fixed daily programme of diet (about two thousand calories, vegan, eaten within a set window),
+A fixed daily programme of diet (vegan, measured to the calorie, eaten within a set window),
 exercise, sleep, dozens of supplements and several prescription drugs, all published and revised
-in public. He has at various times taken and then stopped drugs that this site tracks under
-energy and fuel sensing, including rapamycin, which he said in 2024 he had stopped after side
-effects, and he has reported one-off procedures (plasma exchanges, in 2023 including an exchange
-with his son) that fall under inflammation and the body's messaging."""
+in public on his protocol page. He has added one-off procedures: a gene therapy in 2023-10, an
+injection of 300 million stem cells in 2024-03, hyperbaric oxygen sessions from 2024-11, and in
+2023 a series of plasma exchanges, one of them with his teenage son as the donor, which he said
+in a post of 2023-07-05 had shown no benefit he could detect. He took rapamycin, the drug this
+site tracks under energy and fuel sensing, for about five years and stopped on 2024-09-28,
+saying in a post of 2024-11 that the side effects outweighed the benefits. In 2025-07 he said he
+was hiring people to run the Blueprint business so he could spend his time on his wider movement,
+which he calls Don't Die."""
 measures = """
-Hundreds of blood markers, several biological-age clocks read from blood and saliva, a measure of
-the pace of ageing from the same clocks, organ-by-organ age estimates from imaging and function
-tests, sleep and fitness measures, all published on his own site and in his own videos, with the
-team's methods described there."""
+Hundreds of blood markers, biological-age clocks read from blood, a pace-of-ageing figure from
+one of those clocks (DunedinPACE, which reads the chemical marks on DNA and reports how many years
+of ageing a body shows per calendar year), organ-by-organ age estimates from imaging and function
+tests (his page gives, for example, a skin age beside his calendar age), and sleep and fitness
+measures, all published on his own site and in his own posts and videos."""
 claims = """
-That his measured pace of ageing is well below one year per year (he has published figures around
-0.6 to 0.7 years of biological ageing per calendar year), that several of his organs measure as
-younger than his calendar age, and that the programme as a whole is the best-measured attempt to
-slow ageing in one person."""
+That his measured pace of ageing is well below one year per year: his own figures over time are
+0.76 (his post of 2023-02-01), 0.64 (a post in 2024-06, which he called a new record) and 0.50
+(his entry at the top of the Rejuvenation Olympics leaderboard on 2026-10-16); that several of
+his organs measure younger than his calendar age; and that the programme is the best-measured
+attempt to slow ageing in one person. His stated aim, on the same 2023 post, was to have the
+biology of an eighteen-year-old."""
 public_record = """
-What is published is one person's measurements, taken by his own team, with no control and no
-peer review. The clocks he reports on are research tools whose meaning for one person's remaining
-life is not established; a change in a clock reading is not yet an accepted measure of slowed
-ageing, which is exactly what the measuring branch of this site tracks. The record shows a
-well-documented, expensive, single-person programme with striking marker results and no way to say
-which part of it, if any, did what. A claim about one person is a story, not a record, and it moves
-no leaf."""
+What is published is one person's measurements, taken by his own team or by the commercial
+testing company that runs the leaderboard he co-founded, with no control group, no independent
+check and no peer review. The clocks he reports on are research tools whose meaning for one
+person's remaining life is not established; a change in a clock reading is not yet an accepted
+measure of slowed ageing, which is exactly what the measuring branch of this site tracks. The
+record shows a well-documented, expensive, single-person programme with striking marker results,
+one drug stopped for side effects, one procedure he himself judged to have done nothing, and no
+way to say which part of the rest, if any, did what. A claim about one person is a story, not a
+record, and it moves no leaf."""
 link = "https://protocol.bryanjohnson.com/"
-branches = ["energy-and-fuel", "inflammation-and-signalling", "measuring-age"]
+branches = ["energy-and-fuel", "inflammation-and-signalling", "replacing-parts", "measuring-age"]
 
 verify = [
-  "The year the programme started (2021), the reported yearly spend (two million dollars) and the sale of the payments company (2013) are from memory.",
-  "The published pace-of-ageing figures (around 0.6 to 0.7) and that he stopped rapamycin in 2024 after side effects are from memory.",
-  "The 2023 plasma exchange with his son is from memory of news coverage; find his own account of it.",
+  "The start date (2021-10-13) and the reported spend of about two million dollars a year are from news coverage (Bloomberg, 2023-01-25, cited by Wikipedia); his own page says only that he started as a broken-down 42-year-old and has spent millions. Find his own announcement.",
+  "That the 2013 sale of Braintree was to PayPal is from coverage; in a 2023-07-14 interview he said only that it sold for eight hundred million dollars.",
+  "The 0.64 figure (2024-06), the rapamycin stop date (2024-09-28) and his post of 2024-11 giving the side effects were read in coverage quoting his posts (WION 2024-06-12; AOL 2025-01-10); the posts themselves were not reached.",
+  "The plasma exchange post of 2023-07-05 was read as quoted by Fortune on 2023-07-08, not on his own feed.",
 ]
 notes = """
-He also founded the Rejuvenation Olympics leaderboard, which ranks people by their measured pace
-of ageing; that is a separate self-experiment record when written."""
+He co-founded the Rejuvenation Olympics leaderboard, which ranks people by their measured pace
+of ageing; that is its own self-experiment record (rejuvenation-olympics). His 2023-02-01 post
+("Why I Am Spending Millions To Be 18 Again") was read in a repost on lifeboat.com; his site now
+sells the Blueprint products, and the protocol page is the part that still describes the
+programme."""

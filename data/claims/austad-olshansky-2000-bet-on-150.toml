@@ -1,0 +1,27 @@
+# Written 2026-10-16. The two men's own words are from a podcast transcript (Aventine, The World As
+# You'll Know It, series six, episode one; page undated); the terms and dates of the bet are from
+# news coverage, so the record is partly held on coverage and says so.
+
+id = "austad-olshansky-2000-bet-on-150"
+who = "Steven Austad and S. Jay Olshansky"
+who_is = "the biologist of ageing Steven Austad of the University of Alabama at Birmingham and the demographer S. Jay Olshansky of the University of Illinois Chicago, who took opposite sides of a long-running public bet about the human lifespan"
+said_on = "2000-09-15"
+where = "A bet struck on 2000-09-15, each man putting a hundred and fifty dollars into an investment fund to be paid out in 2150, and doubled on 2016-10. Austad's side in his own words is from the Aventine podcast transcript; the terms and dates are from Nature's news report of 2016-10-18, read as quoted on fightaging.org on 2016-11-07"
+link = "https://aventine.org/podcast/longevity-the-billion-dollar-bet-austad-olshansky-ramakrishnan"
+quote = "I think that person is already alive."
+is_paraphrase = false
+commits_to = "Austad: a person born in or before 2000 will be alive, and of sound mind, at a hundred and fifty by 2150. Olshansky: no such person. Settled on 2150-01-01, with the fund going to the winner's heirs."
+due = 2150
+about_the_headline = true
+verdict = "not-yet-due"
+
+verify = [
+  "The bet's date (2000-09-15), the sound-mind condition and the 2016 doubling are from Nature's news report (Nic Fleming, 2016-10-18), which is paywalled and was read only as quoted on fightaging.org; read the original.",
+  "The transcript page carries no recording date; it cites a 2024 book, so the conversation is 2024 or later. Find the episode's release date.",
+  "Olshansky's own statement of his side in the Scientific American piece of 2000 or The Scientist of 2001-02 was not reached.",
+]
+notes = """
+The oldest verified age at death remains a hundred and twenty-two (Jeanne Calment, 1997). A
+hundred-and-fifty-year-old in 2150 would have to be born by 2000, so the bet tracks the same
+people this site's headline is about. Olshansky's published position is
+olshansky-2024-implausible-this-century."""

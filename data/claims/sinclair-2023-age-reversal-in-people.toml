@@ -1,0 +1,32 @@
+# Written 2026-10-16 from a third-party machine transcript of a recorded conversation (Moonshots
+# podcast, episode 60, released 2023-08-25, recorded at the Abundance 360 summit earlier in 2023)
+# and his own posts of 2023-01-12 and 2023-07-12, read through X's public embed feed.
+
+id = "sinclair-2023-age-reversal-in-people"
+who = "David Sinclair"
+who_is = "the Harvard genetics professor David Sinclair, author of the 2019 book Lifespan and co-founder of Life Biosciences among other companies, whose laboratory's work on resetting the cell's settings is the most publicised age-reversal programme in the field"
+said_on = "2023-08-25"
+where = "A conversation with Peter Diamandis at the Abundance 360 summit, released as episode 60 of the Moonshots podcast on 2023-08-25, about twenty minutes in; read in a machine-made transcript on podscripts.co and matched against a reprint of the same passage dated 2023-10-31, not an official transcript"
+link = "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/aging-is-now-optional-w-david-sinclair-ep-60"
+quote = "it's my prediction that we'll be in the next 18 months or two years testing our first age-reversed clinical trial in humans to cure blindness"
+is_paraphrase = false
+commits_to = "A first human trial of his partial-reprogramming treatment for blindness (Life Biosciences' ER-100) under way by about 2025-08 at the latest, hedged as his prediction."
+branches = ["cell-settings"]
+verdict = "missed"
+verdict_on = 2026-10-16
+verdict_why = "Life Biosciences' own releases put the regulator's clearance on 2026-01-28 and the first participant dosed by 2026-06-09, about ten months past the two-year outside of the prediction; the hedge is kept, and the miss is of months, not years."
+
+verify = [
+  "The recording date: the summit ran in 2023-03 and the podcast was released 2023-08-25; the record is dated by the release until the session date is found.",
+  "The exact wording against the recording; the transcript is machine-made and a second reprint gives it with small differences.",
+]
+notes = """
+His own posts frame the same programme without a date: on 2023-01-12, announcing the Cell paper
+on loss of the cell's settings as a cause of ageing, he said the age-reversal technology was being
+tested in monkeys with results due in a few months; on 2023-07-12 that preparations for human
+trials of the first age-reversal gene therapy were ongoing at Life Biosciences. Harvard Medical
+School's own news item of 2023-01-12 said medical applications were a long way off. No statement
+of his from 2023-01 naming 2024 or 2025 for eye trials was found, so the version that attributes
+the date to that month is held as unsourced. The company's own date is
+life-biosciences-2024-first-human-study-second-half-2025; the 2016 forecast the trial fulfils is
+salk-2016-up-to-ten-years-to-trials."""

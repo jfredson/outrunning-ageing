@@ -1,0 +1,26 @@
+# Written 2026-10-16 from the foundation's home page in Wayback Machine captures (the line appears
+# between the captures of 2013-11-21 and 2013-12-19) and its current What we do page, read live.
+
+id = "methuselah-foundation-2013-ninety-the-new-fifty-by-2030"
+who = "Methuselah Foundation"
+who_is = "the Methuselah Foundation, the non-profit David Gobel and Aubrey de Grey founded in 2001 (the home of the Methuselah Mouse Prize from 2003), which funds tissue engineering and the growing of organs outside the body"
+said_on = "2013-12"
+where = "The foundation's home page, in Wayback Machine captures from 2013-12-19 onward (the 2013-11-21 capture lacks the line); the current What we do page, read live, carries the same sentence and says the goal was chosen to be falsifiable and testable"
+link = "https://www.mfoundation.org/what-we-do"
+quote = "Our mission is to make 90 the new 50 by 2030."
+is_paraphrase = false
+commits_to = "Ninety-year-olds as healthy as fifty-year-olds by 2030, through tissue engineering and regenerative medicine."
+due = 2030
+about_the_headline = true
+branches = ["replacing-parts"]
+verdict = "not-yet-due"
+
+verify = [
+  "The month the goal was adopted; the archive brackets it to between 2013-11-21 and 2013-12-19, and the foundation may have stated it earlier elsewhere.",
+]
+notes = """
+The one organisational claim on the log that was written to be scored: the foundation says so
+itself. The date is three years off at the first weekly reading and no leaf on the replacing
+parts branch is in clinical use. The foundation's co-founder's own dated claims are the de-grey
+records; the live home page refused connections on 2026-10-16, which is why the link is the
+What we do page."""

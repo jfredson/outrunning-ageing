@@ -1,0 +1,21 @@
+# Written 2026-10-16 from the paper's abstract, read in Europe PMC's record (the journal's own page
+# refuses automated readers).
+
+id = "olshansky-2024-implausible-this-century"
+who = "S. Jay Olshansky"
+who_is = "the demographer S. Jay Olshansky of the University of Illinois Chicago, who has argued since the 1990s that life expectancy gains are slowing and that radical life extension is not in prospect, writing here with Bradley Willcox, Lloyd Demetrius and Hiram Beltrán-Sánchez"
+said_on = "2024-10-07"
+where = "Nature Aging, volume 4, pages 1635 to 1642, Implausibility of radical life extension in humans in the twenty-first century; the abstract, read in full"
+link = "https://doi.org/10.1038/s43587-024-00702-3"
+quote = "unless the processes of biological aging can be markedly slowed, radical human life extension is implausible in this century"
+is_paraphrase = false
+commits_to = "No radical extension of human life before 2100 in the longest-lived populations, and no more than about fifteen percent of women and five percent of men born now reaching a hundred, unless ageing itself is markedly slowed."
+due = 2100
+about_the_headline = true
+verdict = "not-yet-due"
+
+notes = """
+The sceptic's mirror of the headline: the paper's condition, unless ageing itself is markedly
+slowed, is exactly what this site's leaves ask whether anyone has done. The headline's two fixed
+dates, 2050 and 2100, let the claim be scored against the record as it comes in. His standing bet
+with Steven Austad is austad-olshansky-2000-bet-on-150."""

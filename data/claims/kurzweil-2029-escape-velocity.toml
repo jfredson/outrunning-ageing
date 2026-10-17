@@ -1,28 +1,35 @@
-# Worked example of a claim (docs/record-schema.md), written 2026-10-16 with the schema. The
-# claim named in the kickoff as the loudest promise on the log, and one reason the headline's
-# fixed date is 2050. Written from memory; everything checkable is in the verify list.
+# Worked example of a claim (docs/record-schema.md), first written 2026-10-16 from memory and
+# checked against the book the same day through Google Books' search-inside view. The claim named
+# in the kickoff as the loudest promise on the log, and one reason the headline's fixed date is
+# 2050. The id keeps "2029", the famous version, because ids are never renamed; the book itself
+# says "around 2030" (see notes).
 
 id = "kurzweil-2029-escape-velocity"
 who = "Ray Kurzweil"
 who_is = "the inventor and futurist Ray Kurzweil, a director of engineering at Google and the author of The Singularity Is Near (2005) and The Singularity Is Nearer (2024)"
 said_on = "2024-06-25"
-where = "The Singularity Is Nearer (Viking, 2024), the chapter on health and longevity, where he puts the arrival of longevity escape velocity for people who keep up with the best care in or around 2029"
-link = "https://www.penguinrandomhouse.com/books/535433/the-singularity-is-nearer-by-ray-kurzweil/"
-quote = "By around 2029, we will reach longevity escape velocity: for the diligent, each year of life will add more than a year to remaining life expectancy."
-is_paraphrase = true
-paraphrase_seen_in = "Interviews and press from 2023 to 2025 (podcasts, a 2024 book tour) repeating that we will reach longevity escape velocity by 2029; the version above is the sense that circulates, not a transcription."
-commits_to = "Longevity escape velocity reached, for people with access to and diligence about the best available care, by 2029."
-due = 2029
+where = "The Singularity Is Nearer (Viking, 2024), page 192, in the chapter on health and longevity; read in Google Books' search-inside snippets on 2026-10-16, which show the sentence but not the whole page"
+link = "https://books.google.com/books?id=V-e8EQAAQBAJ&q=%22by+around+2030%22"
+quote = "by around 2030, the most diligent and informed people will reach \"longevity escape velocity\""
+is_paraphrase = false
+commits_to = "Longevity escape velocity, defined on the same page as adding more than a year of remaining life expectancy per calendar year, reached by around 2030 for the most diligent and informed people; and disease and the ageing process largely overcome by the end of the 2030s."
+due = 2030
 about_the_headline = true
 verdict = "not-yet-due"
 
 verify = [
-  "The exact words and the page in The Singularity Is Nearer; the quote above is a paraphrase until the book is in hand.",
-  "The book's publication date (25 June 2024 is from memory).",
-  "That the 2029 date was first given in or before the 2024 book, not only in interviews after it.",
+  "The sentence was read in snippet view, so the words immediately before it on page 192 were not seen; check against a copy of the book.",
+  "The publication date, 2024-06-25, is the publisher's e-book date; the hardcover date was confirmed only from a bookseller's listing.",
 ]
 notes = """
-Kurzweil's claim is about the whole question, not any one branch, so it is marked as about the
-headline. When 2029 passes the verdict turns on the record as a whole: whether, in that year, the
-best available care added more than a year of remaining life expectancy per year lived, which is
-what the headline is built to say."""
+The famous version is 2029. The book's longevity pages (189 to 194 and 255 to 257, by its index)
+do not use that year; the 2029 figure comes from interviews around the book's launch, among them
+the Joe Rogan Experience as quoted by The Independent on 2024-03-13 and a BBC Science Focus
+interview of 2024-08-23 that gives 2029 to 2035, both coverage. The book also places the third of
+his three bridges, cell-level repair by medical nanorobots, in the 2030s (page 135), and endorses
+Aubrey de Grey's claim that the first person to live to a thousand has likely been born (page 257).
+The claim is about the whole question, not any one branch, so it is marked as about the headline.
+When 2030 passes the verdict turns on the record as a whole: whether, in that year, the best
+available care added more than a year of remaining life expectancy per year lived, which is what
+the headline is built to say. His earlier dated occasions are kurzweil-2022-end-of-the-decade,
+kurzweil-grossman-2004-two-decades and kurzweil-grossman-2009-bridge-two."""

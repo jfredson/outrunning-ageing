@@ -1,0 +1,39 @@
+# Written 2026-10-16. HELD AS COVERAGE ONLY: no publication of her own could be found (no site,
+# newsletter or confirmed account), so the link below is the fullest piece of coverage, and every
+# figure is a reporter's account of her test result. For John to rule whether an entry with no
+# own publication belongs in this record at all.
+
+id = "julie-gibson-clark"
+who = "Julie Gibson Clark"
+who_is = "a recruiter and former structural engineer in Phoenix, a single mother in her mid-fifties, who held second place on the Rejuvenation Olympics leaderboard in late 2023 on a budget of about a hundred dollars a month"
+started = "2023"
+status = "running"
+what = """
+As reported in coverage from 2023-12: about a pound of vegetables a day, four weight-training
+days and one core day a week, twenty to thirty minutes of cardio four times a week, a sauna
+three times a week followed by a cold shower, and one supplement product costing seventy-nine
+dollars a month, which is how her test came to be entered: through that company's trial."""
+measures = """
+Repeated TruDiagnostic blood tests, scored by the pace-of-ageing clock the Rejuvenation Olympics
+ranks by; the results appeared on that leaderboard rather than anywhere of her own."""
+claims = """
+A pace of ageing of 0.665 years per calendar year (coverage, 2023-12-09), and, in her words in a
+2026-07 press release for a company she now teaches for, that ageing well is a few fundamentals
+done consistently."""
+public_record = """
+One series of commercial tests entered through a supplement company's trial, reported by
+journalists and the leaderboard, with no publication of her own, no control, no independent
+re-measurement and no peer review. By 2026 she had left second place and was working for a
+longevity teaching company, so what is public is now also a professional interest. A claim about
+one person is a story, not a record, and it moves no leaf."""
+link = "https://www.fortune.com/well/article/reverse-aging-habits-daily-routine-single-mom-budget/"
+branches = ["measuring-age"]
+
+verify = [
+  "Everything here is from coverage (Fortune 2023-12-09; a podcast page; a 2026-07-27 press release); she has published nothing of her own that could be found. The start year is an inference from the 2023 ranking.",
+  "Whether she still appears on the Rejuvenation Olympics board.",
+]
+notes = """
+The record layout requires a link to the person's own publication; this record has none, which is why
+it is flagged for John. The alternative is to drop it and let the Rejuvenation Olympics record
+carry her as a line."""

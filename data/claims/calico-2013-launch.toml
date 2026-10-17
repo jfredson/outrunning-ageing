@@ -1,0 +1,24 @@
+# Written 2026-10-16 from Google's own announcement, read live and in an archive capture of 2013-10,
+# and Calico's own releases on its site.
+
+id = "calico-2013-launch"
+who = "Google (Calico)"
+who_is = "Calico, the research company Google announced in 2013 under Arthur Levinson, the former chief executive of Genentech, to work on ageing and the diseases that come with it"
+said_on = "2013-09-18"
+where = "Google's announcement, Google announces Calico, a new company focused on health and well-being, on its press blog, 2013-09-18; read on the page. Larry Page's post the same day on his own Google+ page is in the notes, read in an archive capture"
+link = "http://googlepress.blogspot.com/2013/09/calico-announcement.html"
+quote = "a new company that will focus on health and well-being, in particular the challenge of aging and associated diseases"
+is_paraphrase = false
+commits_to = "No date and no named result. Larry Page's own post the same day called it a longer-term bet and promised good progress within reasonable timescales."
+about_the_headline = true
+verdict = "unfalsifiable"
+
+notes = """
+What followed, from Calico's and its partner's own releases: a collaboration with the drug company
+AbbVie announced 2014-09-03, each side putting in up to two hundred and fifty million dollars at
+first and up to one and a half billion in all, extended on 2018-06-26 and again on 2021-07-27
+with a further five hundred million each and work running to 2030; and the first public clinical
+result, on 2025-01-06, a drug for motor neurone disease that failed on its main measure in a shared
+trial of several drugs. Twelve years in, no treatment for ageing itself has been named. The record is
+marked about the headline because the announcement names no branch; it is the oldest of the
+well-funded bets on the question as a whole."""

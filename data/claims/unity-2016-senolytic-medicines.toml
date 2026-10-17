@@ -1,0 +1,27 @@
+# Written 2026-10-16 from the company's releases (PR Newswire copy of the 2016 financing release;
+# the 2020 and 2025 results and the 2025 dissolution from its filings with the United States
+# securities regulator), all read in full.
+
+id = "unity-2016-senolytic-medicines"
+who = "Unity Biotechnology"
+who_is = "Unity Biotechnology, the first company built to turn the clearing of worn-out cells in mice into drugs for people, founded in 2011 and public from 2018, which tested two such drugs in people and dissolved in 2025"
+said_on = "2016-10-27"
+where = "The company's release announcing a hundred and sixteen million dollar financing, 2016-10-27, first paragraph, as distributed on PR Newswire; read in full. Its home page of the same month, read in an archive capture of 2016-10-13, called the drugs senolytic medicines"
+link = "https://www.prnewswire.com/news-releases/unity-biotechnology-announces-116-million-series-b-financing-300352831.html"
+quote = "creating therapeutics that prevent, halt, or reverse numerous diseases of aging"
+is_paraphrase = false
+commits_to = "Drugs that kill worn-out cells preventing, halting or reversing diseases of ageing in people, with first trials in the near future; no year."
+leaves = ["drug-clears-aged-cells-from-a-person"]
+branches = ["worn-out-cells"]
+verdict = "unfalsifiable"
+
+notes = """
+The aim carried no date, so the fixed set's verdict is unfalsifiable; the record is nonetheless
+closed in fact. From the company's own filings: its first drug, injected into arthritic knees,
+showed no difference from placebo at twelve weeks (release of 2020-08-17) and was dropped; its
+second, for diabetic swelling of the retina, missed the main measure of its late-stage trial
+on 2025-03-24 by a whisker and met a later time point on 2025-05-05, the day the company said it
+would explore a sale or a wind-down and let its whole workforce go; shareholders approved
+dissolution on 2025-09-18 and the certificate took effect on 2025-09-26. The leaf this bears on
+is the one shared with The Upgrade Tree; Unity's 2020 trial is part of why that leaf's record says
+first human and not clinical use."""
