@@ -10,7 +10,7 @@ Cartilage, the smooth surface that lets a joint glide, does not heal; a hole in 
 and is where osteoarthritis starts. In 1994 a Swedish group reported taking a little cartilage
 from a patient's knee, growing the cells for weeks in the laboratory, and putting them back
 under a flap of tissue to fill the hole; most of the 23 patients had good knees two years on. The
-cells-on-a-membrane version, MACI, was approved by the United States regulator on 14 December
+cells-on-a-membrane version, MACI, was approved by the United States regulator on 13 December
 2016 after a controlled trial of 144 people in which it beat the standard operation on pain and
 function. It is the oldest approved therapy made from a person's own grown cells, and the
 branch's one leaf in the clinic. It repairs injuries in younger knees; whether grown cells can
@@ -23,16 +23,13 @@ wide use: the product is available in several countries and used in a substantia
 eligible cases, including worn joints in older people, not only injuries in younger ones."""
 settler = "The peer-reviewed trial report; the regulator's approval record; published use figures for the wide-use rung"
 stage = "in-clinical-use"
-stage_reached_on = "2016-12-14"
-stage_record = "https://www.fda.gov/news-events/press-announcements/fda-approves-first-autologous-cellularized-scaffold-repair-cartilage-defects-knee"
+stage_reached_on = "2016-12-13"
+stage_record = "https://web.archive.org/web/20180125064602/https://www.fda.gov/newsevents/newsroom/pressannouncements/ucm533153.htm"
 status = "tracked"
 horizon = "mid"
 
 verify = [
-  "The address of the regulator's 14 December 2016 notice ('FDA approves first autologous cellularized scaffold for the repair of cartilage defects of the knee') is reconstructed from its title and was not opened; the date and title were confirmed from the company's notice and reposts.",
-  "The 1994 New England Journal of Medicine report (Brittberg, Peterson and colleagues; 23 patients, grown cartilage cells under a periosteal flap) and its date, 6 October 1994, are from memory; its DOI is given from memory as 10.1056/NEJM199410063311401.",
-  "That the first-generation product (Carticel) was licensed in the United States in 1997, which would make the clinic rung earlier than 2016, is from memory; the 2016 record is used because it was checked and because it rests on a controlled trial, and the earlier date should be checked and the stage date moved back if confirmed.",
-  "No animal rung is recorded: the rabbit work of the 1980s that preceded the 1994 trial was not checked for a date.",
+  "Carticel was first licensed in the United States in 1997 (its label says 'Initial U.S. Approval: 1997'); the month, and whether the licence rested on a controlled trial, were not checked. Whether this moves the clinic date back, and whether the description's 'oldest approved therapy' sentence stands, is for John to rule.",
 ]
 notes = """
 This leaf is on the tree with a caveat said plainly: the approved use is for defects in
@@ -40,6 +37,11 @@ otherwise healthy knees, mostly in people under fifty-five, and osteoarthritis o
 excluded from the label. It counts toward the branch under the test as written because the test
 is about grown cells rebuilding a worn surface; the wide-use rung is where the age question is
 asked, and the yearly review may decide the leaf should be narrower."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "1987-06"
+record = "https://doi.org/10.1002/ar.1092180208"
 
 [[earlier_stage]]
 stage = "first-human"
@@ -62,3 +64,10 @@ rung = "in-wide-use"
 earliest = 2028
 likely = 2036
 latest = 2065
+
+[[revision]]
+date = 2026-10-17
+field = "stage_reached_on"
+old = "2016-12-14"
+new = "2016-12-13"
+why = "The regulator's own release is dated 13 December 2016; 14 December was the company's notice. The stage itself is unchanged."

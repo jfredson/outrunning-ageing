@@ -26,8 +26,7 @@ status = "tracked"
 horizon = "mid"
 
 verify = [
-  "The 2023 Nature report (Oh, Wyss-Coray and colleagues, 'Organ aging signatures in the plasma proteome track health and disease'; 5,676 people, eleven organs) and its date, 6 December 2023, are from memory.",
-  "That a 2025 follow-up from the same group in the UK Biobank (about 45,000 people) found organ ages predicting the diseases of each organ, and a young brain predicting a long life, is from memory; it would be the second independent group the test asks for and should be checked.",
+  "The 2025 follow-up (Oh, Wyss-Coray and colleagues, Nature Medicine, online 2025-07-09; 44,498 people in the UK Biobank) is from the same group and so is not the second independent group; an independent group (Goeminne, Gladyshev and colleagues, Cell Metabolism, online 2024-11-01) reported organ-specific protein ages predicting organ-specific disease in over 50,000 people. Whether the test's 'two or more independent groups' is met, and from when, has not been ruled.",
 ]
 notes = """
 The protein approach and the DNA-mark clocks (the companion leaf) are the two main families of
