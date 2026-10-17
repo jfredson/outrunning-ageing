@@ -1,11 +1,9 @@
 # Ids that once existed and were retired or replaced (docs/record-schema.md, "The retired list").
-# Empty so far. An entry looks like:
-#
-# [[retired]]
-# id = "old-leaf-id"
-# kind = "leaf"
-# date = 2027-01-01
-# why = "The test was rewritten, so the leaf was replaced rather than edited."
-# replaced_by = "new-leaf-id"
+# An id is never renamed and never reused; it is retired here, with the replacement where one exists.
 
-retired = []
+[[retired]]
+id = "2026-10-16"
+kind = "scan"
+date = 2026-10-17
+why = "The worked example of a weekly reading, written with the record layout on 2026-10-16 and marked as an example. Deleted on 2026-10-17 when the first real reading landed, as the layout said it would be, and the reading record's layout was widened the same day (items for claims and self-experiments, the searches, four verdicts)."
+replaced_by = "2026-10-17"

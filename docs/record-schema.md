@@ -15,11 +15,11 @@ The data is the project. There are six kinds of record, under `data/`:
 | claim | `data/claims/<id>.toml` | One thing a named person or company said in public about when, with the primary source and a verdict as dates pass | the anchor on the claims page |
 | experiment | `data/experiments/<id>.toml` | One public self-experiment someone else runs: what they do, measure and claim, and what the public record shows | the anchor on the self-experiments page |
 | publication | `data/papers/<id>.toml` | One scientific paper, trial report or regulator's record that bears on a leaf or a branch, in an append-only log | the citation key other records link with |
-| scan | `data/scans/<id>.toml` | One weekly reading of every leaf against the week's news, with a verdict per leaf | the anchor on "This week's reading" |
+| scan | `data/scans/<id>.toml` | One weekly reading of every leaf, claim and self-experiment against the week's news, with the searches made and a verdict per record (widened 2026-10-17; decision 18) | the anchor on "This week's reading" |
 
 A seventh file, `data/retired.toml`, lists ids that once existed and were retired or replaced. It is how an id is taken out of service without ever being renamed.
 
-The links between the six kinds point one way, and nothing is stored in two places. A leaf names its branch and, where one exists, its sibling on The Upgrade Tree. A claim names the leaves or branches it bears on (or says it is about the headline itself). A self-experiment names the leaves or branches it tries. A publication names the leaves or branches it bears on. A reading names the leaf it read. A page for a leaf gathers the claims, self-experiments, publications and readings that point at it; a branch page gathers its leaves and everything that points at the branch.
+The links between the six kinds point one way, and nothing is stored in two places. A leaf names its branch and, where one exists, its sibling on The Upgrade Tree. A claim names the leaves or branches it bears on (or says it is about the headline itself). A self-experiment names the leaves or branches it tries. A publication names the leaves or branches it bears on. A reading names, in each of its items, the leaf, claim or self-experiment it read, and the publications it logged. A page for a leaf gathers the claims, self-experiments, publications and readings that point at it; a branch page gathers its leaves and everything that points at the branch.
 
 ## File format and layout
 
@@ -41,7 +41,9 @@ TOML, one file per record, read by Python's standard library (`tomllib`, present
         hickson-2019.toml                             one file per paper: first author and year
         ...
       scans/
-        2026-10-16.toml                               one file per weekly reading, named for its date
+        2026-10-17.toml                               one file per weekly reading, named for its date (the
+                                                      siblings call this folder readings/; the kickoff named
+                                                      it scans/ and the scripts and the site followed, so it stays)
 
 **Ids.** Every record has an `id` (a branch has a `key`, which is the same thing): lowercase letters, digits and single dashes, like `drug-clears-aged-cells-from-a-person` or `hickson-2019`. The file is named `<id>.toml`, and the validator refuses a file whose name and id disagree: that is the first guard against renaming. Ids are unique across all six kinds, so a link is never ambiguous. Leaf ids say what happens, in plain words, and carry no branch prefix (decision 3). Claim ids are the speaker, the year the claim is about or was made, and a word for the topic. Publication ids are the first author's surname and the year, with a word added when two collide (`hickson-2019-senolytics`). Scan ids are the reading's date.
 
@@ -51,7 +53,7 @@ TOML, one file per record, read by Python's standard library (`tomllib`, present
 
 **Unknown fields are refused.** A field not listed below fails validation, so a misspelt field name is caught instead of silently ignored, and so a field for John's own health cannot arrive by accident (decision 12 of the kickoff).
 
-**Three fields every kind may carry.** `verify`: a list of plain-language claims in the record that were written from memory and not checked against a source at the time; a later session clears each by checking it and either deleting the line or correcting the record; the weekly reading reads the list but may not edit it (the Belt Equation rule of 2026-10-06). `notes`: anything else worth keeping. `example`: `true` on a record that is a worked example of the layout and not yet a record of the world; the site counts examples separately and never shows an example reading as the site's reading (decision 13). An example that becomes real has the field removed; one that is replaced is deleted and its id retired.
+**Three fields every kind may carry.** `verify`: a list of plain-language claims in the record that were written from memory and not checked against a source at the time; a later session clears each by checking it and either deleting the line or correcting the record; the weekly reading reads the list but may not edit it (the Belt Equation rule of 2026-10-06; a search that settles a listed fact becomes a flagged item, `docs/weekly-reading.md`). `notes`: anything else worth keeping. `example`: `true` on a record that is a worked example of the layout and not yet a record of the world; the site counts examples separately and never shows an example reading as the site's reading (decision 13). An example that becomes real has the field removed; one that is replaced is deleted and its id retired.
 
 ## The stage ladder
 
@@ -331,36 +333,76 @@ The publications log is append-only: a record is added when a paper is read and 
 
 ## The scan record (the weekly reading)
 
-One file per reading, named for its date. The reading proposes; it does not move a leaf by itself. A move is a dated revision on the leaf, and a reading that says a leaf moved must be matched by one.
+Widened 2026-10-17 with the weekly reading itself (`docs/weekly-reading.md`; decision 18, **proposed, not yet ruled**) from the leaf-only layout of 2026-10-16. One file per reading, named for its date, written once and never edited. The reading proposes; a move is a dated stage revision on the leaf, and a reading that says a leaf moved must be matched by one. The procedure that writes it, the four verdicts, the caps and the limits on what a reading may do are in `docs/weekly-reading.md`.
 
 | Field | Required | Meaning |
 |---|---|---|
-| `id` | yes | The date of the reading as text, `2026-10-25`. Must equal `read_on`. |
-| `read_on` | yes | The date the leaves were read (a TOML date). The strip on the home page shows this date. |
-| `covers_from` | yes | The first day of the news the reading covers (a TOML date, not after `read_on`). |
-| `summary` | yes | One paragraph: what the week brought and what, if anything, moved. |
-| `[[reading]]` | at least one | One per leaf read. Fields: `leaf` (a leaf id that exists; no leaf twice), `verdict` (`"quiet"`: nothing relevant; `"noted"`: something relevant was reported and the test was not met; `"moved"`: the estimate or a lesser field changed, with a revision on the leaf dated `read_on`; `"met"`: a rung was reached, with a revision on the leaf dated `read_on`; `"waiting"`: something happened and the author has yet to rule), `line` (the one sentence, written on opening: what was reported, what the test asks, why it did or did not move), `source` (no; a link), `sibling_stage` (no; only on a leaf with a `sibling`: the stage The Upgrade Tree shows for it this week), `sibling_agrees` (no; `true` if the two stages agree). |
+| `id` | yes | The Pacific date the reading ran, `2026-10-24`, with `-2`, `-3` on a second or third run the same day. The file is named for it. |
+| `read_on` | yes | The same date, as a TOML date. The strip on the home page shows it. |
+| `covers_from` | yes | The first day of the news the reading covers (a TOML date, not after `read_on`): the day after the previous reading. |
+| `ran_at` | yes | When the reading finished, universal time, as text: `"2026-10-18T01:12:30Z"`. |
+| `run_by` | yes | `"scheduled"` (the weekly cloud task) or `"hand"` (a session a person started). |
+| `commit_before` | yes | The short commit the records were read at. |
+| `leaves_read`, `claims_read`, `experiments_read` | yes | How many of each were read; each must equal the number of items naming that kind. |
+| `searches` | yes | How many distinct searches were run across all items; the validator counts them. |
+| `summary` | yes | One paragraph: what the week brought, what moved, what was logged, and what the reading could not do. |
+| `[[item]]` | at least one | One per record read, in the order read. Fields: exactly one of `leaf`, `claim` or `experiment` (an id that exists; no record twice); `verdict` (`"quiet"`: nothing in the window bears on the test; `"noted"`: something bears on it and was logged as a publication, and the test was not met; `"moved"`: a leaf only, moved one rung up on a record of the kind its settler names; `"flagged"`: something the reading may not decide, left for John); `queries` (at least two searches, each a line of text, including any listed again from another record; fewer only with `search_short`); `reused` (no; one line per search first run for another record, quoting it as written in `queries`, naming that record and saying why it bears on this one); `search_short` (no; one line saying why fewer than two searches of the record's own could be run); `found` (one to three plain sentences on what was found and why it got this verdict); `sources` (required for every verdict but quiet; links to public records); `publications` (required for noted; ids of publication records logged, which must exist; never on a quiet item); `moved_from` and `moved_to` (moved only; adjacent rungs of the ladder, matched by a `[[revision]]` on the leaf dated `read_on` with `field = "stage"`, `old = moved_from` and `new = moved_to`); `for_john` (required for flagged, and only there: the change the reading would have made, the record, and why it was not its to make); `sibling_stage` and `sibling_agrees` (no; only on a leaf with a `sibling`: the stage The Upgrade Tree shows for it this week, and whether the two agree). |
 | `verify`, `notes`, `example` | no | As above. |
 
-A reading need not cover every leaf: leaves added after a reading would otherwise make old readings fail. The procedure document for the weekly reading (after launch) says every tracked leaf is read; the validator checks only that what was read exists.
+A reading need not cover every record: records added after a reading would otherwise make old readings fail, and a reading whose search tool ran out names what it could not read in its summary. The procedure says every tracked leaf, every claim and every self-experiment is read; the validator checks only that what was read exists.
 
-### Worked example: `data/scans/2026-10-16.toml`
+### Worked example: `data/scans/2026-10-17.toml`
 
-Marked `example = true`: no reading has run, and the site's strip says so until the first real one lands and this file is deleted and its id retired.
+Abridged; the file in `data/` is the first reading, with 80 items. The worked example of 2026-10-16, in the earlier layout, was deleted the day the first reading landed and its id retired (`data/retired.toml`).
 
-    id = "2026-10-16"
-    read_on = 2026-10-16
-    covers_from = 2026-10-09
-    example = true
+    id = "2026-10-17"
+    read_on = 2026-10-17
+    covers_from = 2026-10-10
+    ran_at = "2026-10-17T16:08:12Z"
+    run_by = "hand"
+    commit_before = "23a12a3"
+    leaves_read = 44
+    claims_read = 27
+    experiments_read = 9
+    searches = 191
     summary = """
-    A worked example of the layout, written with the schema on 2026-10-16. No reading has run."""
+    The first weekly reading, run by hand on 2026-10-17, the day the site went live ... """
 
-    [[reading]]
-    leaf = "drug-clears-aged-cells-from-a-person"
+    [[item]]
+    leaf = "clearing-aged-cells-makes-old-animals-live-longer"
     verdict = "quiet"
-    line = "Nothing read this week; this entry shows the shape of a reading and nothing more."
+    queries = [
+      "senolytic lifespan extension mice new study October 2026",
+      "senescent cell clearance lifespan Nature Aging 2026 mice senolytic survival",
+      "senolytic news this week October 2026",
+    ]
+    reused = ["senolytic news this week October 2026, first run for aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial; it asked for any senolytic news in the window and would have surfaced a lifespan result if one had been reported"]
+    found = """
+    Nothing in the window. Both searches returned only the 2016 engineered-mouse result and the 2018
+    dasatinib-plus-quercetin result ... that the record already holds ..."""
+
+    [[item]]
+    leaf = "drug-clears-aged-cells-from-a-person"
+    verdict = "flagged"
+    queries = ["...", "...", "...", "..."]
+    found = """
+    Nothing dated in the window meets or moves the test; the leaf stays at first-human ... """
+    sources = ["https://www.nature.com/articles/s42255-026-01643-4", "..."]
+    for_john = """
+    The change I would make: the description says the one drug to reach a controlled trial on a
+    clinical outcome failed in 2020 ... The stage does not change ..."""
     sibling_stage = "first-human"
     sibling_agrees = true
+
+A moved item would instead carry `moved_from = "shown-in-animals"` and `moved_to = "first-human"`, and the leaf a revision dated the reading's day:
+
+    [[revision]]
+    date = 2026-10-24
+    field = "stage"
+    old = "shown-in-animals"
+    new = "first-human"
+    why = "[reading 2026-10-24] A peer-reviewed report of the first person treated, with the measured result the test asks for."
+    publication = "example-2026"
 
 ## The retired list
 
@@ -379,7 +421,7 @@ Marked `example = true`: no reading has run, and the site's strip says so until 
 7. Every claim has a primary source (`where`), a `quote`, a `commits_to` and a `verdict`; a paraphrase says where it was seen; a `not-yet-due` claim has a `due` year; a `delivered` or `missed` claim has `verdict_on` and `verdict_why`; and it bears on at least one leaf or branch or is about the headline.
 8. Every self-experiment names at least one leaf or branch, and carries no stage, estimate or range (the plain message says a self-experiment moves no leaf).
 9. Every publication names at least one leaf or branch. One with `moved_range = true` is named by a revision on some leaf; one with `settled_stage = true` is named as a stage record on some leaf.
-10. Every reading names a leaf that exists, no leaf twice; a `moved` or `met` verdict is matched by a revision on that leaf dated `read_on`; `sibling_stage` appears only on a leaf that has a `sibling`.
+10. Every reading's id is its `read_on` date (with `-2`, `-3` for a second or third run that day); `ran_at` is universal time as text, `run_by` is `hand` or `scheduled`, `commit_before` is a short commit; every item names exactly one leaf, claim or self-experiment that exists, no record twice; every verdict is one of the four; every item lists at least two searches or carries `search_short`, and a `reused` line quotes one of them; every verdict but quiet cites a source; a noted item names a publication that exists and a quiet item names none; a moved item is a leaf, moves exactly one rung, and is matched by a stage revision on that leaf dated `read_on` from `moved_from` to `moved_to`; a flagged item carries `for_john` and no other item does; `sibling_stage` appears only on a leaf that has a `sibling`; and `leaves_read`, `claims_read`, `experiments_read` and `searches` equal what the items hold. (Widened 2026-10-17; the rule of 2026-10-16 checked a leaf-only reading with five verdicts.)
 11. No id is renamed: the file name must equal the id, and an id that was committed before and is now gone must have an entry in `data/retired.toml` (the script reads the repository's history for this, and skips the check with a note when the data folder is not in a git repository). A current record may not reuse a retired id.
 
 `python3 scripts/compute.py run` validates first, refuses with a plain message until every branch has at least `handled_when` tracked leaves, and otherwise plays the tree out and writes `data/headline.json`. How it does that, and the parameters proposed for it on 2026-10-16, are in `docs/method.md`.
@@ -406,9 +448,13 @@ Proposed by Claude with a confidence level and the strongest alternative for eac
 16. **Unknown fields are refused**, and so no field for John's own health can arrive by accident. High confidence; standard practice for a strict validator, and the kickoff's item 12 made structural.
 17. **The `verify` list is carried over from The Belt Equation.** High confidence; it is the mechanism behind the ground rule that facts from memory are marked.
 
+### Proposed 2026-10-17, not yet ruled
+
+18. **The scan record reads three kinds of record, carries the searches, and has four verdicts.** Proposed by the session that built the weekly reading (`docs/weekly-reading.md`), replacing the leaf-only layout of 2026-10-16 before any real reading had used it: each item names exactly one leaf, claim or self-experiment; it lists the searches run (two as a floor, with a `reused` line for a borrowed one and `search_short` when the tool gave out), what was found, the sources, the publications logged, the rungs of a move and the line for John; the header counts what was read and the validator checks the counts against the items; and the five verdicts become four (`quiet`, `noted`, `moved`, `flagged`), because the reading may not touch an estimate, so a move can only be a rung, and the siblings' word for "waiting on the author" is `flagged`. High confidence on the three kinds (the kickoff gives the claims log verdicts "filled in as dates pass" and the self-experiments a public record to hold against, which needs a weekly check) and on the counts and the searches (The Belt Equation's audit of 2026-10-06 made both rules, and the siblings carry them); moderate on folding `met` into `moved`, a judgment about words. Standard practice for this family. Alternative: keep the layout of 2026-10-16 and read claims and self-experiments in a file outside the record kinds, which would leave the validator blind to two thirds of what the reading does. The folder stays `data/scans/`, as the kickoff named it, although the siblings use `data/readings/`; the cost of the difference is one word in the family's vocabulary, and the cost of changing it a retired id, three scripts and four documents.
+
 ## Known simplifications
 
 - **The headline's parameters are in `docs/method.md`**, proposed with confidence and alternatives and not yet ruled: the triangle draw, the lag from the clinic to ordinary people, the fixed dates 2050 and 2100, the number of runs, the seed, and the readiness rule for `run`.
 - **The estimate is set by hand with a written reason**, not computed from the publications. That is deliberate: the reason is the arguable part.
-- **A reading covers what it covers.** The validator does not insist that every tracked leaf was read, for the reason given under the scan record.
-- **The sibling check is a weekly-reading procedure**, not a validator rule, for the reason in decision 7.
+- **A reading covers what it covers.** The validator does not insist that every tracked leaf, claim or self-experiment was read, for the reason given under the scan record.
+- **The sibling check is a weekly-reading procedure**, not a validator rule, for the reason in decision 7; the validator checks only that the sibling's stage, when written, is a rung on the ladder.

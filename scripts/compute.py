@@ -21,8 +21,13 @@ with a fixed seed (docs/method.md) and writes the headline to data/headline.json
 escape year, the share of runs before 2050, the share after 2100, the spread, a histogram, and
 each branch's median handled year.
 
+The weekly reading's record (data/scans/, docs/weekly-reading.md) is checked with the rest: every
+item names a leaf, claim or self-experiment that exists, lists its searches, and carries one of
+four verdicts; a moved item is matched by a stage revision on the leaf dated the reading's day; the
+header counts match the items.
+
 Written 2026-10-16 (weekend step 2 of docs/2026-10-16-kickoff.md); the computation filled in the
-same day by the leaf session (weekend step 3).
+same day by the leaf session (weekend step 3); the reading record widened 2026-10-17.
 """
 
 from __future__ import annotations
@@ -69,7 +74,10 @@ HORIZONS = {"near", "mid", "far", "top"}
 ESTIMATE_STATUSES = {"first-pass", "reviewed"}
 VERDICTS = {"not-yet-due", "delivered", "missed", "unfalsifiable"}
 EXPERIMENT_STATUSES = {"running", "ended"}
-READING_VERDICTS = {"quiet", "noted", "moved", "met", "waiting"}
+# The weekly reading's four verdicts (docs/record-schema.md, "The scan record"; widened from the
+# five leaf-only verdicts of 2026-10-16 on 2026-10-17 with the weekly reading, docs/weekly-reading.md).
+READING_VERDICTS = {"quiet", "noted", "moved", "flagged"}
+RUN_BY = {"hand", "scheduled"}
 LATEST_YEAR = 2300
 
 RECORD_KINDS = {"branch", "leaf", "claim", "experiment", "publication", "scan"}
@@ -85,6 +93,9 @@ FOLDERS: dict[str, str] = {
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 WORLD_DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
+RAN_AT_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
+COMMIT_RE = re.compile(r"^[0-9a-f]{7,40}$")
+LINK_RE = re.compile(r"^https?://\S+$")
 
 COMMON = {"verify", "notes", "example"}
 
@@ -102,7 +113,8 @@ ALLOWED: dict[str, set[str]] = {
                    "claims", "public_record", "link", "leaves", "branches"} | COMMON,
     "publication": {"id", "date", "added_on", "authors", "title", "venue", "link", "finding",
                     "leaves", "branches", "moved_range", "settled_stage"} | COMMON,
-    "scan": {"id", "read_on", "covers_from", "summary", "reading"} | COMMON,
+    "scan": {"id", "read_on", "covers_from", "ran_at", "run_by", "commit_before", "leaves_read",
+             "claims_read", "experiments_read", "searches", "summary", "item"} | COMMON,
 }
 REQUIRED: dict[str, list[str]] = {
     "branch": ["key", "order", "name", "meaning", "hallmarks", "required", "handled_when"],
@@ -112,7 +124,8 @@ REQUIRED: dict[str, list[str]] = {
                    "public_record", "link"],
     "publication": ["id", "date", "added_on", "authors", "title", "venue", "link", "finding",
                     "moved_range", "settled_stage"],
-    "scan": ["id", "read_on", "covers_from", "summary", "reading"],
+    "scan": ["id", "read_on", "covers_from", "ran_at", "run_by", "commit_before", "leaves_read",
+             "claims_read", "experiments_read", "searches", "summary", "item"],
 }
 # "hallmarks" may be an empty list (the measuring branch), so it is not checked for emptiness.
 MAY_BE_EMPTY = {"hallmarks"}
@@ -121,7 +134,9 @@ EARLIER_STAGE_ALLOWED = {"stage", "reached_on", "record", "publication"}
 ESTIMATE_ALLOWED = {"status", "set_on", "why", "sources", "rung"}
 RUNG_ALLOWED = {"rung", "earliest", "likely", "latest"}
 REVISION_ALLOWED = {"date", "field", "old", "new", "why", "publication"}
-READING_ALLOWED = {"leaf", "verdict", "line", "source", "sibling_stage", "sibling_agrees"}
+ITEM_ALLOWED = {"leaf", "claim", "experiment", "verdict", "queries", "reused", "search_short", "found",
+                "sources", "publications", "moved_from", "moved_to", "for_john", "sibling_stage", "sibling_agrees"}
+ITEM_TARGETS = ("leaf", "claim", "experiment")
 RETIRED_ALLOWED = {"id", "kind", "date", "replaced_by", "why"}
 
 # Fields a self-experiment must never carry: a self-experiment moves no leaf. Unknown fields are
@@ -371,7 +386,7 @@ def validate(loaded: dict, previously_seen: set[tuple[str, str]] | None = None) 
         elif kind == "publication":
             _check_publication(r, tag, leaves, problems)
         elif kind == "scan":
-            _check_scan(r, tag, leaves, problems)
+            _check_scan(r, tag, by_kind, problems)
 
     return problems
 
@@ -401,7 +416,7 @@ def _check_text_fields(r: dict, tag: str, problems: list[str]) -> None:
                    "status", "horizon", "mechanism", "breaking_point", "sibling", "who", "who_is",
                    "said_on", "where", "link", "quote", "paraphrase_seen_in", "commits_to", "verdict",
                    "verdict_why", "started", "ended", "what", "measures", "claims", "public_record",
-                   "date", "title", "venue", "finding", "summary", "notes"}
+                   "date", "title", "venue", "finding", "summary", "notes", "run_by", "commit_before"}
     for key in text_fields & set(r):
         if not isinstance(r[key], str):
             problems.append(f"{tag}: {key!r} must be text")
@@ -658,50 +673,166 @@ def _check_publication(r: dict, tag: str, leaves: dict, problems: list[str]) -> 
             problems.append(f"{tag}: says it settled a stage, but no leaf names {rid!r} as a stage record")
 
 
-def _check_scan(r: dict, tag: str, leaves: dict, problems: list[str]) -> None:
+def _text_list(value) -> bool:
+    return isinstance(value, list) and all(isinstance(x, str) and x.strip() for x in value)
+
+
+def _check_scan(r: dict, tag: str, by_kind: dict[str, dict[str, dict]], problems: list[str]) -> None:
+    """The weekly reading's record (docs/record-schema.md, "The scan record"; docs/weekly-reading.md).
+
+    The header says when it ran and what it read; one [[item]] per record read, each naming
+    exactly one leaf, claim or self-experiment, with the searches, what was found and one of four
+    verdicts. A moved item is a leaf whose record carries a stage revision dated the reading's day;
+    a noted item names the publication it logged; a flagged item carries a line for John. The
+    header counts must match the items.
+    """
+    leaves = by_kind["leaf"]
+    publication_ids = set(by_kind["publication"])
     read_on = r.get("read_on")
-    if isinstance(read_on, dt.date) and isinstance(r.get("id"), str) and r["id"] != read_on.isoformat():
-        problems.append(f"{tag}: id {r['id']!r} must equal the read_on date {read_on.isoformat()}")
+    rid = r.get("id")
+    if isinstance(read_on, dt.date) and isinstance(rid, str):
+        day = read_on.isoformat()
+        if not (rid == day or re.fullmatch(re.escape(day) + r"-[2-9]", rid)):
+            problems.append(f"{tag}: id {rid!r} must be the read_on date {day} (with -2, -3 on a second or third run that day)")
     covers = r.get("covers_from")
     if isinstance(read_on, dt.date) and isinstance(covers, dt.date) and covers > read_on:
         problems.append(f"{tag}: covers_from ({covers}) is after read_on ({read_on})")
-    readings = r.get("reading", [])
-    if not isinstance(readings, list):
-        problems.append(f"{tag}: 'reading' must be a list of [[reading]] tables")
-        readings = []
+    if isinstance(r.get("ran_at"), str) and not RAN_AT_RE.match(r["ran_at"]):
+        problems.append(f"{tag}: ran_at must be universal time as text, like \"2026-10-17T22:15:00Z\"")
+    elif "ran_at" in r and not isinstance(r["ran_at"], str):
+        problems.append(f"{tag}: ran_at must be text, like \"2026-10-17T22:15:00Z\"")
+    if "run_by" in r and r["run_by"] not in RUN_BY:
+        problems.append(f"{tag}: run_by must be one of {sorted(RUN_BY)}")
+    if "commit_before" in r and (not isinstance(r["commit_before"], str) or not COMMIT_RE.match(r["commit_before"])):
+        problems.append(f"{tag}: commit_before must be the short commit the records were read at, like \"23a12a3\"")
+    for key in ("leaves_read", "claims_read", "experiments_read", "searches"):
+        if key in r and (not _is_int(r[key]) or r[key] < 0):
+            problems.append(f"{tag}: {key!r} must be a whole number")
+
+    items = r.get("item", [])
+    if not isinstance(items, list):
+        problems.append(f"{tag}: 'item' must be a list of [[item]] tables")
+        items = []
     seen: set[str] = set()
-    for i, g in enumerate(readings, 1):
-        gtag = f"{tag}, reading {i}"
+    counts = {k: 0 for k in ITEM_TARGETS}
+    distinct_queries: set[str] = set()
+    for i, g in enumerate(items, 1):
+        gtag = f"{tag}, item {i}"
         if not isinstance(g, dict):
             problems.append(f"{gtag}: must be a table")
             continue
-        for key in sorted(set(g) - READING_ALLOWED):
+        for key in sorted(set(g) - ITEM_ALLOWED):
             problems.append(f"{gtag}: unknown field {key!r}")
-        leaf_id = g.get("leaf")
-        leaf = leaves.get(leaf_id) if isinstance(leaf_id, str) else None
-        if leaf is None:
-            problems.append(f"{gtag}: leaf {leaf_id!r} is not a leaf that exists")
-        elif leaf_id in seen:
-            problems.append(f"{gtag}: leaf {leaf_id!r} is read twice")
+
+        # ---- exactly one record, which exists, read once
+        named = [k for k in ITEM_TARGETS if k in g]
+        target = record = None
+        if len(named) != 1:
+            problems.append(f"{gtag}: names {'no record' if not named else 'more than one record'}; an item names exactly one leaf, claim or experiment")
         else:
-            seen.add(leaf_id)
+            target = named[0]
+            tid = g[target]
+            record = by_kind[target].get(tid) if isinstance(tid, str) else None
+            if record is None:
+                problems.append(f"{gtag}: {target} {tid!r} is not a {target} that exists")
+            elif tid in seen:
+                problems.append(f"{gtag}: {target} {tid!r} is read twice")
+            else:
+                seen.add(tid)
+                counts[target] += 1
+
+        # ---- the verdict
         verdict = g.get("verdict")
         if verdict not in READING_VERDICTS:
             problems.append(f"{gtag}: verdict must be one of {sorted(READING_VERDICTS)}")
-        if _empty(g.get("line")) or not isinstance(g.get("line"), str):
-            problems.append(f"{gtag}: needs a 'line' (the sentence written on opening)")
-        if verdict in ("moved", "met") and leaf is not None and isinstance(read_on, dt.date):
-            matched = any(isinstance(rev, dict) and rev.get("date") == read_on for rev in (leaf.get("revision") or []))
-            if not matched:
-                problems.append(f"{gtag}: says {leaf_id!r} {verdict}, but the leaf has no revision dated {read_on}; "
-                                "the reading proposes and the leaf records")
+            verdict = None
+
+        # ---- the searches: at least two, each a line of text; a reused line quotes one of them
+        queries = g.get("queries")
+        if not _text_list(queries):
+            problems.append(f"{gtag}: 'queries' must be a list of the searches run, each a line of text")
+            queries = []
+        elif len(queries) < 2 and _empty(g.get("search_short")):
+            problems.append(f"{gtag}: lists {len(queries)} search(es); every record gets at least two, unless "
+                            "'search_short' says why the search tool could not give them")
+        if "search_short" in g and not isinstance(g["search_short"], str):
+            problems.append(f"{gtag}: 'search_short' must be one line of text")
+        distinct_queries.update(q.strip() for q in queries)
+        reused = g.get("reused")
+        if reused is not None:
+            if not _text_list(reused):
+                problems.append(f"{gtag}: 'reused' must be a list of lines, one per search first run for another record")
+            else:
+                for line in reused:
+                    if not any(q.strip() and q.strip() in line for q in queries):
+                        problems.append(f"{gtag}: a 'reused' line must quote one of the item's own queries as written")
+                if len(reused) >= len(queries) and queries and _empty(g.get("search_short")):
+                    problems.append(f"{gtag}: every search is borrowed; at least two must have been run for this record, "
+                                    "unless 'search_short' says why they could not be")
+
+        if _empty(g.get("found")) or not isinstance(g.get("found"), str):
+            problems.append(f"{gtag}: needs 'found' (one to three plain sentences on what was found and why it got this verdict)")
+
+        # ---- sources, publications, the line for John
+        sources = g.get("sources")
+        if sources is not None and (not _text_list(sources) or not all(LINK_RE.match(s) for s in sources)):
+            problems.append(f"{gtag}: 'sources' must be a list of links to public records")
+        if verdict in ("noted", "moved", "flagged") and _empty(sources):
+            problems.append(f"{gtag}: a {verdict!r} item cites at least one source")
+        pubs = g.get("publications")
+        if pubs is not None:
+            if not _text_list(pubs):
+                problems.append(f"{gtag}: 'publications' must be a list of publication ids")
+            else:
+                for pid in pubs:
+                    if pid not in publication_ids:
+                        problems.append(f"{gtag}: publication {pid!r} is not a publication record that exists")
+        if verdict == "noted" and _empty(pubs):
+            problems.append(f"{gtag}: a 'noted' item names the publication it logged; if nothing was logged, the verdict is 'quiet' or 'flagged'")
+        if verdict == "quiet" and pubs:
+            problems.append(f"{gtag}: a 'quiet' item logs no publication; if one was logged, the verdict is 'noted'")
+        if verdict == "flagged":
+            if _empty(g.get("for_john")) or not isinstance(g.get("for_john"), str):
+                problems.append(f"{gtag}: a 'flagged' item carries 'for_john' (the change the reading would have made, the record, and why it is John's)")
+        elif "for_john" in g:
+            problems.append(f"{gtag}: 'for_john' is only for a 'flagged' item")
+
+        # ---- a move: a leaf only, one rung, matched by a stage revision dated the reading's day
+        if verdict == "moved":
+            if target != "leaf":
+                problems.append(f"{gtag}: only a leaf can be 'moved'; a claim or a self-experiment is at most 'flagged'")
+            frm, to = g.get("moved_from"), g.get("moved_to")
+            if frm not in STAGE_RANK or to not in STAGE_RANK:
+                problems.append(f"{gtag}: a 'moved' item names 'moved_from' and 'moved_to', each one of {STAGES}")
+            elif STAGE_RANK[to] != STAGE_RANK[frm] + 1:
+                problems.append(f"{gtag}: moves from {frm!r} to {to!r}; a reading moves a leaf exactly one rung up")
+            elif record is not None and isinstance(read_on, dt.date):
+                matched = any(isinstance(rev, dict) and rev.get("date") == read_on and rev.get("field") == "stage"
+                              and rev.get("old") == frm and rev.get("new") == to
+                              for rev in (record.get("revision") or []))
+                if not matched:
+                    problems.append(f"{gtag}: says {g.get('leaf')!r} moved from {frm!r} to {to!r}, but the leaf has no stage "
+                                    f"revision dated {read_on} saying so; the reading proposes and the leaf records")
+        else:
+            for key in ("moved_from", "moved_to"):
+                if key in g:
+                    problems.append(f"{gtag}: {key!r} is only for a 'moved' item")
+
+        # ---- the sibling check, on the five shared leaves
         if "sibling_stage" in g:
-            if leaf is not None and "sibling" not in leaf:
+            if target != "leaf" or (record is not None and "sibling" not in record):
                 problems.append(f"{gtag}: 'sibling_stage' is only for a leaf that has a sibling on The Upgrade Tree")
             if g["sibling_stage"] not in STAGE_RANK:
                 problems.append(f"{gtag}: sibling_stage must be one of {STAGES}")
         if "sibling_agrees" in g and not isinstance(g["sibling_agrees"], bool):
             problems.append(f"{gtag}: 'sibling_agrees' must be true or false")
+
+    # ---- the header counts match the items
+    for key, target in (("leaves_read", "leaf"), ("claims_read", "claim"), ("experiments_read", "experiment")):
+        if _is_int(r.get(key)) and r[key] != counts[target]:
+            problems.append(f"{tag}: {key} says {r[key]} but the items name {counts[target]} {target}(s)")
+    if _is_int(r.get("searches")) and r["searches"] != len(distinct_queries):
+        problems.append(f"{tag}: searches says {r['searches']} but the items list {len(distinct_queries)} distinct search(es)")
 
 
 # ---------------------------------------------------------------- commands
