@@ -9,7 +9,7 @@
 // it). Copied from The Upgrade Tree's branch page on 2026-10-17 and widened.
 import Base from '../../layouts/Base.astro';
 import StageBadge from '../../components/StageBadge.astro';
-import { records, longDate, worldDate, plural, yearWords, type Branch } from '../../lib/records';
+import { records, longDate, worldDate, plural, yearWords, lowerFirst, type Branch } from '../../lib/records';
 
 export function getStaticPaths() {
   return records.branches.map((b) => ({ params: { branch: b.key }, props: { branch: b } }));
@@ -59,7 +59,7 @@ const description = `${branch.meaning} What has been recorded under this branch 
       {inClinic.length >= branch.handled_when
         ? <>This branch already counts as handled: {inClinic.length === 1 ? 'its one treatment in the clinic' : `${inClinic.length} of its treatments are in the clinic`}, the {branch.handled_when === 2 ? 'second' : `${branch.handled_when}th`} of them since {inClinic[branch.handled_when - 1].clinic_year}, so every run of the model reads that year for it and the branch cannot be what holds the year back.</>
         : inClinic.length > 0
-          ? <>{inClinic.length === 1 ? 'One treatment' : `${inClinic.length} treatments`} under this branch {inClinic.length === 1 ? 'is' : 'are'} in the clinic already ({inClinic.map((l, i) => <>{l.name.toLowerCase()}, {l.clinic_year}{i < inClinic.length - 1 ? '; ' : ''}</>)}); the branch counts as handled when {branch.handled_when - inClinic.length === 1 ? 'one more' : `${branch.handled_when - inClinic.length} more`} {branch.handled_when - inClinic.length === 1 ? 'reaches' : 'reach'} it, and in each run of the model that year is drawn from the ranges below.</>
+          ? <>{inClinic.length === 1 ? 'One treatment' : `${inClinic.length} treatments`} under this branch {inClinic.length === 1 ? 'is' : 'are'} in the clinic already ({inClinic.map((l, i) => <>{lowerFirst(l.name)}, {l.clinic_year}{i < inClinic.length - 1 ? '; ' : ''}</>)}); the branch counts as handled when {branch.handled_when - inClinic.length === 1 ? 'one more' : `${branch.handled_when - inClinic.length} more`} {branch.handled_when - inClinic.length === 1 ? 'reaches' : 'reach'} it, and in each run of the model that year is drawn from the ranges below.</>
           : <>Nothing under this branch is in the clinic yet. In each run of the model a year is drawn for every treatment from its range, and the branch counts as handled when the {branch.handled_when === 1 ? 'first' : branch.handled_when === 2 ? 'second' : `${branch.handled_when}th`} of those years arrives.</>}
       {hb && <> Across all the runs, the middle year this branch is handled is {yearWords(hb.median_handled_year)}.</>}
     </p>

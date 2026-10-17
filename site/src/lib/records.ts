@@ -436,6 +436,11 @@ export function worldDate(text: string | null | undefined): string {
   return longDate(text);
 }
 
+/** "damaged DNA" from "Damaged DNA": only the first letter drops, so initials keep their capitals. */
+export function lowerFirst(name: string): string {
+  return name.charAt(0).toLowerCase() + name.slice(1);
+}
+
 export function plural(n: number, one: string, many: string): string {
   return `${n} ${n === 1 ? one : many}`;
 }

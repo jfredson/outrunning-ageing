@@ -11,7 +11,7 @@
 // Upgrade Tree's claims page (2026-10-16), the family's first claims log.
 import Base from '../layouts/Base.astro';
 import StageBadge from '../components/StageBadge.astro';
-import { records, longDate, worldDate, hostOf, recordUrl, percent, yearWords, spreadWords, plural } from '../lib/records';
+import { records, longDate, worldDate, hostOf, recordUrl, percent, yearWords, spreadWords, plural, lowerFirst } from '../lib/records';
 
 const list = records.claims;
 const k = records.claims_counts;
@@ -80,7 +80,7 @@ const fixed = records.fixed_dates;
                   ))}
                   {cl.branches.map((b) => {
                     const br = records.branches.find((x) => x.key === b.key);
-                    return <li><a href={b.path}>the {b.name.toLowerCase()} branch</a> <span class="dim">{br && br.furthest_label ? `furthest stage ${br.furthest_label.toLowerCase()}; ${br.in_clinic} in the clinic` : ''}</span></li>;
+                    return <li><a href={b.path}>the {lowerFirst(b.name)} branch</a> <span class="dim">{br && br.furthest_label ? `furthest stage ${br.furthest_label.toLowerCase()}; ${br.in_clinic} in the clinic` : ''}</span></li>;
                   })}
                 </ul>
               </div>

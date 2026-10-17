@@ -6,7 +6,7 @@
 // one; this page says so. The author's own track is not here, by John's ruling of 2026-10-16.
 // Every entry comes from data/experiments/ through scripts/export.py.
 import Base from '../layouts/Base.astro';
-import { records, worldDate, hostOf, recordUrl, plural, ONE_PERSON_LINE } from '../lib/records';
+import { records, worldDate, hostOf, recordUrl, plural, lowerFirst, ONE_PERSON_LINE } from '../lib/records';
 
 const list = records.experiments;
 const running = list.filter((e) => e.status === 'running').length;
@@ -47,7 +47,7 @@ const running = list.filter((e) => e.status === 'running').length;
             <p class="part">
               <strong>Bears on.</strong>{' '}
               {e.leaves.map((lf, i) => <><a href={lf.path}>{lf.name}</a>{i < e.leaves.length - 1 || e.branches.length > 0 ? '; ' : '.'}</>)}
-              {e.branches.map((b, i) => <><a href={b.path}>the {b.name.toLowerCase()} branch</a>{i < e.branches.length - 1 ? '; ' : '.'}</>)}
+              {e.branches.map((b, i) => <><a href={b.path}>the {lowerFirst(b.name)} branch</a>{i < e.branches.length - 1 ? '; ' : '.'}</>)}
             </p>
           )}
           <details class="claim-more">

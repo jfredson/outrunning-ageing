@@ -8,7 +8,7 @@
 // export script carries; the parameters are the ten John ruled on 2026-10-16, written here in
 // plain words with the strongest alternative for each, as the method document records them.
 import Base from '../layouts/Base.astro';
-import { records, longDate, plainNumber, percent, percentWords, spreadWords, yearWords, plural, REPO } from '../lib/records';
+import { records, longDate, plainNumber, percent, percentWords, spreadWords, yearWords, plural, lowerFirst, REPO } from '../lib/records';
 
 const h = records.headline;
 const c = records.counts;
@@ -130,7 +130,7 @@ const docs = [
           <>
             <h2>One run, written out</h2>
             <p>
-              {run.note} Every treatment under a branch is listed with its year; the branch is handled at its second; the latest handled branch, {run.latest_branch ? run.latest_branch.toLowerCase() : ''}, sets the year; and the lag is added.
+              {run.note} Every treatment under a branch is listed with its year; the branch is handled at its second; the latest handled branch, {run.latest_branch ? lowerFirst(run.latest_branch) : ''}, sets the year; and the lag is added.
             </p>
             <table class="run-table">
               <thead><tr><th>Branch</th><th>The years its treatments supply</th><th>Handled at its second</th></tr></thead>
@@ -151,7 +151,7 @@ const docs = [
               This one run lands {run.escape_year !== null && run.escape_year < h.median_year ? 'earlier' : 'later'} than the middle of all the runs, {h.median_year}, and that is expected: the real runs draw a year for every treatment at once, and the latest of eight drawn years is usually later than the latest of eight likely years, because any one of the eight can come in late. That is what the combination rule does, and why the honest spread is wider than any one run.
             </p>
             <p>
-              By branch, the middle year each counts as handled across all the runs: {h.branches.map((b, i) => <>{b.name.toLowerCase()} {yearWords(b.median_handled_year)}{i < h.branches.length - 1 ? ', ' : '.'}</>)} The <a href="/branches/">tree</a> shows each one.
+              By branch, the middle year each counts as handled across all the runs: {h.branches.map((b, i) => <>{lowerFirst(b.name)}{' '}{yearWords(b.median_handled_year)}{i < h.branches.length - 1 ? ', ' : '.'}</>)} The <a href="/branches/">tree</a> shows each one.
             </p>
           </>
         )}
