@@ -1,0 +1,169 @@
+---
+// One page per branch, carrying the six things a branch page carries (tracker pattern, rule 2.2):
+// its plain name and one sentence of meaning; its own number (the year it counts as handled in
+// the middle run, and the furthest stage reached under it); its treatments, listed by how soon
+// each could be decided; "what would move this" (rule 2.3: the next test each treatment needs,
+// and the branch's own line); its history (none yet: the year was first computed on 2026-10-16,
+// and a branch's handled year will be charted run by run from the second computation); and what
+// the story so far says about it (the claims, self-experiments and publications that bear on
+// it). Copied from The Upgrade Tree's branch page on 2026-10-17 and widened.
+import Base from '../../layouts/Base.astro';
+import StageBadge from '../../components/StageBadge.astro';
+import { records, longDate, worldDate, plural, yearWords, type Branch } from '../../lib/records';
+
+export function getStaticPaths() {
+  return records.branches.map((b) => ({ params: { branch: b.key }, props: { branch: b } }));
+}
+
+const { branch } = Astro.props as { branch: Branch };
+const leaves = records.leaves.filter((l) => l.branch === branch.key);
+const horizonOrder = { near: 0, mid: 1, far: 2, top: 3 };
+// Listed by how soon each could be decided: the nearest horizon first, then the highest rung.
+const byHorizon = [...leaves].sort((a, b) => horizonOrder[a.horizon] - horizonOrder[b.horizon] || b.stage_rank - a.stage_rank || a.name.localeCompare(b.name));
+const prev = records.branches.find((b) => b.order === branch.order - 1);
+const next = records.branches.find((b) => b.order === branch.order + 1);
+const h = records.headline;
+const hb = h.available ? h.branches.find((b) => b.key === branch.key) : null;
+const inClinic = leaves.filter((l) => l.clinic_year !== null).sort((a, b) => (a.clinic_year ?? 0) - (b.clinic_year ?? 0));
+const nextRung = (l: (typeof leaves)[number]) => records.stages.find((s) => s.rank === l.stage_rank + 1);
+const description = `${branch.meaning} What has been recorded under this branch of Outrunning Ageing: the treatments and tools, the stage each has reached, and what would move it.`;
+---
+
+<Base title={`${branch.name} — Outrunning Ageing`} description={description}>
+  <section class="hero">
+    <p class="eyebrow"><a href="/branches/">The tree</a> · branch {branch.order} of {records.branches.length}</p>
+    <h1>{branch.name}</h1>
+    <p class="lede">{branch.meaning}</p>
+    {branch.hallmarks.length > 0 ? (
+      <p class="prose" style="margin-top: 8px; font-size: 15.5px;">
+        Of the twelve published hallmarks of ageing, this branch groups {branch.hallmarks.length === 1 ? 'one' : branch.hallmarks.length}: {branch.hallmarks.map((hk, i) => <>{hk.words}{i < branch.hallmarks.length - 1 ? (i === branch.hallmarks.length - 2 ? ' and ' : '; ') : '.'}</>)}
+      </p>
+    ) : (
+      <p class="prose" style="margin-top: 8px; font-size: 15.5px;">
+        This branch groups none of the twelve published hallmarks of ageing: it is the tools that say whether any of the others has been dealt with. Without an accepted way to show that a treatment slowed ageing, every other branch's path from "shown in animals" to "in clinical use" runs through a trial that takes a working lifetime, and the model says so by requiring it.
+      </p>
+    )}
+  </section>
+
+  <section class="section">
+    <div class="shead">
+      <h2>Where this branch stands</h2>
+      <span>{branch.required ? 'required: the year cannot arrive until this branch is handled' : 'not required'}; handled when {branch.handled_when === 1 ? 'one treatment is' : `${branch.handled_when} treatments are`} in the clinic</span>
+    </div>
+    <ul class="tally">
+      <li><span class="stat">{hb ? yearWords(hb.median_handled_year) : 'not computed'}</span><span class="stat-label">handled, in the middle run</span></li>
+      <li><span class="stat">{branch.in_clinic}</span><span class="stat-label">of {branch.leaves} in the clinic already</span></li>
+      <li><span class="stat">{branch.furthest_label ? branch.furthest_label.toLowerCase() : 'none'}</span><span class="stat-label">furthest stage reached</span></li>
+    </ul>
+    <p class="prose" style="font-size: 15.5px; max-width: 760px;">
+      {inClinic.length >= branch.handled_when
+        ? <>This branch already counts as handled: {inClinic.length === 1 ? 'its one treatment in the clinic' : `${inClinic.length} of its treatments are in the clinic`}, the {branch.handled_when === 2 ? 'second' : `${branch.handled_when}th`} of them since {inClinic[branch.handled_when - 1].clinic_year}, so every run of the model reads that year for it and the branch cannot be what holds the year back.</>
+        : inClinic.length > 0
+          ? <>{inClinic.length === 1 ? 'One treatment' : `${inClinic.length} treatments`} under this branch {inClinic.length === 1 ? 'is' : 'are'} in the clinic already ({inClinic.map((l, i) => <>{l.name.toLowerCase()}, {l.clinic_year}{i < inClinic.length - 1 ? '; ' : ''}</>)}); the branch counts as handled when {branch.handled_when - inClinic.length === 1 ? 'one more' : `${branch.handled_when - inClinic.length} more`} {branch.handled_when - inClinic.length === 1 ? 'reaches' : 'reach'} it, and in each run of the model that year is drawn from the ranges below.</>
+          : <>Nothing under this branch is in the clinic yet. In each run of the model a year is drawn for every treatment from its range, and the branch counts as handled when the {branch.handled_when === 1 ? 'first' : branch.handled_when === 2 ? 'second' : `${branch.handled_when}th`} of those years arrives.</>}
+      {hb && <> Across all the runs, the middle year this branch is handled is {yearWords(hb.median_handled_year)}.</>}
+    </p>
+    {branch.notes && <p class="dim" style="font-size: 14.5px; max-width: 760px;">{branch.notes}</p>}
+  </section>
+
+  <section class="section">
+    <div class="shead">
+      <h2>{leaves.length === 0 ? 'Nothing recorded yet' : plural(leaves.length, 'treatment or tool', 'treatments and tools')}</h2>
+      <span>listed by how soon each could reach its next rung</span>
+    </div>
+    {leaves.length === 0 ? (
+      <p class="empty">No treatment has been written down under this branch yet. If you know what belongs here, <a href="/disagree/">say so</a>, with its test.</p>
+    ) : (
+      <ul class="ulist">
+        {byHorizon.map((l) => (
+          <li>
+            <span class="uname"><a href={l.path}>{l.name}</a></span>
+            <span class="umeta">
+              <StageBadge stage_rank={l.stage_rank} stage_label={l.stage_label} />
+              {l.clinic_year !== null
+                ? <span class="uyear">in the clinic since {l.clinic_year}</span>
+                : l.headline_draw && <span class="uyear">clinic likely {yearWords(l.headline_draw.likely ?? 0)}, {yearWords(l.headline_draw.earliest ?? 0)} to {yearWords(l.headline_draw.latest ?? 0)}</span>}
+              {l.long_shot && <span class="chip accent">long shot</span>}
+              {l.status === 'withdrawn' && <span class="chip no">withdrawn</span>}
+              {l.example && <span class="stage-badge example">worked example</span>}
+            </span>
+            <p class="udesc">{l.horizon_label}. {l.description.split('. ')[0]}.</p>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+
+  <section class="section narrow">
+    <div class="shead"><h2>What would move this</h2><span>the next test each treatment needs, and the branch's own line</span></div>
+    <p class="prose" style="font-size: 15.5px;">{branch.what_would_move_this}</p>
+    <ul class="move-list">
+      {byHorizon.filter((l) => l.stage !== 'in-wide-use').map((l) => {
+        const nr = nextRung(l);
+        return (
+          <li>
+            <span class="move-name"><a href={l.path}>{l.name}</a></span>
+            <span class="move-what">
+              Next rung: {nr ? nr.label.toLowerCase() : 'none'}. {nr ? nr.meaning : ''} Settled by {l.settler.charAt(0).toLowerCase() + l.settler.slice(1)}.
+            </span>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+
+  <section class="section narrow">
+    <div class="shead"><h2>Its history</h2><span>the handled year, computation by computation</span></div>
+    <p class="prose" style="font-size: 15.5px;">
+      {h.available
+        ? <>The year was first computed on {longDate(h.computed_on)}, with this branch handled in the middle run by {hb ? yearWords(hb.median_handled_year) : 'a year not yet known'}. Every estimate under it is still a first pass. From the second computation on, this section charts the branch's handled year run by run, so a reader who sees the year at the top move can tell which branch moved it.</>
+        : <>The year has not been computed yet, so this branch has no history. Once it has, this section charts the branch's handled year computation by computation.</>}
+    </p>
+  </section>
+
+  <section class="section narrow">
+    <div class="shead"><h2>What the story so far says about it</h2><span>the promises, the self-experiments and the papers that bear on this branch</span></div>
+    {branch.claims.length > 0 && (
+      <>
+        <p class="kicker">Promised, in public</p>
+        <ul class="rlist">
+          {branch.claims.map((cl) => (
+            <li>
+              <span class="rwhen">{worldDate(cl.said_on)}</span><a href={cl.path}>{cl.who}</a>: {cl.commits_to}
+              <span class="rmeta">Verdict: {cl.verdict_label.toLowerCase()}{cl.due && cl.verdict === 'not-yet-due' ? `, due ${cl.due}` : ''}.</span>
+            </li>
+          ))}
+        </ul>
+      </>
+    )}
+    {branch.experiments.length > 0 && (
+      <>
+        <p class="kicker">Tried on themselves, in public</p>
+        <ul class="rlist">
+          {branch.experiments.map((e) => (
+            <li><span class="rwhen">{worldDate(e.started)}</span><a href={e.path}>{e.who}</a>{e.name ? `, ${e.name}` : ''}<span class="rmeta">{e.status === 'running' ? 'Running' : 'Ended'}. A claim about one person is a story, not a record, and it moves nothing on this branch.</span></li>
+          ))}
+        </ul>
+      </>
+    )}
+    {branch.publications.length > 0 ? (
+      <>
+        <p class="kicker">On the record</p>
+        <ul class="rlist">
+          {branch.publications.map((p) => (
+            <li><span class="rwhen">{worldDate(p.date)}</span><a href={p.path}>{p.title}</a><span class="rmeta">{p.authors_short}.</span></li>
+          ))}
+        </ul>
+      </>
+    ) : (
+      <p class="dim">No publication logged yet bears on this branch.</p>
+    )}
+  </section>
+
+  <section class="section">
+    <p class="dim" style="font-family: var(--sans); font-size: 13px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;">
+      <span>{prev && <a href={prev.path}>← {prev.name}</a>}</span>
+      <span>{next && <a href={next.path}>{next.name} →</a>}</span>
+    </p>
+  </section>
+</Base>

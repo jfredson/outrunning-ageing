@@ -1,0 +1,114 @@
+---
+// This week's reading: every weekly reading of the treatments against the news, every verdict
+// (tracker pattern, section 5, three surfaces: the strip on the home page, this page, and the
+// last three readings on each treatment's page). Built to show that no reading has run yet: the
+// weekly reading is an after-launch step, and until the first one lands this page says so in
+// those words rather than being left off (rule 5.2), explains what a reading is and what its
+// five verdicts mean, and fills with the readings as they come. The reading proposes; it does
+// not move a record by itself (docs/record-schema.md). Copied from The Upgrade Tree's reading
+// page (which copied The Belt Equation's Radar) on 2026-10-17, with the five verdicts of this
+// site's record layout.
+import Base from '../layouts/Base.astro';
+import { records, longDate, plural } from '../lib/records';
+
+const readings = records.readings;
+const latest = readings[0] ?? null;
+const older = readings.slice(1);
+const verdicts = records.reading_verdicts;
+const c = records.counts;
+const summary = (r: (typeof readings)[number]) => {
+  const parts = [`${plural(r.read, 'treatment read', 'treatments read')}`];
+  parts.push(r.moved.length === 0 ? 'none moved' : r.moved.length === 1 ? 'one moved' : `${r.moved.length} moved`);
+  if (r.counts.waiting > 0) parts.push(`${r.counts.waiting} waiting on the author`);
+  return parts.join(', ');
+};
+const description = latest
+  ? `Outrunning Ageing's weekly reading: ${summary(latest)} on ${longDate(latest.read_on)}. Every treatment read against the news, what was found, and the verdict.`
+  : "Outrunning Ageing's weekly reading of the treatments against the news. The first reading has not run yet; it follows the site's launch.";
+---
+
+<Base title="This week's reading — Outrunning Ageing" description={description}>
+  <section class="hero">
+    <p class="eyebrow">This week's reading</p>
+    <h1>Every treatment, read against the news each week</h1>
+    <p class="lede">
+      Each treatment and tool on the tree carries a test that says exactly what would count, and a line saying what kind of public record settles it. Once a week, from the site's launch, a fresh session reads what the world did that week against each of those tests and writes down what it found, whether or not anything moved.
+    </p>
+    <p class="dim" style="font-size: 14px;">
+      The reading proposes; it does not move a record by itself. When it finds a record of the kind a treatment itself names, the move is a dated revision on that treatment's page, with the reason and the source, and the reading says so. It may not move a stage on press coverage alone, change a test, or clear a fact still to be checked; anything like that it leaves for the author and says so. Each reading is a file in the repository, written once and never edited, and the site refuses to build if one does not add up. For the {c.siblings} treatments shared with The Upgrade Tree, the reading also checks that the two sites show the same stage.
+    </p>
+  </section>
+
+  {!latest && (
+    <section class="section narrow">
+      <div class="callout">
+        <h3>No reading has run yet</h3>
+        <p>
+          The first weekly reading follows the site's launch, planned for 25 October 2026. When it has run, this page fills with what it read and what it found, the home page's strip says when it ran, and each treatment's page shows its last three readings. Until then the strip on the home page says, in those words, that no reading has run. {c.scans > c.scans_real ? 'The repository holds a worked example of a reading, marked as such; it is not shown as a reading.' : ''}
+        </p>
+      </div>
+    </section>
+  )}
+
+  {latest && (
+    <section class="section" id={latest.id}>
+      <div class="shead">
+        <h2>The latest reading</h2>
+        <span>{longDate(latest.read_on)}, covering the news from {longDate(latest.covers_from)}</span>
+      </div>
+      <p class="prose" style="font-size: 17px;">{latest.summary}</p>
+      <p class="dim" style="font-family: var(--sans); font-size: 13px;">{summary(latest)}. The record is {latest.file}.</p>
+      <div class="scan-cards">
+        {latest.items.map((item) => (
+          <article class={`scan-card v-${item.verdict}`}>
+            <div class="card-top">
+              <a class="card-name" href={item.leaf.path}>{item.leaf.name}</a>
+              <span class={`badge v-${item.verdict}`}>{item.verdict_label}</span>
+            </div>
+            <p class="card-found">{item.line}</p>
+            {item.sibling_stage && <p class="card-found dim">The Upgrade Tree shows it at {item.sibling_stage.replace(/-/g, ' ')}{item.sibling_agrees ? ', which agrees' : ', which does not agree, and a reading is filed on both sites'}.</p>}
+            {item.source && <p class="dim" style="font-family: var(--sans); font-size: 12.5px; margin: 0;"><a href={item.source} rel="noopener nofollow">source</a></p>}
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {older.length > 0 && (
+    <section class="section">
+      <div class="shead"><h2>Earlier readings</h2><span>{older.length} of them, newest first</span></div>
+      {older.map((r) => (
+        <details class="entry" id={r.id}>
+          <summary>
+            <span class="entry-meta"><span class="entry-date">{longDate(r.read_on)}</span><span>{summary(r)}</span></span>
+            <span class="entry-title">{r.summary}</span>
+          </summary>
+          <div class="entry-body">
+            <ul class="checks">
+              {r.items.map((item) => (
+                <li><span class={`badge v-${item.verdict}`}>{item.verdict_label}</span> <a href={item.leaf.path}>{item.leaf.name}</a><p>{item.line}</p></li>
+              ))}
+            </ul>
+          </div>
+        </details>
+      ))}
+    </section>
+  )}
+
+  <section class="section narrow">
+    <div class="verdict-key">
+      <h3>What the five verdicts mean</h3>
+      <dl>
+        {verdicts.map((v) => (
+          <>
+            <dt><span class={`badge v-${v.key}`}>{v.label}</span></dt>
+            <dd>{v.meaning}</dd>
+          </>
+        ))}
+      </dl>
+    </div>
+    <p class="dim" style="font-family: var(--sans); font-size: 13px; margin-top: 30px;">
+      {c.scans_real === 0 ? 'No reading on the record yet.' : `${plural(c.scans_real, 'reading', 'readings')} on the record.`} The procedure the weekly reading follows is written up after launch, in the public repository. <a href="/branches/">The tree</a> · <a href="/story/">The story so far</a>
+    </p>
+  </section>
+</Base>

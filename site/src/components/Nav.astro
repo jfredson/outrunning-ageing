@@ -1,21 +1,35 @@
 ---
 // Site navigation, from the Sentient Horizons design standard (design/shell.html): the spine of
-// the site in heavier ink, the reference pages lighter, the theme toggle last; collapses to a menu
-// on small screens. Holding version, 2026-10-16: the site has one page, so the links point at its
-// sections, and the disagree link opens a new issue in the repository until the disagree page and
-// its three templates exist. The site session replaces these with the tracker pattern's seven
-// pages (design/tracker-pattern.md, section 4; rule 4.6 says which tier each goes in) plus the
-// claims and self-experiments pages in the spine. There is no Home link: the site's name links
-// home, as the standard's section 6 says. The source link lives in the footer (section 7).
+// the site in heavier ink, the reference pages lighter after a rule, the theme toggle last;
+// collapses to a menu on small screens. Which page goes in which tier follows the tracker pattern
+// (design/tracker-pattern.md, rule 4.6, ruled by John 2026-10-16): the spine is the tree, the two
+// pages this site is built around (the claims log and the self-experiments), this week's reading
+// and the story so far; the method and the disagree page sit behind the rule in the lighter tier,
+// with the source link last as the siblings have it. There is no Home link: the site's name links
+// home, as the standard's section 6 says.
+// Rule 4.7 (ruled by John 2026-10-16): the bar carries short handles, one or two words per page,
+// and the full plain names stay as the page titles and in the footer. The handles here were
+// proposed by the site session on 2026-10-17 on the siblings' pattern (The Upgrade Tree: Branches
+// · Reading · Claims · Story | Method · Disagree · Source) and wait on John: Tree · Claims ·
+// Self-experiments · Reading · Story | Method · Disagree · Source. "Tree" rather than "Branches"
+// because the ruled public name of the page is "The tree"; "Self-experiments" is the one two-part
+// handle, and "Experiments" is the alternative if the row is tight.
 import { REPO } from '../lib/records';
+const path = Astro.url.pathname;
 const primary = [
-  { href: '/#branches', label: 'The eight branches' },
-  { href: '/#records', label: 'What is recorded' },
+  { href: '/branches/', label: 'Tree', also: ['/leaves/'] },
+  { href: '/claims/', label: 'Claims', also: [] },
+  { href: '/self-experiments/', label: 'Self-experiments', also: [] },
+  { href: '/reading/', label: 'Reading', also: [] },
+  { href: '/story/', label: 'Story', also: [] },
 ];
 const secondary = [
-  { href: '/#method', label: 'How the numbers are worked out' },
-  { href: `${REPO}/issues/new`, label: 'Disagree' },
+  { href: '/method/', label: 'Method', also: [] },
+  { href: '/disagree/', label: 'Disagree', also: [] },
+  { href: REPO, label: 'Source', also: [] },
 ];
+const isActive = (l: { href: string; also: string[] }) =>
+  !l.href.startsWith('http') && (path.startsWith(l.href) || l.also.some((a) => path.startsWith(a)));
 ---
 
 <header class="site-header">
@@ -27,11 +41,11 @@ const secondary = [
     </button>
     <nav class="navlinks" id="site-nav">
       {primary.map((l) => (
-        <a href={l.href} class="nav-primary">{l.label}</a>
+        <a href={l.href} class={`nav-primary ${isActive(l) ? 'active' : ''}`}>{l.label}</a>
       ))}
       <span class="nav-divider" aria-hidden="true"></span>
       {secondary.map((l) => (
-        <a href={l.href} class="nav-secondary" rel={l.href.startsWith('http') ? 'noopener' : undefined}>{l.label}</a>
+        <a href={l.href} class={`nav-secondary ${isActive(l) ? 'active' : ''}`} rel={l.href.startsWith('http') ? 'noopener' : undefined}>{l.label}</a>
       ))}
       <button type="button" class="theme-toggle" aria-label="Toggle light and dark theme" title="Toggle theme">
         <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

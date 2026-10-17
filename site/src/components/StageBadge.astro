@@ -1,0 +1,8 @@
+---
+// A small pill naming a treatment's stage, shaded deeper as the rung rises. Copied from The
+// Upgrade Tree's StageBadge.astro on 2026-10-17 (tracker pattern, rule 7.1: the stage badges are
+// built there first and copied here, the second site; a third copy moves them into the standard).
+interface Props { stage_rank: number; stage_label: string }
+const { stage_rank, stage_label } = Astro.props;
+---
+<span class={`stage-badge stage-${stage_rank}`}><i aria-hidden="true"></i>{stage_label}</span>

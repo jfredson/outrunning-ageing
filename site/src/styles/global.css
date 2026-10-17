@@ -265,24 +265,35 @@ a.dim:hover { color: var(--accent); }
 /* ===============================================================
    Outrunning Ageing's own styles. Everything above this line is the Sentient Horizons
    design standard's deep-field.css, copied unchanged (version 2.0.1, 2026-10-16; canonical
-   copy: sentient-horizons/design/deep-field.css). Nothing below redefines a token. The site's
-   own skin (the design review's "Ledger" direction) is proposed separately and, when it
-   lands, replaces the skin half of the file above; these rules stay.
+   copy: sentient-horizons/design/deep-field.css). Nothing below redefines a token or names a
+   colour or a typeface of its own: every colour is a token the skeleton (shell.css) names, so
+   the site's own skin (the design review's "Ledger" direction), proposed separately, replaces
+   the skin half of the file above and these rules stay as they are. Written 2026-10-16 for the
+   holding page; the pages' rules added 2026-10-17, most of them copied from The Upgrade Tree's
+   site (site/src/styles/global.css there), which shares the stage ladder and the claims page,
+   as the tracker pattern's rule 7.1 asks, and from The Belt Equation through it.
    =============================================================== */
 
-/* The site's name never wraps; if the row runs out of room the links wrap, not the name. */
+/* The site's name never wraps; if the row runs out of room the links wrap, not the name
+   (The Upgrade Tree, rule 4.7 of the tracker pattern). */
 .brand { white-space: nowrap; }
 
 /* ---- home: the thing held, then the question (tracker pattern, section 1) ----
    The first screen follows The Belt Equation's home page (the pattern's first implementation of
    "the big thing and the question"): monospace with aligned figures for the number, serif for
-   the question and the prose. Holding version: one column; the trunk object (the crossing chart)
-   comes with the skin. */
+   the question and the prose. One column; the trunk object (the crossing chart) comes with the
+   skin and takes the second column then. */
 .home-hero { padding: 48px 0 28px; max-width: 760px; }
 .home-hero .eyebrow { margin-bottom: 10px; }
 .big-number { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: clamp(60px, 7.5vw, 96px); font-weight: 500; line-height: 0.95; letter-spacing: -0.04em; color: var(--text); margin: 0 0 6px; }
 .big-number.pending { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(30px, 4vw, 46px); color: var(--muted); letter-spacing: -0.01em; line-height: 1.1; }
-.big-claim-line { font-family: var(--sans); font-size: clamp(15px, 1.4vw, 17px); font-weight: 500; line-height: 1.4; color: var(--text); margin: 0 0 18px; max-width: 600px; }
+.big-claim-line { font-family: var(--sans); font-size: clamp(15px, 1.4vw, 17px); font-weight: 500; line-height: 1.4; color: var(--text); margin: 0 0 14px; max-width: 600px; }
+.big-claim-line .spread { color: var(--muted); font-weight: 400; }
+/* The two numbers beside the year: the chance before the fixed date and the share not this century. */
+.beside-row { display: flex; gap: 28px; flex-wrap: wrap; margin: 0 0 18px; padding: 12px 0 0; border-top: 1px solid var(--line); max-width: 600px; }
+.beside-row > div { display: flex; flex-direction: column; gap: 3px; }
+.beside-row .stat { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 24px; font-weight: 500; letter-spacing: -0.02em; color: var(--text); line-height: 1.1; }
+.beside-row .stat-label { font-family: var(--sans); font-size: 11.5px; line-height: 1.3; color: var(--muted); max-width: 220px; }
 .home-hero h1.question { margin: 0 0 12px; }
 .home-hero .lede { margin: 0 0 14px; font-size: 17px; line-height: 1.6; }
 .home-hero .ctas { margin-top: 6px; }
@@ -295,28 +306,272 @@ a.dim:hover { color: var(--accent); }
 .scan-strip a { color: var(--text-soft); }
 .scan-strip a:hover { color: var(--accent); }
 
-/* ---- the three numbers to come ---- */
-.numbers { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 14px 0 16px; }
-.number { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); padding: 16px 18px; }
-.number .value { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 28px; font-weight: 500; color: var(--text); line-height: 1.1; }
-.number .value.pending { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 18px; color: var(--muted); }
-.number .what { margin: 8px 0 0; font-size: 14px; line-height: 1.5; color: var(--muted); }
+/* ---- the explaining paragraph under the first screen (The Upgrade Tree, `explain`) ---- */
+.explain { font-size: 18px; line-height: 1.6; color: var(--text-soft); max-width: 760px; }
+.explain p { margin: 0 0 1em; }
 
-/* ---- the eight branches and the six kinds of record, as cards ---- */
-.branches, .records { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 16px 0 18px; }
-.branch, .record { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; position: relative; }
-.branch .bnum { font-family: var(--mono); font-size: 11.5px; color: var(--accent-2); letter-spacing: 0.1em; }
-.branch h3, .record h3 { margin: 0; font-size: 17px; }
-.branch p, .record p { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--text-soft); flex-grow: 1; }
-.branch .count, .record .count { font-family: var(--sans); font-size: 11.5px; color: var(--muted); margin-top: 4px; }
+/* ---- the eight branches as cards (home and the tree page; The Upgrade Tree's `bcard`) ---- */
+.branches { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; list-style: none; margin: 0; padding: 0; }
+.bcard { color: inherit; text-decoration: none; display: flex; flex-direction: column; gap: 8px; padding: 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); min-height: 150px; transition: border-color 0.15s ease; }
+.bcard:hover { border-color: var(--accent); color: inherit; }
+.bcard-top { display: flex; justify-content: space-between; gap: 8px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
+.bcard-top .n { color: var(--accent); }
+.bcard-title { font-family: var(--sans); font-size: 16px; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; color: var(--text); }
+.bcard-sub { font-size: 13.5px; line-height: 1.45; color: var(--muted); flex-grow: 1; }
+.bcard-foot { font-family: var(--sans); font-size: 12px; color: var(--text-soft); }
+.bcard-foot .year { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--text); }
 
+/* ---- the kinds of record, as cards (home) ---- */
+.records { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 16px 0 18px; list-style: none; padding: 0; }
+.record-card { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; }
+.record-card h3 { margin: 0; font-size: 17px; }
+.record-card h3 a { color: var(--text); text-decoration: none; }
+.record-card h3 a:hover { color: var(--accent); }
+.record-card p { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--text-soft); flex-grow: 1; }
+.record-card .count { font-family: var(--sans); font-size: 11.5px; color: var(--muted); margin-top: 4px; }
 .status-line { font-size: 13.5px; font-family: var(--sans); color: var(--muted); margin-top: 28px; }
+
+/* ---- stage badges and the ladder (copied from The Upgrade Tree, the pattern's reference) ---- */
+.stage-badge { display: inline-flex; align-items: center; gap: 6px; font-family: var(--sans); font-size: 11.5px; letter-spacing: 0.02em; border: 1px solid var(--line-strong); border-radius: 20px; padding: 3px 10px 3px 7px; color: var(--text-soft); white-space: nowrap; }
+.stage-badge i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--line); }
+.stage-badge.stage-0 i { background: color-mix(in srgb, var(--accent-3) 18%, transparent); }
+.stage-badge.stage-1 i { background: color-mix(in srgb, var(--accent-3) 36%, transparent); }
+.stage-badge.stage-2 i { background: color-mix(in srgb, var(--accent-3) 56%, transparent); }
+.stage-badge.stage-3 i { background: color-mix(in srgb, var(--accent-3) 78%, transparent); }
+.stage-badge.stage-4 i { background: var(--accent-3); }
+.stage-badge.example { border-style: dashed; color: var(--muted); }
+
+.ladder { list-style: none; margin: 14px 0 0; padding: 0; border-left: 2px solid var(--line-strong); }
+.ladder li { position: relative; padding: 4px 0 14px 22px; font-size: 15px; line-height: 1.45; color: var(--muted); }
+.ladder li::before { content: ""; position: absolute; left: -7px; top: 10px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--line-strong); }
+.ladder li.reached { color: var(--text-soft); }
+.ladder li.reached::before { background: var(--accent-3); border-color: var(--accent-3); }
+.ladder li.current { color: var(--text); }
+.ladder li.current::before { box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-3) 30%, transparent); }
+.ladder .rung { font-family: var(--sans); font-size: 13px; font-weight: 600; letter-spacing: 0.02em; display: block; }
+.ladder .when { font-family: var(--sans); font-size: 12.5px; color: var(--muted); }
+.ladder .when a { color: inherit; }
+
+/* ---- lists of treatments on a branch page (The Upgrade Tree's `ulist`) ---- */
+.ulist { list-style: none; margin: 0; padding: 0; }
+.ulist li { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; padding: 14px 0; border-top: 1px solid var(--line); }
+.ulist li:first-child { border-top: 0; }
+.ulist .uname { flex: 1 1 360px; font-size: 17px; line-height: 1.4; }
+.ulist .uname a { color: var(--text); text-decoration: none; }
+.ulist .uname a:hover { color: var(--accent); }
+.ulist .umeta { flex: 0 0 auto; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.ulist .udesc { flex-basis: 100%; margin: 0; font-size: 14.5px; line-height: 1.5; color: var(--muted); }
+.ulist .uyear { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 12.5px; color: var(--muted); }
+.empty { padding: 20px 22px; border: 1px dashed var(--line-strong); border-radius: var(--radius); color: var(--muted); font-size: 15px; }
+
+/* "What would move this" (tracker pattern, rule 2.3; The Belt Equation's `watchlist` through The Upgrade Tree). */
+.move-list { list-style: none; margin: 0; padding: 0; }
+.move-list li { padding: 12px 0; border-top: 1px solid var(--line); font-size: 15px; line-height: 1.55; color: var(--text-soft); }
+.move-list li:first-child { border-top: 0; }
+.move-list .move-name { display: block; font-size: 16px; color: var(--text); }
+.move-list .move-name a { color: inherit; text-decoration: none; }
+.move-list .move-name a:hover { color: var(--accent); }
+.move-list .move-what { display: block; margin-top: 2px; color: var(--muted); font-size: 14.5px; }
+
+/* A list of linked records (claims, self-experiments, publications) on a branch or leaf page. */
+.rlist { list-style: none; margin: 0; padding: 0; font-size: 15px; line-height: 1.55; }
+.rlist li { padding: 9px 0; border-top: 1px solid var(--line); color: var(--text-soft); }
+.rlist li:first-child { border-top: 0; }
+.rlist .rwhen { font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.03em; color: var(--accent); margin-right: 8px; }
+.rlist .rmeta { display: block; font-family: var(--sans); font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+
+/* ---- a treatment's page: the prose and a side rail (The Upgrade Tree's `record`) ---- */
+.record { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 40px; align-items: start; }
+.record .prose h2 { font-size: 20px; margin-top: 1.6em; }
+.record .side { position: sticky; top: 84px; display: flex; flex-direction: column; gap: 18px; }
+.side-card { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); padding: 18px 20px; }
+.side-card h3 { font-family: var(--sans); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.side-card p { margin: 0 0 8px; font-size: 14.5px; line-height: 1.5; }
+.side-card ul { margin: 0; padding-left: 1.1em; font-size: 14.5px; }
+.sources { font-family: var(--sans); font-size: 13px; }
+.rev { font-size: 14.5px; }
+.rev li { margin: 0.5em 0; }
+.verify-list { font-size: 14.5px; color: var(--muted); }
+
+/* The estimate's range on a leaf page: earliest, likely and latest, in aligned figures. */
+.range-table { font-family: var(--sans); font-size: 13.5px; width: 100%; border-collapse: collapse; margin: 10px 0 14px; }
+.range-table th, .range-table td { text-align: left; padding: 7px 9px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.range-table th { color: var(--muted); font-weight: 600; letter-spacing: 0.02em; }
+.range-table td.yr { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--text); }
+.range-table td.yr.likely { font-weight: 600; }
+.range-table .feeds { font-family: var(--sans); font-size: 11.5px; color: var(--accent-3); }
+
+/* ---- the claims log: talk on the left, delivery on the right (The Upgrade Tree, 2026-10-16) ---- */
+.claims-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 40px; align-items: start; margin-top: 8px; }
+.claims-side { position: sticky; top: 84px; display: flex; flex-direction: column; gap: 18px; }
+.claims { list-style: none; margin: 0; padding: 0; }
+.claim { padding: 26px 0 22px; border-top: 1px solid var(--line); }
+.claim:first-child { border-top: 0; padding-top: 8px; }
+.claim-head p { margin: 0; }
+.claim-when { font-family: var(--mono); font-size: 13px; letter-spacing: 0.04em; color: var(--accent); }
+.claim-when a { color: inherit; text-decoration: none; }
+.claim-when a:hover { text-decoration: underline; }
+.claim-who { font-family: var(--sans); font-size: 18px; font-weight: 600; letter-spacing: -0.01em; color: var(--text); margin-top: 4px; }
+.claim-who .dim { font-weight: 400; font-size: 15px; }
+.claim-where { font-size: 15px; color: var(--muted); margin-top: 2px; }
+.claim .chips { margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.claim-words { margin: 16px 0 12px; padding: 0 0 0 18px; border-left: 3px solid var(--accent-3); }
+.claim-words p { margin: 0; font-size: 22px; line-height: 1.35; letter-spacing: -0.01em; color: var(--text); }
+.claim-words footer { margin-top: 6px; font-family: var(--sans); font-size: 12.5px; color: var(--muted); }
+.claim-words.paraphrase { border-left-style: dashed; border-left-color: var(--line-strong); }
+.claim-words.paraphrase p { font-size: 18px; color: var(--text-soft); }
+.claim-text, .claim-source, .claim-ruling, .claim-bears { margin: 0 0 10px; font-size: 15.5px; line-height: 1.6; color: var(--text-soft); }
+.claim-source .dim { font-size: 14px; }
+.claim-ruling { font-family: var(--sans); font-size: 13.5px; color: var(--muted); padding: 8px 12px; border-left: 2px solid var(--line-strong); }
+.claim .k, .claim-more .k, .rest .k { font-family: var(--sans); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-right: 6px; }
+.claim-bears { font-size: 14.5px; }
+.claim-bears a { color: var(--text-soft); }
+.claim-more { margin-top: 6px; font-size: 14px; line-height: 1.55; color: var(--muted); }
+.claim-more summary { cursor: pointer; font-family: var(--sans); font-size: 13px; color: var(--text-soft); }
+.claim-more summary:hover { color: var(--accent); }
+.claim-more p { margin: 10px 0 0; }
+/* The verdict chips use the yes and no colours, the only two the standard allows meaning. */
+.verdict { display: inline-block; font-family: var(--sans); font-size: 11.5px; letter-spacing: 0.02em; border: 1px solid var(--line-strong); border-radius: 20px; padding: 3px 10px; color: var(--muted); background: var(--chip-bg); white-space: nowrap; }
+.verdict.delivered { color: var(--ok); border-color: var(--ok); }
+.verdict.missed { color: var(--no); border-color: var(--no); }
+.verdict.not-yet-due { color: var(--text-soft); }
+.verdict.unfalsifiable { color: var(--muted); border-style: dashed; }
+/* "Rests on": the leaf a claim promises and how far it has got (the delivery, beside the talk). */
+.rests { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.rests li { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; font-size: 14.5px; }
+.rests a { color: var(--text-soft); }
+.delivered .big-number { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 56px; font-weight: 500; line-height: 1; letter-spacing: -0.04em; color: var(--text); margin: 4px 0 8px; }
+.delivered-claim { font-family: var(--sans); font-size: 14.5px; line-height: 1.45; }
+.delivered-branches { list-style: none; margin: 12px 0 0; padding: 12px 0 0; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 8px; }
+.delivered-branches li { display: flex; justify-content: space-between; align-items: center; gap: 10px; font-size: 14.5px; }
+.delivered-branches a { color: var(--text-soft); text-decoration: none; }
+.delivered-branches a:hover { color: var(--accent); }
+.delivered-note { margin-top: 12px; font-family: var(--sans); font-size: 12.5px; color: var(--muted); }
+.tally { list-style: none; margin: 0 0 20px; padding: 0; display: flex; gap: 10px 28px; flex-wrap: wrap; }
+.tally li { display: flex; flex-direction: column; gap: 2px; }
+.tally .stat { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 24px; font-weight: 500; color: var(--text); line-height: 1.1; }
+.tally .stat-label { font-family: var(--sans); font-size: 11.5px; color: var(--muted); }
+
+/* ---- the self-experiments: one card per person, the repeated line last ---- */
+.experiments { list-style: none; margin: 0; padding: 0; }
+.experiment { padding: 26px 0 22px; border-top: 1px solid var(--line); }
+.experiment:first-child { border-top: 0; padding-top: 8px; }
+.experiment h2 { font-size: 22px; margin: 0 0 4px; }
+.experiment h2 a { color: inherit; text-decoration: none; }
+.experiment h2 a:hover { color: var(--accent); }
+.experiment .who-is { font-size: 15px; color: var(--muted); margin: 0 0 10px; }
+.experiment .chips { margin: 0 0 12px; }
+.experiment .part { margin: 0 0 10px; font-size: 15.5px; line-height: 1.6; color: var(--text-soft); }
+.experiment .part strong { color: var(--text); }
+.experiment .one-person { margin: 12px 0 0; font-family: var(--sans); font-size: 13.5px; color: var(--muted); padding: 8px 12px; border-left: 2px solid var(--line-strong); }
+
+/* ---- the story so far: a tally, then dated entries, then the changelog (The Quiet Galaxy and The Upgrade Tree) ---- */
+.day { margin: 0 0 8px; }
+.day h2 { font-family: var(--mono); font-size: 14px; letter-spacing: 0.06em; color: var(--accent); margin: 26px 0 10px; }
+.entries { display: flex; flex-direction: column; gap: 8px; }
+.entry { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); padding: 12px 16px; }
+.entry summary { cursor: pointer; list-style: none; display: flex; flex-direction: column; gap: 4px; }
+.entry summary::-webkit-details-marker { display: none; }
+.entry-meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; font-family: var(--sans); font-size: 12px; color: var(--muted); }
+.entry-date { font-family: var(--mono); letter-spacing: 0.03em; }
+.entry-title { font-size: 16.5px; line-height: 1.35; color: var(--text); }
+.entry-authors { font-size: 13.5px; color: var(--muted); }
+.entry-body { margin-top: 12px; font-size: 15px; line-height: 1.6; color: var(--text-soft); }
+.entry-body p { margin: 0 0 8px; }
+.kind { font-family: var(--sans); font-size: 11.5px; letter-spacing: 0.02em; border: 1px solid var(--line-strong); border-radius: 20px; padding: 2px 10px; white-space: nowrap; }
+.kind.kind-stage-settled { color: var(--ok); border-color: var(--ok); }
+.kind.kind-moved-range, .kind.kind-revision, .kind.kind-reading { color: var(--accent-3); border-color: color-mix(in srgb, var(--accent-3) 55%, transparent); }
+.kind.kind-held { color: var(--muted); }
+.days { list-style: none; margin: 0; padding: 0; }
+.days > li { padding: 22px 0; border-top: 1px solid var(--line); }
+.days > li:first-child { border-top: 0; }
+.days h3 { font-family: var(--mono); font-size: 14px; letter-spacing: 0.06em; color: var(--accent); margin: 0 0 10px; }
+.days ul { margin: 0; padding-left: 1.1em; }
+.days li li { margin: 0.5em 0; font-size: 15.5px; line-height: 1.6; color: var(--text-soft); }
+
+/* ---- the weekly reading: verdict badges, the key (The Belt Equation's Radar page through The Upgrade Tree) ---- */
+.badge { display: inline-block; font-family: var(--sans); font-size: 11.5px; letter-spacing: 0.02em; border: 1px solid var(--line-strong); border-radius: 20px; padding: 2px 10px; color: var(--muted); background: var(--chip-bg); white-space: nowrap; }
+.badge.v-quiet { color: var(--muted); }
+.badge.v-noted { color: var(--accent-3); border-color: color-mix(in srgb, var(--accent-3) 55%, transparent); }
+.badge.v-moved { color: var(--accent-3); border-color: color-mix(in srgb, var(--accent-3) 55%, transparent); }
+.badge.v-met { color: var(--ok); border-color: color-mix(in srgb, var(--ok) 60%, transparent); }
+.badge.v-waiting { color: var(--accent-2); border-color: color-mix(in srgb, var(--accent-2) 60%, transparent); }
+.verdict-key { border-top: 1px solid var(--line); padding-top: 16px; margin-top: 20px; }
+.verdict-key h3 { font-family: var(--sans); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.verdict-key dl { display: grid; grid-template-columns: auto 1fr; gap: 8px 14px; margin: 0; font-size: 14.5px; }
+.verdict-key dt { white-space: nowrap; }
+.verdict-key dd { margin: 0; color: var(--text-soft); }
+.scan-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.scan-card { border: 1px solid var(--line); border-left: 3px solid var(--line-strong); border-radius: var(--radius); background: var(--panel); padding: 15px 17px; display: flex; flex-direction: column; gap: 9px; }
+.scan-card.v-noted, .scan-card.v-moved { border-left-color: var(--accent-3); }
+.scan-card.v-met { border-left-color: var(--ok); }
+.scan-card.v-waiting { border-left-color: var(--accent-2); }
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.card-name { font-size: 15.5px; line-height: 1.3; color: var(--text); text-decoration: none; }
+.card-name:hover { color: var(--accent); }
+.card-found { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--text-soft); }
+.checks { list-style: none; margin: 0 0 1.1em; padding: 0; }
+.checks li { border-bottom: 1px solid var(--line); padding: 10px 0; font-family: var(--sans); font-size: 14px; color: var(--text-soft); }
+.checks .check-date { font-family: var(--mono); font-size: 13px; color: var(--accent); margin-right: 10px; }
+.checks p { margin: 4px 0 0; font-family: var(--serif); font-size: 15px; line-height: 1.6; }
+
+/* ---- the method page: the spread as a live chart, the worked run as a table ----
+   Live-chart rules from the standard's section 9: data in --accent-3, grid in --line, never amber. */
+.chart { margin: 20px 0 8px; }
+.chart-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 10px; }
+.chart-title { font-family: var(--sans); font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.chart-note { font-size: 13.5px; line-height: 1.5; color: var(--muted); flex: 1 1 320px; text-align: right; }
+.chart-svg { width: 100%; height: auto; display: block; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); }
+.chart-grid { stroke: var(--line); stroke-width: 1; }
+.chart-axis { font-family: var(--sans); font-size: 11px; fill: var(--muted); }
+.chart-bar { fill: var(--accent-3); }
+.chart-bar.median { fill: var(--accent-2); }
+.chart-label { font-family: var(--mono); font-size: 10.5px; fill: var(--text-soft); }
+.chart-source { font-family: var(--sans); font-size: 12px; color: var(--muted); margin: 8px 0 0; }
+.run-table { font-family: var(--sans); font-size: 13.5px; width: 100%; border-collapse: collapse; margin: 12px 0 18px; }
+.run-table th, .run-table td { text-align: left; padding: 7px 9px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.run-table th { color: var(--muted); font-weight: 600; letter-spacing: 0.02em; }
+.run-table td.yr { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--text); white-space: nowrap; }
+.run-table tr.total td { color: var(--text); font-weight: 600; border-top: 2px solid var(--line-strong); }
+.run-table .yrs { color: var(--muted); font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 12.5px; }
+.params { font-size: 15px; }
+.params li { margin: 0.6em 0; }
+.params .alt { display: block; color: var(--muted); font-size: 14.5px; margin-top: 2px; }
+.docs { list-style: none; margin: 0; padding: 0; }
+.docs li { border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 0 var(--radius) var(--radius) 0; background: var(--callout-bg); padding: 14px 17px; margin: 0 0 12px; }
+.docs h3 { font-family: var(--sans); font-size: 14px; margin: 0 0 4px; }
+.docs p { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--text-soft); }
+.docs .preface { font-family: var(--sans); font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; display: block; }
+.who { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; max-width: 980px; font-size: 16px; line-height: 1.65; color: var(--text-soft); }
+.who p { margin: 0; }
+.who .kicker { margin-top: 0; }
+
+/* ---- the disagree page: three forms as cards (The Quiet Galaxy's `form-card`) ---- */
+.forms { display: grid; grid-template-columns: 1fr; gap: 14px; margin: 14px 0 22px; }
+.form-card { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); padding: 18px 20px; }
+.form-card h3 { margin: 0 0 6px; font-size: 18px; }
+.form-card p { margin: 0 0 12px; font-size: 15px; line-height: 1.55; }
 
 /* ---- the medical notice in the footer, ruled by John 2026-10-16 ---- */
 .footer-notice { margin: 0.6rem 0 0; font-size: 12px; color: var(--muted); font-style: italic; }
 
 /* ---- responsive ---- */
+@media (max-width: 1000px) {
+  .branches { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .record, .claims-grid { grid-template-columns: 1fr; }
+  .record .side, .claims-side { position: static; }
+}
 @media (max-width: 720px) {
-  .numbers, .branches, .records { grid-template-columns: 1fr; }
+  .records, .who { grid-template-columns: 1fr; }
   .home-hero { padding-top: 32px; }
+  .scan-cards { grid-template-columns: 1fr; }
+  .verdict-key dl { grid-template-columns: 1fr; gap: 2px 0; }
+  .verdict-key dd { margin-bottom: 10px; }
+  .chart-note { text-align: left; }
+  .claim-words p { font-size: 19px; }
+  .range-table, .run-table { display: block; overflow-x: auto; }
+}
+@media (max-width: 520px) {
+  .branches { grid-template-columns: 1fr; }
+  .bcard { min-height: 0; }
 }

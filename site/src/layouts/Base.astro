@@ -1,12 +1,12 @@
 ---
 // The page shell, from the Sentient Horizons design standard (design/shell.html): the theme script,
 // the top bar (Nav.astro), the page, and the footer with its four lines, the medical notice John
-// ruled for this site on 2026-10-16, and the family line last. Holding version, 2026-10-16, on the
-// standard's base (Deep Field); the site's own skin is proposed separately and replaces the
-// backdrop when it lands.
+// ruled for this site on 2026-10-16, and the family line last. Built 2026-10-16 on the standard's
+// base (Deep Field); the pages added 2026-10-17 against the skeleton's tokens only. No backdrop:
+// the site's own skin, proposed separately, brings its own when it lands and replaces the skin
+// half of global.css without touching the pages.
 import '../styles/global.css';
 import Nav from '../components/Nav.astro';
-import Starfield from '../components/Starfield.astro';
 import { records, longDate, builtFrom, REPO, SITE_NAME } from '../lib/records';
 
 interface Props {
@@ -60,11 +60,6 @@ const currentYear = new Date().getFullYear();
     <meta name="twitter:card" content="summary" />
   </head>
   <body>
-    <div class="space-bg" aria-hidden="true">
-      <div class="galaxy"></div>
-      <div class="core"></div>
-      <Starfield count={150} />
-    </div>
     <Nav />
     <main class="container">
       <slot />
@@ -75,10 +70,13 @@ const currentYear = new Date().getFullYear();
           <span class="footer-brand">{SITE_NAME}</span>
           <p class="footer-tag">A public tracker of when the rate of repairing the human body overtakes the rate at which it ages. Every number on this site is computed from the records in the public repository.</p>
           <p class="footer-links">
-            <a href="/#branches">The eight branches</a>
-            <a href="/#records">What is recorded</a>
-            <a href="/#method">How the numbers are worked out</a>
-            <a href={`${REPO}/issues/new`} rel="noopener">Disagree with something</a>
+            <a href="/branches/">The tree</a>
+            <a href="/claims/">The claims log</a>
+            <a href="/self-experiments/">Other people's self-experiments</a>
+            <a href="/reading/">This week's reading</a>
+            <a href="/story/">The story so far</a>
+            <a href="/method/">How the numbers are worked out</a>
+            <a href="/disagree/">Disagree with something</a>
             <a href={REPO} rel="noopener">Source on GitHub</a>
           </p>
           <p class="footer-meta">
