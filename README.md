@@ -54,7 +54,7 @@ The record layout and the rules the validator enforces are in `docs/record-schem
 
 ## Deploying
 
-Every push to `main` that touches the records, the scripts or the site runs `.github/workflows/deploy.yml`, which validates, tests, builds and deploys to Cloudflare Workers. It needs two repository secrets, `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. By hand from a machine with wrangler logged in: `cd site && npm ci && npm run deploy`. `site/wrangler.jsonc` carries the custom domains; `site/worker/redirect.js` forwards www and the American-spelled address to outrunningageing.com.
+Every push to `main` that touches the records, the scripts or the site runs `.github/workflows/deploy.yml`, which validates, tests, builds and deploys to Cloudflare Workers. It needs two repository secrets, `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. The holding page went live this way on 2026-10-16. By hand from a machine with wrangler logged in: `cd site && npm ci && npm run deploy`. `site/wrangler.jsonc` carries the custom domains; `site/worker/redirect.js` forwards www and the American-spelled address to outrunningageing.com.
 
 ## Licences
 
