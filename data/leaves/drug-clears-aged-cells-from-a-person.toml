@@ -12,8 +12,11 @@ Some cells stop dividing but do not die, and sit in tissue giving off signals th
 neighbours; they build up with age. Clearing them makes old mice healthier and longer-lived. In
 2019 a Mayo Clinic group gave a short course of two drugs that kill such cells to nine people with
 kidney disease, took tissue samples before and after, and found fewer of the cells. That is a first
-human, on a measurement. No such drug is approved anywhere, and the one company drug to reach a
-controlled trial on a clinical outcome, for knee osteoarthritis, failed in 2020."""
+human, on a measurement. No such drug is approved anywhere. The first company drug to reach a
+controlled trial on a clinical outcome, for knee osteoarthritis, failed in 2020; a small academic
+controlled trial of the same two drugs in scarred fatty liver read out positive on 2026-10-01 (31
+people, a biopsy measure), the first result on a clinical-type measure in this class that went
+the other way."""
 test = """
 A person given a drug meant to kill senescent (aged, non-dividing) cells afterwards has measurably
 fewer of them in a tissue sample or a validated blood marker, compared with before treatment, in a
@@ -29,11 +32,19 @@ status = "tracked"
 horizon = "mid"
 sibling = "lifespan-a-drug-clears-aged-cells-from-a-persons-body"
 
+verify = [
+  "A paper in Cell Metabolism, announced by Cedars-Sinai on 2026-09-10, reports that blocking the protein PD-L2 reduced aged cells in old mice and that PD-L2 rises in human aged cells; the weekly reading of 2026-10-17 also saw a report that a soluble form of it fell in people after senolytic drugs and might serve as a blood marker. The university's release was read, but the paper's own page was not opened, so the paper is not logged and the blood-marker claim is unchecked.",
+]
 notes = """
 The animal record is the 2011 Mayo Clinic report in which clearing such cells from mice delayed
 several age-related conditions. An earlier 2019 pilot in people with lung scarring reported
 better walking and standing but did not measure the cells, so it is not the record here. The
-Upgrade Tree keeps the same leaf at first human; the weekly reading checks the two stages agree."""
+Upgrade Tree keeps the same leaf at first human; the weekly reading checks the two stages agree.
+Added 2026-10-17, from the weekly reading of that date: in the Amsterdam liver trial (koning-2026),
+single-cell sequencing of liver biopsies showed fewer signs of aged cells in the treated group than
+the placebo group. That is a supporting measurement, not a replacement for the 2019 kidney report,
+and the stage stays where it was.
+"""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -51,7 +62,12 @@ to read out so far failed (2020); several smaller trials in knee, lung and eye c
 under way or planned, and the field has had fifteen years since the 2011 mouse result without an
 approval. The likely year assumes one of the current programmes reaches a positive phase 3 in the
 mid 2030s and approval follows within two to three years; the latest year allows for the whole
-first generation of these drugs failing and a second generation starting over."""
+first generation of these drugs failing and a second generation starting over.
+[Note 2026-10-17, from the weekly reading of that date: the sentence above that the one such trial
+to read out so far failed is out of date. A small academic controlled trial of the same two drugs in
+scarred fatty liver read out positive on 2026-10-01 (koning-2026). The years are unchanged; John
+may want to weigh it at the next review of the ranges.]
+"""
 
 [[estimate.rung]]
 rung = "in-clinical-use"
@@ -64,3 +80,27 @@ rung = "in-wide-use"
 earliest = 2036
 likely = 2046
 latest = 2080
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "human, on a measurement. No such drug is approved anywhere, and the one company drug to reach a controlled trial on a clinical outcome, for knee osteoarthritis, failed in 2020."
+new = "human, on a measurement. No such drug is approved anywhere. The first company drug to reach a controlled trial on a clinical outcome, for knee osteoarthritis, failed in 2020; a small academic controlled trial of the same two drugs in scarred fatty liver read out positive on 2026-10-01 (31 people, a biopsy measure), the first result on a clinical-type measure in this class that went the other way."
+why = "[reading 2026-10-17] The sentence 'the one company drug to reach a controlled trial on a clinical outcome ... failed in 2020' was out of date once the Amsterdam liver trial read out positive on 2026-10-01. The stage is unchanged: the 2019 kidney report stays the record of first human."
+publication = "koning-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
+new = "[Note 2026-10-17, from the weekly reading of that date: the sentence above that the one such trial to read out so far failed is out of date. A small academic controlled trial of the same two drugs in scarred fatty liver read out positive on 2026-10-01 (koning-2026). The years are unchanged; John may want to weigh it at the next review of the ranges.]"
+why = "[reading 2026-10-17] A dated note that the estimate's premise that the one controlled trial so far failed no longer holds; no year changed."
+publication = "koning-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-17, from the weekly reading of that date: in the Amsterdam liver trial (koning-2026), single-cell sequencing of liver biopsies showed fewer signs of aged cells in the treated group than the placebo group. That is a supporting measurement, not a replacement for the 2019 kidney report, and the stage stays where it was."
+why = "[reading 2026-10-17] Records the supporting senescence measurement in the new liver trial."
+publication = "koning-2026"

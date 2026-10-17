@@ -35,7 +35,21 @@ is about a regulator or a named service deciding it is for ageing, not about bui
 new. A small placebo-controlled trial in 42 healthy adults over 50, from the Buck Institute and a
 plasma-exchange company (Aging Cell, online 2025-05-27; posted first as a preprint on 2024-08-08),
 reported younger readings than placebo on 15 age clocks (estimates of biological age read from the
-chemical marks on DNA); its main aims were safety and those clocks."""
+chemical marks on DNA); its main aims were safety and those clocks.
+FOR JOHN, added 2026-10-17 from the weekly reading of that date: the case for the clinic rung. The
+test accepts a named clinical setting that gives the treatment for that purpose in routine care and
+publishes that practice. On 2026-03-12 the supplier Grifols announced (grifols-2026) that the Ace
+Alzheimer Center in Barcelona has run its plasma-exchange-with-albumin programme (AMBAR) for people
+with Alzheimer's disease since 2021, that new clinics are opening in hospitals in Madrid, Mallorca and
+Alicante, that more than 5,000 exchanges have been done, and that the protocol is in the guidelines
+of the American Society for Apheresis. On a plain reading that could be the clinic rung from 2021 or
+2026-03-12. It was not moved because the source is the supplier's release and not the clinical
+setting's own publication of its practice, the apheresis society's category for Alzheimer's
+disease was not seen, and a stage never moves down, so a mistake here could not be undone. Whether a
+company-run clinic programme counts as routine care, and whether the clinic rung's test should be
+widened to say so, is John's call. If it counts, the leaf moves to in clinical use and its estimate
+(earliest 2030) must be rewritten. The leaf stays at first human.
+"""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -58,3 +72,11 @@ rung = "in-clinical-use"
 earliest = 2030
 likely = 2038
 latest = 2075
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "FOR JOHN, added 2026-10-17 from the weekly reading of that date: the case for the clinic rung. The test accepts a named clinical setting that gives the treatment for that purpose in routine care and publishes that practice. On 2026-03-12 the supplier Grifols announced (grifols-2026) that the Ace Alzheimer Center in Barcelona has run its plasma-exchange-with-albumin programme (AMBAR) for people with Alzheimer's disease since 2021, that new clinics are opening in hospitals in Madrid, Mallorca and Alicante, that more than 5,000 exchanges have been done, and that the protocol is in the guidelines of the American Society for Apheresis. On a plain reading that could be the clinic rung from 2021 or 2026-03-12. It was not moved because the source is the supplier's release and not the clinical setting's own publication of its practice, the apheresis society's category for Alzheimer's disease was not seen, and a stage never moves down, so a mistake here could not be undone. Whether a company-run clinic programme counts as routine care, and whether the clinic rung's test should be widened to say so, is John's call. If it counts, the leaf moves to in clinical use and its estimate (earliest 2030) must be rewritten. The leaf stays at first human."
+why = "[reading 2026-10-17] Writes the case for the clinic rung into the notes with its source and leaves it for John, as ruled; the stage did not move."
+publication = "grifols-2026"

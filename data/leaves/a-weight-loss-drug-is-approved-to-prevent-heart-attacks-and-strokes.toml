@@ -35,7 +35,15 @@ Semaglutide for weight loss alone is in wide use by any measure; the leaf's test
 approval to prevent an age-related disease, and the record keeps that rung at clinical use until
 uptake figures for that purpose are in hand. The drugs' effect on measures of biological age was
 being studied when this was written and has no peer-reviewed result; if one comes it belongs on
-the measuring branch's clock-slowing leaf, not here."""
+the measuring branch's clock-slowing leaf, not here.
+Added 2026-10-17, from the weekly reading of that date: the first published uptake figure for the
+heart-prevention purpose is a study in the American Journal of Managed Care (scannell-2026,
+2026-07-09), using national prescription counts to September 2024. Wegovy fills rose 136 per cent
+after the approval of 2024-03-08 and Medicare coverage, yet six months after Medicare plans began
+covering it only 32,732 prescriptions had been filled, under 1 per cent of an estimated 3.6 million
+eligible beneficiaries. It is one country and one payer, and the data end in September 2024. It
+does not change the stage.
+"""
 
 [estimate]
 status = "first-pass"
@@ -44,10 +52,32 @@ why = """
 The drugs are taken by tens of millions of people and prices were falling as pills and copies
 arrived; the likely year for wide use on the heart-prevention indication is 2029, the earliest
 allows that it is already met once uptake is counted, and the latest allows for the indication
-staying a label line that few prescribers use."""
+staying a label line that few prescribers use.
+[Note 2026-10-17, from the weekly reading of that date: the first published uptake figure for this
+purpose (scannell-2026) is under 1 per cent of eligible Medicare beneficiaries six months after
+coverage began, with data to September 2024. That points the other way from the earliest year of
+2027 above, which assumed uptake might already count. The years are unchanged; John may want to weigh
+moving the earliest wide-use year later at the next review.]
+"""
 
 [[estimate.rung]]
 rung = "in-wide-use"
 earliest = 2027
 likely = 2029
 latest = 2040
+
+[[revision]]
+date = 2026-10-17
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-17, from the weekly reading of that date: the first published uptake figure for the heart-prevention purpose is a study in the American Journal of Managed Care (scannell-2026, 2026-07-09), using national prescription counts to September 2024. Wegovy fills rose 136 per cent after the approval of 2024-03-08 and Medicare coverage, yet six months after Medicare plans began covering it only 32,732 prescriptions had been filled, under 1 per cent of an estimated 3.6 million eligible beneficiaries. It is one country and one payer, and the data end in September 2024. It does not change the stage."
+why = "[reading 2026-10-17] Records the first published uptake figure, which the notes said was still to come."
+publication = "scannell-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
+new = "[Note 2026-10-17, from the weekly reading of that date: the first published uptake figure for this purpose (scannell-2026) is under 1 per cent of eligible Medicare beneficiaries six months after coverage began, with data to September 2024. That points the other way from the earliest year of 2027 above, which assumed uptake might already count. The years are unchanged; John may want to weigh moving the earliest wide-use year later at the next review.]"
+why = "[reading 2026-10-17] A dated note that the first uptake figure undercuts the premise behind the earliest wide-use year; no year changed."
+publication = "scannell-2026"

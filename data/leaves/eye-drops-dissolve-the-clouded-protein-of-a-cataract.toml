@@ -10,7 +10,10 @@ lens of the eye transparent misfold and clump with age until the lens goes cloud
 treatment is to cut the lens out and put in a plastic one. In 2015 a group in San Diego and
 Guangzhou reported that lanosterol, a natural molecule, dissolved the clumps in a dish and
 cleared the lenses of dogs with cataracts when given as drops. Two later laboratories could not
-repeat the effect, and no human trial has been published. The leaf is on the tree because
+repeat the effect, and no human trial has been published. A controlled pilot trial of a drop derived
+from lanosterol (ZOC2017217, from the company Ocusun) in about 40 people has been running in the
+United States since 2026-02-10, with its first results expected from 2027-02; its makers also cite
+an unpublished exploratory study in China. The leaf is on the tree because
 cataract surgery is the most common operation in the world, and a drop that undid the protein
 damage would be the first drug anywhere to reverse an age-related protein clump."""
 test = """
@@ -25,6 +28,9 @@ stage_record = "https://doi.org/10.1038/nature14650"
 status = "tracked"
 horizon = "far"
 
+verify = [
+  "That the drop is derived from lanosterol, and the company's exploratory study in China (50.0 to 86.4 per cent reaching 20/40 vision at 12 to 24 weeks), are the sponsor's and its research partner's account in their release of 2026-07-14, which cites no paper; the registry entry itself does not name lanosterol.",
+]
 notes = """
 A related compound, a sterol called compound 29, was reported in Science in 2015 to do the same
 in mice, by a different group; it is not the record here because the dog result came first, and
@@ -42,7 +48,16 @@ With the animal result contested and no human trial registered, the likely year 
 is distant: 2050 assumes a different molecule reaches a controlled human trial in the 2030s and
 an approval follows. The earliest assumes a trial starts within three years; the latest allows
 for the biology (dissolving a clump without harming the lens) never being solved, in which case
-surgery stays the answer and the rung is never reached."""
+surgery stays the answer and the rung is never reached.
+[Note 2026-10-17, from the weekly reading of that date: the reasoning above rests on there being no
+registered human trial. That premise no longer holds: a randomised, double-masked,
+placebo-controlled phase 2 pilot of a lanosterol-derived drop has been registered and running since
+2026-02-10 (ocusun-2026), with a first patient announced on 2026-07-14, 8 people enrolled by the
+registry's last update and a primary completion estimated for 2027-02. The earliest first-human
+year (2029), set on the premise that a trial would start within three years, was therefore met
+early. The years are unchanged; whether the first-human years should move, and whether this
+company's drop answers the replication question about the 2015 dog result, are John's to weigh.]
+"""
 
 [[estimate.rung]]
 rung = "first-human"
@@ -55,3 +70,19 @@ rung = "in-clinical-use"
 earliest = 2035
 likely = 2050
 latest = 2120
+
+[[revision]]
+date = 2026-10-17
+field = "description"
+old = "repeat the effect, and no human trial has been published."
+new = "repeat the effect, and no human trial has been published. A controlled pilot trial of a drop derived from lanosterol (ZOC2017217, from the company Ocusun) in about 40 people has been running in the United States since 2026-02-10, with its first results expected from 2027-02; its makers also cite an unpublished exploratory study in China."
+why = "[reading 2026-10-17] The description said no human trial had been published, which is still true, but left out the registered trial under way. The stage stays at shown in animals: the first-human step asks for a peer-reviewed controlled report of clearer lenses in people."
+publication = "ocusun-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
+new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above rests on there being no registered human trial. That premise no longer holds: a randomised, double-masked, placebo-controlled phase 2 pilot of a lanosterol-derived drop has been registered and running since 2026-02-10 (ocusun-2026), with a first patient announced on 2026-07-14, 8 people enrolled by the registry's last update and a primary completion estimated for 2027-02. The earliest first-human year (2029), set on the premise that a trial would start within three years, was therefore met early. The years are unchanged; whether the first-human years should move, and whether this company's drop answers the replication question about the 2015 dog result, are John's to weigh.]"
+why = "[reading 2026-10-17] A dated note that the estimate's premise of no registered human trial no longer holds; no year changed."
+publication = "ocusun-2026"
