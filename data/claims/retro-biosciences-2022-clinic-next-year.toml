@@ -4,7 +4,7 @@
 id = "retro-biosciences-2022-clinic-next-year"
 who = "Retro Biosciences"
 who_is = "Retro Biosciences, the San Francisco company led by Joe Betts-LaCroix and funded at its start by Sam Altman, working on the cell's recycling of its own worn parts, on blood plasma, and on resetting the cell's settings"
-said_on = "2022-04"
+said_on = "2022-04-05"
 where = "The same announcement page as retro-biosciences-2022-ten-years, the paragraph on its programmes; read in the Wayback Machine capture of 2022-06-30"
 link = "https://www.retro.bio/blog/fundraise-2026"
 quote = "We have a molecule in our autophagy program that will enter the clinic in the next year"
@@ -14,11 +14,8 @@ branches = ["broken-proteins"]
 leaves = ["drug-boosts-the-cells-recycling-of-worn-parts"]
 verdict = "missed"
 verdict_on = 2026-10-16
-verdict_why = "The company's own blog post of 2026-05-22 says its autophagy drug RTR242 entered the clinic in 2025, about two years after the promised date; the first dosing itself rests on coverage, since the company issued no release for it and the Australian trial registry could not be read."
+verdict_why = "The company's own blog post of 2026-05-22 says its autophagy drug RTR242 entered the clinic in 2025, about two years after the promised date; the company gives no date for the first dosing, but the Australian trial registry entry (registered 2025-11-17, number ACTRN12625001274460) records the first participant enrolled on 2025-12-16, and the trade press reported dosing by 2025-12-30."
 
-verify = [
-  "The month of first dosing of RTR242 (coverage says 2025-12, in Australia); find the registry record ACTRN12625001274460 or a company statement.",
-]
 notes = """
 The link is the 2026-05-22 blog post because the announcement page is gone from the live site;
 the archive capture is where the words were read. The company's pipeline page lists the drug for

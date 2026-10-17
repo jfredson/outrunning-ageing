@@ -17,8 +17,8 @@ verdict_on = 2026-10-16
 verdict_why = "Life Biosciences' own releases put the regulator's clearance on 2026-01-28 and the first participant dosed by 2026-06-09, about ten months past the two-year outside of the prediction; the hedge is kept, and the miss is of months, not years."
 
 verify = [
-  "The recording date: the summit ran in 2023-03 and the podcast was released 2023-08-25; the record is dated by the release until the session date is found.",
-  "The exact wording against the recording; the transcript is machine-made and a second reprint gives it with small differences.",
+  "The day of the recording: the session was at the Abundance360 summit, which ran 2023-03-20 to 2023-03-23; no source gives the day, so the record is dated by the podcast release.",
+  "The exact wording against the recording: the record follows one machine transcript, and a second machine transcript reads 'age reversal' where this reads 'age-reversed'; the recording itself has not been listened to.",
 ]
 notes = """
 His own posts frame the same programme without a date: on 2023-01-12, announcing the Cell paper
