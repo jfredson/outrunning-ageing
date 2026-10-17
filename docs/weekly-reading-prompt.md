@@ -1,6 +1,6 @@
 # The scheduled reading's prompt
 
-Written 2026-10-17, the day the site went live, in the session that built the weekly reading. This is the text the scheduled cloud task is given every week, in the siblings' form (The Quiet Galaxy's `docs/weekly-reading-prompt.md` and The Upgrade Tree's). It is deliberately short: it says where the repository is and which file to follow, so that the procedure (`docs/weekly-reading.md`) can change without anyone touching the task. The scheduled task itself has not been created: that is done at claude.ai/code/routines by John or by the master session, from this text, and the section after the prompt says how.
+Written 2026-10-17, the day the site went live, in the session that built the weekly reading. This is the text the scheduled cloud task is given every week, in the siblings' form (The Quiet Galaxy's `docs/weekly-reading-prompt.md` and The Upgrade Tree's). It is deliberately short: it says where the repository is and which file to follow, so that the procedure (`docs/weekly-reading.md`) can change without anyone touching the task. The scheduled task was created on 2026-10-17 from this text; the section after the prompt says how and records its id.
 
 ## The prompt
 
@@ -25,7 +25,7 @@ At claude.ai/code/routines, copying The Quiet Galaxy's weekly reading routine fi
 - **Model:** the routine's default, as the siblings'.
 - **Notifications:** the routine's own push notification when a run finishes; the run's report is in the routine's run list at claude.ai/code/routines.
 
-When it exists, its id and page are recorded here, and the date of its first firing.
+**Created 2026-10-17** by the master session with the scheduled-task tools, field for field from The Quiet Galaxy's routine: id `trig_017ThBP9gYdFnP2cLMtQ3ghi` (the weekly reading routine), page https://claude.ai/code/routines/trig_017ThBP9gYdFnP2cLMtQ3ghi, schedule `CRON_TZ=America/Los_Angeles 0 6 * * 0` (Sundays 06:00 Pacific, ruled by John the same day as proposed), the default cloud environment with network access set to Full by John on 2026-10-17, the Time-Assembler connector attached, the eight tools listed above. First firing: Sunday 2026-10-18 at about 06:06 Pacific.
 
 ## How to switch it off, change it or run it now
 
