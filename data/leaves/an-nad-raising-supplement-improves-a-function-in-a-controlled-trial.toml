@@ -27,16 +27,16 @@ stage_publication = "yoshino-2021"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "The 2021 Science report (Yoshino, Klein, Imai and colleagues; 250 mg NMN daily for ten weeks improved muscle insulin sensitivity in 25 overweight postmenopausal women) and its date, 22 April 2021, are from memory.",
-  "That nicotinamide riboside was shown to raise blood NAD in people in 2016 (Trammell and colleagues, Nature Communications) and that NMN was shown to restore blood vessel growth in old mice in 2018 (Das, Sinclair and colleagues, Cell) are from memory, and the animal rung is not recorded for lack of a checked date.",
-  "That the United States regulator ruled in 2022 that NMN could not be sold as a dietary supplement because it was under study as a drug, and that it is still widely sold, are from memory.",
-]
 notes = """
 These compounds are the most-sold "anti-ageing" supplements, which is why the leaf's clinic rung
 is written to exclude supplement sales: millions of people taking something is not the same as
 a regulator having looked at whether it works. The 2021 result is small and in one function; the
 leaf stays at first human until a larger trial."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "2018-03-22"
+record = "https://doi.org/10.1016/j.cell.2018.02.008"
 
 [estimate]
 status = "first-pass"

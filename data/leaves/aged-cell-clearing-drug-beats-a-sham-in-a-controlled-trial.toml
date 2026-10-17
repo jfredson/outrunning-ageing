@@ -13,7 +13,7 @@ is the second: a controlled trial in which people given such a drug do better on
 measure than people given a sham or placebo. The first such result came in a small trial in the
 eye: in 2022 the company Unity Biotechnology reported that a single injection of its drug UBX1325
 into the eyes of people with diabetic macular oedema (swelling at the back of the eye) improved
-their vision over eighteen weeks compared with a sham injection, and the trial was published in a
+their vision over twenty-four weeks compared with a sham injection, and the trial was published in a
 peer-reviewed journal in 2025. The follow-on trial against the standard drug missed its main goal
 in 2025 and the company let its staff go, so the result stands but nothing is approved."""
 test = """
@@ -29,11 +29,6 @@ stage_record = "https://clinicaltrials.gov/study/NCT04857996"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "That Unity Biotechnology first announced the BEHOLD result (a 5-letter gain over sham at 18 weeks, 65 people) in 2022 is from memory; the registry entry carries the dates to confirm it against, and the year is written as 2022 for that reason.",
-  "The peer-reviewed report is in NEJM Evidence, April 2025 (the company's notice is dated 2025-04-23); the article's own date and DOI were not in hand when this was written.",
-  "That the follow-on ASPIRE trial missed its main goal (showing it was no worse than the standard drug aflibercept at weeks 20 and 24) in 2025, and that the company then let its whole staff go and sought a buyer, is from the company's May 2025 filing as summarised in trade coverage, not read in the filing itself.",
-]
 notes = """
 The animal record is shared with the aged-cell leaf that is the worked example: the 2011 Mayo
 Clinic report in which clearing such cells from mice delayed several age-related conditions. The
@@ -46,6 +41,7 @@ tissue sample) and the knee result; this one holds the clinical benefit."""
 stage = "shown-in-animals"
 reached_on = "2011-11-02"
 record = "https://doi.org/10.1038/nature10600"
+publication = "baker-2011"
 
 [estimate]
 status = "first-pass"

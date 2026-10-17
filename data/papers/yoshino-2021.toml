@@ -16,9 +16,10 @@ with an insulin clamp, rose by 25 percent in the NMN group and not at all on pla
 blood pressure, blood fats, liver insulin sensitivity and liver fat did not change. The first
 controlled trial to show an NAD precursor doing anything measurable in people, on one tissue and
 one measurement."""
+leaves = ["an-nad-raising-supplement-improves-a-function-in-a-controlled-trial"]
 branches = ["energy-and-fuel"]
 moved_range = false
-settled_stage = false
+settled_stage = true
 notes = """
 Intended leaf: an NAD precursor with a measured effect in people, under energy and fuel sensing.
 Thirteen women were randomised to NMN and twelve to placebo. Online 2021-04-22; the print issue is

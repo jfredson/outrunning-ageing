@@ -20,8 +20,7 @@ verdict_on = 2026-10-16
 verdict_why = "On 2026-10-16 the trial had no record on ClinicalTrials.gov, and the American Federation for Aging Research's own pages still described it as planned and said recruiting would begin when the money was raised; it had not started in 2022 or any year since."
 
 verify = [
-  "A primary occasion for the yearly promise: a recorded talk or his own writing giving a start year, so the entry can leave the coverage-only shelf.",
-  "The federation's TAME page itself returned an error on 2026-10-16; the trial's size and centres are from the federation's other pages and the 2016 paper.",
+  "A primary occasion for the yearly promise (a recorded talk or his own writing giving a start year) was not found in the 2015, 2019 and 2021 question-and-answer pages or the Peter Attia interviews; STAT's article of 2022-08-09 prints his words as a direct quotation, which the record paraphrases.",
 ]
 notes = """
 The primary source for the trial's existence and design is Barzilai, Crandall, Kritchevsky and

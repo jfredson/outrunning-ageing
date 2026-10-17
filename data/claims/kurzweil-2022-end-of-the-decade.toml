@@ -15,7 +15,7 @@ about_the_headline = true
 verdict = "not-yet-due"
 
 verify = [
-  "The words are from a machine transcript that mangles names; listen to the recording at about one hour thirty-two to thirty-six minutes and correct the wording and timestamp.",
+  "The words are from machine transcripts only; a second one (YouTube's automatic captions) reads 'end of this decade' where the record has 'end of the decade'. Listen to the recording at about one hour thirty-three minutes (about 1:27 in the YouTube video) to settle the exact wording and timestamp.",
 ]
 notes = """
 Two years before the book (kurzweil-2029-escape-velocity), the same claim with the same hedge: the

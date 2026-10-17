@@ -15,9 +15,10 @@ implanted to enlarge the organ. Over a mean follow-up of 46 months the best resu
 composite scaffold wrapped in abdominal tissue: pressure at capacity fell by 56 percent, capacity
 rose 1.58-fold and the bladder stretched 2.79 times better, with kidneys preserved and no stones.
 The first organ-like tissue grown from a person's own cells to work in people for years."""
+leaves = ["lab-grown-organ-works-in-a-person-for-a-year"]
 branches = ["replacing-parts"]
 moved_range = false
-settled_stage = false
+settled_stage = true
 notes = """
 Intended leaf: a lab-grown organ works in a person for a year, under replacing lost cells and parts;
 one of the five leaves shared with The Upgrade Tree. A bladder is the simplest organ to grow, and

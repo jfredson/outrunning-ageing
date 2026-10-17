@@ -18,9 +18,7 @@ which uses the words "actuarial escape velocity" instead."""
 branches = ["worn-out-cells", "damaged-dna", "cell-settings", "broken-proteins", "energy-and-fuel", "replacing-parts", "inflammation-and-signalling", "measuring-age"]
 moved_range = false
 settled_stage = false
-verify = [
-  "That no earlier dated source for Gobel's use of the phrase exists rests on one session's web search of 2026-10-16 (the Methuselah Foundation site, the 2003 and 2004 Fight Aging! posts, and a 2018 Lifespan.io interview were checked); a dated 2004 or 2005 document may yet surface.",
-]
+
 notes = """
 Bears on the headline question itself, so listed against all eight branches. Secondary sources
 (Wikipedia; a 2018-09-05 Lifespan.io interview whose interviewer calls Gobel the first to put the

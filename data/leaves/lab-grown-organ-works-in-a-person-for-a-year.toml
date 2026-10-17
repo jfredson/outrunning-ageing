@@ -28,10 +28,6 @@ status = "tracked"
 horizon = "mid"
 sibling = "lifespan-lab-grown-organ-works-in-a-person-for-a-year"
 
-verify = [
-  "The date of the 2006 Lancet report (15 April 2006; Atala and colleagues, seven patients followed for up to five years) is copied from The Upgrade Tree's record and not re-checked here.",
-  "That a lab-grown blood vessel was approved by the United States regulator in December 2024, and that the engineered bladder never reached approval after its company's later trials, are copied from The Upgrade Tree's record and from memory respectively.",
-]
 notes = """
 The record is the 2006 Lancet report of engineered bladders in seven patients. The printed ear
 of 2022 (a company announcement with no peer-reviewed report) is cartilage, not an organ, and

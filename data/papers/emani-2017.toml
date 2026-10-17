@@ -16,9 +16,10 @@ million in ten small injections. Four of the five regained enough heart function
 machine within three to six days; two of the five later died of other organ failure. The first
 report of mitochondria moved from one tissue to another in people, in a handful of emergencies with
 no comparison group."""
+leaves = ["mitochondria-are-transplanted-into-a-person"]
 branches = ["energy-and-fuel"]
 moved_range = false
-settled_stage = false
+settled_stage = true
 notes = """
 Intended leaf: mitochondrial transfer with a measured effect in people, under energy and fuel
 sensing. The paper has no abstract; the figures are from its text. Online 2017-02-15; the print

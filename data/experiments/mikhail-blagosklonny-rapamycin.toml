@@ -29,8 +29,8 @@ link = "https://www.oncoscience.us/article/593/text/"
 branches = ["energy-and-fuel"]
 
 verify = [
-  "The start year (2010) is a guess from his own phrase that the lesion predated the drug and the dates of his papers; he gave no start date. Find one or remove the year.",
-  "The age at death (63) is from Wikipedia; the tribute gives no age.",
+  "The start year (2010) is a guess: his 2024-01 paper says he took rapamycin irregularly and gives no start date, duration or dose, and no other first-person source was found. Find one or remove the year.",
+  "The age at death (63) is from Wikipedia; the journal gives only the years 1961-2024, so 62 or 63. Find a birth date or drop the age.",
 ]
 notes = """
 His 2019 opinion article in the journal Aging on rapamycin for longevity, read in part, contains

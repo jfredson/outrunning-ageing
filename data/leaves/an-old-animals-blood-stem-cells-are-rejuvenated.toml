@@ -26,10 +26,6 @@ stage_record = "https://doi.org/10.1038/s41586-024-07238-x"
 status = "tracked"
 horizon = "far"
 
-verify = [
-  "The paper is Ross, Weissman and colleagues, 'Depleting myeloid-biased haematopoietic stem cells rejuvenates aged immunity', Nature, 27 March 2024; the date and DOI were confirmed against a university listing, the finding against the institute's summary.",
-  "That a 2019 trial (TRIIM, on the cell-settings branch) reported the thymus regrowing on scans in nine men after a year of growth hormone with two other drugs is from memory, and is the nearest human result to immune rejuvenation; it does not meet this leaf's test, which is about the marrow.",
-]
 notes = """
 Immune rejuvenation has two targets, the thymus (where T cells are trained, and which shrinks
 from puberty on) and the marrow (where the cells come from); this leaf is the marrow, and the

@@ -26,11 +26,6 @@ stage_record = "https://doi.org/10.1038/s41586-024-07701-9"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "The paper is Widjaja, Cook and colleagues, 'Inhibition of IL-11 signalling extends mammalian healthspan and lifespan', Nature 632, pages 157 to 165, 2024, DOI 10.1038/s41586-024-07701-9; the DOI was confirmed against a university listing, and the date (17 July 2024) is from memory.",
-  "The lifespan figures (22.5 per cent in males, 25 per cent in females, antibody from 75 weeks) are from secondary coverage of the paper.",
-  "That anti-interleukin-11 antibodies were in early human trials for lung scarring (Boehringer Ingelheim and others) as of 2026-10-16 is from memory.",
-]
 notes = """
 Other single messengers with animal results sit under this leaf in spirit (GDF11, oxytocin,
 klotho, the TGF-beta family); interleukin-11 is the record because its result is a full

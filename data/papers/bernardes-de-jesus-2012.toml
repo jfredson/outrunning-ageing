@@ -15,9 +15,10 @@ Median lifespan rose by 24 percent in the one-year-old group and 13 percent in t
 group, with better insulin sensitivity, bone and coordination, and no more cancer than in untreated
 littermates; an inactive version of the gene did nothing. The animal record for lengthening
 chromosome ends in a living adult without a rise in cancer."""
+leaves = ["gene-therapy-lengthens-chromosome-ends-in-an-old-animal"]
 branches = ["damaged-dna"]
 moved_range = false
-settled_stage = false
+settled_stage = true
 notes = """
 Intended leaf: telomerase therapy in a living animal, under damaged DNA. The AAV9 serotype is given
 in the full text; the abstract says only a wide-tropism AAV. Online 2012-05-15; the print issue is

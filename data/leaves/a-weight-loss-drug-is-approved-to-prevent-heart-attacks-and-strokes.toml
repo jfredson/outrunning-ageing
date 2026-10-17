@@ -23,14 +23,12 @@ several countries and taken by a substantial share of eligible people."""
 settler = "The peer-reviewed trial report; the regulator's approval record; published uptake figures for the wide-use rung"
 stage = "in-clinical-use"
 stage_reached_on = "2024-03-08"
-stage_record = "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-reduce-risk-serious-heart-problems-specifically-adults-obesity-or-overweight"
+stage_record = "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-reduce-risk-serious-heart-problems-specifically-adults-obesity-or"
 status = "tracked"
 horizon = "near"
 
 verify = [
-  "The address of the regulator's 8 March 2024 notice is reconstructed from its title ('FDA approves first treatment to reduce risk of serious heart problems specifically in adults with obesity or overweight') and was not opened; the date and title were confirmed from reposts of it.",
-  "The 2023 SELECT report (Lincoff and colleagues, New England Journal of Medicine, 11 November 2023; 17,604 people, a 20 per cent cut in the main heart outcome, 6.5 against 8.0 per cent) and its DOI are from memory; that death from any cause was lower (a secondary measure, about 19 per cent) is from memory.",
-  "No animal rung is recorded: whether a GLP-1 drug extended the life of a living animal in a peer-reviewed report was not checked.",
+  "No animal rung is recorded: a Nature report of 2026-09-02 shows late-life semaglutide lengthened the median life of female mice, but it came after the drug's approval and is a lifespan result, not a heart-event result, so it was not entered as an earlier stage.",
 ]
 notes = """
 Semaglutide for weight loss alone is in wide use by any measure; the leaf's test is narrower, the

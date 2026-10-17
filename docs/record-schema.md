@@ -231,22 +231,30 @@ Raised by the session that wrote the first thirty claims, put to John by the mas
 
 ### Worked example: `data/claims/kurzweil-2029-escape-velocity.toml`
 
+Abridged; the file in `data/` has the full text. The id keeps the famous year, 2029, because ids are never renamed; the book itself says "by around 2030", and the record is dated and worded from the book. The quotation is exact, so it is not marked as a paraphrase.
+
     id = "kurzweil-2029-escape-velocity"
     who = "Ray Kurzweil"
     who_is = "the inventor and futurist Ray Kurzweil, a director of engineering at Google and the author of The Singularity Is Near (2005) and The Singularity Is Nearer (2024)"
     said_on = "2024-06-25"
-    where = "The Singularity Is Nearer (Viking, 2024), the chapter on health and longevity"
-    quote = "..."
-    is_paraphrase = true
-    paraphrase_seen_in = "Interviews and press from 2023 to 2025 repeating that we will reach longevity escape velocity by 2029"
-    commits_to = "Longevity escape velocity reached for people with access to the best care by 2029."
-    due = 2029
+    where = "The Singularity Is Nearer (Viking, 2024), page 192, in the chapter on health and longevity; read in Google Books' search-inside snippets on 2026-10-16, which show the sentence but not the whole page"
+    link = "https://books.google.com/books?id=V-e8EQAAQBAJ&q=%22by+around+2030%22"
+    quote = "by around 2030, the most diligent and informed people will reach \"longevity escape velocity\""
+    is_paraphrase = false
+    commits_to = "Longevity escape velocity, defined on the same page as adding more than a year of remaining life expectancy per calendar year, reached by around 2030 for the most diligent and informed people; and disease and the ageing process largely overcome by the end of the 2030s."
+    due = 2030
     about_the_headline = true
     verdict = "not-yet-due"
 
     verify = [
-      "The exact words and the page in the 2024 book; the publication date of the book.",
+      "The sentence was read in snippet view, so the words immediately before it on page 192 were not seen; check against a copy of the book.",
+      "The publication date, 2024-06-25, is the publisher's e-book date; the hardcover date was confirmed only from a bookseller's listing.",
     ]
+    notes = """
+    The famous version is 2029. The book's longevity pages do not use that year; the 2029 figure
+    comes from interviews around the book's launch, which are coverage ... """
+
+A claim whose exact words are not in hand would instead carry `is_paraphrase = true` and a `paraphrase_seen_in` line saying where the circulating version was seen.
 
 ## The self-experiment record
 

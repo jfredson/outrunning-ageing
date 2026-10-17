@@ -16,6 +16,7 @@ methylation (DunedinPACE) ran 2 to 3 percent slower in the restricted group at o
 while two clocks that read accumulated age (PhenoAge and GrimAge) did not move. The first
 randomised trial in people to show an intervention slowing a biological age clock, by an amount the
 authors call small."""
+leaves = ["a-treatment-slows-a-biological-age-clock-in-a-controlled-trial"]
 branches = ["measuring-age", "energy-and-fuel"]
 moved_range = false
 settled_stage = false

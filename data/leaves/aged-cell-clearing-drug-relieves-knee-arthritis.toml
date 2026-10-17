@@ -26,17 +26,15 @@ stage_record = "https://doi.org/10.1038/nm.4324"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "The 2017 Nature Medicine report (Jeon and colleagues; clearing aged cells from the knees of mice reduced the development of post-injury osteoarthritis) and its date, 24 April 2017, are from memory.",
-  "That Unity's mid-stage (phase 2) trial of UBX0101 (registry NCT04129944) reported no difference from placebo on pain at twelve weeks in August 2020 is from memory.",
-  "That no other drug of the class was in a controlled osteoarthritis trial in people as of 2026-10-16 is from memory; small academic trials of dasatinib plus quercetin or fisetin in joint conditions may exist and should be checked.",
-]
 notes = """
 The 2020 failure is the one most often cited against the whole class, and it is on the record
 here for that reason. It was a single injection of a short-lived drug, judged at twelve weeks; the
 company said afterwards that the drug may not have stayed in the joint long enough. That is a
 reason to keep the leaf tracked rather than withdrawn: the test can still be met by a better drug
-or a longer course."""
+or a longer course. A small randomised, placebo-controlled trial of fisetin, a plant compound
+some researchers use to clear aged cells, in knee osteoarthritis (75 people, run by the Steadman
+Philippon Research Institute; registry number NCT04210986) finished in February 2023; its main
+measure was safety, so it does not meet the test above."""
 
 [estimate]
 status = "first-pass"

@@ -34,8 +34,7 @@ link = "https://rejuvenationolympics.com/"
 branches = ["measuring-age"]
 
 verify = [
-  "The 2023 founding year is from coverage, not the site, which gives no date.",
-  "Whether TruDiagnostic does anything to verify a sample beyond processing it; the rules page describes only a test count.",
+  "The rules, FAQ and TruDiagnostic's own page describe only a test count and consent at kit registration; whether the lab checks a sample belongs to the named person is not stated anywhere found.",
 ]
 notes = """
 Bryan Johnson's own programme is the record bryan-johnson-blueprint; Dave Pascoe's is

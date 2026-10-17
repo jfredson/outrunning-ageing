@@ -8,8 +8,9 @@ description = """
 Progeria is a disease in which one wrong letter in one gene makes children age fast and die in
 their teens. In 2021 a Harvard and National Institutes of Health group used a base editor, a tool
 that changes a single letter of DNA without cutting it, carried into mice with the human mutation
-by a harmless virus. One dose corrected the letter in most cells of the heart and blood vessels,
-and the mice lived about two and a half times longer than untreated mice. It is the clearest case
+by a harmless virus. One dose corrected the letter in roughly a fifth to three-fifths of the cells in various organs
+(about a quarter in the main artery) six months later, and the mice lived about 2.4 times as
+long as untreated mice. It is the clearest case
 of repairing a single ageing-related mutation in a living body. The children's version of the
 disease has an approved drug (lonafarnib, 2020) that treats its effects, but no person has had the
 mutation itself corrected."""
@@ -26,10 +27,6 @@ stage_record = "https://doi.org/10.1038/s41586-020-03086-7"
 status = "tracked"
 horizon = "mid"
 
-verify = [
-  "The 2021 Nature report (Koblan, Liu, Collins and colleagues; a base editor corrected the progeria mutation in mice and extended their lives from about 215 to about 510 days) and its date, 6 January 2021, are from memory.",
-  "That lonafarnib (Zokinvy) was approved by the United States regulator for progeria in November 2020, and that no gene-correction trial for progeria had treated a person as of 2026-10-16, are from memory.",
-]
 notes = """
 The first person to have a single mutation corrected inside their body by a base editor was a
 baby with a liver enzyme disease, treated in 2025 with a therapy made for him alone; that is not

@@ -15,10 +15,6 @@ verdict = "missed"
 verdict_on = 2026-10-16
 verdict_why = "The company's own correction of 2024-03-05 withdrew the word proven, changing the sentence to shown to reverse the effects of age-related decline, and the release describes the evidence as a study posted online before peer review, in which neither owners nor researchers knew which dogs had the supplement, and whose outcomes were owner-assessed cognition, frailty, activity and happiness, with no counts or sizes given; the claim as made was not supported by its own source."
 
-verify = [
-  "That the resignation announced by Nir Barzilai on 2024-03-13 (his post, read) was a consequence of this episode is coverage's account, not either man's statement.",
-  "The posted study itself (its dog count, duration and effect sizes) was not read.",
-]
 notes = """
 His own post of the same day said the supplement was clinically proven to slow the effects of
 ageing in dogs; the post has since been deleted. Two weeks later the Academy for Health and

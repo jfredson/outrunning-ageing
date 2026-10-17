@@ -10,8 +10,8 @@ description = """
 Pigs' organs are the right size for people, and gene editing can take out the pig genes that make
 a human body reject them at once and add human ones that calm the rest. In January 2022 a man too
 ill for a human heart lived two months on a pig's; since 2024 several people have lived on pig
-kidneys, the longest for most of a year. Formal trials cleared by the United States regulator
-began in 2025. It is a first human, several times over, and the first step towards organs made
+kidneys, the longest for most of a year. The United States regulator cleared two formal trials in
+2025, and the first began that October. It is a first human, several times over, and the first step towards organs made
 to order, which is why it sits on the branch for replacing what ageing wears out."""
 test = """
 A person receives a heart, kidney, liver or lung from a pig whose genes were edited for the
@@ -27,11 +27,6 @@ status = "tracked"
 horizon = "near"
 sibling = "lifespan-organ-from-a-gene-edited-pig-keeps-a-person-alive"
 
-verify = [
-  "The transplant date (7 January 2022), the animal record (5 December 2018, baboons living for months on pig hearts, Munich) and the 2025 trial clearances are copied from The Upgrade Tree's record and not re-checked here.",
-  "That the longest published case is a Boston man who lived 271 days on a pig kidney in 2025, reported in The Lancet in September 2026, is copied from The Upgrade Tree's record.",
-  "That the two United States trials (United Therapeutics, six patients growing to fifty; eGenesis, three growing in stages) follow each patient for 24 weeks is from 2025 coverage of the regulator's clearance.",
-]
 notes = """
 The record is the University of Maryland's own announcement of David Bennett's pig heart
 transplant; the peer-reviewed case report followed in June 2022. Pig kidneys followed in 2024

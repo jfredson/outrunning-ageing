@@ -27,8 +27,7 @@ status = "tracked"
 horizon = "far"
 
 verify = [
-  "The 2012 EMBO Molecular Medicine report (Bernardes de Jesus, Blasco and colleagues; one dose of a telomerase gene therapy extended the lives of one- and two-year-old mice by about 24 and 13 per cent with no increase in cancer), its month (May 2012) and its DOI are from memory.",
-  "That a company founder, Elizabeth Parrish of BioViva, said in 2015 that she had taken a telomerase gene therapy herself, with no peer-reviewed report, is from memory; a self-report is not a record under the test and is noted only so that it is not mistaken for one.",
+  "That a company chief executive, Elizabeth Parrish of BioViva, said in 2015 that she had taken a telomerase gene therapy herself is confirmed (MIT Technology Review, 2015-10-14); a 2022 single-patient case report on the same therapy (journal and subject unconfirmed) and a 2019 registered AAV-hTERT trial in Colombia (NCT04133649, no result found) still need to be read.",
 ]
 notes = """
 The same Madrid group later reported telomerase gene therapy repairing lung scarring and

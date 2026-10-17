@@ -23,15 +23,12 @@ share of eligible patients."""
 settler = "The peer-reviewed trial report; the regulator's approval record; published uptake figures for the wide-use rung"
 stage = "in-clinical-use"
 stage_reached_on = "2019-05-03"
-stage_record = "https://www.fda.gov/news-events/press-announcements/fda-approves-new-treatments-heart-disease-caused-serious-rare-disease-transthyretin-mediated-amyloidosis"
+stage_record = "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211996"
 status = "tracked"
 horizon = "near"
 
 verify = [
-  "The address of the regulator's notice is reconstructed from its title ('FDA approves new treatments for heart disease caused by a serious rare disease, transthyretin-mediated amyloidosis') and was not opened; the approval date (3 May 2019) and the title were confirmed from reposts of it.",
-  "The 2018 ATTR-ACT report (Maurer and colleagues, New England Journal of Medicine, 13 September 2018; 441 people, all-cause death 29.5 against 42.9 per cent at 30 months) and its DOI are from memory.",
-  "That antibodies which clear settled deposits (ALXN2220, coramitug) were in late-stage trials as of 2026-10-16 is from memory.",
-  "No animal rung is recorded: the discovery work (Kelly and colleagues at Scripps, 2000s) was done largely in the test tube and a dated animal result was not sought.",
+  "No animal rung is recorded: the discovery work (Kelly and colleagues at Scripps) was done largely in the test tube, and a search of the literature on 2026-10-17 found no clean, dated animal report to record.",
 ]
 notes = """
 The branch's own line asks for waste cleared throughout the body; this drug stops one protein

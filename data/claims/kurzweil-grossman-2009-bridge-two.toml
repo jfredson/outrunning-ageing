@@ -13,9 +13,6 @@ due = 2029
 branches = ["cell-settings", "damaged-dna"]
 verdict = "not-yet-due"
 
-verify = [
-  "The first edition's year (2009) is Google Books' label for the Rodale hardcover; confirm it.",
-]
 notes = """
 Five years after the first book put the same means two decades out (kurzweil-grossman-2004-two-decades),
 the second moves the date with the calendar. It bears on the cell's settings and damaged DNA

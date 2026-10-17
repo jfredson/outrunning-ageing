@@ -5,7 +5,7 @@ who = "Life Biosciences"
 who_is = "Life Biosciences, the Boston company co-founded by David Sinclair that is developing ER-100, a treatment that briefly switches on three reprogramming genes to reset the cell's settings, first for two conditions that damage the optic nerve"
 said_on = "2024-10-21"
 where = "The company's press release of 2024-10-21 on its data at the American Academy of Ophthalmology meeting; read in full"
-link = "https://www.lifebiosciences.com/"
+link = "https://www.lifebiosciences.com/life-biosciences-presents-at-aao-on-partial-epigenetic-reprogramming/"
 quote = "remains on track to initiate the first human clinical study evaluating ER-100 for optic neuropathies in the second half of 2025"
 is_paraphrase = false
 commits_to = "A first human trial of ER-100 started between 2025-07 and 2025-12."
@@ -15,9 +15,6 @@ verdict = "missed"
 verdict_on = 2026-10-16
 verdict_why = "By the company's own releases the regulator cleared the trial on 2026-01-28, the first participant was dosed by 2026-06-09, and interim results in three people were reported on 2026-10-08; the start slipped out of 2025 by one to two quarters."
 
-verify = [
-  "The release's own address on the company's site; the link is the site, since the news page's addresses were not recorded.",
-]
 notes = """
 The trial, registered as NCT07290244, treats open-angle glaucoma and a sudden optic-nerve stroke.
 The 2026-10-08 release reports it well tolerated through day fifty-six in all three participants

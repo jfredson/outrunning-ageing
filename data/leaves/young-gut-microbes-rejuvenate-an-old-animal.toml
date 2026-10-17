@@ -25,11 +25,6 @@ stage_record = "https://doi.org/10.1186/s40168-022-01243-w"
 status = "tracked"
 horizon = "far"
 
-verify = [
-  "The 2022 Microbiome report (Parker, Carding and colleagues at the Quadram Institute; faecal transfer from young to old mice reversed age-related changes in gut, eye and brain) and its date, 29 April 2022, are from memory.",
-  "That a 2021 Nature Aging report (Boehme, Cryan and colleagues) found young-to-old transfer improved learning in old mice is from memory.",
-  "That the United States regulator approved the first microbial transfer product (Rebyota, for recurrent Clostridioides difficile infection) in November 2022 is from memory; it is not the record here because the condition is an infection, not ageing.",
-]
 notes = """
 The gut's microbes are one of the three published kinds of ageing damage ("hallmarks") the branch groups, and this is the only
 leaf for it; a drug or diet that changed the microbes with a measured effect on ageing in people
