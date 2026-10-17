@@ -12,13 +12,16 @@ commits_to = "A ceiling, not a pledge: a budget of up to a billion dollars a yea
 about_the_headline = true
 verdict = "unfalsifiable"
 
-verify = [
-  "The earliest dated statement of the billion figure in the foundation's own words is the debut release on Business Wire, dated 2022-08-31 ('with an annual budget of up to $1 Billion'), read in an archive copy; no earlier statement by the foundation was found, but one cannot be ruled out. The 2022-06-07 version is a chief executive's words in coverage.",
-]
 notes = """
 Against the ceiling, the foundation's own figures: commitments of about two hundred and fifty
 million dollars by 2023-11-29, over four hundred million by 2024-06-10 (its own words, within the
 past twenty-one months), and four hundred million over three years in its summit release of
 2025-01-27. The hedge, up to, is why the fixed set's verdict is unfalsifiable; the gap between
-ceiling and spend is why the record exists. The foundation is a co-sponsor of the XPRIZE Healthspan
-(xprize-healthspan-2023-launch)."""
+ceiling and spend is why the record exists.
+The foundation is a co-sponsor of the XPRIZE Healthspan
+(xprize-healthspan-2023-launch).
+The date of the claim is the date of the statements the record read, not a finding that they were the first.
+A repost on 2022-09-01 of a release about new research awards already describes the foundation as having an
+annual budget of up to $1 billion (https://lifeboat.com/blog/2022/09/hevolution-foundation-announces-new-awards-in-aging-biology-and-geroscience-research),
+but the original release on Business Wire could not be opened on 2026-10-17 (the site refused the request),
+so whether an earlier statement exists has not been settled."""

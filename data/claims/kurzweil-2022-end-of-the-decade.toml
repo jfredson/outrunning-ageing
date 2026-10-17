@@ -5,20 +5,25 @@ id = "kurzweil-2022-end-of-the-decade"
 who = "Ray Kurzweil"
 who_is = "the inventor and futurist Ray Kurzweil, a director of engineering at Google and the author of The Singularity Is Near (2005) and The Singularity Is Nearer (2024)"
 said_on = "2022-09-17"
-where = "The Lex Fridman Podcast, episode 321, in the segment on mortality, about one hour thirty-three minutes in; read in a machine-made transcript on podscripts.co, not an official transcript, and not checked against the recording"
+where = "The Lex Fridman Podcast, episode 321, in the segment on mortality, at 1 hour 27 minutes 9 seconds in the video of the episode on YouTube (the video is 1 hour 36 minutes long); checked against the recording on 2026-10-17 (YouTube's automatic captions and a computer transcription of the audio, both agreeing), not an official transcript"
 link = "https://lexfridman.com/ray-kurzweil/"
-quote = "I think we can probably get there within, say, by the end of the decade. And that's my goal."
+quote = "I think we can probably get there within, say, by the end of this decade. And that's my goal."
 is_paraphrase = false
 commits_to = "Longevity escape velocity, which he defines in the same passage as adding more than a year of life expectancy every year, reached by the end of the 2020s, starting with people who are very diligent about it."
 due = 2030
 about_the_headline = true
 verdict = "not-yet-due"
 
-verify = [
-  "The words are from machine transcripts only; a second one (YouTube's automatic captions) reads 'end of this decade' where the record has 'end of the decade'. Listen to the recording at about one hour thirty-three minutes (about 1:27 in the YouTube video) to settle the exact wording and timestamp.",
-]
 notes = """
 Two years before the book (kurzweil-2029-escape-velocity), the same claim with the same hedge: the
 diligent first, and by the end of the decade rather than a named year. The podcast's episode page
 is the link because the transcript site is a third party; the episode's own transcript address on
-lexfridman.com returned an error on 2026-10-16."""
+lexfridman.com returned an error on 2026-10-16.
+Checked against the recording on 2026-10-17, in the video of the episode on YouTube
+(https://www.youtube.com/watch?v=ykY69lSpDdo, posted 2022-09-17). YouTube's automatic captions and a
+computer transcription of the audio agree on the words, at 1:27:09: "we can
+probably get there within, say, by the end of this decade, and that's my goal." The record had read
+"the decade" from the third-party transcript; it is corrected to "this decade". He repeats it a
+minute later ("by the end of this decade") and again at about 1:29:36, where he says he will last
+until the end of this decade. The earlier "about one hour thirty-three minutes" came from the third-party transcript's own
+clock, which does not match the video's."""

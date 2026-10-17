@@ -14,10 +14,6 @@ due = 2039
 about_the_headline = true
 verdict = "not-yet-due"
 
-verify = [
-  "Whether the newsletter edited his written answers is not stated on its page; the words and date (2024-03-01) are confirmed. A recorded statement of the same odds (for example the Peter McCormack interview, segment 'The 12-15 Year Prediction', summarised by Lifeboat News on 2026-08-15) was not watched.",
-  "An episode of the Extrapolate podcast released 2026-02-16, titled How We End Aging in 15 Years (51 minutes 56 seconds), is described on the podcast's own page as saying he estimates about fifteen years to longevity escape velocity, provided funding catches up. Only the description was read; the recording was not heard and no transcript was found, so his actual words, any odds he gave and the year it counts from are unchecked. If he did say about fifteen years from 2026, the horizon is 2041, up to two years later than the 2036 to 2039 of this entry.",
-]
 notes = """
 The circulating version, fifty percent within twelve to fifteen years, matches; what it drops is
 his definition, medicines that postpone ageing by around twenty years. Nineteen years after the
@@ -25,8 +21,25 @@ his definition, medicines that postpone ageing by around twenty years. Nineteen 
 horizon is twelve to fifteen. A talk of 2025-08-28 at the Longevity Summit Dublin, read in a
 third-party transcript, urges other researchers to give time frames but gives no new odds of his
 own.
-Updated 2026-10-17, from the weekly reading of that date: a later recorded occasion exists (the
-Extrapolate episode of 2026-02-16, with Rob Hof). It is not entered as its own claim because its
-words have not been heard; the verdict stays not yet due. It sits beside the Peter McCormack
-interview as a second recording to listen to.
+Updated 2026-10-17, from the weekly reading of that date and a check of two recordings
+(YouTube's automatic captions and a computer transcription of the audio, agreeing in each case, on
+2026-10-17). The newsletter's page does not say whether it edited his written answers, and that
+stays unknown; but two years later he says the same thing in his own voice. The Peter McCormack Show interview (posted 2026-08-06,
+https://www.youtube.com/watch?v=v6X6LZscBAw, in the part titled "The 12-15 Year Prediction"), at
+about 5:19, as he says it: "I always say we have a 50-50 chance of getting to a point that is for
+practical purposes having defeated ageing, something that I call longevity escape velocity, within,
+at the moment what I say is the next 12 to 15 years from now"; he adds that twenty years ago he said
+25 years, and the interview opens with the same sentence. So the odds and the twelve to fifteen
+years are his own spoken words as well. But the recording is from 2026, so "from now"
+counts from 2026, which gives 2038 to 2041, not the 2036 to 2039 of this entry (which counts from
+2024). The Extrapolate episode with Rob Hof ("We End Aging in 15 Years", posted 2026-02-17 on
+YouTube, https://www.youtube.com/watch?v=bzRre46gttA; the podcast's page dates it 2026-02-16), at
+about 38:10 to 39:30, is a little different: asked whether he is as optimistic as before, he recounts
+that he began giving time frames in about 2004 with a 50 per cent chance of 25 years, that in 2015
+he was still saying 20 to 25 years, and then says "I now say 12 to 15 years" and "I think 12 to 15
+years is a reasonable estimate right now", provided the less well funded areas catch up. In that
+passage he does not put the fifty per cent on the 12 to 15 years, only on the earlier 25; he says
+all his predictions are given as probabilities. The episode's title rounds it to 15 years. The
+verdict stays not yet due, and the due year is left as it was; the later horizon is flagged.
+Not checked: a recording of 2023-05.
 """

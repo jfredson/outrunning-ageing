@@ -6,7 +6,7 @@ id = "austad-olshansky-2000-bet-on-150"
 who = "Steven Austad and S. Jay Olshansky"
 who_is = "the biologist of ageing Steven Austad of the University of Alabama at Birmingham and the demographer S. Jay Olshansky of the University of Illinois Chicago, who took opposite sides of a long-running public bet about the human lifespan"
 said_on = "2000-09-15"
-where = "A bet struck on 2000-09-15, each man putting a hundred and fifty dollars into an investment fund to be paid out in 2150, and reported as doubled in Nature's news report of 2016-10-18 (the day of the doubling itself is not given). Austad's side in his own words is from the Aventine podcast transcript (the episode was released 2025-05-20); the terms and dates are from Nature's news report of 2016-10-18, read as quoted on fightaging.org on 2016-11-07"
+where = "A bet struck on 2000-09-15, each man putting a hundred and fifty dollars into an investment fund to be paid out in 2150, and reported as doubled in Nature's news report of 2016-10-18 (the day of the doubling itself is not given). Both men's sides in their own words are from the Aventine podcast transcript (the episode was released 2025-05-20), read on the page on 2026-10-17; the terms and dates are from Nature's news report of 2016-10-18, read as quoted on fightaging.org on 2016-11-07"
 link = "https://aventine.org/podcast/longevity-the-billion-dollar-bet-austad-olshansky-ramakrishnan"
 quote = "I think that person is already alive."
 is_paraphrase = false
@@ -15,11 +15,13 @@ due = 2150
 about_the_headline = true
 verdict = "not-yet-due"
 
-verify = [
-  "Olshansky's own statement of his side was read only in part: The Scientist of 2001-02 (Jean McCann, 'Wanna Bet?') gives his view that 130 is possible but 150 is far beyond medicine's reach, but the page cuts off mid-sentence; the Scientific American piece of 2000 was not reached.",
-]
 notes = """
 The oldest verified age at death remains a hundred and twenty-two (Jeanne Calment, 1997). A
 hundred-and-fifty-year-old in 2150 would have to be born by 2000, so the bet tracks the same
 people this site's headline is about. Olshansky's published position is
-olshansky-2024-implausible-this-century."""
+olshansky-2024-implausible-this-century.
+Checked 2026-10-17 against the Aventine transcript: it gives Olshansky's side in his own words (asked what
+came of Austad's remark, "Let's put our money where our mouth is"; on the odds, "Mathematically, it
+doesn't work out"), and has each man putting in $150 at the start and another $150 each years later. The
+transcript places their first exchange after a conference in 1999 and gives no date for the bet itself, so
+the date 2000-09-15 rests on Nature's report alone."""

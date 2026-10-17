@@ -11,7 +11,7 @@ where = "An interview reported by STAT on 2022-08-09; the words are the reporter
 link = "https://doi.org/10.1016/j.cmet.2016.05.011"
 quote = "That he had been on the record saying he was pretty sure the trial would start that year, for the last seven years, and that it would happen because it had to."
 is_paraphrase = true
-paraphrase_seen_in = "STAT, 2022-08-09, Megan Molteni's article on the trial's funding; the same sense repeated in coverage by NPR on 2024-04-22 (the trial can start when the money comes in) and in longevity newsletters since 2019."
+paraphrase_seen_in = "STAT, 2022-08-09, Megan Molteni's article on the trial's funding; read on 2026-10-17 in an archived copy of the article (https://gwern.net/doc/www/www.statnews.com/4995e3fd57580532274e1497b49bf489cd918a35.html), where it is printed as his direct words, since STAT's own page now shows only an excerpt (https://www.statnews.com/2022/08/09/anti-aging-projects-funding-much-discussed-trial-overlooked/); the same sense repeated in coverage by NPR on 2024-04-22 (the trial can start when the money comes in) and in longevity newsletters since 2019."
 commits_to = "A six-year trial of metformin against ageing in more than three thousand people aged sixty-five to seventy-nine at fourteen centres, starting in 2022, and by his own account promised for each year since about 2015."
 branches = ["energy-and-fuel", "measuring-age"]
 leaves = ["a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked"]
@@ -19,14 +19,19 @@ verdict = "missed"
 verdict_on = 2026-10-16
 verdict_why = "On 2026-10-16 the trial had no record on ClinicalTrials.gov, and the American Federation for Aging Research's own pages still described it as planned and said recruiting would begin when the money was raised; it had not started in 2022 or any year since."
 
-verify = [
-  "A primary occasion for the yearly promise (a recorded talk or his own writing giving a start year) was not found in the 2015, 2019 and 2021 question-and-answer pages or the Peter Attia interviews; STAT's article of 2022-08-09 prints his words as a direct quotation, which the record paraphrases.",
-]
 notes = """
 The primary source for the trial's existence and design is Barzilai, Crandall, Kritchevsky and
 Espeland, Metformin as a Tool to Target Aging, Cell Metabolism volume 23, pages 1060 to 1065,
 2016-06, whose abstract says metformin will be tested in the trial as the first step toward better
-drugs, with no date. The trial matters to this site twice over: it is the leading attempt on the
+drugs, with no date.
+Checked 2026-10-17: STAT prints the words as Barzilai's direct quotation (he says he has been on the
+record saying he was pretty sure it would start that year, for the last seven years, and that it would
+happen because it has to), so the paraphrase above follows the printed words. No recording or writing of
+his own that names a start year was found: the question-and-answer pages of 2015, 2019 and 2021 and the
+Peter Attia interviews give none. An earlier occasion is coverage only: Fight Aging! of 2019-09-06 relays a
+Longevity.Technology report that the trial was set to begin at the end of 2019, according to him
+(https://fightaging.org/?p=37651). The yearly promise therefore rests on these reports.
+The trial matters to this site twice over: it is the leading attempt on the
 energy and fuel branch, and it was designed to make regulators accept ageing as something a drug
 can be tested against, which is the measuring branch's test.
 """
