@@ -438,7 +438,8 @@ export type Headline =
       histogram: { from: number; to: number | null; share: number }[];
       branches: HeadlineBranch[];
       counts: { leaves_counted: number; leaves_in_clinic_already: number; estimates_first_pass: number; verify_entries: number };
-      file: string;
+      file: string;          // the file in the repository, data/headline.json
+      served_at: string;     // the same file served from this site, /data/headline.json (2026-10-17)
       worked_run: WorkedRun;
     };
 
