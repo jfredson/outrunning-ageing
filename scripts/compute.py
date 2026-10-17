@@ -135,7 +135,8 @@ ESTIMATE_ALLOWED = {"status", "set_on", "why", "sources", "rung"}
 RUNG_ALLOWED = {"rung", "earliest", "likely", "latest"}
 REVISION_ALLOWED = {"date", "field", "old", "new", "why", "publication"}
 ITEM_ALLOWED = {"leaf", "claim", "experiment", "verdict", "queries", "reused", "search_short", "found",
-                "sources", "publications", "moved_from", "moved_to", "for_john", "sibling_stage", "sibling_agrees"}
+                "sources", "publications", "moved_from", "moved_to", "for_john", "resolved_on", "resolved_by",
+                "sibling_stage", "sibling_agrees"}
 ITEM_TARGETS = ("leaf", "claim", "experiment")
 RETIRED_ALLOWED = {"id", "kind", "date", "replaced_by", "why"}
 
@@ -796,6 +797,21 @@ def _check_scan(r: dict, tag: str, by_kind: dict[str, dict[str, dict]], problems
                 problems.append(f"{gtag}: a 'flagged' item carries 'for_john' (the change the reading would have made, the record, and why it is John's)")
         elif "for_john" in g:
             problems.append(f"{gtag}: 'for_john' is only for a 'flagged' item")
+
+        # ---- a resolution mark (decision 19): only on a flagged item, both fields or neither, the
+        # date not before the reading's own
+        if "resolved_on" in g or "resolved_by" in g:
+            if verdict != "flagged":
+                problems.append(f"{gtag}: 'resolved_on' and 'resolved_by' are only for a 'flagged' item")
+            if "resolved_on" not in g or "resolved_by" not in g:
+                problems.append(f"{gtag}: a resolution mark carries both 'resolved_on' and 'resolved_by'")
+            if "resolved_on" in g:
+                if not isinstance(g["resolved_on"], dt.date):
+                    problems.append(f"{gtag}: 'resolved_on' must be a TOML date")
+                elif isinstance(read_on, dt.date) and g["resolved_on"] < read_on:
+                    problems.append(f"{gtag}: 'resolved_on' is before the reading it resolves ({read_on})")
+            if "resolved_by" in g and (not isinstance(g["resolved_by"], str) or _empty(g["resolved_by"])):
+                problems.append(f"{gtag}: 'resolved_by' must say, in one line, what resolved the item and in which changelog entry")
 
         # ---- a move: a leaf only, one rung, matched by a stage revision dated the reading's day
         if verdict == "moved":

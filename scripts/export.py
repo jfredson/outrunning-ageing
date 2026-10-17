@@ -381,6 +381,8 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
             "moved_from": g.get("moved_from"), "moved_to": g.get("moved_to"),
             "moved_from_label": STAGE_LABELS.get(g.get("moved_from")), "moved_to_label": STAGE_LABELS.get(g.get("moved_to")),
             "for_john": text(g.get("for_john")),
+            "resolved_on": iso(g["resolved_on"]) if g.get("resolved_on") else None,
+            "resolved_by": text(g.get("resolved_by")),
             "sibling_stage": g.get("sibling_stage"),
             "sibling_stage_label": STAGE_LABELS.get(g.get("sibling_stage")) if g.get("sibling_stage") else None,
             "sibling_agrees": g.get("sibling_agrees"),
@@ -399,6 +401,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
                 "read_on": iso(s["read_on"]), "path": f"/reading/#{s['id']}", "verdict": it["verdict"],
                 "verdict_label": it["verdict_label"], "found": it["found"], "sources": it["sources"],
                 "search_short": it["search_short"], "for_john": it["for_john"],
+                "resolved_on": it["resolved_on"], "resolved_by": it["resolved_by"],
                 "moved_from_label": it["moved_from_label"], "moved_to_label": it["moved_to_label"],
                 "publications": it["publications"],
             })
@@ -425,21 +428,17 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
             "file": record_file(s, data_dir), "path": f"/reading/#{s['id']}",
         })
 
-    # Flagged items still waiting on John, newest reading first.
+    # Flagged items still waiting on John, newest reading first. An item is settled by its own
+    # resolution mark (decision 19) or by a later reading that read the record again with another
+    # verdict; nothing is guessed from the records' text.
     def cleared(item: dict, read_on: dt.date) -> bool:
+        if item["resolved_on"]:
+            return True
         later = [s2 for s2 in real_scans if s2["read_on"] > read_on]
         for s2 in later:
             for g in s2["item"]:
                 if g.get(item["kind"]) == item["id"] and g["verdict"] != "flagged":
                     return True
-        if item["kind"] == "leaf":
-            for rv in leaf_by_id[item["id"]].get("revision", []):
-                if isinstance(rv.get("date"), dt.date) and rv["date"] >= read_on and read_on.isoformat() in text(rv.get("why")):
-                    return True
-        if item["kind"] == "claim":
-            v_on = claim_by_id[item["id"]].get("verdict_on")
-            if isinstance(v_on, dt.date) and v_on >= read_on:
-                return True
         return False
 
     waiting = []
@@ -449,6 +448,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
                 waiting.append({"reading": rd["id"], "read_on": rd["read_on"], "path": rd["path"], **it})
     for rd in readings_out:
         rd["waiting"] = sum(1 for w in waiting if w["reading"] == rd["id"])
+        rd["resolved"] = rd["counts"]["flagged"] - rd["waiting"]
 
     reading = None
     if readings_out:
@@ -590,11 +590,13 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
     publications = []
     for p in pubs_sorted:
         ls, bs = targets(p)
-        # Whether a paper settled a stage is the paper's own settled_stage flag and nothing else. A
-        # leaf can keep a paper as its stage record as written without the paper having settled the
-        # rung (Waziry 2023, ruled 2026-10-17), so the leaves' stage records are not read for it.
+        # Whether a paper settled a stage, or moved an estimate, is the paper's own settled_stage and
+        # moved_range flags and nothing else. A leaf can keep a paper as its stage record as written
+        # without the paper having settled the rung (Waziry 2023, ruled 2026-10-17), and a revision
+        # that names a paper may only add a description or a dated note (the 2026-10-17 batch added
+        # twenty-five of those and moved no year), so the leaves' records are not read for either.
         kind = ("stage-settled" if p["settled_stage"]
-                else ("moved-range" if (p["moved_range"] or pubs_moved[p["id"]]) else "held"))
+                else ("moved-range" if p["moved_range"] else "held"))
         publications.append({
             "id": p["id"], "title": p["title"], "date": p["date"], "added_on": iso(p["added_on"]),
             "authors": p["authors"], "authors_short": authors_short(p["authors"]), "venue": text(p["venue"]),
@@ -613,7 +615,10 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
     for l in leaves_out:
         for rv in l["revisions"]:
             story_entries.append({"kind": "revision", "kind_label": STORY_KINDS["revision"], "date": rv["date"], "world_date": None,
-                                  "leaf": leaf_ref(l["id"]), "revision": rv})
+                                  "leaf": leaf_ref(l["id"]), "revision": rv,
+                                  # Only a change to one of the three years of a rung's estimate moves an estimate;
+                                  # a changed description, notes or reasoning does not.
+                                  "moves_estimate": rv["field"].startswith("estimate.rung.")})
     for rd in readings_out:
         for m in rd["moved"]:
             story_entries.append({"kind": "reading", "kind_label": STORY_KINDS["reading"], "date": rd["read_on"], "world_date": None,
@@ -623,6 +628,10 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
     story = {
         "entries": story_entries,
         "totals": {k: sum(1 for e in story_entries if e["kind"] == k) for k in STORY_KINDS},
+        # What the story page's tally calls "moved an estimate": papers marked as having moved one, years
+        # changed on a leaf, and (none yet) rungs moved by the weekly reading.
+        "moved_estimate": sum(1 for e in story_entries
+                              if e["kind"] in ("moved-range", "reading") or e.get("moves_estimate")),
         "days": sorted({e["date"] for e in story_entries if e["date"]}, reverse=True),
         "changelog": read_changelog(changelog_file),
     }

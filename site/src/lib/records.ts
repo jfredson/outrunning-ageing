@@ -145,6 +145,8 @@ export interface LeafReading {
   sources: string[];
   search_short: string;
   for_john: string;
+  resolved_on: string | null;
+  resolved_by: string;
   moved_from_label: string | null;
   moved_to_label: string | null;
   publications: PublicationRef[];
@@ -286,11 +288,13 @@ export interface StoryEntry {
   publication?: string;      // the publication id, for a publication entry
   leaf?: LeafRef;
   revision?: Revision;
+  moves_estimate?: boolean;  // for a revision: true when it changed a year of an estimate
   reading?: string;
 }
 export interface Story {
   entries: StoryEntry[];
   totals: Record<StoryKind, number>;
+  moved_estimate: number;
   days: string[];
   changelog: { source: string; intro: string; days: { date: string; items: string[] }[] };
 }
@@ -315,6 +319,8 @@ export interface ReadingItem {
   moved_from_label: string | null;
   moved_to_label: string | null;
   for_john: string;
+  resolved_on: string | null;   // a flagged item the records have since dealt with (decision 19)
+  resolved_by: string;
   sibling_stage: StageKey | null;
   sibling_stage_label: string | null;
   sibling_agrees: boolean | null;
@@ -345,6 +351,7 @@ export interface Reading {
   items: ReadingItem[];
   groups: ReadingGroup[];
   waiting: number;               // flagged items of this reading still waiting on the author
+  resolved: number;              // flagged items of this reading since marked resolved
   notes: string;
   verify: string[];
   file: string;

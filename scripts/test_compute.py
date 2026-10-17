@@ -554,6 +554,30 @@ class ScanRules(unittest.TestCase):
         self.assertTrue(any_with(problems, "item 1", "'flagged' item carries 'for_john'"), problems)
         self.assertTrue(any_with(problems, "item 2", "'for_john' is only for a 'flagged' item"), problems)
 
+    def _flagged(self, data: Path, extra: str) -> list[str]:
+        path = self.fixture(data)
+        edit(path, r'^verdict = "quiet"',
+             'verdict = "flagged"\nsources = ["https://example.org/x"]\nfor_john = "Your call."' + extra)
+        return problems_for(data)
+
+    def test_a_resolution_mark_on_a_flagged_item_passes(self):
+        with TempData() as data:
+            problems = self._flagged(data, '\nresolved_on = 2026-10-25\nresolved_by = "Applied in the batch of 2026-10-17 (changelog entry X): the notes."')
+        self.assertFalse(any_with(problems, "resolved"), problems)
+
+    def test_a_resolution_mark_needs_both_fields_and_a_date_not_before_the_reading(self):
+        with TempData() as data:
+            problems = self._flagged(data, '\nresolved_on = 2026-10-01')
+        self.assertTrue(any_with(problems, "item 1", "carries both 'resolved_on' and 'resolved_by'"), problems)
+        self.assertTrue(any_with(problems, "item 1", "'resolved_on' is before the reading"), problems)
+
+    def test_a_resolution_mark_is_only_for_a_flagged_item(self):
+        with TempData() as data:
+            edit(self.fixture(data), r'^verdict = "quiet"',
+                 'verdict = "quiet"\nresolved_on = 2026-10-17\nresolved_by = "Applied."')
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "'resolved_on' and 'resolved_by' are only for a 'flagged' item"), problems)
+
     def test_moved_needs_a_stage_revision_on_the_leaf(self):
         with TempData() as data:
             edit(self.fixture(data), r'^verdict = "quiet"',
