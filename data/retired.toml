@@ -1,0 +1,11 @@
+# Ids that once existed and were retired or replaced (docs/record-schema.md, "The retired list").
+# Empty so far. An entry looks like:
+#
+# [[retired]]
+# id = "old-leaf-id"
+# kind = "leaf"
+# date = 2027-01-01
+# why = "The test was rewritten, so the leaf was replaced rather than edited."
+# replaced_by = "new-leaf-id"
+
+retired = []

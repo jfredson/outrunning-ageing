@@ -1,0 +1,25 @@
+# Worked example of a publication record (docs/record-schema.md), written 2026-10-16 with the
+# schema. The record that settles the first-human rung of the aged-cells leaf. Title, venue and
+# link are from The Upgrade Tree's checked record; the author list is from memory.
+
+id = "hickson-2019"
+date = "2019-09-18"
+added_on = 2026-10-16
+authors = ["LaTonya J. Hickson", "Larissa G. P. Langhi Prata", "Shane A. Bobart", "Tamara K. Evans", "Nino Giorgadze", "Shahrukh K. Hashmi", "Sandra M. Herrmann", "Michael D. Jensen", "Qingyi Jia", "Kyra L. Jordan", "Todd A. Kellogg", "Sundeep Khosla", "Daniel M. Koerber", "Anthony B. Lagnado", "Donna K. Lawson", "Nathan K. LeBrasseur", "Lilach O. Lerman", "Kathleen M. McDonald", "Travis J. McKenzie", "João F. Passos", "Robert J. Pignolo", "Tamar Pirtskhalava", "Ishran M. Saadiq", "Kalli K. Schaefer", "Stephen C. Textor", "Stella G. Victorelli", "Tammie L. Volkman", "Ailing Xue", "Mark A. Wentworth", "Erin O. Wissler Gerdes", "Yi Zhu", "Tamara Tchkonia", "James L. Kirkland"]
+title = "Senolytics decrease senescent cells in humans: Preliminary report from a clinical trial of Dasatinib plus Quercetin in individuals with diabetic kidney disease"
+venue = "EBioMedicine 47, 446–456 (2019)"
+link = "https://doi.org/10.1016/j.ebiom.2019.08.069"
+finding = """
+Nine people with diabetic kidney disease took a three-day course of two drugs that kill senescent
+cells (dasatinib, a cancer drug, and quercetin, a plant compound). Eleven days later, samples of
+their fat and skin held fewer such cells than before, and the blood carried less of the
+inflammatory signal those cells give off. A first demonstration, in people, on a measurement; not
+a clinical outcome, and with no control group."""
+leaves = ["drug-clears-aged-cells-from-a-person"]
+moved_range = false
+settled_stage = true
+
+verify = [
+  "The author list is from memory and should be checked against the paper; the first and last authors (Hickson; Kirkland) are the ones to confirm.",
+  "The counts (nine people, a three-day course, samples eleven days later) are from memory of the abstract.",
+]

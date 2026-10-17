@@ -1,0 +1,46 @@
+# Worked example of a self-experiment record (docs/record-schema.md), written 2026-10-16 with the
+# schema. The one the kickoff names as the famous case. Written from memory; the verify list says
+# what to check. There is no field here that can move a leaf, and that is the point.
+
+id = "bryan-johnson-blueprint"
+who = "Bryan Johnson"
+who_is = "the technology entrepreneur Bryan Johnson, who sold a payments company in 2013 and since 2021 has spent a reported two million dollars a year on a published programme to slow his own ageing, run with a team of doctors"
+name = "Blueprint"
+started = "2021"
+status = "running"
+what = """
+A fixed daily programme of diet (about two thousand calories, vegan, eaten within a set window),
+exercise, sleep, dozens of supplements and several prescription drugs, all published and revised
+in public. He has at various times taken and then stopped drugs that this site tracks under
+energy and fuel sensing, including rapamycin, which he said in 2024 he had stopped after side
+effects, and he has reported one-off procedures (plasma exchanges, in 2023 including an exchange
+with his son) that fall under inflammation and the body's messaging."""
+measures = """
+Hundreds of blood markers, several biological-age clocks read from blood and saliva, a measure of
+the pace of ageing from the same clocks, organ-by-organ age estimates from imaging and function
+tests, sleep and fitness measures, all published on his own site and in his own videos, with the
+team's methods described there."""
+claims = """
+That his measured pace of ageing is well below one year per year (he has published figures around
+0.6 to 0.7 years of biological ageing per calendar year), that several of his organs measure as
+younger than his calendar age, and that the programme as a whole is the best-measured attempt to
+slow ageing in one person."""
+public_record = """
+What is published is one person's measurements, taken by his own team, with no control and no
+peer review. The clocks he reports on are research tools whose meaning for one person's remaining
+life is not established; a change in a clock reading is not yet an accepted measure of slowed
+ageing, which is exactly what the measuring branch of this site tracks. The record shows a
+well-documented, expensive, single-person programme with striking marker results and no way to say
+which part of it, if any, did what. A claim about one person is a story, not a record, and it moves
+no leaf."""
+link = "https://protocol.bryanjohnson.com/"
+branches = ["energy-and-fuel", "inflammation-and-signalling", "measuring-age"]
+
+verify = [
+  "The year the programme started (2021), the reported yearly spend (two million dollars) and the sale of the payments company (2013) are from memory.",
+  "The published pace-of-ageing figures (around 0.6 to 0.7) and that he stopped rapamycin in 2024 after side effects are from memory.",
+  "The 2023 plasma exchange with his son is from memory of news coverage; find his own account of it.",
+]
+notes = """
+He also founded the Rejuvenation Olympics leaderboard, which ranks people by their measured pace
+of ageing; that is a separate self-experiment record when written."""

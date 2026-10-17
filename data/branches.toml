@@ -1,0 +1,94 @@
+# The eight branches, in order. Record layout: docs/record-schema.md. The grouping of the
+# twelve hallmarks into seven kinds of damage plus one measuring branch was proposed in
+# docs/2026-10-16-kickoff.md and accepted by John on 2026-10-16; the `required` and
+# `handled_when` values below are a first pass, written 2026-10-16, for the leaf session and
+# the yearly review to argue with. The kickoff marks the measuring branch required; this first
+# pass marks all eight, on the view that escape velocity means ageing as a whole is outrun and
+# not one kind of damage. The alternative, recorded here so it is not lost: only the measuring
+# branch and the two or three branches with the most deaths behind them (energy and fuel,
+# replacing parts, worn-out cells) required, which pulls the year in and says that a treatment
+# for everything is not needed, only enough net gain per year.
+
+[[branch]]
+key = "worn-out-cells"
+order = 1
+name = "Worn-out cells"
+meaning = "Cells that have stopped dividing but will not die, and sit in the tissue giving off signals that inflame their neighbours. They build up with age; clearing them makes old mice healthier and longer-lived."
+hallmarks = ["cellular-senescence"]
+required = true
+handled_when = 2
+what_would_move_this = "A controlled trial in people in which a drug that kills these cells improves an age-related condition on its primary outcome, or a regulator's approval of one."
+
+[[branch]]
+key = "damaged-dna"
+order = 2
+name = "Damaged DNA"
+meaning = "Mutations that accumulate in a cell's DNA over a lifetime, and the shortening of the protective caps on the ends of chromosomes each time a cell divides."
+hallmarks = ["genomic-instability", "telomere-attrition"]
+required = true
+handled_when = 2
+what_would_move_this = "A gene therapy for a single ageing-related mutation with a measured result in people, or a treatment that lengthens chromosome ends in a living animal with no rise in cancer."
+
+[[branch]]
+key = "cell-settings"
+order = 3
+name = "The cell's settings"
+meaning = "The chemical marks that tell a cell which of its genes to read, which drift with age so that cells slowly forget what they are. Resetting them part of the way has reversed signs of age in animals."
+hallmarks = ["epigenetic-alterations"]
+required = true
+handled_when = 2
+what_would_move_this = "A measured reversal of a marker of biological age in a person after a brief, controlled dose of reprogramming genes, in a peer-reviewed report."
+
+[[branch]]
+key = "broken-proteins"
+order = 4
+name = "Broken proteins and waste"
+meaning = "Misfolded proteins, the failure of the cell's recycling of its own worn parts, and the waste and cross-links between proteins that build up inside and between cells."
+hallmarks = ["loss-of-proteostasis", "disabled-macroautophagy"]
+required = true
+handled_when = 2
+what_would_move_this = "A drug that clears a kind of waste throughout the body, not one organ, with a healthy-years or function result in a controlled trial in people."
+
+[[branch]]
+key = "energy-and-fuel"
+order = 5
+name = "Energy and fuel sensing"
+meaning = "The cell's power plants, which fail with age, and the pathways that sense how much food is coming in, which run wrong with age and are the target of the drugs most often said to slow ageing."
+hallmarks = ["deregulated-nutrient-sensing", "mitochondrial-dysfunction"]
+required = true
+handled_when = 2
+what_would_move_this = "A controlled trial in people in which a drug that acts on these pathways keeps the people taking it free of age-related disease longer than those on placebo, by the margin the trial was designed to detect."
+
+[[branch]]
+key = "replacing-parts"
+order = 6
+name = "Replacing lost cells and parts"
+meaning = "The reserve of cells that replace lost tissue runs out with age, tissue goes unreplaced and organs fail. The route around that is to supply the parts: stem cells, organs from gene-edited animals, organs grown outside the body."
+hallmarks = ["stem-cell-exhaustion"]
+required = true
+handled_when = 2
+what_would_move_this = "A regulator's approval of an organ from a gene-edited animal or an organ grown from a person's own cells for use outside a trial, or a stem cell therapy restoring a lost function in a controlled trial."
+
+[[branch]]
+key = "inflammation-and-signalling"
+order = 7
+name = "Inflammation and the body's messaging"
+meaning = "Low-grade inflammation that never switches off, the gut's community of microbes going out of balance, and the signals cells send each other through the blood going wrong with age."
+hallmarks = ["altered-intercellular-communication", "chronic-inflammation", "dysbiosis"]
+required = true
+handled_when = 2
+what_would_move_this = "A measured effect in people of exchanging or diluting the blood's plasma, or an anti-inflammatory drug with a healthy-years result in a controlled trial."
+
+[[branch]]
+key = "measuring-age"
+order = 8
+name = "Measuring ageing"
+meaning = "The tools that say whether any of the above worked without waiting decades: biological age clocks read from blood or saliva, blood and imaging markers, and whether a regulator will accept any of them as proof that a treatment slowed ageing."
+hallmarks = []
+required = true
+handled_when = 2
+what_would_move_this = "A regulator accepting a marker of ageing as a trial endpoint, or recognising ageing itself as a condition a drug can be approved to treat."
+notes = """
+Marked required by the kickoff: without an accepted way to show that a treatment slowed
+ageing, every other branch's path from "shown in animals" to "in clinical use" runs through a
+trial that takes a working lifetime, and the model should say so."""

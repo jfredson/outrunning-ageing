@@ -1,0 +1,18 @@
+# Worked example of a weekly reading (docs/record-schema.md), written 2026-10-16 with the schema.
+# Marked example: no reading has run. The site's strip says so until the first real reading
+# lands, when this file is deleted and its id retired in data/retired.toml.
+
+id = "2026-10-16"
+read_on = 2026-10-16
+covers_from = 2026-10-09
+example = true
+summary = """
+A worked example of the layout, written with the schema on 2026-10-16. No reading of the leaves
+against the week's news has run; the first one follows the leaf records."""
+
+[[reading]]
+leaf = "drug-clears-aged-cells-from-a-person"
+verdict = "quiet"
+line = "Nothing was read this week; this entry shows the shape of a reading and nothing more."
+sibling_stage = "first-human"
+sibling_agrees = true

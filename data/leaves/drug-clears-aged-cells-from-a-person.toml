@@ -1,0 +1,69 @@
+# Worked example of a leaf (docs/record-schema.md), written 2026-10-16 with the schema. One of the
+# five leaves shared with The Upgrade Tree; the stage facts are copied from its record
+# (upgrade-tree/data/lifespan.toml, id lifespan-a-drug-clears-aged-cells-from-a-persons-body),
+# which a session there checked against the primary records on 2026-10-16. The estimate is a
+# first pass by Claude and is the arguable part.
+
+id = "drug-clears-aged-cells-from-a-person"
+name = "A drug clears aged cells from a person"
+branch = "worn-out-cells"
+description = """
+Some cells stop dividing but do not die, and sit in tissue giving off signals that inflame their
+neighbours; they build up with age. Clearing them makes old mice healthier and longer-lived. In
+2019 a Mayo Clinic group gave a short course of two drugs that kill such cells to nine people with
+kidney disease, took tissue samples before and after, and found fewer of the cells. That is a first
+human, on a measurement. No such drug is approved anywhere, and the one company drug to reach a
+controlled trial on a clinical outcome, for knee osteoarthritis, failed in 2020."""
+test = """
+A person given a drug meant to kill senescent (aged, non-dividing) cells afterwards has measurably
+fewer of them in a tissue sample or a validated blood marker, compared with before treatment, in a
+peer-reviewed report. For the clinic rung: a regulator approves such a drug for an age-related
+condition, or it is in routine use in a named clinical setting, so a doctor can give it outside a
+trial."""
+settler = "Peer-reviewed trial reports for the first-human rung; a regulator's approval record, or a named clinical setting's published practice, for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2019-09-18"
+stage_record = "https://doi.org/10.1016/j.ebiom.2019.08.069"
+stage_publication = "hickson-2019"
+status = "tracked"
+horizon = "mid"
+sibling = "lifespan-a-drug-clears-aged-cells-from-a-persons-body"
+
+verify = [
+  "The dates of the 2011 mouse result (2 November 2011) and the 2019 trial report (18 September 2019) are copied from The Upgrade Tree's record and not re-checked against the journals here.",
+  "That Unity Biotechnology's knee osteoarthritis trial of UBX0101 failed its primary endpoint in August 2020, and that no senolytic drug is approved anywhere as of 2026-10-16, are from memory.",
+]
+notes = """
+The animal record is the 2011 Mayo Clinic report in which clearing such cells from mice delayed
+several age-related conditions. An earlier 2019 pilot in people with lung scarring reported
+better walking and standing but did not measure the cells, so it is not the record here. The
+Upgrade Tree keeps the same leaf at first human; the weekly reading checks the two stages agree."""
+
+[[earlier_stage]]
+stage = "shown-in-animals"
+reached_on = "2011-11-02"
+record = "https://doi.org/10.1038/nature10600"
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-16
+why = """
+A first human result on a measurement exists since 2019, so the remaining step is a controlled
+trial on a clinical outcome that a regulator accepts, and then the approval. The one such trial
+to read out so far failed (2020); several smaller trials in knee, lung and eye conditions are
+under way or planned, and the field has had fifteen years since the 2011 mouse result without an
+approval. The likely year assumes one of the current programmes reaches a positive phase 3 in the
+mid 2030s and approval follows within two to three years; the latest year allows for the whole
+first generation of these drugs failing and a second generation starting over."""
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2031
+likely = 2038
+latest = 2060
+
+[[estimate.rung]]
+rung = "in-wide-use"
+earliest = 2036
+likely = 2046
+latest = 2080

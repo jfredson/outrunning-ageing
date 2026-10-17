@@ -1,0 +1,28 @@
+# Worked example of a claim (docs/record-schema.md), written 2026-10-16 with the schema. The
+# claim named in the kickoff as the loudest promise on the log, and one reason the headline's
+# fixed date is 2050. Written from memory; everything checkable is in the verify list.
+
+id = "kurzweil-2029-escape-velocity"
+who = "Ray Kurzweil"
+who_is = "the inventor and futurist Ray Kurzweil, a director of engineering at Google and the author of The Singularity Is Near (2005) and The Singularity Is Nearer (2024)"
+said_on = "2024-06-25"
+where = "The Singularity Is Nearer (Viking, 2024), the chapter on health and longevity, where he puts the arrival of longevity escape velocity for people who keep up with the best care in or around 2029"
+link = "https://www.penguinrandomhouse.com/books/535433/the-singularity-is-nearer-by-ray-kurzweil/"
+quote = "By around 2029, we will reach longevity escape velocity: for the diligent, each year of life will add more than a year to remaining life expectancy."
+is_paraphrase = true
+paraphrase_seen_in = "Interviews and press from 2023 to 2025 (podcasts, a 2024 book tour) repeating that we will reach longevity escape velocity by 2029; the version above is the sense that circulates, not a transcription."
+commits_to = "Longevity escape velocity reached, for people with access to and diligence about the best available care, by 2029."
+due = 2029
+about_the_headline = true
+verdict = "not-yet-due"
+
+verify = [
+  "The exact words and the page in The Singularity Is Nearer; the quote above is a paraphrase until the book is in hand.",
+  "The book's publication date (25 June 2024 is from memory).",
+  "That the 2029 date was first given in or before the 2024 book, not only in interviews after it.",
+]
+notes = """
+Kurzweil's claim is about the whole question, not any one branch, so it is marked as about the
+headline. When 2029 passes the verdict turns on the record as a whole: whether, in that year, the
+best available care added more than a year of remaining life expectancy per year lived, which is
+what the headline is built to say."""
