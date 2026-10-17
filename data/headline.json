@@ -1,5 +1,5 @@
 {
-  "computed_on": "2026-10-16",
+  "computed_on": "2026-10-17",
   "method": {
     "document": "docs/method.md",
     "status": "ruled by John 2026-10-16; the lag (parameter 2) is flagged for the outside review",
@@ -16,10 +16,10 @@
     "combination": "the latest handled year across the required branches, plus the lag; a branch is handled when its handled_when-th leaf is in clinical use"
   },
   "median_year": 2058,
-  "before_2050": 0.0266,
+  "before_2050": 0.0335,
   "after_2100": 0.0,
   "percentiles": {
-    "p5": 2051,
+    "p5": 2050,
     "p25": 2055,
     "p50": 2058,
     "p75": 2062,
@@ -29,42 +29,42 @@
     {
       "from": 2040,
       "to": 2044,
-      "share": 0.0003
+      "share": 0.0006
     },
     {
       "from": 2045,
       "to": 2049,
-      "share": 0.0263
+      "share": 0.0329
     },
     {
       "from": 2050,
       "to": 2054,
-      "share": 0.1999
+      "share": 0.2119
     },
     {
       "from": 2055,
       "to": 2059,
-      "share": 0.3712
+      "share": 0.367
     },
     {
       "from": 2060,
       "to": 2064,
-      "share": 0.268
+      "share": 0.2584
     },
     {
       "from": 2065,
       "to": 2069,
-      "share": 0.103
+      "share": 0.0985
     },
     {
       "from": 2070,
       "to": 2074,
-      "share": 0.0264
+      "share": 0.0255
     },
     {
       "from": 2075,
       "to": 2079,
-      "share": 0.0044
+      "share": 0.0046
     },
     {
       "from": 2080,
@@ -323,7 +323,7 @@
       "name": "Energy and fuel sensing",
       "required": true,
       "handled_when": 2,
-      "median_handled_year": 2039,
+      "median_handled_year": 2028,
       "leaves": [
         {
           "id": "a-drug-adds-healthy-years-to-a-life",
@@ -333,6 +333,16 @@
           "earliest": 2034,
           "likely": 2045,
           "latest": 2095,
+          "estimate_status": "first-pass"
+        },
+        {
+          "id": "a-drug-is-approved-to-make-dogs-live-longer",
+          "name": "A drug is approved to make dogs live longer",
+          "stage": "idea-only",
+          "known": false,
+          "earliest": 2027,
+          "likely": 2028,
+          "latest": 2032,
           "estimate_status": "first-pass"
         },
         {
@@ -587,9 +597,9 @@
     }
   ],
   "counts": {
-    "leaves_counted": 43,
+    "leaves_counted": 44,
     "leaves_in_clinic_already": 5,
-    "estimates_first_pass": 38,
-    "verify_entries": 187
+    "estimates_first_pass": 39,
+    "verify_entries": 189
   }
 }

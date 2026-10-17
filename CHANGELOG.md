@@ -4,6 +4,8 @@ Every change to the records or the site, dated year-month-day, newest first. Pla
 
 ## 2026-10-17
 
+- **A leaf for the dog drug is written, and the Loyal claim is wired to it.** "A drug is approved to make dogs live longer" (energy and fuel sensing) now exists as the 44th leaf, so the claims log's end-of-2025 promise by Loyal points at a leaf instead of only at a branch. Its stage is proposed as idea only, because the regulator's acceptance of the effectiveness section rests on the company's own data and no peer-reviewed report of dogs living longer exists yet; the clinic rung counts a conditional approval, and the first-pass estimate is 2027 to 2032, likely 2028. Both are flagged for John. Because the leaf has an early clinic estimate, the energy-and-fuel branch now counts as handled around 2028 instead of 2039, the middle escape year stays 2058, and the chance of arriving before 2050 moves from 2.7 per cent to 3.4 per cent (`data/headline.json` regenerated).
+- The worked example of a claim in `docs/record-schema.md` brought back in line with the live Kurzweil file: the page, the exact quotation, "by around 2030" as the commitment and the due year 2030, with no paraphrase fields.
 - Five rulings on judging and sourcing a claim recorded in the record layout: a withdrawn claim stays missed, far-future claims keep their due year, undated claims score at 2050, coverage-only entries are shown and marked, a printed question-and-answer interview counts as primary. Two claims' notes tidied of merge-time wiring prose.
 
 ## 2026-10-16
