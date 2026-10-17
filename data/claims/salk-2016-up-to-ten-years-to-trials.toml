@@ -12,6 +12,7 @@ is_paraphrase = false
 commits_to = "A first human trial of a treatment based on partial reprogramming (resetting the chemical marks that tell a cell which genes to read) by 2026 at the latest, hedged as may and up to."
 due = 2026
 branches = ["cell-settings"]
+leaves = ["a-person-receives-cell-resetting-genes-in-a-trial"]
 verdict = "delivered"
 verdict_on = 2026-10-16
 verdict_why = "Life Biosciences' own releases: the United States regulator cleared its partial-reprogramming treatment ER-100 for a first human trial on 2026-01-28, and the company announced the first participant dosed on 2026-06-09, nine and a half years after the release; the related promise of the company's own timing is life-biosciences-2024-first-human-study-second-half-2025."
@@ -23,6 +24,4 @@ notes = """
 The ten-years figure that coverage repeated as Belmonte's own comes from this sentence in the
 release; his quoted words there are the opposite caution, that mice are not humans and
 rejuvenating a person will be much more complex. The release reports a thirty percent longer life
-in prematurely ageing mice. Intended leaf, for the master session to wire when the leaf record
-exists: a brief, controlled dose of reprogramming genes reverses a marker of age in a person
-(the cell's settings branch, the test named in data/branches.toml)."""
+in prematurely ageing mice."""

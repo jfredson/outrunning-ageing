@@ -10,6 +10,7 @@ quote = "remains on track to initiate the first human clinical study evaluating 
 is_paraphrase = false
 commits_to = "A first human trial of ER-100 started between 2025-07 and 2025-12."
 branches = ["cell-settings"]
+leaves = ["a-person-receives-cell-resetting-genes-in-a-trial"]
 verdict = "missed"
 verdict_on = 2026-10-16
 verdict_why = "By the company's own releases the regulator cleared the trial on 2026-01-28, the first participant was dosed by 2026-06-09, and interim results in three people were reported on 2026-10-08; the start slipped out of 2025 by one to two quarters."
@@ -24,6 +25,4 @@ with preliminary signs of improved visual fields in two, which is a safety trial
 and not the measured result the branch's test asks for. The slip is small; it is recorded because
 the log is talk set against delivery, and small slips are the ones that get forgotten. Related:
 sinclair-2023-age-reversal-in-people (his prediction of the same trial) and
-salk-2016-up-to-ten-years-to-trials (which this trial fulfilled). Intended leaf, for the master
-session to wire: a brief, controlled dose of reprogramming genes reverses a marker of age in a
-person."""
+salk-2016-up-to-ten-years-to-trials (which this trial fulfilled)."""
