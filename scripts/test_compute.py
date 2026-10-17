@@ -33,6 +33,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 LEAF = Path("leaves") / "drug-clears-aged-cells-from-a-person.toml"
 CLAIM = Path("claims") / "kurzweil-2029-escape-velocity.toml"
+PARAPHRASE_CLAIM = Path("claims") / "barzilai-2022-tame-starts-this-year.toml"
 EXPERIMENT = Path("experiments") / "bryan-johnson-blueprint.toml"
 PAPER = Path("papers") / "hickson-2019.toml"
 SCAN = Path("scans") / "2026-10-16.toml"
@@ -276,14 +277,16 @@ class ClaimRules(unittest.TestCase):
         self.assertTrue(any_with(problems, "names no leaf and no branch and is not about the headline"), problems)
 
     def test_paraphrase_says_where_it_was_seen(self):
+        # The Barzilai record is the log's paraphrase held on coverage (2026-10-16); the Kurzweil
+        # worked example stopped being a paraphrase once the book's words were checked.
         with TempData() as data:
-            edit(data / CLAIM, r'^paraphrase_seen_in = .*\n', "")
+            edit(data / PARAPHRASE_CLAIM, r'^paraphrase_seen_in = .*\n', "")
             problems = problems_for(data)
         self.assertTrue(any_with(problems, "paraphrase says where it was seen"), problems)
 
     def test_not_yet_due_needs_a_due_year(self):
         with TempData() as data:
-            edit(data / CLAIM, r'^due = 2029\n', "")
+            edit(data / CLAIM, r'^due = 2030\n', "")
             problems = problems_for(data)
         self.assertTrue(any_with(problems, "needs a 'due' year"), problems)
 
