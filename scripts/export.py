@@ -590,10 +590,10 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
     publications = []
     for p in pubs_sorted:
         ls, bs = targets(p)
-        # The kind is read from what the leaves say, not only from the publication's own flags: a
-        # paper some leaf names as the record of a rung settled that rung whether or not the paper's
-        # settled_stage flag was turned on when the two were wired together (2026-10-17).
-        kind = ("stage-settled" if (p["settled_stage"] or pubs_settle[p["id"]])
+        # Whether a paper settled a stage is the paper's own settled_stage flag and nothing else. A
+        # leaf can keep a paper as its stage record as written without the paper having settled the
+        # rung (Waziry 2023, ruled 2026-10-17), so the leaves' stage records are not read for it.
+        kind = ("stage-settled" if p["settled_stage"]
                 else ("moved-range" if (p["moved_range"] or pubs_moved[p["id"]]) else "held"))
         publications.append({
             "id": p["id"], "title": p["title"], "date": p["date"], "added_on": iso(p["added_on"]),

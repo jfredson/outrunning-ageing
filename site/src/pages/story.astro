@@ -69,7 +69,7 @@ const h = records.headline;
                         {[...new Map([...p.settles, ...p.leaves].map((x) => [x.id, x])).values()].map((lf, i, arr) => <><a href={lf.path}>{lf.name}</a>{i < arr.length - 1 ? '; ' : '.'}</>)}
                       </p>
                     )}
-                    {p.settles.length > 0 && (
+                    {p.settled_stage && p.settles.length > 0 && (
                       <p style="font-size: 15px;"><strong>What it settled:</strong> {p.settles.map((s, i) => <>the rung "{s.rung_label.toLowerCase()}" of <a href={s.path}>{s.name}</a>{i < p.settles.length - 1 ? '; ' : '.'}</>)}</p>
                     )}
                     {p.moved.length > 0 && (
