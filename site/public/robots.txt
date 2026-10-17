@@ -1,3 +1,4 @@
-# The site is public. Crawling is allowed; a sitemap comes with the first full version.
+# The site is public and crawling is allowed. There is no sitemap: every page is reached from the
+# home page and the top bar, and the computed numbers are served as /data/headline.json.
 User-agent: *
 Allow: /
