@@ -10,7 +10,8 @@ trick called parabiosis, and found that the old mouse's muscle and liver stem ce
 repaired damage like a young animal's. The finding started a search for the factors in young
 blood that do it and the factors in old blood that stop it, and a cottage industry of selling
 young plasma to old people. Infusions of young plasma into people with Alzheimer's disease were
-reported safe in 2019 in a tiny trial with no sign of effect, and no controlled trial has found
+reported safe in 2019 in a tiny trial built to test safety, not benefit (thinking did not change;
+caregivers rated daily function better, an unconfirmed result), and no controlled trial has found
 a benefit. The leaf is at the animal rung and the test asks for a person to measurably improve,
 not to receive the infusion."""
 test = """
@@ -27,11 +28,6 @@ stage_publication = "conboy-2005"
 status = "tracked"
 horizon = "far"
 
-verify = [
-  "The 2005 Nature report (Conboy, Rando and colleagues; young blood restored muscle and liver stem cell activity in old mice joined to young ones) and its date, 17 February 2005, are from memory.",
-  "That a 2019 trial (Sha and colleagues, JAMA Neurology; young plasma in 18 people with Alzheimer's disease) found the infusions safe but no effect is from memory.",
-  "That a company (Ambrosia) sold young plasma infusions to the public from 2017 until the United States regulator warned against them in 2019 is from memory; a sale is not a record under the test.",
-]
 notes = """
 Later mouse work split the effect: diluting old plasma helps as much as adding young, which is
 the plasma-exchange leaf beside this one; and single factors (GDF11, oxytocin, TIMP2) each

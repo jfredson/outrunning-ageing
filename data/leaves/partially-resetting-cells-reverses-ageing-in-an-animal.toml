@@ -30,10 +30,6 @@ status = "tracked"
 horizon = "mid"
 sibling = "lifespan-partially-resetting-cells-reverses-ageing-in-an-animal"
 
-verify = [
-  "The date of the 2016 Cell report (15 December 2016; Ocampo, Izpisua Belmonte and colleagues at the Salk Institute) is copied from The Upgrade Tree's record and not re-checked here.",
-  "That the 2020 Nature report restoring vision in old mice (Lu, Sinclair and colleagues) has the DOI 10.1038/s41586-020-2975-4 is from memory.",
-]
 notes = """
 The Upgrade Tree keeps the same leaf at shown in animals under the same test, and recorded on
 2026-10-16 that if John would rather count the June 2026 dose as a first human, the stage moves
