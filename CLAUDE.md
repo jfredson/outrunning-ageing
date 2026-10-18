@@ -90,6 +90,24 @@ record, passed through a presentation he has discussed; git keeps the raw text a
 does not show it. So the story page no longer prints `CHANGELOG.md`. Before showing any other
 raw record text on a page, ask him.
 
+Two more rulings of 2026-10-18 follow from it:
+
+- **Record prose is written for visitors.** Notes, revision reasons, a claim's verdict reason,
+  a publication's finding, and every line of a weekly reading except its search queries are
+  printed on the site as written, so they are written for a visitor from the start: plain
+  words, no internal names ("leaf", "settler", "session", "batch", "verify list"), no file,
+  field or record ids, no ladder keys, no "item 13" or "the rulings document". A review is
+  "an outside review on 2026-10-17 argued ... and John ruled ..."; another record is named in
+  words. The full rule is "Writing for visitors" in `docs/record-schema.md`; the weekly
+  reading follows it too (`docs/weekly-reading.md`, step 1). Every existing one was rewritten
+  that way on 2026-10-18, wording only. The search queries stay as run.
+- **No file names or version lines on public pages.** The pages do not say which file a record
+  is or which commit the site was built from; the repository link in the footer is enough.
+- **The story page's "what changed" section is built from the records' own flags only**
+  (stage revisions, estimate-year revisions, papers' logged dates, the readings), one plain
+  line per day, with "the site's wording changed" for a day with only wording changes. Nothing
+  in it is copied from `CHANGELOG.md`.
+
 ## End of a session
 
 Worklog entry on the TimeAssembler project "Outrunning Ageing" with `repo = outrunning-ageing`,

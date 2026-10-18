@@ -55,6 +55,27 @@ TOML, one file per record, read by Python's standard library (`tomllib`, present
 
 **Three fields every kind may carry.** `verify`: a list of plain-language claims in the record that were written from memory and not checked against a source at the time; a later session clears each by checking it and either deleting the line or correcting the record; the weekly reading reads the list but may not edit it (the Belt Equation rule of 2026-10-06; a search that settles a listed fact becomes a flagged item, `docs/weekly-reading.md`). `notes`: anything else worth keeping. `example`: `true` on a record that is a worked example of the layout and not yet a record of the world; the site counts examples separately and never shows an example reading as the site's reading (decision 13). An example that becomes real has the field removed; one that is replaced is deleted and its id retired.
 
+## Writing for visitors (ruled by John 2026-10-18)
+
+John ruled on 2026-10-18 that anything on the public site is a public version of the internal record: git keeps the raw text, and the site shows only what has passed through a presentation he has discussed. Most of a record's text is printed on a page as it stands, so the record's prose is written for the visitor from the start.
+
+**Who it is for.** Every line of prose the site prints is written for a visitor who has never seen the repository, the procedures or the conversations behind them. That covers every record's `notes`; a leaf's revision reasons (`why`) and its estimate's reasoning; a claim's `verdict_why`; a publication's `finding`; and a reading's `summary`, `limits`, later notes, and each item's `found`, `for_john`, `resolved_by`, `search_short` and `reused` lines. Plain words, UK spelling, no em dashes, absolute dates.
+
+**What it may not contain.** No internal names: not "leaf", "node", "trunk", "scan", "ledger", "schema", "settler", "session", "batch", "first pass" or "the master session". No file names or paths (`docs/…`, `data/…`, `CHANGELOG.md`), no field names (`stage_record`, `verify`, `for_john`, `estimate.rung…`), no record ids (`grifols-2026`, `hickson-2019`), no ladder keys (`in-clinical-use`; write "in clinical use"), no commit codes, no numbered references to a document the visitor cannot see ("item 13", "decision 19", "the rulings document"), and no all-capital markers ("FOR JOHN", "RULED").
+
+**How to refer to things, in plain words with a date.**
+
+- A review: "an outside review on 2026-10-17 argued that … ; John ruled on 2026-10-17 that …". Say what the review argued, not where it is filed.
+- A ruling: "John ruled on 2026-10-18 that …".
+- A reading: "the weekly reading of 2026-10-17 found …"; a question it left open: "the weekly reading of 2026-10-17 left this for John to decide: …".
+- Another record: by what it is and who made it. A paper or release as its authors or maker and its date ("the supplier's announcement (Grifols, 2026-03-12)", "the 2019 trial report by Hickson and colleagues"); a treatment by its name; a claim by who said it and when; a self-experiment by its person.
+- A fact not yet checked: "not yet checked against a source", not "in the verify list".
+- A dated change to the records: "the change to the records on 2026-10-17", not a changelog entry or a commit.
+
+**What stays exactly as it is.** Every fact, date, number, name, quotation and source. A rewrite changes wording and never a fact. The search queries are printed as they were run, because logging every search is the family's transparency rule (tracker pattern, rule 5.4); a `reused` line still quotes its search exactly as written in `queries`, which the validator checks, and names the other record in words. A revision's `old` and `new` are the record of what a field held, and stay as written; the site prints them for a stage, a date, a link or a year, and for a changed paragraph says only that the paragraph changed, beside the reason.
+
+The existing notes, reasons and reading lines were rewritten once in this voice on 2026-10-18, wording only, with git keeping the text as first written. That includes the two readings of 2026-10-17 and 2026-10-18, which are otherwise written once and never edited; the queries, verdicts, sources and counts in them did not change.
+
 ## The stage ladder
 
 Five rungs, The Upgrade Tree's, in order. A leaf sits on the highest rung it has reached, and the rung never moves down: a withdrawal is a status and a note.
