@@ -1,5 +1,5 @@
 {
-  "computed_on": "2026-10-17",
+  "computed_on": "2026-10-18",
   "method": {
     "document": "docs/method.md",
     "status": "ruled by John 2026-10-16; the lag (parameter 2) went to the outside review of 2026-10-17, which produced no published figure for it, and stays a first guess by John's ruling of 2026-10-17",
@@ -16,7 +16,7 @@
     "combination": "the latest handled year across the required branches, plus the lag; a branch is handled when its handled_when-th leaf is in clinical use"
   },
   "median_year": 2058,
-  "before_2050": 0.0409,
+  "before_2050": 0.0427,
   "after_2100": 0.0,
   "percentiles": {
     "p5": 2050,
@@ -29,47 +29,47 @@
     {
       "from": 2040,
       "to": 2044,
-      "share": 0.0008
+      "share": 0.0011
     },
     {
       "from": 2045,
       "to": 2049,
-      "share": 0.0401
+      "share": 0.0416
     },
     {
       "from": 2050,
       "to": 2054,
-      "share": 0.2222
+      "share": 0.228
     },
     {
       "from": 2055,
       "to": 2059,
-      "share": 0.3561
+      "share": 0.3547
     },
     {
       "from": 2060,
       "to": 2064,
-      "share": 0.2442
+      "share": 0.2401
     },
     {
       "from": 2065,
       "to": 2069,
-      "share": 0.0974
+      "share": 0.0959
     },
     {
       "from": 2070,
       "to": 2074,
-      "share": 0.0296
+      "share": 0.0291
     },
     {
       "from": 2075,
       "to": 2079,
-      "share": 0.0078
+      "share": 0.0077
     },
     {
       "from": 2080,
       "to": 2084,
-      "share": 0.0015
+      "share": 0.0016
     },
     {
       "from": 2085,
@@ -547,6 +547,16 @@
       "median_handled_year": 2040,
       "leaves": [
         {
+          "id": "a-blood-count-of-mitochondrial-dna-predicts-death-and-disease",
+          "name": "A count of mitochondrial DNA in blood predicts a person's death and disease",
+          "stage": "first-human",
+          "known": false,
+          "earliest": 2031,
+          "likely": 2045,
+          "latest": 2100,
+          "estimate_status": "first-pass"
+        },
+        {
           "id": "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age",
           "name": "A clock read from blood predicts a person's death and disease better than their age does",
           "stage": "first-human",
@@ -600,10 +610,10 @@
     }
   ],
   "counts": {
-    "leaves_counted": 44,
+    "leaves_counted": 45,
     "leaves_in_clinic_already": 6,
-    "estimates_first_pass": 0,
-    "estimates_first_pass_drawn": 0,
+    "estimates_first_pass": 1,
+    "estimates_first_pass_drawn": 1,
     "verify_entries": 0
   },
   "history": [
