@@ -2,6 +2,7 @@
 # from memory of the paper and the trial and are in the verify list. The estimate is a first pass.
 
 id = "aged-cell-clearing-drug-relieves-knee-arthritis"
+added_on = 2026-10-16
 name = "A drug that clears aged cells relieves knee osteoarthritis"
 branch = "worn-out-cells"
 description = """

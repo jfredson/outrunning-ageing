@@ -2,6 +2,7 @@
 # from memory of the paper and are in the verify list. The estimate is a first pass.
 
 id = "gene-therapy-lengthens-chromosome-ends-in-an-old-animal"
+added_on = 2026-10-16
 name = "A gene therapy lengthens the ends of chromosomes in an old animal, with no rise in cancer"
 branch = "damaged-dna"
 description = """

@@ -2,6 +2,7 @@
 # between the captures of 2013-11-28 and 2013-12-19, in different words) and its current What we do page, read live.
 
 id = "methuselah-foundation-2013-ninety-the-new-fifty-by-2030"
+added_on = 2026-10-16
 who = "Methuselah Foundation"
 who_is = "the Methuselah Foundation, the non-profit David Gobel and Aubrey de Grey founded in 2001 (the home of the Methuselah Mouse Prize from 2003), which funds tissue engineering and the growing of organs outside the body"
 said_on = "2013-12"
@@ -17,7 +18,8 @@ verdict = "not-yet-due"
 
 notes = """
 The one organisational claim on the log that was written to be scored: the foundation says so
-itself. The date is three years off at the first weekly reading and no treatment on the replacing
-parts branch is in clinical use. The foundation's co-founder's own dated claims are Aubrey de Grey's
+itself. The date is three years off at the first weekly reading, and one treatment on the replacing
+parts branch is in clinical use: a person's own cells grown to rebuild a worn joint surface,
+approved in the United States on 2016-12-13 for cartilage defects of the knee. The foundation's co-founder's own dated claims are Aubrey de Grey's
 entries on this log; the live home page refused connections on 2026-10-16, which is why the link is the
 What we do page."""

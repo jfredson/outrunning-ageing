@@ -2,6 +2,7 @@
 # from memory of the papers and are in the verify list. The estimate is a first pass.
 
 id = "replacing-a-persons-plasma-slows-an-age-related-disease"
+added_on = 2026-10-16
 name = "Replacing the liquid part of a person's blood slows an age-related disease"
 branch = "inflammation-and-signalling"
 description = """
@@ -12,10 +13,11 @@ brain. The procedure, plasma exchange, has been used in hospitals for decades fo
 In people the record so far is a 2020 Spanish and American trial of 347 people with Alzheimer's
 disease (322 of them treated and followed), in which those given monthly plasma exchange for over a year declined more slowly on
 tests of daily function than those given a sham procedure. It is a first human on an age-related
-disease, with the caution that the trial had several measures and not all moved. Since 2021 the
-Ace Alzheimer Center in Barcelona has given the procedure to people with Alzheimer's disease as a
-clinical programme outside any trial, and on 2026-04-27 it published on its own page that 71 patients
-had completed its 15-month programme under routine clinical practice conditions; John ruled on
+disease, with the caution that the trial had several measures and not all moved. The supplier
+Grifols said on 2026-03-12 that the Ace Alzheimer Center in Barcelona has given the procedure to
+people with Alzheimer's disease as a clinical programme outside any trial since 2021 (the centre's
+own page does not give that year), and on 2026-04-27 the centre published on its own page that 71
+patients had completed its 15-month programme under routine clinical practice conditions; John ruled on
 2026-10-17 that this counts as a named clinical setting publishing its practice, so the treatment
 is in clinical use from that date."""
 test = """
@@ -180,3 +182,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "John ruled on 2026-10-17 that the wide-use range of 2032, 2045 and 2090 written when the treatment moved to the clinic stands, so the estimate is marked reviewed like the other 43 estimates; the years and the reasoning are unchanged. The headline does not draw this rung."
+
+[[revision]]
+date = 2026-10-18
+field = "description"
+old = "Since 2021 the Ace Alzheimer Center in Barcelona has given the procedure to people with Alzheimer's disease as a clinical programme outside any trial, and on 2026-04-27 it published on its own page that 71 patients had completed its 15-month programme ..."
+new = "The supplier Grifols said on 2026-03-12 that the Ace Alzheimer Center in Barcelona has given the procedure to people with Alzheimer's disease as a clinical programme outside any trial since 2021 (the centre's own page does not give that year), and on 2026-04-27 the centre published on its own page that 71 patients had completed its 15-month programme ..."
+why = "Corrected on 2026-10-18 on John's ruling of that day that each possible error found in the wording pass is checked against its source: the start in 2021 comes only from the supplier's release (Grifols, 2026-03-12, which calls the centre's programme operational since 2021); the centre's own announcement of 2026-04-27, read again on 2026-10-18, does not give the year. No stage or date changed."
+publication = "grifols-2026"

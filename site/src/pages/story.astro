@@ -42,16 +42,28 @@ const name = (t: string, first: boolean) => (first ? t : lowerFirst(t));
     <section class="section narrow" id="what-changed" style="padding-top: 0;">
       <h2>What changed, day by day</h2>
       <p class="dim" style="font-size: 14px;">
-        One line for each day the records changed, newest first, made from the records themselves: a treatment moving up a rung, a range of years revised, papers logged, a weekly reading run. A day whose only changes were to the wording says so. Each line links to the change it names.
+        One line for each day the records changed, newest first, made from the records themselves: the year at the top moving, a treatment moving up a rung, a range of years revised, a treatment, claim or self-experiment added, papers logged, a weekly reading run. A day whose only changes were to the wording says so. Each line links to the change it names.
       </p>
       <ul class="checks changed">
         {changed.map((d) => {
           const parts: any[] = [];
+          if (d.year) {
+            const y = d.year;
+            parts.push((first: boolean) => <><a href="/method/">{capital(`the year at the top moved from ${y.old} to ${y.new}`, first)}</a>{y.branch && <>, with <a href={y.branch.path}>{lowerFirst(y.branch.name)}</a> the branch that moved it</>}</>);
+          }
           d.readings.forEach((r) => parts.push((first: boolean) => <a href={r.path}>{capital('the weekly reading ran', first)}</a>));
           d.moves.forEach((m) => parts.push((first: boolean) => <><a href={m.leaf.path}>{name(m.leaf.name, first)}</a>{' '}<a href={m.path}>moved up a rung</a>, from {m.from} to {m.to}</>));
           d.ranges.forEach((r) => parts.push((first: boolean) => r.kind === 'revised'
             ? <><a href={r.leaf.path}>{name(r.leaf.name, first)}</a>: its {r.changes.length === 1 ? `${r.changes[0].which} year` : 'range'} to {r.goal}{' '}<a href={r.path}>was revised</a>, {r.changes.map((c, i) => <>{i > 0 ? ', ' : ''}{r.changes.length === 1 ? '' : `${c.which} `}from {c.old} to {c.new}</>)}</>
             : <><a href={r.leaf.path}>{name(r.leaf.name, first)}</a>: a range to {r.goal}{' '}<a href={r.path}>was set</a>, {r.years}</>));
+          // Three or fewer additions are named; more are counted, linked to the page that lists them.
+          const addedPart = (items: { name: string; path: string }[], one: string, several: string, many: string, all: string, quoted: boolean) => (first: boolean) =>
+            items.length > 3
+              ? <a href={all}>{capital(`${items.length} ${many} were added`, first)}</a>
+              : <>{capital(items.length === 1 ? one : several, first)}{items.map((it, i) => <>{i === 0 ? '' : i === items.length - 1 ? ' and ' : ', '}<a href={it.path}>{quoted ? `“${it.name}”` : it.name}</a></>)}{' '}{items.length === 1 ? 'was' : 'were'} added</>;
+          if (d.added.leaf.length > 0) parts.push(addedPart(d.added.leaf, 'the treatment ', 'the treatments ', 'treatments and tools', '/branches/', true));
+          if (d.added.claim.length > 0) parts.push(addedPart(d.added.claim, 'a claim by ', 'claims by ', 'claims', '/claims/', false));
+          if (d.added.experiment.length > 0) parts.push(addedPart(d.added.experiment, 'the self-experiment of ', 'the self-experiments of ', 'self-experiments', '/self-experiments/', false));
           if (d.papers > 0) parts.push((first: boolean) => <a href={`#logged-${d.date}`}>{capital(d.papers === 1 ? 'one paper was logged' : `${d.papers} papers were logged`, first)}</a>);
           if (d.wording) parts.push((first: boolean) => <>{capital("the site's wording changed", first)}</>);
           return (

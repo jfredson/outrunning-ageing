@@ -3,6 +3,7 @@
 # figure); the rest is in the verify list. The estimate is a first pass.
 
 id = "a-drug-lengthens-chromosome-ends-in-a-person"
+added_on = 2026-10-16
 name = "A drug lengthens the ends of chromosomes in a person"
 branch = "damaged-dna"
 description = """

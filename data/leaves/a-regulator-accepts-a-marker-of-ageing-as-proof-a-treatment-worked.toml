@@ -3,6 +3,7 @@
 # estimate is a first pass.
 
 id = "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked"
+added_on = 2026-10-16
 name = "A regulator accepts a marker of ageing as proof that a treatment slowed it"
 branch = "measuring-age"
 description = """

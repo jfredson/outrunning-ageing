@@ -2,6 +2,7 @@
 # from memory of the papers and are in the verify list. The estimate is a first pass.
 
 id = "drug-boosts-the-cells-recycling-of-worn-parts"
+added_on = 2026-10-16
 name = "A drug that boosts the cell's recycling of its worn parts improves an age-related function in people"
 branch = "broken-proteins"
 description = """

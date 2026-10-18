@@ -2,6 +2,7 @@
 # from memory of the paper and are in the verify list. The estimate is a first pass.
 
 id = "immune-cells-engineered-to-kill-aged-cells"
+added_on = 2026-10-16
 name = "A person's immune cells are engineered to hunt down aged cells"
 branch = "worn-out-cells"
 description = """

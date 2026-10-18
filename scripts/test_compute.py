@@ -17,6 +17,7 @@ has no git history.
 from __future__ import annotations
 
 import io
+import json
 import re
 import shutil
 import sys
@@ -851,6 +852,44 @@ class TheServedHeadline(unittest.TestCase):
             self.export(data, out, public, "--check")
             self.assertFalse(out.exists())
             self.assertFalse(public.exists())
+
+
+class AddedDatesAndHistory(unittest.TestCase):
+    """Two additions ruled by John on 2026-10-18: the date each treatment, claim and self-experiment
+    was added, and the headline file's history of its runs."""
+
+    def test_a_record_without_its_added_date_is_refused(self):
+        for rel in (LEAF, CLAIM, EXPERIMENT):
+            with TempData() as data:
+                edit(data / rel, r"^added_on = .*\n", "")
+                self.assertTrue(any_with(problems_for(data), "added_on"), rel)
+
+    def test_an_added_date_written_as_text_is_refused(self):
+        with TempData() as data:
+            edit(data / LEAF, r"^added_on = (.*)$", r'added_on = "\1"')
+            self.assertTrue(any_with(problems_for(data), "added_on", "TOML date"))
+
+    def _headline(self, day: str, median: int, worn: int) -> dict:
+        return {"computed_on": day, "median_year": median, "before_2050": 0.04, "after_2100": 0.0,
+                "percentiles": {"p5": 2050, "p95": 2069},
+                "branches": [{"key": "worn-out-cells", "median_handled_year": worn}]}
+
+    def test_each_run_is_added_to_the_history(self):
+        first = compute.with_history(self._headline("2026-10-18", 2058, 2043), None)
+        self.assertEqual(len(first["history"]), 1)
+        second = compute.with_history(self._headline("2026-10-25", 2057, 2041), first)
+        self.assertEqual([e["median_year"] for e in second["history"]], [2058, 2057])
+        self.assertEqual(second["history"][-1]["branches"], {"worn-out-cells": 2041})
+
+    def test_the_same_result_on_the_same_day_is_not_added_twice(self):
+        first = compute.with_history(self._headline("2026-10-18", 2058, 2043), None)
+        again = compute.with_history(self._headline("2026-10-18", 2058, 2043), first)
+        self.assertEqual(len(again["history"]), 1)
+
+    def test_the_real_headline_file_has_a_history_ending_at_its_own_numbers(self):
+        h = json.loads((DATA / "headline.json").read_text(encoding="utf-8"))
+        self.assertTrue(h.get("history"))
+        self.assertEqual(h["history"][-1], compute.history_entry(h))
 
 
 if __name__ == "__main__":

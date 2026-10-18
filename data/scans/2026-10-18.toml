@@ -614,7 +614,7 @@ sources = ["https://en.wikipedia.org/wiki/Bryan_Johnson", "https://biztoc.com/x/
 for_john = """
 A record older than the window that the entry missed, seen through press and a secondary page only. I would add a dated line to the paragraph of the Bryan Johnson record that describes what he does, saying that on 2026-06-30 he said in a post that he has an autoimmune disease, once his post or the Independent piece is opened and read; the self-experiment record is for public self-experiments, and this is his own public statement. Not mine to add because it is a statement about a person's health and the page is a secondary source."""
 resolved_on = 2026-10-18
-resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied: the self-experiment's text carries the diagnosis he announced, sourced to the NZ Herald piece of 2026-07-06, which was opened and read."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied: the self-experiment's text carries the diagnosis he announced, sourced to the NZ Herald piece published on 2026-07-06 at 22:00 universal time (2026-07-07 in New Zealand, the date the encyclopaedia page gives), which was opened and read."
 
 [[item]]
 experiment = "dave-pascoe"

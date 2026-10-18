@@ -23,9 +23,10 @@ moved_range = false
 settled_stage = false
 notes = """
 Logged for the treatment planned as a drug clears aged cells from a person, on the worn-out
-cells branch; the description of that entry (the worked example in the project's documentation)
-and its list of facts not yet checked against a source already refer to this failure, so that
-unchecked fact can be cleared against this record. The release's own page on
+cells branch, and now linked to "An aged-cell-clearing drug relieves knee arthritis", whose
+description tells of this failure, as does that of "An aged-cell-clearing drug beats a sham in a
+controlled trial". (Corrected 2026-10-18: this note had said the description of "A drug clears
+aged cells from a person" refers to it; that description no longer does.) The release's own page on
 unitybiotechnology.com and the wire copy on GlobeNewswire are no longer served; the wire
 address was https://www.globenewswire.com/news-release/2020/08/17/2079116/0/en/. Doses 0.5, 2.0
 and 4.0 mg, 45 to 46 people per arm; the primary outcome was change in the WOMAC-A pain score

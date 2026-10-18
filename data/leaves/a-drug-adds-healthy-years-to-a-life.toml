@@ -4,6 +4,7 @@
 # session there checked on 2026-10-16. The estimate is a first pass.
 
 id = "a-drug-adds-healthy-years-to-a-life"
+added_on = 2026-10-16
 name = "A drug makes people live longer in good health"
 branch = "energy-and-fuel"
 description = """

@@ -2,6 +2,7 @@
 # memory of the papers and are in the verify list. The estimate is a first pass.
 
 id = "a-cocktail-of-ordinary-drugs-resets-cell-age"
+added_on = 2026-10-16
 name = "A mix of small-molecule drugs resets a cell's age without gene therapy"
 branch = "cell-settings"
 description = """

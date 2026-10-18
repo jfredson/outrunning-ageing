@@ -3,6 +3,7 @@
 # memory and in the verify list. The estimate is a first pass.
 
 id = "drug-stops-a-misfolded-protein-piling-up-in-the-heart"
+added_on = 2026-10-16
 name = "A drug stops a misfolded protein piling up in the heart and extends life"
 branch = "broken-proteins"
 description = """

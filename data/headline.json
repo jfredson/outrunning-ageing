@@ -615,5 +615,79 @@
     "estimates_first_pass": 1,
     "estimates_first_pass_drawn": 1,
     "verify_entries": 0
-  }
+  },
+  "history": [
+    {
+      "computed_on": "2026-10-16",
+      "median_year": 2058,
+      "before_2050": 0.0266,
+      "after_2100": 0.0,
+      "p5": 2051,
+      "p95": 2068,
+      "branches": {
+        "worn-out-cells": 2043,
+        "damaged-dna": 2040,
+        "cell-settings": 2044,
+        "broken-proteins": 2023,
+        "energy-and-fuel": 2039,
+        "replacing-parts": 2029,
+        "inflammation-and-signalling": 2042,
+        "measuring-age": 2040
+      }
+    },
+    {
+      "computed_on": "2026-10-17",
+      "median_year": 2058,
+      "before_2050": 0.0335,
+      "after_2100": 0.0,
+      "p5": 2050,
+      "p95": 2068,
+      "branches": {
+        "worn-out-cells": 2043,
+        "damaged-dna": 2040,
+        "cell-settings": 2044,
+        "broken-proteins": 2023,
+        "energy-and-fuel": 2028,
+        "replacing-parts": 2029,
+        "inflammation-and-signalling": 2042,
+        "measuring-age": 2040
+      }
+    },
+    {
+      "computed_on": "2026-10-17",
+      "median_year": 2058,
+      "before_2050": 0.0409,
+      "after_2100": 0.0,
+      "p5": 2050,
+      "p95": 2069,
+      "branches": {
+        "worn-out-cells": 2043,
+        "damaged-dna": 2044,
+        "cell-settings": 2044,
+        "broken-proteins": 2023,
+        "energy-and-fuel": 2028,
+        "replacing-parts": 2032,
+        "inflammation-and-signalling": 2026,
+        "measuring-age": 2040
+      }
+    },
+    {
+      "computed_on": "2026-10-18",
+      "median_year": 2058,
+      "before_2050": 0.0427,
+      "after_2100": 0.0,
+      "p5": 2050,
+      "p95": 2069,
+      "branches": {
+        "worn-out-cells": 2043,
+        "damaged-dna": 2044,
+        "cell-settings": 2044,
+        "broken-proteins": 2023,
+        "energy-and-fuel": 2028,
+        "replacing-parts": 2032,
+        "inflammation-and-signalling": 2026,
+        "measuring-age": 2040
+      }
+    }
+  ]
 }

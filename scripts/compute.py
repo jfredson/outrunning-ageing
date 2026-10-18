@@ -105,12 +105,12 @@ ALLOWED: dict[str, set[str]] = {
                "what_would_move_this"} | COMMON,
     "leaf": {"id", "name", "branch", "description", "test", "settler", "stage", "stage_reached_on",
              "stage_record", "stage_publication", "earlier_stage", "status", "horizon", "long_shot",
-             "mechanism", "breaking_point", "sibling", "estimate", "revision"} | COMMON,
+             "mechanism", "breaking_point", "sibling", "estimate", "revision", "added_on"} | COMMON,
     "claim": {"id", "who", "who_is", "said_on", "where", "link", "quote", "is_paraphrase",
               "paraphrase_seen_in", "commits_to", "due", "leaves", "branches", "about_the_headline",
-              "verdict", "verdict_on", "verdict_why"} | COMMON,
+              "verdict", "verdict_on", "verdict_why", "added_on"} | COMMON,
     "experiment": {"id", "who", "who_is", "name", "started", "status", "ended", "what", "measures",
-                   "claims", "public_record", "link", "leaves", "branches"} | COMMON,
+                   "claims", "public_record", "link", "leaves", "branches", "added_on"} | COMMON,
     "publication": {"id", "date", "added_on", "authors", "title", "venue", "link", "finding",
                     "leaves", "branches", "moved_range", "settled_stage"} | COMMON,
     "scan": {"id", "read_on", "covers_from", "ran_at", "run_by", "commit_before", "leaves_read",
@@ -119,9 +119,11 @@ ALLOWED: dict[str, set[str]] = {
 }
 REQUIRED: dict[str, list[str]] = {
     "branch": ["key", "order", "name", "meaning", "hallmarks", "required", "handled_when"],
-    "leaf": ["id", "name", "branch", "description", "test", "settler", "stage", "status", "horizon"],
-    "claim": ["id", "who", "who_is", "said_on", "where", "quote", "commits_to", "verdict"],
-    "experiment": ["id", "who", "who_is", "started", "status", "what", "measures", "claims",
+    # added_on, the date a record was first committed, on treatments, claims and self-experiments
+    # (ruled by John 2026-10-18; back-filled that day from the repository's history).
+    "leaf": ["id", "added_on", "name", "branch", "description", "test", "settler", "stage", "status", "horizon"],
+    "claim": ["id", "added_on", "who", "who_is", "said_on", "where", "quote", "commits_to", "verdict"],
+    "experiment": ["id", "added_on", "who", "who_is", "started", "status", "what", "measures", "claims",
                    "public_record", "link"],
     "publication": ["id", "date", "added_on", "authors", "title", "venue", "link", "finding",
                     "moved_range", "settled_stage"],
@@ -1135,6 +1137,31 @@ def compute_headline(loaded: dict, runs: int = RUNS, seed: int = SEED,
     }
 
 
+def history_entry(headline: dict) -> dict:
+    """One line of the headline's history: the date, the three numbers, the spread's ends and each
+    branch's middle year (ruled by John 2026-10-18, so the site can say when the year moved and which
+    branch moved it)."""
+    return {
+        "computed_on": headline["computed_on"],
+        "median_year": headline["median_year"],
+        "before_2050": headline["before_2050"],
+        "after_2100": headline["after_2100"],
+        "p5": headline["percentiles"]["p5"],
+        "p95": headline["percentiles"]["p95"],
+        "branches": {b["key"]: b["median_handled_year"] for b in headline["branches"]},
+    }
+
+
+def with_history(headline: dict, previous: dict | None) -> dict:
+    """The headline with its history: the previous file's list, plus this run. A run on the same day
+    that gives exactly the same numbers as the last entry is the same result and adds nothing."""
+    history = list((previous or {}).get("history") or [])
+    entry = history_entry(headline)
+    if not history or history[-1] != entry:
+        history.append(entry)
+    return {**headline, "history": history}
+
+
 def cmd_run(args: argparse.Namespace) -> int:
     import json
 
@@ -1157,6 +1184,13 @@ def cmd_run(args: argparse.Namespace) -> int:
         return 2
     headline = compute_headline(loaded)
     out = data_dir / "headline.json"
+    previous = None
+    if out.exists():
+        try:
+            previous = json.loads(out.read_text(encoding="utf-8"))
+        except ValueError:
+            previous = None
+    headline = with_history(headline, previous)
     out.write_text(json.dumps(headline, indent=2) + "\n", encoding="utf-8")
     p = headline["percentiles"]
     print(f"Escape year: {headline['median_year']} (median of {headline['method']['runs']:,} runs, seed {headline['method']['seed']})")
