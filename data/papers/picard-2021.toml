@@ -1,0 +1,13 @@
+id = "picard-2021"
+date = "2021-06-19"
+added_on = 2026-10-18
+authors = ["Martin Picard"]
+title = "Blood mitochondrial DNA copy number: What are we counting?"
+venue = "Mitochondrion 60, 1–11 (2021)"
+link = "https://doi.org/10.1016/j.mito.2021.06.010"
+finding = """
+A review arguing that the count of mitochondrial DNA in blood is set mostly by which kinds of white cells and how many platelets a sample holds, is not a measure of how well mitochondria work, and can signal trouble when high or low; it asks studies to record platelets and white-cell types or to use purified cells."""
+leaves = ["a-blood-count-of-mitochondrial-dna-predicts-death-and-disease"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false

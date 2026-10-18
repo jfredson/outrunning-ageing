@@ -1,12 +1,12 @@
 # A reading of the Picard lab's papers on mitochondria and ageing (2026-10-18)
 
-Written 2026-10-18 by a session that John's planning session started. John asked whether the work of Martin Picard's group (Mitochondrial Psychobiology Group, Columbia University) belongs in the project. This note answers it paper by paper. It changes no record: nothing under `data/` was touched, no publication is logged, no leaf is added. The one piece of new tree it offers, a proposed treatment-or-tool entry on the measuring branch, is written out below for John's ruling and is not in `data/`.
+Written 2026-10-18 by a session that John's planning session started. John asked whether the work of Martin Picard's group (Mitochondrial Psychobiology Group, Columbia University) belongs in the project. This note answers it paper by paper. As first written it changed no record and proposed one entry. **John ruled on 2026-10-18, all three points as recommended (relayed by the tracker sites' planning session):** the entry is added, the energy-and-fuel branch's wording is held while Martin Picard is asked to read that branch (a roadmap task), and a later reading of the group's other aging papers is a roadmap task. The entry and four papers are now in `data/`; each fact in them was checked again at its source on 2026-10-18 and the headline was rerun (see the end of this note).
 
 Every paper was opened at the publisher's page or its open copy at PubMed Central and read as text. What was read of each is said under it: the full text for most, the abstract and opening paragraphs for the Nature Metabolism review and the older-adults paper. The group's Substack posts were used only to find the papers. The 2025 preprint on "mitotypes" was not used for any fact. A second preprint on blood markers of mitochondrial health in ageing (bioRxiv, 2025-01-31) is still a preprint in Europe PMC's index and was not used either.
 
 ## The rule applied
 
-The publications log takes a paper when it bears on a treatment's test or on the headline question, which in practice means one of three things: it reports a person given a treatment and a measured result, it validates a tool that would say whether a repair worked, or it changes what a leaf's test or estimate rests on. A paper that describes how biology works, however good, does not meet that, because nothing on the tree can move on it. None of the papers below met it, so none is logged. Each is listed with what it found, so the decision can be checked.
+The publications log takes a paper when it bears on a treatment's test or on the headline question, which in practice means one of three things: it reports a person given a treatment and a measured result, it validates a tool that would say whether a repair worked, or it changes what a leaf's test or estimate rests on. A paper that describes how biology works, however good, does not meet that, because nothing on the tree can move on it. None of the seven papers below met it on its own. Two of them (Rausser 2021 and Picard 2021) became relevant only once the entry below was ruled in, and are logged with it, together with the two Ashar reports from another group that settle the entry. The others are not logged. Each is listed with what it found, so the decision can be checked.
 
 ## What each paper found, and why it is not logged
 
@@ -45,7 +45,7 @@ What the settling reports say (all read in their open copies at PubMed Central, 
 - Fu and others, QJM 118(1): 5-15 (2025-01-01; https://doi.org/10.1093/qjmed/hcae208), abstract only: a review pooling 22 studies found the lowest counts went with higher risk of cardiovascular disease (relative risk 2.09) and of death from any cause (1.33).
 - Against it, Rausser 2021 and Picard 2021 (above): neither of the two Ashar reports, as far as I could find in their text, allowed for platelet count or the mix of white cells, and the platelet effect alone could produce part of the link with age.
 
-### Draft entry (for John's ruling; not in `data/`)
+### The entry as added (the draft; the file in `data/leaves/` has a notes field and a sources list besides)
 
     id = "a-blood-count-of-mitochondrial-dna-predicts-death-and-disease"
     name = "A count of mitochondrial DNA in blood predicts a person's death and disease"
@@ -93,7 +93,7 @@ What the settling reports say (all read in their open copies at PubMed Central, 
     likely = 2045
     latest = 2100
 
-If John rules yes, these go into `data/papers/` with the entry, each with `moved_range = false`: `ashar-2015` (`settled_stage = true`, the entry's stage record), and `ashar-2017`, `rausser-2021` and `picard-2021` (`settled_stage = false`). Fu 2025 is logged only after its full text is opened. The draft above was run through the validator in a throwaway copy on 2026-10-18 and passed.
+With the entry, four papers are logged in `data/papers/`, each with `moved_range = false`: `ashar-2015` (`settled_stage = true`, the entry's stage record), and `ashar-2017`, `rausser-2021` and `picard-2021` (`settled_stage = false`). Fu 2025 is not logged, because only its abstract was read. The estimate's reasoning in the file differs from the draft in one respect: on 2026-10-18 the United States device clearance database (openFDA) was searched and lists no device named for mitochondrial DNA, so the claim rests on that search and not on one web search alone.
 
 ### The proposal, with the rule of 2026-09-08
 
@@ -105,8 +105,12 @@ If John rules yes, these go into `data/papers/` with the entry, each with `moved
 | **Strongest alternative** | Write the test so it requires the reports to allow for platelets and white-cell mix. That is more honest about what the count measures, but no large report meets it, so the entry would have no stage record above "idea only" and the ladder, which counts animal and human results, does not fit a measure that has been in people since 2014. |
 | **Would I change it on reflection?** | Possibly the name: "a count of mitochondrial DNA" is accurate but not obviously "a measure of ageing"; the entry's description says it is not a test of how well mitochondria work. |
 
-## What John must rule on
+## What John ruled, and what was done
 
-1. Whether to add the blood mitochondrial DNA count entry (draft above), and if so with that test and range.
-2. Whether to soften the energy-and-fuel branch's "fail with age" wording in light of the Nature Metabolism review (wording only).
-3. Whether a follow-up reading should open the group's other aging papers (list above) and judge them.
+1. The entry is added (ruled yes). Its description no longer says the count is cheap, and says that no trial in the project's records uses the count to judge a treatment, since that is checkable and a claim about all studies is not.
+2. The branch wording is held. A roadmap task asks Martin Picard to read the energy branch, starting with the sentence that says the power plants "fail with age".
+3. A follow-up reading of the group's other aging papers is a roadmap task, for later.
+
+## The headline after the entry
+
+Rerun on 2026-10-18 (200,000 runs, seed 2004). The middle year is unchanged at 2058; the chance before 2050 moves from 4.09 to 4.27 per cent; the 5th, 25th, 75th and 95th percentiles are unchanged (2050, 2054, 2062, 2069); nothing falls after 2100. The measuring branch's middle handled year stays 2040. The new entry is the one estimate marked first pass.

@@ -1,0 +1,74 @@
+id = "a-blood-count-of-mitochondrial-dna-predicts-death-and-disease"
+name = "A count of mitochondrial DNA in blood predicts a person's death and disease"
+branch = "measuring-age"
+description = """
+Mitochondria, the cell's power plants, carry a little DNA of their own, and the number of copies
+per cell can be counted in a blood sample. In 2014 a research group reported, in over sixteen
+thousand people followed for years, that those with the lowest counts were more likely to die,
+and in 2017 the same group reported that low counts went with more heart disease and stroke in
+over twenty-one thousand. The count can be read from stored blood. But a review by a
+mitochondria research group warns that it mostly reflects which blood cells and how many
+platelets a sample holds, not how well the power plants work, and no trial in this project's records uses it to judge a
+treatment. It is a research measure, not a test anyone can order."""
+test = """
+The number of copies of mitochondrial DNA per cell, counted in a blood sample, predicts time to
+death or to heart or blood-vessel disease after allowing for age and sex, in two or more
+independent groups of at least a thousand people followed for years, in peer-reviewed reports.
+For the clinic rung: a regulator clears the count as a medical test, or a named health system
+uses it in routine care and publishes that practice. For wide use: offered in routine care in
+several countries."""
+settler = "Peer-reviewed cohort reports; the regulator's clearance record, or a named health system's published practice, for the clinic rung"
+stage = "first-human"
+stage_reached_on = "2014-12-04"
+stage_record = "https://doi.org/10.1007/s00109-014-1233-3"
+stage_publication = "ashar-2015"
+status = "tracked"
+horizon = "mid"
+
+notes = """
+Added on 2026-10-18, after a reading of the work of Martin Picard's group at Columbia University on
+mitochondria and ageing. The count is of mitochondrial DNA copies per cell in a blood sample. The
+group's own measures (a health index built from enzyme activities and this count, panels on sorted
+blood cells, blood markers) are left off until a peer-reviewed report follows people to an outcome
+with them.
+Checked on 2026-10-18 against the papers' open copies at PubMed Central. Ashar and colleagues
+(Journal of Molecular Medicine, online 2014-12-04, https://doi.org/10.1007/s00109-014-1233-3) used
+two groups, 4,892 and 11,509 people: the fifth with the lowest counts were 47 per cent more likely
+to die than the fifth with the highest (hazard ratio 1.47, 95% range 1.33 to 1.62), after allowing
+for age and sex. Ashar and colleagues (JAMA Cardiology, 2017-11-01,
+https://doi.org/10.1001/jamacardio.2017.3683) followed 21,870 people in three studies for 13.5
+years on average: each standard deviation below the average count went with 23 per cent more heart
+disease or stroke (hazard ratio 1.23, 95% range 1.19 to 1.26), unchanged after allowing for the
+usual risk factors. Searching both papers for platelets and white-cell counts found no mention of
+allowing for them. Rausser and colleagues (eLife, 2021-10-26) found in 21 healthy adults that
+platelets stuck to samples made mitochondrial measures read 9 to 22 per cent high and that platelet
+count fell about 6 per cent per decade, which could account for part of the fall in blood
+mitochondrial DNA with age; Picard (Mitochondrion, 2021-06-19) reviews why the count is set mostly
+by the mix of cells and platelets and is not a measure of how well mitochondria work. A review of
+22 studies (Fu and colleagues, QJM, 2025-01-01, https://doi.org/10.1093/qjmed/hcae208) agrees on
+direction; only its abstract was read, so it is not listed as a source here.
+Open question: whether the prediction survives allowing for platelets and the mix of white cells.
+What would count does not ask for it, and the stage stays on the 2014 report."""
+
+[estimate]
+status = "first-pass"
+set_on = 2026-10-18
+why = """
+The reports are large and agree on direction, but no regulator clearance and no health-system
+use of the count turned up: a search of the United States device clearance database
+(openFDA, 2026-10-18) lists no device named for mitochondrial DNA, and a web search the same
+day found no guideline or clinic using it (laboratory-run tests need no clearance, and other
+countries were not searched). The one measurement problem the group raises, platelets and the
+mix of white cells, is not settled in the large reports and would have to be before a
+laboratory could sell the count as a test; and no trial in the records uses the count to
+judge a treatment, which a measure for judging repairs needs. The earliest year assumes a health
+system publishes use of the count inside a risk score within five years; the latest, 2100,
+means perhaps not this century, because the count may stay a research measure."""
+sources = ["ashar-2015", "ashar-2017", "rausser-2021", "picard-2021"]
+
+[[estimate.rung]]
+rung = "in-clinical-use"
+earliest = 2031
+likely = 2045
+latest = 2100
+
