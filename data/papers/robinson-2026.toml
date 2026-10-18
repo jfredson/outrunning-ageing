@@ -1,0 +1,19 @@
+# Publications log. Added 2026-10-18 in the dated batch that applies the audit of the first scheduled weekly reading (docs/readings/audit-2026-10-18.md); John ruled on the audit on 2026-10-18.
+
+id = "robinson-2026"
+date = "2026-06-29"
+added_on = 2026-10-18
+authors = ["Robinson O", "Xiao H", "Homann J", "Viallon V", "Ferrari P", "Frank P", "Huerta JM", "Jiménez Zabala A", "Kaaks R", "Katzke VA", "Kivimaki M", "Langenberg C", "and 16 others (28 in all)"]
+title = "Associations of proteomic age clocks with lifestyle risk factors, incident chronic diseases and mortality in two European cohorts"
+venue = "Nature Aging (2026), pages 1437-1451; published online 2026-06-29"
+link = "https://doi.org/10.1038/s43587-026-01163-6"
+finding = """
+In 17,473 participants of the European Prospective Investigation into Cancer and Nutrition followed for up to 28 years (with the mortality results replicated in 6,240 people in the Whitehall II study), blood-protein ageing clocks, including organ-specific clocks, were linked to smoking, alcohol, inactivity and a higher risk of death, cardiovascular disease, dementia and cancers of the liver, upper airways and digestive tract, lung and kidney. Lung, kidney and stomach cancers were more strongly linked to the related organ's age gap (the kidney age gap and kidney cancer, hazard ratio 1.63, 95 per cent confidence interval 1.36 to 1.94). The authors say that before this only the organ clocks of Oh and colleagues had been independently tested for disease onset across disease classes in a longitudinal setting.
+"""
+leaves = ["an-age-for-each-organ-is-read-from-blood-proteins"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Added in the dated batch of 2026-10-18, on John's ruling of that day on item 7 of the audit. Checked 2026-10-18: the open full text at PubMed Central (PMC13375651) was read through its XML text. The organ-specific clocks tested here use the weights of Oh and colleagues (the Stanford group's), so this is an independent test of those clocks, in a different cohort; the paper also uses five earlier whole-body clocks for comparison. Its mortality comparison sets a model of calendar age and sex (concordance index 0.71) against the combined Global age gap (0.73), not each organ clock against calendar age.
+"""

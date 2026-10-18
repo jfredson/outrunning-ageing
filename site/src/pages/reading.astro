@@ -65,6 +65,10 @@ const description = latest
         <span>{longDate(latest.read_on)}, covering the news from {longDate(latest.covers_from)}{latest.run_by === 'hand' ? ', run by hand' : ', the scheduled run'}</span>
       </div>
       <p class="prose" style="font-size: 17px;">{latest.summary}</p>
+      {latest.later_notes.map((n) => (
+        <p class="prose" style="font-size: 16px;"><strong>Note added {longDate(n.date)}:</strong> {n.text}</p>
+      ))}
+      {latest.limits && <p class="prose" style="font-size: 16px;"><strong>What this reading could not see:</strong> {latest.limits}</p>}
       <div class="reading-counts">
         <span class="badge kind">{whatWasRead(latest)}</span>
         <span class="badge kind">{plural(latest.searches, 'search', 'searches')}</span>
@@ -136,6 +140,10 @@ const description = latest
             <span class="entry-title">{r.summary}</span>
           </summary>
           <div class="entry-body">
+            {r.later_notes.map((n) => (
+              <p><strong>Note added {longDate(n.date)}:</strong> {n.text}</p>
+            ))}
+            {r.limits && <p><strong>What this reading could not see:</strong> {r.limits}</p>}
             {r.groups.map((g) => (
               <>
                 <h4 style="font-family: var(--sans); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 14px 0 4px;">{g.name}</h4>

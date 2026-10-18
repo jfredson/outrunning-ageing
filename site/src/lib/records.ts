@@ -339,6 +339,8 @@ export interface Reading {
   run_by: 'hand' | 'scheduled';
   commit_before: string;
   summary: string;
+  limits: string;                // what the reading could not see (decision 20); empty on readings that predate it
+  later_notes: { date: string; text: string }[];   // dated notes added after the reading, never by it (decision 21)
   read: number;
   leaves_read: number;
   claims_read: number;

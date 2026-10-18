@@ -114,7 +114,8 @@ ALLOWED: dict[str, set[str]] = {
     "publication": {"id", "date", "added_on", "authors", "title", "venue", "link", "finding",
                     "leaves", "branches", "moved_range", "settled_stage"} | COMMON,
     "scan": {"id", "read_on", "covers_from", "ran_at", "run_by", "commit_before", "leaves_read",
-             "claims_read", "experiments_read", "searches", "summary", "item"} | COMMON,
+             "claims_read", "experiments_read", "searches", "summary", "item", "limits",
+             "later_note"} | COMMON,
 }
 REQUIRED: dict[str, list[str]] = {
     "branch": ["key", "order", "name", "meaning", "hallmarks", "required", "handled_when"],
@@ -138,6 +139,7 @@ ITEM_ALLOWED = {"leaf", "claim", "experiment", "verdict", "queries", "reused", "
                 "sources", "publications", "moved_from", "moved_to", "for_john", "resolved_on", "resolved_by",
                 "sibling_stage", "sibling_agrees"}
 ITEM_TARGETS = ("leaf", "claim", "experiment")
+LATER_NOTE_ALLOWED = {"date", "text"}
 RETIRED_ALLOWED = {"id", "kind", "date", "replaced_by", "why"}
 
 # Fields a self-experiment must never carry: a self-experiment moves no leaf. Unknown fields are
@@ -709,6 +711,31 @@ def _check_scan(r: dict, tag: str, by_kind: dict[str, dict[str, dict]], problems
     for key in ("leaves_read", "claims_read", "experiments_read", "searches"):
         if key in r and (not _is_int(r[key]) or r[key] < 0):
             problems.append(f"{tag}: {key!r} must be a whole number")
+
+    # `limits`: what the reading could not see (pages opened and refused, no date filter); asked of
+    # every reading from 2026-10-25 by the procedure, optional here so earlier readings still pass
+    # (decision 20, ruled by John 2026-10-18).
+    if "limits" in r and (not isinstance(r["limits"], str) or _empty(r["limits"])):
+        problems.append(f"{tag}: 'limits' must say, in plain words, which pages were opened and refused and what the searches could not do")
+    # `later_note`: a dated note added after the reading by a later batch, never by the reading
+    # itself; the reading's own words stay as written (decision 21, ruled by John 2026-10-18).
+    notes_later = r.get("later_note", [])
+    if not isinstance(notes_later, list):
+        problems.append(f"{tag}: 'later_note' must be a list of [[later_note]] tables")
+        notes_later = []
+    for n, ln in enumerate(notes_later, 1):
+        ntag = f"{tag}, later note {n}"
+        if not isinstance(ln, dict):
+            problems.append(f"{ntag}: must be a table")
+            continue
+        for key in sorted(set(ln) - LATER_NOTE_ALLOWED):
+            problems.append(f"{ntag}: unknown field {key!r}")
+        if not isinstance(ln.get("date"), dt.date):
+            problems.append(f"{ntag}: 'date' must be a TOML date")
+        elif isinstance(read_on, dt.date) and ln["date"] < read_on:
+            problems.append(f"{ntag}: 'date' is before the reading it corrects ({read_on})")
+        if not isinstance(ln.get("text"), str) or _empty(ln["text"]):
+            problems.append(f"{ntag}: 'text' must say, in plain words, what is corrected or added and why")
 
     items = r.get("item", [])
     if not isinstance(items, list):

@@ -1,0 +1,19 @@
+# Publications log. Added 2026-10-18 in the dated batch that applies the audit of the first scheduled weekly reading (docs/readings/audit-2026-10-18.md); John ruled on the audit on 2026-10-18.
+
+id = "intellia-2026-q2"
+date = "2026-08-06"
+added_on = 2026-10-18
+authors = ["Intellia Therapeutics, Inc."]
+title = "Intellia Therapeutics Announces Second Quarter 2026 Financial Results and Business Updates"
+venue = "Company press release, Cambridge, Massachusetts, 2026-08-06, distributed by GlobeNewswire"
+link = "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-announces-second-quarter-2026-financial"
+finding = """
+The company says that a genomic analysis of more than 600 patient samples from its trials of the in-body gene editor nexiguran ziclumeran (nex-z), done with its partner Regeneron and outside experts, found the highest liver-enzyme (transaminase) rises in patients carrying one specific immune-gene variant (an HLA allele, which the release does not name). It says it is engaging the United States regulator and other health authorities about the finding, will give genotyping results to the doctors and patients in the two ongoing late-stage trials, and restarted enrolment in them in the second quarter. It also says it expects the regulator to accept its licence application for a different editor, lonvo-z, for hereditary angioedema in the second half of 2026.
+"""
+leaves = ["a-gene-is-edited-inside-a-persons-body"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+notes = """
+Added in the dated batch of 2026-10-18, on John's ruling of that day on item 2 of the audit of the first scheduled weekly reading. Checked 2026-10-18: the release was read as the wire text carried by BioSpace (https://www.biospace.com/press-releases/intellia-therapeutics-announces-second-quarter-2026-financial-results-and-business-updates), with the dateline 'Aug. 06, 2026 (GLOBE NEWSWIRE)'. The company's own page refused this session's reader (access denied); the scheduled reading of 2026-10-18 opened it there. The figures and the sentence about the allele are the release's own words in substance; the allele is not named.
+"""

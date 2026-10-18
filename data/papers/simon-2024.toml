@@ -1,0 +1,18 @@
+# Publications log. Added 2026-10-18 in the dated batch that applies the audit of the first scheduled weekly reading (docs/readings/audit-2026-10-18.md); John ruled on the audit on 2026-10-18.
+
+id = "simon-2024"
+date = "2024-05-29"
+added_on = 2026-10-18
+authors = ["Katherine E. Simon", "Katharine Russell", "Alejandra Mondino", "Chin-Chieh Yang", "Beth C. Case", "Zachary Anderson", "Christine Whitley", "Emily Griffith", "Margaret E. Gruen", "Natasha J. Olby"]
+title = "A randomized, controlled clinical trial demonstrates improved owner-assessed cognitive function in senior dogs receiving a senolytic and NAD+ precursor combination"
+venue = "Scientific Reports 14, article 12399 (2024); received 2024-02-17, accepted 2024-05-23"
+link = "https://doi.org/10.1038/s41598-024-63031-w"
+finding = """
+In a randomised, placebo-controlled trial of 70 dogs aged ten or more with mild to moderate cognitive impairment (23 on placebo, 23 on a low dose and 21 on a full dose of a combined NAD-raising and aged-cell-clearing supplement for three months), the owner-rated cognition score changed differently between groups (p = 0.02, the largest improvement in the full-dose group). Activity monitors, the in-clinic cognitive tests, frailty (p = 0.32) and owner-rated happiness (p = 0.34) did not differ between groups; all groups improved, which the authors say suggests a placebo effect and the benefits of taking part; and the cognition gain was not kept at six months. By the abstract's count 59 dogs completed the three-month check (the results text says 62).
+"""
+branches = ["worn-out-cells", "energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Added in the dated batch of 2026-10-18, on John's ruling of that day on item 12 of the audit. Checked 2026-10-18: the open copy at PubMed Central (https://pmc.ncbi.nlm.nih.gov/articles/PMC11137034) was read in full, through its XML text. The paper says the trial was funded by 'Animal Bioscience, Boston MA', which 'played no role in data acquisition, analysis or presentation', and the authors declare no competing interests. It bears on the claim sinclair-2024-dog-supplement, which is a claim, not a treatment, and so is named here only in these notes.
+"""

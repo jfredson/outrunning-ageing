@@ -1,0 +1,19 @@
+# Publications log. Added 2026-10-18 in the dated batch that applies the audit of the first scheduled weekly reading (docs/readings/audit-2026-10-18.md); John ruled on the audit on 2026-10-18.
+
+id = "wang-2025"
+date = "2025-11-26"
+added_on = 2026-10-18
+authors = ["Wang Y", "Xiao S", "Liu B", "Jiang R", "Liu Y", "Hang Y", "Chen L", "Chen R", "Vitiello MV", "Bennett D", "Wang B", "Lv J", "and 13 others (25 in all)"]
+title = "Organ-specific proteomic aging clocks predict disease and longevity across diverse populations"
+venue = "Nature Aging (2026), pages 162-180; published online 2025-11-26"
+link = "https://doi.org/10.1038/s43587-025-01016-8"
+finding = """
+Using blood-plasma proteins and machine learning, the authors built an organismal and ten organ-specific ageing clocks in 43,616 UK Biobank people and validated them in cohorts from China (3,977 people) and the United States (800 people; cross-cohort correlations 0.98 and 0.93). Accelerated organ ageing predicted disease onset, progression and death beyond clinical and genetic risk factors, with brain ageing the most strongly linked to death; a brain clock also stratified Alzheimer's disease risk across APOE gene types.
+"""
+leaves = ["an-age-for-each-organ-is-read-from-blood-proteins"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Added in the dated batch of 2026-10-18, on John's ruling of that day on item 7 of the audit. Checked 2026-10-18: the open full text at PubMed Central (PMC12823432) was read through its XML text; the date is the first publication date in the Europe PMC record. The clocks are the authors' own, built from a different protein platform (Olink) than the Stanford group's; the American validation cohort of 800 is below the thousand the treatment's test asks for, the Chinese cohort of 3,977 is above it.
+"""

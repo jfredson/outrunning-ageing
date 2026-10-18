@@ -18,7 +18,7 @@ patient died on 2025-11-05. The company's report to the securities regulator of 
 death from septic shock (a dangerous collapse of blood pressure caused by infection) after a
 perforated duodenal ulcer (a hole through the wall of the first part of the small intestine), that the
 patient's course also included acute liver injury and its treatment with steroids, and that an
-autopsy supported the clinical diagnoses."""
+autopsy supported the clinical diagnoses. In its report of 2026-08-06 the company said that an analysis of more than 600 patient samples from its trials found the highest liver-enzyme rises in patients carrying one specific immune-gene variant (an HLA allele, which it did not name), that it is discussing the finding with the regulator and will give genotyping results to the doctors and patients in the two late-stage trials, and that enrolment in them has restarted."""
 test = """
 A person is given a treatment that edits a gene inside their body, and afterwards the gene's
 product is measurably changed in the way intended, in a peer-reviewed report. For the clinic rung:
@@ -87,3 +87,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+
+[[revision]]
+date = 2026-10-18
+field = "description"
+old = "(nothing; text added at the end of the description)"
+new = "In its report of 2026-08-06 the company said that an analysis of more than 600 patient samples from its trials found the highest liver-enzyme rises in patients carrying one specific immune-gene variant (an HLA allele, which it did not name), that it is discussing the finding with the regulator and will give genotyping results to the doctors and patients in the two late-stage trials, and that enrolment in them has restarted."
+why = "[reading 2026-10-18] Adds the company's own account of the liver-enzyme finding, which the description of 2026-10-17 did not carry. Applied in the dated batch of 2026-10-18 on John's ruling of that day on item 2 of the audit (docs/readings/audit-2026-10-18.md), first change only; the second change (a note that an approval of the editor lonvo-z for hereditary angioedema would not reach the clinic rung under this test) waits until the company's own release on the regulator's acceptance has been opened. The release was read as carried by BioSpace. The stage and the years are unchanged."
+publication = "intellia-2026-q2"

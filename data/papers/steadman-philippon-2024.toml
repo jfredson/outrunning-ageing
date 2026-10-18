@@ -1,0 +1,19 @@
+# Publications log. Added 2026-10-18 in the dated batch that applies the audit of the first scheduled weekly reading (docs/readings/audit-2026-10-18.md); John ruled on the audit on 2026-10-18.
+
+id = "steadman-philippon-2024"
+date = "2024-09-19"
+added_on = 2026-10-18
+authors = ["Steadman Philippon Research Institute (sponsor); principal investigator Thomas A. Evans, MD, The Steadman Clinic"]
+title = "Senolytic Drugs Attenuate Osteoarthritis-Related Articular Cartilage Degeneration: A Clinical Trial (registry entry with results posted)"
+venue = "ClinicalTrials.gov, registry number NCT04210986; results first posted 2024-09-19; status verified 2024-09, completed 2023-02-01"
+link = "https://clinicaltrials.gov/study/NCT04210986"
+finding = """
+A phase 1 and 2, randomised, quadruple-masked, placebo-controlled trial of fisetin (100 mg capsules, about 20 mg per kilogram a day, on two consecutive days, 28 days off, then two more days) in knee osteoarthritis. 74 people started (34 on fisetin, 40 on placebo; the entry's enrolment count is 75). The main measure was safety: 28 people on fisetin and 33 on placebo had at least one adverse event (p above 0.9). None of the secondary measures differed between the groups at the 0.05 level: knee pain and function questionnaires (p 0.44 to above 0.99), walking and strength tests, cartilage on MRI (p above 0.99) and blood markers (the lowest p was 0.0829, for one marker at six months).
+"""
+leaves = ["aged-cell-clearing-drug-relieves-knee-arthritis"]
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Added in the dated batch of 2026-10-18, on John's ruling of that day on item 1 of the audit. Checked 2026-10-18 through the registry's data interface (https://clinicaltrials.gov/api/v2/studies/NCT04210986), which returns the full entry; the study page itself is an empty shell to a page reader. A conference abstract titled 'Results: from a randomized clinical trial evaluating the senolytic fisetin for treating knee osteoarthritis' (Tashman, Philippon, Dornan and Huard; Osteoarthritis and Cartilage 33, April 2025, page S456; https://doi.org/10.1016/j.joca.2025.02.667; details from the Crossref record) exists; its text was not read (the page is an empty shell) and which trial it reports was not checked, so this record rests on the registry entry alone. The scheduled reading of 2026-10-18 gave the registry number NCT04770064 (a trial called ROPE) for a null fisetin result with 74 people; that entry is withdrawn ('Funding was not awarded', enrolment 0, never run).
+"""

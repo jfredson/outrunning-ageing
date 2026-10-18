@@ -444,6 +444,8 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
             "id": s["id"], "read_on": iso(s["read_on"]), "covers_from": iso(s["covers_from"]),
             "ran_at": s["ran_at"], "run_by": s["run_by"], "commit_before": s["commit_before"],
             "summary": text(s["summary"]), "read": len(items),
+            "limits": text(s.get("limits")),
+            "later_notes": [{"date": iso(n["date"]), "text": text(n["text"])} for n in (s.get("later_note") or [])],
             "leaves_read": s["leaves_read"], "claims_read": s["claims_read"], "experiments_read": s["experiments_read"],
             "searches": s["searches"], "short_of_two": sum(1 for i in items if i["search_short"]),
             "counts": counts,

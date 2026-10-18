@@ -51,6 +51,7 @@ inflammation alone with no effect on cholesterol, and it measured plaque, not he
 strokes or deaths. It was therefore not entered as an earlier stage. A search of Europe PMC on
 2026-10-17 for animal studies of colchicine in atherosclerosis found later studies (not examined here), and one rabbit
 study of 2017 that found no effect on plaque, but no clean earlier record that meets the test.
+Added 2026-10-18, from the weekly reading of 2026-10-18: Germany's Federal Joint Committee resolved on 2026-08-20 (g-ba-2026) that colchicine added to the best standard care, in adults with coronary heart disease and a recent heart attack, has a hint of a minor added benefit, on the evidence of the COLCOT trial; its resolution gives the German marketing authorisation as of 2025-08-02. That is an authorisation and a benefit assessment in a second country, not a measure of how widely the drug is prescribed, which is what the wide-use rung asks for. The stage and the years are unchanged.
 """
 
 [[earlier_stage]]
@@ -94,3 +95,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+
+[[revision]]
+date = 2026-10-18
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-18, from the weekly reading of 2026-10-18: Germany's Federal Joint Committee resolved on 2026-08-20 (g-ba-2026) that colchicine added to the best standard care, in adults with coronary heart disease and a recent heart attack, has a hint of a minor added benefit, on the evidence of the COLCOT trial; its resolution gives the German marketing authorisation as of 2025-08-02. That is an authorisation and a benefit assessment in a second country, not a measure of how widely the drug is prescribed, which is what the wide-use rung asks for. The stage and the years are unchanged."
+why = "[reading 2026-10-18] Applied in the dated batch of 2026-10-18 on John's ruling of that day on item 5 of the audit: the resolution's PDF was opened and read (date, authorisation date, indication, the sentence on added benefit). The press statement that the drug has been on the German market since 2026-03-01 is not in the notice and is left out."
+publication = "g-ba-2026"
