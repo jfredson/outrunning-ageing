@@ -18,7 +18,7 @@ summary = """
 The second weekly reading, run by the scheduled task on 2026-10-18, covering 2026-10-11 to 2026-10-18.
 Every one of the 44 treatments, 31 claims and 9 self-experiments was read, each with at least two searches
 of its own. Nothing moved and nothing was logged in the publications log: no record of the kind a
-treatment's settler names showed the next rung reached inside the window, and where a paper, regulator's
+treatment's test names as settling it showed the next rung reached inside the window, and where a paper, regulator's
 notice or release did bear on a record the journal or registry page could not be opened from here (or,
 where it could, it was older than the window), so those are carried as flagged items with their citations
 as seen, for John to rule on and for a later reading to log. 13 items are flagged, nearly all records older than
@@ -48,9 +48,9 @@ sources = [
   "https://clinicaltrials.gov/study/NCT04770064",
   "https://www.withpower.com/trial/phase-2-osteoarthritis-knee-4-2021-54a91",
 ]
-for_john = """The change I would make: add a sentence to the notes that a second randomised placebo-controlled fisetin trial in knee osteoarthritis (registry number NCT04770064, 74 people, results in Osteoarthritis and Cartilage) found no benefit, so the only fisetin trial named there (safety as its main measure) is not the only one; the stage and years would not change, because a null result does not move the leaf, though it bears on the estimate's idea that an oral drug could report positive by 2028. Not mine to make because it is a record older than the window that the entry of 2026-10-16 missed, I could not open the journal page to confirm citation, date or result, and the notes and the publications log are the author's. First raised as a quiet aside on 2026-10-17; now seen as a journal record."""
+for_john = """The change I would make: add a sentence to the notes that a second randomised placebo-controlled fisetin trial in knee osteoarthritis (registry number NCT04770064, 74 people, results in Osteoarthritis and Cartilage) found no benefit, so the only fisetin trial named there (safety as its main measure) is not the only one; the stage and years would not change, because a null result does not move the treatment, though it bears on the estimate's idea that an oral drug could report positive by 2028. Not mine to make because it is a record older than the window that the entry of 2026-10-16 missed, I could not open the journal page to confirm citation, date or result, and the notes and the publications log are the author's. First raised as a quiet aside on 2026-10-17; now seen as a journal record."""
 resolved_on = 2026-10-18
-resolved_by = "Applied in corrected form in the dated batch of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): the registry's data interface shows the registry number NCT04770064 (ROPE) withdrawn with no one enrolled, so there is no second trial; the 74-person null result belongs to the trial the notes already name, whose posted results are now in the notes and logged (steadman-philippon-2024)."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied in corrected form: the registry's data interface shows the registry number NCT04770064 (ROPE) withdrawn with no one enrolled, so there is no second trial; the 74-person null result belongs to the trial the notes already name, whose posted results are now in the notes and logged in the publications log (the trial's registry entry with results posted, from the Steadman Philippon Research Institute, 2024)."
 
 [[item]]
 leaf = "clearing-aged-cells-makes-old-animals-live-longer"
@@ -68,7 +68,7 @@ queries = [
   "dasatinib quercetin patients senescent cell burden biopsy reduced trial report 2026",
   "senolytic drug people clinical trial approval OR new results week of October 12 2026",
 ]
-found = """Nothing in the window meets or moves the test. The searches returned the 2019 kidney report that is the stage record, the Amsterdam liver trial of 2026-10-01 that the record now holds (its page says fewer liver immune and scar-forming cells in the treated group, which fits the note already added), and no approval of any drug of this class. The Cedars-Sinai blood-marker paper was not seen again and stays on the list of things to check."""
+found = """Nothing in the window meets or moves the test. The searches returned the 2019 kidney report that the stage rests on, the Amsterdam liver trial of 2026-10-01 that the record now holds (its page says fewer liver immune and scar-forming cells in the treated group, which fits the note already added), and no approval of any drug of this class. The Cedars-Sinai blood-marker paper was not seen again and stays on the list of things to check."""
 sibling_stage = "first-human"
 sibling_agrees = true
 
@@ -79,7 +79,7 @@ queries = [
   "senolytic CAR T first-in-human trial registered uPAR aged cells patients 2026",
   "engineered immune cells clear senescent cells new study October 2026",
 ]
-found = """Nothing in the window of the settler's kind: no registry entry for engineered immune cells given to a person for ageing, and no peer-reviewed report in a person. The Medscape piece of 2026-10-14 (already seen) describes mouse work and says the approach is preclinical; a review of natural killer cells as possible aged-cell killers (GeroScience, dated 2026-10-01 by a secondary site) proposes experiments and reports no trial."""
+found = """Nothing in the window of the kind the test names as settling it: no registry entry for engineered immune cells given to a person for ageing, and no peer-reviewed report in a person. The Medscape piece of 2026-10-14 (already seen) describes mouse work and says the approach is preclinical; a review of natural killer cells as possible aged-cell killers (GeroScience, dated 2026-10-01 by a secondary site) proposes experiments and reports no trial."""
 
 [[item]]
 leaf = "a-drug-lengthens-chromosome-ends-in-a-person"
@@ -99,7 +99,7 @@ queries = [
   "Intellia nex-z HLA genotyping finding liver injury FDA enrolment 2026",
   "Intellia Therapeutics news October 2026 gene editing FDA lonvo-z BLA accepted OR nex-z",
 ]
-found = """Nothing dated in the window moves the leaf, but two things before the window are not in the record. First, I opened Intellia's own release of 2026-08-06 (second-quarter results): it says an analysis of more than 600 trial samples tied the highest liver-enzyme rises to patients carrying one particular immune-gene variant (an HLA allele, not named), that the company is discussing it with the regulator, and that it will give genotyping results to trial doctors and patients; enrolment in both late-stage trials has restarted. Second, by trade summaries not checked against a company release, the regulator accepted on 2026-09-08 (priority review, decision date 2027-03-10) the company's licence application for a different in-body editor, lonvo-z, for hereditary angioedema, which is neither an age-related disease nor a disease of DNA damage."""
+found = """Nothing dated in the window moves the treatment, but two things before the window are not in the record. First, I opened Intellia's own release of 2026-08-06 (second-quarter results): it says an analysis of more than 600 trial samples tied the highest liver-enzyme rises to patients carrying one particular immune-gene variant (an HLA allele, not named), that the company is discussing it with the regulator, and that it will give genotyping results to trial doctors and patients; enrolment in both late-stage trials has restarted. Second, by trade summaries not checked against a company release, the regulator accepted on 2026-09-08 (priority review, decision date 2027-03-10) the company's licence application for a different in-body editor, lonvo-z, for hereditary angioedema, which is neither an age-related disease nor a disease of DNA damage."""
 sources = [
   "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-announces-second-quarter-2026-financial",
   "https://www.cgtlive.com/view/lonvo-z-advances-toward-approval-first-in-vivo-crispr-therapy-hereditary-angioedema",
@@ -107,7 +107,7 @@ sources = [
 ]
 for_john = """Two changes I would make. (1) Add to the description that on 2026-08-06 the sponsor reported a link between the worst liver-enzyme rises and one HLA allele and is discussing it with the regulator (Intellia release of 2026-08-06, read). (2) A rule question, not a move: if the lonvo-z application for hereditary angioedema is approved (decision date 2027-03-10 by trade summary), the plain reading of the test says it would not reach the clinic rung, because the test asks for an age-related disease or a disease of DNA damage; I would say so in the notes now so the 2027 approval is not read as a move. No stage change today; I would not change the years. Not mine: both are records older than the window that the entry of 2026-10-16 missed, and the description and notes are the author's. The lonvo-z dates rest on trade summaries and were not checked against the company or the regulator."""
 resolved_on = 2026-10-18
-resolved_by = "Applied in part in the dated batch of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): the description carries the company's liver-enzyme finding of 2026-08-06 (logged as intellia-2026-q2); the second change, on lonvo-z, waits until the company's own release on the regulator's acceptance is opened."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied in part: the description carries the company's liver-enzyme finding of 2026-08-06 (its second-quarter results release, now in the publications log); the second change, on lonvo-z, waits until the company's own release on the regulator's acceptance is opened."
 
 [[item]]
 leaf = "gene-therapy-lengthens-chromosome-ends-in-an-old-animal"
@@ -117,15 +117,15 @@ queries = [
   "telomerase gene therapy old mice telomere extension study new October 2026",
   "Elixirgen EXG-34217 telomere biology disorders update 2026 Cincinnati Children's trial results",
 ]
-found = """First flagged 2026-10-17 and still unruled: whether the 2025 report of two people given their own blood stem cells treated outside the body with the gene ZSCAN4 (NEJM Evidence) counts for the first-human rung is John's reading of the test. Nothing in the window changes the facts; the only new thing is from the search summary of the registry, which I could not open: the ZSCAN4 trial (NCT04211714) was verified in February 2026 as no longer recruiting, with 12 people enrolled and a primary completion date of 2026-10-08, so a fuller report may follow. No start or result was found for the Libella telomerase trial in Colombia, and no new animal paper dated in the window."""
+found = """First flagged 2026-10-17 and still unruled: whether the 2025 report of two people given their own blood stem cells treated outside the body with the gene ZSCAN4 (NEJM Evidence) counts for the first human rung is John's reading of the test. Nothing in the window changes the facts; the only new thing is from the search summary of the registry, which I could not open: the ZSCAN4 trial (NCT04211714) was verified in February 2026 as no longer recruiting, with 12 people enrolled and a primary completion date of 2026-10-08, so a fuller report may follow. No start or result was found for the Libella telomerase trial in Colombia, and no new animal paper dated in the window."""
 sources = [
   "https://clinicaltrials.gov/study/NCT04211714",
   "https://delta.larvol.com/Products/?ProductId=39f77293-e0c6-43de-8424-d587aaa34234",
   "https://www.clinicaltrialsarena.com/news/libella-ageing-gene-therapy-trial/",
 ]
-for_john = """Still waiting on the ruling raised on 2026-10-17: if the ZSCAN4 report counts, the leaf would move one rung from shown-in-animals to first-human; on a plain reading I think it does not (different gene, cells treated outside the body, two people, no cancer rate). New since then: the registry summary gives a primary completion date of 2026-10-08 for that trial, so the data that would settle the question about cancer rate and follow-up may soon appear; I would look at the registry entry at the next reading. Not mine to change because it is a reading of the test."""
+for_john = """Still waiting on the ruling raised on 2026-10-17: if the ZSCAN4 report counts, the treatment would move one rung from shown in animals to first human; on a plain reading I think it does not (different gene, cells treated outside the body, two people, no cancer rate). New since then: the registry summary gives a primary completion date of 2026-10-08 for that trial, so the data that would settle the question about cancer rate and follow-up may soon appear; I would look at the registry entry at the next reading. Not mine to change because it is a reading of the test."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by John's ruling of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): nothing new to write, since the registry's primary completion date of 2026-10-08 is only an estimate; the first-human question raised on 2026-10-17 stays open on the treatment for John."
+resolved_by = "Declined by John's ruling of 2026-10-18, in the change to the records that day: nothing new to write, since the registry's primary completion date of 2026-10-08 is only an estimate; the question raised on 2026-10-17, whether the treatment has reached the first human rung, stays open on the treatment for John to decide."
 
 [[item]]
 leaf = "premature-ageing-mutation-corrected-in-a-living-animal"
@@ -144,7 +144,7 @@ queries = [
   "epigenetic editing silencing human trial results published 2026 Tune-401 OR EPI-003 OR CRISPRoff",
   "epigenetic editor news week of 2026-10-11 to 2026-10-18 hepatitis B PCSK9 gene silencing person"
 ]
-found = """Nothing in the window. The latest human data remains the company's conference presentation of 2026-05-30; no peer-reviewed report or posted registry results appeared. A news feature of 2026-10-06 (before the window) covers an animal study from another company (nChroma Bio, mice and monkeys), which is the animal rung the leaf already holds."""
+found = """Nothing in the window. The latest human data remains the company's conference presentation of 2026-05-30; no peer-reviewed report or posted registry results appeared. A news feature of 2026-10-06 (before the window) covers an animal study from another company (nChroma Bio, mice and monkeys), which is the animal rung the treatment already holds."""
 
 [[item]]
 leaf = "a-cocktail-of-ordinary-drugs-resets-cell-age"
@@ -250,7 +250,7 @@ found = """Nothing in the window: no new controlled trial of a mitochondria-rene
 leaf = "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"
 verdict = "quiet"
 queries = ["semaglutide OR tirzepatide cardiovascular outcomes trial overweight without diabetes results 2026", "FDA approves tirzepatide OR orforglipron cardiovascular indication heart attack stroke prevention"]
-found = """Nothing in the window bears on the leaf's test: no new trial report in people without diabetes, no new approval for heart protection and no new uptake figure. Seen and outside the leaf: the approval of tirzepatide (Mounjaro) to cut heart events in adults with type 2 diabetes in late August 2026 (people with diabetes, so not this test), and a registered insurance-claims comparison of tirzepatide and semaglutide with no results published."""
+found = """Nothing in the window bears on the treatment's test: no new trial report in people without diabetes, no new approval for heart protection and no new uptake figure. Seen and outside this treatment's test: the approval of tirzepatide (Mounjaro) to cut heart events in adults with type 2 diabetes in late August 2026 (people with diabetes, so not this test), and a registered insurance-claims comparison of tirzepatide and semaglutide with no results published."""
 
 [[item]]
 leaf = "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial"
@@ -308,7 +308,7 @@ found = """Nothing new in the window. But the record gives the New England Journ
 sources = ["https://dzhk.de/en/newsroom/news/latest-news/article/new-hope-for-severe-heart-failure-heart-patch-shows-clinical-efficacy", "https://hospimedica.com/surgical-techniques/articles/294810975/bioengineered-heart-patch-improves-cardiac-function-in-advanced-heart-failure.html"]
 for_john = """Check the record's description against the journal page (doi 10.1056/NEJMoa2513525): the date it gives (2026-05-27 against 2026-05-28 elsewhere), and whether the highest-dose group at the three-month check was 12 or 16 people. I would correct the description once someone has read the paper itself; not mine to change from press and abstract-level sources. Neither affects the stage or the years."""
 resolved_on = 2026-10-18
-resolved_by = "Applied in the dated batch of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): the abstract says 16 were given the highest safe dose and 12 of them completed the 3-month interim follow-up, and the description now says so; the date needed no change, since the publication record already gives online 2026-05-27 and issue 2026-05-28."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied: the abstract says 16 were given the highest safe dose and 12 of them completed the 3-month interim follow-up, and the description now says so; the date needed no change, since the paper's entry in the publications log already gives online 2026-05-27 and issue 2026-05-28."
 
 [[item]]
 leaf = "lab-grown-organ-works-in-a-person-for-a-year"
@@ -332,9 +332,9 @@ verdict = "flagged"
 queries = ["colchicine cardiovascular prevention guideline OR uptake OR trial news October 2026", "ziltivekimab ZEUS full results presentation OR publication ESC OR AHA 2026"]
 found = """Nothing dated in the window. But a record older than the window bears on the wide-use rung and the record does not carry it: Germany's Federal Joint Committee resolved on 2026-08-20 that low-dose colchicine, after a recent heart attack, has a hint of a minor added benefit over optimised standard therapy; the notice gives the marketing authorisation as 2025-08-02 and press says it has been on the German market since 2026-03-01. Separately, the full ZEUS results are still unpublished (company says 'later in 2026')."""
 sources = ["https://www.g-ba.de/downloads/39-1464-7968/2026-08-20_AM-RL-XII_Colchicin_D-1302_EN.pdf", "https://www.healio.com/news/cardiology/20260731/ziltivekimab-reduces-inflammation-not-mace-risk-in-patients-with-atherosclerosis-ckd"]
-for_john = """Consider a dated note that colchicine for the heart is authorised and sold in Germany (authorisation 2025-08-02, benefit assessment 2026-08-20), which bears on the wide-use rung's 'several countries'; I opened the Committee's notice (courtesy translation) but the authorisation itself and uptake figures were not seen. No stage change proposed; the leaf stays in clinical use. Not mine to enter."""
+for_john = """Consider a dated note that colchicine for the heart is authorised and sold in Germany (authorisation 2025-08-02, benefit assessment 2026-08-20), which bears on the wide-use rung's 'several countries'; I opened the Committee's notice (courtesy translation) but the authorisation itself and uptake figures were not seen. No stage change proposed; the treatment stays in clinical use. Not mine to enter."""
 resolved_on = 2026-10-18
-resolved_by = "Applied in the dated batch of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): the notes carry the Federal Joint Committee's resolution of 2026-08-20 (logged as g-ba-2026) as an authorisation and benefit assessment, not as uptake; the unsourced market date was left out."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied: the notes carry the Federal Joint Committee's resolution of 2026-08-20 (now in the publications log) as an authorisation and benefit assessment, not as uptake; the unsourced market date was left out."
 
 [[item]]
 leaf = "blocking-one-messenger-protein-makes-old-animals-live-longer"
@@ -384,9 +384,9 @@ verdict = "flagged"
 queries = ["randomised controlled trial slows epigenetic clock biological age published October 2026", "intervention reverses biological age clock placebo trial new results this week"]
 found = """Nothing dated in the window. One older record the notes do not mention: a Nature Medicine paper, reported by Harvard Gazette on 2026-03-09, from the COSMOS trial (958 healthy adults, average age 70) found two years of a daily multivitamin slowed all five epigenetic clocks against placebo (about four months of biological ageing), with two mortality-predicting clocks significant. The press page does not say whether the clock analysis was planned before unblinding."""
 sources = ["https://news.harvard.edu/gazette/story/2026/03/daily-multivitamin-may-slow-biological-aging"]
-for_john = """A record older than the window that the leaf's notes missed. I would log the COSMOS clock paper (Nature Medicine, 2026; Sesso, Dong and colleagues; DOI likely 10.1038/s41591-026-04239-3, unconfirmed) in the publications log and add a line to the notes, once its own page shows whether the clock analysis was pre-specified. If it was planned before unblinding it could meet the first-human test, and the leaf would stay at first human either way (it is already there) so the question is only whether the stage record or the notes should change; if it was post hoc it joins the CALERIE, rentosertib and semaglutide papers as not settling the rung. I read only the Gazette report, not the paper, so authors, title and design are unchecked. Not my call because the test's pre-planning condition is John's to apply."""
+for_john = """A record older than the window that the treatment's notes missed. I would log the COSMOS clock paper (Nature Medicine, 2026; Sesso, Dong and colleagues; DOI likely 10.1038/s41591-026-04239-3, unconfirmed) in the publications log and add a line to the notes, once its own page shows whether the clock analysis was pre-specified. If it was planned before unblinding it could meet the test for the first human rung, and the treatment would stay at first human either way (it is already there) so the question is only whether the record the stage rests on or the notes should change; if it was post hoc it joins the CALERIE, rentosertib and semaglutide papers as not settling the rung. I read only the Gazette report, not the paper, so authors, title and design are unchecked. Not my call because the test's pre-planning condition is John's to apply."""
 resolved_on = 2026-10-18
-resolved_by = "Applied in part in the dated batch of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): the COSMOS paper is logged (li-2026) and noted as a prespecified analysis naming two clocks that slowed; whether it replaces CALERIE as the stage record is filed for John."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied in part: the COSMOS paper (Li, Sesso and colleagues, Nature Medicine, 2026) is logged in the publications log and noted as a prespecified analysis naming two clocks that slowed; whether it replaces CALERIE as the record the stage rests on is left for John to decide."
 
 [[item]]
 leaf = "an-age-for-each-organ-is-read-from-blood-proteins"
@@ -396,7 +396,7 @@ found = """Nothing dated in the window, but two older independent organ-clock pa
 sources = ["https://research.bidmc.org/robert-gerszten/publications/organ-specific-proteomic-aging-clocks-predict-disease-and-longevity-across-diverse", "https://www.news-medical.net/news/20260630/Blood-protein-clocks-flag-higher-risks-of-death-and-chronic-disease.aspx"]
 for_john = """Records older than the window that bear on the open question in the notes (whether two independent groups of over a thousand people are met, and from when). I would log both papers once their own pages are read and add them to the notes as further independent organ-clock reports; I would not move anything, since the stage is already first human and the clinic rung is untouched. Not mine because whether these count as independent validation against calendar age is John's reading of the test. Citations as seen are unchecked for exact titles and dates."""
 resolved_on = 2026-10-18
-resolved_by = "Applied in the dated batch of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): both papers were read in their open full texts, logged (wang-2025, robinson-2026) and noted; the open question on the test stays with John."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied: both papers (Wang, Xiao and colleagues, 2025, and Robinson, Xiao, Homann and colleagues, 2026, both in Nature Aging) were read in their open full texts, logged in the publications log and noted; the open question on the test stays with John."
 
 [[item]]
 claim = "altos-labs-2022-launch"
@@ -416,9 +416,9 @@ verdict = "flagged"
 queries = ["TAME trial metformin ClinicalTrials.gov 2026", "Nir Barzilai metformin aging trial funding October 2026"]
 found = """Nothing dated in the window. A review on fightaging.org (2026-08) says no results have been published and, citing a 2025 interview with Barzilai, that the trial is now handled by ARPA-H (the United States government's health research agency); a blog post of 2026 says enrolment is ongoing. Both are secondary, neither page was opened, and the registry was not reached."""
 sources = ["https://www.fightaging.org/archives/2026/08/a-review-of-the-present-state-of-data-for-metformin-as-a-geroprotective-drug/", "https://www.stackingyears.com/blog/tame-trial-metformin-2026-status-update"]
-for_john = """Lead only, not in the window: two secondary 2026 pages disagree about whether the trial has started (one says enrolment is ongoing, one says on hold, now with ARPA-H). If a primary page (the registry, the American Federation for Aging Research, or the 2025 interview) confirms either, the missed verdict's reasoning in barzilai-2022-tame-starts-this-year would need a note. I would not change the record on press alone; the call on what counts is yours."""
+for_john = """Lead only, not in the window: two secondary 2026 pages disagree about whether the trial has started (one says enrolment is ongoing, one says on hold, now with ARPA-H). If a primary page (the registry, the American Federation for Aging Research, or the 2025 interview) confirms either, the missed verdict's reasoning in the record of Nir Barzilai's 2022 claim that the trial would start that year would need a note. I would not change the record on press alone; the call on what counts is yours."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by John's ruling of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): both pages are secondary and disagree, and the record's primary check of 2026-10-16 stands."
+resolved_by = "Declined by John's ruling of 2026-10-18, in the change to the records that day: both pages are secondary and disagree, and the record's primary check of 2026-10-16 stands."
 
 [[item]]
 claim = "brenner-2022-age-reversal-an-old-grift"
@@ -432,9 +432,9 @@ verdict = "flagged"
 queries = ["Calico Life Sciences October 2026", "Calico AbbVie collaboration ended announcement"]
 found = """Nothing dated in the window. Outside it, Endpoints News (via the search summary, page not opened) says a Calico spokesperson confirmed the eleven-year AbbVie partnership had ended and that five assets reached clinical development with more than twenty early programmes remaining; the record says neither company's word on the ending was found. Fierce Biotech and BioSpace repeat the STAT report of 2025-11-12."""
 sources = ["https://endpoints.news/?p=549107", "https://www.fiercebiotech.com/biotech/abbvie-cuts-ties-calico-100-scientists-after-11-year-partnership", "https://www.biospace.com/business/abbvie-ends-11-year-relationship-with-calico-lays-off-100"]
-for_john = """Calico's own confirmation (through a spokesperson, to Endpoints News) would be the first word from either company beyond AbbVie's annual report; if the page opens and says so, the notes of calico-2013-launch could add it. Press only until opened; the verdict (unfalsifiable) would not change. First flagged 2026-10-17 for the ending itself; the spokesperson line is new material."""
+for_john = """Calico's own confirmation (through a spokesperson, to Endpoints News) would be the first word from either company beyond AbbVie's annual report; if the page opens and says so, the notes on the claim made at Calico's launch in 2013 could add it. Press only until opened; the verdict (unfalsifiable) would not change. First flagged 2026-10-17 for the ending itself; the spokesperson line is new material."""
 resolved_on = 2026-10-18
-resolved_by = "Applied in part in the dated batch of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): the notes carry the opening of Endpoints News' article of 2025-11-13, in which a Calico spokesperson confirmed the partnership ended; the asset figures from Fierce Biotech were not opened and are left out."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied in part: the notes carry the opening of Endpoints News' article of 2025-11-13, in which a Calico spokesperson confirmed the partnership ended; the asset figures from Fierce Biotech were not opened and are left out."
 
 [[item]]
 claim = "de-grey-2004-first-thousand-year-old"
@@ -558,7 +558,7 @@ found = """Nothing from the Salk Institute or Izpisua Belmonte in 2026 was seen.
 sources = ["https://www.lifebiosciences.com/news/press-releases/", "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/"]
 for_john = """Company releases of 2026-10-01 and 2026-10-08 on the first-in-human trial exist that the record does not carry (the 2026-10-08 one falls before the window; the reading of 2026-10-17 listed the company's releases only to 2026-08-10). The verdict delivered stands. Proposed change: add the 2026-10-08 release to the notes as a progress line, or leave the record as it is. Not mine to decide, since it changes the record's text."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by John's ruling of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): the company's release of 2026-10-08 has been in the publications log (life-biosciences-2026-interim) and in the cell-resetting-genes treatment's record since 2026-10-17, and the claim's verdict is unaffected."
+resolved_by = "Declined by John's ruling of 2026-10-18, in the change to the records that day: the company's release of 2026-10-08 has been in the publications log and in the record of the treatment 'A person receives cell-resetting genes in a registered trial' since 2026-10-17, and the claim's verdict is unaffected."
 
 [[item]]
 claim = "sinclair-2019-lifespan"
@@ -574,7 +574,7 @@ found = """Life Biosciences' own newsroom lists a release of 2026-10-08 with fir
 sources = ["https://www.lifebiosciences.com/news/press-releases/", "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/"]
 for_john = """Same item as for the Salk claim: the company releases of 2026-10-01 and 2026-10-08 are not in the record. The verdict missed stands. Proposed change: add the 2026-10-08 data release to the notes, or leave as is. Not mine to decide since it edits the record."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by John's ruling of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): the same finding as for the Salk claim, already in the publications log and in the treatment's record since 2026-10-17; the claim's verdict is unaffected."
+resolved_by = "Declined by John's ruling of 2026-10-18, in the change to the records that day: the same finding as for the Salk claim, already in the publications log and in the treatment's record since 2026-10-17; the claim's verdict is unaffected."
 
 [[item]]
 claim = "sinclair-2024-dog-supplement"
@@ -584,7 +584,7 @@ found = """A peer-reviewed version of the dog study exists, older than the windo
 sources = ["https://pmc.ncbi.nlm.nih.gov/articles/PMC11137034", "https://doi.org/10.1038/s41598-024-63031-w"]
 for_john = """A record older than the window that the earlier reading missed. The verdict missed stands, and the paper supports it: only one of the company's measures (owner-rated cognition) differed, which is narrower than the claim of proven reversal of ageing. Proposed change: replace the record's reference to the study as an unreviewed online posting with this paper and its numbers (and add it to the publications log if it fits). Not mine to decide since it edits the record and the verdict's reasoning."""
 resolved_on = 2026-10-18
-resolved_by = "Applied in the dated batch of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): the paper is logged (simon-2024) and the claim's notes carry its numbers; the verdict, missed, is unchanged."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied: the paper (Simon and colleagues, Scientific Reports, 2024) is logged in the publications log and the claim's notes carry its numbers; the verdict, missed, is unchanged."
 
 [[item]]
 claim = "unity-2016-senolytic-medicines"
@@ -612,9 +612,9 @@ found = """
 Nothing dated 2026-10-11 to 2026-10-18 was found. But the record does not mention that Bryan Johnson announced on 2026-06-30 (in a post on X, as cited by Wikipedia, which also cites The Independent of 2026-07-06 and the New Zealand Herald of 2026-07-07) that he has an autoimmune disease, which the encyclopaedia page names as autoimmune gastritis. Wikipedia reports he said he would not stop his experiment and that he rejects any link to his regimen; a New York Times piece dated 2026-08-21 is cited for that. Only the encyclopaedia page was opened, not the post or the newspapers."""
 sources = ["https://en.wikipedia.org/wiki/Bryan_Johnson", "https://biztoc.com/x/38033a278c2d1428"]
 for_john = """
-A record older than the window that the entry missed, seen through press and a secondary page only. I would add a dated line to the 'what' paragraph of the Bryan Johnson record that on 2026-06-30 he said in a post that he has an autoimmune disease, once his post or the Independent piece is opened and read; the self-experiment record is for public self-experiments, and this is his own public statement. Not mine to add because it is a statement about a person's health and the page is a secondary source."""
+A record older than the window that the entry missed, seen through press and a secondary page only. I would add a dated line to the paragraph of the Bryan Johnson record that describes what he does, saying that on 2026-06-30 he said in a post that he has an autoimmune disease, once his post or the Independent piece is opened and read; the self-experiment record is for public self-experiments, and this is his own public statement. Not mine to add because it is a statement about a person's health and the page is a secondary source."""
 resolved_on = 2026-10-18
-resolved_by = "Applied in the dated batch of 2026-10-18 (changelog entry 'The first scheduled reading is audited, its thirteen flagged items are ruled, and the procedure is changed'): the self-experiment's text carries the diagnosis he announced, sourced to the NZ Herald piece of 2026-07-06, which was opened and read."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied: the self-experiment's text carries the diagnosis he announced, sourced to the NZ Herald piece of 2026-07-06, which was opened and read."
 
 [[item]]
 experiment = "dave-pascoe"
@@ -674,4 +674,4 @@ Nothing dated in the window, and the leaderboard itself was not opened, so the r
 
 [[later_note]]
 date = 2026-10-18
-text = "Correction to the summary above, made on 2026-10-18 after the audit of this reading (docs/readings/audit-2026-10-18.md). The summary says that where a paper, regulator's notice or release bore on a record, the journal or registry page could not be opened. Several pages of those kinds did open and were read (Intellia's release of 2026-08-06, the Federal Joint Committee's resolution of 2026-08-20, the open copy of the dog paper at PubMed Central), and the procedure says to log them; they were logged only in the batch of 2026-10-18. The window of 2026-10-11 to 2026-10-18 began seven days before the reading, not the day after the previous reading. And the search tool used cannot limit results by date, so 'nothing dated in the window' means that no such result turned up in a news-style search, not that nothing happened."
+text = "Correction to the summary above, made on 2026-10-18 after an audit of this reading on 2026-10-18. The summary says that where a paper, regulator's notice or release bore on a record, the journal or registry page could not be opened. Several pages of those kinds did open and were read (Intellia's release of 2026-08-06, the Federal Joint Committee's resolution of 2026-08-20, the open copy of the dog paper at PubMed Central), and the reading's procedure says to log them; they were logged only in the change to the records on 2026-10-18. The window of 2026-10-11 to 2026-10-18 began seven days before the reading, not the day after the previous reading. And the search tool used cannot limit results by date, so 'nothing dated in the window' means that no such result turned up in a news-style search, not that nothing happened."
