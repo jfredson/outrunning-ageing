@@ -18,6 +18,6 @@ branches = ["worn-out-cells", "damaged-dna", "cell-settings", "broken-proteins",
 moved_range = false
 settled_stage = false
 notes = """
-Bears on every branch; the twelve hallmarks named here are the ones data/branches.toml groups, and
-the validator refuses a grouping that drops or doubles one. Online 2023-01-03; the print issue is
-dated 2023-01-19."""
+Bears on every branch; the twelve hallmarks named here are the ones the site's eight branches
+group, and the project's checking script refuses a grouping that drops or doubles one. Online
+2023-01-03; the print issue is dated 2023-01-19."""

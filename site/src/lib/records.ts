@@ -132,6 +132,12 @@ export interface Revision {
   field: string;
   old: unknown;
   new: unknown;
+  field_words: string;   // the field in plain words ("the likely year to reach clinical use"); field names stay off the pages (2026-10-18)
+  paragraph: boolean;    // a paragraph field (notes, description, reasoning): its old and new text is not printed
+  old_words: string;     // the old and new values with rung keys and statuses in words
+  new_words: string;
+  anchor: string;        // "revision-3", the revision's anchor on its treatment's page
+  path: string;
   why: string;
   publication: PublicationRef | null;
 }
@@ -254,7 +260,7 @@ export interface Experiment {
 }
 
 export interface SettledRung extends LeafRef { rung: StageKey; rung_label: string }
-export interface MovedRange extends LeafRef { date: string; field: string; old: unknown; new: unknown; why: string }
+export interface MovedRange extends LeafRef { date: string; field: string; field_words: string; paragraph: boolean; old: unknown; new: unknown; old_words: string; new_words: string; why: string }
 export interface Publication {
   id: string;
   title: string;
@@ -297,6 +303,19 @@ export interface Story {
   moved_estimate: number;
   days: string[];
   changelog: { source: string; intro: string; days: { date: string; items: string[] }[] };
+  what_changed: ChangedDay[];
+}
+// The story page's "what changed" section: one line per day, built from the records' own flags (John's ruling of 2026-10-18).
+interface NamedLink { id: string; name: string; path: string }
+export interface ChangedDay {
+  date: string;
+  moves: { leaf: NamedLink; from: string; to: string; path: string }[];
+  ranges: ({ leaf: NamedLink; goal: string; path: string } & (
+    { kind: 'revised'; changes: { which: 'earliest' | 'likely' | 'latest'; old: number; new: number }[] } |
+    { kind: 'set'; years: string }))[];
+  papers: number;
+  readings: { id: string; path: string }[];
+  wording: boolean;      // true on a day whose only changes were to wording
 }
 
 export interface ReadingItem {

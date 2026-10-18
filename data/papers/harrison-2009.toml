@@ -21,8 +21,8 @@ branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = true
 notes = """
-Intended leaf: a drug makes people live longer in good health (rapamycin), under energy and fuel
-sensing; this is its animal record. The paper attaches no percentage to median lifespan: the 14
-and 9 percent figures are for the age at 90 percent mortality, and the 13 and 9 percent for mean
-lifespan, so a line reading "median lifespan up 14 percent" would mislabel the figure. Online
-2009-07-08; the print issue is dated 2009-07-16."""
+Logged for the treatment "A drug makes people live longer in good health" (rapamycin), on the
+energy and fuel sensing branch; this is its animal record. The paper attaches no percentage to
+median lifespan: the 14 and 9 percent figures are for the age at 90 percent mortality, and the
+13 and 9 percent for mean lifespan, so a line reading "median lifespan up 14 percent" would
+mislabel the figure. Online 2009-07-08; the print issue is dated 2009-07-16."""

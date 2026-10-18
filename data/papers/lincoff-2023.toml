@@ -22,7 +22,8 @@ branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: a GLP-1 drug with an ageing endpoint, under energy and fuel sensing; this is the
-result that made such a trial thinkable, not that trial. Sixteen named authors write for the
-SELECT Trial Investigators, who are listed as a group. Funded by Novo Nordisk; registered as
-NCT03574597. Online 2023-11-11; print issue 2023-12-14."""
+Logged for the treatment planned as a GLP-1 drug with an ageing endpoint (a trial judged on a
+measure of ageing), on the energy and fuel sensing branch; this is the result that made such a
+trial thinkable, not that trial. Sixteen named authors write for the SELECT Trial
+Investigators, who are listed as a group. Funded by Novo Nordisk; registered as NCT03574597.
+Online 2023-11-11; print issue 2023-12-14."""

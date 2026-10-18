@@ -19,7 +19,8 @@ branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: a drug makes people live longer in good health (rapamycin), under energy and fuel
-sensing; the dog trial is the step between harrison-2009 in mice and any trial in people. The
-project's founding paper proper, with the study's design and first enrolment, is creevy-2022.
-Online 2016-05-03; the print issue is August 2016."""
+Logged for the treatment "A drug makes people live longer in good health" (rapamycin), on the
+energy and fuel sensing branch; the dog trial is the step between the 2009 study in mice by
+Harrison and colleagues and any trial in people. The project's founding paper proper, with the
+study's design and first enrolment, is the 2022 paper by the Dog Aging Project Consortium
+(Creevy and colleagues). Online 2016-05-03; the print issue is August 2016."""

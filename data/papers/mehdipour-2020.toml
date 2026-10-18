@@ -21,6 +21,7 @@ branches = ["inflammation-and-signalling"]
 moved_range = false
 settled_stage = true
 notes = """
-Intended leaf: plasma exchange or dilution with a measured effect in people, under inflammation
-and the body's messaging. The animal founding paper is conboy-2005 from the same group; the
-young-plasma trial in Alzheimer's is sha-2019."""
+Logged for the treatment planned as plasma exchange or dilution with a measured effect in
+people, on the branch for inflammation and the body's messaging. The animal founding paper is
+the 2005 paper by Conboy and colleagues from the same group; the young-plasma trial in
+Alzheimer's is the report by Sha and colleagues (2019)."""

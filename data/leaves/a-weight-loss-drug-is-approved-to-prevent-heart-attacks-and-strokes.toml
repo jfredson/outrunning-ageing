@@ -13,7 +13,7 @@ diabetes found that semaglutide cut heart attacks, strokes and heart deaths by a
 years, with fewer deaths from any cause. On 8 March 2024 the United States regulator approved it
 for that purpose, the first time a weight-loss drug was approved to prevent an age-related disease
 rather than to treat weight. Whether the drugs slow ageing itself is not shown; whether they are
-the closest thing in wide use to a drug that does is the question the leaf tracks."""
+the closest thing in wide use to a drug that does is the question the entry tracks."""
 test = """
 A controlled trial in people without diabetes reports that a GLP-1 drug lowers death from any
 cause, or heart attacks and strokes, more than placebo, in a peer-reviewed report. For the clinic
@@ -28,13 +28,13 @@ status = "tracked"
 horizon = "near"
 
 notes = """
-Semaglutide for weight loss alone is in wide use by any measure; the leaf's test is narrower, the
+Semaglutide for weight loss alone is in wide use by any measure; this entry's test is narrower, the
 approval to prevent an age-related disease, and the record keeps that rung at clinical use until
 uptake figures for that purpose are in hand. The drugs' effect on measures of biological age was
 being studied when this was written and has no peer-reviewed result; if one comes it belongs on
-the measuring branch's clock-slowing leaf, not here.
+the measuring branch's entry on a treatment slowing a clock, not here.
 Added 2026-10-17, from the weekly reading of that date: the first published uptake figure for the
-heart-prevention purpose is a study in the American Journal of Managed Care (scannell-2026,
+heart-prevention purpose is a study in the American Journal of Managed Care (Scannell and colleagues,
 2026-07-09), using national prescription counts to September 2024. Wegovy fills rose 136 per cent
 after the approval of 2024-03-08 and Medicare coverage, yet six months after Medicare plans began
 covering it only 32,732 prescriptions had been filled, under 1 per cent of an estimated 3.6 million
@@ -57,11 +57,11 @@ arrived; the likely year for wide use on the heart-prevention indication is 2029
 allows that it is already met once uptake is counted, and the latest allows for the indication
 staying a label line that few prescribers use.
 [Note 2026-10-17, from the weekly reading of that date: the first published uptake figure for this
-purpose (scannell-2026) is under 1 per cent of eligible Medicare beneficiaries six months after
+purpose (Scannell and colleagues, 2026) is under 1 per cent of eligible Medicare beneficiaries six months after
 coverage began, with data to September 2024. That points the other way from the earliest year of
 2027 above, which assumed uptake might already count. The years are unchanged; John may want to weigh
 moving the earliest wide-use year later at the next review.]
-[Note 2026-10-17, ruled by John on the outside review's item 9: the wide-use earliest year moved from 2027 to 2030 and the likely year from 2029 to 2033. The record's one published uptake figure (scannell-2026: under 1 per cent of eligible Medicare beneficiaries six months after coverage began) says the earliest's assumption, that uptake might already count, does not hold, and a substantial share of eligible people in several countries takes years of payer coverage and prescribing habit. The latest of 2040 stays. This rung is shown on the page and not drawn by the headline.]
+[Note 2026-10-17, ruled by John on an outside review's proposal: the wide-use earliest year moved from 2027 to 2030 and the likely year from 2029 to 2033. The record's one published uptake figure (Scannell and colleagues, 2026: under 1 per cent of eligible Medicare beneficiaries six months after coverage began) says the earliest's assumption, that uptake might already count, does not hold, and a substantial share of eligible people in several countries takes years of payer coverage and prescribing habit. The latest of 2040 stays. This rung is shown on the page and not drawn by the headline.]
 """
 
 [[estimate.rung]]
@@ -75,7 +75,7 @@ date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, from the weekly reading of that date: the first published uptake figure for the heart-prevention purpose is a study in the American Journal of Managed Care (scannell-2026, 2026-07-09), using national prescription counts to September 2024. Wegovy fills rose 136 per cent after the approval of 2024-03-08 and Medicare coverage, yet six months after Medicare plans began covering it only 32,732 prescriptions had been filled, under 1 per cent of an estimated 3.6 million eligible beneficiaries. It is one country and one payer, and the data end in September 2024. It does not change the stage."
-why = "[reading 2026-10-17] Records the first published uptake figure, which the notes said was still to come."
+why = "The weekly reading of 2026-10-17 recorded the first published uptake figure, which the notes said was still to come."
 publication = "scannell-2026"
 
 [[revision]]
@@ -83,7 +83,7 @@ date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
 new = "[Note 2026-10-17, from the weekly reading of that date: the first published uptake figure for this purpose (scannell-2026) is under 1 per cent of eligible Medicare beneficiaries six months after coverage began, with data to September 2024. That points the other way from the earliest year of 2027 above, which assumed uptake might already count. The years are unchanged; John may want to weigh moving the earliest wide-use year later at the next review.]"
-why = "[reading 2026-10-17] A dated note that the first uptake figure undercuts the premise behind the earliest wide-use year; no year changed."
+why = "The weekly reading of 2026-10-17 added a dated note that the first uptake figure undercuts the premise behind the earliest wide-use year; no year changed."
 publication = "scannell-2026"
 
 [[revision]]
@@ -98,7 +98,7 @@ date = 2026-10-17
 field = "estimate.rung.in-wide-use.earliest"
 old = 2027
 new = 2030
-why = "Ruled by John 2026-10-17 on the outside review's item 9 (docs/reviews/2026-10-17-rulings.md): the earliest assumed uptake for the heart-prevention purpose might already count, and the one published figure (Scannell and colleagues, American Journal of Managed Care, 2026-07-09, https://doi.org/10.37765/ajmc.2026.89983) says it does not: under 1 per cent of an estimated 3.6 million eligible Medicare beneficiaries six months after coverage began. The weekly reading of 2026-10-17 had flagged the same thing."
+why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: the earliest assumed uptake for the heart-prevention purpose might already count, and the one published figure (Scannell and colleagues, American Journal of Managed Care, 2026-07-09, https://doi.org/10.37765/ajmc.2026.89983) says it does not: under 1 per cent of an estimated 3.6 million eligible Medicare beneficiaries six months after coverage began. The weekly reading of 2026-10-17 had flagged the same thing."
 publication = "scannell-2026"
 
 [[revision]]
@@ -106,7 +106,7 @@ date = 2026-10-17
 field = "estimate.rung.in-wide-use.likely"
 old = 2029
 new = 2033
-why = "Ruled by John 2026-10-17 on the outside review's item 9: a substantial share of eligible people in several countries takes years of payer negotiation and prescribing habit after an approval, and the only uptake figure in the record is far below the bar; the latest of 2040 stays."
+why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: a substantial share of eligible people in several countries takes years of payer negotiation and prescribing habit after an approval, and the only uptake figure in the record is far below the bar; the latest of 2040 stays."
 publication = "scannell-2026"
 
 [[revision]]
@@ -114,7 +114,7 @@ date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning)"
 new = "[Note 2026-10-17, ruled by John on the outside review's item 9: the wide-use earliest year moved from 2027 to 2030 and the likely year from 2029 to 2033 ...]"
-why = "Ruled by John 2026-10-17 on the outside review's item 9: the reasoning now says what moved and why."
+why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: the reasoning now says what moved and why."
 publication = "scannell-2026"
 
 [[revision]]
@@ -122,4 +122,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and raised item 9 on this range, accepted by John on 2026-10-17 (docs/reviews/2026-10-17-rulings.md): the wide-use earliest and likely years moved to 2030 and 2033 (see the revisions above). With every item of the review ruled, the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) proposed a change to this range, which John accepted on 2026-10-17: the wide-use earliest and likely years moved to 2030 and 2033 (see the revisions above). With every point of the review ruled, the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say."

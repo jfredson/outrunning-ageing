@@ -16,16 +16,17 @@ philanthropist Paul Glenn, the National Institute on Aging having twice turned d
 for the rest, and the remainder, "very recently", from an anonymous donor. De Grey, no admirer of
 metformin as a treatment, argues the trial is worth the money because it would establish ageing as
 something a regulator lets a drug be tested against. Seven years on, the trial has not started
-(afar-2026)."""
+(the American Federation for Aging Research's
+own page for the trial)."""
 leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes", "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat"]
 branches = ["energy-and-fuel", "measuring-age"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaves: the TAME trial enrolling, under energy and fuel sensing, and a regulator accepting
-ageing as something a drug can be tested against, under measuring ageing. Kept because it is a
-dated, published statement that the money was in hand, against which the later record (afar-2026)
-can be read.
+Logged for the entries planned as the TAME trial enrolling, on the energy and fuel sensing branch,
+and a regulator accepting ageing as something a drug can be tested against, on the measuring ageing
+branch. Kept because it is a dated, published statement that the money was in hand, against which
+the later record (the American Federation for Aging Research's own page for the trial) can be read.
 
 Checked 2026-10-17 against the editorial itself, which is free to read on the publisher's page (https://doi.org/10.1089/rej.2019.2274; first published online 2019-10-09, issue of October 2019, pages 375 to 376). It says that nearly half of the required 75 million dollars was pledged by Paul Glenn through the American Federation for Aging Research, that the National Institute on Aging twice rejected applications for the remaining money, and that the remaining support "materialized very recently, courtesy of an anonymous donor".
 """

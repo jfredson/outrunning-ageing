@@ -11,7 +11,7 @@ whether clearing them adds life. In 2016 a Mayo Clinic group bred mice in which 
 killed on command from middle age on, and the mice lived about a quarter longer and stayed
 healthier; in 2018 the same group gave old ordinary mice a two-drug course that kills such cells
 and the mice lived longer from that point. No human result of that kind exists, because a trial
-that could show it would take many years, and that gap is what this leaf tracks."""
+that could show it would take many years, and that gap is what this entry tracks."""
 test = """
 A peer-reviewed, controlled trial in people reports that those given a drug meant to kill aged
 cells lived longer, or stayed free of age-related disease longer, than those given a placebo, by
@@ -27,8 +27,8 @@ status = "tracked"
 horizon = "far"
 
 notes = """
-This is the lifespan leaf for the branch; the measurement leaf (fewer aged cells in a person) and
-the clinical-benefit leaf (a controlled trial won) are separate, because a drug can clear the
+This is the branch's lifespan entry; the measurement entry (fewer aged cells in a person) and
+the clinical-benefit entry (a controlled trial won) are separate, because a drug can clear the
 cells and help a knee without adding a year to anyone's life. The 2018 result is the one that
 matters most for people, since it used ordinary mice and ordinary drugs, and it is in the notes
 rather than the record because the 2016 engineered-mouse result came first."""
@@ -62,4 +62,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. John ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."

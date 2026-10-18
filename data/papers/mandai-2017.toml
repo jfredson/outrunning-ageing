@@ -20,7 +20,7 @@ branches = ["replacing-parts"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: a stem cell therapy restores a lost function in a controlled trial, under replacing
-lost cells and parts; this is a first-human safety record, not a restored function or a controlled
-trial. Thirty-nine authors; Mandai, Watanabe and Kurimoto contributed equally. Registered as
-UMIN000011929."""
+Logged for the treatment planned as a stem cell therapy restores a lost function in a controlled
+trial, on the branch for replacing lost cells and parts; this is a safety record from the first
+person treated, not a restored function or a controlled trial. Thirty-nine authors; Mandai,
+Watanabe and Kurimoto contributed equally. Registered as UMIN000011929."""

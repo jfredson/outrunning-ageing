@@ -123,7 +123,7 @@ const docs = [
               );
             })}
           </svg>
-          <p class="chart-source">Source: the computed result in the public repository (data/headline.json), {longDate(h.computed_on)}, also served from this site at <a href={h.served_at}>{h.served_at}</a>. Each span is labelled with its first year; the last bar is every run after {fixed.century_end}.</p>
+          <p class="chart-source">Source: <a href={`${REPO}/blob/main/data/headline.json`} rel="noopener">the computed result</a> in the public repository, {longDate(h.computed_on)}, also served from this site at <a href={h.served_at}>{h.served_at}</a>. Each span is labelled with its first year; the last bar is every run after {fixed.century_end}.</p>
         </div>
 
         {run && (
@@ -206,13 +206,13 @@ const docs = [
       {docs.map((d) => (
         <li>
           <span class="preface">A working document, published as written</span>
-          <h3><a href={`${REPO}/blob/main/${d.file}`} rel="noopener">{d.title}</a> <span class="dim" style="font-weight: 400;">({d.file})</span></h3>
+          <h3><a href={`${REPO}/blob/main/${d.file}`} rel="noopener">{d.title}</a></h3>
           <p>{d.what}</p>
         </li>
       ))}
     </ul>
     <p class="dim" style="font-size: 14px;">
-      Cite as: Fredrickson, J. (2026). <em>Outrunning Ageing</em> [dataset]. Version of {records.exported_on}{records.commit ? `, commit ${records.commit}` : ''}. https://outrunningageing.com. The records are free to reuse with credit, and the code is under the MIT licence. {h.available ? `As the site stands the chance before ${fixed.before} is ${percentWords(h.before_2050)}.` : ''}
+      Cite as: Fredrickson, J. (2026). <em>Outrunning Ageing</em> [dataset]. Version of {records.exported_on}. https://outrunningageing.com. The records are free to reuse with credit, and the code is under the MIT licence. {h.available ? `As the site stands the chance before ${fixed.before} is ${percentWords(h.before_2050)}.` : ''}
     </p>
   </section>
 </Base>

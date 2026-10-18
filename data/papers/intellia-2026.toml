@@ -15,7 +15,7 @@ branches = ["damaged-dna"]
 moved_range = false
 settled_stage = false
 notes = """
-Added under the weekly reading of 2026-10-17 to carry the correction to the gene-editing entry's description. The restart date in the entry (March 2026) matches the release.
+Added during the weekly reading of 2026-10-17 as the source for the correction to the description of the treatment "A gene is edited inside a person's body to stop an age-related disease". The restart date in that description (March 2026) matches the release.
 
 Checked 2026-10-17. The release does not mention the patient's death, so the death and its cause are sourced to the company's other written statements. Its report to the United States securities regulator of 2026-01-09 (Form 8-K, item 8.01, https://www.sec.gov/Archives/edgar/data/1652130/000119312526008307/d15047d8k.htm) says the patient, dosed in the heart trial, died on 2025-11-05, that the trial's lead doctor reported death from septic shock after a perforated duodenal ulcer, that the patient's course also included acute liver injury and its treatment with steroids, and that an autopsy supported the clinical diagnoses. The company's annual report filed 2026-02-26 repeats the passage. Its quarterly report filed 2025-11-06 first records that the patient passed away on 2025-11-05 and that an investigation was under way. The patient's age and sex, the early trade reports linking the death to the liver event, and the chief executive's remark at a January 2026 investor conference that the death was not from liver failure rest only on the trade press and were removed from the record on 2026-10-17 for want of a company statement. The trial registry's entry (NCT06128629) was not used for the death.
 """

@@ -15,7 +15,7 @@ trial finishes in years, not decades. A drug approved to lengthen a dog's life w
 approval of its kind in any species. One company, Loyal, has taken three such drugs to the United
 States veterinary regulator and has had the regulator accept that each can reasonably be expected
 to work. None has yet been approved, and none has yet been shown to lengthen dogs' lives in a
-published, peer-reviewed report. The leaf sits beside the human ones on this branch because it is
+published, peer-reviewed report. The treatment sits beside the human ones on this branch because it is
 the first place a regulator is being asked to put "extends lifespan" on a label."""
 test = """
 A regulator (the United States Food and Drug Administration's Center for Veterinary Medicine, or
@@ -33,7 +33,7 @@ status = "tracked"
 horizon = "near"
 
 notes = """
-Why the stage is idea only (ruled by John on 2026-10-17 as the verify session proposed). The ladder is written for treatments
+Why the stage is idea only (ruled by John on 2026-10-17, as proposed to him after a check of the record). The ladder is written for treatments
 meant for people, and its second rung asks for a peer-reviewed report that the treatment works in
 a living animal. Loyal has given the drug to more than 400 dogs in safety work and to 48 in a
 three-month pilot, and the regulator has accepted that the company's data give a reasonable
@@ -48,19 +48,20 @@ credit a private data package that no reader can check, so it was not taken.
 What counts as the clinic. Under the regulator's expanded conditional approval route a drug may
 be conditionally approved on full safety data, full manufacturing data and a reasonable
 expectation of effectiveness, for up to five years while the full trial finishes, and a
-veterinarian may prescribe it as normal in that time. This leaf counts such an approval as the
-clinic rung, which is a lower bar than the human leaves on this branch clear; a stricter test
+veterinarian may prescribe it as normal in that time. This entry counts such an approval as the
+clinic rung, which is a lower bar than the human treatments on this branch clear; a stricter test
 would wait for the full approval, perhaps two years later than the estimate. It is a judgment
 call, and John ruled on 2026-10-17 that the conditional approval counts as the clinic rung.
-What this does to the headline. The leaf is on the energy and fuel branch because the drug
+What this does to the headline. The treatment is on the energy and fuel branch because the drug
 (LOY-002) is said to act on the metabolic dysfunction of ageing, and because the claims log
-already files the Loyal claim there. Its early clinic estimate would make it the second leaf of
-that branch to reach the clinic, so the branch would count as handled much earlier than before.
-Run `scripts/compute.py run` to see the effect; the verify session's report to John gives the
-numbers before and after. An approval for dogs says nothing yet about people, which is the other
-reason this leaf was put to John; he ruled on 2026-10-17 that the leaf stands with the stage idea
-only and the estimate as proposed (earliest 2027, likely 2028, latest 2032).
-Related: loyal-2025-senior-dog-approval-by-end-of-2025 (the end-of-2025 promise, missed).
+already files the Loyal claim there. Its early clinic estimate would make it the second treatment
+on that branch to reach the clinic, so the branch would count as handled much earlier than before.
+The site's headline computation shows the effect; the report on the check of this record, put to
+John, gave the numbers before and after. An approval for dogs says nothing yet about people, which
+is the other reason this treatment was put to John; he ruled on 2026-10-17 that the entry stands
+with the stage idea only and the estimate as proposed (earliest 2027, likely 2028, latest 2032).
+Related: Loyal's claim of 2025-02-26, in the claims log, that its senior-dog drug's application
+would be complete by the end of 2025 (the promise, missed).
 Checked on 2026-10-17 against the regulator's own news list and the company's own pages. The United
 States veterinary regulator's list of its announcements, which runs to 2026-09-30
 (https://www.fda.gov/animal-veterinary/news-events/cvm-updates), shows no approval or conditional
@@ -109,4 +110,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

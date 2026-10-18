@@ -11,7 +11,7 @@ The genes that can partially reset a cell's age had been tried only in animals u
 early-stage trial of ER-100, three of the four resetting genes carried into the nerve cells at the
 back of the eye by a harmless virus, in people with glaucoma or a sudden loss of blood supply to
 the optic nerve. The trial is a safety study of about eighteen people, followed for up to five
-years. This leaf counts the dose; whether it reversed anything is the test of the leaf it sits
+years. This entry counts the dose; whether it reversed anything is the test of the entry it sits
 beside, because a company announcing a dose and a journal reporting a reversal are different
 events and the tree should say so."""
 test = """
@@ -28,19 +28,19 @@ status = "tracked"
 horizon = "mid"
 
 notes = """
-The companion leaf, partially resetting cells reverses ageing in a living animal, is the one
-shared with The Upgrade Tree and the one that needs a measured result in a person; this leaf
+The companion entry, partially resetting cells reverses ageing in a living animal, is the one
+shared with The Upgrade Tree and the one that needs a measured result in a person; this entry
 exists so that the June 2026 dose is on the record at the rung it earned. A press release is not
-normally a settler on this site; for the bare fact of a dose, the sponsor's dated notice and the
+normally the kind of record that settles a stage on this site; for the bare fact of a dose, the sponsor's dated notice and the
 registry are the only records there are, and the test says so. The trial's ClinicalTrials.gov entry (NCT07290244) gives a study start of 2026-03-02 and an estimated enrolment of 18.
 Added 2026-10-17, from the weekly reading of that date: on 2026-10-08 the company announced
-interim results from the first three people with glaucoma (life-biosciences-2026-interim): no serious
+interim results from the first three people with glaucoma (the company's release of that date): no serious
 adverse events by day 56, a safety board's recommendation to move to the second dose level, and a
 preliminary improvement in the visual field in two of the three. It is a company announcement of an
 open-label safety trial; this entry counts the dose, which was already on the record, so the stage does
 not change.
-No earlier stage is recorded because this leaf's test has no animal rung of its own: it asks for a dose to a person in a registered
-trial. The animal work on the same genes is carried by the companion leaf, whose stage record is the 2016 Cell paper
+No earlier stage is recorded because this entry's test has no animal rung of its own: it asks for a dose to a person in a registered
+trial. The animal work on the same genes is carried by the companion entry, whose record for its stage is the 2016 Cell paper
 (https://doi.org/10.1016/j.cell.2016.11.052) and which describes the 2020 mouse eye work (https://doi.org/10.1038/s41586-020-2975-4);
 it is not repeated here (checked 2026-10-17).
 """
@@ -66,7 +66,7 @@ date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, from the weekly reading of that date: on 2026-10-08 the company announced interim results from the first three people with glaucoma (life-biosciences-2026-interim): no serious adverse events by day 56, a safety board's recommendation to move to the second dose level, and a preliminary improvement in the visual field in two of the three. It is a company announcement of an open-label safety trial; this entry counts the dose, which was already on the record, so the stage does not change."
-why = "[reading 2026-10-17] Notes the interim data of 2026-10-08, which the record of 2026-10-16 did not mention."
+why = "The weekly reading of 2026-10-17 noted the interim data of 2026-10-08, which the record of 2026-10-16 did not mention."
 publication = "life-biosciences-2026-interim"
 
 [[revision]]
@@ -74,4 +74,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

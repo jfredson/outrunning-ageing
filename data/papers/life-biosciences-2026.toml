@@ -20,9 +20,9 @@ branches = ["cell-settings"]
 moved_range = false
 settled_stage = true
 notes = """
-Intended leaf: a first person dosed with a reprogramming therapy (the cell's settings branch).
-The animal result behind it is the 2020 optic nerve paper, lu-2020. The company's earlier release
-of 2026-01-28 announced the FDA's clearance to start the trial and called ER-100 the first
-reprogramming therapy cleared for human trials. The registry entry (last updated 2026-05-19) says
-the trial started on 2026-03-02 and gives the doses; the release itself gives no site, dose or
-participant count."""
+Logged for the treatment "A person receives cell-resetting genes in a registered trial", on the
+branch for the cell's settings. The animal result behind it is the 2020 optic nerve paper by Lu
+and colleagues. The company's earlier release of 2026-01-28 announced the FDA's clearance to
+start the trial and called ER-100 the first reprogramming therapy cleared for human trials. The
+registry entry (last updated 2026-05-19) says the trial started on 2026-03-02 and gives the
+doses; the release itself gives no site, dose or participant count."""

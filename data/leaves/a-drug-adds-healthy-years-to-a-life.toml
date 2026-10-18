@@ -39,9 +39,9 @@ saved by the Internet Archive on 2026-07-04, still listed "Raising Funds to Laun
 (https://web.archive.org/web/20260704152538/https://www.afar.org/tame-trial). That page no longer loads
 on the sponsor's site, and a search of ClinicalTrials.gov by title and by sponsor on 2026-10-17 found
 no entry for the trial. The Upgrade
-Tree keeps the same leaf at shown in animals; the weekly reading checks the two stages agree. The
-separate leaves on this branch for rapamycin, metformin and the GLP-1 drugs hold the narrower
-human results; this one holds the lifespan question itself."""
+Tree, a sister site, keeps the same treatment at shown in animals; the weekly reading checks that
+the two stages agree. The separate entries on this branch for rapamycin, metformin and the GLP-1
+drugs hold the narrower human results; this one holds the lifespan question itself."""
 
 [estimate]
 status = "reviewed"
@@ -51,7 +51,7 @@ A trial that could show extra healthy years in people needs thousands of partici
 of a decade, and the one designed for it has waited since 2015 for money. The likely year for the
 first human assumes such a trial, of metformin or a successor, starts by 2029 and reads out
 positive in the late 2030s; the clinic rung follows a few years later, likely in the mid 2040s.
-The earliest assumes a regulator accepts a marker of ageing as proof (a leaf on the measuring
+The earliest assumes a regulator accepts a marker of ageing as proof (an entry on the measuring
 branch) and a shorter trial reads out in the early 2030s; the latest allows for the trial never
 being funded and the rung reached, if at all, by a drug approved for something else and then
 shown to add years in a records study late in the century."""
@@ -80,4 +80,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

@@ -20,6 +20,7 @@ branches = ["worn-out-cells"]
 moved_range = false
 settled_stage = true
 notes = """
-Intended leaf: a drug clears aged cells from a person (animal record for lifespan, where baker-2011
-is the record for healthy life). The percentages are in the results text, not the abstract, which
-gives none. Online 2016-02-03; the print issue is dated 2016-02-11."""
+Logged for the treatment planned as a drug clears aged cells from a person (the animal record for
+lifespan, where the 2011 paper by Baker and colleagues is the record for healthy life). The
+percentages are in the results text, not the abstract, which gives none. Online 2016-02-03; the
+print issue is dated 2016-02-11."""

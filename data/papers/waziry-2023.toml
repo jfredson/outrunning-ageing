@@ -21,10 +21,11 @@ branches = ["measuring-age", "energy-and-fuel"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaves: a clock validated to predict outcomes and used as a trial measure, under measuring
-ageing; and the fuel-sensing branch, since calorie restriction is the intervention the rapamycin
-and metformin leaves imitate. A correction appeared on 2023-05-09 (Nature Aging 3(6), 753) and was
-not read here. Online 2023-02-09; the print issue is March 2023.
-Ruled by John on 2026-10-17: this paper does not settle the rung of the clock-in-a-controlled-trial
-leaf, because it calls its own clock analysis post hoc and the leaf's test asks for one planned in
-advance; settled_stage stays false."""
+Logged for the treatment planned as a clock validated to predict outcomes and used as a trial measure,
+on the measuring ageing branch; and the energy and fuel sensing branch, since calorie restriction is
+the intervention the rapamycin and metformin treatments imitate. A correction appeared on 2023-05-09
+(Nature Aging 3(6), 753) and was not read here. Online 2023-02-09; the print issue is March 2023.
+John ruled on 2026-10-17 that this paper does not settle the stage of the treatment "A treatment
+slows a biological age clock in a controlled trial", because it calls its own clock analysis post hoc
+(decided on after the data were in) and the treatment's test asks for one planned in advance; so it is
+not marked as the paper that settles that stage."""

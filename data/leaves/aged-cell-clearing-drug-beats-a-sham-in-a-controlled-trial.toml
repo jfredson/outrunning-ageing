@@ -8,7 +8,7 @@ name = "A drug that clears aged cells beats a sham treatment in a controlled tri
 branch = "worn-out-cells"
 description = """
 Clearing aged cells (cells that have stopped dividing but will not die, and inflame their
-neighbours) from a person is one thing; making a person measurably better is another. This leaf
+neighbours) from a person is one thing; making a person measurably better is another. This entry
 is the second: a controlled trial in which people given such a drug do better on the trial's main
 measure than people given a sham or placebo. The first such result came in a small trial in the
 eye: in 2022 the company Unity Biotechnology reported that a single injection of its drug UBX1325
@@ -34,13 +34,13 @@ status = "tracked"
 horizon = "mid"
 
 notes = """
-The animal record is shared with the aged-cell leaf that is the worked example: the 2011 Mayo
-Clinic report in which clearing such cells from mice delayed several age-related conditions. The
+The animal record is shared with the entry on clearing aged cells to make old animals live
+longer: the 2011 Mayo Clinic report in which clearing such cells from mice delayed several age-related conditions. The
 knee osteoarthritis trial of Unity's earlier drug UBX0101 failed its main measure in 2020; the
 2022 eye result was the first controlled human result in the drug class, a small trial of one dose;
-the 2026 liver result (koning-2026) is a second, with a by-mouth two-drug course in a different organ.
+the 2026 liver result (Koning and colleagues, Nature Metabolism) is a second, with a by-mouth two-drug course in a different organ.
 It too is small (31 people) and in one condition, run by an academic group, with two of its authors
-holding patents on drugs of this class. Two other leaves on this branch hold the measurement result (fewer aged cells in a
+holding patents on drugs of this class. Two other entries on this branch hold the measurement result (fewer aged cells in a
 tissue sample) and the knee result; this one holds the clinical benefit."""
 
 [[earlier_stage]]
@@ -61,7 +61,7 @@ and approval follows in two or three years; the earliest assumes the UBX1325 ass
 and a confirmatory trial starts within two years; the latest allows for the whole first generation
 failing on safety or effect and a second generation starting over.
 [Note 2026-10-17, from the weekly reading of that date: the reasoning above counts one positive
-controlled trial. Two now exist, the 2022 eye trial and the 2026-10-01 liver trial (koning-2026),
+controlled trial. Two now exist, the 2022 eye trial and the 2026-10-01 liver trial (Koning and colleagues),
 each small and in a single organ. The years are unchanged; John may want to weigh the second
 trial at the next review of the ranges.]
 """
@@ -83,7 +83,7 @@ date = 2026-10-17
 field = "description"
 old = "peer-reviewed journal in 2025. The follow-on trial against the standard drug missed its main goal in 2025 and the company let its staff go, so the result stands but nothing is approved."
 new = "peer-reviewed journal in 2025. The follow-on trial against the standard drug missed its main goal in 2025 and the company let its staff go, so the result stands but nothing is approved. A second controlled result came on 2026-10-01: in a phase 2 trial in Amsterdam, 31 people with scarred fatty liver were given a by-mouth course of two drugs that clear aged cells (dasatinib and quercetin) or a placebo, and 47 per cent of those treated, against 7 per cent on placebo, had at least one stage less scarring on biopsy without the disease worsening."
-why = "[reading 2026-10-17] Adds the Amsterdam liver trial (Nature Metabolism, 2026-10-01), a second controlled result for the class that the description of 2026-10-16 did not know. The stage was already first human, so it does not move."
+why = "The weekly reading of 2026-10-17 added the Amsterdam liver trial (Nature Metabolism, 2026-10-01), a second controlled result for the class that the description of 2026-10-16 did not know. The stage was already first human, so it does not move."
 publication = "koning-2026"
 
 [[revision]]
@@ -91,7 +91,7 @@ date = 2026-10-17
 field = "notes"
 old = "2022 eye result is the first controlled human result in the drug class, and it is a small trial of one dose."
 new = "2022 eye result was the first controlled human result in the drug class, a small trial of one dose; the 2026 liver result (koning-2026) is a second, with a by-mouth two-drug course in a different organ. It too is small (31 people) and in one condition, run by an academic group, with two of its authors holding patents on drugs of this class."
-why = "[reading 2026-10-17] Replaces 'the first controlled human result in the drug class' with the two controlled results now on record."
+why = "The weekly reading of 2026-10-17 replaced 'the first controlled human result in the drug class' with the two controlled results now on record."
 publication = "koning-2026"
 
 [[revision]]
@@ -99,7 +99,7 @@ date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
 new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above counts one positive controlled trial. Two now exist, the 2022 eye trial and the 2026-10-01 liver trial (koning-2026), each small and in a single organ. The years are unchanged; John may want to weigh the second trial at the next review of the ranges.]"
-why = "[reading 2026-10-17] A dated note that the premise 'one positive controlled trial exists' is out of date; the years are John's and were not changed."
+why = "The weekly reading of 2026-10-17 added a dated note that the premise 'one positive controlled trial exists' is out of date; the years are John's and were not changed."
 publication = "koning-2026"
 
 [[revision]]
@@ -107,4 +107,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

@@ -27,10 +27,10 @@ status = "tracked"
 horizon = "mid"
 
 notes = """
-Other single messengers with animal results sit under this leaf in spirit (GDF11, oxytocin,
+Other single messengers with animal results sit under this treatment in spirit (GDF11, oxytocin,
 klotho, the TGF-beta family); interleukin-11 is the record because its result is a full
 lifespan study with a drug started late. A human lifespan result is not asked for at the
-first-human rung, because no such trial can be run in a working lifetime; a controlled
+first human rung, because no such trial can be run in a working lifetime; a controlled
 age-related measure is."""
 
 [estimate]
@@ -60,4 +60,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. John ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."

@@ -20,6 +20,7 @@ branches = ["worn-out-cells"]
 moved_range = false
 settled_stage = true
 notes = """
-Intended leaf: a drug clears aged cells from a person (its shown-in-animals rung, which the leaf's
-earlier_stage entry already cites by this paper's link). Online 2011-11-02; the print issue is
-November 2011 and its exact day was not confirmed from the indexed records."""
+Logged for the treatment "A drug clears aged cells from a person", as the evidence for its earlier
+stage, shown in animals, which the treatment's record of its earlier stages already cites by this
+paper's link. Online 2011-11-02; the print issue is November 2011 and its exact day was not
+confirmed from the indexed records."""

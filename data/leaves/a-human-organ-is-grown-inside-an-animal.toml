@@ -12,7 +12,7 @@ not rejected. The trick is to breed pig embryos that cannot make the organ and a
 cells to fill the gap. In 2023 a Guangzhou group reported pig embryos carrying early kidneys made
 mostly of human cells, grown in sows for 28 days; the kidneys were the size of a fingertip and
 not working, and the embryos were not carried to term. No animal has been born with a working
-human organ, so the leaf is at idea only, and it is marked as a long shot because the two
+human organ, so the treatment is at idea only, and it is marked as a long shot because the two
 species' cells do not yet cooperate well enough to build one."""
 test = """
 An animal is born carrying an organ (kidney, liver, pancreas, heart or lung) made mostly of human
@@ -29,8 +29,8 @@ mechanism = "Breed pig embryos lacking the gene for one organ; add human stem ce
 breaking_point = "Human and pig cells grow at different speeds and answer different signals, so human cells have so far made up only a small share of the organ past the embryo stage; a working organ needs them to win that competition throughout, and nothing yet does that. The ethics of human cells reaching a pig's brain or sperm adds a second barrier that is not technical."
 
 notes = """
-The pig-organ leaf (a gene-edited pig's own organ) and the lab-grown-organ leaf are the two
-nearer routes; this one would be the better organ if it could be built, and the tree keeps it so
+The entry for a gene-edited pig's own organ and the entry for a lab-grown organ are the two
+nearer routes; this one would be the better organ if it could be built, and the site keeps it so
 that a reader can see how far it is.
 Checked 2026-10-17: the 2017 Cell paper (Wu, Izpisua Belmonte and colleagues, https://doi.org/10.1016/j.cell.2016.12.036; open
 access, https://pmc.ncbi.nlm.nih.gov/articles/PMC5679265/) put several kinds of human stem cell into pig and cattle embryos and
@@ -72,4 +72,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

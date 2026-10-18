@@ -92,7 +92,7 @@ const fixed = records.fixed_dates;
               {cl.is_paraphrase && <p><span class="k">Seen in</span> {cl.paraphrase_seen_in}</p>}
               {cl.notes && <p><span class="k">Notes</span> {cl.notes}</p>}
               {cl.verify.length > 0 && <p><span class="k">Not yet verified</span> {cl.verify.join(' ')}</p>}
-              <p class="dim">This entry is <a href={recordUrl(cl.file)} rel="noopener">{cl.file}</a> in the public repository.</p>
+              <p class="dim">This entry's <a href={recordUrl(cl.file)} rel="noopener">record</a> is in the public repository.</p>
             </details>
           </li>
         ))}
@@ -137,7 +137,7 @@ const fixed = records.fixed_dates;
       {records.verdicts.map((v) => <li><strong>{v.label}.</strong> {v.meaning}</li>)}
     </ul>
     <p class="dim" style="font-size: 14px; margin-top: 24px;">
-      The record itself is one file per claim in <a href={`https://github.com/jfredson/outrunning-ageing/tree/main/data/claims`} rel="noopener">data/claims</a> in the public repository; the rules for an entry are in <a href="/method/">how the numbers are worked out</a>. {k.to_verify === 0 ? 'No fact in these entries is still waiting to be checked against a source.' : `${plural(k.to_verify, 'fact in these entries is', 'facts in these entries are')} still to be checked against a source, and each entry says which.`}
+      The record itself is one file per claim, <a href={`https://github.com/jfredson/outrunning-ageing/tree/main/data/claims`} rel="noopener">in the public repository</a>; the rules for an entry are in <a href="/method/">how the numbers are worked out</a>. {k.to_verify === 0 ? 'No fact in these entries is still waiting to be checked against a source.' : `${plural(k.to_verify, 'fact in these entries is', 'facts in these entries are')} still to be checked against a source, and each entry says which.`}
     </p>
   </section>
 </Base>

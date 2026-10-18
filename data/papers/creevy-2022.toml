@@ -21,7 +21,7 @@ branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: a drug makes people live longer in good health (rapamycin), under energy and fuel
-sensing. Nature prints the author as the consortium with a member list that begins with the four
-names given; indexes list those four and the consortium. The enrolment figures are as of
-December 2020. Online 2022-02-02; the print issue is February 2022."""
+Logged for the treatment "A drug makes people live longer in good health" (rapamycin), on the
+energy and fuel sensing branch. Nature prints the author as the consortium with a member list
+that begins with the four names given; indexes list those four and the consortium. The enrolment
+figures are as of December 2020. Online 2022-02-02; the print issue is February 2022."""

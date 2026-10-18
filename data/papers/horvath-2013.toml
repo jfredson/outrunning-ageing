@@ -20,7 +20,9 @@ branches = ["measuring-age"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: a clock validated to predict outcomes in a large cohort, under measuring ageing;
-this is the clock, and the validation against outcomes came in later clocks (PhenoAge, GrimAge,
-DunedinPACE) and in moqri-2023's criteria. The training-set error is 2.9 years; 3.6 years is the
-test-set figure. An erratum appeared in Genome Biology 16, 96 (2015) and was not read here."""
+Logged for the treatment planned as a clock validated to predict outcomes in a large cohort (a
+large group of people followed over time), on the measuring ageing branch; this is the clock,
+and the validation against outcomes came in later clocks (PhenoAge, GrimAge, DunedinPACE) and in
+the criteria set out by Moqri and colleagues in 2023. The training-set error is 2.9 years; 3.6
+years is the test-set figure. An erratum appeared in Genome Biology 16, 96 (2015) and was not
+read here."""

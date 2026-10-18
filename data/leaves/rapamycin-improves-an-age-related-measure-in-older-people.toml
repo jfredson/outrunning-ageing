@@ -34,7 +34,7 @@ notes = """
 Doctors at a number of private clinics prescribe rapamycin off-label for ageing, and many people
 take it; the test asks for a regulator's approval or a published routine practice on the
 strength of a controlled trial, and neither exists. The 2014 trial is the one positive controlled
-result and it is twelve years old. A separate leaf, a drug makes people live longer in good
+result and it is twelve years old. A separate entry, a drug makes people live longer in good
 health, holds the lifespan question; this one holds the measurable short-term effect.
 Added 2026-10-17: an animal stage is now recorded, a 2009 report in Science Signaling (Chen and
 colleagues, 2009-11-24, https://doi.org/10.1126/scisignal.2000559) in which rapamycin given to old
@@ -71,18 +71,18 @@ date = 2026-10-17
 field = "earlier_stage"
 old = "(none recorded)"
 new = "shown-in-animals, reached 2009-11-24, record https://doi.org/10.1126/scisignal.2000559"
-why = "[verification 2026-10-17] A search found a peer-reviewed report in old mice of an improved immune response to a vaccine on rapamycin, the same kind of measure as the 2014 trial in people; the stage itself is unchanged."
+why = "A check of the sources on 2026-10-17: a search found a peer-reviewed report in old mice of an improved immune response to a vaccine on rapamycin, the same kind of measure as the 2014 trial in people; the stage itself is unchanged."
 
 [[revision]]
 date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17: an animal stage is now recorded, a 2009 report in Science Signaling (Chen and colleagues, 2009-11-24, https://doi.org/10.1126/scisignal.2000559) in which rapamycin given to old mice restored their blood-forming stem cells and enabled an effective response to vaccination against a lethal influenza infection; that is the same kind of measure, an immune response, that the 2014 trial in people used. The 2009 mouse lifespan result (Harrison and colleagues, Nature, 2009-07-08, https://doi.org/10.1038/nature08221) shows longer life, not an improved function, so it is kept with the entry on living longer in good health and is not counted here."
-why = "[verification 2026-10-17] Explains the animal stage added and why the lifespan result is not counted; no stage or year changed."
+why = "A check of the sources on 2026-10-17 explains the animal stage added and why the lifespan result is not counted; no stage or year changed."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. John ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."

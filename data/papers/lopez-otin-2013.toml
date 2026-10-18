@@ -19,7 +19,7 @@ branches = ["worn-out-cells", "damaged-dna", "cell-settings", "broken-proteins",
 moved_range = false
 settled_stage = false
 notes = """
-Bears on every branch: the eight branches group these hallmarks and the three added in 2023
-(lopez-otin-2023). The mapping from each hallmark to a branch is in docs/record-schema.md. Cell
-prints the title in capitals as given; the issue date is 2013-06-06 and no earlier online date is
-recorded."""
+Bears on every branch: the eight branches group these hallmarks and the three added in 2023 (in
+the update by the same authors). The project's documentation sets out which branch each hallmark
+belongs to. Cell prints the title in capitals as given; the issue date is 2013-06-06 and no
+earlier online date is recorded."""

@@ -31,15 +31,15 @@ horizon = "mid"
 notes = """
 The branch's own line asks for an anti-inflammatory drug with a healthy-years result; this is a
 heart-disease result, which is the biggest single cause of death in old age but not healthy years
-as such. Uptake of colchicine for the heart has been slow, which is why the leaf stays at clinical
-use. A 2025 trial (CLEAR SYNERGY) that found no benefit of colchicine after a heart attack is a
+as such. Uptake of colchicine for the heart has been slow, which is why the treatment stays at
+clinical use. A 2025 trial (CLEAR SYNERGY) that found no benefit of colchicine after a heart attack is a
 mark against, and the yearly review should weigh it.
 Added 2026-10-17, from the weekly reading of that date: on 2026-07-31 the company Novo Nordisk
 announced that its ZEUS trial of ziltivekimab, an antibody against the inflammatory messenger
 interleukin-6, in over 6,300 people with hardened arteries, chronic kidney disease and raised
 inflammation, lowered inflammation markers but not heart attacks, strokes or cardiovascular deaths
-(hazard ratio 0.99; novo-nordisk-2026). It is the largest test since the 2017 canakinumab trial of
-a drug acting on inflammation alone, it rests on a company announcement and not yet a peer-reviewed
+(hazard ratio 0.99; the company's announcement). It is the largest test since the 2017 canakinumab
+trial of a drug acting on inflammation alone, it rests on a company announcement and not yet a peer-reviewed
 report, and it is a second mark against, beside the 2025 colchicine trial, for the yearly review.
 No stage or year was changed.
 No earlier stage is recorded for the animal rung. The nearest candidate is a 2011 mouse study
@@ -51,7 +51,7 @@ inflammation alone with no effect on cholesterol, and it measured plaque, not he
 strokes or deaths. It was therefore not entered as an earlier stage. A search of Europe PMC on
 2026-10-17 for animal studies of colchicine in atherosclerosis found later studies (not examined here), and one rabbit
 study of 2017 that found no effect on plaque, but no clean earlier record that meets the test.
-Added 2026-10-18, from the weekly reading of 2026-10-18: Germany's Federal Joint Committee resolved on 2026-08-20 (g-ba-2026) that colchicine added to the best standard care, in adults with coronary heart disease and a recent heart attack, has a hint of a minor added benefit, on the evidence of the COLCOT trial; its resolution gives the German marketing authorisation as of 2025-08-02. That is an authorisation and a benefit assessment in a second country, not a measure of how widely the drug is prescribed, which is what the wide-use rung asks for. The stage and the years are unchanged.
+Added 2026-10-18, from the weekly reading of 2026-10-18: Germany's Federal Joint Committee resolved on 2026-08-20 that colchicine added to the best standard care, in adults with coronary heart disease and a recent heart attack, has a hint of a minor added benefit, on the evidence of the COLCOT trial; its resolution gives the German marketing authorisation as of 2025-08-02. That is an authorisation and a benefit assessment in a second country, not a measure of how widely the drug is prescribed, which is what the wide-use rung asks for. The stage and the years are unchanged.
 """
 
 [[earlier_stage]]
@@ -79,7 +79,7 @@ date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, from the weekly reading of that date: on 2026-07-31 the company Novo Nordisk announced that its ZEUS trial of ziltivekimab, an antibody against the inflammatory messenger interleukin-6, in over 6,300 people with hardened arteries, chronic kidney disease and raised inflammation, lowered inflammation markers but not heart attacks, strokes or cardiovascular deaths (hazard ratio 0.99; novo-nordisk-2026). It is the largest test since the 2017 canakinumab trial of a drug acting on inflammation alone, it rests on a company announcement and not yet a peer-reviewed report, and it is a second mark against, beside the 2025 colchicine trial, for the yearly review. No stage or year was changed."
-why = "[reading 2026-10-17] Adds the ZEUS result beside the 2025 colchicine trial, as the reading proposed."
+why = "The weekly reading of 2026-10-17 added the ZEUS result beside the 2025 colchicine trial, as it proposed."
 publication = "novo-nordisk-2026"
 
 [[revision]]
@@ -94,12 +94,12 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
 
 [[revision]]
 date = 2026-10-18
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-18, from the weekly reading of 2026-10-18: Germany's Federal Joint Committee resolved on 2026-08-20 (g-ba-2026) that colchicine added to the best standard care, in adults with coronary heart disease and a recent heart attack, has a hint of a minor added benefit, on the evidence of the COLCOT trial; its resolution gives the German marketing authorisation as of 2025-08-02. That is an authorisation and a benefit assessment in a second country, not a measure of how widely the drug is prescribed, which is what the wide-use rung asks for. The stage and the years are unchanged."
-why = "[reading 2026-10-18] Applied in the dated batch of 2026-10-18 on John's ruling of that day on item 5 of the audit: the resolution's PDF was opened and read (date, authorisation date, indication, the sentence on added benefit). The press statement that the drug has been on the German market since 2026-03-01 is not in the notice and is left out."
+why = "Found by the weekly reading of 2026-10-18 and applied in the change to the records on 2026-10-18, on John's ruling of that day on the audit of that reading: the resolution's PDF was opened and read (date, authorisation date, indication, the sentence on added benefit). The press statement that the drug has been on the German market since 2026-03-01 is not in the notice and is left out."
 publication = "g-ba-2026"

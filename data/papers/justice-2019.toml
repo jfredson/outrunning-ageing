@@ -20,7 +20,7 @@ branches = ["worn-out-cells"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: a drug clears aged cells from a person, under worn-out cells; as the leaf's notes
-already say, this trial did not measure the cells, so hickson-2019 is the stage record and this is
-the first human dosing. Online 2019-01-05; the print issue is February 2019. Registered as
-NCT02874989."""
+Logged for the treatment "A drug clears aged cells from a person", on the worn-out cells branch;
+as the treatment's notes already say, this trial did not measure the cells, so the 2019 report by
+Hickson and colleagues is the record that settles the treatment's stage and this is the first
+human dosing. Online 2019-01-05; the print issue is February 2019. Registered as NCT02874989."""

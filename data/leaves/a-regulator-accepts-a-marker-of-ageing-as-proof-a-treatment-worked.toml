@@ -28,10 +28,10 @@ status = "tracked"
 horizon = "mid"
 
 notes = """
-This leaf and the one on a regulator recognising ageing as a treatable condition are the two
-regulatory acts the kickoff names; both are at idea only, and both are written with the rungs
-spelt out in the test because the ladder was built for treatments. The branch is marked required
-for the reason this leaf states.
+This entry and the one on a regulator recognising ageing as a treatable condition are the two
+regulatory acts the site's founding plan names; both are at idea only, and both are written with
+the rungs spelt out in the test because the ladder was built for treatments. The headline year
+cannot arrive until this branch is handled, for the reason this entry states.
 Checked on 2026-10-17 against the United States regulator's own search of its drug development tools
 (https://force-dsc.my.site.com/ddt/s/, reached from
 https://www.fda.gov/drugs/biomarker-qualification-program/status-biomarker-qualification-submissions,
@@ -50,7 +50,7 @@ list was read on 2026-10-17 and has no ageing marker."""
 status = "reviewed"
 set_on = 2026-10-16
 why = """
-A qualification takes years of evidence and a sponsor willing to submit it; the first-human
+A qualification takes years of evidence and a sponsor willing to submit it; the first human
 rung, a regulator agreeing a marker as the main measure for one trial, is the nearer step and
 likely around 2031 through a company trial in a single condition. Full qualification, the clinic
 rung, likely follows around 2040, after the first such trial reads out and the marker proves it
@@ -82,4 +82,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

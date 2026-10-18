@@ -19,7 +19,8 @@ branches = ["inflammation-and-signalling"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: plasma exchange or dilution with a measured effect in people, under inflammation
-and the body's messaging. The trial had no primary measure of cognition, so "no effect" should
-not be read as a failed efficacy trial. Online 2018-10-29; the print issue is dated 2019-01-01,
-which is why the id carries 2019. Registered as NCT02256306."""
+Logged for the treatment planned as plasma exchange or dilution with a measured effect in
+people, on the branch for inflammation and the body's messaging. The trial had no primary
+measure of cognition, so "no effect" should not be read as a failed efficacy trial. Online
+2018-10-29; the print issue is dated 2019-01-01, which is why this record is filed under 2019.
+Registered as NCT02256306."""

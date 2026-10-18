@@ -28,8 +28,8 @@ horizon = "far"
 
 notes = """
 Immune rejuvenation has two targets, the thymus (where T cells are trained, and which shrinks
-from puberty on) and the marrow (where the cells come from); this leaf is the marrow, and the
-thymus result is on the cell-settings branch because it was measured with a clock. The 2024
+from puberty on) and the marrow (where the cells come from); this entry is the marrow, and the
+thymus result is on the cell settings branch because it was measured with a clock. The 2024
 treatment killed cells with antibodies, which in a person would be done in a hospital like a
 mild chemotherapy, so the clinic rung is a long way off."""
 
@@ -60,4 +60,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

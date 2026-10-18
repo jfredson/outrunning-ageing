@@ -26,11 +26,12 @@ branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: the TAME trial enrolling, under energy and fuel sensing. This record exists so the
-leaf can say, with sources, that the field's flagship ageing trial has been announced as imminent
-since 2015 and has not started. The weekly reading should check AFAR's page and the trial
-registry; the day a registration or a first-participant notice appears, that becomes a new record.
-AFAR's 2024 news post gives the age range as 65 to 80; the trial page says 65 to 79.
+Logged for the entry planned as the TAME trial enrolling, on the energy and fuel sensing branch.
+This record exists so that the entry can say, with sources, that the field's flagship ageing trial
+has been announced as imminent since 2015 and has not started. The weekly reading should check the
+American Federation for Aging Research's (AFAR's) page and the trial registry; the day a
+registration or a first-participant notice appears, that becomes a new record. AFAR's 2024 news
+post gives the age range as 65 to 80; the trial page says 65 to 79.
 
-Checked 2026-10-17. The page the finding describes was read in the web archive's copy of 2026-07-04 (the link now points to that exact capture; the earlier link, which asked the archive for any 2026 copy, now lands on a later "not found" copy). The archive holds the page as found until 2026-07-04 and as "not found" in its copies from 2026-10-01 on, and on 2026-10-17 AFAR's own site also answers "not found" at that address. The page is no longer on AFAR's site. No replacement page was found: AFAR's site map lists news posts and videos that mention the trial but no page for the trial itself, and a search of AFAR's site found none. The two refusals by the National Institute on Aging, the gift of nearly half the budget from Paul Glenn through AFAR and the later anonymous donor are all in Aubrey de Grey's editorial of 2019, which is free to read (de-grey-2019, https://doi.org/10.1089/rej.2019.2274).
+Checked 2026-10-17. The page the finding describes was read in the web archive's copy of 2026-07-04 (the link now points to that exact capture; the earlier link, which asked the archive for any 2026 copy, now lands on a later "not found" copy). The archive holds the page as found until 2026-07-04 and as "not found" in its copies from 2026-10-01 on, and on 2026-10-17 AFAR's own site also answers "not found" at that address. The page is no longer on AFAR's site. No replacement page was found: AFAR's site map lists news posts and videos that mention the trial but no page for the trial itself, and a search of AFAR's site found none. The two refusals by the National Institute on Aging, the gift of nearly half the budget from Paul Glenn through AFAR and the later anonymous donor are all in Aubrey de Grey's editorial of 2019, which is free to read (also logged here; https://doi.org/10.1089/rej.2019.2274).
 """

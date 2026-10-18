@@ -30,7 +30,7 @@ notes = """
 Danazol is a prescription drug, and doctors at a few specialist centres give it to people with
 telomere diseases on the strength of this trial. That is off-label use, which the test excludes
 from the clinic rung on purpose, so that the rung means a regulator looked at the evidence. A
-telomerase gene therapy, the other route to the same result, has its own leaf at the animal
+telomerase gene therapy, the other route to the same result, has its own entry at the animal
 rung.
 Checked 2026-10-17: the long-term follow-up is a research letter in Blood Advances (Lee and colleagues, volume 10, pages 208 to 212,
 online 2025-10-22, https://doi.org/10.1182/bloodadvances.2025017860; open access, https://pmc.ncbi.nlm.nih.gov/articles/PMC12805271/).
@@ -52,20 +52,20 @@ status = "reviewed"
 set_on = 2026-10-16
 why = """
 The clinic rung needs a regulator's approval of a drug for lengthening telomeres, or for a
-telomere disease on the basis of lengthening them. The first pass of 2026-10-16 assumed a filing
+telomere disease on the basis of lengthening them. The first estimate of 2026-10-16 assumed a filing
 on existing data within four years and an approval of danazol or a related hormone around 2034
 after a confirmatory trial. Both premises failed on the record's own sources, and John moved the
-range on 2026-10-17 on the outside review's item 6: the long-term follow-up of the 2016 trial
+range on 2026-10-17 on an outside review's proposal: the long-term follow-up of the 2016 trial
 (Blood Advances, 2026) found telomere length stable, with no significant lengthening, in the few
 patients re-measured, so a sponsor could not file for a lengthening claim on the data in hand; and
-the trial registry (telo-scope-2021) shows the one phase 2 trial aimed at telomere attrition, in
-lung scarring, stopped for futility in 2025, the other danazol trials small, completed or of unknown
+the trial registry (its entry for the TELO-SCOPE trial) shows the one phase 2 trial aimed at
+telomere attrition, in lung scarring, stopped for futility in 2025, the other danazol trials small, completed or of unknown
 status, no phase 3, and no sponsor carrying a generic hormone towards an approval. The earliest now
 assumes a new confirmatory trial of danazol or a relative starts within a few years and reports
 lengthening by the 2016 trial's method; the likely assumes a new molecule has to go through every
 trial phase for a rare disease; the latest allows for no sponsor ever taking it up, in which case the
 rung is reached by some later treatment. An approval for ageing itself, rather than a telomere
-disease, is not what this leaf asks."""
+disease, is not what this entry asks."""
 
 [[estimate.rung]]
 rung = "in-clinical-use"
@@ -78,14 +78,14 @@ date = 2026-10-17
 field = "description"
 old = "a follow-up found the gain did not hold in everyone"
 new = "a long-term follow-up published in 2026 measured telomere length again, by a different method, in the few patients with usable samples, and found it stable, with no significant lengthening"
-why = "[verification 2026-10-17] The peer-reviewed long-term follow-up (Blood Advances, 2026, volume 10, page 208) was read. It reports stable telomere length by a second method and no significant lengthening in the few patients with later samples, not a gain that held in some and not in others; its figures differ from the 2024 conference abstract's. The stage does not change."
+why = "A check against the sources on 2026-10-17: the peer-reviewed long-term follow-up (Blood Advances, 2026, volume 10, page 208) was read. It reports stable telomere length by a second method and no significant lengthening in the few patients with later samples, not a gain that held in some and not in others; its figures differ from the 2024 conference abstract's. The stage does not change."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.rung.in-clinical-use.earliest"
 old = 2030
 new = 2038
-why = "Ruled by John 2026-10-17 on the outside review's item 6 (docs/reviews/2026-10-17-rulings.md): the earliest had assumed a filing on existing data within four years, and the record's own long-term follow-up (Lee and colleagues, Blood Advances 10, 208 to 212, 2026, https://doi.org/10.1182/bloodadvances.2025017860) found no significant lengthening in the few patients re-measured, so no filing for a lengthening claim can rest on the data in hand; the trial registry shows no sponsor carrying danazol towards an approval (telo-scope-2021)."
+why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: the earliest had assumed a filing on existing data within four years, and the record's own long-term follow-up (Lee and colleagues, Blood Advances 10, 208 to 212, 2026, https://doi.org/10.1182/bloodadvances.2025017860) found no significant lengthening in the few patients re-measured, so no filing for a lengthening claim can rest on the data in hand; the trial registry shows no sponsor carrying danazol towards an approval (its entry for the TELO-SCOPE trial)."
 publication = "telo-scope-2021"
 
 [[revision]]
@@ -93,7 +93,7 @@ date = 2026-10-17
 field = "estimate.rung.in-clinical-use.likely"
 old = 2036
 new = 2048
-why = "Ruled by John 2026-10-17 on the outside review's item 6: the likely year had assumed an approval of danazol or a relative around 2034 after a confirmatory trial; the registry shows the one phase 2 trial aimed at telomere attrition (TELO-SCOPE, NCT04638517) stopped for futility, no phase 3 and no sponsor, so a new treatment would have to go through every trial phase."
+why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: the likely year had assumed an approval of danazol or a relative around 2034 after a confirmatory trial; the registry shows the one phase 2 trial aimed at telomere attrition (TELO-SCOPE, NCT04638517) stopped for futility, no phase 3 and no sponsor, so a new treatment would have to go through every trial phase."
 publication = "telo-scope-2021"
 
 [[revision]]
@@ -101,7 +101,7 @@ date = 2026-10-17
 field = "estimate.rung.in-clinical-use.latest"
 old = 2070
 new = 2085
-why = "Ruled by John 2026-10-17 on the outside review's item 6: with no sponsor in sight, the record's own latest-year clause (no sponsor ever taking a generic drug through the process) looks like the likely case, and the latest moves out with the rest of the range."
+why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: with no sponsor in sight, the record's own latest-year clause (no sponsor ever taking a generic drug through the process) looks like the likely case, and the latest moves out with the rest of the range."
 publication = "telo-scope-2021"
 
 [[revision]]
@@ -109,7 +109,7 @@ date = 2026-10-17
 field = "estimate.why"
 old = "(the first-pass reasoning of 2026-10-16; its text is quoted in the revision for the earliest year's premise)"
 new = "(rewritten; see the estimate)"
-why = "Ruled by John 2026-10-17 on the outside review's item 6: the reasoning is rewritten to say which premises failed, on which sources, and what the new years assume. The reviewer overstated one thing, recorded here: the 2016 trial did measure lengthening by its own method, so a confirmatory trial could still do so; the follow-up's finding is in a few samples by a different method."
+why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: the reasoning is rewritten to say which premises failed, on which sources, and what the new years assume. The reviewer overstated one thing, recorded here: the 2016 trial did measure lengthening by its own method, so a confirmatory trial could still do so; the follow-up's finding is in a few samples by a different method."
 publication = "telo-scope-2021"
 
 [[revision]]
@@ -117,4 +117,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and raised item 6 on this range, accepted by John on 2026-10-17 (docs/reviews/2026-10-17-rulings.md): the range moved to 2038, 2048, 2085 (see the revisions above). With every item of the review ruled, the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and proposed a change to this range, which John accepted on 2026-10-17: the range moved to 2038, 2048, 2085 (see the revisions above). With every point of the review ruled, the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say."
