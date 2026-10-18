@@ -575,3 +575,8 @@ a.dim:hover { color: var(--accent); }
    ten handles ended 2 pixels short of the theme toggle at 1280 pixels and the toggle wrapped, so the
    handles sit 3 pixels tighter on this site only. Measured: the last handle ends at about 1092. */
 .navlinks a { padding: 6px 9px; }
+
+/* The quiet link to the family's X account beside the family line (John, 2026-10-18). */
+.footer-follow { margin: 4px 0 0; font-size: 12.5px; }
+.footer-follow a { color: var(--muted); }
+.news-follow { font-family: var(--sans); font-size: 13.5px; color: var(--muted); max-width: 760px; margin-top: 22px; border-top: 1px solid var(--line); padding-top: 10px; }
