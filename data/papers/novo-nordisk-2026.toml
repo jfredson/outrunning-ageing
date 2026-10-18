@@ -15,7 +15,7 @@ branches = ["inflammation-and-signalling"]
 moved_range = false
 settled_stage = false
 notes = """
-Added under the weekly reading of 2026-10-17. The largest test since the 2017 canakinumab trial of a drug that acts on inflammation alone, and it found no benefit on heart events; the notes on the anti-inflammatory-drug entry now carry it beside the 2025 colchicine trial. The estimate years were not changed.
+Added during the weekly reading of 2026-10-17. The largest test since the 2017 canakinumab trial of a drug that acts on inflammation alone, and it found no benefit on heart events; the notes on the treatment "A drug that acts only on inflammation is approved to prevent heart attacks" now carry it beside the 2025 colchicine trial. The years in that treatment's estimate were not changed.
 
 This is a company announcement of top-line results, not a peer-reviewed report, and every figure above is the company's own statement in the release, opened and read in full on 2026-10-17; the full results had not been presented. The trial's registry entry (NCT05021835, "ZEUS", sponsor Novo Nordisk, completed, 6,385 people enrolled, primary completion 2026-06-09) was read on 2026-10-17 and agrees on the design.
 """

@@ -16,15 +16,17 @@ can test whether a drug slows ageing as a whole rather than one disease, with fu
 measured alongside. The paper reviews the observational and animal evidence for metformin and says
 the trial has planning money from the American Federation for Aging Research. The template for how
 an ageing trial could be run and judged; as of 2026-10-16 the trial has not been shown to have
-started (see afar-2026)."""
+started (see the American Federation for Aging Research's own page for the
+trial)."""
 leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes", "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked"]
 branches = ["energy-and-fuel", "measuring-age"]
 moved_range = false
 settled_stage = false
 
 notes = """
-Intended leaves: the TAME trial enrolling, and a drug makes people live longer in good health
-(metformin), under energy and fuel sensing; and a regulator accepting an ageing marker or a
-composite as a trial endpoint, under measuring ageing. The paper does not give the six-year
-duration or describe the 2015 meeting with the FDA; those are from AFAR's pages and news reports,
-logged under afar-2026."""
+Logged for the entries planned as the TAME trial enrolling and a drug makes people live longer in
+good health (metformin), on the energy and fuel sensing branch, and a regulator accepting an
+ageing marker or a composite as a trial endpoint (the outcome a trial is judged on), on the
+measuring ageing branch. The paper does not give the six-year duration or describe the 2015
+meeting with the FDA; those are from the American Federation for Aging Research's pages and news
+reports, logged with the federation's own page for the trial."""

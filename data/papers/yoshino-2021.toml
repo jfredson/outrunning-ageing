@@ -21,6 +21,7 @@ branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = true
 notes = """
-Intended leaf: an NAD precursor with a measured effect in people, under energy and fuel sensing.
-Thirteen women were randomised to NMN and twelve to placebo. Online 2021-04-22; the print issue is
-dated 2021-06-11. Registered as NCT03151239."""
+Logged for the treatment planned as an NAD precursor (a substance the body turns into NAD) with a
+measured effect in people, on the energy and fuel sensing branch. Thirteen women were randomised
+to NMN and twelve to placebo. Online 2021-04-22; the print issue is dated 2021-06-11. Registered
+as NCT03151239."""

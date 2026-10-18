@@ -21,8 +21,9 @@ moved_range = false
 settled_stage = true
 
 notes = """
-Intended leaf: partially resetting cells reverses ageing in a living animal, under the cell's
-settings; one of the five leaves shared with The Upgrade Tree. The paper itself gives no
-percentage for the lifespan gain, only "a dramatic increase in median and maximal lifespan" and a
-survival curve; the widely quoted figure of about 30 percent longer comes from the Salk Institute's
-news release of 2016-12-15, not from the paper, so the record does not carry it."""
+Logged for the treatment "Partially resetting cells reverses ageing in a living animal", on the
+branch for the cell's settings; one of the five treatments shared with The Upgrade Tree. The paper
+itself gives no percentage for the lifespan gain, only
+"a dramatic increase in median and maximal lifespan" and a survival curve; the widely quoted figure
+of about 30 percent longer comes from the Salk Institute's news release of 2016-12-15, not from the
+paper, so the record does not carry it."""

@@ -20,6 +20,7 @@ branches = ["measuring-age"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: a regulator accepts a marker of ageing as a trial endpoint, under measuring ageing;
-this paper is the criteria such a marker must meet, not an acceptance. Cell prints the consortium
-fourth in the author list, as given here; some indexes move it first or drop it."""
+Logged for the treatment "A regulator accepts a marker of ageing as proof that a treatment slowed
+it", on the measuring ageing branch; this paper is the criteria such a marker must meet, not an
+acceptance. Cell prints the consortium fourth in the author list, as given here; some indexes move
+it first or drop it."""

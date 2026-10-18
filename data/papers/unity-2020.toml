@@ -22,9 +22,11 @@ branches = ["worn-out-cells"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: a drug clears aged cells from a person, under worn-out cells; the example leaf's
-description and verify list already refer to this failure, so the master can clear that verify
-line against this record. The release's own page on unitybiotechnology.com and the wire copy on
-GlobeNewswire are no longer served; the wire address was
-https://www.globenewswire.com/news-release/2020/08/17/2079116/0/en/. Doses 0.5, 2.0 and 4.0 mg,
-45 to 46 people per arm; the primary outcome was change in the WOMAC-A pain score at week 12."""
+Logged for the treatment planned as a drug clears aged cells from a person, on the worn-out
+cells branch; the description of that entry (the worked example in the project's documentation)
+and its list of facts not yet checked against a source already refer to this failure, so that
+unchecked fact can be cleared against this record. The release's own page on
+unitybiotechnology.com and the wire copy on GlobeNewswire are no longer served; the wire
+address was https://www.globenewswire.com/news-release/2020/08/17/2079116/0/en/. Doses 0.5, 2.0
+and 4.0 mg, 45 to 46 people per arm; the primary outcome was change in the WOMAC-A pain score
+at week 12."""

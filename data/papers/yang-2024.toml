@@ -23,9 +23,9 @@ branches = ["energy-and-fuel", "measuring-age"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaves: a drug makes people live longer in good health (metformin), under energy and fuel
-sensing; and a clock validated as a trial measure, under measuring ageing. Online 2024-09-12; the
-print issue is dated 2024-10-31.
+Logged for the treatments planned as a drug makes people live longer in good health (metformin),
+on the energy and fuel sensing branch, and a clock validated as a trial measure, on the measuring
+ageing branch. Online 2024-09-12; the print issue is dated 2024-10-31.
 
 Checked 2026-10-17 against the full text of the paper (a copy of the journal's proof, held at
 https://gwern.net/doc/longevity/metformin/2024-yang.pdf , as the publisher's own page could not be opened

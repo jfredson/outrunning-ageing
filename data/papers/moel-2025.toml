@@ -23,7 +23,8 @@ branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: a drug makes people live longer in good health (rapamycin), under energy and fuel
-sensing; a first human on a measurement, not a healthy-years result. All seven authors are
-employees and shareholders of AgelessRx. Registered as NCT04488601 on 2020-07-28. The paper gives
-no single randomised total in its text; 125 is the completers plus the dropouts."""
+Logged for the treatment planned as a drug makes people live longer in good health (rapamycin),
+on the energy and fuel sensing branch; a first human result on a measurement, not a healthy-years
+result. All seven authors are employees and shareholders of AgelessRx. Registered as NCT04488601
+on 2020-07-28. The paper gives no single randomised total in its text; 125 is the completers plus
+the dropouts."""

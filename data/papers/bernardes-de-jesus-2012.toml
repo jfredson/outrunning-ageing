@@ -20,6 +20,6 @@ branches = ["damaged-dna"]
 moved_range = false
 settled_stage = true
 notes = """
-Intended leaf: telomerase therapy in a living animal, under damaged DNA. The AAV9 serotype is given
-in the full text; the abstract says only a wide-tropism AAV. Online 2012-05-15; the print issue is
-August 2012."""
+Logged for the treatment "A gene therapy lengthens the ends of chromosomes in an old animal, with
+no rise in cancer", on the damaged DNA branch. The AAV9 serotype is given in the full text; the
+abstract says only a wide-tropism AAV. Online 2012-05-15; the print issue is August 2012."""

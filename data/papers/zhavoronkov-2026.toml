@@ -15,7 +15,7 @@ branches = ["measuring-age"]
 moved_range = false
 settled_stage = false
 notes = """
-Added under the weekly reading of 2026-10-17. It is not the record of the stage for the entry on a treatment slowing a biological age clock: the clock analysis was run on samples already collected in a trial that had been published, and the authors call it exploratory, so it was not planned before the data were unblinded, which the entry's test asks for (the same reason John gave on 2026-10-17 for the 2023 CALERIE paper). The first author is the founder and chief executive of the company that makes the drug.
+Added during the weekly reading of 2026-10-17. It is not the record that settles the stage of the treatment "A treatment slows a biological age clock in a controlled trial": the clock analysis was run on samples already collected in a trial that had been published, and the authors call it exploratory, so it was not planned before the data were unblinded, which that treatment's test asks for (the same reason John gave on 2026-10-17 for the 2023 CALERIE paper). The first author is the founder and chief executive of the company that makes the drug.
 
 Checked 2026-10-17 against the full text on the journal's page, which is open to read: the cohort was 42 people from the trial of 71, the 21 of 54 comparisons and the Q value below 0.10 are as the paper states them in its results, and the dose regimen with the most significant comparisons was 30 mg twice daily (nine), ahead of 60 mg once daily (seven) and 30 mg once daily (five). The paper's competing-interests statement names the first author as founder and chief executive of Insilico Medicine.
 """

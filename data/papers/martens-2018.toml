@@ -20,6 +20,7 @@ branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: an NAD precursor with a measured effect in people, under energy and fuel sensing.
-The NAD rise was measured in blood mononuclear cells; the paper says the molecules are not
-detectable in plasma, so "blood NAD" would overstate it."""
+Logged for the treatment planned as an NAD precursor (a substance the body turns into NAD) with
+a measured effect in people, on the energy and fuel sensing branch. The NAD rise was measured in
+blood mononuclear cells; the paper says the molecules are not detectable in plasma, so "blood
+NAD" would overstate it."""

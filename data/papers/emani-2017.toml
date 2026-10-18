@@ -21,6 +21,6 @@ branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = true
 notes = """
-Intended leaf: mitochondrial transfer with a measured effect in people, under energy and fuel
-sensing. The paper has no abstract; the figures are from its text. Online 2017-02-15; the print
-issue is July 2017 and the journal gives no day."""
+Logged for the treatment "Fresh mitochondria are transplanted into a person's failing tissue",
+on the energy and fuel sensing branch. The paper has no abstract; the figures are from its
+text. Online 2017-02-15; the print issue is July 2017 and the journal gives no day."""

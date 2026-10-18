@@ -21,8 +21,8 @@ branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false
 notes = """
-Intended leaf: a drug makes people live longer in good health (metformin), under energy and fuel
-sensing. The paper prints the ratio with metformin as the reference, so the figure is 0.85 for the
-people without diabetes, not a 15 percent gain for metformin users; the gain is the same comparison
-read the other way and the paper does not print it. Online 2014-07-31; the print issue is
-November 2014."""
+Logged for the treatment planned as a drug makes people live longer in good health (metformin), on
+the energy and fuel sensing branch. The paper prints the ratio with metformin as the reference, so
+the figure is 0.85 for the people without diabetes, not a 15 percent gain for metformin users; the
+gain is the same comparison read the other way and the paper does not print it. Online 2014-07-31;
+the print issue is November 2014."""
