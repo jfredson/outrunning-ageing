@@ -36,9 +36,9 @@ notes = """
 The animal record is the 2011 Mayo Clinic report in which clearing such cells from mice delayed
 several age-related conditions. An earlier 2019 pilot in people with lung scarring reported
 better walking and standing but did not measure the cells, so it is not the record here. The
-Upgrade Tree keeps the same leaf at first human; the weekly reading checks the two stages agree.
-Added 2026-10-17, from the weekly reading of that date: in the Amsterdam liver trial (koning-2026),
-single-cell sequencing of liver biopsies showed fewer signs of aged cells in the treated group than
+Upgrade Tree keeps the same entry at first human; the weekly reading checks the two stages agree.
+Added 2026-10-17, from the weekly reading of that date: in the Amsterdam liver trial (the 2026 trial
+report by Koning and colleagues), single-cell sequencing of liver biopsies showed fewer signs of aged cells in the treated group than
 the placebo group. That is a supporting measurement, not a replacement for the 2019 kidney report,
 and the stage stays where it was.
 """
@@ -62,8 +62,8 @@ mid 2030s and approval follows within two to three years; the latest year allows
 first generation of these drugs failing and a second generation starting over.
 [Note 2026-10-17, from the weekly reading of that date: the sentence above that the one such trial
 to read out so far failed is out of date. A small academic controlled trial of the same two drugs in
-scarred fatty liver read out positive on 2026-10-01 (koning-2026). The years are unchanged; John
-may want to weigh it at the next review of the ranges.]
+scarred fatty liver read out positive on 2026-10-01 (the trial report by Koning and colleagues,
+2026-10-01). The years are unchanged; John may want to weigh it at the next review of the ranges.]
 """
 
 [[estimate.rung]]
@@ -83,7 +83,7 @@ date = 2026-10-17
 field = "description"
 old = "human, on a measurement. No such drug is approved anywhere, and the one company drug to reach a controlled trial on a clinical outcome, for knee osteoarthritis, failed in 2020."
 new = "human, on a measurement. No such drug is approved anywhere. The first company drug to reach a controlled trial on a clinical outcome, for knee osteoarthritis, failed in 2020; a small academic controlled trial of the same two drugs in scarred fatty liver read out positive on 2026-10-01 (31 people, a biopsy measure), the first result on a clinical-type measure in this class that went the other way."
-why = "[reading 2026-10-17] The sentence 'the one company drug to reach a controlled trial on a clinical outcome ... failed in 2020' was out of date once the Amsterdam liver trial read out positive on 2026-10-01. The stage is unchanged: the 2019 kidney report stays the record of first human."
+why = "The weekly reading of 2026-10-17 found the sentence 'the one company drug to reach a controlled trial on a clinical outcome ... failed in 2020' out of date once the Amsterdam liver trial read out positive on 2026-10-01. The stage is unchanged: the 2019 kidney report stays the record of first human."
 publication = "koning-2026"
 
 [[revision]]
@@ -91,7 +91,7 @@ date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
 new = "[Note 2026-10-17, from the weekly reading of that date: the sentence above that the one such trial to read out so far failed is out of date. A small academic controlled trial of the same two drugs in scarred fatty liver read out positive on 2026-10-01 (koning-2026). The years are unchanged; John may want to weigh it at the next review of the ranges.]"
-why = "[reading 2026-10-17] A dated note that the estimate's premise that the one controlled trial so far failed no longer holds; no year changed."
+why = "The weekly reading of 2026-10-17 added a dated note that the estimate's premise that the one controlled trial so far failed no longer holds; no year changed."
 publication = "koning-2026"
 
 [[revision]]
@@ -99,7 +99,7 @@ date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, from the weekly reading of that date: in the Amsterdam liver trial (koning-2026), single-cell sequencing of liver biopsies showed fewer signs of aged cells in the treated group than the placebo group. That is a supporting measurement, not a replacement for the 2019 kidney report, and the stage stays where it was."
-why = "[reading 2026-10-17] Records the supporting senescence measurement in the new liver trial."
+why = "The weekly reading of 2026-10-17 records the supporting measurement of aged cells in the new liver trial."
 publication = "koning-2026"
 
 [[revision]]
@@ -107,4 +107,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and raised item 4 on this range, declined by John on 2026-10-17 (docs/reviews/2026-10-17-rulings.md): the reviewer proposed 2027, 2029, 2038 on the ground that longevity clinics already give the two-drug combination off-label, but named no clinic, report or page a reader can open, and the settler the record names for the rung is a regulator's approval record; the range stays 2031, 2038, 2060. For the yearly review: this test's clinic rung admits a private clinic's published off-label protocol, which the chromosome-ends treatment's test excludes on purpose. With every item of the review ruled, the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and proposed moving this range, which John declined on 2026-10-17: the reviewer proposed 2027, 2029, 2038 on the ground that longevity clinics already give the two-drug combination off-label, but named no clinic, report or page a reader can open, and the kind of record this entry names as settling the rung is a regulator's approval record; the range stays 2031, 2038, 2060. Left for the yearly review: this test's clinic rung admits a private clinic's published off-label protocol, which the chromosome-ends treatment's test excludes on purpose. With every point of the review ruled, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."

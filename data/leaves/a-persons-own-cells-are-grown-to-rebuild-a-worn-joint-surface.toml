@@ -28,11 +28,11 @@ status = "tracked"
 horizon = "mid"
 
 notes = """
-This leaf is on the tree with a caveat said plainly: the approved use is for defects in
+This treatment is on the site with a caveat said plainly: the approved use is for defects in
 otherwise healthy knees, mostly in people under fifty-five, and osteoarthritis of old age is
 excluded from the label. It counts toward the branch under the test as written because the test
 is about grown cells rebuilding a worn surface; the wide-use rung is where the age question is
-asked, and the yearly review may decide the leaf should be narrower.
+asked, and the yearly review may decide the entry should be narrower.
 Checked 2026-10-17 (John's ruling of the same day kept the clinic date at 2016-12-13 until this was checked): the regulator's own
 list of licensed biologics (the FDA Purple Book, https://purplebooksearch.fda.gov/downloads, monthly report for September 2026) shows
 Carticel (autologous cultured chondrocytes) from Vericel under licence number 103661, status discontinued, original approval
@@ -64,7 +64,7 @@ needs a trial in osteoarthritis that nobody had run. The likely year assumes suc
 out in the early 2030s and use widens through the decade; the earliest assumes use figures already
 meet the bar once counted; the latest allows for grown cells never working in an arthritic
 joint.
-[Note 2026-10-17, ruled by John on the outside review's item 10: the wide-use earliest year moved from 2028 to 2033 and the likely year from 2036 to 2040. The test's wide-use rung asks for use in worn joints in older people, which means a trial and a label in osteoarthritis; the trial registry, read on 2026-10-17, holds no phase 3 trial of cultured cartilage cells in knee osteoarthritis (two recruiting phase 2 trials of engineered cartilage in patellofemoral osteoarthritis, NCT06163573 and NCT06576583, and two completed post-marketing studies of a Korean product), so the earliest's assumption that use figures might already meet the bar cannot hold, and a phase 3, a label extension and a roll-out cannot fit before 2033. The latest of 2065 stays. This rung is shown on the page and not drawn by the headline.]
+[Note 2026-10-17, ruled by John on an outside review's proposal: the wide-use earliest year moved from 2028 to 2033 and the likely year from 2036 to 2040. The test's wide-use rung asks for use in worn joints in older people, which means a trial and a label in osteoarthritis; the trial registry, read on 2026-10-17, holds no phase 3 trial of cultured cartilage cells in knee osteoarthritis (two recruiting phase 2 trials of engineered cartilage in patellofemoral osteoarthritis, NCT06163573 and NCT06576583, and two completed post-marketing studies of a Korean product), so the earliest's assumption that use figures might already meet the bar cannot hold, and a phase 3, a label extension and a roll-out cannot fit before 2033. The latest of 2065 stays. This rung is shown on the page and not drawn by the headline.]
 """
 
 [[estimate.rung]]
@@ -85,32 +85,32 @@ date = 2026-10-17
 field = "description"
 old = "It is the oldest approved therapy made from a person's own grown cells, and the branch's one leaf in the clinic."
 new = "An earlier version of the same idea, Carticel, with the cells put back under a flap of tissue, was licensed by the same regulator on 1997-08-22 on the strength of two open-label studies with no control group. This is the one entry on the branch already in the clinic."
-why = "[verification 2026-10-17] 'The oldest approved therapy made from a person's own grown cells' is a priority claim that the regulator's record does not support for MACI: its forerunner Carticel was licensed on 1997-08-22 (FDA Purple Book; label 'Initial U.S. Approval: 1997') on open-label observational studies. The sentence now says that. The clinic date and the stage do not change, by John's ruling of 2026-10-17; whether the 1997 licence reached the clinic rung first is left for John."
+why = "A check against the sources on 2026-10-17: 'The oldest approved therapy made from a person's own grown cells' is a priority claim that the regulator's record does not support for MACI: its forerunner Carticel was licensed on 1997-08-22 (FDA Purple Book; label 'Initial U.S. Approval: 1997') on open-label observational studies. The sentence now says that. The clinic date and the stage do not change, by John's ruling of 2026-10-17; whether the 1997 licence reached the clinic rung first is left for John."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.rung.in-wide-use.earliest"
 old = 2028
 new = 2033
-why = "Ruled by John 2026-10-17 on the outside review's item 10 (docs/reviews/2026-10-17-rulings.md): the earliest assumed use figures might already meet the wide-use bar once counted, but the test's wide-use rung requires use in worn joints in older people, and the trial registry (https://clinicaltrials.gov/search?cond=osteoarthritis&intr=autologous%20chondrocyte, read 2026-10-17) holds no phase 3 trial of cultured cartilage cells in osteoarthritis: two recruiting phase 2 trials in patellofemoral osteoarthritis (NCT06163573, NCT06576583) and two completed post-marketing surveillance studies of a Korean product. A phase 3, a label extension and a roll-out cannot fit before 2033."
+why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: the earliest assumed use figures might already meet the wide-use bar once counted, but the test's wide-use rung requires use in worn joints in older people, and the trial registry (https://clinicaltrials.gov/search?cond=osteoarthritis&intr=autologous%20chondrocyte, read 2026-10-17) holds no phase 3 trial of cultured cartilage cells in osteoarthritis: two recruiting phase 2 trials in patellofemoral osteoarthritis (NCT06163573, NCT06576583) and two completed post-marketing surveillance studies of a Korean product. A phase 3, a label extension and a roll-out cannot fit before 2033."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.rung.in-wide-use.likely"
 old = 2036
 new = 2040
-why = "Ruled by John 2026-10-17 on the outside review's item 10: with no phase 3 in osteoarthritis registered, a trial reading out in the early 2030s and use widening through that decade puts the likely year at 2040; the latest of 2065 stays."
+why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: with no phase 3 in osteoarthritis registered, a trial reading out in the early 2030s and use widening through that decade puts the likely year at 2040; the latest of 2065 stays."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning)"
 new = "[Note 2026-10-17, ruled by John on the outside review's item 10: the wide-use earliest year moved from 2028 to 2033 and the likely year from 2036 to 2040 ...]"
-why = "Ruled by John 2026-10-17 on the outside review's item 10: the reasoning now says what moved, on what registry reading, and why."
+why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: the reasoning now says what moved, on what registry reading, and why."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and raised item 10 on this range, accepted by John on 2026-10-17 (docs/reviews/2026-10-17-rulings.md): the wide-use earliest and likely years moved to 2033 and 2040 (see the revisions above). With every item of the review ruled, the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) proposed a change to this range, which John accepted on 2026-10-17: the wide-use earliest and likely years moved to 2033 and 2040 (see the revisions above). With every point of the review ruled, the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say."

@@ -10,7 +10,7 @@ age so that damaged proteins and worn power plants pile up inside the cell. Seve
 turn it back up. Spermidine, found in wheat germ and aged cheese, lengthened the lives of old mice
 and protected their hearts in a 2016 report from Graz and elsewhere. In people the record is
 thinner: a 2022 controlled trial of spermidine in older adults found no effect on memory, and the
-best-known recycling booster, rapamycin, has its own leaves on the energy branch. The leaf asks
+best-known recycling booster, rapamycin, has its own entries on the energy branch. This entry asks
 for a human function result, not a blood marker."""
 test = """
 A controlled trial in people reports that a drug or supplement given to boost autophagy (the
@@ -26,7 +26,7 @@ status = "tracked"
 horizon = "mid"
 
 notes = """
-The difficulty with this leaf is that most drugs on the energy branch also boost recycling, so a
+The difficulty with this entry is that most drugs on the energy branch also boost recycling, so a
 human result there could be claimed here; the test asks that the drug be given for that purpose
 and the report say so. Rapamycin's human results are on the energy branch and are not counted
 twice.
@@ -67,11 +67,11 @@ date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, after checking the trial reports: urolithin A, which switches on the clearing of worn power plants and has its own entry on the energy branch, was tested in two controlled trials in 2022, and neither counts here because neither met its main measure. In 66 adults aged 65 to 90 (JAMA Network Open, https://doi.org/10.1001/jamanetworkopen.2021.44279) the main measures, the distance walked in six minutes and the energy output of hand muscle, did not differ from placebo, though muscle endurance, a secondary measure, improved. In middle-aged adults (Cell Reports Medicine, https://doi.org/10.1016/j.xcrm.2022.100633) the main measure, peak power output, did not differ from placebo, though muscle strength improved by about 12 per cent."
-why = "[verification 2026-10-17] Records the two trial results that the unchecked statement described, with their sources; no stage or year changed."
+why = "A check of the trial reports on 2026-10-17 records the two trial results that a statement not yet checked against a source described, with their sources; no stage or year changed."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. John ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."

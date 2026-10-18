@@ -28,10 +28,10 @@ status = "tracked"
 horizon = "mid"
 
 notes = """
-The metformin leaf on the energy branch is the same trial seen from the drug's side; this leaf
-is the rule change, which would carry every other drug. The two measuring-branch regulatory
-leaves are kept separate because a regulator could accept a marker (the other leaf) and still
-require a disease on the label, or the reverse.
+The metformin entry on the energy branch is the same trial seen from the drug's side; this entry
+is the rule change, which would carry every other drug. The two regulatory entries on the
+measuring branch are kept separate because a regulator could accept a marker (the other entry)
+and still require a disease on the label, or the reverse.
 What the sources say, read on 2026-10-17. The regulator's part in the trial's design: Justice and
 colleagues, Cardiovascular Endocrinology and Metabolism, 2018 (https://doi.org/10.1097/XCE.0000000000000159;
 open copy https://pmc.ncbi.nlm.nih.gov/articles/PMC6428447/) say discussions were begun with the
@@ -65,7 +65,7 @@ indication for one, and it does not meet the test."""
 status = "reviewed"
 set_on = 2026-10-16
 why = """
-The first-human rung needs a trial such as TAME to run, which is a funding question with a
+The first human rung needs a trial such as TAME to run, which is a funding question with a
 likely answer of 2029 and a real chance of never; the clinic rung, an approval with ageing on the
 label, needs that trial or a successor to read out positive and a regulator to accept the
 indication, likely in the mid 2040s. The earliest assumes the trial starts next year and reads
@@ -102,4 +102,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

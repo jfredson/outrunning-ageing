@@ -14,7 +14,7 @@ reported safe in 2019 in a tiny trial built to test safety, not benefit (thinkin
 caregivers rated daily function better, an unconfirmed result), and no controlled trial has found
 a benefit on an age-related function. A 2025 Stanford trial in 38 older people having a joint
 replacement found that four infusions of a young-donor plasma fraction changed their immune and
-inflammatory response to the surgery, which is not a benefit to an age-related function. The leaf is at the animal rung and the test asks for a person to measurably improve,
+inflammatory response to the surgery, which is not a benefit to an age-related function. This entry is at the animal rung and the test asks for a person to measurably improve,
 not to receive the infusion."""
 test = """
 An old living animal given blood or plasma from a young one afterwards has a measurably
@@ -32,14 +32,14 @@ horizon = "far"
 
 notes = """
 Later mouse work split the effect: diluting old plasma helps as much as adding young, which is
-the plasma-exchange leaf beside this one; and single factors (GDF11, oxytocin, TIMP2) each
+the plasma-exchange entry beside this one; and single factors (GDF11, oxytocin, TIMP2) each
 account for part of it. The branch's own line asks for a measured effect in people of
-exchanging or diluting plasma, and that is the companion leaf.
+exchanging or diluting plasma, and that is the companion entry.
 Added 2026-10-17, from the weekly reading of that date: the nearest controlled human result is
-gaudilliere-2025, a double-blind placebo-controlled phase 2a trial (NCT03981419) of a young-donor
+the 2025 trial report by Gaudilliere and colleagues, a double-blind placebo-controlled phase 2a trial (NCT03981419) of a young-donor
 plasma fraction in 38 older patients having a hip or knee replacement, which the authors call a
 first proof of principle that such a fraction regulates immune and inflammatory responses in older
-people. Its measure is the response to surgical injury and not an age-related function, so the first-human
+people. Its measure is the response to surgical injury and not an age-related function, so the first human
 test is not met on a plain reading. Whether such a measure could count is John's ruling. No stage or
 year was changed.
 """
@@ -72,7 +72,7 @@ date = 2026-10-17
 field = "description"
 old = "caregivers rated daily function better, an unconfirmed result), and no controlled trial has found a benefit."
 new = "caregivers rated daily function better, an unconfirmed result), and no controlled trial has found a benefit on an age-related function. A 2025 Stanford trial in 38 older people having a joint replacement found that four infusions of a young-donor plasma fraction changed their immune and inflammatory response to the surgery, which is not a benefit to an age-related function."
-why = "[reading 2026-10-17] The description's 'no controlled trial has found a benefit' was true but narrower than it looked; the nearest controlled human result is now named. The stage stays at shown in animals."
+why = "The weekly reading of 2026-10-17 found the description's 'no controlled trial has found a benefit' true but narrower than it looked; the nearest controlled human result is now named. The stage stays at shown in animals."
 publication = "gaudilliere-2025"
 
 [[revision]]
@@ -80,7 +80,7 @@ date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, from the weekly reading of that date: the nearest controlled human result is gaudilliere-2025, a double-blind placebo-controlled phase 2a trial (NCT03981419) of a young-donor plasma fraction in 38 older patients having a hip or knee replacement, which the authors call a first proof of principle that such a fraction regulates immune and inflammatory responses in older people. Its measure is the response to surgical injury and not an age-related function, so the first-human test is not met on a plain reading. Whether such a measure could count is John's ruling. No stage or year was changed."
-why = "[reading 2026-10-17] Adds the nearest controlled human trial to the notes and leaves the question of whether it counts for John."
+why = "The weekly reading of 2026-10-17 adds the nearest controlled human trial to the notes and leaves the question of whether it counts for John."
 publication = "gaudilliere-2025"
 
 [[revision]]
@@ -88,4 +88,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. John ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."

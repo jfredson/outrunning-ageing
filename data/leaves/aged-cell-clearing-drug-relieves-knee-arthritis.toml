@@ -11,7 +11,7 @@ dividing but will not die, and inflame their neighbours) gather in the joint aft
 with age, and in 2017 a Mayo Clinic and Unity Biotechnology group showed that killing them in the
 knees of mice eased pain and let cartilage regrow. The company took its drug UBX0101 into people,
 injecting it into the knee, and in 2020 its controlled trial found no more relief than a placebo
-injection at twelve weeks. The leaf stays at the animal rung: a person has had the drug, but no
+injection at twelve weeks. The treatment stays at the animal rung: a person has had the drug, but no
 person has had the result."""
 test = """
 A controlled trial in people with knee osteoarthritis reports that a drug meant to kill aged
@@ -30,12 +30,12 @@ notes = """
 The 2020 failure is the one most often cited against the whole class, and it is on the record
 here for that reason. It was a single injection of a short-lived drug, judged at twelve weeks; the
 company said afterwards that the drug may not have stayed in the joint long enough. That is a
-reason to keep the leaf tracked rather than withdrawn: the test can still be met by a better drug
+reason to keep the entry tracked rather than withdrawn: the test can still be met by a better drug
 or a longer course. A small randomised, placebo-controlled trial of fisetin, a plant compound
 some researchers use to clear aged cells, in knee osteoarthritis (75 people, run by the Steadman
 Philippon Research Institute; registry number NCT04210986) finished in February 2023; its main
 measure was safety, so it does not meet the test above.
-Added 2026-10-18, from the weekly reading of 2026-10-18: the fisetin trial named above (registry number NCT04210986) posted its results on its registry entry on 2024-09-19 (steadman-philippon-2024). 74 people started it (34 on fisetin, 40 on placebo; the entry's count is 75). Its main measure was safety, and about as many people on fisetin as on placebo had an adverse event (28 and 33); none of its secondary measures, among them knee pain and function questionnaires, walking and strength tests, cartilage on MRI and blood markers, differed between fisetin and placebo at the 0.05 level. So the trial did not meet the test above, and it is the only fisetin trial in knee osteoarthritis on this record. (The reading of 2026-10-18 reported a second, 74-person trial under the registry number NCT04770064, called ROPE; the registry shows that number withdrawn, 'funding was not awarded', with no one enrolled, so it is not a second trial, and the 74 matches the number who started this one. A conference abstract of April 2025, in Osteoarthritis and Cartilage 33, page S456, has the title 'Results: from a randomized clinical trial evaluating the senolytic fisetin for treating knee osteoarthritis'; its text was not read.)
+Added 2026-10-18, from the weekly reading of 2026-10-18: the fisetin trial named above (registry number NCT04210986) posted its results on its registry entry on 2024-09-19 (the Steadman Philippon Research Institute's entry). 74 people started it (34 on fisetin, 40 on placebo; the entry's count is 75). Its main measure was safety, and about as many people on fisetin as on placebo had an adverse event (28 and 33); none of its secondary measures, among them knee pain and function questionnaires, walking and strength tests, cartilage on MRI and blood markers, differed between fisetin and placebo at the 0.05 level. So the trial did not meet the test above, and it is the only fisetin trial in knee osteoarthritis on this record. (The weekly reading of 2026-10-18 reported a second, 74-person trial under the registry number NCT04770064, called ROPE; the registry shows that number withdrawn, 'funding was not awarded', with no one enrolled, so it is not a second trial, and the 74 matches the number who started this one. A conference abstract of April 2025, in Osteoarthritis and Cartilage 33, page S456, has the title 'Results: from a randomized clinical trial evaluating the senolytic fisetin for treating knee osteoarthritis'; its text was not read.)
 """
 
 [estimate]
@@ -47,7 +47,7 @@ works would be carried to approval quickly; the problem is that the one proper t
 no company trial has replaced it. The likely year assumes an academic trial with an oral drug
 reports a positive result around 2030 and a company carries it to approval in the mid to late
 2030s; the earliest assumes a trial already recruiting reads out positive by 2028; the latest
-allows for the 2020 result being the true answer and the leaf never moving."""
+allows for the 2020 result being the true answer and the entry never moving."""
 
 [[estimate.rung]]
 rung = "first-human"
@@ -66,12 +66,12 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
 
 [[revision]]
 date = 2026-10-18
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-18, from the weekly reading of 2026-10-18: the fisetin trial named above (registry number NCT04210986) posted its results on its registry entry on 2024-09-19 (steadman-philippon-2024). 74 people started it (34 on fisetin, 40 on placebo; the entry's count is 75). Its main measure was safety, and about as many people on fisetin as on placebo had an adverse event (28 and 33); none of its secondary measures, among them knee pain and function questionnaires, walking and strength tests, cartilage on MRI and blood markers, differed between fisetin and placebo at the 0.05 level. So the trial did not meet the test above, and it is the only fisetin trial in knee osteoarthritis on this record. (The reading of 2026-10-18 reported a second, 74-person trial under the registry number NCT04770064, called ROPE; the registry shows that number withdrawn, 'funding was not awarded', with no one enrolled, so it is not a second trial, and the 74 matches the number who started this one. A conference abstract of April 2025, in Osteoarthritis and Cartilage 33, page S456, has the title 'Results: from a randomized clinical trial evaluating the senolytic fisetin for treating knee osteoarthritis'; its text was not read.)"
-why = "[reading 2026-10-18] Item 1 of the audit asked for a reading of the full source; it was done through the registry's data interface on 2026-10-18. The item as written (a second fisetin trial, ROPE, with a null result) is not supported: ROPE was withdrawn. What the registry does support is that the trial already named here has reported, with no benefit on its secondary measures; that is what is applied, on John's ruling of 2026-10-18. The estimate is untouched."
+why = "The weekly reading of 2026-10-18 reported a second fisetin trial, and the audit of that reading the same day asked for a reading of the full source; it was done through the registry's data interface on 2026-10-18. What the reading reported (a second fisetin trial, ROPE, with a null result) is not supported: ROPE was withdrawn. What the registry does support is that the trial already named here has reported, with no benefit on its secondary measures; that is what is applied, on John's ruling of 2026-10-18. The estimate is untouched."
 publication = "steadman-philippon-2024"

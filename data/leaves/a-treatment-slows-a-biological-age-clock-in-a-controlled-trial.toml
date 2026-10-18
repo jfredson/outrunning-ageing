@@ -11,8 +11,8 @@ about twelve per cent for two years, against 75 who ate as usual, and in 2023 a 
 Duke group read the pace of ageing from their blood, with DunedinPACE, before and after: the
 restricted group's pace had slowed by two to three per cent, while the clocks that read the level
 of age (not the pace) did not move. It is a controlled, pre-planned analysis of a treatment on a
-clock, with the caution that the clock's own validity is the companion leaf's business. The
-treatment here, eating less, is not a drug; the leaf is about the measurement, and any treatment
+clock, with the caution that the clock's own validity is the companion entry's business. The
+treatment here, eating less, is not a drug; the entry is about the measurement, and any treatment
 counts."""
 test = """
 A controlled trial in people, with the clock analysis planned before the data were unblinded,
@@ -29,18 +29,19 @@ status = "tracked"
 horizon = "mid"
 
 notes = """
-Ruled by John on 2026-10-17, as the verify session proposed: the 2023 CALERIE paper does not settle
-this leaf's rung, because the paper itself calls its clock analysis a post hoc analysis (the
-assays were blind to trial arm, but the analysis was not planned before the data were unblinded),
-and the test asks for one planned in advance. The publication record (waziry-2023) therefore keeps
-settled_stage false, though it stays the leaf's stage record as written.
-The leaf exists so that the tree separates three things that get mixed up: a clock that
-predicts outcomes (the companion leaf), a treatment that moves a clock in a controlled trial
-(this leaf), and a regulator accepting the clock as proof (the regulatory leaf). The 2019 TRIIM
-result on the cell-settings branch moved clocks but had no control group, which is why this leaf
+John ruled on 2026-10-17, as proposed to him after a check of the record: the 2023 CALERIE paper
+does not settle this entry's rung, because the paper itself calls its clock analysis a post hoc
+analysis (the assays were blind to trial arm, but the analysis was not planned before the data
+were unblinded), and the test asks for one planned in advance. The paper (Waziry and colleagues,
+Nature Aging, 2023) is therefore not counted as settling the stage, though it stays the record
+cited for this entry's stage, as written.
+This entry exists so that the site separates three things that get mixed up: a clock that
+predicts outcomes (the companion entry), a treatment that moves a clock in a controlled trial
+(this entry), and a regulator accepting the clock as proof (the regulatory entry). The 2019 TRIIM
+result on the cell settings branch moved clocks but had no control group, which is why this entry
 rests on the 2023 result.
 Added 2026-10-17, from the weekly reading of that date: a 2026-09-07 paper in Nature Biotechnology
-(zhavoronkov-2026) applied six blood-protein clocks to stored samples from a placebo-controlled
+(Zhavoronkov and colleagues) applied six blood-protein clocks to stored samples from a placebo-controlled
 phase 2a trial of the lung-scarring drug rentosertib in 42 people, and all six predicted a lower
 biological age in the treated groups. The authors call the findings exploratory and say the clocks
 cannot separate slower ageing from an improved lung; the clocks were run on samples already
@@ -59,7 +60,7 @@ colleagues, Nature Communications, 2026-05-19, https://doi.org/10.1038/s41467-02
 exploratory analysis and say epigenetic ageing was not pre-specified, so, like the 2023 CALERIE paper, it does not settle this
 rung.
 No stage or year was changed.
-Added 2026-10-18, from the weekly reading of 2026-10-18 (item 6 of its audit): the clock analysis of the COSMOS trial was published in Nature Medicine on 2026-03-09 (li-2026). Its abstract calls it a prespecified ancillary study of a randomised, placebo-controlled trial, in 958 people (average age about 70) given a daily multivitamin-multimineral tablet or cocoa extract for two years, and it names its clocks. The multivitamin slowed two of the five clocks (PCGrimAge by 0.113 years a year, P = 0.017; PCPhenoAge by 0.214 years a year, P = 0.032); the cocoa extract moved none. Read plainly, a prespecified analysis in a placebo-controlled trial that names its clocks meets the test as worded, which the 2023 CALERIE paper did not (John, 2026-10-17). The leaf is already at first human, so no stage moves. Whether this paper should replace CALERIE as the stage record, and so change the stage's date of 2023-02-09, is John's to rule and is left open; the journal's own page needs a sign-in, so the point that the analysis was planned before the data were unblinded rests on the abstract's word 'prespecified'.
+Added 2026-10-18, from the weekly reading of 2026-10-18 and the audit of that reading the same day: the clock analysis of the COSMOS trial was published in Nature Medicine on 2026-03-09 (Li and colleagues). Its abstract calls it a prespecified ancillary study of a randomised, placebo-controlled trial, in 958 people (average age about 70) given a daily multivitamin-multimineral tablet or cocoa extract for two years, and it names its clocks. The multivitamin slowed two of the five clocks (PCGrimAge by 0.113 years a year, P = 0.017; PCPhenoAge by 0.214 years a year, P = 0.032); the cocoa extract moved none. Read plainly, a prespecified analysis in a placebo-controlled trial that names its clocks meets the test as worded, which the 2023 CALERIE paper did not (John, 2026-10-17). This entry is already at first human, so no stage moves. Whether this paper should replace CALERIE as the record cited for the stage, and so change the stage's date of 2023-02-09, is John's to rule and is left open; the journal's own page needs a sign-in, so the point that the analysis was planned before the data were unblinded rests on the abstract's word 'prespecified'.
 """
 
 [estimate]
@@ -67,7 +68,7 @@ status = "reviewed"
 set_on = 2026-10-16
 why = """
 The clinic rung needs an approval or a published routine practice resting on a clock result,
-which waits on a regulator accepting a clock (likely around 2040 on that leaf) or on a named
+which waits on a regulator accepting a clock (likely around 2040 on that entry) or on a named
 clinic adopting clock-guided treatment and publishing it, which the test allows and which could
 come sooner; the likely year is 2037, the earliest assumes a clinic's practice is published
 within four years, and the latest allows for the clocks never earning that standing."""
@@ -83,7 +84,7 @@ date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, from the weekly reading of that date: a 2026-09-07 paper in Nature Biotechnology (zhavoronkov-2026) applied six blood-protein clocks to stored samples from a placebo-controlled phase 2a trial of the lung-scarring drug rentosertib in 42 people, and all six predicted a lower biological age in the treated groups. The authors call the findings exploratory and say the clocks cannot separate slower ageing from an improved lung; the clocks were run on samples already collected, so, like the 2023 CALERIE paper, it was not a clock analysis planned before the data were unblinded, and it does not settle a rung. Statements by Eli Lilly and Novo Nordisk that clocks show people on their weight-loss drugs ageing more slowly (reported by MIT Technology Review on 2026-10-06) are company statements, were not opened, and are not the kind of record the test asks for. No stage or year was changed."
-why = "[reading 2026-10-17] Adds the rentosertib clock paper and notes why it does not settle a rung, in line with John's ruling of 2026-10-17 on the CALERIE paper."
+why = "The weekly reading of 2026-10-17 added the rentosertib clock paper and noted why it does not settle a rung, in line with John's ruling of 2026-10-17 on the CALERIE paper."
 publication = "zhavoronkov-2026"
 
 [[revision]]
@@ -91,19 +92,19 @@ date = 2026-10-17
 field = "notes"
 old = "Statements by Eli Lilly and Novo Nordisk that clocks show people on their weight-loss drugs ageing more slowly (reported by MIT Technology Review on 2026-10-06) are company statements, were not opened, and are not the kind of record the test asks for."
 new = "Statements by Eli Lilly and Novo Nordisk that clocks show people on their weight-loss drugs ageing more slowly were opened on 2026-10-17 in the MIT Technology Review article of 2026-10-06 (https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/). They were talks at a conference (Aging Research & Drug Discovery, Boston, the weekend before): Novo reported blood-protein clocks on samples from 10,052 people in placebo-controlled semaglutide trials, and Lilly a smaller tirzepatide study with clocks read from the marks on DNA. They are company talks reported by a journalist, not peer-reviewed reports. Novo's analysis is also posted as an unreviewed preprint (Research Square, 2026-09-22, https://doi.org/10.21203/rs.3.rs-11082091/v1), whose abstract does not say the clock analysis was planned before the data were unblinded and says it does not establish biological rejuvenation. One peer-reviewed report does exist for a related trial: semaglutide against placebo in 84 adults with HIV-associated lipohypertrophy (abnormal fat build-up in the abdomen) found slower epigenetic ageing on several clocks, with the pace of ageing on one clock 9 per cent slower (Corley and colleagues, Nature Communications, 2026-05-19, https://doi.org/10.1038/s41467-026-72861-3). Its authors call it a post hoc exploratory analysis and say epigenetic ageing was not pre-specified, so, like the 2023 CALERIE paper, it does not settle this rung."
-why = "[verification 2026-10-17] The company statements reported by MIT Technology Review on 2026-10-06 were opened and found to be conference talks, with one unreviewed preprint behind Novo's; a peer-reviewed controlled trial of semaglutide on clocks (Nature Communications, 2026-05-19) was found and, being post hoc, does not settle the rung. No stage or year was changed."
+why = "A check against the sources on 2026-10-17: the company statements reported by MIT Technology Review on 2026-10-06 were opened and found to be conference talks, with one unreviewed preprint behind Novo's; a peer-reviewed controlled trial of semaglutide on clocks (Nature Communications, 2026-05-19) was found and, being post hoc, does not settle the rung. No stage or year was changed."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
 
 [[revision]]
 date = 2026-10-18
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-18, from the weekly reading of 2026-10-18 (item 6 of its audit): the clock analysis of the COSMOS trial was published in Nature Medicine on 2026-03-09 (li-2026). Its abstract calls it a prespecified ancillary study of a randomised, placebo-controlled trial, in 958 people (average age about 70) given a daily multivitamin-multimineral tablet or cocoa extract for two years, and it names its clocks. The multivitamin slowed two of the five clocks (PCGrimAge by 0.113 years a year, P = 0.017; PCPhenoAge by 0.214 years a year, P = 0.032); the cocoa extract moved none. Read plainly, a prespecified analysis in a placebo-controlled trial that names its clocks meets the test as worded, which the 2023 CALERIE paper did not (John, 2026-10-17). The leaf is already at first human, so no stage moves. Whether this paper should replace CALERIE as the stage record, and so change the stage's date of 2023-02-09, is John's to rule and is left open; the journal's own page needs a sign-in, so the point that the analysis was planned before the data were unblinded rests on the abstract's word 'prespecified'."
-why = "[reading 2026-10-18] Item 6 of the audit asked for a reading of the full source; the abstract was read through Europe PMC on 2026-10-18 and the paper logged. Applied as a note only, on John's ruling of 2026-10-18; the stage record and its date are not changed, and the question is filed for John in the report on that batch. The estimate is untouched."
+why = "The weekly reading of 2026-10-18 found the paper, and the audit of that reading the same day asked for a reading of the full source; the abstract was read through Europe PMC on 2026-10-18 and the paper logged. Applied as a note only, on John's ruling of 2026-10-18; the record cited for the stage and its date are not changed, and the question is put to John in the report on the change to the records on 2026-10-18. The estimate is untouched."
 publication = "li-2026"

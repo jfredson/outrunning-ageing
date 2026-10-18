@@ -10,7 +10,7 @@ description = """
 Take a few of a person's own cells, grow them on a scaffold shaped like the organ, and put the
 result in. In 2006 a North Carolina group reported seven young people with bladders made this way,
 working for years. Nothing more complicated than a hollow organ has been done, and printed organs
-with their own blood supply remain in the laboratory. The leaf is written to count working organs,
+with their own blood supply remain in the laboratory. This entry is written to count working organs,
 not patches: skin, cartilage and blood vessels grown from cells are already approved, but they
 replace a surface or a tube, not an organ's job."""
 test = """
@@ -32,7 +32,7 @@ notes = """
 The record is the 2006 Lancet report of engineered bladders in seven patients. The printed ear
 of 2022 (a company announcement with no peer-reviewed report) is cartilage, not an organ, and
 would not count under the test even if published. The later synthetic windpipe cases of the
-2010s were found to be fraudulent and do not count. The Upgrade Tree keeps the same leaf at first
+2010s were found to be fraudulent and do not count. The Upgrade Tree keeps the same entry at first
 human; the weekly reading checks the two stages agree."""
 
 [estimate]
@@ -56,4 +56,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. John ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."

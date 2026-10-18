@@ -12,7 +12,7 @@ did this in mice for a cholesterol gene in the liver, with one dose, and the gen
 nearly a year. The same tool, aimed at a liver-infecting virus rather than an ageing gene, is
 the subject of a trial in people that the trial registry shows as started on 2024-11-29, and on 2026-05-30 the company reported that the virus's markers had stayed down for up to
 seventeen months after one dose; that report is a conference
-presentation, not a peer-reviewed paper, so the leaf waits at the animal rung for one."""
+presentation, not a peer-reviewed paper, so the treatment waits at the animal rung for one."""
 test = """
 A person is given a treatment that rewrites the chemical marks on one chosen gene, without
 cutting the DNA, and the gene's product is measurably changed in the way intended for at least
@@ -28,9 +28,9 @@ horizon = "near"
 
 notes = """
 The company's 2026 presentation would meet the test if it were peer-reviewed or posted to the
-registry as results; the weekly reading should expect this leaf to move to first human soon
+registry as results; the weekly reading should expect this treatment to move to first human soon
 after either happens. The gene in the human trial is a virus's, not a person's, and the test
-allows that on purpose: the tool is what this leaf tracks, and an ageing gene can be aimed at
+allows that on purpose: the tool is what this entry tracks, and an ageing gene can be aimed at
 later.
 Checked 2026-10-17: the trial's registry entry (NCT06671093, https://clinicaltrials.gov/study/NCT06671093)
 gives a study start of 2024-11-29 (marked actual), sites in Auckland, Hong Kong and Moldova, and the
@@ -46,7 +46,7 @@ says one injection almost halved the circulating protein for nearly a year in mi
 status = "reviewed"
 set_on = 2026-10-16
 why = """
-The first-human rung waits only on a peer-reviewed report of a trial that has already reported
+The first human rung waits only on a peer-reviewed report of a trial that has already reported
 at a conference; likely 2027. The clinic rung needs an approval for some condition: the hepatitis
 B programme was moving to a larger trial in 2026, so an approval in the mid 2030s is likely, with
 the earliest a fast route on strong late-stage data and the latest allowing for the first
@@ -69,11 +69,11 @@ date = 2026-10-17
 field = "description"
 old = "has been given to people since late 2024, and the company reported in May 2026 that the virus's markers stayed down for seventeen months after one dose"
 new = "is the subject of a trial in people that the trial registry shows as started on 2024-11-29, and on 2026-05-30 the company reported that the virus's markers had stayed down for up to seventeen months after one dose"
-why = "[verification 2026-10-17] 'Has been given to people since late 2024' is not stated by the trial registry (https://clinicaltrials.gov/study/NCT06671093), which gives a study start of 2024-11-29, or by the company's releases of 2024-11-14 and 2026-05-30, none of which gives the date of the first person dosed. The text now says what they say: a trial the registry shows as started on 2024-11-29, and markers repressed for up to seventeen months after one dose (company release, 2026-05-30). The stage does not change."
+why = "A check against the sources on 2026-10-17: 'Has been given to people since late 2024' is not stated by the trial registry (https://clinicaltrials.gov/study/NCT06671093), which gives a study start of 2024-11-29, or by the company's releases of 2024-11-14 and 2026-05-30, none of which gives the date of the first person dosed. The text now says what they say: a trial the registry shows as started on 2024-11-29, and markers repressed for up to seventeen months after one dose (company release, 2026-05-30). The stage does not change."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

@@ -11,7 +11,7 @@ microbes: in 2022 a Norwich group transferred gut microbes from young mice into 
 found the old mice's gut lining, eyes and brain inflammation shifted toward young, and the
 reverse transfer aged young mice. Transferring gut microbes from one person to another is
 already an approved treatment, since 2022, for a dangerous gut infection; nobody has shown it
-does anything for ageing in people, and the leaf asks for that."""
+does anything for ageing in people, and this entry asks for that."""
 test = """
 An old living animal given gut microbes from a young one afterwards has measurably less
 inflammation or better tissue function than untreated old controls, in a peer-reviewed report.
@@ -27,7 +27,7 @@ horizon = "far"
 
 notes = """
 The gut's microbes are one of the three published kinds of ageing damage ("hallmarks") the branch groups, and this is the only
-leaf for it; a drug or diet that changed the microbes with a measured effect on ageing in people
+entry for it; a drug or diet that changed the microbes with a measured effect on ageing in people
 would belong here too, and none has such a record."""
 
 [estimate]
@@ -58,4 +58,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. John ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."

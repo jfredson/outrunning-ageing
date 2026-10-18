@@ -30,7 +30,7 @@ sibling = "lifespan-organ-from-a-gene-edited-pig-keeps-a-person-alive"
 notes = """
 The record is the University of Maryland's own announcement of David Bennett's pig heart
 transplant; the peer-reviewed case report followed in June 2022. Pig kidneys followed in 2024
-(Boston, then New York). The Upgrade Tree keeps the same leaf at first human; the weekly reading
+(Boston, then New York). The Upgrade Tree keeps the same entry at first human; the weekly reading
 checks the two stages agree. The next rung, in clinical use, needs a regulator's approval for use
 outside a trial; the trials cleared in 2025 are the step before."""
 
@@ -67,4 +67,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. John ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."
