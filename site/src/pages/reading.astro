@@ -9,9 +9,12 @@
 // itself names, and leaves everything else for the author (docs/weekly-reading.md).
 import Base from '../layouts/Base.astro';
 import { records, longDate, plural } from '../lib/records';
+import { datedPosts, postPath } from '../lib/news';
 import type { Reading, ReadingItem } from '../lib/records';
 
 const readings = records.readings;
+const newsPosts = await datedPosts();
+const postFor = (recordId: string) => newsPosts.find((p) => p.data.records.includes(recordId)) ?? null; // rule 4.14
 const latest = readings[0] ?? null;
 const older = readings.slice(1);
 const waiting = records.waiting;
@@ -93,6 +96,7 @@ const description = latest
                 )}
                 {item.sibling_stage_label && <p class="card-found dim">The Upgrade Tree shows it at {item.sibling_stage_label.toLowerCase()}{item.sibling_agrees ? ', which agrees' : ', which does not agree, and a reading is filed on both sites'}.</p>}
                 {item.for_john && item.resolved_on && <p class="for-john"><strong>Resolved on {longDate(item.resolved_on)}.</strong> {item.resolved_by} <span class="dim">What the reading left for the author: {item.for_john}</span></p>}
+                {item.for_john && item.resolved_on && postFor(item.id) && <p class="for-john">In the news: <a href={postPath(postFor(item.id)!)}>{postFor(item.id)!.data.title}</a>.</p>}
                 {item.for_john && !item.resolved_on && <p class="for-john"><strong>Left for the author.</strong> {item.for_john}</p>}
                 {item.search_short && <p class="card-found dim" style="font-size: 13px;">{item.search_short}</p>}
                 <details>
@@ -148,7 +152,7 @@ const description = latest
                 <h4 style="font-family: var(--sans); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 14px 0 4px;">{g.name}</h4>
                 <ul class="checks">
                   {g.items.map((item) => (
-                    <li><span class={`badge v-${item.verdict}`}>{item.verdict_label}</span> {item.kind !== 'leaf' && <span class="badge kind">{item.kind_label}</span>} <a href={recordPath(item)}>{item.name}</a><p>{item.found}{item.for_john && (item.resolved_on ? <> <em>Left for the author, resolved on {longDate(item.resolved_on)}:</em> {item.for_john}</> : <> <em>Left for the author:</em> {item.for_john}</>)}</p></li>
+                    <li><span class={`badge v-${item.verdict}`}>{item.verdict_label}</span> {item.kind !== 'leaf' && <span class="badge kind">{item.kind_label}</span>} <a href={recordPath(item)}>{item.name}</a><p>{item.found}{item.for_john && (item.resolved_on ? <> <em>Left for the author, resolved on {longDate(item.resolved_on)}:</em> {item.for_john}</> : <> <em>Left for the author:</em> {item.for_john}</>)}</p>{item.resolved_on && postFor(item.id) && <p class="for-john">In the news: <a href={postPath(postFor(item.id)!)}>{postFor(item.id)!.data.title}</a>.</p>}</li>
                   ))}
                 </ul>
               </>

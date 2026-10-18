@@ -14,6 +14,7 @@
 // (which copied The Belt Equation's), on 2026-10-17.
 import Base from '../layouts/Base.astro';
 import { records, longDate, worldDate, plural, lowerFirst, publicationById, type StoryEntry } from '../lib/records';
+import { datedPosts, postPath } from '../lib/news';
 
 const story = records.story;
 const totals = story.totals;
@@ -21,6 +22,8 @@ const days = story.days.map((date) => ({ date, entries: story.entries.filter((e)
 const kindLabel = (e: StoryEntry) => e.kind_label;
 const h = records.headline;
 const changed = story.what_changed;
+const newsPosts = await datedPosts();
+const postsFor = (date: string) => newsPosts.filter((p) => p.data.date === date); // rule 4.14
 const capital = (t: string, first: boolean) => (first ? t.charAt(0).toUpperCase() + t.slice(1) : t);
 // A treatment's name opens with a capital; inside a line it is written from a small letter.
 const name = (t: string, first: boolean) => (first ? t : lowerFirst(t));
@@ -69,7 +72,7 @@ const name = (t: string, first: boolean) => (first ? t : lowerFirst(t));
           return (
             <li>
               <span class="check-date">{longDate(d.date)}</span>
-              <p>{parts.map((part, i) => <>{i > 0 ? '; ' : ''}{part(i === 0)}</>)}.</p>
+              <p>{parts.map((part, i) => <>{i > 0 ? '; ' : ''}{part(i === 0)}</>)}.{postsFor(d.date).map((p) => <> In the news: <a href={postPath(p)}>{p.data.title}</a>.</>)}</p>
             </li>
           );
         })}

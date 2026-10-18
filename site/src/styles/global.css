@@ -542,3 +542,36 @@ a.dim:hover { color: var(--accent); }
   .navlinks a.nav-secondary { font-size: 15px; }
   .nav-divider { display: none; }
 }
+
+/* ---- news (tracker pattern, rules 4.10 to 4.13; John 2026-10-18) ---- */
+.news-list { list-style: none; padding: 0; margin: 0; max-width: 760px; }
+.news-item { border-top: 1px solid var(--line); padding: 18px 0; }
+.news-item time { font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
+.news-item .kind { font-family: var(--sans); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-left: 10px; }
+.news-item h3 { margin: 4px 0 6px; font-size: 21px; line-height: 1.25; }
+.news-item h3 a { text-decoration: none; color: var(--text); }
+.news-item p { margin: 0; color: var(--text-soft); font-size: 15.5px; }
+.news-foot { font-family: var(--sans); font-size: 13.5px; color: var(--muted); max-width: 760px; border-top: 3px double var(--line-strong); padding-top: 12px; margin-top: 8px; }
+.opener { max-width: 760px; border: 1px solid var(--line-strong); border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 18px 22px 14px; margin: 0 0 26px; background: var(--panel); }
+.opener .k { font-family: var(--sans); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 6px; }
+.opener h3 { margin: 0 0 8px; font-size: 22px; line-height: 1.25; }
+.opener h3 a { text-decoration: none; color: var(--text); }
+.opener p { margin: 0; color: var(--text-soft); font-size: 15.5px; }
+.opener .meta { margin-top: 8px; font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
+.post { max-width: 760px; }
+.post h2 { font-size: 20px; margin: 30px 0 8px; }
+.post p { font-size: 17px; line-height: 1.6; }
+.post table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 14.5px; border-top: 3px double var(--line-strong); border-bottom: 3px double var(--line-strong); margin: 18px 0 22px; }
+.post td, .post th { text-align: left; padding: 8px 10px 8px 0; vertical-align: top; border-bottom: 1px solid var(--line); }
+.post th { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.post .stand-in { border: 1px dashed var(--line-strong); padding: 8px 12px; font-family: var(--sans); font-size: 13px; color: var(--muted); margin: 0 0 18px; }
+.post-record { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 12px; }
+.post-record .rec { font-family: var(--sans); font-size: 14px; color: var(--text-soft); margin: 0 0 8px; }
+.post-record .sources { font-family: var(--sans); font-size: 13.5px; color: var(--muted); margin: 0; }
+.in-the-news { border-left: 3px solid var(--accent); padding: 10px 14px; margin: 18px 0; background: var(--callout-bg); font-family: var(--sans); font-size: 14px; max-width: 760px; }
+.in-the-news .k { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 4px; }
+
+/* The bar at its limit (tracker pattern, rules 4.7 and 4.10; 2026-10-18): with News in the spine the
+   ten handles ended 2 pixels short of the theme toggle at 1280 pixels and the toggle wrapped, so the
+   handles sit 3 pixels tighter on this site only. Measured: the last handle ends at about 1092. */
+.navlinks a { padding: 6px 9px; }

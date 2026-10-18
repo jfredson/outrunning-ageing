@@ -12,12 +12,14 @@
 import Base from '../../layouts/Base.astro';
 import StageBadge from '../../components/StageBadge.astro';
 import { records, longDate, worldDate, hostOf, issueUrl, recordUrl, yearWords, type Leaf } from '../../lib/records';
+import { postsAbout, postPath } from '../../lib/news';
 
 export function getStaticPaths() {
   return records.leaves.map((l) => ({ params: { id: l.id }, props: { leaf: l } }));
 }
 
 const { leaf: l } = Astro.props as { leaf: Leaf };
+const inTheNews = await postsAbout(l.id); // rule 4.14: computed from the posts, never written into the record
 const site = String(Astro.site).replace(/\/$/, '');
 const argueRange = issueUrl('argue-a-range.md', `Argue a range: ${l.name}`, `Treatment or tool: ${l.id} (${site}${l.path})\n\n`);
 const questionTest = issueUrl('question-a-test.md', `Question a test: ${l.name}`, `Treatment or tool: ${l.id} (${site}${l.path})\n\n`);
@@ -39,6 +41,10 @@ const firstSentence = (s: string) => s.split('. ')[0];
       {l.verify.length > 0 && <span class="chip">{l.verify.length} {l.verify.length === 1 ? 'fact' : 'facts'} still to check</span>}
     </div>
   </section>
+
+  {inTheNews.length > 0 && (
+    <div class="in-the-news"><span class="k">In the news</span>{inTheNews.map((p, i) => <>{i > 0 ? <br /> : ''}<a href={postPath(p)}>{p.data.title}</a> · {longDate(p.data.date)}</>)}</div>
+  )}
 
   <div class="record">
     <div class="prose">

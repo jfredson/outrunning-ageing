@@ -1,0 +1,10 @@
+#!/bin/sh
+# Redraws the card of any news post in this commit (tracker pattern, rule 4.15), so a retitled post
+# cannot be committed with a stale card. The card is the post's link-preview picture.
+changed=$(git diff --cached --name-only --diff-filter=ACMR -- 'site/src/content/news/*.md')
+[ -z "$changed" ] && exit 0
+root=$(git rev-parse --show-toplevel)
+[ -d "$root/site/node_modules/sharp" ] || { echo "[pre-commit] site/node_modules has no sharp; run npm ci in site/ and draw the cards with node scripts/social-image.mjs --posts"; exit 1; }
+cd "$root" && node scripts/social-image.mjs --posts $changed || exit 1
+for f in $changed; do s=$(basename "$f" .md); git add "site/public/news/${s}-card.png"; done
+exit 0

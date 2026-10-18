@@ -11,17 +11,19 @@ interface Props {
   title?: string;
   description?: string;
   noindex?: boolean;
+  image?: string; // a page's own preview picture (a news post's card); the site's otherwise
 }
 
 const {
   title = SITE_NAME,
   description = 'When, if ever, does the rate of repairing the human body overtake the rate at which it ages? A public tracker: a year computed from the record of treatments and measuring tools, and a dated log of who promised what and when.',
   noindex = false,
+  image,
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 // The preview picture link cards show (site/public/social-preview.png, made by scripts/social-image.mjs); an absolute address, as the tags require.
-const socialImage = new URL('/social-preview.png', Astro.site).href;
+const socialImage = new URL(image ?? '/social-preview.png', Astro.site).href;
 const currentYear = new Date().getFullYear();
 ---
 
@@ -52,6 +54,7 @@ const currentYear = new Date().getFullYear();
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="application/rss+xml" title="Outrunning Ageing · News" href="/news/feed.xml" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:url" content={canonical} />

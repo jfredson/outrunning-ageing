@@ -1,0 +1,45 @@
+---
+// News: one post per event of note, newest first, with the opening post pinned at the top (tracker
+// pattern, rules 4.10 to 4.13; ruled by John 2026-10-18). A post is written only when a weekly
+// reading or a ruling changes something a reader would want explained; the story so far carries
+// every change, including the ones too small for a post.
+import Base from '../../layouts/Base.astro';
+import { longDate } from '../../lib/records';
+import { datedPosts, opener, postPath, KIND_LABEL, wordCount } from '../../lib/news';
+
+const posts = await datedPosts();
+const start = await opener();
+---
+
+<Base title="News · Outrunning Ageing" description="What moved on the tree, and why: one post for each change a reader would want explained, with what happened, where the record is, what it changed on this site, and what it does not mean.">
+  <section class="hero">
+    <p class="eyebrow">News</p>
+    <h1>What moved on the tree, and why</h1>
+    <p class="lede">A post is written only when a weekly reading or a ruling changes something a reader would want explained: a treatment moving up a rung, an estimate revised, a flagged item ruled, a claim added or settled, the headline year moving. Each post says what happened, where the record is, what it changes on this site, and what it does not mean.</p>
+  </section>
+
+  <section class="section">
+    {start && (
+      <div class="opener">
+        <span class="k">Start here</span>
+        <h3><a href={postPath(start)}>{start.data.title}</a></h3>
+        <p>{start.data.summary}</p>
+        <p class="meta">{longDate(start.data.date)} · about {Math.round(wordCount(start.body) / 100) * 100} words · <a href={postPath(start)}>read it</a></p>
+      </div>
+    )}
+    {posts.length === 0 ? (
+      <p class="empty">No post yet. The first is written the day something of note moves.</p>
+    ) : (
+      <ul class="news-list">
+        {posts.map((p) => (
+          <li class="news-item">
+            <time datetime={p.data.date}>{p.data.date}</time><span class="kind">{KIND_LABEL[p.data.kind]}</span>
+            <h3><a href={postPath(p)}>{p.data.title}</a></h3>
+            <p>{p.data.summary}</p>
+          </li>
+        ))}
+      </ul>
+    )}
+    <p class="news-foot">Every change to every record, including the ones no post explains, is in <a href="/story/">the story so far</a>, day by day. The weekly readings themselves are on <a href="/reading/">this week's reading</a>. Subscribe to the <a href="/news/feed.xml">feed</a>.</p>
+  </section>
+</Base>

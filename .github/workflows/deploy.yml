@@ -37,6 +37,8 @@ jobs:
         run: python3 scripts/export.py --check
       - name: Run the validator's tests
         run: python3 scripts/test_compute.py
+      - name: Check the news posts
+        run: python3 scripts/export.py && python3 scripts/check_news.py
       - name: Install and build
         working-directory: site
         run: |

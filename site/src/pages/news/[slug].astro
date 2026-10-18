@@ -1,0 +1,34 @@
+---
+// One news post (tracker pattern, rule 4.12): the eyebrow, the title as the finding, the lede, then
+// the body's fixed sections, and the links to the records it names. The post's card is its preview
+// image (rule 4.15). Ruled by John 2026-10-18.
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { longDate, leafById } from '../../lib/records';
+import { allPosts, cardPath, KIND_LABEL, type Post } from '../../lib/news';
+
+export async function getStaticPaths() {
+  return (await allPosts()).map((p) => ({ params: { slug: p.id }, props: { post: p } }));
+}
+const { post } = Astro.props as { post: Post };
+const { Content } = await render(post);
+const named = post.data.records.map((id) => leafById(id)).filter(Boolean);
+---
+
+<Base title={`${post.data.title} · Outrunning Ageing`} description={post.data.summary} image={cardPath(post)}>
+  <section class="hero wide">
+    <p class="eyebrow"><a href="/news/">News</a> · {longDate(post.data.date)} · {KIND_LABEL[post.data.kind]}</p>
+    <h1>{post.data.title}</h1>
+    <p class="lede">{post.data.summary}</p>
+  </section>
+  <article class="post">
+    {post.data.stand_in && <p class="stand-in">A stand-in written from the record while the opening post is drafted; it will be replaced, not revised.</p>}
+    <Content />
+    {(named.length > 0 || post.data.sources.length > 0) && (
+      <section class="post-record">
+        {named.length > 0 && <p class="rec">The record: {named.map((l, i) => <>{i > 0 ? ' · ' : ''}<a href={l!.path}>{l!.name}</a></>)}{post.data.reading && <> · the reading of <a href={`/reading/#${post.data.reading}`}>{longDate(post.data.reading)}</a></>} · <a href={`/story/#logged-${post.data.date}`}>the story entry</a>.</p>}
+        {post.data.sources.length > 0 && <p class="sources">Sources: {post.data.sources.map((s, i) => <>{i > 0 ? ' · ' : ''}<a href={s.url} rel="noopener">{s.label}</a></>)}.</p>}
+      </section>
+    )}
+  </article>
+</Base>
