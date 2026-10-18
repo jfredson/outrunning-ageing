@@ -309,6 +309,8 @@ export interface Story {
 interface NamedLink { id: string; name: string; path: string }
 export interface ChangedDay {
   date: string;
+  year: { old: number; new: number; branch: { key: string; name: string; path: string } | null } | null;   // from the headline's history (2026-10-18)
+  added: { leaf: NamedLink[]; claim: NamedLink[]; experiment: NamedLink[] };   // from the records' added dates (2026-10-18)
   moves: { leaf: NamedLink; from: string; to: string; path: string }[];
   ranges: ({ leaf: NamedLink; goal: string; path: string } & (
     { kind: 'revised'; changes: { which: 'earliest' | 'likely' | 'latest'; old: number; new: number }[] } |

@@ -3,6 +3,7 @@
 # from memory and in the verify list. The estimate is a first pass.
 
 id = "antibody-clears-amyloid-from-the-brain-and-slows-decline"
+added_on = 2026-10-16
 name = "An antibody clears amyloid from the brain and slows the decline of Alzheimer's disease"
 branch = "broken-proteins"
 description = """

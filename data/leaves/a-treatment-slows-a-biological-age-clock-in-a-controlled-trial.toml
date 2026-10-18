@@ -2,6 +2,7 @@
 # from memory of the paper and are in the verify list. The estimate is a first pass.
 
 id = "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial"
+added_on = 2026-10-16
 name = "A treatment slows a biological age clock in a controlled trial"
 branch = "measuring-age"
 description = """

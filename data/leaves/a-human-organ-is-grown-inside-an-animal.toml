@@ -3,6 +3,7 @@
 # point as the schema asks. The estimate is a first pass.
 
 id = "a-human-organ-is-grown-inside-an-animal"
+added_on = 2026-10-16
 name = "A human organ is grown inside an animal and transplanted into a person"
 branch = "replacing-parts"
 description = """

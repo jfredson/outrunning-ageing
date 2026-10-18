@@ -574,7 +574,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
         clinic = compute.clinic_year(l) if compute.STAGE_RANK[l["stage"]] >= compute.STAGE_RANK["in-clinical-use"] else None
         hl = headline_leaf.get(l["id"])
         leaves_out.append({
-            "id": l["id"], "name": l["name"], "path": f"/leaves/{l['id']}/",
+            "id": l["id"], "name": l["name"], "path": f"/leaves/{l['id']}/", "added_on": iso(l.get("added_on")),
             "branch": l["branch"], "branch_name": branch_name.get(l["branch"], l["branch"]), "branch_path": branch_path.get(l["branch"]),
             # A test is never edited once published, so a ladder key written into one is shown in words.
             "description": text(l["description"]), "test": value_words("test", text(l["test"])),
@@ -632,7 +632,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
     for c in claims_sorted:
         ls, bs = targets(c)
         claims.append({
-            "id": c["id"], "who": c["who"], "who_is": text(c["who_is"]), "said_on": c["said_on"],
+            "id": c["id"], "who": c["who"], "who_is": text(c["who_is"]), "said_on": c["said_on"], "added_on": iso(c.get("added_on")),
             "where": text(c["where"]), "link": c.get("link"), "quote": text(c["quote"]),
             "is_paraphrase": c.get("is_paraphrase") is True, "paraphrase_seen_in": text(c.get("paraphrase_seen_in")),
             "commits_to": text(c["commits_to"]), "due": c.get("due"),
@@ -659,7 +659,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
     for e in experiments_sorted:
         ls, bs = targets(e)
         experiments.append({
-            "id": e["id"], "who": e["who"], "who_is": text(e["who_is"]), "name": e.get("name", ""),
+            "id": e["id"], "who": e["who"], "who_is": text(e["who_is"]), "name": e.get("name", ""), "added_on": iso(e.get("added_on")),
             "started": e["started"], "status": e["status"], "ended": e.get("ended"),
             "what": text(e["what"]), "measures": text(e["measures"]), "claims": text(e["claims"]),
             "public_record": text(e["public_record"]), "link": e["link"],
@@ -717,7 +717,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
                               if e["kind"] in ("moved-range", "reading") or e.get("moves_estimate")),
         "days": sorted({e["date"] for e in story_entries if e["date"]}, reverse=True),
         "changelog": read_changelog(changelog_file),
-        "what_changed": what_changed(leaves_out, publications, readings_out),
+        "what_changed": what_changed(leaves_out, publications, readings_out, claims, experiments, h, branch_name),
     }
 
     examples = [{"kind": r["_kind"], "id": r.get("id") or r.get("key")} for r in records if r.get("example") is True]
@@ -778,7 +778,9 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
     }
 
 
-def what_changed(leaves_out: list[dict], publications: list[dict], readings_out: list[dict]) -> list[dict]:
+def what_changed(leaves_out: list[dict], publications: list[dict], readings_out: list[dict],
+                 claims: list[dict] | None = None, experiments: list[dict] | None = None,
+                 headline: dict | None = None, branch_name: dict[str, str] | None = None) -> list[dict]:
     """The story page's "what changed" section (John's ruling of 2026-10-18): one line per day, newest
     first, built only from the records' own flags and never from the changelog's prose. A day's line is
     made of parts, each a fact a record carries with its date: a treatment moved up a rung (a stage
@@ -787,11 +789,40 @@ def what_changed(leaves_out: list[dict], publications: list[dict], readings_out:
     to a record's paragraphs, an estimate's status, or a stage's date or record gets the single part
     "wording". Two forms in the ruling have no flag to build from yet: the year at the top moving (the
     headline file keeps only its latest value) and a treatment or claim being added (neither record carries
-    the date it was added); they are left out rather than guessed."""
+    the date it was added); they are left out rather than guessed.
+
+    Widened 2026-10-18 on John's ruling of that day: the headline file keeps a history of its runs and
+    treatments, claims and self-experiments carry the date they were added, so a day's line also says
+    when the year at the top moved (from the history: the middle year differs from the previous entry's,
+    with the required branch whose middle year moved furthest named as the branch that moved it) and
+    what was added (named when there are three or fewer, counted when there are more)."""
     days: dict[str, dict] = {}
+    branch_name = branch_name or {}
 
     def day(date: str) -> dict:
-        return days.setdefault(date, {"date": date, "moves": [], "ranges": {}, "papers": 0, "readings": [], "other": 0})
+        return days.setdefault(date, {"date": date, "moves": [], "ranges": {}, "papers": 0, "readings": [], "other": 0,
+                                      "year": None, "added": {"leaf": [], "claim": [], "experiment": []}})
+
+    history = (headline or {}).get("history") or []
+    required = {b["key"] for b in (headline or {}).get("branches", []) if b.get("required")}
+    for prev, cur in zip(history, history[1:]):
+        if cur["median_year"] == prev["median_year"]:
+            continue
+        moved = [(abs(cur["branches"].get(k, 0) - prev["branches"].get(k, 0)), cur["branches"].get(k, 0), k)
+                 for k in cur.get("branches", {}) if (not required or k in required)
+                 and cur["branches"].get(k) != prev.get("branches", {}).get(k)]
+        key = max(moved)[2] if moved else None
+        day(cur["computed_on"])["year"] = {"old": prev["median_year"], "new": cur["median_year"],
+                                           "branch": {"key": key, "name": branch_name.get(key, key), "path": f"/branches/{key}/"} if key else None}
+    for l in leaves_out:
+        if l.get("added_on") and not l.get("example"):
+            day(l["added_on"])["added"]["leaf"].append({"id": l["id"], "name": l["name"], "path": l["path"]})
+    for c in claims or []:
+        if c.get("added_on") and not c.get("example"):
+            day(c["added_on"])["added"]["claim"].append({"id": c["id"], "name": f"{c['who']} ({c['said_on'][:4]})", "path": c["path"]})
+    for e in experiments or []:
+        if e.get("added_on") and not e.get("example"):
+            day(e["added_on"])["added"]["experiment"].append({"id": e["id"], "name": e["who"], "path": e["path"]})
 
     for l in leaves_out:
         ref = {"id": l["id"], "name": l["name"], "path": l["path"]}
@@ -830,10 +861,12 @@ def what_changed(leaves_out: list[dict], publications: list[dict], readings_out:
         for r in ranges:
             if r["kind"] == "revised":
                 r["changes"].sort(key=lambda c: order[c["which"]])
-        substantive = bool(d["moves"] or ranges or d["papers"] or d["readings"])
-        out.append({"date": date, "moves": d["moves"], "ranges": ranges, "papers": d["papers"],
-                    "readings": d["readings"], "wording": not substantive and d["other"] > 0})
-    return [o for o in out if o["moves"] or o["ranges"] or o["papers"] or o["readings"] or o["wording"]]
+        added = d["added"]
+        substantive = bool(d["year"] or d["moves"] or ranges or d["papers"] or d["readings"] or any(added.values()))
+        out.append({"date": date, "year": d["year"], "added": added, "moves": d["moves"], "ranges": ranges,
+                    "papers": d["papers"], "readings": d["readings"], "wording": not substantive and d["other"] > 0})
+    return [o for o in out if o["year"] or any(o["added"].values()) or o["moves"] or o["ranges"] or o["papers"]
+            or o["readings"] or o["wording"]]
 
 
 ORGANISATION = re.compile(r"\b(?:Inc|Ltd|Co|S\.A|A/S|plc|LLC|Center|Centre|Foundation|Institute|Committee|Federation|"

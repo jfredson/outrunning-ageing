@@ -4,6 +4,7 @@
 # which a session there checked on 2026-10-16. The estimate is a first pass.
 
 id = "partially-resetting-cells-reverses-ageing-in-an-animal"
+added_on = 2026-10-16
 name = "Partially resetting cells reverses ageing in a living animal"
 branch = "cell-settings"
 description = """

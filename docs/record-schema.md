@@ -132,6 +132,7 @@ Eight `[[branch]]` tables, in order. The eight keys are fixed in the script; a f
 | Field | Required | Meaning |
 |---|---|---|
 | `id` | yes | The page address, never renamed once committed. Retire it in `data/retired.toml` instead. |
+| `added_on` | yes | The date the record was first committed, a TOML date (ruled by John 2026-10-18, decision 23). |
 | `name` | yes | Plain-language name that says what happens, not what it is called: "A drug clears aged cells from a person", not "senolytic therapy". |
 | `branch` | yes | One of the eight branch keys. |
 | `description` | yes | Two to four sentences: what this is and why it is on the tree, for a reader who has never heard of it. |
@@ -225,6 +226,7 @@ The claims log is talk, set against delivery (tracker pattern, section 6). It si
 | Field | Required | Meaning |
 |---|---|---|
 | `id` | yes | The speaker, the year, a word for the topic: `kurzweil-2029-escape-velocity`. |
+| `added_on` | yes | The date the record was first committed, a TOML date (decision 23). |
 | `who` | yes | The person or organisation, as named. |
 | `who_is` | yes | One line introducing them, for a reader who has never heard of them ("the inventor and futurist Ray Kurzweil"). |
 | `said_on` | yes | When it was said, as text: year, year-month or full date. Talk is dated by when it was said. |
@@ -286,6 +288,7 @@ Other people's public self-experiments. The one line the site repeats everywhere
 | Field | Required | Meaning |
 |---|---|---|
 | `id` | yes | The person and the programme: `bryan-johnson-blueprint`. |
+| `added_on` | yes | The date the record was first committed, a TOML date (decision 23). |
 | `who` | yes | The person, as named. |
 | `who_is` | yes | One line introducing them. |
 | `name` | no | What the programme is called, if it has a name. |
@@ -447,7 +450,7 @@ A moved item would instead carry `moved_from = "shown-in-animals"` and `moved_to
 10. Every reading's id is its `read_on` date (with `-2`, `-3` for a second or third run that day); `ran_at` is universal time as text, `run_by` is `hand` or `scheduled`, `commit_before` is a short commit; every item names exactly one leaf, claim or self-experiment that exists, no record twice; every verdict is one of the four; every item lists at least two searches or carries `search_short`, and a `reused` line quotes one of them; every verdict but quiet cites a source; a noted item names a publication that exists and a quiet item names none; a moved item is a leaf, moves exactly one rung, and is matched by a stage revision on that leaf dated `read_on` from `moved_from` to `moved_to`; a flagged item carries `for_john` and no other item does; `resolved_on` and `resolved_by` appear together, only on a flagged item, with the date not before `read_on` (proposed 2026-10-17, decision 19); `sibling_stage` appears only on a leaf that has a `sibling`; a `limits` line, where present, is not empty, and a `later_note` carries a date not before `read_on` and some text (2026-10-18); and `leaves_read`, `claims_read`, `experiments_read` and `searches` equal what the items hold. (Widened 2026-10-17; the rule of 2026-10-16 checked a leaf-only reading with five verdicts.)
 11. No id is renamed: the file name must equal the id, and an id that was committed before and is now gone must have an entry in `data/retired.toml` (the script reads the repository's history for this, and skips the check with a note when the data folder is not in a git repository). A current record may not reuse a retired id.
 
-`python3 scripts/compute.py run` validates first, refuses with a plain message until every branch has at least `handled_when` tracked leaves, and otherwise plays the tree out and writes `data/headline.json`. How it does that, and the parameters proposed for it on 2026-10-16, are in `docs/method.md`.
+`python3 scripts/compute.py run` validates first, refuses with a plain message until every branch has at least `handled_when` tracked leaves, and otherwise plays the tree out and writes `data/headline.json`. The file keeps a `history` list (ruled by John 2026-10-18, decision 24): each run adds one entry with `computed_on`, `median_year`, `before_2050`, `after_2100`, `p5`, `p95` and `branches` (each branch's key and its middle handled year), read from the file it replaces; a run on the same day that gives exactly the last entry's numbers adds nothing. Never edit the history by hand. How it does that, and the parameters proposed for it on 2026-10-16, are in `docs/method.md`.
 
 ## Decisions (proposed 2026-10-16, ruled by John the same day)
 
@@ -486,6 +489,13 @@ Proposed by the audit session (`docs/readings/audit-2026-10-18.md`, proposals 1 
 20. **A reading record may carry a `limits` line.** The choice: one optional text field on the reading, asked of every reading from 2026-10-25, saying which pages were opened and refused and that the searches cannot be limited by date. **Confidence: high** that the record needs somewhere to say it, because the first scheduled reading's public summary said pages "could not be opened" when some had opened, and nothing in the record could show which. **A judgment call**, not checked against the sibling sites (The Quiet Galaxy's audit proposes the same field). **Strongest alternative:** put it in the `summary`, which needs no new field but cannot be checked or printed on its own line; the cost is that a summary written in a hurry leaves it out. **Would I change it on reflection?** Possibly make it required once there are a few readings that carry it.
 21. **A reading record may carry dated later notes.** The choice: optional `[[later_note]]` tables (a date and text), added by a later dated batch, printed under the summary, so a wrong statement in the reading's own words is corrected without editing the record. **Confidence: moderate**; the reading stays as written and the correction sits beside it, which is the point, but a second place where a reader must look is a cost. **A judgment call.** **Strongest alternative:** edit the summary and say so in the changelog, which is simpler and loses the record of what the reading said. **Would I change it on reflection?** The name; `correction` would say more than `later_note`, but the field is not only for corrections.
 22. **The window is always the seven days up to the reading.** The choice: `covers_from` is seven days before `read_on`, whatever the date of the last reading. **Confidence: moderate** (seven or fourteen days is a judgment); it is what the first scheduled reading did, it leaves no hole if a run is missed, and it costs only that a record the last reading logged is seen again and named. **A judgment call**, not checked against the siblings (The Quiet Galaxy's audit proposes fourteen). **Strongest alternative:** the day after the last reading, which is exact and was the procedure's rule; the cost is a one-day window, or a gap of weeks after a missed run, that makes a quiet reading true by construction.
+
+### Ruled by John 2026-10-18, on the "what changed" section
+
+Raised by the session that built the story page's "what changed" section on 2026-10-18, which could not build two of the forms John ruled for it, and ruled by John the same day ("YES to both record-layout additions"). The section is built from these and never from the changelog.
+
+23. **Treatments, claims and self-experiments carry `added_on`**, the date the record was first committed, required on every one. Back-filled on 2026-10-18 from the repository's history (the first commit that added each file, in the author's time zone, which was Pacific for all 84): 43 treatments, 30 claims and 9 self-experiments on 2026-10-16, and one treatment (the dog drug) and one claim (Kurzweil's of 2026) on 2026-10-17; none could not be dated. **Confidence: high**; a publication already carries the same field, and the site cannot read the repository's history at build time (the deploy checks out only the latest commit). **Standard practice.** **Strongest alternative:** read the dates from the repository's history at build time, which needs no field but needs the full history in every build and breaks when a file is moved. **Would I change it on reflection?** No.
+24. **The headline file keeps a history of its runs.** Back-filled on 2026-10-18 from the committed versions of the file, with one entry for each committed change to its numbers (three: 2026-10-16, 2058 and 2.66 per cent before 2050; 2026-10-17, 2058 and 3.35 per cent; 2026-10-17, 2058 and 4.09 per cent); re-runs that committed the same numbers were not kept. The section says the year moved when an entry's middle year differs from the one before, and names as the branch that moved it the required branch whose middle year moved furthest. **Confidence: high** on keeping the history; **moderate** on that rule for naming the branch, a judgment: the year is the latest of several branches plus a lag, so more than one branch can move it at once. **Strongest alternative:** a separate file of past headlines, which keeps the served headline file small; the cost is a second file to keep in step. **Would I change it on reflection?** Possibly name every required branch whose middle year moved, when there are several.
 
 ## Known simplifications
 

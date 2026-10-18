@@ -104,9 +104,11 @@ Two more rulings of 2026-10-18 follow from it:
 - **No file names or version lines on public pages.** The pages do not say which file a record
   is or which commit the site was built from; the repository link in the footer is enough.
 - **The story page's "what changed" section is built from the records' own flags only**
-  (stage revisions, estimate-year revisions, papers' logged dates, the readings), one plain
-  line per day, with "the site's wording changed" for a day with only wording changes. Nothing
-  in it is copied from `CHANGELOG.md`.
+  (the headline file's history, stage revisions, estimate-year revisions, the added dates of
+  treatments, claims, self-experiments and papers, the readings), one plain line per day, with
+  "the site's wording changed" for a day with only wording changes. Nothing in it is copied
+  from `CHANGELOG.md`. So every new treatment, claim and self-experiment carries `added_on`, and
+  the headline is only ever written by `compute.py run`, which adds to its history.
 
 ## End of a session
 

@@ -5,6 +5,7 @@
 # first pass by Claude and is the arguable part.
 
 id = "drug-clears-aged-cells-from-a-person"
+added_on = 2026-10-16
 name = "A drug clears aged cells from a person"
 branch = "worn-out-cells"
 description = """

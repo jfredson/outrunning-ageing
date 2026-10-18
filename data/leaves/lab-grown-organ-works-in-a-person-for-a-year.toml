@@ -4,6 +4,7 @@
 # which a session there checked on 2026-10-16. The estimate is a first pass.
 
 id = "lab-grown-organ-works-in-a-person-for-a-year"
+added_on = 2026-10-16
 name = "A printed or lab-grown organ works in a person for a year"
 branch = "replacing-parts"
 description = """

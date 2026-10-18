@@ -3,6 +3,7 @@
 # 2026-10-16; the trial record is from memory and in the verify list. The estimate is a first pass.
 
 id = "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks"
+added_on = 2026-10-16
 name = "A drug that acts only on inflammation is approved to prevent heart attacks"
 branch = "inflammation-and-signalling"
 description = """

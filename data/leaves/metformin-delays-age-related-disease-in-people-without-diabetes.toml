@@ -3,6 +3,7 @@
 # 2026-10-16. The estimate is a first pass.
 
 id = "metformin-delays-age-related-disease-in-people-without-diabetes"
+added_on = 2026-10-16
 name = "Metformin delays age-related disease in people who do not have diabetes"
 branch = "energy-and-fuel"
 description = """

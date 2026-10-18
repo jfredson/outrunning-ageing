@@ -3,6 +3,7 @@
 # is from memory and in the verify list. The estimate is a first pass.
 
 id = "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface"
+added_on = 2026-10-16
 name = "A person's own cells are grown outside the body and used to rebuild a worn joint surface"
 branch = "replacing-parts"
 description = """

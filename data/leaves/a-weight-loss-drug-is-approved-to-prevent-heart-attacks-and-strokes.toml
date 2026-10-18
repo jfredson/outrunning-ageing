@@ -3,6 +3,7 @@
 # memory and in the verify list. The estimate is a first pass.
 
 id = "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"
+added_on = 2026-10-16
 name = "A weight-loss drug is approved to prevent heart attacks and strokes in people without diabetes"
 branch = "energy-and-fuel"
 description = """
