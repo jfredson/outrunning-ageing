@@ -40,7 +40,7 @@ const description = `${branch.meaning} What has been recorded under this branch 
       </p>
     ) : (
       <p class="prose" style="margin-top: 8px; font-size: 15.5px;">
-        This branch groups none of the twelve published hallmarks of ageing: it is the tools that say whether any of the others has been dealt with. Without an accepted way to show that a treatment slowed ageing, every other branch's path from "shown in animals" to "in clinical use" runs through a trial that takes a working lifetime, and the model says so by requiring it.
+        This branch groups none of the twelve published hallmarks of ageing: it is the tools that say whether any of the others has been dealt with. Without an accepted way to show that a treatment slowed ageing, every other branch's path from "shown in animals" to "in clinical use" runs through a trial that takes a working lifetime, which is why the year cannot arrive until this branch is handled too.
       </p>
     )}
   </section>
@@ -51,7 +51,7 @@ const description = `${branch.meaning} What has been recorded under this branch 
       <span>{branch.required ? 'required: the year cannot arrive until this branch is handled' : 'not required'}; handled when {branch.handled_when === 1 ? 'one treatment is' : `${branch.handled_when} treatments are`} in the clinic</span>
     </div>
     <ul class="tally">
-      <li><span class="stat">{hb ? yearWords(hb.median_handled_year) : 'not computed'}</span><span class="stat-label">handled, in the middle run</span></li>
+      <li><span class="stat">{hb ? yearWords(hb.median_handled_year) : 'not computed'}</span><span class="stat-label">handled by, middle estimate</span></li>
       <li><span class="stat">{branch.in_clinic}</span><span class="stat-label">of {branch.leaves} in the clinic already</span></li>
       <li><span class="stat">{branch.furthest_label ? branch.furthest_label.toLowerCase() : 'none'}</span><span class="stat-label">furthest stage reached</span></li>
     </ul>
@@ -116,7 +116,7 @@ const description = `${branch.meaning} What has been recorded under this branch 
     <div class="shead"><h2>Its history</h2><span>the handled year, computation by computation</span></div>
     <p class="prose" style="font-size: 15.5px;">
       {h.available
-        ? <>The year was first computed on {longDate(h.computed_on)}, with this branch handled in the middle run by {hb ? yearWords(hb.median_handled_year) : 'a year not yet known'}. {hb && hb.leaves.some((l) => !l.known && l.estimate_status === 'first-pass') ? 'Some ranges under it that the year draws from are still a first pass. ' : 'Every range under it that the year draws from has been through the outside review. '}From the second computation on, this section charts the branch's handled year run by run, so a reader who sees the year at the top move can tell which branch moved it.</>
+        ? <>The year was first computed on {longDate(h.computed_on)}, with this branch's middle estimate for being handled at {hb ? yearWords(hb.median_handled_year) : 'a year not yet known'}. {hb && hb.leaves.some((l) => !l.known && l.estimate_status === 'first-pass') ? 'Some ranges under it that the year draws from are still a first pass. ' : 'Every range under it that the year draws from has been through the outside review. '}From the second computation on, this section charts the branch's handled year run by run, so a reader who sees the year at the top move can tell which branch moved it.</>
         : <>The year has not been computed yet, so this branch has no history. Once it has, this section charts the branch's handled year computation by computation.</>}
     </p>
   </section>

@@ -17,7 +17,7 @@ const branches = records.branches;
     <p class="eyebrow">The tree</p>
     <h1>Eight things that would have to be dealt with</h1>
     <p class="lede">
-      The published science groups ageing into twelve "hallmarks": twelve kinds of damage and failure that build up in a body over a lifetime. This site groups them into seven kinds of damage that repair would have to address, and adds an eighth branch for the tools that would show whether any repair worked. Every treatment and tool on the tree sits under one of these; the year on the home page is computed from all eight.
+      In a 2023 review, <a href="/story/#lopez-otin-2023">López-Otín and four colleagues</a> listed twelve kinds of damage and failure that build up in a body over a lifetime, and called them the "hallmarks" of ageing. This site groups them into seven kinds of damage that repair would have to address, and adds an eighth branch for the tools that would show whether any repair worked. Every treatment and tool on the tree sits under one of these; the year on the home page is computed from all eight.
     </p>
   </section>
 
@@ -31,7 +31,7 @@ const branches = records.branches;
             <div class="bcard-sub">{b.meaning}</div>
             <div class="bcard-foot">
               {b.in_clinic === 0 ? 'Nothing in the clinic yet' : `${plural(b.in_clinic, 'treatment', 'treatments')} in the clinic`}
-              {b.median_handled_year !== null && <>. Handled, in the middle run, by <span class="year">{yearWords(b.median_handled_year)}</span></>}
+              {b.median_handled_year !== null && <>. Middle estimate: handled by <span class="year">{yearWords(b.median_handled_year)}</span></>}
             </div>
           </a>
         </li>
@@ -42,7 +42,7 @@ const branches = records.branches;
   <section class="section narrow prose">
     <h2>How a branch sets the year</h2>
     <p>
-      Each branch counts as handled in the year its second treatment or tool reaches the clinic: the rung called "in clinical use", where a regulator somewhere has approved it or a doctor can give it outside a trial. The tree is played out many thousands of times, each time drawing a year for every treatment from its range; in each run the latest handled year across the eight branches, plus a few years for treatments to spread from the clinic to ordinary people, is that run's answer. So the slowest branch sets the year, and the fastest two treatments under a branch set that branch. {h.available ? `In the middle run the slowest branch is handled in ${yearWords(Math.max(...branches.map((b) => b.median_handled_year ?? 0)))}, and the year at the top is ${h.median_year}.` : ''} The rule, with its alternatives, is on <a href="/method/">how the numbers are worked out</a>.
+      Each branch counts as handled in the year its second treatment or tool reaches the clinic: the rung called "in clinical use", where a regulator somewhere has approved it or a doctor can give it outside a trial. The tree is played out many thousands of times, each time drawing a year for every treatment from its range; in each run the latest handled year across the eight branches, plus a few years for treatments to spread from the clinic to ordinary people, is that run's answer. So the slowest branch sets the year, and the fastest two treatments under a branch set that branch. {h.available ? `Taking each branch's middle estimate, the slowest is handled by ${yearWords(Math.max(...branches.map((b) => b.median_handled_year ?? 0)))}, and the year at the top is ${h.median_year}.` : ''} The rule, with its alternatives, is on <a href="/method/">how the numbers are worked out</a>.
     </p>
 
     <h2>The five stages</h2>
