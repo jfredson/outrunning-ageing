@@ -64,14 +64,14 @@ const firstSentence = (s: string) => s.split('. ')[0];
           ? <>Reached {worldDate(l.stage_reached_on)}, on the record of {l.stage_publication ? <a href={l.stage_publication.path}>{l.stage_publication.authors_short}, {worldDate(l.stage_publication.date)}</a> : null}{l.stage_publication && l.stage_record ? ' (' : ''}{l.stage_record && <a href={l.stage_record} rel="noopener">{hostOf(l.stage_record)}</a>}{l.stage_publication && l.stage_record ? ')' : ''}.</>
           : 'Not yet shown to work in any living animal, so there is no record to point at.'}
         {' '}{l.horizon_label.charAt(0) + l.horizon_label.slice(1).toLowerCase()}.
-        {l.clinic_year !== null && <> The year the model reads for it is {l.clinic_year}, the year it reached the clinic; what has happened is not drawn.</>}
+        {l.clinic_year !== null && <> The year the model uses for it is {l.clinic_year}, the year it reached the clinic; a year that has already happened is not guessed at.</>}
       </p>
       {l.status === 'withdrawn' && (
         <p>The treatment this entry rests on has since been withdrawn from use. The rung it reached stays on the record, because the ladder records what has happened.</p>
       )}
       {l.sibling_url && (
         <p class="dim" style="font-size: 15px;">
-          This is one of the {records.counts.siblings} treatments shared with the sister site The Upgrade Tree, which keeps <a href={l.sibling_url} rel="noopener">its own record of it</a> at the same test and the same stage. The weekly reading checks that the two stages agree.
+          This is one of the {records.counts.siblings} treatments shared with the sister site The Upgrade Tree, which keeps <a href={l.sibling_url} rel="noopener">its own record of it</a> with the same test and the same stage. The weekly reading checks that the two stages agree.
         </p>
       )}
 
@@ -81,7 +81,7 @@ const firstSentence = (s: string) => s.split('. ')[0];
           <p>
             This is the one thing on this page that is a judgment rather than a record. {clinicRung
               ? <>The project's estimate of the year it reaches the clinic is <strong>{yearWords(clinicRung.likely)}</strong>, no earlier than {yearWords(clinicRung.earliest)} and no later than {yearWords(clinicRung.latest)}; the model draws from that range every run, with the likely year the most probable draw.</>
-              : <>It is already in the clinic, so the model reads a known year; the estimate below is for the rungs still above it and feeds nothing.</>}
+              : <>It is already in the clinic, so the model uses the known year; the estimate below is for the rungs still above it and does not affect the year at the top.</>}
             {' '}Set {longDate(l.estimate.set_on)}{l.estimate.status === 'first-pass' ? ', a first pass awaiting an outside review' : ', reviewed'}.
           </p>
           <table class="range-table">
@@ -93,7 +93,7 @@ const firstSentence = (s: string) => s.split('. ')[0];
                   <td class="yr">{yearWords(r.earliest)}</td>
                   <td class="yr likely">{yearWords(r.likely)}</td>
                   <td class="yr">{yearWords(r.latest)}</td>
-                  <td>{r.feeds_headline && <span class="feeds">feeds the year at the top</span>}</td>
+                  <td>{r.feeds_headline && <span class="feeds">used for the year at the top</span>}</td>
                 </tr>
               ))}
             </tbody>

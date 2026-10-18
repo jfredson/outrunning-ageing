@@ -536,7 +536,7 @@ export function yearWords(year: number): string {
 export function spreadWords(): string {
   const h = records.headline;
   if (!h.available) return '';
-  return `anywhere from ${yearWords(h.percentiles.p5)} to ${yearWords(h.percentiles.p95)}`;
+  return `nine runs in ten between ${yearWords(h.percentiles.p5)} and ${yearWords(h.percentiles.p95)}`;
 }
 
 export function hostOf(url: string): string {

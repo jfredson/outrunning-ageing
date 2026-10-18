@@ -25,7 +25,7 @@ const whatCameOfIt = (r: Reading) => {
   const parts = [r.moved.length === 0 ? 'none moved' : r.moved.length === 1 ? 'one moved a rung' : `${r.moved.length} moved a rung`];
   if (r.logged.length > 0) parts.push(`${plural(r.logged.length, 'paper', 'papers')} logged`);
   if (r.counts.flagged > 0) {
-    parts.push(r.waiting === r.counts.flagged ? `${r.waiting} left for the author`
+    parts.push(r.waiting === r.counts.flagged ? `${r.waiting} left for the author to decide`
       : r.waiting === 0 ? `${r.counts.flagged} flagged for the author, all since resolved`
       : `${r.counts.flagged} flagged for the author, ${r.waiting} still open`);
   }
@@ -42,10 +42,10 @@ const description = latest
     <p class="eyebrow">This week's reading</p>
     <h1>Every record, read against the news each week</h1>
     <p class="lede">
-      Each treatment and tool on the tree carries a test that says exactly what would count, and a line saying what kind of public record settles it. Each claim carries a date it can be judged by, and each self-experiment a line on what its subject has made public. Once a week a fresh session searches the web against every one of them, writes down what it searched and what it found, and gives each a verdict, whether or not anything moved.
+      Each treatment and tool on the tree carries a test that says exactly what would count, and a line saying what kind of public record settles it. Each claim carries a date it can be judged by, and each self-experiment a line on what its subject has made public. Once a week Claude, the AI assistant this project is built with, searches the web against every one of them, writes down what it searched and what it found, and gives each a verdict, whether or not anything moved.
     </p>
     <p class="dim" style="font-size: 14px;">
-      The reading proposes; it moves a treatment up one rung only when a record of the kind the treatment itself names shows the next rung reached, and then the move is a dated revision on that treatment's page. It may not move anything on press coverage alone, change a test, touch an estimate, clear a fact still to be checked, or judge a claim; all of that it leaves for the author, in a line that stays on this page until he has ruled. Each reading is a file in the public repository, written once and never edited, and the site refuses to build if one does not add up. For the {c.siblings} treatments shared with The Upgrade Tree, the reading also checks that the two sites show the same rung.
+      The reading proposes; it moves a treatment up one rung only when a record of the kind the treatment itself names shows the next rung reached, and then the move is a dated revision on that treatment's page. It may not move anything on press coverage alone, change a test, touch an estimate, clear a fact still to be checked, or judge a claim; all of that it leaves for the author, in a line that stays on this page until he has ruled. Each reading is a file in the public repository, written once and never edited, and the site checks that its counts add up before it publishes. For the {c.siblings} treatments shared with The Upgrade Tree, the reading also checks that the two sites show the same rung.
     </p>
   </section>
 
@@ -112,7 +112,7 @@ const description = latest
     <section class="section">
       <div class="shead"><h2>Waiting on the author</h2><span>{plural(waiting.length, 'item', 'items')} the reading could not decide</span></div>
       <p class="dim" style="font-size: 15px;">
-        A flagged item stays here until a later reading reads the record again with another verdict, or a dated batch deals with it and the reading's record is marked resolved, with the date and what resolved it. Resolved items stay on the reading, marked. The author rules by editing the record, never by editing the reading's verdicts.
+        A flagged item stays here until a later reading reads the record again with another verdict, or a dated change to the records deals with it and the reading's record is marked resolved, with the date and what resolved it. Resolved items stay on the reading, marked. The author rules by editing the record, never by editing the reading's verdicts.
       </p>
       <ul class="checks">
         {waiting.map((w) => (

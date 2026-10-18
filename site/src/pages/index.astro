@@ -54,7 +54,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
       <span class="strip-dot" aria-hidden="true"></span>
       <span>
         {reading
-          ? <>Last checked {longDate(reading.read_on)}: {plural(reading.leaves_read, 'treatment', 'treatments')}, {plural(reading.claims_read, 'claim', 'claims')} and {plural(reading.experiments_read, 'self-experiment', 'self-experiments')} read; {reading.moved.length === 0 ? 'none moved' : reading.moved.length === 1 ? 'one moved a rung' : `${reading.moved.length} moved a rung`}{loneMover ? <>: <a href={loneMover.path}>{loneMover.name}</a></> : ''}{reading.waiting > 0 ? `; ${reading.waiting} left for the author` : ''}. <a href={reading.path}>See the week's reading.</a></>
+          ? <>Last checked {longDate(reading.read_on)}: {plural(reading.leaves_read, 'treatment', 'treatments')}, {plural(reading.claims_read, 'claim', 'claims')} and {plural(reading.experiments_read, 'self-experiment', 'self-experiments')} read; {reading.moved.length === 0 ? 'none moved' : reading.moved.length === 1 ? 'one moved a rung' : `${reading.moved.length} moved a rung`}{loneMover ? <>: <a href={loneMover.path}>{loneMover.name}</a></> : ''}{reading.waiting > 0 ? `; ${reading.waiting} left for the author to decide` : ''}. <a href={reading.path}>See the week's reading.</a></>
           : <>No reading of the week's news against the treatments has run yet. The first one follows the site's launch, and this line will say when it ran and what came of it. <a href="/reading/">About the weekly reading.</a></>}
       </span>
     </p>
@@ -68,20 +68,20 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
     <p class="plate-label">Sheet I · The spread of escape years</p>
     <Spread />
     <ul class="legend">
-      <li><i class="bars"></i> share of runs ending in each five years</li>
+      <li><i class="bars"></i> share of runs landing in each five-year span</li>
       <li><i class="before"></i> before {fixed.before}, the date the loudest promises name</li>
     </ul>
-    <p class="figure-note">Two hundred thousand runs of the tree, each drawing a year for every treatment and tool; the year a run ends is when the last required branch is handled, plus the years it takes a treatment to reach ordinary people. Never typed in.</p>
+    <p class="figure-note">The tree is played out two hundred thousand times, each time drawing a year for every treatment and tool. Each run's answer is the year the last required branch is handled, plus the years it takes a treatment to reach ordinary people. Nothing on the chart is typed in.</p>
   </div>
   </div>
 
   <section class="section explain narrow">
     <p>
-      A <em>treatment</em>, here, is one specific thing that would have to arrive for the year to move: a drug, a procedure, a gene therapy, or a measurement a regulator accepts as proof that something slowed ageing. Each one is written down with a plain test of what would count, written so that two readers would agree; who or what settles that test; where it stands today on a five-rung ladder from idea only to in wide use, with the date and the public record for every rung reached; and the project's estimate of the year it reaches the clinic, as a range with the reasoning beside it. The eight <em>branches</em> are the eight things that would have to be dealt with: seven kinds of damage that build up in a body over a lifetime, and the tools that would show whether any repair worked. Beside the year the site keeps a dated record of who promised what and when, held against what has actually been shown.
+      A <em>treatment</em>, here, is one specific thing that would have to arrive for the year to move: a drug, a procedure, a gene therapy, or a measurement a regulator accepts as proof that something slowed ageing. Each one is written down in the same parts, so that a year can be worked out from them and anyone who disagrees can point at the exact part: a plain test of what would count, written so that two readers would agree; who or what settles that test; where it stands today on a five-rung ladder from idea only to in wide use, with the date and the public record for every rung reached; and the project's estimate of the year it reaches the clinic, as a range with the reasoning beside it. The eight <em>branches</em> are the eight things that would have to be dealt with: seven kinds of damage that build up in a body over a lifetime, and the tools that would show whether any repair worked. Beside the year the site keeps a dated record of who promised what and when, held against what has actually been shown.
     </p>
     {h.available ? (
       <p>
-        None of the numbers on the first screen is typed in. The tree of {plural(c.leaves, 'treatment and tool', 'treatments and tools')} is played out {h.method.runs.toLocaleString('en-GB')} times, drawing a year for each from its range; the middle of all those runs is the year at the top, and the numbers beside it and every mark on the chart are read off the same spread, {spreadWords()}. {h.counts.estimates_first_pass_drawn === 0 ? `Every range the year draws from has been through an outside review, in which a model from another lab argued each one up or down and the author ruled on every disagreement${h.counts.estimates_first_pass > 0 ? `; ${plural(h.counts.estimates_first_pass, 'estimate', 'estimates')} for a rung the year does not draw ${h.counts.estimates_first_pass === 1 ? 'is' : 'are'} still a first pass` : ''}. The year will still move as the evidence does, and every move is dated with its reason.` : `${plural(h.counts.estimates_first_pass_drawn, 'estimate the year draws from is', 'estimates the year draws from are')} still a first pass waiting on an outside review; the year will move as the ranges are argued, and every move is dated with its reason.`} <a href="/method/">How the numbers are worked out.</a>
+        None of the numbers on the first screen is typed in. The tree of {plural(c.leaves, 'treatment and tool', 'treatments and tools')} is played out {h.method.runs.toLocaleString('en-GB')} times, drawing a year for each from its range; the middle of all those runs is the year at the top, and the numbers beside it and every mark on the chart are read off the same spread of results, with {spreadWords()}. {h.counts.estimates_first_pass_drawn === 0 ? `Every range the year draws from has been through an outside review, in which an AI model made by another company argued each one up or down and the author ruled on every disagreement${h.counts.estimates_first_pass > 0 ? `; ${plural(h.counts.estimates_first_pass, 'estimate', 'estimates')} for a rung the year does not draw ${h.counts.estimates_first_pass === 1 ? 'is' : 'are'} still a first pass` : ''}. The year will still move as the evidence does, and every move is dated with its reason.` : `${plural(h.counts.estimates_first_pass_drawn, 'estimate the year draws from is', 'estimates the year draws from are')} still a first pass waiting on an outside review; the year will move as the ranges are argued, and every move is dated with its reason.`} <a href="/method/">How the numbers are worked out.</a>
       </p>
     ) : (
       <p>{h.reason} <a href="/method/">How the numbers are worked out.</a></p>
@@ -99,7 +99,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
             <div class="bcard-sub">{b.meaning}</div>
             <div class="bcard-foot">
               {b.furthest_label ? `Furthest stage: ${b.furthest_label.toLowerCase()}` : 'No stage reached'}
-              {b.median_handled_year !== null && <>. Handled, in the middle run, by <span class="year">{yearWords(b.median_handled_year)}</span></>}
+              {b.median_handled_year !== null && <>. Middle estimate: handled by <span class="year">{yearWords(b.median_handled_year)}</span></>}
             </div>
           </a>
         </li>
@@ -130,17 +130,17 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
       </li>
       <li class="record-card">
         <h3><a href="/story/">The story so far</a></h3>
-        <p>Every paper, trial report and regulator's record that bears on the tree, dated, each saying what it settled or moved, and the ones that moved nothing beside them with equal billing.</p>
+        <p>Every paper, trial report and regulator's record that bears on the tree, dated, each saying what it settled or moved. The ones that moved nothing are listed beside them and given the same space.</p>
         <span class="count">{plural(c.publications, 'publication logged', 'publications logged')}</span>
       </li>
       <li class="record-card">
         <h3><a href="/reading/">This week's reading</a></h3>
-        <p>Every treatment and tool read against the week's news, with a verdict for each, including the weeks when nothing moved. The weeks when nothing moved are the point.</p>
+        <p>Every treatment and tool read against the week's news, with a verdict for each. The weeks when nothing moved are kept too; they are the point.</p>
         <span class="count">{c.scans_real === 0 ? 'none has run yet; the first follows the launch' : plural(c.scans_real, 'reading so far', 'readings so far')}</span>
       </li>
       <li class="record-card">
         <h3><a href="/method/">How the numbers are worked out</a></h3>
-        <p>The model in plain words, every setting with its reason and its strongest alternative, one run written out by hand, and the working documents published as written.</p>
+        <p>The model in plain words, every setting with its reason and its strongest alternative, one run written out step by step, and the working documents published as written.</p>
         <span class="count">{h.available ? `computed ${longDate(h.computed_on)}` : 'not computed yet'}</span>
       </li>
     </ul>

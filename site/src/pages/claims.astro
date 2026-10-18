@@ -25,13 +25,13 @@ const fixed = records.fixed_dates;
     <p class="eyebrow">The claims log</p>
     <h1>Who promised what, beside what has been shown</h1>
     <p class="lede">
-      {k.claims} claims by {k.speakers} people and organisations, {k.first_year} to {k.last_year}, oldest first, each with the primary source and a verdict as of the last build. On the right, what the tree has actually reached. The two never mix: a claim moves nothing on the tree, and nothing on the tree makes a claim true.
+      {k.claims} claims by {k.speakers} people and organisations, {k.first_year} to {k.last_year}, oldest first, each with the primary source and a verdict as of the last update. On the right, what the tree has actually reached. The two never mix: a claim moves nothing on the tree, and nothing on the tree makes a claim true.
     </p>
   </section>
 
   <section class="section explain narrow">
     <p>
-      A <em>claim</em>, here, is one named person or organisation saying one thing in public about when: when a treatment will reach people, when a trial will start, when ageing itself will be outrun. It is dated by when it was said, and it needs a primary source: the book and page, the recording and its minute, the company's own release, or an interview printed in question-and-answer form in the speaker's own words. News coverage of a remark is coverage, not a source; where a remark exists only as a reporter's version, the entry is shown anyway and marked as held on coverage, because the repeated versions are what this log exists to check. Each entry says in plain words what the claim commits to and by when, so that it can be judged: <strong>delivered</strong>, <strong>missed</strong>, <strong>not yet due</strong>, or <strong>cannot be settled</strong> because it names no date and no result that could ever decide it. A claim its maker later withdrew stays missed. A standing claim with no date is judged against this site's fixed date of {fixed.before}, and says so.
+      A <em>claim</em>, here, is one named person or organisation saying one thing in public about when: when a treatment will reach people, when a trial will start, when ageing itself will be outrun. It is dated by when it was said, and it needs a primary source: the book and page, the recording and its minute, the company's own release, or an interview printed in question-and-answer form in the speaker's own words. News coverage of a remark is coverage, not a source; where a remark exists only as a reporter's version, the entry is shown anyway and marked as known only from news coverage, because the repeated versions are what this log exists to check. Each entry says in plain words what the claim commits to and by when, so that it can be judged: <strong>delivered</strong>, <strong>missed</strong>, <strong>not yet due</strong>, or <strong>cannot be settled</strong> because it names no date and no result that could ever decide it. A claim its maker later withdrew stays missed. A standing claim with no date is judged against this site's fixed date of {fixed.before}, and says so.
     </p>
   </section>
 
@@ -39,7 +39,7 @@ const fixed = records.fixed_dates;
     <div class="claims-list">
       <div class="shead">
         <h2>The talk: {k.claims} claims</h2>
-        <span>{k.by_verdict['not-yet-due']} not yet due · {k.by_verdict.delivered} delivered · {k.by_verdict.missed} missed · {k.by_verdict.unfalsifiable} cannot be settled{k.coverage_only ? ` · ${k.coverage_only} held on coverage only` : ''}</span>
+        <span>{k.by_verdict['not-yet-due']} not yet due · {k.by_verdict.delivered} delivered · {k.by_verdict.missed} missed · {k.by_verdict.unfalsifiable} cannot be settled{k.coverage_only ? ` · ${k.coverage_only} known only from news coverage` : ''}</span>
       </div>
       <ol class="claims">
         {list.map((cl) => (
@@ -51,7 +51,7 @@ const fixed = records.fixed_dates;
               <p class="chips">
                 <span class={`verdict ${cl.verdict}`}>{cl.verdict_label}{cl.verdict === 'not-yet-due' && cl.due ? `: due ${cl.due}` : ''}</span>
                 {cl.about_the_headline && <span class="chip accent">about the whole question</span>}
-                {cl.is_paraphrase && <span class="chip no">held on coverage only</span>}
+                {cl.is_paraphrase && <span class="chip no">known only from news coverage</span>}
                 {cl.example && <span class="stage-badge example">worked example</span>}
                 {cl.verify.length > 0 && <span class="chip">{cl.verify.length === 1 ? 'one fact' : `${cl.verify.length} facts`} still to check</span>}
               </p>
@@ -105,7 +105,7 @@ const fixed = records.fixed_dates;
         {h.available ? (
           <>
             <p class="big-number">{h.median_year}</p>
-            <p class="delivered-claim">The middle estimate of the year repair overtakes ageing, computed from the record: {spreadWords()}; a {percent(h.before_2050)} chance before {fixed.before}; {percent(h.after_2100)} of runs not this century.</p>
+            <p class="delivered-claim">The middle estimate of the year repair overtakes ageing, computed from the record, with {spreadWords()}; a {percent(h.before_2050)} chance before {fixed.before}; {percent(h.after_2100)} of runs not this century.</p>
           </>
         ) : (
           <p class="delivered-claim">The year is not computed yet.</p>
@@ -137,7 +137,7 @@ const fixed = records.fixed_dates;
       {records.verdicts.map((v) => <li><strong>{v.label}.</strong> {v.meaning}</li>)}
     </ul>
     <p class="dim" style="font-size: 14px; margin-top: 24px;">
-      The record itself is one file per claim in <a href={`https://github.com/jfredson/outrunning-ageing/tree/main/data/claims`} rel="noopener">data/claims</a> in the public repository; the rules for an entry are in <a href="/method/">how the numbers are worked out</a>. {plural(k.to_verify, 'fact in these entries is', 'facts in these entries are')} still to be checked against a source, and each entry says which.
+      The record itself is one file per claim in <a href={`https://github.com/jfredson/outrunning-ageing/tree/main/data/claims`} rel="noopener">data/claims</a> in the public repository; the rules for an entry are in <a href="/method/">how the numbers are worked out</a>. {k.to_verify === 0 ? 'No fact in these entries is still waiting to be checked against a source.' : `${plural(k.to_verify, 'fact in these entries is', 'facts in these entries are')} still to be checked against a source, and each entry says which.`}
     </p>
   </section>
 </Base>
