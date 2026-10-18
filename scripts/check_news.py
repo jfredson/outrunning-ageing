@@ -12,7 +12,7 @@ A post is one Markdown file, YYYY-MM-DD-slug.md, with a frontmatter block. The c
 post that: has a file name not of that form, or a frontmatter date that differs from it; carries
 a kind outside the seven; names no record, or one that does not exist (the opener, kind
 "start-here", is the one post that need not name a record); cites no source with an https
-address; states a figure (any digit) in a paragraph that carries no link to a source or a record
+address; states a figure (any digit) in a paragraph that carries no link (a Markdown link or a written-out https address) to a source or a record
 (a table is covered by the record links the page draws under the post; the frontmatter is not
 prose); or names a record that shows no dated change within fourteen days of the post's date
 (a revision, the rung reached, or a reading item resolved or moved), so a post cannot announce
@@ -159,7 +159,7 @@ def check(posts_dir: Path, records: dict) -> tuple[list[str], int]:
                 if rid in by_id and not record_changed_near(by_id[rid], when, readings):
                     problems.append(f"{name}: {rid} shows no dated change within {WINDOW_DAYS} days of {when}; a post cannot announce what the record does not show")
         for i, para in enumerate(paragraphs(body), 1):
-            if re.search(r"\d", para) and "](" not in para:
+            if re.search(r"\d", para) and "](" not in para and "https://" not in para:
                 problems.append(f"{name}: paragraph {i} states a figure with no link to a source or a record: {para[:70]!r}")
     if openers > 1:
         problems.append(f"{posts_dir}: {openers} posts of kind start-here; there is one per site")
