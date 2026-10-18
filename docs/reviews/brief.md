@@ -1,0 +1,33 @@
+# The review brief
+
+Sent unchanged at the top of every packet, so the answers are comparable. Drafted 2026-10-17 with the protocol (`docs/reviews/protocol.md`), adapted from The Quiet Galaxy's brief of the same date; the first review ran under it the same day.
+
+---
+
+You are reviewing part of Outrunning Ageing, a public site that tracks how close medicine is to repairing the damage of ageing faster than it accumulates, and computes a headline year for when that happens for a person who keeps up with the best available care. The site tracks 44 specific treatments and measuring tools (it calls them the branches' entries; this brief calls them treatments) on eight branches, one branch per kind of damage plus one for measuring whether anything worked. Every treatment has a test (what would count as its having happened), a stage on a five-rung ladder (idea only; shown in animals; a first result in a person; in clinical use, meaning approved by a regulator or routine in a named setting; in wide use), and, for every rung it has not reached, the site's estimate of the year it will: an earliest, a likely and a latest year. The tree is played out two hundred thousand times: each run draws a clinical-use year for every treatment from a triangle over its three years, calls a branch handled in the year its second treatment reaches the clinic, takes the latest handled year across the eight branches, and adds a lag for the treatments to spread from the clinic to ordinary people. The middle run is the headline (2058 today), and the share of runs before 2050 is the second number.
+
+Every range was proposed by one AI model (Claude) on 2026-10-16 and accepted by the author as a first pass. Nothing is promoted past "first pass" until a model from another lab has challenged the ranges. Your job is critique, not agreement. Plain language throughout; a reader outside the field should follow every sentence.
+
+Below are the treatment records for this packet, as the site stores them: each treatment's description, its test, its stage with the public record that settles it and any earlier rungs, the three-year estimate for each rung still ahead with the reason the site gives, the notes, the revisions since the record was written, the publications the site has logged against it, and any public promises its claims log files against it. Before the records comes a short table of all eight branches, and after them the part of the method document that says how a draw is made and gives the parameters.
+
+**For every treatment in the packet, answer three questions about the rung the headline draws from, in clinical use** (for a treatment already in the clinic, answer them about its wide-use rung instead).
+
+1. **Is the range supported?** Is the earliest-likely-latest range defensible against the published evidence you can name: the trials registered or running, the results reported, the approvals granted or refused, and the time such treatments have historically taken from where this one stands to an approval? Say which published facts bear on it that the record does not cite.
+2. **Which way is it wrong, if it is?** Say whether the range is too early, too late, too narrow or too wide, and give a specific alternative: the earliest, likely and latest years you would use. Raise a year only if you would move it by at least three years at the likely or the earliest, or by ten at the latest; smaller moves are not worth arguing. A range you would leave alone is a finding too; say so in one line.
+3. **What is your source?** For every fact you rely on that the record does not already cite, give a source a reader can open: who, when, where published, and a link or an identifier (a DOI, a trial registry number, a regulator's record). The site's rule is that nothing public rests on anyone's recollection, including yours; a figure you cannot source will be checked and, if it cannot be found, declined for that reason alone.
+
+Two further questions about the method, to be answered once per packet.
+
+- **The lag from the clinic to ordinary people.** The site adds, to every run, one lag drawn from a triangle over 3, 8 and 15 years, meant to cover the time from a regulator's approval (or a named setting's routine use) to the treatment being available to a person who keeps up with the best available care. Those figures are a first guess with no source. Give any published figures you can name on how long new treatments take to reach wide use after approval (drugs, biologics, gene therapies, cell therapies, transplants, diagnostic tests), with sources; say whether 3, 8 and 15 is too short or too long for the kinds of treatment in this packet and what you would use instead; and say whether one lag shared by every branch is defensible or whether the branches in this packet need a lag of their own, and why.
+- **Independence.** Every treatment's year and the lag are drawn with no link between them. Say whether any pair of the eight branches (the table is above the records) should be linked, so that an early year on one makes an early year on the other more likely, and on what evidence; name the strongest pair you see and the published basis for linking them. If you think the draws should stay independent, say why in one line.
+
+**Not asked:** the stages themselves (what has happened is a matter of record, and a dispute about a stage goes to the weekly reading, not to this review), the tests, the choice of treatments, the headline numbers, the site, and the rest of the method (the triangle shape, the two-treatments-per-branch rule, the fixed dates, the seed). If you think one of those is wrong, say so in one line at the end and no more; they get their own review.
+
+Give your answer in this form.
+
+- First, a table with one row per item you raise: item number, the treatment (its record id) or "lag" or "independence", what it concerns (earliest, likely, latest, the whole range, lag, link), your proposal in a few words, your confidence in it (low, medium, high).
+- Then the items in order, each a short paragraph: what the record says now, what you would change and to what, the reason, the source a reader can open, and what evidence would settle it.
+- Then one line per treatment in the packet that you would leave as it is, saying so and why.
+- Then your answers on the lag and on independence, each a short paragraph with its sources.
+
+You may look things up. If you do, say where in the item, so facts from lookup can be told from your judgment. Do not soften findings to be polite; a treatment with nothing to challenge is a possible finding, but an unlikely one.

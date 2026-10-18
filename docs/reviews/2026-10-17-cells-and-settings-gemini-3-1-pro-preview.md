@@ -1,0 +1,37 @@
+# Review: cells-and-settings packet, gemini-3.1-pro-preview, 2026-10-17
+
+Model: `gemini-3.1-pro-preview`, version string reported by the API `gemini-3.1-pro-preview`, thinking at the highest level the API allows. Date: 2026-10-17. Mode: the packet shown in full; Google Search lookup on, 3 searches made: retrospective study longevity clinic biological age epigenetic clock; "longevity clinic" prescribes "dasatinib"; "longevity clinic" biological age clock published routine care. Called through the Gemini API by `scripts/review_gemini.py` and filed verbatim the same day. Finish reason: STOP. Tokens: 28105 in, 1662 out, 10940 thinking; 97 seconds. Never edited after filing.
+
+Packet sent: `docs/reviews/packets/2026-10-17-cells-and-settings.md` (the brief in `docs/reviews/brief.md` followed by the eight branches in brief, the treatment records with the publications and promises logged against them, and the method extract).
+
+Rulings: `docs/reviews/2026-10-17-rulings.md`.
+
+---
+
+- First, a table with one row per item you raise:
+
+| Item | Treatment / Method | Concerns | Proposal | Confidence |
+|---|---|---|---|---|
+| 1 | `drug-clears-aged-cells-from-a-person` | the whole range | 2027, 2029, 2038 | High |
+| 2 | `a-persons-biological-age-reading-falls-after-treatment` | the whole range | 2028, 2035, 2070 | Medium |
+| 3 | lag | lag | 5, 10, 20, and branch-specific | Medium |
+| 4 | independence | link | Link "Cell's settings" and "Measuring ageing" | High |
+
+**Item 1:** The record for `drug-clears-aged-cells-from-a-person` currently sets the clinic rung at 2031, 2038, 2060, reasoning that the field must wait for a Phase 3 trial and regulatory approval in the 2030s. I would change this to an earliest of 2027, likely 2029, and latest 2038. The reason is that the test allows for a drug being "in routine use in a named clinical setting, so a doctor can give it outside a trial," settled by a published practice. Repurposed drugs like dasatinib (an approved leukemia drug) and quercetin (a supplement) are already prescribed off-label for senescent cell clearance by longevity clinics and telehealth platforms today. For instance, reports on the growing longevity clinic industry in 2026 explicitly state that protocols combining dasatinib and quercetin are currently administered to patients in these settings. The clinic rung only waits for one such named clinic to formally publish a retrospective report of its practice, which could easily happen by 2027, drastically shortening the timeline. Evidence that would settle it is a peer-reviewed practice report from a clinical setting currently administering these senolytic protocols.
+
+**Item 2:** The record for `a-persons-biological-age-reading-falls-after-treatment` gives 2032, 2042, 2085, assuming the clinic rung waits on a regulator accepting a clock around 2040, or a clinic adopting it before then. I would change this to 2028, 2035, 2070. The clinic rung test allows a named setting to give the treatment in routine care and publish that it monitors the clock. High-end longevity clinics, such as Northwestern Medicine's Human Longevity Clinic (opened in 2025) and Weill Cornell's Longevity Medicine Program, are already offering interventions and actively measuring patients' biological age via epigenetic clocks in routine practice. Furthermore, an August 2026 Nature Medicine study of 51 longevity interventions found that 19 existing treatments, such as anti-TNF therapies, significantly decrease epigenetic age. Given that these clinics already exist, use the clocks, and have access to proven interventions, a formal publication of this routine care could realistically occur by 2028. Evidence that would settle it is a published clinical protocol or retrospective study from one of these existing academic longevity clinics.
+
+- `aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial`: Leave as is; 2031/2037 is a defensible timeline for a Phase 3 trial and formal regulatory approval for a specific indication following the recent Phase 2 results.
+- `aged-cell-clearing-drug-relieves-knee-arthritis`: Leave as is; 2032/2039 is reasonable because fisetin trials completed safety, but efficacy requires larger, longer Phase 3 trials before a regulatory approval.
+- `clearing-aged-cells-makes-old-animals-live-longer`: Leave as is; preventative lifespan trials require decades to run, making the 2038/2050 timeline highly defensible.
+- `immune-cells-engineered-to-kill-aged-cells`: Leave as is; 2036/2046 accounts for the historically slow, costly 15-20 year translation of customized CAR-T cell therapies from animal models to clinical approval.
+- `a-cells-settings-are-rewritten-at-one-gene-in-a-person`: Leave as is; 2031/2036 aligns perfectly with the standard 7-10 year clinical trial pipeline for a first-in-class epigenetic editing therapy now in Phase 1.
+- `a-cocktail-of-ordinary-drugs-resets-cell-age`: Leave as is; with only mixed, highly toxic early animal results, a clinic rung of 2038/2050 appropriately reflects a concept still in its infancy.
+- `a-person-receives-cell-resetting-genes-in-a-trial`: Leave as is; 2033/2040 for the clinic rung is standard for an ophthalmic gene therapy that just entered a 5-year Phase 1 trial in 2026.
+- `partially-resetting-cells-reverses-ageing-in-an-animal`: Leave as is; mirrors the companion leaf's timeline, and 2033/2041 accurately reflects the developmental runway for ocular gene therapies.
+
+**The lag from the clinic to ordinary people.** The uniform lag of 3, 8, and 15 years is too short and structurally flawed for the treatments in this packet, and I would propose 5, 10, and 20 years instead, with branch-specific adjustments. Published research on translational medicine, such as the widely cited Morris et al. (2011) study in the *Journal of the Royal Society of Medicine*, demonstrates that it takes an average of 17 years for a new scientific discovery to enter routine clinical practice. More importantly, one shared lag is not defensible for these branches because their modalities differ drastically. A small-molecule senolytic pill (Worn-out cells) can be manufactured cheaply and scale to wide use in 5-8 years. In contrast, viral gene therapies and customized T-cell therapies (The cell's settings, Worn-out cells) require highly specialized administration facilities and cost hundreds of thousands of dollars, meaning they take 15-20+ years to scale to ordinary people after an initial approval. A branch-specific lag is necessary to honestly model these manufacturing bottlenecks.
+
+**Independence.** The "Cell's settings" branch and the "Measuring ageing" branch should be explicitly linked. The published basis for this is that cellular reprogramming treatments rely entirely on epigenetic clocks to prove they are working without waiting decades for lifespan results. As the record for `a-persons-biological-age-reading-falls-after-treatment` notes, its clinical approval explicitly "waits on a regulator accepting a clock as proof (a leaf on the measuring branch)." If the Measuring ageing branch moves quickly, the Cell's settings branch will inevitably move quickly because the exact same regulatory pathway and biomarker validation open up the Cell's settings trials to faster endpoints. Treating them as independent ignores this direct, documented scientific dependency. 
+
+*(Note on the method: The 2019 TRIIM trial lacked untreated controls, so it does not technically meet the first-human test as written in the record, but I have left the stage unquestioned as instructed.)*
