@@ -2,6 +2,10 @@
 
 Every change to the records or the site, dated year-month-day, newest first. Plain language; a reader outside the project should be able to follow it.
 
+## 2026-10-18
+
+- Weekly reading (scheduled task, 2026-10-18): 44 treatments, 31 claims and 9 self-experiments read, 0 moved a rung, 0 publications logged, 13 flagged for John; record at data/scans/2026-10-18.toml. The headline was not rerun.
+
 ## 2026-10-17 (John's rulings on the outside review of the 44 ranges, the lag and independence are applied)
 
 - **The one estimate left marked first-pass, plasma exchange's wide-use range (2032, 2045, 2090), is marked reviewed on John's ruling of 2026-10-17 that the years stand.** The years and the reasoning are unchanged; the headline does not draw this rung, so nothing in the computed headline moves. Every estimate on the 44 treatments is now reviewed.
