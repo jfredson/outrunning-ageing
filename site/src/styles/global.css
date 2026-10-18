@@ -237,8 +237,6 @@ a.dim:hover { color: var(--accent); }
 
 .status-line { font-size: 13.5px; font-family: var(--sans); color: var(--muted); margin-top: 28px; }
 
-/* ---- the medical notice in the footer, ruled by John 2026-10-16 ---- */
-.footer-notice { margin: 0.6rem 0 0; font-size: 12px; color: var(--muted); font-style: italic; }
 
 /* ---- responsive ---- */
 @media (max-width: 860px) {

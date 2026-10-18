@@ -62,10 +62,6 @@ Every push to `main` that touches the records, the scripts or the site runs `.gi
 
 The data under `data/` is free to reuse with credit under Creative Commons Attribution 4.0 (`LICENSE-DATA`). The scripts and the site are under the MIT licence (`LICENSE`).
 
-## A note on what this is not
-
-The site records what has been shown and what has been promised. It recommends nothing, and nothing on it is medical advice. The author's own health record is not part of it.
-
 ## Author
 
 John Fredrickson. A Sentient Horizons project, kicked off 2026-10-16.

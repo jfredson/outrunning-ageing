@@ -5,8 +5,8 @@
 // an estimate, or was read and moved nothing. The entries that moved nothing get the same card as
 // the ones that did, with equal billing: a reader who sees the year move should be able to tell
 // whether the world got closer or the author changed his mind. Revisions to a treatment's estimate
-// and the weekly reading's moves join the same list as they happen. Below it, the repository's
-// changelog, day by day. The entry card is copied from The Quiet Galaxy's story page (which copied
+// and the weekly reading's moves join the same list as they happen. The repository's changelog is
+// not shown: John ruled on 2026-10-18 that the public site shows no raw record text. The entry card is copied from The Quiet Galaxy's story page (which copied
 // The Belt Equation's) and the changelog days from The Upgrade Tree's, both on 2026-10-17.
 import Base from '../layouts/Base.astro';
 import { records, longDate, worldDate, recordUrl, plural, publicationById, type StoryEntry } from '../lib/records';
@@ -18,7 +18,7 @@ const kindLabel = (e: StoryEntry) => e.kind_label;
 const h = records.headline;
 ---
 
-<Base title="The story so far — Outrunning Ageing" description="Every paper, trial report and regulator's record that bears on the tree, dated, newest first, each saying what it settled or moved, and the ones that moved nothing beside them; then every change to the record, dated.">
+<Base title="The story so far · Outrunning Ageing" description="Every paper, trial report and regulator's record that bears on the tree, dated, newest first, each saying what it settled or moved, and the ones that moved nothing beside them.">
   <section class="hero">
     <p class="eyebrow">The story so far</p>
     <h1>What has been read, and what it moved</h1>
@@ -26,7 +26,7 @@ const h = records.headline;
       Everything that bears on the year at the top of the site is logged here with the date it was read, which treatments and branches it touches, and one plain question answered: did it settle a stage or move an estimate? Most do neither, and saying so is the point.
     </p>
     <p class="dim" style="font-size: 14px;">
-      The log is only ever added to. An entry is never edited except to fix an error, with a line in the changelog saying so. The founding papers were logged on 16 October 2026; from the site's launch, each new paper is logged as it is read, and the weekly reading of the treatments against the news adds its moves here. {h.available ? `The year was first computed on ${longDate(h.computed_on)}; every later computation that changes it is a dated entry below, with which branch moved it.` : ''}
+      The log is only ever added to. An entry is never edited except to fix an error, with a line in the changelog saying so. The founding papers were logged on 16 October 2026; from the site's launch, each new paper is logged as it is read, and the weekly reading of the treatments against the news adds its moves here. {h.available ? `The year was last computed on ${longDate(h.computed_on)}.` : ''}
     </p>
   </section>
 
@@ -109,20 +109,9 @@ const h = records.headline;
     ))}
   </section>
 
-  <section class="section narrow" id="changes">
-    <div class="shead"><h2>Every change, dated</h2><span>the repository's changelog, newest first</span></div>
-    <ul class="days">
-      {story.changelog.days.map((d) => (
-        <li id={`changes-${d.date}`}>
-          <h3>{longDate(d.date)}</h3>
-          <ul>
-            {d.items.map((item) => <li>{item}</li>)}
-          </ul>
-        </li>
-      ))}
-    </ul>
-    <p class="dim" style="font-size: 14px; margin-top: 24px;">
-      This section is the repository's changelog as written: <a href="https://github.com/jfredson/outrunning-ageing/blob/main/CHANGELOG.md" rel="noopener">CHANGELOG.md</a>. {plural(records.counts.publications, 'publication', 'publications')} in the log so far. Know a paper that should be here? <a href="/disagree/">Say so</a>, with the treatment it bears on.
+  <section class="section narrow" style="padding-top: 0;">
+    <p class="dim" style="font-size: 14px;">
+      {plural(records.counts.publications, 'publication', 'publications')} in the log so far. Know a paper that should be here? <a href="/disagree/">Say so</a>, with the treatment it bears on.
     </p>
   </section>
 </Base>

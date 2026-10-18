@@ -1,7 +1,7 @@
 ---
 // The page shell, from the Sentient Horizons design standard (design/shell.html): the theme script,
-// the top bar (Nav.astro), the page, and the footer with its four lines, the medical notice John
-// ruled for this site on 2026-10-16, and the family line last. No backdrop: the site wears the
+// the top bar (Nav.astro), the page, and the footer with the family line last. The medical notice
+// of kickoff decision 9 was removed on John's ruling of 2026-10-18. No backdrop: the site wears the
 // Ledger skin (styles/skin.css, ruled 2026-10-17), paper and ink, and the chart is the picture.
 import '../styles/global.css';
 import Nav from '../components/Nav.astro';
@@ -80,7 +80,6 @@ const currentYear = new Date().getFullYear();
           <p class="footer-meta">
             © {currentYear} John Fredrickson. Last built {longDate(records.exported_on)}{records.commit ? ` (version ${records.commit})` : ''} from {builtFrom()}. Free to reuse with credit (<a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>); code under the MIT licence.
           </p>
-          <p class="footer-notice">This site records what has been shown and what has been promised. It recommends nothing, and nothing on it is medical advice.</p>
           <p class="footer-parent"><a href="https://sentient-horizons.com/projects/" rel="noopener">A Sentient Horizons project.</a></p>
         </div>
       </div>

@@ -76,11 +76,19 @@ words "node", "leaf", "trunk", "scan", "ledger", "schema" and "settler" stay in 
 before the word, if the word is used at all. UK spelling throughout ("ageing"), as the kickoff
 rules and as The Upgrade Tree's record already uses.
 
-## The medical notice
+## No disclaimers, and no raw record text on public pages
 
-Every public page ends with the one-line notice John ruled on 2026-10-16: the site records
-what has been shown and what has been promised; it recommends nothing, and nothing on it is
-medical advice. It lives in the footer, above the family line, and no page drops it.
+John ruled on 2026-10-18 that the site carries no disclaimer of the "a record, not a guide"
+or "not medical advice" kind, on any page or in the footer: nothing on it can be read as a
+guide, since it is plainly a record of the science as it stands. That reverses kickoff
+decision 9 (the one-line medical notice); the kickoff document is left as written. The same
+ruling cut every line saying the author's own health record is not on the site. Do not add
+either back.
+
+He ruled the same day that anything on the public site is a public version of the internal
+record, passed through a presentation he has discussed; git keeps the raw text and the site
+does not show it. So the story page no longer prints `CHANGELOG.md`. Before showing any other
+raw record text on a page, ask him.
 
 ## End of a session
 
