@@ -42,7 +42,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
     {h.available && (
       <div class="stat-row" aria-label="The three numbers beside the year">
         <div><span class="stat">{(h.before_2050 * 100).toFixed(1)}%</span><span class="stat-label">chance it arrives before {fixed.before}</span></div>
-        <div><span class="stat">{h.percentiles.p5}–{yearWords(h.percentiles.p95)}</span><span class="stat-label">in nine runs of ten</span></div>
+        <div><span class="stat">{h.percentiles.p5} to {yearWords(h.percentiles.p95)}</span><span class="stat-label">in nine runs of ten</span></div>
         <div><span class="stat">{Math.round(h.after_2100 * 100)}%</span><span class="stat-label">not this century</span></div>
       </div>
     )}
