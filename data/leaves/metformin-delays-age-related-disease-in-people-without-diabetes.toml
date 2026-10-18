@@ -46,7 +46,7 @@ each other and was dropped on 2026-10-17 for want of a primary source; the desig
 Barzilai and colleagues, Cell Metabolism, 2016 (https://doi.org/10.1016/j.cmet.2016.05.011)."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 If the trial started in 2027 it would read out around 2034, and an approval would follow if the
@@ -80,3 +80,10 @@ field = "notes"
 old = "(nothing; sources and a dated note added at the end of the notes)"
 new = "Sources for the trial's status, read on 2026-10-17: the sponsor's own trial page as saved on 2026-07-04, and NPR of 2024-04-22; no entry for the trial was found on ClinicalTrials.gov; the earlier statement that it had enrolled no one by mid-2026 was dropped for want of a primary source."
 why = "Checked against the sources on 2026-10-17; records what the sponsor's own page says and removes the claim that rested on web articles alone."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

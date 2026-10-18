@@ -384,6 +384,7 @@ export interface HeadlineLeafDraw {
   name: string;
   stage: StageKey;
   known: boolean;
+  estimate_status?: 'first-pass' | 'reviewed' | null;   // of the estimate the leaf carries, drawn or not
   year?: number;
   earliest?: number;
   likely?: number;
@@ -437,7 +438,7 @@ export type Headline =
       percentiles: { p5: number; p25: number; p50: number; p75: number; p95: number };
       histogram: { from: number; to: number | null; share: number }[];
       branches: HeadlineBranch[];
-      counts: { leaves_counted: number; leaves_in_clinic_already: number; estimates_first_pass: number; verify_entries: number };
+      counts: { leaves_counted: number; leaves_in_clinic_already: number; estimates_first_pass: number; estimates_first_pass_drawn: number; verify_entries: number };
       file: string;          // the file in the repository, data/headline.json
       served_at: string;     // the same file served from this site, /data/headline.json (2026-10-17)
       worked_run: WorkedRun;

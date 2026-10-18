@@ -47,7 +47,7 @@ The 2016 partial-resetting work used other markers.
 """
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 A controlled trial that turns a validated clock back is likely within a decade, since several are
@@ -55,10 +55,35 @@ running; the clinic rung needs more, an approval that rests on such a result, wh
 regulator accepting a clock as proof (a leaf on the measuring branch, likely around 2040). The
 likely year follows that; the earliest assumes a named clinic adopts a clock-monitored treatment
 in routine care and publishes it, which the test allows; the latest allows for the clocks never
-earning that standing."""
+earning that standing.
+[Note 2026-10-17, ruled by John on the outside review's item 5: the earliest year moved from 2032 to 2028. Northwestern Medicine's Human Longevity Clinic has measured molecular clocks in routine care since 2025-07-07 and repeats them at six months (northwestern-2025), so a named clinic's publication of a clock-monitored practice could come any year; the 2032 figure had assumed such a clinic would take six years to adopt and publish. The likely and latest years stay: the test asks for a treatment given on the strength of a clock, which no clinic has published, and the likely year follows the regulator's acceptance of a clock around 2040 on the measuring branch. The Nature Medicine reanalysis of 51 studies (sehgal-2026) is logged against this treatment and moves no year.]
+"""
 
 [[estimate.rung]]
 rung = "in-clinical-use"
-earliest = 2032
+earliest = 2028
 likely = 2042
 latest = 2085
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.rung.in-clinical-use.earliest"
+old = 2032
+new = 2028
+why = "Ruled by John 2026-10-17 on the outside review's item 5 (docs/reviews/2026-10-17-rulings.md): accepted in part, the earliest year only. Northwestern Medicine's own release of 2025-07-07 says its Human Longevity Clinic measures molecular clocks of biological age in routine care and repeats selected tests at six months, so a named clinic's publication of a clock-monitored practice, which the test's clinic rung allows, could come within a few years rather than the six the old earliest assumed. The reviewer's proposed likely year (2035) and latest (2070) were declined: the test asks for a treatment given on the strength of a clock result, which no clinic has published, and the likely year is tied to the regulator's acceptance of a clock around 2040."
+publication = "northwestern-2025"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "(nothing; a dated note added at the end of the reasoning)"
+new = "[Note 2026-10-17, ruled by John on the outside review's item 5: the earliest year moved from 2032 to 2028 ...]"
+why = "Ruled by John 2026-10-17 on the outside review's item 5: the reasoning now says why the earliest year moved and why the other two did not, and names the Nature Medicine paper logged against this treatment."
+publication = "northwestern-2025"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and raised item 5 on this range, accepted in part by John on 2026-10-17 (docs/reviews/2026-10-17-rulings.md): the earliest year moved to 2028 on Northwestern Medicine's release (see the revision above); the likely and latest moves were declined. With every item of the review ruled, the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say."

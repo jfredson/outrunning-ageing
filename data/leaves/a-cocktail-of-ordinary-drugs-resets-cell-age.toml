@@ -42,7 +42,7 @@ description above, because these reports do exist.
 """
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 Several companies and academic groups were testing chemical mixes in mice when this was written,
@@ -76,3 +76,10 @@ field = "description"
 old = "None has been shown to work in a living animal in a peer-reviewed report, so the leaf is at idea only."
 new = "In 2025 peer-reviewed reports gave a two-chemical mix to animals: it extended the lifespan and healthspan of worms, and in a small study in ageing mice it improved neurological scores and the longest lifespan, with some changes in liver and brain tissue. The reports describe no clock of cell age read in the animals, and a 2026 report in mice found no change in the age of kidney or liver tissue at lower doses, and weight loss at higher doses that forced the mice to be put down. These are not counted as the result the test asks for, so the leaf stays at idea only."
 why = "[verification 2026-10-17] 'None has been shown to work in a living animal in a peer-reviewed report' was not safe: searches on 2026-10-17 found peer-reviewed 2025 reports of a two-chemical mix in worms and in ageing mice, and a 2026 mouse report with no change in tissue age and toxicity at higher doses. The text now says what each reports. None is counted as the animal rung, so the stage does not change; whether the mouse report counts is left for John."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

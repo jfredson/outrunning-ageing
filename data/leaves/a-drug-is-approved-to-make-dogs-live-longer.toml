@@ -79,7 +79,7 @@ The regulators of other countries were not searched on their own lists; a web se
 found no approval of a dog lifespan drug anywhere else."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-17
 why = """
 The company's own timetable is the only schedule there is, and it has slipped once: in February
@@ -103,3 +103,10 @@ field = "notes"
 old = "(nothing; the result of checking the regulator's own news list and the company's own pages added at the end of the notes)"
 new = "Checked on 2026-10-17: the United States veterinary regulator's list of announcements, to 2026-09-30, shows no approval or conditional approval of a drug to extend dogs' lives; the company's own page lists the manufacturing section and the conditional approval as in progress, and its news release of 2026-01-13 expected to apply 'next year', that is 2027."
 why = "Checked against the regulator's own list and the company's own pages on 2026-10-17; the two statements previously rested on the company's posts and a web search."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

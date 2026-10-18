@@ -45,7 +45,7 @@ source. The stage date stays at 2019, the year of the GrimAge report, which gave
 in several groups of over a thousand people (https://doi.org/10.18632/aging.101684)."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 Clocks are improving fast and several large health systems were piloting them in 2026; the
@@ -72,3 +72,10 @@ field = "description"
 old = "The first such clock, in 2013, matched a person's calendar age to within a few years from any tissue; the useful ones came later, trained not on age but on outcomes. In 2019 a Los Angeles group published GrimAge, trained on smoking and blood proteins, which predicted who would die, and when, better than age in several large groups of people, and later clocks (DunedinPACE, 2022)"
 new = "A clock published in 2013 estimated a person's calendar age from those marks in most tissues and cell types; the useful ones came later, trained not on age but on outcomes. In 2019 a Los Angeles group published GrimAge, trained on smoking and blood proteins, which predicted time to death, to heart disease and to cancer more strongly than the earlier clocks did, in validation groups of thousands of people, and later clocks (DunedinPACE, 2022)"
 why = "[verification 2026-10-17] The wording 'The first such clock' was a priority claim that no source read settles, and 'better than age' was more than the GrimAge abstract says (it reports prediction of time to death, heart disease and cancer more strongly than earlier clocks, in validation data from thousands of people). The text now says what the Horvath 2013 abstract (https://doi.org/10.1186/gb-2013-14-10-r115) and the GrimAge abstract (https://doi.org/10.18632/aging.101684) say. The stage and its date do not change."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

@@ -917,7 +917,7 @@ SEED = 2004                 # method parameter 6: the year the phrase became kno
 LAG = (3, 8, 15)            # method parameter 2: earliest, likely, latest years from the clinic to ordinary people
 BEFORE_YEAR = 2050          # method parameter 4
 CENTURY_END = 2100          # method parameter 4: a year after this is "not this century"
-METHOD_STATUS = "ruled by John 2026-10-16; the lag (parameter 2) is flagged for the outside review"
+METHOD_STATUS = "ruled by John 2026-10-16; the lag (parameter 2) went to the outside review of 2026-10-17, which produced no published figure for it, and stays a first guess by John's ruling of 2026-10-17"
 
 
 def branches_short(loaded: dict) -> list[tuple[str, int, int]]:

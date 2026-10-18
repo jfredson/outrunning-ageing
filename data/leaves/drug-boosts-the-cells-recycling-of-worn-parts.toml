@@ -40,7 +40,7 @@ https://doi.org/10.1016/j.xcrm.2022.100633) the main measure, peak power output,
 placebo, though muscle strength improved by about 12 per cent."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 Spermidine and related supplements are cheap and widely sold, which means trials are small and
@@ -68,3 +68,10 @@ field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, after checking the trial reports: urolithin A, which switches on the clearing of worn power plants and has its own entry on the energy branch, was tested in two controlled trials in 2022, and neither counts here because neither met its main measure. In 66 adults aged 65 to 90 (JAMA Network Open, https://doi.org/10.1001/jamanetworkopen.2021.44279) the main measures, the distance walked in six minutes and the energy output of hand muscle, did not differ from placebo, though muscle endurance, a secondary measure, improved. In middle-aged adults (Cell Reports Medicine, https://doi.org/10.1016/j.xcrm.2022.100633) the main measure, peak power output, did not differ from placebo, though muscle strength improved by about 12 per cent."
 why = "[verification 2026-10-17] Records the two trial results that the unchecked statement described, with their sources; no stage or year changed."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

@@ -62,7 +62,7 @@ No stage or year was changed.
 """
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 The clinic rung needs an approval or a published routine practice resting on a clock result,
@@ -91,3 +91,10 @@ field = "notes"
 old = "Statements by Eli Lilly and Novo Nordisk that clocks show people on their weight-loss drugs ageing more slowly (reported by MIT Technology Review on 2026-10-06) are company statements, were not opened, and are not the kind of record the test asks for."
 new = "Statements by Eli Lilly and Novo Nordisk that clocks show people on their weight-loss drugs ageing more slowly were opened on 2026-10-17 in the MIT Technology Review article of 2026-10-06 (https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/). They were talks at a conference (Aging Research & Drug Discovery, Boston, the weekend before): Novo reported blood-protein clocks on samples from 10,052 people in placebo-controlled semaglutide trials, and Lilly a smaller tirzepatide study with clocks read from the marks on DNA. They are company talks reported by a journalist, not peer-reviewed reports. Novo's analysis is also posted as an unreviewed preprint (Research Square, 2026-09-22, https://doi.org/10.21203/rs.3.rs-11082091/v1), whose abstract does not say the clock analysis was planned before the data were unblinded and says it does not establish biological rejuvenation. One peer-reviewed report does exist for a related trial: semaglutide against placebo in 84 adults with HIV-associated lipohypertrophy (abnormal fat build-up in the abdomen) found slower epigenetic ageing on several clocks, with the pace of ageing on one clock 9 per cent slower (Corley and colleagues, Nature Communications, 2026-05-19, https://doi.org/10.1038/s41467-026-72861-3). Its authors call it a post hoc exploratory analysis and say epigenetic ageing was not pre-specified, so, like the 2023 CALERIE paper, it does not settle this rung."
 why = "[verification 2026-10-17] The company statements reported by MIT Technology Review on 2026-10-06 were opened and found to be conference talks, with one unreviewed preprint behind Novo's; a peer-reviewed controlled trial of semaglutide on clocks (Nature Communications, 2026-05-19) was found and, being post hoc, does not settle the rung. No stage or year was changed."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

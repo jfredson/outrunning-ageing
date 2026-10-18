@@ -59,7 +59,7 @@ reached_on = "2017-08-27"
 record = "https://doi.org/10.1056/NEJMoa1707914"
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 The drug is generic and cheap, which helps uptake, and the guidelines in Europe and the United
@@ -87,3 +87,10 @@ field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "No earlier stage is recorded for the animal rung. The nearest candidate is a 2011 mouse study (Bhaskar and colleagues, Atherosclerosis, https://doi.org/10.1016/j.atherosclerosis.2011.02.026), which found less fatty plaque in the arteries of mice given an antibody against interleukin-1 beta, an inflammatory signal. It does not meet what would count here: the same abstract reports lower ratios of harmful to protective cholesterol in the blood, while what would count asks for a drug acting on inflammation alone with no effect on cholesterol, and it measured plaque, not heart attacks, strokes or deaths. It was therefore not entered as an earlier stage. A search of Europe PMC on 2026-10-17 for animal studies of colchicine in atherosclerosis found later studies (not examined here), and one rabbit study of 2017 that found no effect on plaque, but no clean earlier record that meets the test."
 why = "Checked against the paper's abstract on 2026-10-17; the gap in the record (no animal rung) is now stated in the notes with its reason."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

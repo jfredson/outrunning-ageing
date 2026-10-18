@@ -48,7 +48,7 @@ reached_on = "2018-09-13"
 record = "https://doi.org/10.1056/NEJMoa1805689"
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 The drug has been prescribed for seven years and competitors (a second stabiliser, gene
@@ -69,3 +69,10 @@ field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17: no earlier stage in animals is recorded, because the discovery work was largely done in the test tube. The 2012 paper that describes how tafamidis binds the protein and holds it steady (Bulawa and colleagues, with Jeffery Kelly among the authors, https://doi.org/10.1073/pnas.1121005109) reports the binding, a crystal structure and the steadying of protein from patients, and its abstract mentions no living animal. A search of the Europe PMC literature database on 2026-10-17 for a study in mice showing that a steadying drug reduced the deposits found no clean, dated report that meets the test for that rung."
 why = "[verification 2026-10-17] States why no animal stage is recorded, with the discovery paper as the source, in place of an unchecked statement; no stage or year changed."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

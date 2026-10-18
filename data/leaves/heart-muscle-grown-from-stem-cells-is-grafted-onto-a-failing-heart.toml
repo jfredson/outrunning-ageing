@@ -40,7 +40,7 @@ muscle (187 against 963 per square millimetre), with signs of an immune reaction
 or its support material (checked 2026-10-17)."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 A small trial with no comparison group was running in 2026, with the heart's pumping among its main measures; the likely year assumes
@@ -84,3 +84,10 @@ field = "description"
 old = "and that in a 46-year-old woman with heart failure, given ten patches in 2021 while she waited for a donor heart, the patches were alive and vascularised when her old heart was removed three months later."
 new = "and that in a person with advanced heart failure, given ten patches (about 400 million cells in all) in the first trial in people, the grafted muscle cells were found alive, with blood vessels, when the heart was removed for a transplant three months later."
 why = "[verification 2026-10-17] The woman's age, her sex and the year 2021 came from news coverage; the 2025 paper in Nature, read in full, gives none of them, so they were removed. The ten patches, the 400 million cells and the transplant three months later are in the paper."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and raised item 12 on this range, declined by John on 2026-10-17 (docs/reviews/2026-10-17-rulings.md): the reviewer proposed 2035, 2043, 2085, reading the three deaths among twenty people in the 2026 New England Journal of Medicine report (https://doi.org/10.1056/NEJMoa2513525) as a severe safety signal; the paper gives the deaths' causes as vasoplegia, COVID-19 and aortic dissection, one each, does not call them treatment-related and does not call its findings a safety signal, so the source does not say what the reviewer read into it; the range stays 2031, 2038, 2070. With every item of the review ruled, the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say."

@@ -45,7 +45,7 @@ year was changed.
 """
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 Twenty years after the mouse result there is no positive controlled human trial, and the
@@ -82,3 +82,10 @@ old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, from the weekly reading of that date: the nearest controlled human result is gaudilliere-2025, a double-blind placebo-controlled phase 2a trial (NCT03981419) of a young-donor plasma fraction in 38 older patients having a hip or knee replacement, which the authors call a first proof of principle that such a fraction regulates immune and inflammatory responses in older people. Its measure is the response to surgical injury and not an age-related function, so the first-human test is not met on a plain reading. Whether such a measure could count is John's ruling. No stage or year was changed."
 why = "[reading 2026-10-17] Adds the nearest controlled human trial to the notes and leaves the question of whether it counts for John."
 publication = "gaudilliere-2025"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

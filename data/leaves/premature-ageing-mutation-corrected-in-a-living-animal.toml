@@ -35,7 +35,7 @@ tool works in a person. A separate leaf on this branch tracks gene editing insid
 body for an age-related disease."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 The 2025 one-patient case shows the tool can be made and dosed in a person within months when
@@ -56,3 +56,10 @@ rung = "in-clinical-use"
 earliest = 2032
 likely = 2038
 latest = 2080
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and raised item 7 on this range, declined by John on 2026-10-17 (docs/reviews/2026-10-17-rulings.md): the reviewer proposed moving the earliest to 2036 and the likely to 2042 as too fast for a whole-body gene therapy, citing the regulator's long-term follow-up guidance of 2020-01-30 and Zolgensma's five years from first trial (2014-05-05) to approval (2019-05-24); the guidance does not say approval waits for the follow-up, and the record's earliest clinic year sits five years after its earliest first-human year, the pace the reviewer's own precedent gives; the range stays 2032, 2038, 2080. With every item of the review ruled, the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say."

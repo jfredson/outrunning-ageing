@@ -50,7 +50,7 @@ record = "https://doi.org/10.1038/nature10600"
 publication = "baker-2011"
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 A first human result on a measurement exists since 2019, so the remaining step is a controlled
@@ -101,3 +101,10 @@ old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, from the weekly reading of that date: in the Amsterdam liver trial (koning-2026), single-cell sequencing of liver biopsies showed fewer signs of aged cells in the treated group than the placebo group. That is a supporting measurement, not a replacement for the 2019 kidney report, and the stage stays where it was."
 why = "[reading 2026-10-17] Records the supporting senescence measurement in the new liver trial."
 publication = "koning-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and raised item 4 on this range, declined by John on 2026-10-17 (docs/reviews/2026-10-17-rulings.md): the reviewer proposed 2027, 2029, 2038 on the ground that longevity clinics already give the two-drug combination off-label, but named no clinic, report or page a reader can open, and the settler the record names for the rung is a regulator's approval record; the range stays 2031, 2038, 2060. For the yearly review: this test's clinic rung admits a private clinic's published off-label protocol, which the chromosome-ends treatment's test excludes on purpose. With every item of the review ruled, the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say."

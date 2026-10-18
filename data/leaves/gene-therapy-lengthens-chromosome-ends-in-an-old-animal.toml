@@ -49,7 +49,7 @@ whose page does not open, and it does not name the person treated.
 """
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 No registered trial of a telomerase gene therapy in people existed when this was written. The
@@ -110,3 +110,10 @@ field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, after checking the registry: the telomerase gene therapy trial in Colombia is a small first trial (registry entry NCT04133649) of a single intravenous dose of a virus carrying the human telomerase gene, sponsored by a company, Libella Gene Therapeutics, at one site in Zipaquirá, Colombia. It started on 2019-10-17 with five people planned, was last updated on 2019-12-06 with its status unknown, and has posted no result, so it does not move the first-human rung. A 2022 single-patient case report of this kind of therapy that was noted earlier was removed from the record on 2026-10-17 for want of a source: a report of that kind was found only as a publisher's abstract whose page does not open, and it does not name the person treated."
 why = "[verification 2026-10-17] Records what the registry entry says and removes an unsourced case report; no stage or year changed."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

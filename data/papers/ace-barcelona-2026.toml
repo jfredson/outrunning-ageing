@@ -1,0 +1,19 @@
+# Publications log. Added 2026-10-17 when John's rulings on the outside review of that date were applied (docs/reviews/2026-10-17-rulings.md, item 13). The page was opened and read on 2026-10-17, by the review session and again by the session that applied the rulings.
+
+id = "ace-barcelona-2026"
+date = "2026-04-27"
+added_on = 2026-10-17
+authors = ["Ace Alzheimer Center Barcelona"]
+title = "Ace Alzheimer Center presents pioneering evidence on plasma exchange to slow Alzheimer's"
+venue = "The centre's own news page, Barcelona, 2026-04-27"
+link = "https://www.acebarcelona.org/en/plasma-exchange-alzheimers-asfa-2026"
+finding = """
+The centre says its medical team presented, at the 2026 meeting of the American Society for Apheresis, results of therapeutic plasma exchange with albumin in people with Alzheimer's disease given, in its words, "under routine clinical practice conditions in Barcelona" rather than in a clinical trial: 71 patients completed the 15-month programme as outpatients; the observed cognitive decline was lower than what is typically reported for the disease's natural course; 44 per cent of patients were classified as responders with stable cognitive trajectories; and more than 96 per cent of procedures were free of adverse events, all of them mild and transient. The page names no peer-reviewed paper or conference abstract and gives no date for when the service began.
+"""
+leaves = ["replacing-a-persons-plasma-slows-an-age-related-disease"]
+branches = ["inflammation-and-signalling"]
+moved_range = true
+settled_stage = true
+notes = """
+This is the record John ruled on 2026-10-17 settles the clinic rung of the plasma-exchange treatment: a named clinical setting publishing, on its own page, that it gives the treatment for that purpose in routine care. The weekly reading of 2026-10-17 had left the question open because the only source then in the record was the supplier's release (grifols-2026). The centre's page answers that objection; it is still an announcement of a conference presentation and not a peer-reviewed publication of the practice, and the apheresis society's own guidelines (see grifols-2026) place plasma exchange for Alzheimer's disease in the category whose role is not established. John weighed both and ruled that the announcement counts; the treatment's record carries the ruling. The treatment is dated to this page, 2026-04-27, and not to 2021, when the supplier's release says the programme began, because this page is the earliest publication by the clinical setting itself.
+"""

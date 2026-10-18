@@ -37,7 +37,7 @@ Philippon Research Institute; registry number NCT04210986) finished in February 
 measure was safety, so it does not meet the test above."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 Osteoarthritis is a large market with no disease-modifying drug, so a drug of this class that
@@ -58,3 +58,10 @@ rung = "in-clinical-use"
 earliest = 2032
 likely = 2039
 latest = 2080
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

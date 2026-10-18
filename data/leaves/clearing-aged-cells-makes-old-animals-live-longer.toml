@@ -34,7 +34,7 @@ matters most for people, since it used ordinary mice and ordinary drugs, and it 
 rather than the record because the 2016 engineered-mouse result came first."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 A human lifespan or healthy-years trial of a drug of this class has not been proposed, and the
@@ -56,3 +56,10 @@ rung = "in-clinical-use"
 earliest = 2038
 likely = 2050
 latest = 2100
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

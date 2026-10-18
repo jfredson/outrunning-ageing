@@ -46,7 +46,7 @@ it is not repeated here (checked 2026-10-17).
 """
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 The clinic rung is an approval, which for a first-in-class gene therapy to the eye means a
@@ -68,3 +68,10 @@ old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, from the weekly reading of that date: on 2026-10-08 the company announced interim results from the first three people with glaucoma (life-biosciences-2026-interim): no serious adverse events by day 56, a safety board's recommendation to move to the second dose level, and a preliminary improvement in the visual field in two of the three. It is a company announcement of an open-label safety trial; this entry counts the dose, which was already on the record, so the stage does not change."
 why = "[reading 2026-10-17] Notes the interim data of 2026-10-08, which the record of 2026-10-16 did not mention."
 publication = "life-biosciences-2026-interim"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

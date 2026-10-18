@@ -1,0 +1,19 @@
+# Publications log. Added 2026-10-17 when John's rulings on the outside review of that date were applied (docs/reviews/2026-10-17-rulings.md, item 5). The page was opened and read on 2026-10-17, by the review session and again by the session that applied the rulings.
+
+id = "northwestern-2025"
+date = "2025-07-07"
+added_on = 2026-10-17
+authors = ["Northwestern Medicine"]
+title = "Do you really know your age? How chronological and biological age stack up at Northwestern Medicine's new Longevity Clinic"
+venue = "Northwestern Medicine news release, Chicago, 2025-07-07"
+link = "https://news.nm.org/do-you-really-know-your-age-how-chronological-and-biological-age-stack-up-at-northwestern-medicines-new-longevity-clinic/"
+finding = """
+The hospital system says its Human Longevity Clinic opened to the public on 2025-07-07, offering tests that were previously reserved for research studies to measure the difference between a person's age in years and their biological age. The tests listed include heart, lung, muscle, balance and memory assessments, retinal imaging and "lab work including molecular clocks that can be used to measure your biological age directly"; patients then meet a longevity physician for lifestyle recommendations, and selected tests are repeated six months later. The page does not name a clock, does not say "epigenetic", and names no published report of the clinic's practice.
+"""
+leaves = ["a-persons-biological-age-reading-falls-after-treatment"]
+branches = ["cell-settings"]
+moved_range = true
+settled_stage = false
+notes = """
+Logged on the outside reviewer's pointer (the cells-and-settings packet, 2026-10-17). It is the source behind John's ruling of 2026-10-17 on item 5: a named academic clinic has measured molecular clocks in routine care since 2025 and repeats them at six months, so a publication of that practice could come any year, and the treatment's earliest clinic year moved from 2032 to 2028. It does not meet the clinic rung itself: the test asks for a treatment given in routine care with the clock monitored and that practice published, and this page describes testing and lifestyle advice, with no published report of practice.
+"""

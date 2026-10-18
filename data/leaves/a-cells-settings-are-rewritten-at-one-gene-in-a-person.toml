@@ -43,7 +43,7 @@ not state one; an earlier wording that the first person was dosed in late 2024 w
 says one injection almost halved the circulating protein for nearly a year in mice."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 The first-human rung waits only on a peer-reviewed report of a trial that has already reported
@@ -70,3 +70,10 @@ field = "description"
 old = "has been given to people since late 2024, and the company reported in May 2026 that the virus's markers stayed down for seventeen months after one dose"
 new = "is the subject of a trial in people that the trial registry shows as started on 2024-11-29, and on 2026-05-30 the company reported that the virus's markers had stayed down for up to seventeen months after one dose"
 why = "[verification 2026-10-17] 'Has been given to people since late 2024' is not stated by the trial registry (https://clinicaltrials.gov/study/NCT06671093), which gives a study start of 2024-11-29, or by the company's releases of 2024-11-14 and 2026-05-30, none of which gives the date of the first person dosed. The text now says what they say: a trial the registry shows as started on 2024-11-29, and markers repressed for up to seventeen months after one dose (company release, 2026-05-30). The stage does not change."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

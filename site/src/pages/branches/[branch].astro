@@ -116,7 +116,7 @@ const description = `${branch.meaning} What has been recorded under this branch 
     <div class="shead"><h2>Its history</h2><span>the handled year, computation by computation</span></div>
     <p class="prose" style="font-size: 15.5px;">
       {h.available
-        ? <>The year was first computed on {longDate(h.computed_on)}, with this branch handled in the middle run by {hb ? yearWords(hb.median_handled_year) : 'a year not yet known'}. Every estimate under it is still a first pass. From the second computation on, this section charts the branch's handled year run by run, so a reader who sees the year at the top move can tell which branch moved it.</>
+        ? <>The year was first computed on {longDate(h.computed_on)}, with this branch handled in the middle run by {hb ? yearWords(hb.median_handled_year) : 'a year not yet known'}. {hb && hb.leaves.some((l) => !l.known && l.estimate_status === 'first-pass') ? 'Some ranges under it that the year draws from are still a first pass. ' : 'Every range under it that the year draws from has been through the outside review. '}From the second computation on, this section charts the branch's handled year run by run, so a reader who sees the year at the top move can tell which branch moved it.</>
         : <>The year has not been computed yet, so this branch has no history. Once it has, this section charts the branch's handled year computation by computation.</>}
     </p>
   </section>

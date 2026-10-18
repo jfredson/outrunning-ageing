@@ -40,7 +40,7 @@ on the company's release; here the dose has its own leaf instead, so that this o
 the result. The weekly reading checks the two stages agree."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 The first trial in people began in June 2026 in two eye diseases, following participants for up
@@ -71,3 +71,10 @@ old = "reverse ageing rather than slow it. The first person was given it, in one
 new = "reverse ageing rather than slow it. The first person was given it, in one eye, in June 2026. On 2026-10-08 the company announced interim results from the first three people with glaucoma: no serious side effects by day 56 and a preliminary improvement in the visual field in two of them. It is a company announcement of an open-label safety trial, not a peer-reviewed report, and it measures sight and not a marker of biological age; a separate entry holds the dose."
 why = "[reading 2026-10-17] The sentence 'with no result yet reported' was out of date from 2026-10-08. The announcement is a company release of preliminary, uncontrolled data on sight, not the peer-reviewed report of a measured reversal that the first-human step asks for, so the stage stays at shown in animals."
 publication = "life-biosciences-2026-interim"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

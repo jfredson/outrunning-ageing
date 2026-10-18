@@ -49,7 +49,7 @@ as an earlier stage.
 """
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 The drugs are taken by tens of millions of people and prices were falling as pills and copies
@@ -61,12 +61,13 @@ purpose (scannell-2026) is under 1 per cent of eligible Medicare beneficiaries s
 coverage began, with data to September 2024. That points the other way from the earliest year of
 2027 above, which assumed uptake might already count. The years are unchanged; John may want to weigh
 moving the earliest wide-use year later at the next review.]
+[Note 2026-10-17, ruled by John on the outside review's item 9: the wide-use earliest year moved from 2027 to 2030 and the likely year from 2029 to 2033. The record's one published uptake figure (scannell-2026: under 1 per cent of eligible Medicare beneficiaries six months after coverage began) says the earliest's assumption, that uptake might already count, does not hold, and a substantial share of eligible people in several countries takes years of payer coverage and prescribing habit. The latest of 2040 stays. This rung is shown on the page and not drawn by the headline.]
 """
 
 [[estimate.rung]]
 rung = "in-wide-use"
-earliest = 2027
-likely = 2029
+earliest = 2030
+likely = 2033
 latest = 2040
 
 [[revision]]
@@ -91,3 +92,34 @@ field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "No earlier stage is recorded for the animal rung. The nearest animal result is a Nature report of 2026-09-02 (Feng and colleagues, https://doi.org/10.1038/s41586-026-10940-7): semaglutide started in 20-month-old female mice and continued for life lengthened their median life, from 742 days to 834 days. It came after the drug's approval, and it is a result on lifespan in mice, not on heart attacks, strokes or deaths in people, which is what the test for this entry (what would count) asks about, so it is not entered as an earlier stage."
 why = "Checked against the paper on 2026-10-17: the median lifespans are as the paper gives them; the gap in the record (no animal rung) is now stated in the notes with its reason."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.rung.in-wide-use.earliest"
+old = 2027
+new = 2030
+why = "Ruled by John 2026-10-17 on the outside review's item 9 (docs/reviews/2026-10-17-rulings.md): the earliest assumed uptake for the heart-prevention purpose might already count, and the one published figure (Scannell and colleagues, American Journal of Managed Care, 2026-07-09, https://doi.org/10.37765/ajmc.2026.89983) says it does not: under 1 per cent of an estimated 3.6 million eligible Medicare beneficiaries six months after coverage began. The weekly reading of 2026-10-17 had flagged the same thing."
+publication = "scannell-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.rung.in-wide-use.likely"
+old = 2029
+new = 2033
+why = "Ruled by John 2026-10-17 on the outside review's item 9: a substantial share of eligible people in several countries takes years of payer negotiation and prescribing habit after an approval, and the only uptake figure in the record is far below the bar; the latest of 2040 stays."
+publication = "scannell-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "(nothing; a dated note added at the end of the reasoning)"
+new = "[Note 2026-10-17, ruled by John on the outside review's item 9: the wide-use earliest year moved from 2027 to 2030 and the likely year from 2029 to 2033 ...]"
+why = "Ruled by John 2026-10-17 on the outside review's item 9: the reasoning now says what moved and why."
+publication = "scannell-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and raised item 9 on this range, accepted by John on 2026-10-17 (docs/reviews/2026-10-17-rulings.md): the wide-use earliest and likely years moved to 2030 and 2033 (see the revisions above). With every item of the review ruled, the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say."

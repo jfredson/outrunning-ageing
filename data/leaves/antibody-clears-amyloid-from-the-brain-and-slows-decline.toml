@@ -60,7 +60,7 @@ reached_on = "2022-11-29"
 record = "https://doi.org/10.1056/NEJMoa2212948"
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 Wide use needs a form that does not require infusions and frequent scans (an under-the-skin
@@ -104,3 +104,10 @@ field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, after checking the sources: the companies publish sales but not how many people are being treated or are eligible. Biogen's results release of 2026-07-29 for the quarter ending 2026-06-30 gives worldwide sales of the antibody (lecanemab) of $184 million, $97 million of it in the United States, and neither that release, Biogen's quarterly filing with the United States securities regulator for the same quarter, nor its annual filing for 2025 gives a count of people treated. No uptake figure is therefore recorded here; the stage rests on the approval and does not need one. A Cochrane overview of the antibodies, published 2026-04-16 (Nonino and colleagues; abstract at https://pubmed.ncbi.nlm.nih.gov/41985900/), pooled 17 trials of seven antibodies (20,342 people), only one of them for lecanemab and one for donanemab, and concluded that the effect on thinking and on dementia severity at 18 months is \"trivial\" and on everyday function \"small at best\". The overview is not used in the estimate."
 why = "[verification 2026-10-17] Records what the companies' own filings do and do not say about uptake, and the Cochrane overview's abstract, after two unchecked statements about uptake and the overview were checked; no stage or year changed."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

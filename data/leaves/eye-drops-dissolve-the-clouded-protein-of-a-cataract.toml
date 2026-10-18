@@ -49,7 +49,7 @@ of it; the figures are therefore the company's statement, not a peer-reviewed re
 gives a start date of 2026-02-10 while the release says the first patient was enrolled on 2026-07-14."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 With the animal result contested and no human trial registered, the likely year for the clinic
@@ -65,6 +65,7 @@ registry's last update and a primary completion estimated for 2027-02. The earli
 year (2029), set on the premise that a trial would start within three years, was therefore met
 early. The years are unchanged; whether the first-human years should move, and whether this
 company's drop answers the replication question about the 2015 dog result, are John's to weigh.]
+[Note 2026-10-17, ruled by John on the outside review's item 8: the clinic rung's earliest year moved from 2035 to 2031 and its likely year from 2050 to 2040, on the registered trial's own dates (ocusun-2026): a positive phase 2 result in 2027-02, a phase 3 from 2028 to 2030 and an approval the year after is the fast path, and the likely year still assumes the 2015 dog result has to replicate in people, which two laboratories could not do in a dish. The latest year of 2120 stays for the same reason. The first-human years are unchanged.]
 """
 
 [[estimate.rung]]
@@ -75,8 +76,8 @@ latest = 2060
 
 [[estimate.rung]]
 rung = "in-clinical-use"
-earliest = 2035
-likely = 2050
+earliest = 2031
+likely = 2040
 latest = 2120
 
 [[revision]]
@@ -110,3 +111,34 @@ old = "placebo-controlled phase 2 pilot of a lanosterol-derived drop has been re
 new = "placebo-controlled phase 2 pilot of a drop that its makers say is derived from lanosterol has been registered with a start date of 2026-02-10 (ocusun-2026)"
 why = "[verification 2026-10-17] Wording only: attributes the lanosterol origin to the makers and the start date to the registry; no year changed."
 publication = "ocusun-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.rung.in-clinical-use.earliest"
+old = 2035
+new = 2031
+why = "Ruled by John 2026-10-17 on the outside review's item 8 (docs/reviews/2026-10-17-rulings.md): the estimate's premise, that no human trial was registered, was out of date on the record's own evidence; the registered placebo-controlled phase 2 pilot (ClinicalTrials.gov NCT07395986, start 2026-02-10, primary completion estimated 2027-02; ocusun-2026) gives the fast path of a phase 3 by 2030 and an approval the next year. The weekly reading of 2026-10-17 had flagged the same thing."
+publication = "ocusun-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.rung.in-clinical-use.likely"
+old = 2050
+new = 2040
+why = "Ruled by John 2026-10-17 on the outside review's item 8: the likely year is the plain reading of the registered trial's dates with time for a phase 3 and a review, while still assuming the 2015 dog result has to replicate in people; the latest of 2120 is left as it is for that reason."
+publication = "ocusun-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.why"
+old = "(nothing; a dated note added at the end of the reasoning)"
+new = "[Note 2026-10-17, ruled by John on the outside review's item 8: the clinic rung's earliest year moved from 2035 to 2031 and its likely year from 2050 to 2040 ...]"
+why = "Ruled by John 2026-10-17 on the outside review's item 8: the reasoning now says what moved and what the new years assume."
+publication = "ocusun-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and raised item 8 on this range, accepted by John on 2026-10-17 (docs/reviews/2026-10-17-rulings.md): the clinic rung's earliest and likely years moved to 2031 and 2040 (see the revisions above). With every item of the review ruled, the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say."

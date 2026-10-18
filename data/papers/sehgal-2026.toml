@@ -1,0 +1,19 @@
+# Publications log. Added 2026-10-17 when John's rulings on the outside review of that date were applied (docs/reviews/2026-10-17-rulings.md, item 5). The paper is open access; its page was opened and read on 2026-10-17, by the review session and again by the session that applied the rulings.
+
+id = "sehgal-2026"
+date = "2026-08-21"
+added_on = 2026-10-17
+authors = ["Raghav Sehgal", "Daniel Borrus", "Jenel F. Armstrong", "John Gonzalez", "Jessica Kasamoto", "Yaroslav Markov", "Ahana Priyanka", "Ryan Smith", "Natàlia Carreras-Gallo", "Jessica Lasky-Su", "Varun B. Dwaraka", "Michael J. Corley", "Albert Higgins-Chen"]
+title = "Responsiveness of epigenetic aging biomarkers to longevity interventions in humans"
+venue = "Nature Medicine 32, 3477–3490 (2026), online 2026-08-21, in the issue of 2026-09"
+link = "https://doi.org/10.1038/s41591-026-04562-9"
+finding = """
+The authors assembled 51 public and private studies in which people were measured before and after a treatment, and read 16 widely used clocks (estimates of biological age from the chemical marks on DNA) and 94 other DNA-mark measures on every sample. Across the 16 clocks, 19 of the 50 treatments significantly lowered the clocks' readings (13 after correction for multiple testing), 5 raised them and 26 had no significant effect; clocks built to predict death or the pace of ageing responded most, drugs and lifestyle changes drove the strongest responses, and drugs that block the inflammatory messenger TNF moved nearly all of the newer clocks by similar amounts in patients with arthritis or inflammatory bowel disease. It is a reanalysis of existing trial samples, not a trial of its own.
+"""
+leaves = ["a-persons-biological-age-reading-falls-after-treatment", "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial"]
+branches = ["cell-settings", "measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged on the outside reviewer's pointer (the cells-and-settings packet, 2026-10-17), under John's ruling of the same day on item 5. It is the largest published test of whether clocks respond to treatments, which is why it is logged against both the biological-age-reading treatment and the clock-slowing trial on the measuring branch. It moves no stage and no year: it reanalyses other studies' samples, so it is not itself a controlled trial with a pre-planned clock analysis, and it is not a clinic's publication of its practice. The reviewer's reading of it, that it supports an earlier likely clinic year for the biological-age-reading treatment, was declined for the reason in the rulings document: the test asks for a treatment given on the strength of a clock, which this paper is not.
+"""

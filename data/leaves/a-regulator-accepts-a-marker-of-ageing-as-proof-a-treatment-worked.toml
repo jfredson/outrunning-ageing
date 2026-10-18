@@ -47,7 +47,7 @@ next step, none is qualified, and none is a marker of ageing as such. The Europe
 list was read on 2026-10-17 and has no ageing marker."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 A qualification takes years of evidence and a sponsor willing to submit it; the first-human
@@ -76,3 +76,10 @@ field = "notes"
 old = "(nothing; the result of checking the regulator's own list added at the end of the notes)"
 new = "Checked on 2026-10-17 against the United States regulator's own search of its drug development tools: twelve biomarkers carry the determination qualified, none is a marker of ageing, and no project in the database names ageing, a biological-age clock or a protein panel for ageing."
 why = "Checked against the regulator's own list on 2026-10-17; the earlier statement rested on a peer-reviewed count to 2025-07-01 and an August 2026 trade article."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

@@ -51,7 +51,7 @@ reached_on = "2013-01-25"
 record = "https://doi.org/10.1152/ajpheart.00883.2012"
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 Several early trials were running in 2026 with no controlled result; the likely year assumes
@@ -84,3 +84,10 @@ field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-17, after checking the trial registry and the journals: transplantation of mitochondria has been registered or reported in stroke (University of Washington, registry entry NCT04998357, recruiting), in people on heart-lung support after reduced blood flow (Boston Children's Hospital, registry entry NCT02851758, recruiting), in heart attack (a randomised, triple-blind trial of 30 people in Iran, reported in the International Journal of Cardiology on 2024-06-04, https://doi.org/10.1016/j.ijcard.2024.132227) and in a muscle disease, polymyositis and dermatomyositis (nine people in Korea, Annals of the Rheumatic Diseases, 2025-01-31, https://doi.org/10.1016/j.ard.2024.11.005, registry entry NCT04976140). The Iranian trial found a slightly larger gain in how much blood the heart pumps with each beat and a significant gain in exercise capacity within 40 days, against standard care, with no difference in serious heart events; its authors say larger and longer studies are needed."
 why = "[verification 2026-10-17] Records the registry entries and reports that the unchecked statement described; no stage or year changed."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

@@ -34,7 +34,7 @@ treatment killed cells with antibodies, which in a person would be done in a hos
 mild chemotherapy, so the clinic rung is a long way off."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 The 2024 result named human surface markers, so an antibody for people is makeable; the likely
@@ -54,3 +54,10 @@ rung = "in-clinical-use"
 earliest = 2036
 likely = 2048
 latest = 2100
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

@@ -2,7 +2,7 @@
   "computed_on": "2026-10-17",
   "method": {
     "document": "docs/method.md",
-    "status": "ruled by John 2026-10-16; the lag (parameter 2) is flagged for the outside review",
+    "status": "ruled by John 2026-10-16; the lag (parameter 2) went to the outside review of 2026-10-17, which produced no published figure for it, and stays a first guess by John's ruling of 2026-10-17",
     "runs": 200000,
     "seed": 2004,
     "lag_years": {
@@ -16,65 +16,65 @@
     "combination": "the latest handled year across the required branches, plus the lag; a branch is handled when its handled_when-th leaf is in clinical use"
   },
   "median_year": 2058,
-  "before_2050": 0.0335,
+  "before_2050": 0.0409,
   "after_2100": 0.0,
   "percentiles": {
     "p5": 2050,
-    "p25": 2055,
+    "p25": 2054,
     "p50": 2058,
     "p75": 2062,
-    "p95": 2068
+    "p95": 2069
   },
   "histogram": [
     {
       "from": 2040,
       "to": 2044,
-      "share": 0.0006
+      "share": 0.0008
     },
     {
       "from": 2045,
       "to": 2049,
-      "share": 0.0329
+      "share": 0.0401
     },
     {
       "from": 2050,
       "to": 2054,
-      "share": 0.2119
+      "share": 0.2222
     },
     {
       "from": 2055,
       "to": 2059,
-      "share": 0.367
+      "share": 0.3561
     },
     {
       "from": 2060,
       "to": 2064,
-      "share": 0.2584
+      "share": 0.2442
     },
     {
       "from": 2065,
       "to": 2069,
-      "share": 0.0985
+      "share": 0.0974
     },
     {
       "from": 2070,
       "to": 2074,
-      "share": 0.0255
+      "share": 0.0296
     },
     {
       "from": 2075,
       "to": 2079,
-      "share": 0.0046
+      "share": 0.0078
     },
     {
       "from": 2080,
       "to": 2084,
-      "share": 0.0005
+      "share": 0.0015
     },
     {
       "from": 2085,
       "to": 2089,
-      "share": 0.0
+      "share": 0.0002
     },
     {
       "from": 2090,
@@ -113,7 +113,7 @@
           "earliest": 2031,
           "likely": 2037,
           "latest": 2065,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "aged-cell-clearing-drug-relieves-knee-arthritis",
@@ -123,7 +123,7 @@
           "earliest": 2032,
           "likely": 2039,
           "latest": 2080,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "clearing-aged-cells-makes-old-animals-live-longer",
@@ -133,7 +133,7 @@
           "earliest": 2038,
           "likely": 2050,
           "latest": 2100,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "drug-clears-aged-cells-from-a-person",
@@ -143,7 +143,7 @@
           "earliest": 2031,
           "likely": 2038,
           "latest": 2060,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "immune-cells-engineered-to-kill-aged-cells",
@@ -153,7 +153,7 @@
           "earliest": 2036,
           "likely": 2046,
           "latest": 2095,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         }
       ]
     },
@@ -162,17 +162,17 @@
       "name": "Damaged DNA",
       "required": true,
       "handled_when": 2,
-      "median_handled_year": 2040,
+      "median_handled_year": 2044,
       "leaves": [
         {
           "id": "a-drug-lengthens-chromosome-ends-in-a-person",
           "name": "A drug lengthens the ends of chromosomes in a person",
           "stage": "first-human",
           "known": false,
-          "earliest": 2030,
-          "likely": 2036,
-          "latest": 2070,
-          "estimate_status": "first-pass"
+          "earliest": 2038,
+          "likely": 2048,
+          "latest": 2085,
+          "estimate_status": "reviewed"
         },
         {
           "id": "a-gene-is-edited-inside-a-persons-body",
@@ -182,7 +182,7 @@
           "earliest": 2028,
           "likely": 2030,
           "latest": 2042,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "gene-therapy-lengthens-chromosome-ends-in-an-old-animal",
@@ -192,7 +192,7 @@
           "earliest": 2036,
           "likely": 2044,
           "latest": 2110,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "premature-ageing-mutation-corrected-in-a-living-animal",
@@ -202,7 +202,7 @@
           "earliest": 2032,
           "likely": 2038,
           "latest": 2080,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         }
       ]
     },
@@ -221,7 +221,7 @@
           "earliest": 2031,
           "likely": 2036,
           "latest": 2070,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "a-cocktail-of-ordinary-drugs-resets-cell-age",
@@ -231,7 +231,7 @@
           "earliest": 2038,
           "likely": 2050,
           "latest": 2110,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "a-person-receives-cell-resetting-genes-in-a-trial",
@@ -241,17 +241,17 @@
           "earliest": 2033,
           "likely": 2040,
           "latest": 2075,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "a-persons-biological-age-reading-falls-after-treatment",
           "name": "A person's biological age, read from the marks on their DNA, falls after a treatment",
           "stage": "first-human",
           "known": false,
-          "earliest": 2032,
+          "earliest": 2028,
           "likely": 2042,
           "latest": 2085,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "partially-resetting-cells-reverses-ageing-in-an-animal",
@@ -261,7 +261,7 @@
           "earliest": 2033,
           "likely": 2041,
           "latest": 2075,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         }
       ]
     },
@@ -278,7 +278,7 @@
           "stage": "in-clinical-use",
           "known": true,
           "year": 2023,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "drug-boosts-the-cells-recycling-of-worn-parts",
@@ -288,7 +288,7 @@
           "earliest": 2033,
           "likely": 2045,
           "latest": 2095,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "drug-breaks-the-sugar-cross-links-that-stiffen-old-tissue",
@@ -298,7 +298,7 @@
           "earliest": 2036,
           "likely": 2050,
           "latest": 2120,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
@@ -306,17 +306,17 @@
           "stage": "in-clinical-use",
           "known": true,
           "year": 2019,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "eye-drops-dissolve-the-clouded-protein-of-a-cataract",
           "name": "Eye drops dissolve the clouded protein of a cataract",
           "stage": "shown-in-animals",
           "known": false,
-          "earliest": 2035,
-          "likely": 2050,
+          "earliest": 2031,
+          "likely": 2040,
           "latest": 2120,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         }
       ]
     },
@@ -335,7 +335,7 @@
           "earliest": 2034,
           "likely": 2045,
           "latest": 2095,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "a-drug-is-approved-to-make-dogs-live-longer",
@@ -345,7 +345,7 @@
           "earliest": 2027,
           "likely": 2028,
           "latest": 2032,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people",
@@ -355,7 +355,7 @@
           "earliest": 2031,
           "likely": 2039,
           "latest": 2085,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
@@ -363,7 +363,7 @@
           "stage": "in-clinical-use",
           "known": true,
           "year": 2024,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
@@ -373,7 +373,7 @@
           "earliest": 2032,
           "likely": 2042,
           "latest": 2090,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "metformin-delays-age-related-disease-in-people-without-diabetes",
@@ -383,7 +383,7 @@
           "earliest": 2036,
           "likely": 2043,
           "latest": 2100,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "mitochondria-are-transplanted-into-a-person",
@@ -393,7 +393,7 @@
           "earliest": 2033,
           "likely": 2045,
           "latest": 2095,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "rapamycin-improves-an-age-related-measure-in-older-people",
@@ -403,7 +403,7 @@
           "earliest": 2031,
           "likely": 2039,
           "latest": 2080,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         }
       ]
     },
@@ -412,7 +412,7 @@
       "name": "Replacing lost cells and parts",
       "required": true,
       "handled_when": 2,
-      "median_handled_year": 2029,
+      "median_handled_year": 2032,
       "leaves": [
         {
           "id": "a-human-organ-is-grown-inside-an-animal",
@@ -422,7 +422,7 @@
           "earliest": 2040,
           "likely": 2060,
           "latest": 2160,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface",
@@ -430,7 +430,7 @@
           "stage": "in-clinical-use",
           "known": true,
           "year": 2016,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "an-old-animals-blood-stem-cells-are-rejuvenated",
@@ -440,17 +440,17 @@
           "earliest": 2036,
           "likely": 2048,
           "latest": 2100,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
           "name": "Cells grown from stem cells restore a lost organ function in people",
           "stage": "first-human",
           "known": false,
-          "earliest": 2027,
-          "likely": 2028,
-          "latest": 2036,
-          "estimate_status": "first-pass"
+          "earliest": 2030,
+          "likely": 2032,
+          "latest": 2046,
+          "estimate_status": "reviewed"
         },
         {
           "id": "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart",
@@ -460,7 +460,7 @@
           "earliest": 2031,
           "likely": 2038,
           "latest": 2070,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "lab-grown-organ-works-in-a-person-for-a-year",
@@ -470,7 +470,7 @@
           "earliest": 2032,
           "likely": 2045,
           "latest": 2100,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
@@ -480,7 +480,7 @@
           "earliest": 2028,
           "likely": 2032,
           "latest": 2045,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         }
       ]
     },
@@ -489,7 +489,7 @@
       "name": "Inflammation and the body's messaging",
       "required": true,
       "handled_when": 2,
-      "median_handled_year": 2042,
+      "median_handled_year": 2026,
       "leaves": [
         {
           "id": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
@@ -497,7 +497,7 @@
           "stage": "in-clinical-use",
           "known": true,
           "year": 2023,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "blocking-one-messenger-protein-makes-old-animals-live-longer",
@@ -507,16 +507,14 @@
           "earliest": 2034,
           "likely": 2045,
           "latest": 2100,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "replacing-a-persons-plasma-slows-an-age-related-disease",
           "name": "Replacing the liquid part of a person's blood slows an age-related disease",
-          "stage": "first-human",
-          "known": false,
-          "earliest": 2030,
-          "likely": 2038,
-          "latest": 2075,
+          "stage": "in-clinical-use",
+          "known": true,
+          "year": 2026,
           "estimate_status": "first-pass"
         },
         {
@@ -527,7 +525,7 @@
           "earliest": 2035,
           "likely": 2048,
           "latest": 2110,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "young-gut-microbes-rejuvenate-an-old-animal",
@@ -537,7 +535,7 @@
           "earliest": 2035,
           "likely": 2050,
           "latest": 2110,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         }
       ]
     },
@@ -556,7 +554,7 @@
           "earliest": 2028,
           "likely": 2034,
           "latest": 2060,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked",
@@ -566,7 +564,7 @@
           "earliest": 2032,
           "likely": 2040,
           "latest": 2080,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat",
@@ -576,7 +574,7 @@
           "earliest": 2034,
           "likely": 2045,
           "latest": 2100,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial",
@@ -586,7 +584,7 @@
           "earliest": 2030,
           "likely": 2037,
           "latest": 2070,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "an-age-for-each-organ-is-read-from-blood-proteins",
@@ -596,16 +594,16 @@
           "earliest": 2029,
           "likely": 2036,
           "latest": 2070,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         }
       ]
     }
   ],
   "counts": {
     "leaves_counted": 44,
-    "leaves_in_clinic_already": 5,
-    "estimates_first_pass": 44,
-    "estimates_first_pass_drawn": 39,
+    "leaves_in_clinic_already": 6,
+    "estimates_first_pass": 1,
+    "estimates_first_pass_drawn": 0,
     "verify_entries": 0
   }
 }

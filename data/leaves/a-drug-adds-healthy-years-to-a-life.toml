@@ -44,7 +44,7 @@ separate leaves on this branch for rapamycin, metformin and the GLP-1 drugs hold
 human results; this one holds the lifespan question itself."""
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 A trial that could show extra healthy years in people needs thousands of participants and most
@@ -74,3 +74,10 @@ field = "notes"
 old = "the metformin trial designed to measure time to age-related disease had not enrolled anyone when this was written."
 new = "the metformin trial designed to measure time to age-related disease (the TAME trial) had not launched: its sponsor's own trial page, as saved by the Internet Archive on 2026-07-04, still listed \"Raising Funds to Launch\" as its need; no entry for it was found on ClinicalTrials.gov on 2026-10-17."
 why = "Checked against the source on 2026-10-17: the claim that no one had enrolled rested on trade coverage alone; the sponsor's own page is the primary record and says the trial was still raising funds to launch."
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."

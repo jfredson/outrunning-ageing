@@ -1088,6 +1088,8 @@ log once its page has been read, as the reading's rule asks: Grifols and Ace Alz
 Barcelona renew their collaboration to drive the AMBAR programme and add new centres (Company press
 release, 2026-03-12;
 https://www.grifols.com/en/view-news/-/news/grifols-y-ace-alzheimer-center-barcelona-renuevan-su-colaboracion-para-impulsar-el-programa-ambar-e-incorporar-nuevos-centros)."""
+resolved_on = 2026-10-17
+resolved_by = "Ruled by John on 2026-10-17 on the outside review's item 13 (the changelog entry \"John's rulings on the outside review of the 44 ranges, the lag and independence are applied\"): the Barcelona centre's own announcement of 2026-04-27 (ace-barcelona-2026) counts as a named clinical setting publishing its practice, so the treatment moved to in clinical use dated 2026-04-27 and its estimate was rewritten for the wide-use rung; the Grifols release was logged as grifols-2026 in the dated batch of 2026-10-17."
 
 [[item]]
 leaf = "young-blood-rejuvenates-an-old-animal"

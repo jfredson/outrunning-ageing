@@ -50,7 +50,7 @@ record = "https://doi.org/10.1038/nature10600"
 publication = "baker-2011"
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-16
 why = """
 One positive controlled trial exists, small and in one eye condition, and the company that ran it
@@ -101,3 +101,10 @@ old = "(nothing; a dated note added at the end of the reasoning; no year changed
 new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above counts one positive controlled trial. Two now exist, the 2022 eye trial and the 2026-10-01 liver trial (koning-2026), each small and in a single organ. The years are unchanged; John may want to weigh the second trial at the next review of the ranges.]"
 why = "[reading 2026-10-17] A dated note that the premise 'one positive controlled trial exists' is out of date; the years are John's and were not changed."
 publication = "koning-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
