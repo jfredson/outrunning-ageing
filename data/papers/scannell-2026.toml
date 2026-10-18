@@ -15,7 +15,7 @@ branches = ["energy-and-fuel"]
 moved_range = false
 settled_stage = false
 notes = """
-Added during the weekly reading of 2026-10-17. It is the first published uptake figure for the heart-prevention purpose of the weight-loss drug in the treatment "A weight-loss drug is approved to prevent heart attacks and strokes in people without diabetes", and it covers one country and one payer, ending in September 2024. It points the other way from the earliest year for wide use in that treatment's estimate, 2027, which John may want to weigh; no year was changed.
+Added during the weekly reading of 2026-10-17. It is the first published uptake figure for the heart-prevention purpose of the weight-loss drug in the treatment "A weight-loss drug is approved to prevent heart attacks and strokes in people without diabetes", and it covers one country and one payer, ending in September 2024. It points the other way from the earliest year for wide use in that treatment's estimate as it stood then, 2027, which John may want to weigh; no year was changed by the reading. Later on 2026-10-17 John ruled, on an outside review's proposal, that the earliest year for wide use moves from 2027 to 2030 and the likely year from 2029 to 2033.
 
 Checked 2026-10-17 against the full text on the journal's page (https://www.ajmc.com/view/changes-in-semaglutide-fills-following-expanded-fda-and-medicare-policies). The figure of 3.6 million eligible beneficiaries is the authors' estimate, taken from a Kaiser Family Foundation brief of 2024-04-24 that they cite. The figures of 4,689 and 32,732 are monthly Part D fills, not a running total. The table of the extra fills by payer was not separately read; the text gives the overall figure.
 """

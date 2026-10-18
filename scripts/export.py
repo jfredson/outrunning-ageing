@@ -836,16 +836,51 @@ def what_changed(leaves_out: list[dict], publications: list[dict], readings_out:
     return [o for o in out if o["moves"] or o["ranges"] or o["papers"] or o["readings"] or o["wording"]]
 
 
+ORGANISATION = re.compile(r"\b(?:Inc|Ltd|Co|S\.A|A/S|plc|LLC|Center|Centre|Foundation|Institute|Committee|Federation|"
+                          r"University|Medicine|Consortium|Therapeutics|Biosciences|Biotechnology|Pharmaceuticals?|"
+                          r"Agency|Administration|Research|sponsor)\b")
+COMPANY_SUFFIX = re.compile(r"(?:,?\s+(?:Inc|Ltd|Co|S\.A|A/S|plc|LLC)\.?)+$")
+PARTICLES = {"de", "van", "von", "der", "den", "da", "del", "di", "du", "le", "la"}
+
+
+def short_name(author: str) -> str:
+    """The name a citation line uses. A person: the surname with any particle ("de Grey"). An
+    organisation: its name without a bracketed note, a role, or a company suffix ("Grifols" for
+    "Grifols, S.A.", "Ace Alzheimer Center Barcelona" as it is). Fixed 2026-10-18: the last word
+    alone had given "S.A." and "Barcelona"."""
+    a = author.strip()
+    if ORGANISATION.search(a):
+        a = re.split(r"\s*[(;]", a, maxsplit=1)[0].strip()
+        a = COMPANY_SUFFIX.sub("", a).strip()
+        return a.split(", ")[0].strip() if ", " in a else a
+    words = a.split()
+    if len(words) >= 2 and re.fullmatch(r"[A-Z]{1,3}", words[-1]):
+        return " ".join(words[:-1])          # "Li S", the surname-first style some journals print
+    i = len(words) - 1
+    while i > 0 and words[i - 1] in PARTICLES:
+        i -= 1
+    if i < len(words) - 1 and i > 1 and not words[i - 1].endswith("."):
+        i -= 1                               # "Bernardes de Jesus": a double surname before the particle
+    return " ".join(words[i:])
+
+
 def authors_short(authors: list[str]) -> str:
-    """'Hickson and 32 others', 'Baker and Childs', 'Horvath' for a citation line."""
-    surnames = [a.split()[-1] for a in authors if a.strip()]
+    """'Hickson and 32 others', 'Baker and Childs', 'Horvath', 'Grifols' for a citation line. A last
+    entry of the form "and 16 others (28 in all)" gives the count."""
+    names = [a for a in authors if a.strip()]
+    total = len(names)
+    if names and names[-1].startswith("and "):
+        m = re.search(r"\((\d+) in all\)", names[-1])
+        names = names[:-1]
+        total = int(m.group(1)) if m else total
+    surnames = [short_name(a) for a in names]
     if not surnames:
         return ""
-    if len(surnames) == 1:
+    if total == 1:
         return surnames[0]
-    if len(surnames) == 2:
+    if total == 2 and len(surnames) == 2:
         return f"{surnames[0]} and {surnames[1]}"
-    return f"{surnames[0]} and {len(surnames) - 1} others"
+    return f"{surnames[0]} and {total - 1} others"
 
 
 def worked_run(branch_recs: list[dict], leaves: list[dict], h: dict) -> dict:

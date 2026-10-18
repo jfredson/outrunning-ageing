@@ -7,7 +7,7 @@ name = "Metformin delays age-related disease in people who do not have diabetes"
 branch = "energy-and-fuel"
 description = """
 Metformin is a cheap diabetes pill taken by hundreds of millions of people, and it acts on the
-pathways that sense how much fuel a cell has. Records studies in the 2010s suggested that people
+pathways that sense how much fuel a cell has. Studies of medical records in the 2010s suggested that people
 with diabetes who took it got cancer and heart disease less often, and in 2013 a National
 Institute on Aging group found that a low dose lengthened the lives of middle-aged mice by about
 six per cent. A trial designed to test whether it delays age-related disease in older people
@@ -51,7 +51,7 @@ set_on = 2026-10-16
 why = """
 If the trial started in 2027 it would read out around 2034, and an approval would follow if the
 result were positive; the likely year assumes a two-year further delay and a positive result,
-which the animal and records evidence make less than certain. The earliest is the trial starting
+which the animal evidence and the evidence from medical records make less than certain. The earliest is the trial starting
 next year and reading out positive on schedule; the latest allows for it never running and the
 rung being reached, if at all, by a successor drug late in the century."""
 
@@ -87,3 +87,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. John ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."
+
+[[revision]]
+date = 2026-10-18
+field = "description"
+old = "Records studies in the 2010s suggested ..."
+new = "Studies of medical records in the 2010s suggested ..."
+why = "Wording corrected on 2026-10-18: \"records studies\" meant studies of medical records, such as the UK general-practice records study by Bannister and colleagues, 2014; the reasoning behind the estimate had the same slip (\"records evidence\") and is corrected the same way. No fact changed."
+publication = "bannister-2014"

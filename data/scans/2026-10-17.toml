@@ -319,7 +319,7 @@ reused = [
 ]
 search_short = """
 No search aimed at this treatment could be run: the reading's search allowance (200 searches, shared
-by the twelve searchers of this first reading) ran out before a second search aimed at this record
+by the twelve searchers of this first reading) ran out before any search aimed at this record
 could be run. It rests on two searches borrowed from the other treatments of its branch, so its
 quiet verdict is weaker than the others and it is read first at the next reading."""
 found = """
@@ -437,7 +437,7 @@ reused = [
 ]
 search_short = """
 No search of this treatment's own could be run: the reading's search allowance (200 searches, shared
-by the twelve searchers of this first reading) ran out before a second search aimed at this record
+by the twelve searchers of this first reading) ran out before any search aimed at this record
 could be run. It rests on three borrowed searches."""
 found = """
 On 2026-10-08, two days before the window, Life Biosciences announced interim first-in-human data
