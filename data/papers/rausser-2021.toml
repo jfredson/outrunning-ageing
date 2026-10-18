@@ -1,0 +1,13 @@
+id = "rausser-2021"
+date = "2021-10-26"
+added_on = 2026-10-18
+authors = ["Shannon Rausser", "Caroline Trumpff", "Marlon A. McGill", "Alex Junker", "Wei Wang", "Siu-Hong Ho", "Anika Mitchell", "Kalpita R. Karan", "Catherine Monk", "Suzanne C. Segerstrom", "Rebecca G. Reed", "Martin Picard"]
+title = "Mitochondrial phenotypes in purified human immune cell subtypes and cell mixtures"
+venue = "eLife 10, e70899 (2021)"
+link = "https://doi.org/10.7554/elife.70899"
+finding = """
+In 21 healthy adults aged 20 to 59, platelets stuck to a blood sample made its mitochondrial measures read 9 to 22 per cent high, and platelet count fell about 6 per cent per decade of life, which could account for the fall in blood mitochondrial DNA with age seen in earlier studies. In sorted white-cell types the count per cell rose with age, a difference hidden in mixed cells. The authors say larger studies are needed."""
+leaves = ["a-blood-count-of-mitochondrial-dna-predicts-death-and-disease"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false

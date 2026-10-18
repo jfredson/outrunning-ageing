@@ -720,7 +720,7 @@ class TheRun(unittest.TestCase):
             self.assertFalse((data / "headline.json").exists())
         self.assertEqual(code, 2)
         self.assertIn("not written yet", o.getvalue())
-        self.assertIn("measuring-age: 5 of 99", o.getvalue())
+        self.assertIn("measuring-age: 6 of 99", o.getvalue())
 
     def test_run_refuses_invalid_data(self):
         with TempData() as data:
@@ -735,10 +735,10 @@ class TheRun(unittest.TestCase):
         with TempData() as data:
             text = (data / "branches.toml").read_text(encoding="utf-8")
             head, tail = text.rsplit("handled_when = 2", 1)
-            (data / "branches.toml").write_text(head + "handled_when = 6" + tail, encoding="utf-8")
+            (data / "branches.toml").write_text(head + "handled_when = 7" + tail, encoding="utf-8")
             loaded = compute.load_and_validate(data, history=False)
             short = compute.branches_short(loaded)
-        self.assertEqual(short, [("measuring-age", 5, 6)])
+        self.assertEqual(short, [("measuring-age", 6, 7)])
 
     def test_a_withdrawn_leaf_below_the_clinic_does_not_count(self):
         with TempData() as data:

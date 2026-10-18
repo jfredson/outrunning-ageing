@@ -1,0 +1,13 @@
+id = "ashar-2015"
+date = "2014-12-04"
+added_on = 2026-10-18
+authors = ["Foram N. Ashar", "Anna Moes", "Ann Z. Moore", "Megan L. Grove", "Paulo H. M. Chaves", "Josef Coresh", "Anne B. Newman", "Amy M. Matteini", "Karen Bandeen-Roche", "Eric Boerwinkle", "Jeremy D. Walston", "Dan E. Arking"]
+title = "Association of mitochondrial DNA levels with frailty and all-cause mortality"
+venue = "Journal of Molecular Medicine 93(2), 177–186 (2015)"
+link = "https://doi.org/10.1007/s00109-014-1233-3"
+finding = """
+In 16,401 people in two long-running studies, a lower count of mitochondrial DNA copies in blood went with dying sooner: the lowest fifth had a 47 per cent higher chance of death than the highest fifth (hazard ratio 1.47, 95% interval 1.33 to 1.62), after allowing for age and sex. The count fell with age, and a lower count went with frailty in one group."""
+leaves = ["a-blood-count-of-mitochondrial-dna-predicts-death-and-disease"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = true

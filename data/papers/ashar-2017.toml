@@ -1,0 +1,13 @@
+id = "ashar-2017"
+date = "2017-11-01"
+added_on = 2026-10-18
+authors = ["Foram N. Ashar", "Yiyi Zhang", "Ryan J. Longchamps", "John Lane", "Anna Moes", "Megan L. Grove", "Josyf C. Mychaleckyj", "Kent D. Taylor", "Josef Coresh", "Jerome I. Rotter", "Eric Boerwinkle", "Nathan Pankratz", "Eliseo Guallar", "Dan E. Arking"]
+title = "Association of mitochondrial DNA copy number with cardiovascular disease"
+venue = "JAMA Cardiology 2(11), 1247–1255 (2017)"
+link = "https://doi.org/10.1001/jamacardio.2017.3683"
+finding = """
+In 21,870 people in three studies followed for 13.5 years on average, a one-standard-deviation lower count of mitochondrial DNA in blood went with a 23 per cent higher risk of heart disease or stroke (hazard ratio 1.23, 95% interval 1.19 to 1.26), unchanged after allowing for the usual risk factors, and adding the count to a standard risk equation improved how people were sorted into risk groups."""
+leaves = ["a-blood-count-of-mitochondrial-dna-predicts-death-and-disease"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
