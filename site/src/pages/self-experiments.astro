@@ -55,14 +55,14 @@ const running = list.filter((e) => e.status === 'running').length;
             <summary>The notes, and what is still to check</summary>
             {e.notes && <p><span class="k">Notes</span> {e.notes}</p>}
             {e.verify.length > 0 && <p><span class="k">Not yet verified</span> {e.verify.join(' ')}</p>}
-            <p class="dim">This entry is <a href={recordUrl(e.file)} rel="noopener">{e.file}</a> in the public repository.</p>
+            <p class="dim">This entry's <a href={recordUrl(e.file)} rel="noopener">record</a> is in the public repository.</p>
           </details>
           <p class="one-person">{ONE_PERSON_LINE}</p>
         </li>
       ))}
     </ol>
     <p class="dim" style="font-size: 14px; margin-top: 24px;">
-      The record itself is one file per person in <a href="https://github.com/jfredson/outrunning-ageing/tree/main/data/experiments" rel="noopener">data/experiments</a> in the public repository. An entry missing, or a claim misread: <a href="/disagree/">say so</a>.
+      The record itself is one file per person, <a href="https://github.com/jfredson/outrunning-ageing/tree/main/data/experiments" rel="noopener">in the public repository</a>. An entry missing, or a claim misread: <a href="/disagree/">say so</a>.
     </p>
   </section>
 </Base>

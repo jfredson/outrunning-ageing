@@ -141,6 +141,53 @@ STORY_KINDS: dict[str, str] = {
     "reading": "The weekly reading moved a rung",
 }
 DATE_HEADER = re.compile(r"^## (\d{4}-\d{2}-\d{2})\s*$")
+# A revision's field in plain words, for the treatment pages and the story page, so that no field name
+# reaches a public page (John's ruling of 2026-10-18). Paragraph fields are named and said to have
+# changed; their old and new text stays in the record and is not printed.
+FIELD_WORDS: dict[str, str] = {
+    "stage": "the stage",
+    "stage_reached_on": "the date the stage was reached",
+    "stage_record": "the record that settles the stage",
+    "stage_publication": "the publication that settles the stage",
+    "earlier_stage": "the earlier stages",
+    "estimate.status": "the estimate's status",
+    "estimate.set_on": "the date the estimate was set",
+    "estimate.why": "the reasoning behind the estimate",
+    "estimate.sources": "the sources the estimate rests on",
+    "notes": "the notes",
+    "description": "the description",
+    "name": "the name",
+    "horizon": "how soon the next rung could be reached",
+    "status": "the status",
+}
+PARAGRAPH_FIELDS = {"notes", "description", "estimate.why", "test", "settler", "mechanism", "breaking_point"}
+ESTIMATE_STATUS_WORDS = {"first-pass": "a first estimate, not yet reviewed", "reviewed": "reviewed"}
+RUNG_GOAL = {"shown-in-animals": "be shown in animals", "first-human": "reach a first human",
+             "in-clinical-use": "reach clinical use", "in-wide-use": "reach wide use"}
+
+
+def field_words(field: str) -> str:
+    """'estimate.rung.in-clinical-use.likely' -> 'the likely year to reach clinical use'."""
+    if field in FIELD_WORDS:
+        return FIELD_WORDS[field]
+    m = re.fullmatch(r"estimate\.rung\.([a-z-]+)(?:\.(earliest|likely|latest))?", field)
+    if m:
+        goal = RUNG_GOAL.get(m.group(1), m.group(1))
+        return f"the {m.group(2)} year to {goal}" if m.group(2) else f"the estimate to {goal}"
+    return "the record"
+
+
+def value_words(field: str, value) -> str:
+    """A revision's old or new value as a visitor reads it: rung keys and statuses in words."""
+    v = clean(value)
+    if field == "stage" and v in STAGE_LABELS:
+        return STAGE_LABELS[v].lower()
+    if field == "estimate.status" and v in ESTIMATE_STATUS_WORDS:
+        return ESTIMATE_STATUS_WORDS[v]
+    if isinstance(v, str):
+        for key, label in STAGE_LABELS.items():
+            v = re.sub(rf"\b{key}\b", label.lower(), v)
+    return str(v)
 
 
 def short_commit() -> str:
@@ -349,7 +396,10 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
         for rv in l.get("revision", []):
             if rv.get("publication"):
                 pubs_moved[rv["publication"]].append({**leaf_ref(l["id"]), "date": iso(rv["date"]), "field": rv["field"],
-                                                       "old": clean(rv.get("old")), "new": clean(rv.get("new")), "why": text(rv.get("why"))})
+                                                       "field_words": field_words(rv["field"]), "paragraph": rv["field"] in PARAGRAPH_FIELDS,
+                                                       "old": clean(rv.get("old")), "new": clean(rv.get("new")),
+                                                       "old_words": value_words(rv["field"], rv.get("old")),
+                                                       "new_words": value_words(rv["field"], rv.get("new")), "why": text(rv.get("why"))})
     for lid, ids in leaf_pub_ids.items():
         seen: set[str] = set()
         for pid in ids:
@@ -526,7 +576,9 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
         leaves_out.append({
             "id": l["id"], "name": l["name"], "path": f"/leaves/{l['id']}/",
             "branch": l["branch"], "branch_name": branch_name.get(l["branch"], l["branch"]), "branch_path": branch_path.get(l["branch"]),
-            "description": text(l["description"]), "test": text(l["test"]), "settler": text(l["settler"]),
+            # A test is never edited once published, so a ladder key written into one is shown in words.
+            "description": text(l["description"]), "test": value_words("test", text(l["test"])),
+            "settler": value_words("settler", text(l["settler"])),
             "stage": l["stage"], "stage_rank": compute.STAGE_RANK[l["stage"]], "stage_label": STAGE_LABELS[l["stage"]],
             "stage_reached_on": l.get("stage_reached_on"), "stage_record": l.get("stage_record"),
             "stage_publication": pub_ref(l["stage_publication"]) if l.get("stage_publication") else None,
@@ -541,8 +593,11 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
             "headline_draw": ({"known": hl.get("known", False), "year": hl.get("year"), "earliest": hl.get("earliest"),
                                "likely": hl.get("likely"), "latest": hl.get("latest")} if hl else None),
             "revisions": [{"date": iso(rv["date"]), "field": rv["field"], "old": clean(rv.get("old")), "new": clean(rv.get("new")),
+                           "field_words": field_words(rv["field"]), "paragraph": rv["field"] in PARAGRAPH_FIELDS,
+                           "old_words": value_words(rv["field"], rv.get("old")), "new_words": value_words(rv["field"], rv.get("new")),
+                           "anchor": f"revision-{i + 1}", "path": f"/leaves/{l['id']}/#revision-{i + 1}",
                            "why": text(rv.get("why")), "publication": pub_ref(rv["publication"]) if rv.get("publication") else None}
-                          for rv in l.get("revision", [])],
+                          for i, rv in enumerate(l.get("revision", []))],
             "verify": list(l.get("verify") or []), "notes": text(l.get("notes")), "example": l.get("example") is True,
             "claims": claims_for_leaf[l["id"]], "experiments": experiments_for_leaf[l["id"]],
             "publications": pubs_for_leaf[l["id"]], "readings": readings_for_leaf[l["id"]][:3],
@@ -662,6 +717,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
                               if e["kind"] in ("moved-range", "reading") or e.get("moves_estimate")),
         "days": sorted({e["date"] for e in story_entries if e["date"]}, reverse=True),
         "changelog": read_changelog(changelog_file),
+        "what_changed": what_changed(leaves_out, publications, readings_out),
     }
 
     examples = [{"kind": r["_kind"], "id": r.get("id") or r.get("key")} for r in records if r.get("example") is True]
@@ -720,6 +776,64 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
         "examples": examples,
         "retired": clean(loaded["retired"]),
     }
+
+
+def what_changed(leaves_out: list[dict], publications: list[dict], readings_out: list[dict]) -> list[dict]:
+    """The story page's "what changed" section (John's ruling of 2026-10-18): one line per day, newest
+    first, built only from the records' own flags and never from the changelog's prose. A day's line is
+    made of parts, each a fact a record carries with its date: a treatment moved up a rung (a stage
+    revision), a range revised or set (revisions to an estimate's years, grouped per treatment and rung),
+    papers logged (the publications' logged dates) and a weekly reading run. A day whose only changes are
+    to a record's paragraphs, an estimate's status, or a stage's date or record gets the single part
+    "wording". Two forms in the ruling have no flag to build from yet: the year at the top moving (the
+    headline file keeps only its latest value) and a treatment or claim being added (neither record carries
+    the date it was added); they are left out rather than guessed."""
+    days: dict[str, dict] = {}
+
+    def day(date: str) -> dict:
+        return days.setdefault(date, {"date": date, "moves": [], "ranges": {}, "papers": 0, "readings": [], "other": 0})
+
+    for l in leaves_out:
+        ref = {"id": l["id"], "name": l["name"], "path": l["path"]}
+        for rv in l["revisions"]:
+            d = day(rv["date"])
+            f = rv["field"]
+            if f == "stage":
+                d["moves"].append({"leaf": ref, "from": rv["old_words"], "to": rv["new_words"], "path": rv["path"]})
+                continue
+            m = re.fullmatch(r"estimate\.rung\.([a-z-]+)(?:\.(earliest|likely|latest))?", f)
+            if m:
+                rung, which = m.group(1), m.group(2)
+                key = f"{l['id']}|{rung}"
+                if which:
+                    r = d["ranges"].setdefault(key, {"leaf": ref, "goal": RUNG_GOAL.get(rung, rung), "kind": "revised",
+                                                     "changes": [], "path": rv["path"]})
+                    r["changes"].append({"which": which, "old": rv["old"], "new": rv["new"]})
+                elif re.fullmatch(r"\(none\)", str(rv["old"]).strip()):
+                    d["ranges"][key] = {"leaf": ref, "goal": RUNG_GOAL.get(rung, rung), "kind": "set",
+                                        "years": str(rv["new"]), "path": rv["path"]}
+                # A whole rung's estimate removed because the rung was reached is said by the move itself.
+                continue
+            d["other"] += 1
+    for p in publications:
+        if p.get("example"):
+            continue
+        day(p["added_on"])["papers"] += 1
+    for rd in readings_out:
+        day(rd["read_on"])["readings"].append({"id": rd["id"], "path": rd["path"]})
+
+    order = {"earliest": 0, "likely": 1, "latest": 2}
+    out = []
+    for date in sorted(days, reverse=True):
+        d = days[date]
+        ranges = list(d["ranges"].values())
+        for r in ranges:
+            if r["kind"] == "revised":
+                r["changes"].sort(key=lambda c: order[c["which"]])
+        substantive = bool(d["moves"] or ranges or d["papers"] or d["readings"])
+        out.append({"date": date, "moves": d["moves"], "ranges": ranges, "papers": d["papers"],
+                    "readings": d["readings"], "wording": not substantive and d["other"] > 0})
+    return [o for o in out if o["moves"] or o["ranges"] or o["papers"] or o["readings"] or o["wording"]]
 
 
 def authors_short(authors: list[str]) -> str:

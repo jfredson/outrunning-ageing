@@ -6,16 +6,24 @@
 // the ones that did, with equal billing: a reader who sees the year move should be able to tell
 // whether the world got closer or the author changed his mind. Revisions to a treatment's estimate
 // and the weekly reading's moves join the same list as they happen. The repository's changelog is
-// not shown: John ruled on 2026-10-18 that the public site shows no raw record text. The entry card is copied from The Quiet Galaxy's story page (which copied
-// The Belt Equation's) and the changelog days from The Upgrade Tree's, both on 2026-10-17.
+// not shown: John ruled on 2026-10-18 that the public site shows no raw record text. In its place,
+// "What changed, day by day" (ruled by John the same day) gives one plain line per day built only
+// from the records' own flags: a treatment moved up a rung, a range revised or set, papers logged, a
+// weekly reading run, or, on a day with only wording changes, "the site's wording changed"
+// (scripts/export.py, what_changed). The entry card is copied from The Quiet Galaxy's story page
+// (which copied The Belt Equation's), on 2026-10-17.
 import Base from '../layouts/Base.astro';
-import { records, longDate, worldDate, recordUrl, plural, publicationById, type StoryEntry } from '../lib/records';
+import { records, longDate, worldDate, plural, lowerFirst, publicationById, type StoryEntry } from '../lib/records';
 
 const story = records.story;
 const totals = story.totals;
 const days = story.days.map((date) => ({ date, entries: story.entries.filter((e) => e.date === date) }));
 const kindLabel = (e: StoryEntry) => e.kind_label;
 const h = records.headline;
+const changed = story.what_changed;
+const capital = (t: string, first: boolean) => (first ? t.charAt(0).toUpperCase() + t.slice(1) : t);
+// A treatment's name opens with a capital; inside a line it is written from a small letter.
+const name = (t: string, first: boolean) => (first ? t : lowerFirst(t));
 ---
 
 <Base title="The story so far · Outrunning Ageing" description="Every paper, trial report and regulator's record that bears on the tree, dated, newest first, each saying what it settled or moved, and the ones that moved nothing beside them.">
@@ -30,6 +38,33 @@ const h = records.headline;
     </p>
   </section>
 
+  {changed.length > 0 && (
+    <section class="section narrow" id="what-changed" style="padding-top: 0;">
+      <h2>What changed, day by day</h2>
+      <p class="dim" style="font-size: 14px;">
+        One line for each day the records changed, newest first, made from the records themselves: a treatment moving up a rung, a range of years revised, papers logged, a weekly reading run. A day whose only changes were to the wording says so. Each line links to the change it names.
+      </p>
+      <ul class="checks changed">
+        {changed.map((d) => {
+          const parts: any[] = [];
+          d.readings.forEach((r) => parts.push((first: boolean) => <a href={r.path}>{capital('the weekly reading ran', first)}</a>));
+          d.moves.forEach((m) => parts.push((first: boolean) => <><a href={m.leaf.path}>{name(m.leaf.name, first)}</a>{' '}<a href={m.path}>moved up a rung</a>, from {m.from} to {m.to}</>));
+          d.ranges.forEach((r) => parts.push((first: boolean) => r.kind === 'revised'
+            ? <><a href={r.leaf.path}>{name(r.leaf.name, first)}</a>: its {r.changes.length === 1 ? `${r.changes[0].which} year` : 'range'} to {r.goal}{' '}<a href={r.path}>was revised</a>, {r.changes.map((c, i) => <>{i > 0 ? ', ' : ''}{r.changes.length === 1 ? '' : `${c.which} `}from {c.old} to {c.new}</>)}</>
+            : <><a href={r.leaf.path}>{name(r.leaf.name, first)}</a>: a range to {r.goal}{' '}<a href={r.path}>was set</a>, {r.years}</>));
+          if (d.papers > 0) parts.push((first: boolean) => <a href={`#logged-${d.date}`}>{capital(d.papers === 1 ? 'one paper was logged' : `${d.papers} papers were logged`, first)}</a>);
+          if (d.wording) parts.push((first: boolean) => <>{capital("the site's wording changed", first)}</>);
+          return (
+            <li>
+              <span class="check-date">{longDate(d.date)}</span>
+              <p>{parts.map((part, i) => <>{i > 0 ? '; ' : ''}{part(i === 0)}</>)}.</p>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  )}
+
   <section class="section narrow" style="padding-top: 0;">
     <ul class="tally">
       <li><span class="stat">{story.entries.length}</span><span class="stat-label">{story.entries.length === 1 ? 'entry' : 'entries'} in the log</span></li>
@@ -43,7 +78,7 @@ const h = records.headline;
       <p class="empty">Nothing has been logged yet.</p>
     ) : days.map((day) => (
       <div class="day">
-        <h2>Logged {longDate(day.date)}</h2>
+        <h2 id={`logged-${day.date}`}>Logged {longDate(day.date)}</h2>
         <div class="entries">
           {day.entries.map((e) => {
             const p = e.publication ? publicationById(e.publication) : null;
@@ -73,14 +108,13 @@ const h = records.headline;
                       <p style="font-size: 15px;"><strong>What it settled:</strong> {p.settles.map((s, i) => <>the rung "{s.rung_label.toLowerCase()}" of <a href={s.path}>{s.name}</a>{i < p.settles.length - 1 ? '; ' : '.'}</>)}</p>
                     )}
                     {p.moved_range && p.moved.length > 0 && (
-                      <p style="font-size: 15px;"><strong>What it moved:</strong> {p.moved.map((m, i) => <>{m.field} on <a href={m.path}>{m.name}</a>, {String(m.old)} to {String(m.new)}, on {longDate(m.date)}: {m.why}{i < p.moved.length - 1 ? '; ' : ''}</>)}</p>
+                      <p style="font-size: 15px;"><strong>What it moved:</strong> {p.moved.map((m, i) => <>{m.field_words} for <a href={m.path}>{m.name}</a>{m.paragraph ? ' changed' : `, ${m.old_words} to ${m.new_words}`}, on {longDate(m.date)}: {m.why}{i < p.moved.length - 1 ? '; ' : ''}</>)}</p>
                     )}
                     {p.kind === 'held' && (
                       <p style="font-size: 15px;"><strong>What it moved:</strong> nothing. It was read against the treatments it bears on and no stage or estimate changed. Logging it anyway is how the record shows what has been considered.</p>
                     )}
                     {p.notes && <p class="dim" style="font-size: 14px;">{p.notes}</p>}
                     {p.verify.length > 0 && <p class="dim" style="font-size: 14px;">Not yet verified against a source: {p.verify.join(' ')}</p>}
-                    <p class="dim" style="font-size: 13px;">The record is <a href={recordUrl(p.file)} rel="noopener">{p.file}</a> in the public repository.</p>
                   </div>
                 </details>
               );
@@ -89,7 +123,7 @@ const h = records.headline;
               return (
                 <div class="entry">
                   <span class="entry-meta"><span class={`kind kind-${e.kind}`}>{kindLabel(e)}</span><a class="chip" href={`/branches/${e.leaf.branch}/`}>{e.leaf.branch_name}</a></span>
-                  <span class="entry-title"><a href={e.leaf.path}>{e.leaf.name}</a>: {e.revision.field}, {String(e.revision.old)} to {String(e.revision.new)}</span>
+                  <span class="entry-title"><a href={e.leaf.path}>{e.leaf.name}</a>: {e.revision.paragraph ? `${e.revision.field_words} changed` : `${e.revision.field_words}, ${e.revision.old_words} to ${e.revision.new_words}`}</span>
                   <div class="entry-body"><p>{e.revision.why}{e.revision.publication && <> Source: <a href={e.revision.publication.path}>{e.revision.publication.authors_short}, {worldDate(e.revision.publication.date)}</a>.</>}</p></div>
                 </div>
               );

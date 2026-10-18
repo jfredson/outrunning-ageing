@@ -74,7 +74,6 @@ const description = latest
         <span class="badge kind">{plural(latest.searches, 'search', 'searches')}</span>
         {verdicts.map((v) => latest.counts[v.key] > 0 && <span class={`badge v-${v.key}`}>{latest.counts[v.key]} {v.label.toLowerCase()}</span>)}
       </div>
-      <p class="dim" style="font-family: var(--sans); font-size: 13px;">The record is {latest.file}, read at version {latest.commit_before}.</p>
 
       {latest.groups.map((g) => (
         <div class="reading-group">

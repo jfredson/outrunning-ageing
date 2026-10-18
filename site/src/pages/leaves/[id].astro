@@ -111,7 +111,7 @@ const firstSentence = (s: string) => s.split('. ')[0];
       ) : (
         <ul class="rev">
           {l.revisions.map((r) => (
-            <li><strong>{longDate(r.date)}</strong>, {r.field}: {String(r.old)} became {String(r.new)}. {r.why}{r.publication && <> Source: <a href={r.publication.path}>{r.publication.authors_short}, {worldDate(r.publication.date)}</a>.</>}</li>
+            <li id={r.anchor}><strong>{longDate(r.date)}</strong>, {r.paragraph ? `${r.field_words} changed` : `${r.field_words}: ${r.old_words} became ${r.new_words}`}. {r.why}{r.publication && <> Source: <a href={r.publication.path}>{r.publication.authors_short}, {worldDate(r.publication.date)}</a>.</>}</li>
           ))}
         </ul>
       )}
@@ -226,7 +226,7 @@ const firstSentence = (s: string) => s.split('. ')[0];
       </div>
       <div class="side-card">
         <h3>The record itself</h3>
-        <p class="sources">This page is built from <a href={recordUrl(l.file)} rel="noopener">{l.file}</a> in the public repository. Its address never changes once published.</p>
+        <p class="sources">This page is built from <a href={recordUrl(l.file)} rel="noopener">its record</a> in the public repository. Its address never changes once published.</p>
       </div>
     </aside>
   </div>
