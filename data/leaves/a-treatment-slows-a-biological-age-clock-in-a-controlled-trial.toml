@@ -59,6 +59,7 @@ colleagues, Nature Communications, 2026-05-19, https://doi.org/10.1038/s41467-02
 exploratory analysis and say epigenetic ageing was not pre-specified, so, like the 2023 CALERIE paper, it does not settle this
 rung.
 No stage or year was changed.
+Added 2026-10-18, from the weekly reading of 2026-10-18 (item 6 of its audit): the clock analysis of the COSMOS trial was published in Nature Medicine on 2026-03-09 (li-2026). Its abstract calls it a prespecified ancillary study of a randomised, placebo-controlled trial, in 958 people (average age about 70) given a daily multivitamin-multimineral tablet or cocoa extract for two years, and it names its clocks. The multivitamin slowed two of the five clocks (PCGrimAge by 0.113 years a year, P = 0.017; PCPhenoAge by 0.214 years a year, P = 0.032); the cocoa extract moved none. Read plainly, a prespecified analysis in a placebo-controlled trial that names its clocks meets the test as worded, which the 2023 CALERIE paper did not (John, 2026-10-17). The leaf is already at first human, so no stage moves. Whether this paper should replace CALERIE as the stage record, and so change the stage's date of 2023-02-09, is John's to rule and is left open; the journal's own page needs a sign-in, so the point that the analysis was planned before the data were unblinded rests on the abstract's word 'prespecified'.
 """
 
 [estimate]
@@ -98,3 +99,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "The outside review of the ranges ran on 2026-10-17 (Google's gemini-3.1-pro-preview, four packets; docs/reviews/protocol.md) and left this range as it is, with a line saying why under 'Treatments the reviewer left as they are' in docs/reviews/2026-10-17-rulings.md. John ruled on every item of the review on 2026-10-17, so the estimate's status moves from first pass to reviewed, as the record layout and the review protocol say; no year changed."
+
+[[revision]]
+date = 2026-10-18
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-18, from the weekly reading of 2026-10-18 (item 6 of its audit): the clock analysis of the COSMOS trial was published in Nature Medicine on 2026-03-09 (li-2026). Its abstract calls it a prespecified ancillary study of a randomised, placebo-controlled trial, in 958 people (average age about 70) given a daily multivitamin-multimineral tablet or cocoa extract for two years, and it names its clocks. The multivitamin slowed two of the five clocks (PCGrimAge by 0.113 years a year, P = 0.017; PCPhenoAge by 0.214 years a year, P = 0.032); the cocoa extract moved none. Read plainly, a prespecified analysis in a placebo-controlled trial that names its clocks meets the test as worded, which the 2023 CALERIE paper did not (John, 2026-10-17). The leaf is already at first human, so no stage moves. Whether this paper should replace CALERIE as the stage record, and so change the stage's date of 2023-02-09, is John's to rule and is left open; the journal's own page needs a sign-in, so the point that the analysis was planned before the data were unblinded rests on the abstract's word 'prespecified'."
+why = "[reading 2026-10-18] Item 6 of the audit asked for a reading of the full source; the abstract was read through Europe PMC on 2026-10-18 and the paper logged. Applied as a note only, on John's ruling of 2026-10-18; the stage record and its date are not changed, and the question is filed for John in the report on that batch. The estimate is untouched."
+publication = "li-2026"

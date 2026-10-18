@@ -1,0 +1,19 @@
+# Publications log. Added 2026-10-18 in the dated batch that applies the audit of the first scheduled weekly reading (docs/readings/audit-2026-10-18.md); John ruled on the audit on 2026-10-18.
+
+id = "g-ba-2026"
+date = "2026-08-20"
+added_on = 2026-10-18
+authors = ["Federal Joint Committee (Gemeinsamer Bundesausschuss, G-BA), Germany"]
+title = "Resolution of the Federal Joint Committee on an Amendment of the Pharmaceuticals Directive: Annex XII, Benefit Assessment of Medicinal Products with New Active Ingredients according to Section 35a SGB V: Colchicine (known active ingredient with new data protection: for the prevention of ischaemic cardiovascular events in patients with atherosclerotic CHD following a myocardial infarction)"
+venue = "Regulator's resolution of 2026-08-20, in force the same day (courtesy English translation; only the German version is legally binding)"
+link = "https://www.g-ba.de/downloads/39-1464-7968/2026-08-20_AM-RL-XII_Colchicin_D-1302_EN.pdf"
+finding = """
+Germany's Federal Joint Committee, which rules on the added benefit of medicines, resolved on 2026-08-20 that colchicine added to optimised standard therapy, in adults with coronary heart disease and a recent heart attack, has a hint of a minor additional benefit over standard therapy alone, on the evidence of the COLCOT trial. The resolution gives the German marketing authorisation as of 2025-08-02, for the prevention of ischaemic cardiovascular events in those adults.
+"""
+leaves = ["an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks"]
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+notes = """
+Added in the dated batch of 2026-10-18, on John's ruling of that day on item 5 of the audit. Checked 2026-10-18: the PDF was opened and its text read (the fetch tool returned it as compressed binary, so it was read with the system's PDF reader): the date of the resolution, the date of the marketing authorisation, the indication, the sentence 'Hint of a minor additional benefit' and the named trial are all on its first three pages. The press statement that the drug has been on the German market since 2026-03-01 is not in the notice and is not used here.
+"""

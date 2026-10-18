@@ -578,6 +578,33 @@ class ScanRules(unittest.TestCase):
             problems = problems_for(data)
         self.assertTrue(any_with(problems, "'resolved_on' and 'resolved_by' are only for a 'flagged' item"), problems)
 
+    def _append(self, data: Path, extra: str) -> list[str]:
+        path = self.fixture(data)
+        with path.open("a", encoding="utf-8") as fh:
+            fh.write(extra)
+        return problems_for(data)
+
+    def test_a_later_note_after_the_reading_passes(self):
+        with TempData() as data:
+            problems = self._append(data, '\n[[later_note]]\ndate = 2026-10-25\ntext = "Corrects the summary."\n')
+        self.assertEqual(problems, [])
+
+    def test_a_later_note_needs_a_date_not_before_the_reading_and_some_text(self):
+        with TempData() as data:
+            problems = self._append(data, '\n[[later_note]]\ndate = 2026-10-01\ntext = "  "\nextra = "x"\n')
+        self.assertTrue(any_with(problems, "later note 1", "'date' is before the reading"), problems)
+        self.assertTrue(any_with(problems, "later note 1", "'text' must say"), problems)
+        self.assertTrue(any_with(problems, "later note 1", "unknown field 'extra'"), problems)
+
+    def test_limits_is_optional_but_not_empty(self):
+        with TempData() as data:
+            path = self.fixture(data)
+            edit(path, r'^searches = 6', 'searches = 6\nlimits = "Pages opened: 3; refused: 2. The searches cannot be limited by date."')
+            self.assertEqual(problems_for(data), [])
+            edit(path, r'^limits = .*', 'limits = ""')
+            problems = problems_for(data)
+        self.assertTrue(any_with(problems, "'limits' must say"), problems)
+
     def test_moved_needs_a_stage_revision_on_the_leaf(self):
         with TempData() as data:
             edit(self.fixture(data), r'^verdict = "quiet"',

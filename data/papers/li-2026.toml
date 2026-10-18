@@ -1,0 +1,19 @@
+# Publications log. Added 2026-10-18 in the dated batch that applies the audit of the first scheduled weekly reading (docs/readings/audit-2026-10-18.md); John ruled on the audit on 2026-10-18.
+
+id = "li-2026"
+date = "2026-03-09"
+added_on = 2026-10-18
+authors = ["Li S", "Hamaya R", "Zhu H", "Chen BH", "Pereira AC", "Ivey KL", "Rist PM", "Manson JE", "Dong Y", "Sesso HD"]
+title = "Effects of daily multivitamin-multimineral and cocoa extract supplementation on epigenetic aging clocks in the COSMOS randomized clinical trial"
+venue = "Nature Medicine (2026), pages 1012-1022; published online 2026-03-09"
+link = "https://doi.org/10.1038/s41591-026-04239-3"
+finding = """
+A prespecified ancillary study of the COSMOS randomised, placebo-controlled trial, in 958 people (482 women, 476 men) given a daily multivitamin-multimineral tablet (Centrum Silver) or cocoa extract for two years, measured five DNA-methylation clocks (PCHannum, PCHorvath, PCPhenoAge, PCGrimAge and DunedinPACE). The multivitamin slowed the yearly rise of PCGrimAge by 0.113 years (95 per cent confidence interval 0.020 to 0.205; P = 0.017) and of PCPhenoAge by 0.214 years (0.019 to 0.410; P = 0.032), and slowed PCGrimAge more in people with faster-than-expected ageing at the start. The cocoa extract had no effect on the five clocks. The authors call the effects small and say more studies are needed to know whether they matter clinically.
+"""
+leaves = ["a-treatment-slows-a-biological-age-clock-in-a-controlled-trial"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Added in the dated batch of 2026-10-18, on John's ruling of that day on item 6 of the audit. Checked 2026-10-18: the journal's own page needs a sign-in for a page reader, so this record states what the abstract says, read in the Europe PMC record of the paper (PubMed number 41803341); the first sentence of the abstract calls it a prespecified ancillary study. Harvard's news report of 2026-03-09 says all five clocks slowed with two significant; the abstract names the two and says nothing of the other three. settled_stage stays false: whether this paper should replace the 2023 CALERIE paper as the stage record of the treatment is John's to rule (see the treatment's notes).
+"""
