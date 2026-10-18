@@ -60,7 +60,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
     </p>
     <p class="ctas">
       <a class="btn" href="/branches/">What has to happen</a>
-      <a class="btn ghost" href="/method/#who">Who is asking</a>
+      <a class="btn ghost" href="#who">Who is asking</a>
     </p>
   </section>
 
@@ -106,7 +106,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
       ))}
     </ul>
     <p class="dim" style="font-size: 14px; margin-top: 12px;">
-      A branch counts as handled in the year its second treatment reaches the clinic, so a branch with nothing in the clinic pushes the year out and one where a regulator accepts a measure of ageing as proof pulls it in. <a href="/branches/">The tree</a> has the branches one at a time.
+      A branch counts as handled in the year its second treatment reaches the clinic, so a branch with nothing in the clinic pushes the year out. <a href="/branches/">The tree</a> has the branches one at a time.
     </p>
   </section>
 
@@ -149,7 +149,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
   <section class="section narrow prose" id="who">
     <h2 style="margin-top: 0.4em;">Who is asking</h2>
     <p>
-      John Fredrickson, who also keeps <a href="https://beltequation.com" rel="noopener">The Belt Equation</a>, <a href="https://thequietgalaxy.com" rel="noopener">The Quiet Galaxy</a> and <a href="https://theupgradetree.com" rel="noopener">The Upgrade Tree</a>, three sister sites built the same way: one question at the top, a small fixed set of reasons under it, and under each reason the specific things that would have to happen, each with a test, each watched and dated. This one is the fourth. It is a record, not a guide: it keeps track of what has been shown and what has been promised, it recommends no treatment, and nothing on it is medical advice.
+      John Fredrickson, who also keeps <a href="https://beltequation.com" rel="noopener">The Belt Equation</a>, <a href="https://thequietgalaxy.com" rel="noopener">The Quiet Galaxy</a> and <a href="https://theupgradetree.com" rel="noopener">The Upgrade Tree</a>, three sister sites built the same way: one question at the top, a small fixed set of reasons under it, and under each reason the specific things that would have to happen, each with a test, each watched and dated. This one is the fourth.
     </p>
     <p class="status-line">
       Records as of {longDate(records.exported_on)}. Everything on this site is built from a public repository, <a href={REPO} rel="noopener">on GitHub</a>, where every number carries its source and every change its date. {h.available ? `The year was computed on ${longDate(h.computed_on)} and the chance before ${fixed.before} is ${percentWords(h.before_2050)}.` : ''}

@@ -26,7 +26,7 @@ const description = l.description.length > 200 ? l.description.slice(0, 197) + '
 const firstSentence = (s: string) => s.split('. ')[0];
 ---
 
-<Base title={`${l.name} — Outrunning Ageing`} description={description}>
+<Base title={`${l.name} · Outrunning Ageing`} description={description}>
   <section class="hero wide">
     <p class="eyebrow"><a href="/branches/">The tree</a> · <a href={l.branch_path}>{l.branch_name}</a></p>
     <h1>{l.name}</h1>

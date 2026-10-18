@@ -3,8 +3,8 @@
 // its plain name and one sentence of meaning; its own number (the year it counts as handled in
 // the middle run, and the furthest stage reached under it); its treatments, listed by how soon
 // each could be decided; "what would move this" (rule 2.3: the next test each treatment needs,
-// and the branch's own line); its history (none yet: the year was first computed on 2026-10-16,
-// and a branch's handled year will be charted run by run from the second computation); and what
+// and the branch's own line); its history (the handled year as last computed; the promise of a chart
+// run by run was dropped on John's ruling of 2026-10-18); and what
 // the story so far says about it (the claims, self-experiments and publications that bear on
 // it). Copied from The Upgrade Tree's branch page on 2026-10-17 and widened.
 import Base from '../../layouts/Base.astro';
@@ -29,7 +29,7 @@ const nextRung = (l: (typeof leaves)[number]) => records.stages.find((s) => s.ra
 const description = `${branch.meaning} What has been recorded under this branch of Outrunning Ageing: the treatments and tools, the stage each has reached, and what would move it.`;
 ---
 
-<Base title={`${branch.name} — Outrunning Ageing`} description={description}>
+<Base title={`${branch.name} · Outrunning Ageing`} description={description}>
   <section class="hero">
     <p class="eyebrow"><a href="/branches/">The tree</a> · branch {branch.order} of {records.branches.length}</p>
     <h1>{branch.name}</h1>
@@ -113,11 +113,11 @@ const description = `${branch.meaning} What has been recorded under this branch 
   </section>
 
   <section class="section narrow">
-    <div class="shead"><h2>Its history</h2><span>the handled year, computation by computation</span></div>
+    <div class="shead"><h2>Its history</h2><span>the handled year, as last computed</span></div>
     <p class="prose" style="font-size: 15.5px;">
       {h.available
-        ? <>The year was first computed on {longDate(h.computed_on)}, with this branch's middle estimate for being handled at {hb ? yearWords(hb.median_handled_year) : 'a year not yet known'}. {hb && hb.leaves.some((l) => !l.known && l.estimate_status === 'first-pass') ? 'Some ranges under it that the year draws from are still a first pass. ' : 'Every range under it that the year draws from has been through the outside review. '}From the second computation on, this section charts the branch's handled year run by run, so a reader who sees the year at the top move can tell which branch moved it.</>
-        : <>The year has not been computed yet, so this branch has no history. Once it has, this section charts the branch's handled year computation by computation.</>}
+        ? <>The year was last computed on {longDate(h.computed_on)}, with this branch's middle estimate for being handled at {hb ? yearWords(hb.median_handled_year) : 'a year not yet known'}. {hb && hb.leaves.some((l) => !l.known && l.estimate_status === 'first-pass') ? 'Some ranges under it that the year draws from are still a first pass. ' : 'Every range under it that the year draws from has been through the outside review. '}</>
+        : <>The year has not been computed yet, so this branch has no history.</>}
     </p>
   </section>
 
