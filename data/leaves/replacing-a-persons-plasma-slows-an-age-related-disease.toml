@@ -80,12 +80,12 @@ reached_on = "2020-07-27"
 record = "https://doi.org/10.1002/alz.12137"
 
 [estimate]
-status = "first-pass"
+status = "reviewed"
 set_on = 2026-10-17
 why = """
 Written on 2026-10-17 by the session that applied John's ruling moving this treatment to the clinic,
-as a first pass for the wide-use rung, which the headline does not draw; it waits on John's ruling
-and the next outside review. Wide use means the procedure is offered for an age-related condition
+as a first pass for the wide-use rung, which the headline does not draw. John ruled on 2026-10-17
+that the three years stand, so the estimate is marked reviewed; the next outside review may raise it again. Wide use means the procedure is offered for an age-related condition
 to the general public in at least one country and taken up by many people. Today it is one centre in
 Barcelona with three more announced in Spain, a supplier's planned registry of real-world results,
 and a guideline category that says its role is not established. The earliest year assumes the
@@ -173,3 +173,10 @@ old = "(nothing; text added at the end of the notes)"
 new = "RULED 2026-10-17. The outside review of 2026-10-17 (item 13) brought the centre's own announcement of 2026-04-27 (ace-barcelona-2026) ... the estimate below is rewritten for the wide-use rung. (The full paragraph is in the notes.)"
 why = "Ruled by John 2026-10-17 on the outside review's item 13: the paragraph the weekly reading left for John now carries his ruling and its reason, so a reader can see the question and the answer together."
 publication = "ace-barcelona-2026"
+
+[[revision]]
+date = 2026-10-17
+field = "estimate.status"
+old = "first-pass"
+new = "reviewed"
+why = "Ruled by John 2026-10-17: the wide-use range of 2032, 2045 and 2090 written when the treatment moved to the clinic stands, so the estimate is marked reviewed like the other 43; the years and the reasoning are unchanged. The headline does not draw this rung."

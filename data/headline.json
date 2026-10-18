@@ -515,7 +515,7 @@
           "stage": "in-clinical-use",
           "known": true,
           "year": 2026,
-          "estimate_status": "first-pass"
+          "estimate_status": "reviewed"
         },
         {
           "id": "young-blood-rejuvenates-an-old-animal",
@@ -602,7 +602,7 @@
   "counts": {
     "leaves_counted": 44,
     "leaves_in_clinic_already": 6,
-    "estimates_first_pass": 1,
+    "estimates_first_pass": 0,
     "estimates_first_pass_drawn": 0,
     "verify_entries": 0
   }
