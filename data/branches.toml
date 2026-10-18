@@ -49,11 +49,12 @@ required = true
 handled_when = 2
 what_would_move_this = "A drug that clears a kind of waste throughout the body, not one organ, with a healthy-years or function result in a controlled trial in people."
 notes = """
-Two of this branch's leaves were already in the clinic when the leaves were written on
-2026-10-16 (an antibody that clears amyloid from the brain, approved 2023; a drug that stops one
-misfolded protein settling in the heart, approved 2019), so with handled_when at two the branch
-counts as handled in 2023. Each treats one protein in one organ, which is less than the line
-above asks; the yearly review may raise handled_when for this branch or narrow what counts."""
+Two of this branch's treatments were already in the clinic when the treatments were first entered
+on 2026-10-16 (an antibody that clears amyloid from the brain, approved 2023; a drug that stops one
+misfolded protein settling in the heart, approved 2019), so, since the branch counts as handled
+once two of its treatments are in the clinic, it counts as handled in 2023. Each treats one protein
+in one organ, which is less than the branch's own line under what would move this asks; the yearly
+review may raise that number for this branch or narrow what counts."""
 
 [[branch]]
 key = "energy-and-fuel"
@@ -95,6 +96,6 @@ required = true
 handled_when = 2
 what_would_move_this = "A regulator accepting a marker of ageing as a trial endpoint, or recognising ageing itself as a condition a drug can be approved to treat."
 notes = """
-Marked required by the kickoff: without an accepted way to show that a treatment slowed
+Marked required in the project's opening plan: without an accepted way to show that a treatment slowed
 ageing, every other branch's path from "shown in animals" to "in clinical use" runs through a
 trial that takes a working lifetime, and the model should say so."""

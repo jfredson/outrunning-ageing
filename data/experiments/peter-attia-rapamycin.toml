@@ -21,7 +21,7 @@ from animals, and says of his own use that he does not know what it has done."""
 public_record = """
 A physician taking a prescription drug off-label and saying so, with no measurement published and
 no claim of a result; the public record is his statement and nothing else. That is the honest
-version of a self-experiment, and it still moves no leaf: a claim about one person is a story, not
+version of a self-experiment, and it still moves no treatment: a claim about one person is a story, not
 a record, and a non-claim about one person is not a record either."""
 link = "https://hubermanlab.com/episode/dr-peter-attia-supplements-for-longevity-their-efficacy"
 branches = ["energy-and-fuel"]

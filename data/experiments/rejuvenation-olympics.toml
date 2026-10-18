@@ -29,14 +29,13 @@ peer review of the board itself. The clock it ranks by is a research tool; a low
 accepted measure of slowed ageing, and the measuring branch of this site tracks exactly whether
 it ever becomes one. The site's own rules describe the verification: three tests in two years.
 No founding date is on the site; the 2023 start is from coverage (Vox, 2023-09-27, which calls it a leaderboard launched earlier that year). A claim about one person is a
-story, not a record, and a ranked list of such claims is a list of stories; it moves no leaf."""
+story, not a record, and a ranked list of such claims is a list of stories; it moves no treatment."""
 link = "https://rejuvenationolympics.com/"
 branches = ["measuring-age"]
 
 notes = """
-Bryan Johnson's own programme is the record bryan-johnson-blueprint; Dave Pascoe's is
-dave-pascoe; Julie Gibson Clark, who held second place in 2023 and 2024, is
-julie-gibson-clark.
+Bryan Johnson's own programme, Dave Pascoe's, and that of Julie Gibson Clark, who held second
+place in 2023 and 2024, each have their own entry among these self-experiments.
 
 The start year is sourced to a Vox article of 2023-09-27, as republished on bioethics.com
 (https://bioethics.com/archives/72522), which describes the leaderboard as launched by Bryan
