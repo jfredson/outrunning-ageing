@@ -1,8 +1,8 @@
 ---
-title: Plasma exchange moves into clinical use
+title: The tree now shows plasma exchange in clinical use, as it has been since April
 date: 2026-10-18
 kind: rung-reached
-summary: A Barcelona centre published that 71 patients completed its fifteen-month plasma-exchange programme in routine care. That is what the treatment's own test asks for, so it moves from first human to in clinical use, the sixth treatment on the tree to reach that rung.
+summary: On 27 April 2026 a Barcelona centre published that 71 patients had completed its fifteen-month plasma-exchange programme in routine care. That is what the treatment's own test asks for, so on 17 October 2026 the site moved it from first human to in clinical use, dated to the centre's page, the sixth treatment on the tree to reach that rung.
 records: [replacing-a-persons-plasma-slows-an-age-related-disease]
 reading: 2026-10-17
 before: "5 of 44 treatments in clinical use"
