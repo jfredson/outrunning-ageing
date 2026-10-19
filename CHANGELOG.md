@@ -2,6 +2,10 @@
 
 Every change to the records or the site, dated year-month-day, newest first. Plain language; a reader outside the project should be able to follow it.
 
+## 2026-10-19
+
+- **The COSMOS multivitamin clock paper is checked against its open sources, and the clock entry is left as it is.** John agreed on 2026-10-19 to make the paper (Li and colleagues, Nature Medicine, 2026-03-09) the record of the stage of "A treatment slows a biological age clock in a controlled trial" if its methods showed the clock analysis was planned before the data were unblinded and the clocks were named in advance. The full text needs a sign-in, so the journal's open reporting summary, the clock study's trial registration (NCT05510375, first submitted 2021-09-15), its grant (R01HL157665, awarded 2021-07-15) and the main trial's protocol (version of 2024-04-01) were read. A clock study was planned and paid for before its results, and GrimAge and PhenoAge were named in advance, but no open source dates the plan before the data were unblinded (the earliest dated plan comes after the treatments ended on 2020-12-31), the paper reports re-computed versions of the named clocks, adds DunedinPACE and drops a telomere measure, and the hypothesis named in advance was about cocoa. The condition is not met, so the paper's notes record what was read, the 2023 CALERIE paper stays the cited record, and the question goes back to John. No stage, date, estimate or headline number changed.
+
 ## 2026-10-18
 
 - **The headline file's `computed_on` is the Pacific date, not the machine's, as John ruled on 2026-10-18.** The export script already stamped the site's data with the Pacific date; the headline computation (`scripts/compute.py`) still read the machine's clock, which in a cloud workspace is universal time and a day ahead on a Saturday or Sunday evening. Found by the audit of The Upgrade Tree's first cloud reading. No record, estimate or count changed.
