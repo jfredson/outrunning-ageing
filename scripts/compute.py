@@ -39,6 +39,7 @@ import subprocess
 import sys
 import tomllib
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -1109,7 +1110,7 @@ def compute_headline(loaded: dict, runs: int = RUNS, seed: int = SEED,
     verify_count = sum(len(r.get("verify") or []) for r in records)
 
     return {
-        "computed_on": dt.date.today().isoformat(),
+        "computed_on": dt.datetime.now(ZoneInfo("America/Los_Angeles")).date().isoformat(),
         "method": {
             "document": "docs/method.md",
             "status": METHOD_STATUS,
