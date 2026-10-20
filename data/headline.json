@@ -1,5 +1,5 @@
 {
-  "computed_on": "2026-10-18",
+  "computed_on": "2026-10-19",
   "method": {
     "document": "docs/method.md",
     "status": "ruled by John 2026-10-16; the lag (parameter 2) went to the outside review of 2026-10-17, which produced no published figure for it, and stays a first guess by John's ruling of 2026-10-17",
@@ -673,6 +673,24 @@
     },
     {
       "computed_on": "2026-10-18",
+      "median_year": 2058,
+      "before_2050": 0.0427,
+      "after_2100": 0.0,
+      "p5": 2050,
+      "p95": 2069,
+      "branches": {
+        "worn-out-cells": 2043,
+        "damaged-dna": 2044,
+        "cell-settings": 2044,
+        "broken-proteins": 2023,
+        "energy-and-fuel": 2028,
+        "replacing-parts": 2032,
+        "inflammation-and-signalling": 2026,
+        "measuring-age": 2040
+      }
+    },
+    {
+      "computed_on": "2026-10-19",
       "median_year": 2058,
       "before_2050": 0.0427,
       "after_2100": 0.0,

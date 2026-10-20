@@ -6,15 +6,20 @@ added_on = 2026-10-16
 name = "A treatment slows a biological age clock in a controlled trial"
 branch = "measuring-age"
 description = """
-A clock is only useful to a trial if a treatment can move it, and the first clear case came from
-the oldest treatment in the field. The CALERIE trial cut the calories of 145 healthy adults by
-about twelve per cent for two years, against 75 who ate as usual, and in 2023 a Columbia and
-Duke group read the pace of ageing from their blood, with DunedinPACE, before and after: the
-restricted group's pace had slowed by two to three per cent, while the clocks that read the level
-of age (not the pace) did not move. It is a controlled, pre-planned analysis of a treatment on a
-clock, with the caution that the clock's own validity is the companion entry's business. The
-treatment here, eating less, is not a drug; the entry is about the measurement, and any treatment
-counts."""
+A clock is only useful to a trial if a treatment can move it. The clearest case so far comes from
+COSMOS, a trial in which 958 healthy adults, about 70 years old on average, took a daily
+multivitamin tablet, a cocoa extract, both, or dummy pills for two years. Reading the marks on the
+DNA in their blood before and after, a group at Brigham and Women's Hospital in Boston reported in
+2026 that the multivitamin slowed two of five clocks, the two built to predict death and disease,
+by about a tenth and a fifth of a year for each year of the trial; the cocoa extract slowed none.
+The authors say the clock study was planned before the trial's results were unlocked, which is what
+this entry asks for. But the paper gives no dated plan, does not show that the reworked versions of
+the clocks its result rests on were chosen in advance, and makes no allowance for having tested
+five clocks, and the authors themselves say some false results are likely. An earlier trial,
+CALERIE, found in 2023 that eating about twelve per cent less for two years slowed a clock of the
+pace of ageing by two to three per cent, but that analysis was decided after the fact, so it does
+not meet the test. The treatments here are not drugs; the entry is about the measurement, and any
+treatment counts."""
 test = """
 A controlled trial in people, with the clock analysis planned before the data were unblinded,
 reports that a treatment slowed or reversed a validated clock compared with the control group,
@@ -23,9 +28,9 @@ named clinical setting's published routine practice, rests on a clock result fro
 trial."""
 settler = "The peer-reviewed trial report with its pre-registered plan; the regulator's approval record, or a named clinical setting's published practice, for the clinic rung"
 stage = "first-human"
-stage_reached_on = "2023-02-09"
-stage_record = "https://doi.org/10.1038/s43587-022-00357-y"
-stage_publication = "waziry-2023"
+stage_reached_on = "2026-03-09"
+stage_record = "https://doi.org/10.1038/s41591-026-04239-3"
+stage_publication = "li-2026"
 status = "tracked"
 horizon = "mid"
 
@@ -34,8 +39,8 @@ John ruled on 2026-10-17, as proposed to him after a check of the record: the 20
 does not settle this entry's rung, because the paper itself calls its clock analysis a post hoc
 analysis (the assays were blind to trial arm, but the analysis was not planned before the data
 were unblinded), and the test asks for one planned in advance. The paper (Waziry and colleagues,
-Nature Aging, 2023) is therefore not counted as settling the stage, though it stays the record
-cited for this entry's stage, as written.
+Nature Aging, 2023) is therefore not counted as settling the stage, and it was the record cited
+for this entry's stage until 2026-10-19.
 This entry exists so that the site separates three things that get mixed up: a clock that
 predicts outcomes (the companion entry), a treatment that moves a clock in a controlled trial
 (this entry), and a regulator accepting the clock as proof (the regulatory entry). The 2019 TRIIM
@@ -62,6 +67,7 @@ exploratory analysis and say epigenetic ageing was not pre-specified, so, like t
 rung.
 No stage or year was changed.
 Added 2026-10-18, from the weekly reading of 2026-10-18 and the audit of that reading the same day: the clock analysis of the COSMOS trial was published in Nature Medicine on 2026-03-09 (Li and colleagues). Its abstract calls it a prespecified ancillary study of a randomised, placebo-controlled trial, in 958 people (average age about 70) given a daily multivitamin-multimineral tablet or cocoa extract for two years, and it names its clocks. The multivitamin slowed two of the five clocks (PCGrimAge by 0.113 years a year, P = 0.017; PCPhenoAge by 0.214 years a year, P = 0.032); the cocoa extract moved none. Read plainly, a prespecified analysis in a placebo-controlled trial that names its clocks meets the test as worded, which the 2023 CALERIE paper did not (John, 2026-10-17). This entry is already at first human, so no stage moves. Whether this paper should replace CALERIE as the record cited for the stage, and so change the stage's date of 2023-02-09, is John's to rule and is left open; the journal's own page needs a sign-in, so the point that the analysis was planned before the data were unblinded rests on the abstract's word 'prespecified'.
+John ruled on 2026-10-19 that the COSMOS clock paper (Li and colleagues, Nature Medicine, 2026-03-09) is now the record of this entry's stage: the entry stays at first human, and the stage is dated 2026-03-09, the day the paper was published. The paper was read in full the same day. Its methods say the clock study was planned before the trial's data were unlocked, which is what the test asks, but give no date for the plan; they do not show that the reworked versions of the clocks the result rests on were named in advance; and there was no correction for testing five clocks, with the authors saying false results are likely. John was told all three and answered "yes" to the switch. The 2023 CALERIE paper stays on the record as the earlier report, which does not settle the stage.
 """
 
 [estimate]
@@ -108,4 +114,44 @@ field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-18, from the weekly reading of 2026-10-18 (item 6 of its audit): the clock analysis of the COSMOS trial was published in Nature Medicine on 2026-03-09 (li-2026). Its abstract calls it a prespecified ancillary study of a randomised, placebo-controlled trial, in 958 people (average age about 70) given a daily multivitamin-multimineral tablet or cocoa extract for two years, and it names its clocks. The multivitamin slowed two of the five clocks (PCGrimAge by 0.113 years a year, P = 0.017; PCPhenoAge by 0.214 years a year, P = 0.032); the cocoa extract moved none. Read plainly, a prespecified analysis in a placebo-controlled trial that names its clocks meets the test as worded, which the 2023 CALERIE paper did not (John, 2026-10-17). The leaf is already at first human, so no stage moves. Whether this paper should replace CALERIE as the stage record, and so change the stage's date of 2023-02-09, is John's to rule and is left open; the journal's own page needs a sign-in, so the point that the analysis was planned before the data were unblinded rests on the abstract's word 'prespecified'."
 why = "The weekly reading of 2026-10-18 found the paper, and the audit of that reading the same day asked for a reading of the full source; the abstract was read through Europe PMC on 2026-10-18 and the paper logged. Applied as a note only, on John's ruling of 2026-10-18; the record cited for the stage and its date are not changed, and the question is put to John in the report on the change to the records on 2026-10-18. The estimate is untouched."
+publication = "li-2026"
+
+[[revision]]
+date = 2026-10-19
+field = "stage_reached_on"
+old = "2023-02-09"
+new = "2026-03-09"
+why = "John's ruling of 2026-10-19, his word \"yes\" to the recommendation put to him after the COSMOS clock paper was read in full: the stage is now dated to that paper's publication, because its authors state the clock study was planned before the trial's data were unlocked, which the 2023 CALERIE paper's analysis was not. The stage itself, first human, does not change. He was told that the paper gives no dated plan, does not show the reworked clocks were named in advance, and made no correction for testing five clocks, and the description says so."
+publication = "li-2026"
+
+[[revision]]
+date = 2026-10-19
+field = "stage_record"
+old = "https://doi.org/10.1038/s43587-022-00357-y"
+new = "https://doi.org/10.1038/s41591-026-04239-3"
+why = "John's ruling of 2026-10-19 (\"yes\"): the COSMOS clock paper in Nature Medicine replaces the 2023 CALERIE paper as the record of this entry's stage; the CALERIE paper stays on the record as an earlier report that does not settle it."
+publication = "li-2026"
+
+[[revision]]
+date = 2026-10-19
+field = "stage_publication"
+old = "waziry-2023"
+new = "li-2026"
+why = "The same ruling of 2026-10-19: the paper cited for the stage is now the COSMOS clock paper."
+publication = "li-2026"
+
+[[revision]]
+date = 2026-10-19
+field = "description"
+old = "The description led with the 2023 CALERIE calorie-restriction result and called it a controlled, pre-planned analysis."
+new = "The description leads with the 2026 COSMOS multivitamin result, says plainly what its paper does not show, and describes the CALERIE result as decided after the fact."
+why = "On John's ruling of 2026-10-19 (\"yes\"), which asked that the description tell a reader plainly that the authors state the plan came first but give no dated plan, that the reworked clocks were not shown to be named in advance, and that there was no correction for testing five clocks. The old wording also called the CALERIE analysis pre-planned, which its paper does not; John ruled on 2026-10-17 that it was decided after the fact."
+publication = "li-2026"
+
+[[revision]]
+date = 2026-10-19
+field = "notes"
+old = "(the first paragraph said the CALERIE paper stays the record cited for the stage; nothing after the last paragraph)"
+new = "The first paragraph says the CALERIE paper was the record cited until 2026-10-19, and a paragraph at the end records John's ruling of that day."
+why = "John's ruling of 2026-10-19 (\"yes\") moved the stage record to the COSMOS clock paper, so the notes say so."
 publication = "li-2026"
