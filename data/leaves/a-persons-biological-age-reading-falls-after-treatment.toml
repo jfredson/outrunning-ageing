@@ -43,7 +43,7 @@ No earlier stage is recorded. The nearest earlier animal report is a 2017 mouse 
 2017-03-28, https://doi.org/10.1186/s13059-017-1186-2) in which mice fed rapamycin had a liver epigenetic age significantly younger
 than untreated mice of the same age, on a clock built in that paper from 107 mouse livers. It is not a clean match for this entry's
 test: it shows a slowed clock compared with untreated controls, not a reading that fell after treatment compared with before, and
-the clock was not validated beforehand. It is not entered as an earlier stage, and whether it should be is left for John to rule.
+the clock was not validated beforehand. It is not entered as an earlier stage, and whether it should be is left for me to rule.
 The 2016 partial-resetting work used other markers.
 """
 
@@ -57,7 +57,7 @@ regulator accepting a clock as proof (an entry on the measuring branch, likely a
 likely year follows that; the earliest assumes a named clinic adopts a clock-monitored treatment
 in routine care and publishes it, which the test allows; the latest allows for the clocks never
 earning that standing.
-[Note 2026-10-17, ruled by John on an outside review's proposal: the earliest year moved from 2032 to 2028. Northwestern Medicine's Human Longevity Clinic has measured molecular clocks in routine care since 2025-07-07 and repeats them at six months (Northwestern Medicine's own release), so a named clinic's publication of a clock-monitored practice could come any year; the 2032 figure had assumed such a clinic would take six years to adopt and publish. The likely and latest years stay: the test asks for a treatment given on the strength of a clock, which no clinic has published, and the likely year follows the regulator's acceptance of a clock around 2040 on the measuring branch. The Nature Medicine reanalysis of 51 studies (Sehgal and colleagues, 2026) is logged against this treatment and moves no year.]
+[Note 2026-10-17, ruled by me on an outside review's proposal: the earliest year moved from 2032 to 2028. Northwestern Medicine's Human Longevity Clinic has measured molecular clocks in routine care since 2025-07-07 and repeats them at six months (Northwestern Medicine's own release), so a named clinic's publication of a clock-monitored practice could come any year; the 2032 figure had assumed such a clinic would take six years to adopt and publish. The likely and latest years stay: the test asks for a treatment given on the strength of a clock, which no clinic has published, and the likely year follows the regulator's acceptance of a clock around 2040 on the measuring branch. The Nature Medicine reanalysis of 51 studies (Sehgal and colleagues, 2026) is logged against this treatment and moves no year.]
 """
 
 [[estimate.rung]]
@@ -71,15 +71,15 @@ date = 2026-10-17
 field = "estimate.rung.in-clinical-use.earliest"
 old = 2032
 new = 2028
-why = "John ruled on 2026-10-17 on an outside review's proposal for this range, accepting it in part: the earliest year only. Northwestern Medicine's own release of 2025-07-07 says its Human Longevity Clinic measures molecular clocks of biological age in routine care and repeats selected tests at six months, so a named clinic's publication of a clock-monitored practice, which the test's clinic rung allows, could come within a few years rather than the six the old earliest assumed. The reviewer's proposed likely year (2035) and latest (2070) were declined: the test asks for a treatment given on the strength of a clock result, which no clinic has published, and the likely year is tied to the regulator's acceptance of a clock around 2040."
+why = "I ruled on 2026-10-17 on an outside review's proposal for this range, accepting it in part: the earliest year only. Northwestern Medicine's own release of 2025-07-07 says its Human Longevity Clinic measures molecular clocks of biological age in routine care and repeats selected tests at six months, so a named clinic's publication of a clock-monitored practice, which the test's clinic rung allows, could come within a few years rather than the six the old earliest assumed. The reviewer's proposed likely year (2035) and latest (2070) were declined: the test asks for a treatment given on the strength of a clock result, which no clinic has published, and the likely year is tied to the regulator's acceptance of a clock around 2040."
 publication = "northwestern-2025"
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning)"
-new = "[Note 2026-10-17, ruled by John on the outside review's item 5: the earliest year moved from 2032 to 2028 ...]"
-why = "John ruled on 2026-10-17 on an outside review's proposal for this range: the reasoning now says why the earliest year moved and why the other two did not, and names the Nature Medicine paper logged against this treatment."
+new = "[Note 2026-10-17, ruled on by me on the outside review's item 5: the earliest year moved from 2032 to 2028 ...]"
+why = "I ruled on 2026-10-17 on an outside review's proposal for this range: the reasoning now says why the earliest year moved and why the other two did not, and names the Nature Medicine paper logged against this treatment."
 publication = "northwestern-2025"
 
 [[revision]]
@@ -87,4 +87,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) proposed a change to this range, which John accepted in part on 2026-10-17: the earliest year moved to 2028 on Northwestern Medicine's release (see the revision above); the likely and latest moves were declined. With every point of the review ruled, the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) proposed a change to this range, which I accepted in part on 2026-10-17: the earliest year moved to 2028 on Northwestern Medicine's release (see the revision above); the likely and latest moves were declined. With every point of the review ruled, the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say."

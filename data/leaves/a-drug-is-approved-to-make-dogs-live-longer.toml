@@ -1,6 +1,6 @@
 # Leaf record (docs/record-schema.md). Written 2026-10-17 by the verify session, to give the Loyal
 # claim (loyal-2025-senior-dog-approval-by-end-of-2025) a leaf to point at. The stage and the
-# estimate were proposed by the verify session and ruled by John on 2026-10-17 as proposed; see
+# estimate were proposed by the verify session and decided on 2026-10-17 as proposed; see
 # the notes. Facts are from the company's own
 # posts, read in full on 2026-10-17 (loy-002-rxe, loy-002-tas, loy-003-rxe,
 # what-is-fda-conditional-approval, and the for-vets page), and from a trade report of the
@@ -34,7 +34,7 @@ status = "tracked"
 horizon = "near"
 
 notes = """
-Why the stage is idea only (ruled by John on 2026-10-17, as proposed to him after a check of the record). The ladder is written for treatments
+Why the stage is idea only (decided on 2026-10-17, as proposed to him after a check of the record). The ladder is written for treatments
 meant for people, and its second rung asks for a peer-reviewed report that the treatment works in
 a living animal. Loyal has given the drug to more than 400 dogs in safety work and to 48 in a
 three-month pilot, and the regulator has accepted that the company's data give a reasonable
@@ -52,14 +52,14 @@ expectation of effectiveness, for up to five years while the full trial finishes
 veterinarian may prescribe it as normal in that time. This entry counts such an approval as the
 clinic rung, which is a lower bar than the human treatments on this branch clear; a stricter test
 would wait for the full approval, perhaps two years later than the estimate. It is a judgment
-call, and John ruled on 2026-10-17 that the conditional approval counts as the clinic rung.
+call, and I ruled on 2026-10-17 that the conditional approval counts as the clinic rung.
 What this does to the headline. The treatment is on the energy and fuel branch because the drug
 (LOY-002) is said to act on the metabolic dysfunction of ageing, and because the claims log
 already files the Loyal claim there. Its early clinic estimate would make it the second treatment
 on that branch to reach the clinic, so the branch would count as handled much earlier than before.
 The site's headline computation shows the effect; the report on the check of this record, put to
-John, gave the numbers before and after. An approval for dogs says nothing yet about people, which
-is the other reason this treatment was put to John; he ruled on 2026-10-17 that the entry stands
+me, gave the numbers before and after. An approval for dogs says nothing yet about people, which
+is the other reason this treatment was put to me; I ruled on 2026-10-17 that the entry stands
 with the stage idea only and the estimate as proposed (earliest 2027, likely 2028, latest 2032).
 Related: Loyal's claim of 2025-02-26, in the claims log, that its senior-dog drug's application
 would be complete by the end of 2025 (the promise, missed).
@@ -111,4 +111,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. I ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

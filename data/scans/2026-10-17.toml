@@ -24,7 +24,7 @@ week, and nothing was logged, because the reading could open no page outside its
 environment's network policy refused every journal, registry and company host) and a publication
 enters the log only once its own page has been read. The dozen papers, releases and registry entries
 the searches turned up, nearly all older than the week and unknown to the records, are carried in
-the 19 flagged items with their citations, for John to rule on and for the next reading to log. The
+the 19 flagged items with their citations, for me to rule on and for the next reading to log. The
 search tool's allowance ran out after 200 searches shared across the twelve searchers, so 12 records
 had fewer than two searches of their own, and three claims (Unity Biotechnology in 2016, Jan Vijg in
 2016 and the XPRIZE Healthspan launch of 2023) were not read at all; they are read first at the next
@@ -591,7 +591,7 @@ sources = [
 leaf = "eye-drops-dissolve-the-clouded-protein-of-a-cataract"
 verdict = "flagged"
 resolved_on = 2026-10-17
-resolved_by = "Dealt with in the change to the records on 2026-10-17: the description names the registered pilot trial, and the reasoning carries a dated note that its premise no longer holds; the years are left for John."
+resolved_by = "Dealt with in the change to the records on 2026-10-17: the description names the registered pilot trial, and the reasoning carries a dated note that its premise no longer holds; the years are left for me."
 queries = [
   "lanosterol cataract eye drops study 2026",
   "cataract dissolving eye drops clinical trial news October 2026",
@@ -713,7 +713,7 @@ sources = [
 leaf = "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"
 verdict = "flagged"
 resolved_on = 2026-10-17
-resolved_by = "Dealt with in the change to the records on 2026-10-17: the first uptake figure is in the notes and the paper is logged, and the reasoning carries a dated note; the years are left for John."
+resolved_by = "Dealt with in the change to the records on 2026-10-17: the first uptake figure is in the notes and the paper is logged, and the reasoning carries a dated note; the years are left for me."
 queries = [
   "semaglutide cardiovascular prevention approval news October 2026",
   "GLP-1 cardiovascular outcomes trial people without diabetes published October 2026",
@@ -927,7 +927,7 @@ out by this searcher."""
 leaf = "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart"
 verdict = "flagged"
 resolved_on = 2026-10-17
-resolved_by = "Dealt with in the change to the records on 2026-10-17: the description reports the New England Journal of Medicine paper, and the reasoning carries a dated note; the years are left for John."
+resolved_by = "Dealt with in the change to the records on 2026-10-17: the description reports the New England Journal of Medicine paper, and the reasoning carries a dated note; the years are left for me."
 queries = [
   "engineered heart muscle patch BioVAT-HF Göttingen Zimmermann trial results 2026",
   "stem cell heart patch heart failure patients news October 2026",
@@ -1097,7 +1097,7 @@ Alzheimer Center Barcelona renew their collaboration to drive the AMBAR programm
 centres (Company press release, 2026-03-12;
 https://www.grifols.com/en/view-news/-/news/grifols-y-ace-alzheimer-center-barcelona-renuevan-su-colaboracion-para-impulsar-el-programa-ambar-e-incorporar-nuevos-centros)."""
 resolved_on = 2026-10-17
-resolved_by = "John ruled on 2026-10-17, after an outside review of the same date argued that the Barcelona centre's own announcement met the test, that the announcement (Ace Alzheimer Center Barcelona, 2026-04-27) counts as a named clinical setting publishing its practice, so the treatment moved to in clinical use dated 2026-04-27 and its estimate was rewritten for the wide-use rung; the supplier's release (Grifols, 2026-03-12) was logged in the change to the records on 2026-10-17."
+resolved_by = "I ruled on 2026-10-17, after an outside review of the same date argued that the Barcelona centre's own announcement met the test, that the announcement (Ace Alzheimer Center Barcelona, 2026-04-27) counts as a named clinical setting publishing its practice, so the treatment moved to in clinical use dated 2026-04-27 and its estimate was rewritten for the wide-use rung; the supplier's release (Grifols, 2026-03-12) was logged in the change to the records on 2026-10-17."
 
 [[item]]
 leaf = "young-blood-rejuvenates-an-old-animal"

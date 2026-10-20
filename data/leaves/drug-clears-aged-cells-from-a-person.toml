@@ -64,7 +64,7 @@ first generation of these drugs failing and a second generation starting over.
 [Note 2026-10-17, from the weekly reading of that date: the sentence above that the one such trial
 to read out so far failed is out of date. A small academic controlled trial of the same two drugs in
 scarred fatty liver read out positive on 2026-10-01 (the trial report by Koning and colleagues,
-2026-10-01). The years are unchanged; John may want to weigh it at the next review of the ranges.]
+2026-10-01). The years are unchanged; I may want to weigh it at the next review of the ranges.]
 """
 
 [[estimate.rung]]
@@ -91,7 +91,7 @@ publication = "koning-2026"
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
-new = "[Note 2026-10-17, from the weekly reading of that date: the sentence above that the one such trial to read out so far failed is out of date. A small academic controlled trial of the same two drugs in scarred fatty liver read out positive on 2026-10-01 (koning-2026). The years are unchanged; John may want to weigh it at the next review of the ranges.]"
+new = "[Note 2026-10-17, from the weekly reading of that date: the sentence above that the one such trial to read out so far failed is out of date. A small academic controlled trial of the same two drugs in scarred fatty liver read out positive on 2026-10-01 (koning-2026). The years are unchanged; I may want to weigh it at the next review of the ranges.]"
 why = "The weekly reading of 2026-10-17 added a dated note that the estimate's premise that the one controlled trial so far failed no longer holds; no year changed."
 publication = "koning-2026"
 
@@ -108,4 +108,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and proposed moving this range, which John declined on 2026-10-17: the reviewer proposed 2027, 2029, 2038 on the ground that longevity clinics already give the two-drug combination off-label, but named no clinic, report or page a reader can open, and the kind of record this entry names as settling the rung is a regulator's approval record; the range stays 2031, 2038, 2060. Left for the yearly review: this test's clinic rung admits a private clinic's published off-label protocol, which the chromosome-ends treatment's test excludes on purpose. With every point of the review ruled, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and proposed moving this range, which I declined on 2026-10-17: the reviewer proposed 2027, 2029, 2038 on the ground that longevity clinics already give the two-drug combination off-label, but named no clinic, report or page a reader can open, and the kind of record this entry names as settling the rung is a regulator's approval record; the range stays 2031, 2038, 2060. Left for the yearly review: this test's clinic rung admits a private clinic's published off-label protocol, which the chromosome-ends treatment's test excludes on purpose. With every point of the review ruled, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."

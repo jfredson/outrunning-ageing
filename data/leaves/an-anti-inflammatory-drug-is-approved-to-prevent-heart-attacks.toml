@@ -95,12 +95,12 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. I ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
 
 [[revision]]
 date = 2026-10-18
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-18, from the weekly reading of 2026-10-18: Germany's Federal Joint Committee resolved on 2026-08-20 (g-ba-2026) that colchicine added to the best standard care, in adults with coronary heart disease and a recent heart attack, has a hint of a minor added benefit, on the evidence of the COLCOT trial; its resolution gives the German marketing authorisation as of 2025-08-02. That is an authorisation and a benefit assessment in a second country, not a measure of how widely the drug is prescribed, which is what the wide-use rung asks for. The stage and the years are unchanged."
-why = "Found by the weekly reading of 2026-10-18 and applied in the change to the records on 2026-10-18, on John's ruling of that day on the audit of that reading: the resolution's PDF was opened and read (date, authorisation date, indication, the sentence on added benefit). The press statement that the drug has been on the German market since 2026-03-01 is not in the notice and is left out."
+why = "Found by the weekly reading of 2026-10-18 and applied in the change to the records on 2026-10-18, on my ruling of that day on the audit of that reading: the resolution's PDF was opened and read (date, authorisation date, indication, the sentence on added benefit). The press statement that the drug has been on the German market since 2026-03-01 is not in the notice and is left out."
 publication = "g-ba-2026"

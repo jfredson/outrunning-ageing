@@ -63,7 +63,7 @@ do more than a signal, and the treatment resting at first human.
 [Note 2026-10-17, from checking the journals: the first sentence above is out of date. A small
 randomised trial in heart attack (30 people, Iran, reported 2024-06-04) has reported a controlled
 result, a slightly larger gain in the heart's pumping and a significant gain in exercise capacity
-within 40 days. It is small, from one country and not yet repeated. The years are unchanged; John may
+within 40 days. It is small, from one country and not yet repeated. The years are unchanged; I may
 want to weigh whether it moves the earliest year (2033).]"""
 
 [[estimate.rung]]
@@ -76,7 +76,7 @@ latest = 2095
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
-new = "[Note 2026-10-17, from checking the journals: the first sentence above is out of date. A small randomised trial in heart attack (30 people, Iran, reported 2024-06-04) has reported a controlled result, a slightly larger gain in the heart's pumping and a significant gain in exercise capacity within 40 days. It is small, from one country and not yet repeated. The years are unchanged; John may want to weigh whether it moves the earliest year (2033).]"
+new = "[Note 2026-10-17, from checking the journals: the first sentence above is out of date. A small randomised trial in heart attack (30 people, Iran, reported 2024-06-04) has reported a controlled result, a slightly larger gain in the heart's pumping and a significant gain in exercise capacity within 40 days. It is small, from one country and not yet repeated. The years are unchanged; I may want to weigh whether it moves the earliest year (2033).]"
 why = "A check of the journals on 2026-10-17 added a dated note that the estimate's premise (no controlled result yet) no longer holds; no year changed."
 
 [[revision]]
@@ -91,4 +91,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. John ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. I ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."

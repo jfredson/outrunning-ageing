@@ -15,7 +15,7 @@ branches = ["inflammation-and-signalling"]
 moved_range = false
 settled_stage = false
 notes = """
-Added during the weekly reading of 2026-10-17. It is the nearest controlled human result to what the treatment "Young blood rejuvenates an old animal" asks for at its next stage, first human, but its measure is the response to surgical injury, not an age-related function, so the treatment stays at shown in animals; whether such a measure could count is for John to decide.
+Added during the weekly reading of 2026-10-17. It is the nearest controlled human result to what the treatment "Young blood rejuvenates an old animal" asks for at its next stage, first human, but its measure is the response to surgical injury, not an age-related function, so the treatment stays at shown in animals; whether such a measure could count is for me to decide.
 
 Checked 2026-10-17 against the full text, which is open access (https://pmc.ncbi.nlm.nih.gov/articles/PMC11829456/). The trial randomised 38 people and analysed 36 (one surgery was cancelled and one patient was given a steroid during surgery, a breach of the protocol). The authors say the study was designed to detect differences in blood measures and that the clinical measures were there to show the direction of change. Their statistical check for a link between the clinical outcomes and the immune measures found nothing that survived correction for many comparisons.
 """

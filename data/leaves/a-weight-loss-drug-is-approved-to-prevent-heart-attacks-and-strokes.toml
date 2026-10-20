@@ -60,9 +60,9 @@ staying a label line that few prescribers use.
 [Note 2026-10-17, from the weekly reading of that date: the first published uptake figure for this
 purpose (Scannell and colleagues, 2026) is under 1 per cent of eligible Medicare beneficiaries six months after
 coverage began, with data to September 2024. That points the other way from the earliest year of
-2027 above, which assumed uptake might already count. The years are unchanged; John may want to weigh
+2027 above, which assumed uptake might already count. The years are unchanged; I may want to weigh
 moving the earliest wide-use year later at the next review.]
-[Note 2026-10-17, ruled by John on an outside review's proposal: the wide-use earliest year moved from 2027 to 2030 and the likely year from 2029 to 2033. The record's one published uptake figure (Scannell and colleagues, 2026: under 1 per cent of eligible Medicare beneficiaries six months after coverage began) says the earliest's assumption, that uptake might already count, does not hold, and a substantial share of eligible people in several countries takes years of payer coverage and prescribing habit. The latest of 2040 stays. This rung is shown on the page and not drawn by the headline.]
+[Note 2026-10-17, ruled by me on an outside review's proposal: the wide-use earliest year moved from 2027 to 2030 and the likely year from 2029 to 2033. The record's one published uptake figure (Scannell and colleagues, 2026: under 1 per cent of eligible Medicare beneficiaries six months after coverage began) says the earliest's assumption, that uptake might already count, does not hold, and a substantial share of eligible people in several countries takes years of payer coverage and prescribing habit. The latest of 2040 stays. This rung is shown on the page and not drawn by the headline.]
 """
 
 [[estimate.rung]]
@@ -83,7 +83,7 @@ publication = "scannell-2026"
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
-new = "[Note 2026-10-17, from the weekly reading of that date: the first published uptake figure for this purpose (scannell-2026) is under 1 per cent of eligible Medicare beneficiaries six months after coverage began, with data to September 2024. That points the other way from the earliest year of 2027 above, which assumed uptake might already count. The years are unchanged; John may want to weigh moving the earliest wide-use year later at the next review.]"
+new = "[Note 2026-10-17, from the weekly reading of that date: the first published uptake figure for this purpose (scannell-2026) is under 1 per cent of eligible Medicare beneficiaries six months after coverage began, with data to September 2024. That points the other way from the earliest year of 2027 above, which assumed uptake might already count. The years are unchanged; I may want to weigh moving the earliest wide-use year later at the next review.]"
 why = "The weekly reading of 2026-10-17 added a dated note that the first uptake figure undercuts the premise behind the earliest wide-use year; no year changed."
 publication = "scannell-2026"
 
@@ -99,7 +99,7 @@ date = 2026-10-17
 field = "estimate.rung.in-wide-use.earliest"
 old = 2027
 new = 2030
-why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: the earliest assumed uptake for the heart-prevention purpose might already count, and the one published figure (Scannell and colleagues, American Journal of Managed Care, 2026-07-09, https://doi.org/10.37765/ajmc.2026.89983) says it does not: under 1 per cent of an estimated 3.6 million eligible Medicare beneficiaries six months after coverage began. The weekly reading of 2026-10-17 had flagged the same thing."
+why = "I ruled on 2026-10-17, accepting an outside review's proposal for this range: the earliest assumed uptake for the heart-prevention purpose might already count, and the one published figure (Scannell and colleagues, American Journal of Managed Care, 2026-07-09, https://doi.org/10.37765/ajmc.2026.89983) says it does not: under 1 per cent of an estimated 3.6 million eligible Medicare beneficiaries six months after coverage began. The weekly reading of 2026-10-17 had flagged the same thing."
 publication = "scannell-2026"
 
 [[revision]]
@@ -107,15 +107,15 @@ date = 2026-10-17
 field = "estimate.rung.in-wide-use.likely"
 old = 2029
 new = 2033
-why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: a substantial share of eligible people in several countries takes years of payer negotiation and prescribing habit after an approval, and the only uptake figure in the record is far below the bar; the latest of 2040 stays."
+why = "I ruled on 2026-10-17, accepting an outside review's proposal for this range: a substantial share of eligible people in several countries takes years of payer negotiation and prescribing habit after an approval, and the only uptake figure in the record is far below the bar; the latest of 2040 stays."
 publication = "scannell-2026"
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning)"
-new = "[Note 2026-10-17, ruled by John on the outside review's item 9: the wide-use earliest year moved from 2027 to 2030 and the likely year from 2029 to 2033 ...]"
-why = "John ruled on 2026-10-17, accepting an outside review's proposal for this range: the reasoning now says what moved and why."
+new = "[Note 2026-10-17, ruled on by me on the outside review's item 9: the wide-use earliest year moved from 2027 to 2030 and the likely year from 2029 to 2033 ...]"
+why = "I ruled on 2026-10-17, accepting an outside review's proposal for this range: the reasoning now says what moved and why."
 publication = "scannell-2026"
 
 [[revision]]
@@ -123,4 +123,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) proposed a change to this range, which John accepted on 2026-10-17: the wide-use earliest and likely years moved to 2030 and 2033 (see the revisions above). With every point of the review ruled, the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) proposed a change to this range, which I accepted on 2026-10-17: the wide-use earliest and likely years moved to 2030 and 2033 (see the revisions above). With every point of the review ruled, the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say."

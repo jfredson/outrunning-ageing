@@ -21,7 +21,7 @@ of its own. Nothing moved and nothing was logged in the publications log: no rec
 treatment's test names as settling it showed the next rung reached inside the window, and where a paper, regulator's
 notice or release did bear on a record the journal or registry page could not be opened from here (or,
 where it could, it was older than the window), so those are carried as flagged items with their citations
-as seen, for John to rule on and for a later reading to log. 13 items are flagged, nearly all records older than
+as seen, for me to rule on and for a later reading to log. 13 items are flagged, nearly all records older than
 the window that the entries did not know; the rest were quiet. The five treatments shared with The Upgrade
 Tree stand at the same rung on both sites."""
 
@@ -117,7 +117,7 @@ queries = [
   "telomerase gene therapy old mice telomere extension study new October 2026",
   "Elixirgen EXG-34217 telomere biology disorders update 2026 Cincinnati Children's trial results",
 ]
-found = """First flagged 2026-10-17 and still unruled: whether the 2025 report of two people given their own blood stem cells treated outside the body with the gene ZSCAN4 (NEJM Evidence) counts for the first human rung is John's reading of the test. Nothing in the window changes the facts; the only new thing is from the search summary of the registry, which I could not open: the ZSCAN4 trial (NCT04211714) was verified in February 2026 as no longer recruiting, with 12 people enrolled and a primary completion date of 2026-10-08, so a fuller report may follow. No start or result was found for the Libella telomerase trial in Colombia, and no new animal paper dated in the window."""
+found = """First flagged 2026-10-17 and still unruled: whether the 2025 report of two people given their own blood stem cells treated outside the body with the gene ZSCAN4 (NEJM Evidence) counts for the first human rung is my reading of the test. Nothing in the window changes the facts; the only new thing is from the search summary of the registry, which I could not open: the ZSCAN4 trial (NCT04211714) was verified in February 2026 as no longer recruiting, with 12 people enrolled and a primary completion date of 2026-10-08, so a fuller report may follow. No start or result was found for the Libella telomerase trial in Colombia, and no new animal paper dated in the window."""
 sources = [
   "https://clinicaltrials.gov/study/NCT04211714",
   "https://delta.larvol.com/Products/?ProductId=39f77293-e0c6-43de-8424-d587aaa34234",
@@ -125,7 +125,7 @@ sources = [
 ]
 for_john = """Still waiting on the ruling raised on 2026-10-17: if the ZSCAN4 report counts, the treatment would move one rung from shown in animals to first human; on a plain reading I think it does not (different gene, cells treated outside the body, two people, no cancer rate). New since then: the registry summary gives a primary completion date of 2026-10-08 for that trial, so the data that would settle the question about cancer rate and follow-up may soon appear; I would look at the registry entry at the next reading. Not mine to change because it is a reading of the test."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by John's ruling of 2026-10-18, in the change to the records that day: nothing new to write, since the registry's primary completion date of 2026-10-08 is only an estimate; the question raised on 2026-10-17, whether the treatment has reached the first human rung, stays open on the treatment for John to decide."
+resolved_by = "Declined by my ruling of 2026-10-18, in the change to the records that day: nothing new to write, since the registry's primary completion date of 2026-10-08 is only an estimate; the question raised on 2026-10-17, whether the treatment has reached the first human rung, stays open on the treatment for me to decide."
 
 [[item]]
 leaf = "premature-ageing-mutation-corrected-in-a-living-animal"
@@ -384,9 +384,9 @@ verdict = "flagged"
 queries = ["randomised controlled trial slows epigenetic clock biological age published October 2026", "intervention reverses biological age clock placebo trial new results this week"]
 found = """Nothing dated in the window. One older record the notes do not mention: a Nature Medicine paper, reported by Harvard Gazette on 2026-03-09, from the COSMOS trial (958 healthy adults, average age 70) found two years of a daily multivitamin slowed all five epigenetic clocks against placebo (about four months of biological ageing), with two mortality-predicting clocks significant. The press page does not say whether the clock analysis was planned before unblinding."""
 sources = ["https://news.harvard.edu/gazette/story/2026/03/daily-multivitamin-may-slow-biological-aging"]
-for_john = """A record older than the window that the treatment's notes missed. I would log the COSMOS clock paper (Nature Medicine, 2026; Sesso, Dong and colleagues; DOI likely 10.1038/s41591-026-04239-3, unconfirmed) in the publications log and add a line to the notes, once its own page shows whether the clock analysis was pre-specified. If it was planned before unblinding it could meet the test for the first human rung, and the treatment would stay at first human either way (it is already there) so the question is only whether the record the stage rests on or the notes should change; if it was post hoc it joins the CALERIE, rentosertib and semaglutide papers as not settling the rung. I read only the Gazette report, not the paper, so authors, title and design are unchecked. Not my call because the test's pre-planning condition is John's to apply."""
+for_john = """A record older than the window that the treatment's notes missed. I would log the COSMOS clock paper (Nature Medicine, 2026; Sesso, Dong and colleagues; DOI likely 10.1038/s41591-026-04239-3, unconfirmed) in the publications log and add a line to the notes, once its own page shows whether the clock analysis was pre-specified. If it was planned before unblinding it could meet the test for the first human rung, and the treatment would stay at first human either way (it is already there) so the question is only whether the record the stage rests on or the notes should change; if it was post hoc it joins the CALERIE, rentosertib and semaglutide papers as not settling the rung. I read only the Gazette report, not the paper, so authors, title and design are unchecked. Not my call because the test's pre-planning condition is mine to apply."""
 resolved_on = 2026-10-18
-resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied in part: the COSMOS paper (Li, Sesso and colleagues, Nature Medicine, 2026) is logged in the publications log and noted as a prespecified analysis naming two clocks that slowed; whether it replaces CALERIE as the record the stage rests on is left for John to decide."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied in part: the COSMOS paper (Li, Sesso and colleagues, Nature Medicine, 2026) is logged in the publications log and noted as a prespecified analysis naming two clocks that slowed; whether it replaces CALERIE as the record the stage rests on is left for me to decide."
 
 [[item]]
 leaf = "an-age-for-each-organ-is-read-from-blood-proteins"
@@ -394,9 +394,9 @@ verdict = "flagged"
 queries = ["organ age blood proteomics clock new study October 2026", "organ-specific proteomic aging UK Biobank independent cohort predicts disease 2026"]
 found = """Nothing dated in the window, but two older independent organ-clock papers the notes do not name. Wang, Xiao and colleagues, Nature Aging (2025; page updated 2026-01-16): ten organ clocks built in 43,616 UK Biobank people and validated in 3,977 people in China and 800 in the USA, with accelerated organ ageing predicting disease and death beyond clinical risk factors. Robinson, Xiao, Homann and colleagues, Nature Aging (2026, DOI 10.1038/s43587-026-01163-6, reported 2026-06-30): clocks in 17,473 EPIC participants replicated in Whitehall II, with organ clocks linked to cancers (kidney age with kidney cancer, hazard ratio 1.6). I read an institutional listing and a news report, not the papers."""
 sources = ["https://research.bidmc.org/robert-gerszten/publications/organ-specific-proteomic-aging-clocks-predict-disease-and-longevity-across-diverse", "https://www.news-medical.net/news/20260630/Blood-protein-clocks-flag-higher-risks-of-death-and-chronic-disease.aspx"]
-for_john = """Records older than the window that bear on the open question in the notes (whether two independent groups of over a thousand people are met, and from when). I would log both papers once their own pages are read and add them to the notes as further independent organ-clock reports; I would not move anything, since the stage is already first human and the clinic rung is untouched. Not mine because whether these count as independent validation against calendar age is John's reading of the test. Citations as seen are unchecked for exact titles and dates."""
+for_john = """Records older than the window that bear on the open question in the notes (whether two independent groups of over a thousand people are met, and from when). I would log both papers once their own pages are read and add them to the notes as further independent organ-clock reports; I would not move anything, since the stage is already first human and the clinic rung is untouched. Not mine because whether these count as independent validation against calendar age is my reading of the test. Citations as seen are unchecked for exact titles and dates."""
 resolved_on = 2026-10-18
-resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied: both papers (Wang, Xiao and colleagues, 2025, and Robinson, Xiao, Homann and colleagues, 2026, both in Nature Aging) were read in their open full texts, logged in the publications log and noted; the open question on the test stays with John."
+resolved_by = "Dealt with in the change to the records on 2026-10-18 and applied: both papers (Wang, Xiao and colleagues, 2025, and Robinson, Xiao, Homann and colleagues, 2026, both in Nature Aging) were read in their open full texts, logged in the publications log and noted; the open question on the test stays with me."
 
 [[item]]
 claim = "altos-labs-2022-launch"
@@ -418,7 +418,7 @@ found = """Nothing dated in the window. A review on fightaging.org (2026-08) say
 sources = ["https://www.fightaging.org/archives/2026/08/a-review-of-the-present-state-of-data-for-metformin-as-a-geroprotective-drug/", "https://www.stackingyears.com/blog/tame-trial-metformin-2026-status-update"]
 for_john = """Lead only, not in the window: two secondary 2026 pages disagree about whether the trial has started (one says enrolment is ongoing, one says on hold, now with ARPA-H). If a primary page (the registry, the American Federation for Aging Research, or the 2025 interview) confirms either, the missed verdict's reasoning in the record of Nir Barzilai's 2022 claim that the trial would start that year would need a note. I would not change the record on press alone; the call on what counts is yours."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by John's ruling of 2026-10-18, in the change to the records that day: both pages are secondary and disagree, and the record's primary check of 2026-10-16 stands."
+resolved_by = "Declined by my ruling of 2026-10-18, in the change to the records that day: both pages are secondary and disagree, and the record's primary check of 2026-10-16 stands."
 
 [[item]]
 claim = "brenner-2022-age-reversal-an-old-grift"
@@ -558,7 +558,7 @@ found = """Nothing from the Salk Institute or Izpisua Belmonte in 2026 was seen.
 sources = ["https://www.lifebiosciences.com/news/press-releases/", "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/"]
 for_john = """Company releases of 2026-10-01 and 2026-10-08 on the first-in-human trial exist that the record does not carry (the 2026-10-08 one falls before the window; the reading of 2026-10-17 listed the company's releases only to 2026-08-10). The verdict delivered stands. Proposed change: add the 2026-10-08 release to the notes as a progress line, or leave the record as it is. Not mine to decide, since it changes the record's text."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by John's ruling of 2026-10-18, in the change to the records that day: the company's release of 2026-10-08 has been in the publications log and in the record of the treatment 'A person receives cell-resetting genes in a registered trial' since 2026-10-17, and the claim's verdict is unaffected."
+resolved_by = "Declined by my ruling of 2026-10-18, in the change to the records that day: the company's release of 2026-10-08 has been in the publications log and in the record of the treatment 'A person receives cell-resetting genes in a registered trial' since 2026-10-17, and the claim's verdict is unaffected."
 
 [[item]]
 claim = "sinclair-2019-lifespan"
@@ -574,7 +574,7 @@ found = """Life Biosciences' own newsroom lists a release of 2026-10-08 with fir
 sources = ["https://www.lifebiosciences.com/news/press-releases/", "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/"]
 for_john = """Same item as for the Salk claim: the company releases of 2026-10-01 and 2026-10-08 are not in the record. The verdict missed stands. Proposed change: add the 2026-10-08 data release to the notes, or leave as is. Not mine to decide since it edits the record."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by John's ruling of 2026-10-18, in the change to the records that day: the same finding as for the Salk claim, already in the publications log and in the treatment's record since 2026-10-17; the claim's verdict is unaffected."
+resolved_by = "Declined by my ruling of 2026-10-18, in the change to the records that day: the same finding as for the Salk claim, already in the publications log and in the treatment's record since 2026-10-17; the claim's verdict is unaffected."
 
 [[item]]
 claim = "sinclair-2024-dog-supplement"

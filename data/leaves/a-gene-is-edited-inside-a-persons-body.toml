@@ -87,12 +87,12 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. I ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
 
 [[revision]]
 date = 2026-10-18
 field = "description"
 old = "(nothing; text added at the end of the description)"
 new = "In its report of 2026-08-06 the company said that an analysis of more than 600 patient samples from its trials found the highest liver-enzyme rises in patients carrying one specific immune-gene variant (an HLA allele, which it did not name), that it is discussing the finding with the regulator and will give genotyping results to the doctors and patients in the two late-stage trials, and that enrolment in them has restarted."
-why = "The weekly reading of 2026-10-18 added the company's own account of the liver-enzyme finding, which the description of 2026-10-17 did not carry. An audit of that reading, on 2026-10-18, proposed two changes to this entry; John ruled on it that day, and the first change only was made, in the change to the records on 2026-10-18. The second (a note that an approval of the editor lonvo-z for hereditary angioedema would not reach the clinic rung under this test) waits until the company's own release on the regulator's acceptance has been opened. The company's report of 2026-08-06 was read as carried by BioSpace. The stage and the years are unchanged."
+why = "The weekly reading of 2026-10-18 added the company's own account of the liver-enzyme finding, which the description of 2026-10-17 did not carry. An audit of that reading, on 2026-10-18, proposed two changes to this entry; I ruled on it that day, and the first change only was made, in the change to the records on 2026-10-18. The second (a note that an approval of the editor lonvo-z for hereditary angioedema would not reach the clinic rung under this test) waits until the company's own release on the regulator's acceptance has been opened. The company's report of 2026-08-06 was read as carried by BioSpace. The stage and the years are unchanged."
 publication = "intellia-2026-q2"

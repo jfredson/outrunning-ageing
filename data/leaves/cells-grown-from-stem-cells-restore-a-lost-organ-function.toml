@@ -58,9 +58,9 @@ The late-stage trial had not finished dosing in 2025: the company said in its qu
 2025-11-04 that it had postponed completing the dosing for a manufacturing review, and said on
 2026-05-04 that it had resumed. Its release of 2026-08-03 and its quarterly filing of 2026-08-04 say
 only that updated timelines will come later in 2026, and neither reports a filing for approval. The
-years are unchanged; John may want to weigh whether the earliest and likely years (2027, 2028) still
+years are unchanged; I may want to weigh whether the earliest and likely years (2027, 2028) still
 hold when the new timelines come.]
-[Note 2026-10-17, ruled by John on the outside review's point that this range assumed a filing for approval in 2026, conditional on no filing for approval having been announced by the day he ruled, which was checked that day against the company's releases and its filings with the securities regulator (none after the officer appointment of 2026-09-01; no filing for approval): the clinic years moved from 2027, 2028 and 2036 to 2030, 2032 and 2046. The company paused the last dosing in 2025 for a manufacturing review, resumed it by 2026-05-04 and said on 2026-08-03 it would give updated timelines later in 2026; the final patients' one-year follow-up runs into 2027, so a filing, a review and manufacturing scrutiny put an approval at 2029 or 2030 at the earliest; the latest allows for a demand for a larger trial, beyond what the Parkinson's therapy's read-out in 2027 would cover. The wide-use years are unchanged.]
+[Note 2026-10-17, ruled on by me on the outside review's point that this range assumed a filing for approval in 2026, conditional on no filing for approval having been announced by the day I ruled, which was checked that day against the company's releases and its filings with the securities regulator (none after the officer appointment of 2026-09-01; no filing for approval): the clinic years moved from 2027, 2028 and 2036 to 2030, 2032 and 2046. The company paused the last dosing in 2025 for a manufacturing review, resumed it by 2026-05-04 and said on 2026-08-03 it would give updated timelines later in 2026; the final patients' one-year follow-up runs into 2027, so a filing, a review and manufacturing scrutiny put an approval at 2029 or 2030 at the earliest; the latest allows for a demand for a larger trial, beyond what the Parkinson's therapy's read-out in 2027 would cover. The wide-use years are unchanged.]
 """
 
 [[estimate.rung]]
@@ -86,7 +86,7 @@ why = "A check of the sources on 2026-10-17: the company's own filings show the 
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
-new = "[Note 2026-10-17, from checking the company's own filings: the first sentence above is out of date. The late-stage trial had not finished dosing in 2025: the company said in its quarterly filing of 2025-11-04 that it had postponed completing the dosing for a manufacturing review, and said on 2026-05-04 that it had resumed. Its release of 2026-08-03 and its quarterly filing of 2026-08-04 say only that updated timelines will come later in 2026, and neither reports a filing for approval. The years are unchanged; John may want to weigh whether the earliest and likely years (2027, 2028) still hold when the new timelines come.]"
+new = "[Note 2026-10-17, from checking the company's own filings: the first sentence above is out of date. The late-stage trial had not finished dosing in 2025: the company said in its quarterly filing of 2025-11-04 that it had postponed completing the dosing for a manufacturing review, and said on 2026-05-04 that it had resumed. Its release of 2026-08-03 and its quarterly filing of 2026-08-04 say only that updated timelines will come later in 2026, and neither reports a filing for approval. The years are unchanged; I may want to weigh whether the earliest and likely years (2027, 2028) still hold when the new timelines come.]"
 why = "A check of the sources on 2026-10-17 added a dated note that the estimate's premise (dosing finished in 2025, filing due in 2026) no longer matches the company's filings; no year changed."
 
 [[revision]]
@@ -101,32 +101,32 @@ date = 2026-10-17
 field = "estimate.rung.in-clinical-use.earliest"
 old = 2027
 new = 2030
-why = "John ruled on 2026-10-17 on a point raised by an outside review of the same day, that this range assumed a filing for approval in 2026 that has not come; the ruling's condition (no filing for approval announced by the day of the ruling) was checked the same day: Vertex's filings with the United States securities regulator (https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000875320&type=8-K) show nothing after the 8-K of 2026-09-01, an officer appointment, and its release of 2026-08-03 and quarterly filing of 2026-08-04 say only that updated timelines will come later in 2026. With dosing resumed in 2026-05 and the last patients' one-year follow-up running into 2027, a filing, a review and manufacturing scrutiny put approval at 2029 or 2030 at the earliest."
+why = "I ruled on 2026-10-17 on a point raised by an outside review of the same day, that this range assumed a filing for approval in 2026 that has not come; the ruling's condition (no filing for approval announced by the day of the ruling) was checked the same day: Vertex's filings with the United States securities regulator (https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000875320&type=8-K) show nothing after the 8-K of 2026-09-01, an officer appointment, and its release of 2026-08-03 and quarterly filing of 2026-08-04 say only that updated timelines will come later in 2026. With dosing resumed in 2026-05 and the last patients' one-year follow-up running into 2027, a filing, a review and manufacturing scrutiny put approval at 2029 or 2030 at the earliest."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.rung.in-clinical-use.likely"
 old = 2028
 new = 2032
-why = "John's ruling of 2026-10-17 on the outside review's point about the filing: the likely year follows the dates the record cites (dosing paused in 2025, resumed by 2026-05-04, no filing announced) with ordinary time for a filing and a review."
+why = "My ruling of 2026-10-17 on the outside review's point about the filing: the likely year follows the dates the record cites (dosing paused in 2025, resumed by 2026-05-04, no filing announced) with ordinary time for a filing and a review."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.rung.in-clinical-use.latest"
 old = 2036
 new = 2046
-why = "John's ruling of 2026-10-17 on the outside review's point about the filing: the latest allows for a regulator demanding a larger trial, which the old latest, resting on the Parkinson's therapy's read-out in 2027, only partly covered."
+why = "My ruling of 2026-10-17 on the outside review's point about the filing: the latest allows for a regulator demanding a larger trial, which the old latest, resting on the Parkinson's therapy's read-out in 2027, only partly covered."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning)"
-new = "[Note 2026-10-17, ruled by John on the outside review's item 11, conditional on no filing for approval having been announced by the day he ruled ...: the clinic years moved from 2027, 2028 and 2036 to 2030, 2032 and 2046 ...]"
-why = "John's ruling of 2026-10-17 on the outside review's point about the filing: the reasoning now says the condition, how it was checked, what moved and why."
+new = "[Note 2026-10-17, ruled on by me on the outside review's item 11, conditional on no filing for approval having been announced by the day I ruled ...: the clinic years moved from 2027, 2028 and 2036 to 2030, 2032 and 2046 ...]"
+why = "My ruling of 2026-10-17 on the outside review's point about the filing: the reasoning now says the condition, how it was checked, what moved and why."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and argued that this range assumed a filing for approval in 2026 that has not come; John accepted that on 2026-10-17, and the clinic range moved to 2030, 2032, 2046 (see the revisions above). With every point of the review ruled, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and argued that this range assumed a filing for approval in 2026 that has not come; I accepted that on 2026-10-17, and the clinic range moved to 2030, 2032, 2046 (see the revisions above). With every point of the review ruled, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."

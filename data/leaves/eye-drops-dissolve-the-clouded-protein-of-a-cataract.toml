@@ -65,8 +65,8 @@ registered with a start date of 2026-02-10 (the trial's registry entry), with a 
 registry's last update and a primary completion estimated for 2027-02. The earliest first human
 year (2029), set on the premise that a trial would start within three years, was therefore met
 early. The years are unchanged; whether the first human years should move, and whether this
-company's drop answers the replication question about the 2015 dog result, are John's to weigh.]
-[Note 2026-10-17, ruled by John on the outside review's point that the premise of no registered human trial was out of date: the clinic rung's earliest year moved from 2035 to 2031 and its likely year from 2050 to 2040, on the registered trial's own dates (the trial's registry entry): a positive phase 2 result in 2027-02, a phase 3 from 2028 to 2030 and an approval the year after is the fast path, and the likely year still assumes the 2015 dog result has to replicate in people, which two laboratories could not do in a dish. The latest year of 2120 stays for the same reason. The first human years are unchanged.]
+company's drop answers the replication question about the 2015 dog result, are mine to weigh.]
+[Note 2026-10-17, ruled on by me on the outside review's point that the premise of no registered human trial was out of date: the clinic rung's earliest year moved from 2035 to 2031 and its likely year from 2050 to 2040, on the registered trial's own dates (the trial's registry entry): a positive phase 2 result in 2027-02, a phase 3 from 2028 to 2030 and an approval the year after is the fast path, and the likely year still assumes the 2015 dog result has to replicate in people, which two laboratories could not do in a dish. The latest year of 2120 stays for the same reason. The first human years are unchanged.]
 """
 
 [[estimate.rung]]
@@ -93,7 +93,7 @@ publication = "ocusun-2026"
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
-new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above rests on there being no registered human trial. That premise no longer holds: a randomised, double-masked, placebo-controlled phase 2 pilot of a lanosterol-derived drop has been registered and running since 2026-02-10 (ocusun-2026), with a first patient announced on 2026-07-14, 8 people enrolled by the registry's last update and a primary completion estimated for 2027-02. The earliest first-human year (2029), set on the premise that a trial would start within three years, was therefore met early. The years are unchanged; whether the first-human years should move, and whether this company's drop answers the replication question about the 2015 dog result, are John's to weigh.]"
+new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above rests on there being no registered human trial. That premise no longer holds: a randomised, double-masked, placebo-controlled phase 2 pilot of a lanosterol-derived drop has been registered and running since 2026-02-10 (ocusun-2026), with a first patient announced on 2026-07-14, 8 people enrolled by the registry's last update and a primary completion estimated for 2027-02. The earliest first-human year (2029), set on the premise that a trial would start within three years, was therefore met early. The years are unchanged; whether the first-human years should move, and whether this company's drop answers the replication question about the 2015 dog result, are mine to weigh.]"
 why = "The weekly reading of 2026-10-17 added a dated note that the estimate's premise of no registered human trial no longer holds; no year changed."
 publication = "ocusun-2026"
 
@@ -118,7 +118,7 @@ date = 2026-10-17
 field = "estimate.rung.in-clinical-use.earliest"
 old = 2035
 new = 2031
-why = "John ruled on 2026-10-17 on a point raised by an outside review of the same day: the estimate's premise, that no human trial was registered, was out of date on the record's own evidence; the registered placebo-controlled phase 2 pilot (ClinicalTrials.gov NCT07395986, start 2026-02-10, primary completion estimated 2027-02; sponsored by Ocusun) gives the fast path of a phase 3 by 2030 and an approval the next year. The weekly reading of 2026-10-17 had flagged the same thing."
+why = "I ruled on 2026-10-17 on a point raised by an outside review of the same day: the estimate's premise, that no human trial was registered, was out of date on the record's own evidence; the registered placebo-controlled phase 2 pilot (ClinicalTrials.gov NCT07395986, start 2026-02-10, primary completion estimated 2027-02; sponsored by Ocusun) gives the fast path of a phase 3 by 2030 and an approval the next year. The weekly reading of 2026-10-17 had flagged the same thing."
 publication = "ocusun-2026"
 
 [[revision]]
@@ -126,15 +126,15 @@ date = 2026-10-17
 field = "estimate.rung.in-clinical-use.likely"
 old = 2050
 new = 2040
-why = "John's ruling of 2026-10-17 on the outside review's point about the registered trial: the likely year is the plain reading of the registered trial's dates with time for a phase 3 and a review, while still assuming the 2015 dog result has to replicate in people; the latest of 2120 is left as it is for that reason."
+why = "My ruling of 2026-10-17 on the outside review's point about the registered trial: the likely year is the plain reading of the registered trial's dates with time for a phase 3 and a review, while still assuming the 2015 dog result has to replicate in people; the latest of 2120 is left as it is for that reason."
 publication = "ocusun-2026"
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning)"
-new = "[Note 2026-10-17, ruled by John on the outside review's item 8: the clinic rung's earliest year moved from 2035 to 2031 and its likely year from 2050 to 2040 ...]"
-why = "John's ruling of 2026-10-17 on the outside review's point about the registered trial: the reasoning now says what moved and what the new years assume."
+new = "[Note 2026-10-17, ruled on by me on the outside review's item 8: the clinic rung's earliest year moved from 2035 to 2031 and its likely year from 2050 to 2040 ...]"
+why = "My ruling of 2026-10-17 on the outside review's point about the registered trial: the reasoning now says what moved and what the new years assume."
 publication = "ocusun-2026"
 
 [[revision]]
@@ -142,4 +142,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and argued that this range rested on there being no registered human trial, which is out of date; John accepted that on 2026-10-17, and the clinic rung's earliest and likely years moved to 2031 and 2040 (see the revisions above). With every point of the review ruled, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and argued that this range rested on there being no registered human trial, which is out of date; I accepted that on 2026-10-17, and the clinic rung's earliest and likely years moved to 2031 and 2040 (see the revisions above). With every point of the review ruled, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."
