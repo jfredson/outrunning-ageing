@@ -9,9 +9,9 @@ description = """
 A single number for a person's biological age hides that their heart may be old and their liver
 young. In 2023 a Stanford group measured thousands of proteins in the blood of over five
 thousand people, assigned each protein to the organ that makes it, and read an age for eleven
-organs per person. About one person in five had at least one organ ageing fast, and a fast-ageing
-heart predicted heart failure, a fast-ageing brain predicted dementia, over the following fifteen
-years. It is the kind of reading a trial of a repair treatment would want: not whether the
+organs per person. About one person in five had at least one organ ageing fast; a fast-ageing
+heart predicted heart failure over the following fifteen years, and a fast-ageing brain predicted
+dementia worsening within five years. It is the kind of reading a trial of a repair treatment would want: not whether the
 person is younger, but whether the organ the treatment aimed at is. It is a research tool, not a
 test anyone can order from a doctor."""
 test = """
@@ -41,6 +41,16 @@ thousand people), the second independent group would date from 2024-11-01. This 
 from when, and the stage and its date (2023-12-06) are unchanged. The abstracts do not state a comparison with calendar age, which
 the test also asks for; the full texts were not read for it.
 Added 2026-10-18, from the weekly reading of 2026-10-18 and the audit of that reading the same day: two further peer-reviewed reports, both read in their open full texts. Wang and colleagues (Nature Aging, online 2025-11-26), who are not the Stanford group, built an organismal and ten organ clocks from a different protein platform in 43,616 UK Biobank people and validated them in 3,977 people in China and 800 in the United States; accelerated organ ageing predicted disease onset, progression and death beyond clinical and genetic risk factors. Robinson and colleagues (Nature Aging, online 2026-06-29) tested the Stanford group's organ clocks in 17,473 people in the European EPIC study followed for up to 28 years (the mortality results replicated in 6,240 people in Whitehall II) and found lung, kidney and stomach cancers more strongly linked to the related organ's age gap (the kidney age gap and kidney cancer, hazard ratio 1.63, 95 per cent confidence interval 1.36 to 1.94); the authors say that before this only the Stanford organ clocks had been independently tested for disease onset across disease classes. The passages read compare the combined clock, not each organ clock, with a model of calendar age and sex, so the open question above, whether the test as worded is met and from when, is not ruled by them. The stage and its date are unchanged.
+Added 2026-10-20, after both Stanford papers were read in full. The 2023 report's numbers are as given above (4,979 proteins,
+eleven organs, 5,676 people in five groups; nearly one person in five with one organ ageing fast). Two corrections: the
+fifteen-year result is for the heart (each extra four years or so of heart age brought about two and a half times the risk
+of heart failure, in about a thousand healthy older people), while the brain result is dementia worsening within five years,
+in two groups followed by Alzheimer's research centres; the description said both were over fifteen years and was corrected.
+On the question above of a comparison with calendar age: in both papers every test of an organ's age against later disease
+already allows for the person's calendar age and sex, so the organ's age adds to what calendar age predicts; the 2025 paper
+also found the organ ages predicted death better than two other measures (a kidney blood test and a clock built from routine
+blood tests) with calendar age allowed for. Neither paper sets an organ's age against calendar age alone, head to head, for
+that organ's disease. Whether that meets the test as worded is still mine to rule, and the stage and its date are unchanged.
 """
 
 [estimate]
@@ -72,3 +82,17 @@ old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-18, from the weekly reading of 2026-10-18 (item 7 of its audit): two further peer-reviewed reports, both read in their open full texts. Wang and colleagues (Nature Aging, online 2025-11-26; wang-2025), who are not the Stanford group, built an organismal and ten organ clocks from a different protein platform in 43,616 UK Biobank people and validated them in 3,977 people in China and 800 in the United States; accelerated organ ageing predicted disease onset, progression and death beyond clinical and genetic risk factors. Robinson and colleagues (Nature Aging, online 2026-06-29; robinson-2026) tested the Stanford group's organ clocks in 17,473 people in the European EPIC study followed for up to 28 years (the mortality results replicated in 6,240 people in Whitehall II) and found lung, kidney and stomach cancers more strongly linked to the related organ's age gap (the kidney age gap and kidney cancer, hazard ratio 1.63, 95 per cent confidence interval 1.36 to 1.94); the authors say that before this only the Stanford organ clocks had been independently tested for disease onset across disease classes. The passages read compare the combined clock, not each organ clock, with a model of calendar age and sex, so the open question above, whether the test as worded is met and from when, is not ruled by them. The stage and its date are unchanged."
 why = "The weekly reading of 2026-10-18 reported both papers, and the audit of that reading the same day asked for a reading of the full sources; both papers' open copies at PubMed Central were read on 2026-10-18 and the papers logged. The kidney figure the reading gave (1.6) is in the text as 1.63. Applied on my ruling of 2026-10-18; the stage, the years and the open question are unchanged."
 publication = "robinson-2026"
+
+[[revision]]
+date = 2026-10-20
+field = "description"
+old = "About one person in five had at least one organ ageing fast, and a fast-ageing heart predicted heart failure, a fast-ageing brain predicted dementia, over the following fifteen years."
+new = "About one person in five had at least one organ ageing fast; a fast-ageing heart predicted heart failure over the following fifteen years, and a fast-ageing brain predicted dementia worsening within five years."
+why = "The 2023 Stanford report was read in full on 2026-10-20. Its fifteen-year follow-up is for heart failure; its brain result is a higher risk of dementia worsening within five years. The stage, its date and the years are unchanged."
+
+[[revision]]
+date = 2026-10-20
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-20, after both Stanford papers were read in full: the figures check, the brain result is over five years, not fifteen, and both papers test each organ's age with calendar age and sex allowed for, so the organ's age adds to what calendar age predicts; neither sets it against calendar age alone, head to head. Whether that meets the test as worded is still mine to rule."
+why = "The 2023 Stanford report and its 2025 follow-up, earlier read from their abstracts, were read in full on 2026-10-20, which answers part of the open question in this entry's notes about calendar age. The stage, its date and the years are unchanged."

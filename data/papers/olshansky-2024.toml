@@ -12,8 +12,10 @@ link = "https://doi.org/10.1038/s43587-024-00702-3"
 finding = """
 Using national death records from 1990 to 2019 for the eight longest-lived countries plus Hong Kong
 and the United States, the authors show that gains in life expectancy have slowed since 1990:
-life expectancy at birth rose 6.5 years on average over the period, and in every population but
-Hong Kong and South Korea the yearly gain has fallen below 0.2 years. They conclude that survival
+life expectancy at birth rose 6.5 years on average over the period in Hong Kong and the eight
+countries, and in every population but Hong Kong and South Korea the yearly gain has fallen below
+0.2 years. If old-age death rates fell over the next three decades as fast as they did from 1990 to
+2019, they reckon life expectancy at birth would rise by only about 2.5 years. They conclude that survival
 to 100 is unlikely to exceed 15 percent for women and 5 percent for men, and that radical life
 extension (defined as three years gained per decade, the twentieth-century pace) is implausible
 this century unless biological ageing itself is markedly slowed. The demographers' case against
@@ -24,4 +26,12 @@ settled_stage = false
 notes = """
 Bears on the headline question itself rather than any one branch, so listed against all eight. Its
 own escape clause, that the trend holds unless ageing is slowed, is exactly what the branches
-track. Online 2024-10-07; the print issue is November 2024."""
+track. Online 2024-10-07; the print issue is November 2024.
+Read in full on 2026-10-20, in the published paper. Every figure above matches it; the 6.5-year average
+is for Hong Kong and the eight countries, without the United States, and the finding now says so.
+The paper defines radical life extension as a rise in life expectancy at birth of 0.3 years a year,
+three years a decade, the pace of the twentieth century, and it names no gain it calls plausible;
+it says any number for the effect of treatments not yet developed is hard to justify. It calls
+fifteen and five per cent surviving to 100 an optimistic outcome for most countries this century,
+a limit that only treatments that slow biological ageing could breach. It does not mention
+the bet between Steven Austad and its first author."""

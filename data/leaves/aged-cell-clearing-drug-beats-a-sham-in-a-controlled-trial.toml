@@ -42,7 +42,13 @@ knee osteoarthritis trial of Unity's earlier drug UBX0101 failed its main measur
 the 2026 liver result (Koning and colleagues, Nature Metabolism) is a second, with a by-mouth two-drug course in a different organ.
 It too is small (31 people) and in one condition, run by an academic group, with two of its authors
 holding patents on drugs of this class. Two other entries on this branch hold the measurement result (fewer aged cells in a
-tissue sample) and the knee result; this one holds the clinical benefit."""
+tissue sample) and the knee result; this one holds the clinical benefit.
+Added 2026-10-20, after the liver trial report was read in full: the authors call its result hypothesis-generating, not
+confirmatory, pending a larger trial. Four of the 31 people did not finish, three of them on the drugs, and all four were
+counted as not improved; counted the way least favourable to the drugs, the result is no longer significant (P = 0.068).
+More of the treated group had type 2 diabetes at the start (76.5 per cent against 35.7 per cent), and blood and scan
+measures of liver scarring did not differ between the groups after 21 weeks. The trial stays a second, weaker controlled
+result beside the 2022 eye trial; the stage and the years are unchanged."""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -109,3 +115,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. I ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+
+[[revision]]
+date = 2026-10-20
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-10-20, after the liver trial report was read in full: the authors call its result hypothesis-generating, not confirmatory, pending a larger trial. Four of the 31 people did not finish, three of them on the drugs, and all four were counted as not improved; counted the way least favourable to the drugs, the result is no longer significant (P = 0.068). More of the treated group had type 2 diabetes at the start (76.5 per cent against 35.7 per cent), and blood and scan measures of liver scarring did not differ between the groups after 21 weeks. The trial stays a second, weaker controlled result beside the 2022 eye trial; the stage and the years are unchanged."
+why = "The Amsterdam liver trial report, earlier read from its abstract, was read in full on 2026-10-20. Its main figures match the abstract; the full text adds how the dropouts were counted, how much the result depends on that, and a difference between the groups at the start, which this entry now says. The stage and the years are unchanged."
+publication = "koning-2026"

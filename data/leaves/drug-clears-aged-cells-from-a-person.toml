@@ -39,9 +39,15 @@ several age-related conditions. An earlier 2019 pilot in people with lung scarri
 better walking and standing but did not measure the cells, so it is not the record here. The
 Upgrade Tree keeps the same entry at first human; the weekly reading checks the two stages agree.
 Added 2026-10-17, from the weekly reading of that date: in the Amsterdam liver trial (the 2026 trial
-report by Koning and colleagues), single-cell sequencing of liver biopsies showed fewer signs of aged cells in the treated group than
-the placebo group. That is a supporting measurement, not a replacement for the 2019 kidney report,
-and the stage stays where it was.
+report by Koning and colleagues), single-cell sequencing of liver biopsies showed fewer signs of aged cells in the treated group
+at the end than at the start, and no such fall on placebo. That is a supporting measurement, not a replacement for the 2019 kidney
+report, and the stage stays where it was.
+Corrected 2026-10-20, after the liver trial report was read in full: the sentence above first said the treated group showed
+fewer signs of aged cells than the placebo group, but the report compares each group's end with its own start. The aged cells
+were not counted directly either: the trial's planned count of them was replaced by the sequencing, which found too little of
+the usual single markers of aged cells to rely on them and read sets of genes typical of aged cells instead, in biopsies pooled
+two or three to a sample. So it is weaker support than a count of the cells, and the 2019 kidney report, which counted them,
+stays the record of first human.
 """
 
 [[earlier_stage]]
@@ -109,3 +115,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and proposed moving this range, which I declined on 2026-10-17: the reviewer proposed 2027, 2029, 2038 on the ground that longevity clinics already give the two-drug combination off-label, but named no clinic, report or page a reader can open, and the kind of record this entry names as settling the rung is a regulator's approval record; the range stays 2031, 2038, 2060. Left for the yearly review: this test's clinic rung admits a private clinic's published off-label protocol, which the chromosome-ends treatment's test excludes on purpose. With every point of the review ruled, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."
+
+[[revision]]
+date = 2026-10-20
+field = "notes"
+old = "single-cell sequencing of liver biopsies showed fewer signs of aged cells in the treated group than the placebo group."
+new = "single-cell sequencing of liver biopsies showed fewer signs of aged cells in the treated group at the end than at the start, and no such fall on placebo. (Followed by a dated correction saying the cells were read from gene patterns in pooled biopsies, not counted.)"
+why = "The Amsterdam liver trial report was read in full on 2026-10-20. Its sequencing compares each group's end with its own start, not the treated group with the placebo group, and it replaced the planned count of aged cells with gene patterns read from pooled biopsies. The stage and the years are unchanged."
+publication = "koning-2026"
