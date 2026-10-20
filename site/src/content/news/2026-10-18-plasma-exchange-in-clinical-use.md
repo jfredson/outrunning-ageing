@@ -2,7 +2,7 @@
 title: The site now counts plasma exchange as in use with patients, from a Barcelona clinic's report in April
 date: 2026-10-18
 kind: rung-reached
-summary: When does a treatment stop being an experiment? For plasma exchange in Alzheimer's disease, the site's answer is now April 2026, when a clinic in Barcelona said publicly that 71 people had finished its programme as ordinary care. Here is why that counts, why it matters, and why the site's estimate for when medicine starts outrunning ageing did not move.
+summary: In April 2026 a clinic in Barcelona said publicly that 71 people with Alzheimer's disease had finished its plasma-exchange programme as ordinary care, and on 17 October I ruled that this is the evidence the site asks for. Here is why that matters, and why the site's estimate for when medicine starts outrunning ageing did not move.
 records: [replacing-a-persons-plasma-slows-an-age-related-disease]
 reading: 2026-10-17
 before: "5 of 44 treatments in use with patients"
