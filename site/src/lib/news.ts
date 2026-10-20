@@ -5,7 +5,7 @@ export type Post = CollectionEntry<'news'>;
 
 export const KIND_LABEL: Record<string, string> = {
   'start-here': 'start here',
-  'rung-reached': 'a rung reached',
+  'rung-reached': 'a new stage reached',
   'estimate-revised': 'an estimate revised',
   'flagged-item-ruled': 'a flagged item ruled',
   'claim': 'a claim added or settled',
