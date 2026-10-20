@@ -66,3 +66,18 @@ jobs:
           fi
           curl --fail --silent --show-error --max-time 30 --request POST "$CLOUDFLARE_DEPLOY_HOOK" > /dev/null
           echo "Called the parent's deploy hook; sentient-horizons.com is rebuilding its Projects page."
+      # Tells the parent site (sentient-horizons.com) to rebuild, so its Projects page reads this
+      # site's new headline straight away instead of at the next build or the Monday refresh
+      # (ruled by John 2026-10-19). Needs the repository secret CLOUDFLARE_DEPLOY_HOOK, the
+      # address of the parent's Cloudflare deploy hook. Without it the step only warns, so the
+      # deploy above is never held up by it.
+      - name: Rebuild the Projects page on sentient-horizons.com
+        env:
+          CLOUDFLARE_DEPLOY_HOOK: ${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$CLOUDFLARE_DEPLOY_HOOK" ]; then
+            echo "::warning::The repository secret CLOUDFLARE_DEPLOY_HOOK is not set, so the Projects page on sentient-horizons.com was not told to rebuild. It will show this site's new number at its next build or the Monday refresh."
+            exit 0
+          fi
+          curl --fail --silent --show-error --max-time 30 --request POST "$CLOUDFLARE_DEPLOY_HOOK" > /dev/null
+          echo "Called the parent's deploy hook; sentient-horizons.com is rebuilding its Projects page."
