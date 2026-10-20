@@ -41,7 +41,7 @@ the 2025 trial report by Gaudilliere and colleagues, a double-blind placebo-cont
 plasma fraction in 38 older patients having a hip or knee replacement, which the authors call a
 first proof of principle that such a fraction regulates immune and inflammatory responses in older
 people. Its measure is the response to surgical injury and not an age-related function, so the first human
-test is not met on a plain reading. Whether such a measure could count is John's ruling. No stage or
+test is not met on a plain reading. Whether such a measure could count is my ruling. No stage or
 year was changed.
 """
 
@@ -80,8 +80,8 @@ publication = "gaudilliere-2025"
 date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
-new = "Added 2026-10-17, from the weekly reading of that date: the nearest controlled human result is gaudilliere-2025, a double-blind placebo-controlled phase 2a trial (NCT03981419) of a young-donor plasma fraction in 38 older patients having a hip or knee replacement, which the authors call a first proof of principle that such a fraction regulates immune and inflammatory responses in older people. Its measure is the response to surgical injury and not an age-related function, so the first-human test is not met on a plain reading. Whether such a measure could count is John's ruling. No stage or year was changed."
-why = "The weekly reading of 2026-10-17 adds the nearest controlled human trial to the notes and leaves the question of whether it counts for John."
+new = "Added 2026-10-17, from the weekly reading of that date: the nearest controlled human result is gaudilliere-2025, a double-blind placebo-controlled phase 2a trial (NCT03981419) of a young-donor plasma fraction in 38 older patients having a hip or knee replacement, which the authors call a first proof of principle that such a fraction regulates immune and inflammatory responses in older people. Its measure is the response to surgical injury and not an age-related function, so the first-human test is not met on a plain reading. Whether such a measure could count is my ruling. No stage or year was changed."
+why = "The weekly reading of 2026-10-17 adds the nearest controlled human trial to the notes and leaves the question of whether it counts for me."
 publication = "gaudilliere-2025"
 
 [[revision]]
@@ -89,4 +89,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. John ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. I ruled on every point the review raised on 2026-10-17, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."

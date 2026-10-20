@@ -1,4 +1,4 @@
-# Publications log. Added 2026-10-17 when John's rulings on the outside review of that date were applied (docs/reviews/2026-10-17-rulings.md, item 5). The page was opened and read on 2026-10-17, by the review session and again by the session that applied the rulings.
+# Publications log. Added 2026-10-17 when my rulings on the outside review of that date were applied (docs/reviews/2026-10-17-rulings.md, item 5). The page was opened and read on 2026-10-17, by the review session and again by the session that applied the rulings.
 
 id = "northwestern-2025"
 date = "2025-07-07"
@@ -15,5 +15,5 @@ branches = ["cell-settings"]
 moved_range = true
 settled_stage = false
 notes = """
-Logged because the outside review of 2026-10-17 pointed to it, in its part on cells and the cell's settings. It is the source behind John's ruling of 2026-10-17 on the review's case for the treatment "A person's biological age, read from the marks on their DNA, falls after a treatment": a named academic clinic has measured molecular clocks in routine care since 2025 and repeats them at six months, so a publication of that practice could come any year, and the treatment's earliest year for reaching clinical use moved from 2032 to 2028. It does not itself put the treatment in clinical use: the test asks for a treatment given in routine care with the clock monitored and that practice published, and this page describes testing and lifestyle advice, with no published report of practice.
+Logged because the outside review of 2026-10-17 pointed to it, in its part on cells and the cell's settings. It is the source behind my ruling of 2026-10-17 on the review's case for the treatment "A person's biological age, read from the marks on their DNA, falls after a treatment": a named academic clinic has measured molecular clocks in routine care since 2025 and repeats them at six months, so a publication of that practice could come any year, and the treatment's earliest year for reaching clinical use moved from 2032 to 2028. It does not itself put the treatment in clinical use: the test asks for a treatment given in routine care with the clock monitored and that practice published, and this page describes testing and lifestyle advice, with no published report of practice.
 """

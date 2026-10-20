@@ -1,4 +1,4 @@
-# Publications log. Added 2026-10-18 in the dated batch that applies the audit of the first scheduled weekly reading (docs/readings/audit-2026-10-18.md); John ruled on the audit on 2026-10-18.
+# Publications log. Added 2026-10-18 in the dated batch that applies the audit of the first scheduled weekly reading (docs/readings/audit-2026-10-18.md); I ruled on the audit on 2026-10-18.
 
 id = "g-ba-2026"
 date = "2026-08-20"
@@ -15,5 +15,5 @@ branches = ["inflammation-and-signalling"]
 moved_range = false
 settled_stage = false
 notes = """
-Added in the change to the records on 2026-10-18, on John's ruling of that day on the audit's point about colchicine in Germany (the audit, on 2026-10-18, of the first scheduled weekly reading). Checked 2026-10-18: the resolution's PDF was opened and its text read (the tool that fetched it returned it as compressed binary data, so it was read with the computer's own PDF reader): the date of the resolution, the date of the marketing authorisation, the indication, the sentence 'Hint of a minor additional benefit' and the named trial are all on its first three pages. The press statement that the drug has been on the German market since 2026-03-01 is not in the notice and is not used here.
+Added in the change to the records on 2026-10-18, on my ruling of that day on the audit's point about colchicine in Germany (the audit, on 2026-10-18, of the first scheduled weekly reading). Checked 2026-10-18: the resolution's PDF was opened and its text read (the tool that fetched it returned it as compressed binary data, so it was read with the computer's own PDF reader): the date of the resolution, the date of the marketing authorisation, the indication, the sentence 'Hint of a minor additional benefit' and the named trial are all on its first three pages. The press statement that the drug has been on the German market since 2026-03-01 is not in the notice and is not used here.
 """

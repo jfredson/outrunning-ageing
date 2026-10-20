@@ -63,7 +63,7 @@ and a confirmatory trial starts within two years; the latest allows for the whol
 failing on safety or effect and a second generation starting over.
 [Note 2026-10-17, from the weekly reading of that date: the reasoning above counts one positive
 controlled trial. Two now exist, the 2022 eye trial and the 2026-10-01 liver trial (Koning and colleagues),
-each small and in a single organ. The years are unchanged; John may want to weigh the second
+each small and in a single organ. The years are unchanged; I may want to weigh the second
 trial at the next review of the ranges.]
 """
 
@@ -99,8 +99,8 @@ publication = "koning-2026"
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
-new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above counts one positive controlled trial. Two now exist, the 2022 eye trial and the 2026-10-01 liver trial (koning-2026), each small and in a single organ. The years are unchanged; John may want to weigh the second trial at the next review of the ranges.]"
-why = "The weekly reading of 2026-10-17 added a dated note that the premise 'one positive controlled trial exists' is out of date; the years are John's and were not changed."
+new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above counts one positive controlled trial. Two now exist, the 2022 eye trial and the 2026-10-01 liver trial (koning-2026), each small and in a single organ. The years are unchanged; I may want to weigh the second trial at the next review of the ranges.]"
+why = "The weekly reading of 2026-10-17 added a dated note that the premise 'one positive controlled trial exists' is out of date; the years are my and were not changed."
 publication = "koning-2026"
 
 [[revision]]
@@ -108,4 +108,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. I ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

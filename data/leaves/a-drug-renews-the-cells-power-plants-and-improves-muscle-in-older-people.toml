@@ -59,4 +59,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. I ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

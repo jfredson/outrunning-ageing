@@ -1,6 +1,6 @@
 # The eight branches, in order. Record layout: docs/record-schema.md. The grouping of the
 # twelve hallmarks into seven kinds of damage plus one measuring branch was proposed in
-# docs/2026-10-16-kickoff.md and accepted by John on 2026-10-16; the `required` and
+# docs/2026-10-16-kickoff.md and I accepted on 2026-10-16; the `required` and
 # `handled_when` values below are a first pass, written 2026-10-16, for the leaf session and
 # the yearly review to argue with. The kickoff marks the measuring branch required; this first
 # pass marks all eight, on the view that escape velocity means ageing as a whole is outrun and

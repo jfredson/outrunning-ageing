@@ -17,7 +17,7 @@ disease, with the caution that the trial had several measures and not all moved.
 Grifols said on 2026-03-12 that the Ace Alzheimer Center in Barcelona has given the procedure to
 people with Alzheimer's disease as a clinical programme outside any trial since 2021 (the centre's
 own page does not give that year), and on 2026-04-27 the centre published on its own page that 71
-patients had completed its 15-month programme under routine clinical practice conditions; John ruled on
+patients had completed its 15-month programme under routine clinical practice conditions; I ruled on
 2026-10-17 that this counts as a named clinical setting publishing its practice, so the treatment
 is in clinical use from that date."""
 test = """
@@ -44,7 +44,7 @@ new. A small placebo-controlled trial in 42 healthy adults over 50, from the Buc
 plasma-exchange company (Aging Cell, online 2025-05-27; posted first as a preprint on 2024-08-08),
 reported younger readings than placebo on 15 age clocks (estimates of biological age read from the
 chemical marks on DNA); its main aims were safety and those clocks.
-Added 2026-10-17 from the weekly reading of that date, which left this for John to decide: the case
+Added 2026-10-17 from the weekly reading of that date, which left this for me to decide: the case
 for the clinic rung. The test accepts a named clinical setting that gives the treatment for that purpose in routine care and
 publishes that practice. On 2026-03-12 the supplier Grifols announced (in its own press release) that the Ace
 Alzheimer Center in Barcelona has run its plasma-exchange-with-albumin programme (AMBAR) for people
@@ -55,15 +55,15 @@ of the American Society for Apheresis. On a plain reading that could be the clin
 setting's own publication of its practice, the apheresis society's category for Alzheimer's
 disease was not seen, and a stage never moves down, so a mistake here could not be undone. Whether a
 company-run clinic programme counts as routine care, and whether the clinic rung's test should be
-widened to say so, is John's call. If it counts, the entry moves to in clinical use and its estimate
+widened to say so, is my call. If it counts, the entry moves to in clinical use and its estimate
 (earliest 2030) must be rewritten. This entry stays at first human.
-John ruled on 2026-10-17. An outside review of 2026-10-17 brought the centre's own announcement,
+I ruled on 2026-10-17. An outside review of 2026-10-17 brought the centre's own announcement,
 on its news page of 2026-04-27: 71 patients completed its
 15-month programme "under routine clinical practice conditions in Barcelona", presented at the
 apheresis society's 2026 meeting. That answers the first objection above (the only source had been
 the supplier's). The second stands and is recorded: it is an announcement of a conference
 presentation, not a peer-reviewed publication of the practice, and the apheresis society's guidelines
-place plasma exchange for Alzheimer's disease in the category whose role is not established. John
+place plasma exchange for Alzheimer's disease in the category whose role is not established. I
 weighed both and ruled that the announcement counts as the clinical setting publishing its practice.
 The entry moved to in clinical use, dated 2026-04-27 (the centre's own publication) and not 2021
 (the start the supplier's release gives), the inflammation branch counts as handled from 2026 because
@@ -85,8 +85,8 @@ record = "https://doi.org/10.1002/alz.12137"
 status = "reviewed"
 set_on = 2026-10-17
 why = """
-Written on 2026-10-17, when John's ruling moving this treatment to the clinic was applied, as a
-first estimate, not yet reviewed, for the wide-use rung, which the headline does not draw. John ruled on 2026-10-17
+Written on 2026-10-17, when my ruling moving this treatment to the clinic was applied, as a
+first estimate, not yet reviewed, for the wide-use rung, which the headline does not draw. I ruled on 2026-10-17
 that the three years stand, so the estimate is marked reviewed; the next outside review may raise it again. Wide use means the procedure is offered for an age-related condition
 to the general public in at least one country and taken up by many people. Today it is one centre in
 Barcelona with three more announced in Spain, a supplier's planned registry of real-world results,
@@ -108,8 +108,8 @@ latest = 2090
 date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
-new = "FOR JOHN, added 2026-10-17 from the weekly reading of that date: the case for the clinic rung. The test accepts a named clinical setting that gives the treatment for that purpose in routine care and publishes that practice. On 2026-03-12 the supplier Grifols announced (grifols-2026) that the Ace Alzheimer Center in Barcelona has run its plasma-exchange-with-albumin programme (AMBAR) for people with Alzheimer's disease since 2021, that new clinics are opening in hospitals in Madrid, Mallorca and Alicante, that more than 5,000 exchanges have been done, and that the protocol is in the guidelines of the American Society for Apheresis. On a plain reading that could be the clinic rung from 2021 or 2026-03-12. It was not moved because the source is the supplier's release and not the clinical setting's own publication of its practice, the apheresis society's category for Alzheimer's disease was not seen, and a stage never moves down, so a mistake here could not be undone. Whether a company-run clinic programme counts as routine care, and whether the clinic rung's test should be widened to say so, is John's call. If it counts, the entry moves to in clinical use and its estimate (earliest 2030) must be rewritten. This entry stays at first human."
-why = "The weekly reading of 2026-10-17 writes the case for the clinic rung into the notes with its source and leaves it for John to decide, as the reading's rules require; the stage did not move."
+new = "FOR JOHN, added 2026-10-17 from the weekly reading of that date: the case for the clinic rung. The test accepts a named clinical setting that gives the treatment for that purpose in routine care and publishes that practice. On 2026-03-12 the supplier Grifols announced (grifols-2026) that the Ace Alzheimer Center in Barcelona has run its plasma-exchange-with-albumin programme (AMBAR) for people with Alzheimer's disease since 2021, that new clinics are opening in hospitals in Madrid, Mallorca and Alicante, that more than 5,000 exchanges have been done, and that the protocol is in the guidelines of the American Society for Apheresis. On a plain reading that could be the clinic rung from 2021 or 2026-03-12. It was not moved because the source is the supplier's release and not the clinical setting's own publication of its practice, the apheresis society's category for Alzheimer's disease was not seen, and a stage never moves down, so a mistake here could not be undone. Whether a company-run clinic programme counts as routine care, and whether the clinic rung's test should be widened to say so, is my call. If it counts, the entry moves to in clinical use and its estimate (earliest 2030) must be rewritten. This entry stays at first human."
+why = "The weekly reading of 2026-10-17 writes the case for the clinic rung into the notes with its source and leaves it for me to decide, as the reading's rules require; the stage did not move."
 publication = "grifols-2026"
 
 [[revision]]
@@ -117,7 +117,7 @@ date = 2026-10-17
 field = "stage"
 old = "first-human"
 new = "in-clinical-use"
-why = "John ruled on 2026-10-17 on a point raised by an outside review of the same day, that the clinic rung might already be met: the Ace Alzheimer Center in Barcelona published on its own page on 2026-04-27 that 71 patients completed its plasma-exchange programme under routine clinical practice conditions, and John ruled that this counts as a named clinical setting publishing that it gives the treatment for that purpose in routine care, which is what the test's clinic rung asks. It settles the question the weekly reading of 2026-10-17 left open. The record is an announcement of a conference presentation, not a peer-reviewed paper, and the apheresis society's guidelines place the treatment in the category whose role is not established; both are noted and were weighed."
+why = "I ruled on 2026-10-17 on a point raised by an outside review of the same day, that the clinic rung might already be met: the Ace Alzheimer Center in Barcelona published on its own page on 2026-04-27 that 71 patients completed its plasma-exchange programme under routine clinical practice conditions, and I ruled that this counts as a named clinical setting publishing that it gives the treatment for that purpose in routine care, which is what the test's clinic rung asks. It settles the question the weekly reading of 2026-10-17 left open. The record is an announcement of a conference presentation, not a peer-reviewed paper, and the apheresis society's guidelines place the treatment in the category whose role is not established; both are noted and were weighed."
 publication = "ace-barcelona-2026"
 
 [[revision]]
@@ -125,7 +125,7 @@ date = 2026-10-17
 field = "stage_reached_on"
 old = "2020-07-27"
 new = "2026-04-27"
-why = "John's ruling of 2026-10-17 on the outside review's point about the Barcelona centre: the clinic rung is dated to the centre's own publication of its practice, not to 2021, when the supplier's release says the programme began, because the test asks for the practice to be published and the centre's page is the earliest such publication. The 2020 trial report moves to the list of earlier stages as the first human record."
+why = "My ruling of 2026-10-17 on the outside review's point about the Barcelona centre: the clinic rung is dated to the centre's own publication of its practice, not to 2021, when the supplier's release says the programme began, because the test asks for the practice to be published and the centre's page is the earliest such publication. The 2020 trial report moves to the list of earlier stages as the first human record."
 publication = "ace-barcelona-2026"
 
 [[revision]]
@@ -133,7 +133,7 @@ date = 2026-10-17
 field = "stage_record"
 old = "https://doi.org/10.1002/alz.12137"
 new = "https://www.acebarcelona.org/en/plasma-exchange-alzheimers-asfa-2026"
-why = "John's ruling of 2026-10-17 on the outside review's point about the Barcelona centre: the stage record is now the centre's announcement of 2026-04-27; the 2020 trial report is kept as the first human record under earlier stages."
+why = "My ruling of 2026-10-17 on the outside review's point about the Barcelona centre: the stage record is now the centre's announcement of 2026-04-27; the 2020 trial report is kept as the first human record under earlier stages."
 publication = "ace-barcelona-2026"
 
 [[revision]]
@@ -141,7 +141,7 @@ date = 2026-10-17
 field = "estimate.rung.in-clinical-use"
 old = "earliest 2030, likely 2038, latest 2075"
 new = "(removed; the rung was reached on 2026-04-27)"
-why = "John's ruling of 2026-10-17 on the outside review's point about the Barcelona centre: a rung that has been reached is a matter of record and is no longer estimated. The write-up of the review put to John predicted this move would give a headline of 2057 and a 5.9 per cent chance before 2050; the change to the records on 2026-10-17 says what the re-run gave."
+why = "My ruling of 2026-10-17 on the outside review's point about the Barcelona centre: a rung that has been reached is a matter of record and is no longer estimated. The write-up of the review put to me predicted this move would give a headline of 2057 and a 5.9 per cent chance before 2050; the change to the records on 2026-10-17 says what the re-run gave."
 publication = "ace-barcelona-2026"
 
 [[revision]]
@@ -149,7 +149,7 @@ date = 2026-10-17
 field = "estimate.rung.in-wide-use"
 old = "(none)"
 new = "earliest 2032, likely 2045, latest 2090"
-why = "Written when John's ruling of 2026-10-17 on the outside review's point about the Barcelona centre was applied, as a first estimate, not yet reviewed, for the rung now above the stage; the headline does not draw it. Proposed, not ruled: John has not set these years, and the reasoning says what they assume. Set on 2026-10-17 as a first estimate, not yet reviewed."
+why = "Written when my ruling of 2026-10-17 on the outside review's point about the Barcelona centre was applied, as a first estimate, not yet reviewed, for the rung now above the stage; the headline does not draw it. Proposed, not ruled: I have not set these years, and the reasoning says what they assume. Set on 2026-10-17 as a first estimate, not yet reviewed."
 publication = "ace-barcelona-2026"
 
 [[revision]]
@@ -157,15 +157,15 @@ date = 2026-10-17
 field = "estimate.why"
 old = "The procedure is cheap to trial because it exists; the likely year assumes a controlled trial in healthy older adults with a function or a clock as its main measure reports positive in the early 2030s and a named service or regulator adopts it for ageing later that decade. The earliest assumes the Alzheimer's result wins a label line within a few years; the latest allows for the 2020 result not replicating and the procedure staying a private-clinic offer."
 new = "(rewritten for the wide-use rung; see the estimate)"
-why = "The reasoning was for the clinic rung, which was reached on 2026-04-27 by John's ruling of 2026-10-17 on the outside review's point about the Barcelona centre; the new reasoning is for the wide-use rung and says it is a first estimate written on 2026-10-17 and not yet ruled."
+why = "The reasoning was for the clinic rung, which was reached on 2026-04-27 by my ruling of 2026-10-17 on the outside review's point about the Barcelona centre; the new reasoning is for the wide-use rung and says it is a first estimate written on 2026-10-17 and not yet ruled."
 publication = "ace-barcelona-2026"
 
 [[revision]]
 date = 2026-10-17
 field = "description"
 old = "(nothing; text added at the end of the description)"
-new = "Since 2021 the Ace Alzheimer Center in Barcelona has given the procedure to people with Alzheimer's disease as a clinical programme outside any trial, and on 2026-04-27 it published on its own page that 71 patients had completed its 15-month programme under routine clinical practice conditions; John ruled on 2026-10-17 that this counts as a named clinical setting publishing its practice, so the treatment is in clinical use from that date."
-why = "John's ruling of 2026-10-17 on the outside review's point about the Barcelona centre: the description now says how the treatment reached the clinic and on what record."
+new = "Since 2021 the Ace Alzheimer Center in Barcelona has given the procedure to people with Alzheimer's disease as a clinical programme outside any trial, and on 2026-04-27 it published on its own page that 71 patients had completed its 15-month programme under routine clinical practice conditions; I ruled on 2026-10-17 that this counts as a named clinical setting publishing its practice, so the treatment is in clinical use from that date."
+why = "My ruling of 2026-10-17 on the outside review's point about the Barcelona centre: the description now says how the treatment reached the clinic and on what record."
 publication = "ace-barcelona-2026"
 
 [[revision]]
@@ -173,7 +173,7 @@ date = 2026-10-17
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "RULED 2026-10-17. The outside review of 2026-10-17 (item 13) brought the centre's own announcement of 2026-04-27 (ace-barcelona-2026) ... the estimate below is rewritten for the wide-use rung. (The full paragraph is in the notes.)"
-why = "John's ruling of 2026-10-17 on the outside review's point about the Barcelona centre: the paragraph the weekly reading left for John now carries his ruling and its reason, so a reader can see the question and the answer together."
+why = "My ruling of 2026-10-17 on the outside review's point about the Barcelona centre: the paragraph the weekly reading left for me now carries my ruling and its reason, so a reader can see the question and the answer together."
 publication = "ace-barcelona-2026"
 
 [[revision]]
@@ -181,12 +181,12 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "John ruled on 2026-10-17 that the wide-use range of 2032, 2045 and 2090 written when the treatment moved to the clinic stands, so the estimate is marked reviewed like the other 43 estimates; the years and the reasoning are unchanged. The headline does not draw this rung."
+why = "I ruled on 2026-10-17 that the wide-use range of 2032, 2045 and 2090 written when the treatment moved to the clinic stands, so the estimate is marked reviewed like the other 43 estimates; the years and the reasoning are unchanged. The headline does not draw this rung."
 
 [[revision]]
 date = 2026-10-18
 field = "description"
 old = "Since 2021 the Ace Alzheimer Center in Barcelona has given the procedure to people with Alzheimer's disease as a clinical programme outside any trial, and on 2026-04-27 it published on its own page that 71 patients had completed its 15-month programme ..."
 new = "The supplier Grifols said on 2026-03-12 that the Ace Alzheimer Center in Barcelona has given the procedure to people with Alzheimer's disease as a clinical programme outside any trial since 2021 (the centre's own page does not give that year), and on 2026-04-27 the centre published on its own page that 71 patients had completed its 15-month programme ..."
-why = "Corrected on 2026-10-18 on John's ruling of that day that each possible error found in the wording pass is checked against its source: the start in 2021 comes only from the supplier's release (Grifols, 2026-03-12, which calls the centre's programme operational since 2021); the centre's own announcement of 2026-04-27, read again on 2026-10-18, does not give the year. No stage or date changed."
+why = "Corrected on 2026-10-18 on my ruling of that day that each possible error found in the wording pass is checked against its source: the start in 2021 comes only from the supplier's release (Grifols, 2026-03-12, which calls the centre's programme operational since 2021); the centre's own announcement of 2026-04-27, read again on 2026-10-18, does not give the year. No stage or date changed."
 publication = "grifols-2026"

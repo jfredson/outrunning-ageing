@@ -15,7 +15,7 @@ branches = ["damaged-dna"]
 moved_range = false
 settled_stage = false
 notes = """
-Added during the weekly reading of 2026-10-17. On a plain reading it does not meet the test that the treatment "A gene therapy lengthens the ends of chromosomes in an old animal, with no rise in cancer" sets for its next stage, first human: the gene is ZSCAN4, not telomerase; the cells were treated outside the body; there are two patients; and the abstract gives no cancer rate. Whether it counts is for John to decide; the treatment was left at shown in animals.
+Added during the weekly reading of 2026-10-17. On a plain reading it does not meet the test that the treatment "A gene therapy lengthens the ends of chromosomes in an old animal, with no rise in cancer" sets for its next stage, first human: the gene is ZSCAN4, not telomerase; the cells were treated outside the body; there are two patients; and the abstract gives no cancer rate. Whether it counts is for me to decide; the treatment was left at shown in animals.
 
 Checked 2026-10-17: the journal's full text is behind a payment page and the authors' accepted manuscript (held by Cardiff University) could not be opened, so this record states only what the published abstract says (read through the PubMed and Europe PMC records); what the full text says about follow-up beyond the abstract and about cancer monitoring is not recorded. The author list was corrected on 2026-10-17 from the journal's record: it has 14 authors, not 13.
 """

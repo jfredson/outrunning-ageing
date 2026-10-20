@@ -1,4 +1,4 @@
-# Publications log. Added 2026-10-17 when John's rulings on the outside review of that date were applied (docs/reviews/2026-10-17-rulings.md, item 6). The registry's data were read on 2026-10-17 through the registry's public interface, by the review session and again by the session that applied the rulings.
+# Publications log. Added 2026-10-17 when my rulings on the outside review of that date were applied (docs/reviews/2026-10-17-rulings.md, item 6). The registry's data were read on 2026-10-17 through the registry's public interface, by the review session and again by the session that applied the rulings.
 
 id = "telo-scope-2021"
 date = "2020-11-20"
@@ -15,5 +15,5 @@ branches = ["damaged-dna"]
 moved_range = true
 settled_stage = false
 notes = """
-Logged as the added source behind John's ruling of 2026-10-17 on the outside review's case for the treatment "A drug lengthens the ends of chromosomes in a person": the likely year in the treatment's estimate had assumed a confirmatory trial and an approval of danazol or a relative for a telomere disease around 2034, and the registry shows the one phase 2 trial aimed at telomere attrition stopped for futility and no sponsor in sight. The futility finding is the registry's own stated reason for stopping and was not in the write-up of the review and John's rulings, which recorded the trial as terminated.
+Logged as the added source behind my ruling of 2026-10-17 on the outside review's case for the treatment "A drug lengthens the ends of chromosomes in a person": the likely year in the treatment's estimate had assumed a confirmatory trial and an approval of danazol or a relative for a telomere disease around 2034, and the registry shows the one phase 2 trial aimed at telomere attrition stopped for futility and no sponsor in sight. The futility finding is the registry's own stated reason for stopping and was not in the write-up of the review and my rulings, which recorded the trial as terminated.
 """

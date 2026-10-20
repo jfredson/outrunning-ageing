@@ -52,7 +52,7 @@ suggest but do not prove in people.
 [Note 2026-10-17, from the weekly reading of that date: the reasoning above assumes the small trial
 reports around 2030. It reported an interim analysis on 2026-05-27 (the trial report by Zimmermann and colleagues): pumping and wall
 thickness were higher at 3 months in the highest-dose group, with three deaths among 20 people and
-every patient having at least one adverse event. The years are unchanged; John may want to weigh at
+every patient having at least one adverse event. The years are unchanged; I may want to weigh at
 the next review whether the reporting year in the reasoning (and so the earliest, 2031) should
 move earlier, and what the deaths and the need for rejection drugs mean for the latest year.]
 """
@@ -75,7 +75,7 @@ publication = "zimmermann-2026"
 date = 2026-10-17
 field = "estimate.why"
 old = "(nothing; a dated note added at the end of the reasoning; no year changed)"
-new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above assumes the small trial reports around 2030. It reported an interim analysis on 2026-05-27 (zimmermann-2026): pumping and wall thickness were higher at 3 months in the highest-dose group, with three deaths among 20 people and every patient having at least one adverse event. The years are unchanged; John may want to weigh at the next review whether the reporting year in the reasoning (and so the earliest, 2031) should move earlier, and what the deaths and the need for rejection drugs mean for the latest year.]"
+new = "[Note 2026-10-17, from the weekly reading of that date: the reasoning above assumes the small trial reports around 2030. It reported an interim analysis on 2026-05-27 (zimmermann-2026): pumping and wall thickness were higher at 3 months in the highest-dose group, with three deaths among 20 people and every patient having at least one adverse event. The years are unchanged; I may want to weigh at the next review whether the reporting year in the reasoning (and so the earliest, 2031) should move earlier, and what the deaths and the need for rejection drugs mean for the latest year.]"
 why = "The weekly reading of 2026-10-17 added a dated note that the estimate's premise about when the first trial reports has been overtaken; no year changed."
 publication = "zimmermann-2026"
 
@@ -91,12 +91,12 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and proposed moving this range, which John declined on 2026-10-17: the reviewer proposed 2035, 2043, 2085, reading the three deaths among twenty people in the 2026 New England Journal of Medicine report (https://doi.org/10.1056/NEJMoa2513525) as a severe safety signal; the paper gives the deaths' causes as vasoplegia, COVID-19 and aortic dissection, one each, does not call them treatment-related and does not call its findings a safety signal, so the source does not say what the reviewer read into it; the range stays 2031, 2038, 2070. With every point of the review ruled, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."
+why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and proposed moving this range, which I declined on 2026-10-17: the reviewer proposed 2035, 2043, 2085, reading the three deaths among twenty people in the 2026 New England Journal of Medicine report (https://doi.org/10.1056/NEJMoa2513525) as a severe safety signal; the paper gives the deaths' causes as vasoplegia, COVID-19 and aortic dissection, one each, does not call them treatment-related and does not call its findings a safety signal, so the source does not say what the reviewer read into it; the range stays 2031, 2038, 2070. With every point of the review ruled, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."
 
 [[revision]]
 date = 2026-10-18
 field = "description"
 old = "among 12 given the highest dose who had reached the 3-month interim check, the heart's pumping (ejection fraction) was 3.9 percentage points higher and the treated wall 4.5 mm thicker."
 new = "of the 16 given the highest safe dose, 12 had completed the prespecified 3-month interim follow-up; in that interim analysis the heart's pumping (ejection fraction) was 3.9 percentage points higher and the treated wall 4.5 mm thicker."
-why = "An audit on 2026-10-18 of the weekly reading of that date asked whether the highest-dose group was 12 or 16 people. The abstract (read through Europe PMC on 2026-10-18) says 16 patients were treated with the safe maximal dose and 12 of them completed the prespecified 3-month interim follow-up; the German centre's release of 2026-05-29 says the first 16 given the highest safe dose were analysed. Both numbers are right, and the description had run them together. The date needed no change: the publication record gives online 2026-05-27 and the issue dated 2026-05-28. Applied on John's ruling of 2026-10-18; the stage and the years are unchanged."
+why = "An audit on 2026-10-18 of the weekly reading of that date asked whether the highest-dose group was 12 or 16 people. The abstract (read through Europe PMC on 2026-10-18) says 16 patients were treated with the safe maximal dose and 12 of them completed the prespecified 3-month interim follow-up; the German centre's release of 2026-05-29 says the first 16 given the highest safe dose were analysed. Both numbers are right, and the description had run them together. The date needed no change: the publication record gives online 2026-05-27 and the issue dated 2026-05-28. Applied on my ruling of 2026-10-18; the stage and the years are unchanged."
 publication = "zimmermann-2026"

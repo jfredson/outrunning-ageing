@@ -38,7 +38,7 @@ significantly but the longest lifespan was greater (p = 0.039). The 2026 mouse r
 needing euthanasia, at higher doses. Whether the 2025 mouse report meets the test's animal rung (a marker of biological age or a
 restored tissue function moved towards youth against untreated controls) is not settled: it measured behaviour, appearance and
 lifespan, not a clock of cell age, and it also reports tissue changes. It is not counted, the stage stays at idea only, and the
-question is left for John to rule. The earlier sentence that no peer-reviewed report existed was replaced on 2026-10-17 by the
+question is left for me to rule. The earlier sentence that no peer-reviewed report existed was replaced on 2026-10-17 by the
 description above, because these reports do exist.
 """
 
@@ -76,11 +76,11 @@ date = 2026-10-17
 field = "description"
 old = "None has been shown to work in a living animal in a peer-reviewed report, so the leaf is at idea only."
 new = "In 2025 peer-reviewed reports gave a two-chemical mix to animals: it extended the lifespan and healthspan of worms, and in a small study in ageing mice it improved neurological scores and the longest lifespan, with some changes in liver and brain tissue. The reports describe no clock of cell age read in the animals, and a 2026 report in mice found no change in the age of kidney or liver tissue at lower doses, and weight loss at higher doses that forced the mice to be put down. These are not counted as the result the test asks for, so the leaf stays at idea only."
-why = "A check against the sources on 2026-10-17: 'None has been shown to work in a living animal in a peer-reviewed report' was not safe: searches on 2026-10-17 found peer-reviewed 2025 reports of a two-chemical mix in worms and in ageing mice, and a 2026 mouse report with no change in tissue age and toxicity at higher doses. The text now says what each reports. None is counted as the animal rung, so the stage does not change; whether the mouse report counts is left for John."
+why = "A check against the sources on 2026-10-17: 'None has been shown to work in a living animal in a peer-reviewed report' was not safe: searches on 2026-10-17 found peer-reviewed 2025 reports of a two-chemical mix in worms and in ageing mice, and a 2026 mouse report with no change in tissue age and toxicity at higher doses. The text now says what each reports. None is counted as the animal rung, so the stage does not change; whether the mouse report counts is left for me."
 
 [[revision]]
 date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. John ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. I ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."

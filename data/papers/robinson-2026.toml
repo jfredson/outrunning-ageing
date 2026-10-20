@@ -1,4 +1,4 @@
-# Publications log. Added 2026-10-18 in the dated batch that applies the audit of the first scheduled weekly reading (docs/readings/audit-2026-10-18.md); John ruled on the audit on 2026-10-18.
+# Publications log. Added 2026-10-18 in the dated batch that applies the audit of the first scheduled weekly reading (docs/readings/audit-2026-10-18.md); I ruled on the audit on 2026-10-18.
 
 id = "robinson-2026"
 date = "2026-06-29"
@@ -15,5 +15,5 @@ branches = ["measuring-age"]
 moved_range = false
 settled_stage = false
 notes = """
-Added in the change to the records on 2026-10-18, on John's ruling of that day on the audit's point about two more organ-clock papers (the audit, on 2026-10-18, of the first scheduled weekly reading). Checked 2026-10-18: the open full text at PubMed Central (PMC13375651) was read through its XML text. The organ-specific clocks tested here use the weights of Oh and colleagues (the Stanford group's), so this is an independent test of those clocks, in a different cohort; the paper also uses five earlier whole-body clocks for comparison. Its mortality comparison sets a model of calendar age and sex (concordance index 0.71) against the combined Global age gap (0.73), not each organ clock against calendar age.
+Added in the change to the records on 2026-10-18, on my ruling of that day on the audit's point about two more organ-clock papers (the audit, on 2026-10-18, of the first scheduled weekly reading). Checked 2026-10-18: the open full text at PubMed Central (PMC13375651) was read through its XML text. The organ-specific clocks tested here use the weights of Oh and colleagues (the Stanford group's), so this is an independent test of those clocks, in a different cohort; the paper also uses five earlier whole-body clocks for comparison. Its mortality comparison sets a model of calendar age and sex (concordance index 0.71) against the combined Global age gap (0.73), not each organ clock against calendar age.
 """
