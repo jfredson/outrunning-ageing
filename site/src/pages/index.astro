@@ -81,10 +81,10 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
     </p>
     {h.available ? (
       <p>
-        None of the numbers on the first screen is typed in. The tree of {plural(c.leaves, 'treatment and tool', 'treatments and tools')} is played out {h.method.runs.toLocaleString('en-GB')} times, drawing a year for each from its range; the middle of all those runs is the year at the top, and the numbers beside it and every mark on the chart are read off the same spread of results, with {spreadWords()}. {h.counts.estimates_first_pass_drawn === 0 ? `Every range the year draws from has been through an outside review, in which an AI model made by another company argued each one up or down and the author ruled on every disagreement${h.counts.estimates_first_pass > 0 ? `; ${plural(h.counts.estimates_first_pass, 'estimate', 'estimates')} for a rung the year does not draw ${h.counts.estimates_first_pass === 1 ? 'is' : 'are'} still a first pass` : ''}. The year will still move as the evidence does, and every move is dated with its reason.` : `${plural(h.counts.estimates_first_pass_drawn, 'estimate the year draws from is', 'estimates the year draws from are')} still a first pass waiting on an outside review; the year will move as the ranges are argued, and every move is dated with its reason.`} <a href="/method/">How the numbers are worked out.</a>
+        None of the numbers on the first screen is typed in. The tree of {plural(c.leaves, 'treatment and tool', 'treatments and tools')} is played out {h.method.runs.toLocaleString('en-GB')} times, drawing a year for each from its range; the middle of all those runs is the year at the top, and the numbers beside it and every mark on the chart are read off the same spread of results, with {spreadWords()}. {h.counts.estimates_first_pass_drawn === 0 ? `Every range the year draws from has been through an outside review, in which an AI model made by another company argued each one up or down and the author ruled on every disagreement${h.counts.estimates_first_pass > 0 ? `; ${plural(h.counts.estimates_first_pass, 'estimate', 'estimates')} for a rung the year does not draw ${h.counts.estimates_first_pass === 1 ? 'is' : 'are'} still a first pass` : ''}. The year will still move as the evidence does, and every move is dated with its reason.` : `${plural(h.counts.estimates_first_pass_drawn, 'estimate the year draws from is', 'estimates the year draws from are')} still a first pass waiting on an outside review; the year will move as the ranges are argued, and every move is dated with its reason.`} <a href="/about/#method">How the numbers are worked out.</a>
       </p>
     ) : (
-      <p>{h.reason} <a href="/method/">How the numbers are worked out.</a></p>
+      <p>{h.reason} <a href="/about/#method">How the numbers are worked out.</a></p>
     )}
   </section>
 
@@ -129,7 +129,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
         <span class="count">{plural(c.experiments, 'written so far', 'written so far')}</span>
       </li>
       <li class="record-card">
-        <h3><a href="/story/">The story so far</a></h3>
+        <h3><a href="/about/#story">The story so far</a></h3>
         <p>Every paper, trial report and regulator's record that bears on the tree, dated, each saying what it settled or moved. The ones that moved nothing are listed beside them and given the same space.</p>
         <span class="count">{plural(c.publications, 'publication logged', 'publications logged')}</span>
       </li>
@@ -139,7 +139,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
         <span class="count">{c.scans_real === 0 ? 'none has run yet; the first follows the launch' : plural(c.scans_real, 'reading so far', 'readings so far')}</span>
       </li>
       <li class="record-card">
-        <h3><a href="/method/">How the numbers are worked out</a></h3>
+        <h3><a href="/about/#method">How the numbers are worked out</a></h3>
         <p>The model in plain words, every setting with its reason and its strongest alternative, one run written out step by step, and the working documents published as written.</p>
         <span class="count">{h.available ? `computed ${longDate(h.computed_on)}` : 'not computed yet'}</span>
       </li>

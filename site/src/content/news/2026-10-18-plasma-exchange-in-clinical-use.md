@@ -38,7 +38,7 @@ The move is dated 27 April 2026, the day the centre published, and not 2021, whe
 
 Plasma exchange became the sixth of the site's 44 treatments in use with patients, up from five ([the treatment's page](/leaves/replacing-a-persons-plasma-slows-an-age-related-disease/)). The site sorts its treatments into eight groups, seven for the kinds of damage that ageing does and one for measuring it, and a group counts as dealt with once two of its treatments are in use with patients. [Colchicine](/leaves/an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks/), a drug that acts only on inflammation, was already approved to prevent heart attacks. With plasma exchange as the second, the site's middle estimate for when the [group for inflammation and the body's messaging](/branches/inflammation-and-signalling/) is dealt with moved from 2042 to 2026, this year.
 
-The estimate for the turning point did not move. It stayed at 2058, because the turning point cannot come until the slowest group is dealt with, and inflammation was not the slowest ([how the year is worked out](/method/)). Counting the other decisions I made on the review that day, the site's chance that the turning point comes before 2050 went from 3.35 to 4.09 per cent ([what changed, day by day](/story/#what-changed)).
+The estimate for the turning point did not move. It stayed at 2058, because the turning point cannot come until the slowest group is dealt with, and inflammation was not the slowest ([how the year is worked out](/about/#method)). Counting the other decisions I made on the review that day, the site's chance that the turning point comes before 2050 went from 3.35 to 4.09 per cent ([what changed, day by day](/about/#what-changed)).
 
 It does not mean plasma exchange slows ageing. The Barcelona programme treats one disease of old age, and no regulator anywhere has approved the procedure for ageing.
 
@@ -46,4 +46,4 @@ The next stage is wide use: offered to the general public in at least one countr
 
 ---
 
-19 October 2026: this post was rewritten in plainer words; no fact or figure in it changed ([what changed, day by day](/story/#what-changed)).
+19 October 2026: this post was rewritten in plainer words; no fact or figure in it changed ([what changed, day by day](/about/#what-changed)).

@@ -7,7 +7,7 @@ sources:
   - label: The numbers as they stand
     url: https://outrunningageing.com/data/headline.json
   - label: How the year is worked out
-    url: https://outrunningageing.com/method/
+    url: https://outrunningageing.com/about/#method
 ---
 
 ## The Idea
@@ -35,15 +35,15 @@ The treatments sit in [eight groups](https://outrunningageing.com/branches/), se
 - [damaged DNA](https://outrunningageing.com/branches/damaged-dna/): 2044;
 - [the cell's settings](https://outrunningageing.com/branches/cell-settings/): 2044.
 
-Six of the 45 are already in use with patients. The time it takes a treatment to spread from the clinic to ordinary people is my own first guess, anywhere from 3 to 15 years and most likely 8 ([how the year is worked out](https://outrunningageing.com/method/)).
+Six of the 45 are already in use with patients. The time it takes a treatment to spread from the clinic to ordinary people is my own first guess, anywhere from 3 to 15 years and most likely 8 ([how the year is worked out](https://outrunningageing.com/about/#method)).
 
-The year has stood at 2058 every time it has been worked out, while the chance before 2050 has risen from 2.7 to 4.3 per cent ([what changed, day by day](https://outrunningageing.com/story/#what-changed)).
+The year has stood at 2058 every time it has been worked out, while the chance before 2050 has risen from 2.7 to 4.3 per cent ([what changed, day by day](https://outrunningageing.com/about/#what-changed)).
 
 ## How to Follow It
 
 Every Sunday morning, Pacific time, the site's automated weekly search checks the week's news against every treatment's test, every promise in the claims log and every public self-experiment (people openly testing a treatment on themselves), and gives each a verdict. That weekly search may move a treatment up one stage, to shown in animals or tried in people and no further, and only on the kind of evidence that treatment's test names. Putting a treatment in use with patients, changing a range of years or settling a promise is left to me.
 
-Each week's search is on [the Reading page](https://outrunningageing.com/reading/), and [the Story](https://outrunningageing.com/story/) gives one line for each day something on the site changed. [The Branches page](https://outrunningageing.com/branches/) leads to every group and treatment with its test, its stage and its range of years, and [the Claims](https://outrunningageing.com/claims/) page sets what people have promised beside what has been shown. Every new post also goes out on [the news feed](https://outrunningageing.com/news/feed.xml).
+Each week's search is on [the Reading page](https://outrunningageing.com/reading/), and [the Story](https://outrunningageing.com/about/#story) gives one line for each day something on the site changed. [The Branches page](https://outrunningageing.com/branches/) leads to every group and treatment with its test, its stage and its range of years, and [the Claims](https://outrunningageing.com/claims/) page sets what people have promised beside what has been shown. Every new post also goes out on [the news feed](https://outrunningageing.com/news/feed.xml).
 
 ## The Most Interesting News So Far
 
@@ -69,4 +69,4 @@ A small early trial of [eye drops meant to dissolve the clouded protein of a cat
 
 Every fact above links to its source or to the page on this site it comes from. The numbers are as they stood on 18 October 2026, and they were the same when the site worked them out again on 19 October ([the numbers as they stand](https://outrunningageing.com/data/headline.json)).
 
-19 October 2026: this post was rewritten in plainer words; no fact or figure in it changed ([what changed, day by day](https://outrunningageing.com/story/#what-changed)).
+19 October 2026: this post was rewritten in plainer words; no fact or figure in it changed ([what changed, day by day](https://outrunningageing.com/about/#what-changed)).

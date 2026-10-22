@@ -1,0 +1,46 @@
+---
+// About: who is asking and why, then how the numbers are worked out, then what has been read and
+// what it moved. Made on 2026-10-21 from the Method and Story pages when the top bar was simplified
+// (tracker pattern rule 4.21, ruled by John that day): the two pages' text is kept as it was, in
+// components/AboutMethod.astro and components/AboutStory.astro, and /method/ and /story/ redirect to
+// their parts here. The "Who is asking" section, which opened the method page, now opens this one.
+import Base from '../layouts/Base.astro';
+import AboutMethod from '../components/AboutMethod.astro';
+import AboutStory from '../components/AboutStory.astro';
+---
+
+<Base title="About Outrunning Ageing: who is asking, how the numbers are worked out, and what has moved them" description="Who built Outrunning Ageing and why, how the year at the top of the site is computed from the tree of treatments, and every paper read so far with what it settled or moved.">
+  <section class="hero">
+    <p class="eyebrow">About</p>
+    <h1>Who is asking, and how it works</h1>
+  </section>
+
+  <section class="section who" id="who">
+    <div>
+      <p class="kicker">Who is asking</p>
+      <p>I'm John, and I write about AI, sentience and the spread of conscious life beyond Earth at <a href="https://sentient-horizons.com" rel="noopener">Sentient Horizons</a>. This is the fourth of a family of sites built the same way: <a href="https://beltequation.com" rel="noopener">The Belt Equation</a> tracks the odds of leaving Earth, <a href="https://thequietgalaxy.com" rel="noopener">The Quiet Galaxy</a> asks why the sky is quiet, and <a href="https://theupgradetree.com" rel="noopener">The Upgrade Tree</a> counts how much of a person can be changed on purpose today. Here the question is whether, and when, medicine starts giving back more than a year of healthy life for each year that passes. I wanted a place where that argument is laid out piece by piece, every number carries its source, and a new result moves the answer in public.</p>
+    </div>
+    <div>
+      <p class="kicker">Why the name?</p>
+      <p>Because the question is a race between two rates. Ageing takes about a year from a middle-aged person's remaining years every year, and medicine gives a little back. The site asks when the second overtakes the first, so that someone who keeps up with the best available care finds their remaining years holding steady or rising. Advocates of longevity science call that crossing <a href="https://en.wikipedia.org/wiki/Longevity_escape_velocity" rel="noopener">longevity escape velocity</a>, a phrase coined in 2004. The site does not assume it is coming, and works out from the record how far off it looks.</p>
+    </div>
+  </section>
+
+  <section class="section narrow">
+    <ul class="about-toc">
+      <li><a href="#method">How the numbers are worked out</a></li>
+      <li><a href="#story">The story so far</a>, every paper read and what it settled or moved</li>
+      <li><a href="/reading/">This week's reading</a>, where every treatment is read against the news each week</li>
+      <li><a href="/disagree/">Feedback</a>, if a number here is wrong</li>
+    </ul>
+  </section>
+
+  <AboutMethod />
+  <AboutStory />
+</Base>
+
+<style>
+  .about-toc { margin: 0; padding-left: 1.1em; font-size: 16px; line-height: 1.7; }
+  :global(.about-part) { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 48px; scroll-margin-top: 70px; }
+  :global(.about-h) { font-size: clamp(30px, 4vw, 44px); line-height: 1.12; letter-spacing: -0.02em; margin: 0 0 14px; }
+</style>

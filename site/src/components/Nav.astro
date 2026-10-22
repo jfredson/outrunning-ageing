@@ -14,23 +14,23 @@
 // Reading · Story | Method · Disagree · Source, The Upgrade Tree's scheme exactly. John ruled on
 // 2026-10-17 that "Self-experiments" joins the spine after "Claims", as rule 4.6 has it (the first
 // build had left it to the footer, the home page and the claims log). The extra name needs about
-// 1000px on one row, so the bar collapses to the menu at 1020px (rules at the end of global.css)
-// instead of the skeleton's 820px, which would let it wrap onto a second line in between.
+// 1000px on one row, so the bar collapsed to the menu at 1020px until 2026-10-21, when the five-page bar
+// brought it back to the skeleton's 820px.
 import { REPO } from '../lib/records';
 const path = Astro.url.pathname;
+// Simplified on 2026-10-21 (tracker pattern rule 4.21, ruled by John that day), which replaces the
+// tiers described above: the pages a reader would come for, then Family beside the theme switch (rule
+// 4.9). Method and Story became the two parts of About; this week's reading keeps its page and is
+// linked from the home page, About, News and the footer; Feedback and Source moved to the footer.
 const primary = [
   { href: '/branches/', label: 'Branches', also: ['/leaves/'] },
   { href: '/claims/', label: 'Claims', also: [] },
   { href: '/self-experiments/', label: 'Self-experiments', also: [] },
-  { href: '/reading/', label: 'Reading', also: [] },
-  { href: '/news/', label: 'News', also: [] }, // tracker pattern rule 4.10, John 2026-10-18
-  { href: '/story/', label: 'Story', also: [] },
+  { href: '/news/', label: 'News', also: [] }, // tracker pattern rule 4.10
+  { href: '/about/', label: 'About', also: [] },
 ];
 const secondary = [
-  { href: '/method/', label: 'Method', also: [] },
-  { href: '/disagree/', label: 'Feedback', also: [] },
-  { href: REPO, label: 'Source', also: [] },
-  { href: 'https://sentient-horizons.com/projects/', label: 'Family', also: [] }, // the family's Projects page; tracker pattern rule 4.9, John 2026-10-17
+  { href: 'https://sentient-horizons.com/projects/', label: 'Family', also: [] }, // the family's Projects page; tracker pattern rule 4.9
 ];
 const isActive = (l: { href: string; also: string[] }) =>
   !l.href.startsWith('http') && (path.startsWith(l.href) || l.also.some((a) => path.startsWith(a)));
@@ -76,7 +76,7 @@ const isActive = (l: { href: string; also: string[] }) =>
     }
     btn.addEventListener('click', function () { setOpen(!header.classList.contains('nav-open')); });
     menu.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
-    window.addEventListener('resize', function () { if (window.innerWidth > 1020) setOpen(false); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 820) setOpen(false); });
   })();
 </script>
 
