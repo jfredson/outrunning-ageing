@@ -7,14 +7,14 @@
 // Upgrade Tree's reading page (which copied The Belt Equation's Radar) and The Quiet Galaxy's.
 // The reading proposes; it moves a treatment one rung only on a record of the kind the treatment
 // itself names, and leaves everything else for the author (docs/weekly-reading.md).
+// 2026-10-21: the three-column card grid became one column of entries that open and close
+// (components/ReadingEntries.astro), with the counts under the heading, as John approved.
 import Base from '../layouts/Base.astro';
-import { records, longDate, plural } from '../lib/records';
-import { datedPosts, postPath } from '../lib/news';
-import type { Reading, ReadingItem } from '../lib/records';
+import ReadingEntries from '../components/ReadingEntries.astro';
+import { records, longDate, plural, readingCountLine } from '../lib/records';
+import type { Reading } from '../lib/records';
 
 const readings = records.readings;
-const newsPosts = await datedPosts();
-const postFor = (recordId: string) => newsPosts.find((p) => p.data.records.includes(recordId)) ?? null; // rule 4.14
 const latest = readings[0] ?? null;
 const older = readings.slice(1);
 const waiting = records.waiting;
@@ -34,7 +34,6 @@ const whatCameOfIt = (r: Reading) => {
   }
   return parts.join(', ');
 };
-const recordPath = (item: ReadingItem) => item.record.path;
 const description = latest
   ? `Outrunning Ageing's weekly reading: ${whatWasRead(latest)} on ${longDate(latest.read_on)}; ${whatCameOfIt(latest)}. What was searched, what was found, and the verdict on every record.`
   : "Outrunning Ageing's weekly reading of the treatments, claims and self-experiments against the news. The first reading has not run yet.";
@@ -44,6 +43,7 @@ const description = latest
   <section class="hero">
     <p class="eyebrow">This week's reading</p>
     <h1>Every record, read against the news each week</h1>
+    {latest && <p class="reading-count-line">Latest reading, <a href={`#${latest.id}`}>{longDate(latest.read_on)}</a>: {readingCountLine(latest, verdicts)}</p>}
     <p class="lede">
       Each treatment and tool on the tree carries a test that says exactly what would count, and a line saying what kind of public record settles it. Each claim carries a date it can be judged by, and each self-experiment a line on what its subject has made public. Once a week Claude, the AI assistant this project is built with, searches the web against every one of them, writes down what it searched and what it found, and gives each a verdict, whether or not anything moved.
     </p>
@@ -72,46 +72,9 @@ const description = latest
         <p class="prose" style="font-size: 16px;"><strong>Note added {longDate(n.date)}:</strong> {n.text}</p>
       ))}
       {latest.limits && <p class="prose" style="font-size: 16px;"><strong>What this reading could not see:</strong> {latest.limits}</p>}
-      <div class="reading-counts">
-        <span class="badge kind">{whatWasRead(latest)}</span>
-        <span class="badge kind">{plural(latest.searches, 'search', 'searches')}</span>
-        {verdicts.map((v) => latest.counts[v.key] > 0 && <span class={`badge v-${v.key}`}>{latest.counts[v.key]} {v.label.toLowerCase()}</span>)}
-      </div>
+      <p class="reading-tally">{whatWasRead(latest)}, {plural(latest.searches, 'search', 'searches')}. Quiet entries are closed; open one to see its full note and its searches.</p>
 
-      {latest.groups.map((g) => (
-        <div class="reading-group">
-          <h3>{g.key === 'the-whole-question' ? g.name : <a href={g.path}>{g.name}</a>}</h3>
-          <div class="scan-cards">
-            {g.items.map((item) => (
-              <article class={`scan-card v-${item.verdict}`} id={`${latest.id}-${item.id}`}>
-                <div class="card-top">
-                  <a class="card-name" href={recordPath(item)}>{item.name}</a>
-                  <span class={`badge v-${item.verdict}`}>{item.verdict_label}</span>
-                </div>
-                {item.kind !== 'leaf' && <span class="badge kind">{item.kind_label}</span>}
-                <p class="card-found">{item.found}</p>
-                {item.verdict === 'moved' && <p class="card-found"><strong>Moved from {item.moved_from_label} to {item.moved_to_label}</strong>, with a dated revision on the treatment's page.</p>}
-                {item.publications.length > 0 && (
-                  <p class="card-found dim">Logged: {item.publications.map((p, i) => <>{i > 0 ? '; ' : ''}<a href={p.path}>{p.authors_short}, {p.date}</a></>)}.</p>
-                )}
-                {item.sibling_stage_label && <p class="card-found dim">The Upgrade Tree shows it at {item.sibling_stage_label.toLowerCase()}{item.sibling_agrees ? ', which agrees' : ', which does not agree, and a reading is filed on both sites'}.</p>}
-                {item.for_john && item.resolved_on && <p class="for-john"><strong>Resolved on {longDate(item.resolved_on)}.</strong> {item.resolved_by} <span class="dim">What the reading left for the author: {item.for_john}</span></p>}
-                {item.for_john && item.resolved_on && postFor(item.id) && <p class="for-john">In the news: <a href={postPath(postFor(item.id)!)}>{postFor(item.id)!.data.title}</a>.</p>}
-                {item.for_john && !item.resolved_on && <p class="for-john"><strong>Left for the author.</strong> {item.for_john}</p>}
-                {item.search_short && <p class="card-found dim" style="font-size: 13px;">{item.search_short}</p>}
-                <details>
-                  <summary>{plural(item.queries.length, 'search', 'searches')}{item.sources.length > 0 ? `, ${plural(item.sources.length, 'source', 'sources')}` : ''}</summary>
-                  <ul>
-                    {item.queries.map((q) => <li>{q}</li>)}
-                    {item.reused.map((q) => <li>Borrowed: {q}</li>)}
-                    {item.sources.map((s) => <li><a href={s} rel="noopener nofollow">{s}</a></li>)}
-                  </ul>
-                </details>
-              </article>
-            ))}
-          </div>
-        </div>
-      ))}
+      <ReadingEntries reading={latest} />
     </section>
   )}
 
@@ -147,16 +110,7 @@ const description = latest
               <p><strong>Note added {longDate(n.date)}:</strong> {n.text}</p>
             ))}
             {r.limits && <p><strong>What this reading could not see:</strong> {r.limits}</p>}
-            {r.groups.map((g) => (
-              <>
-                <h4 style="font-family: var(--sans); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 14px 0 4px;">{g.name}</h4>
-                <ul class="checks">
-                  {g.items.map((item) => (
-                    <li><span class={`badge v-${item.verdict}`}>{item.verdict_label}</span> {item.kind !== 'leaf' && <span class="badge kind">{item.kind_label}</span>} <a href={recordPath(item)}>{item.name}</a><p>{item.found}{item.for_john && (item.resolved_on ? <> <em>Left for the author, resolved on {longDate(item.resolved_on)}:</em> {item.for_john}</> : <> <em>Left for the author:</em> {item.for_john}</>)}</p>{item.resolved_on && postFor(item.id) && <p class="for-john">In the news: <a href={postPath(postFor(item.id)!)}>{postFor(item.id)!.data.title}</a>.</p>}</li>
-                  ))}
-                </ul>
-              </>
-            ))}
+            <ReadingEntries reading={r} />
           </div>
         </details>
       ))}

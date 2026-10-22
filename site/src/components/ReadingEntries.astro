@@ -1,0 +1,65 @@
+---
+// One reading's entries in one column, grouped by branch (tracker pattern rule 4.1, the layout John
+// approved 2026-10-21 in place of the three-column card grid). Each entry is one row when closed: the
+// name, the verdict, and the first sentence of what was found. Opening it shows the rest of the note,
+// anything left for the author and how it was resolved, the searches and the sources. Quiet entries
+// start closed; every other verdict starts open. A native <details>, so it works without JavaScript
+// and with a keyboard and a screen reader. The latest reading and the earlier ones both use it.
+import { longDate, plural, splitFirstSentence, opensByDefault } from '../lib/records';
+import { datedPosts, postPath } from '../lib/news';
+import type { Reading } from '../lib/records';
+
+interface Props { reading: Reading }
+const { reading } = Astro.props;
+const newsPosts = await datedPosts();
+const postFor = (recordId: string) => newsPosts.find((p) => p.data.records.includes(recordId)) ?? null; // rule 4.14
+const recordWord = { leaf: "the treatment's page", claim: 'the claim', experiment: 'the self-experiment' } as const;
+---
+
+{reading.groups.map((g) => (
+  <div class="reading-group">
+    <h3>{g.key === 'the-whole-question' ? g.name : <a href={g.path}>{g.name}</a>}</h3>
+    <div class="reading-rows">
+      {g.items.map((item) => {
+        const { line, rest } = splitFirstSentence(item.found);
+        const post = item.for_john && item.resolved_on ? postFor(item.id) : null;
+        return (
+          <details class={`reading-row v-${item.verdict}`} id={`${reading.id}-${item.id}`} open={opensByDefault(item)}>
+            <summary>
+              <span class="row-head">
+                <span class="row-name">{item.name}</span>
+                <span class="row-tags">
+                  {item.kind !== 'leaf' && <span class="badge kind">{item.kind_label}</span>}
+                  <span class={`badge v-${item.verdict}`}>{item.verdict_label}</span>
+                  {item.for_john && item.resolved_on && <span class="badge v-resolved">Resolved</span>}
+                </span>
+              </span>
+              <span class="row-line">{line}</span>
+            </summary>
+            <div class="row-body">
+              {rest && <p class="card-found">{rest}</p>}
+              {item.verdict === 'moved' && <p class="card-found"><strong>Moved from {item.moved_from_label} to {item.moved_to_label}</strong>, with a dated revision on the treatment's page.</p>}
+              {item.publications.length > 0 && (
+                <p class="card-found dim">Logged: {item.publications.map((p, i) => <>{i > 0 ? '; ' : ''}<a href={p.path}>{p.authors_short}, {p.date}</a></>)}.</p>
+              )}
+              {item.sibling_stage_label && <p class="card-found dim">The Upgrade Tree shows it at {item.sibling_stage_label.toLowerCase()}{item.sibling_agrees ? ', which agrees' : ', which does not agree, and a reading is filed on both sites'}.</p>}
+              {item.for_john && item.resolved_on && <p class="for-john"><strong>Resolved on {longDate(item.resolved_on)}.</strong>{' '}{item.resolved_by}{' '}<span class="dim">What the reading left for the author: {item.for_john}</span></p>}
+              {post && <p class="for-john">In the news: <a href={postPath(post)}>{post.data.title}</a>.</p>}
+              {item.for_john && !item.resolved_on && <p class="for-john"><strong>Left for the author.</strong>{' '}{item.for_john}</p>}
+              {item.search_short && <p class="card-found dim" style="font-size: 13px;">{item.search_short}</p>}
+              <div class="row-searches">
+                <p>{plural(item.queries.length, 'search', 'searches')}{item.sources.length > 0 ? `, ${plural(item.sources.length, 'source', 'sources')}` : ''}:</p>
+                <ul>
+                  {item.queries.map((q) => <li>{q}</li>)}
+                  {item.reused.map((q) => <li>Borrowed: {q}</li>)}
+                  {item.sources.map((s) => <li><a href={s} rel="noopener nofollow">{s}</a></li>)}
+                </ul>
+              </div>
+              <p class="row-link"><a href={item.record.path}>Go to {recordWord[item.kind]}</a></p>
+            </div>
+          </details>
+        );
+      })}
+    </div>
+  </div>
+))}
