@@ -580,3 +580,8 @@ a.dim:hover { color: var(--accent); }
 .footer-follow { margin: 4px 0 0; font-size: 12.5px; }
 .footer-follow a { color: var(--muted); }
 .news-follow { font-family: var(--sans); font-size: 13.5px; color: var(--muted); max-width: 760px; margin-top: 22px; border-top: 1px solid var(--line); padding-top: 10px; }
+
+/* A story entry's notes quote raw web addresses, which do not break on their own and pushed the page
+   sideways on a phone (found 2026-10-21; John agreed the fix go live before the launch). Long words
+   may break anywhere. */
+.entry-body { overflow-wrap: anywhere; }
