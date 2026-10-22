@@ -592,3 +592,40 @@ export function builtFrom(): string {
 
 /** The one line the site repeats about self-experiments (ruled in the kickoff, 2026-10-16). */
 export const ONE_PERSON_LINE = 'A claim about one person is a story, not a record, and it moves nothing on the tree.';
+
+/** The weekly reading's one-line form of a note (tracker pattern rule 4.1): its first sentence, and
+ *  the rest for when the entry is opened. Nothing is rewritten; the split is at the first full stop,
+ *  question or exclamation mark followed by a space and a capital, a digit or an opening bracket,
+ *  skipping initials ("U.S.") and the common abbreviations. A note with no such break is all line. */
+const ABBREVIATIONS = /(?:^|\s)(?:e\.g|i\.e|etc|vs|cf|al|Dr|Mr|Mrs|Ms|Prof|St|No|Fig|approx|Inc|Ltd|Co|Jr|Sr)\.$/;
+export function splitFirstSentence(note: string): { line: string; rest: string } {
+  const text = note.replace(/\s+/g, ' ').trim();
+  const breakAt = /[.!?]["'’”)]?\s+(?=[A-Z0-9(“"‘'])/g;
+  let m: RegExpExecArray | null;
+  while ((m = breakAt.exec(text)) !== null) {
+    const upTo = text.slice(0, m.index + 1);
+    if (ABBREVIATIONS.test(upTo) || /(?:^|[\s.])[A-Z]\.$/.test(upTo)) continue;
+    const end = m.index + m[0].trimEnd().length;
+    return { line: text.slice(0, end), rest: text.slice(end).trim() };
+  }
+  return { line: text, rest: '' };
+}
+
+/** Which entries of a reading open by default (tracker pattern rule 4.1): everything but Quiet, so
+ *  anything left for the author, anything that moved, anything noted and anything resolved. */
+export const opensByDefault = (item: ReadingItem) => item.verdict !== 'quiet';
+
+/** "84 checked · 71 quiet · 13 left for the author, all since resolved", in the verdicts' own words. */
+export function readingCountLine(r: Reading, verdicts: { key: ReadingVerdict; label: string }[]): string {
+  const parts = [`${r.read} checked`];
+  for (const v of verdicts) {
+    const n = r.counts[v.key];
+    if (n === 0) continue;
+    let part = `${n} ${lowerFirst(v.label)}`;
+    if (v.key === 'flagged' && r.resolved > 0) {
+      part += r.waiting === 0 ? (n === 1 ? ', since resolved' : `, all ${n} since resolved`) : `, ${r.resolved} since resolved`;
+    }
+    parts.push(part);
+  }
+  return parts.join(' · ');
+}
