@@ -4,6 +4,7 @@ Every change to the records or the site, dated year-month-day, newest first. Pla
 
 ## 2026-10-21
 
+- **The weekly reading page shows its entries in one column, each one line until opened, as John approved on 2026-10-21.** The three-column grid of cards stretched every card in a row to the longest one and left the prose in narrow columns. Each entry is now one row: its name, its verdict and the first sentence of what was found. Opening it shows the rest. Quiet entries start closed and every other verdict starts open, so what needs attention is visible at once. The counts sit under the page's heading, and earlier readings use the same rows. No record, verdict or wording changed.
 - **A simpler top bar, prepared for after the launch: Branches · Claims · Self-experiments · News · About, with Family beside the light/dark switch** (tracker pattern rule 4.21). How the numbers are worked out and the story so far become the two parts of one About page, which opens with "Who is asking"; their text is unchanged, and the old addresses (`/method/` and `/story/`, including a link to one paper in the story) land on the matching part. This week's reading keeps its page and address and is linked from the home page, About, News and the footer. Feedback and the source code move to the footer. No record, stage, year or other address changes.
 
 ## 2026-10-20
