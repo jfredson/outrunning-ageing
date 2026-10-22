@@ -529,19 +529,9 @@ a.dim:hover { color: var(--accent); }
   .bcard { min-height: 0; }
 }
 
-/* The top bar collapses to the menu earlier than the skeleton's 820px (2026-10-17). With
-   "Self-experiments" in the bar the seven names, the rule and the theme toggle need about 1000px
-   on one row; between 821px and there the skeleton lets the row wrap onto a second line. These are
-   the skeleton's own collapse rules, repeated at the wider breakpoint, so nothing above the marked
-   line changes; the script in Nav.astro closes the open menu at the same width. */
-@media (max-width: 1020px) {
-  .nav-toggle { display: inline-flex; }
-  .navlinks { display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; align-items: flex-end; gap: 2px; margin: 0; padding: 8px 26px 16px; background: var(--header-bg); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
-  .site-header.nav-open .navlinks { display: flex; }
-  .navlinks a { padding: 11px 6px; border-radius: 6px; font-size: 15px; text-align: right; }
-  .navlinks a.nav-secondary { font-size: 15px; }
-  .nav-divider { display: none; }
-}
+/* The top bar used to collapse to the menu at 1020px, because seven names needed about 1000px on one
+   row (2026-10-17). With the five-page bar of 2026-10-21 (tracker pattern rule 4.21) it fits in about
+   670px, so the skeleton's own 820px collapse applies again and the wider copy of its rules is gone. */
 
 /* ---- news (tracker pattern, rules 4.10 to 4.13; John 2026-10-18) ---- */
 .news-list { list-style: none; padding: 0; margin: 0; max-width: 760px; }
@@ -571,12 +561,15 @@ a.dim:hover { color: var(--accent); }
 .in-the-news { border-left: 3px solid var(--accent); padding: 10px 14px; margin: 18px 0; background: var(--callout-bg); font-family: var(--sans); font-size: 14px; max-width: 760px; }
 .in-the-news .k { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 4px; }
 
-/* The bar at its limit (tracker pattern, rules 4.7 and 4.10; 2026-10-18): with News in the spine the
-   ten handles ended 2 pixels short of the theme toggle at 1280 pixels and the toggle wrapped, so the
-   handles sit 3 pixels tighter on this site only. Measured: the last handle ends at about 1092. */
-.navlinks a { padding: 6px 9px; }
+/* The bar's handles sat 3 pixels tighter on this site from 2026-10-18, when ten of them barely fitted at
+   1280 pixels. The five-page bar of 2026-10-21 (tracker pattern rule 4.21) fits with the skeleton's normal
+   spacing, so that override is gone. */
 
 /* The quiet link to the family's X account beside the family line (John, 2026-10-18). */
 .footer-follow { margin: 4px 0 0; font-size: 12.5px; }
 .footer-follow a { color: var(--muted); }
 .news-follow { font-family: var(--sans); font-size: 13.5px; color: var(--muted); max-width: 760px; margin-top: 22px; border-top: 1px solid var(--line); padding-top: 10px; }
+
+/* A story entry's notes quote raw web addresses, which do not break on their own and pushed the page
+   sideways on a phone (found 2026-10-21, while checking the five-page bar). Long words may break anywhere. */
+.entry-body { overflow-wrap: anywhere; }

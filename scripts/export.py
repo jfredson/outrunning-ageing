@@ -329,7 +329,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
 
     def pub_ref(pid: str) -> dict:
         p = pub_by_id[pid]
-        return {"id": pid, "title": p["title"], "date": p["date"], "path": f"/story/#{pid}",
+        return {"id": pid, "title": p["title"], "date": p["date"], "path": f"/about/#{pid}",
                 "link": p["link"], "first_author": (p["authors"] or [""])[0],
                 "authors_short": authors_short(p["authors"])}
 
@@ -689,7 +689,7 @@ def build_export(loaded: dict, headline_file: Path | None, changelog_file: Path 
             "settles": pubs_settle[p["id"]], "moved": pubs_moved[p["id"]],
             "leaves": [leaf_ref(lid) for lid in ls], "branches": [branch_ref(bk) for bk in bs],
             "verify": list(p.get("verify") or []), "notes": text(p.get("notes")),
-            "example": p.get("example") is True, "file": record_file(p, data_dir), "path": f"/story/#{p['id']}",
+            "example": p.get("example") is True, "file": record_file(p, data_dir), "path": f"/about/#{p['id']}",
         })
 
     # ---- the story so far: dated entries, newest day first, with totals per kind ----
