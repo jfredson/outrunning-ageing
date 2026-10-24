@@ -1,12 +1,14 @@
 The data in data/ (every TOML record: branches, leaves, claims, self-experiments,
 publications and weekly readings) is licensed under the Creative Commons Attribution 4.0
 International licence (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/.
-Copyright (c) 2026 John Fredrickson. The scripts in scripts/ and the site in site/ are
-under the MIT licence in LICENSE. How to cite: see README.md.
+Copyright (c) 2026 John Andrew Fredrickson. The scripts in scripts/ and the site's code in site/ are
+under the MIT licence in LICENSE; the site's text is under CC BY 4.0, like the data. How to cite: see README.md.
 
 Short quotations inside records are excerpts from the cited sources, included so each
 claim can be checked; their copyright stays with their authors and publishers. The claims
 log quotes what named people said in public, with the source each quotation came from.
+
+Please credit as: Outrunning Ageing, by John Andrew Fredrickson, a Sentient Horizons project, https://outrunningageing.com/
 
 ----
 Creative Commons Attribution 4.0 International
