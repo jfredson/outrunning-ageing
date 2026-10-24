@@ -30,6 +30,6 @@ const named = post.data.records.map((id) => leafById(id)).filter(Boolean);
         {post.data.sources.length > 0 && <p class="sources">Sources: {post.data.sources.map((s, i) => <>{i > 0 ? ' · ' : ''}<a href={s.url} rel="noopener">{s.label}</a></>)}.</p>}
       </section>
     )}
-    <p class="news-follow">Follow the news: <a href="/news/feed.xml">the feed</a> · <a href="https://x.com/SentHorizons" rel="noopener">@SentHorizons on X</a>.</p>
+    <p class="news-follow">Follow the news: <a href="/news/feed.xml">the feed</a> · <a href="https://x.com/SentHorizons" rel="noopener">@SentHorizons on X</a> · <a href="https://www.reddit.com/r/SentientHorizons/" rel="noopener">r/SentientHorizons on Reddit</a>.</p>
   </article>
 </Base>
