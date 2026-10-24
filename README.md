@@ -60,10 +60,10 @@ Every push to `main` that touches the records, the scripts or the site runs `.gi
 
 ## Licences
 
-The data under `data/` is free to reuse with credit under Creative Commons Attribution 4.0 (`LICENSE-DATA`). The scripts and the site are under the MIT licence (`LICENSE`).
+The data under `data/` is free to reuse with credit under Creative Commons Attribution 4.0 (`LICENSE-DATA`). The scripts and the site's code are under the MIT licence (`LICENSE`); its text and data are under CC BY 4.0 (`LICENSE-DATA`).
 
 When you reuse the data or the text, please credit it as: *Outrunning Ageing*, by John Andrew Fredrickson, a Sentient Horizons project, https://outrunningageing.com/
 
 ## Author
 
-John Fredrickson. A Sentient Horizons project, kicked off 2026-10-16.
+John Andrew Fredrickson. A Sentient Horizons project, kicked off 2026-10-16.
