@@ -1,0 +1,813 @@
+# The third weekly reading of Outrunning Ageing (docs/weekly-reading.md; layout in docs/record-schema.md
+# under "The scan record"). Run by the scheduled task on 2026-10-25; the searching was shared among nine
+# helper sessions, each given a group of records, and their findings were assembled by the main session.
+# Written once and never edited. Items in the order read: the treatments branch by branch, then the claims
+# by id, then the self-experiments.
+
+id = "2026-10-25"
+read_on = 2026-10-25
+covers_from = 2026-10-18
+ran_at = "2026-10-25T13:10:45Z"
+run_by = "scheduled"
+commit_before = "2706643"
+leaves_read = 45
+claims_read = 31
+experiments_read = 9
+searches = 168
+summary = """
+The third weekly reading, run by the scheduled task on 2026-10-25, covering 2026-10-18 to 2026-10-25 and so
+overlapping the last reading by a week. Every one of the 45 treatments, 31 claims and 9 self-experiments was
+read, each with at least two searches of its own. Nothing moved and nothing was logged in the publications
+log: no record of the kind a treatment's test names as settling it showed the next rung reached inside the
+window. Three items are flagged, none of them news from the window: a report of stem-cell-derived dopamine-making
+cells in Parkinson's disease from July 2026 that the records do not hold and whose journal page could not be found,
+a podcast debate reposted on 2026-10-16 in which one speaker restated his even odds, and a 2025-10-10 lecture in which
+another gave the same 2032 date. The rest were quiet. The five treatments shared with The Upgrade Tree stand at the
+same rung on both sites."""
+limits = """
+Helper readers opened about 8 pages in all, news pages, a registry data page and a blog repost; most journal, company and
+regulator pages were not opened because no search result in the window called for it. The search tool cannot limit results
+by date, so a quiet entry shows only what the searches returned. Nine helper readers did the searching, each over a group of
+records, and one reader assembled their findings.
+"""
+
+[[item]]
+leaf = "aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial"
+verdict = "quiet"
+queries = [
+  "Unity Biotechnology OR senolytic placebo-controlled trial results peer-reviewed journal October 2026",
+  "drug that clears senescent cells improves patients versus placebo news this week",
+]
+found = """No result dated in the window turned up in a news-style search. The searches returned only older work: the 2019 kidney pilot, the 2019 lung-scarring pilot, a 2024 osteoporosis trial with mixed results, and a 2026 review saying clear evidence of benefit in people is still lacking. Nothing from Unity Biotechnology and no regulator's approval of a drug of this class appeared."""
+
+[[item]]
+leaf = "aged-cell-clearing-drug-relieves-knee-arthritis"
+verdict = "quiet"
+queries = [
+  "ClinicalTrials.gov results posted senolytic knee osteoarthritis fisetin OR UBX0101 OR lorecivivint October 2026",
+  "knee arthritis senescent cell drug trial news late October 2026",
+]
+found = """No new result for the window turned up. The registry search returned the fisetin trial with posted results and the withdrawn ROPE entry, both already held in the record, plus a fisetin-and-losartan trial listing with no results posted. The news-style search returned only the 2019 to 2020 coverage of the failed UBX0101 trial."""
+
+[[item]]
+leaf = "clearing-aged-cells-makes-old-animals-live-longer"
+verdict = "quiet"
+queries = [
+  "Aging Cell OR Nature Aging senolytic extends lifespan old mice published October 2026",
+  "clearing senescent cells human trial lifespan healthspan placebo news October 2026",
+]
+found = """No result dated in the window turned up. The searches returned the 2018 and 2016 mouse lifespan results the record already holds, and one mouse paper in the journal Aging (Berkeley, 2026-07-17) on targeting cancer and aged cells together, which is before the window and in animals. No human trial with a lifespan or years-free-of-disease measure turned up."""
+
+[[item]]
+leaf = "drug-clears-aged-cells-from-a-person"
+verdict = "quiet"
+queries = [
+  "dasatinib quercetin OR fisetin OR senolytic trial report journal fewer senescent cells biopsy October 2026",
+  "senolytic clinical trial new results announced this week ageing drug",
+]
+found = """No new report for the window turned up in a news-style search. The searches returned the 2019 kidney report the stage rests on, the 2024 osteoporosis trial, a monkey study, and a registered trial in childhood cancer survivors (registry number NCT04733534) with no results shown in the search. No approval of a drug of this class appeared."""
+sibling_stage = "first-human"
+sibling_agrees = true
+
+[[item]]
+leaf = "immune-cells-engineered-to-kill-aged-cells"
+verdict = "quiet"
+queries = [
+  "ClinicalTrials.gov senolytic CAR T uPAR first-in-human registered October 2026",
+  "engineered T cells destroy senescent cells study news October 2026",
+]
+found = """No registry entry for engineered immune cells given to a person to clear aged cells turned up, and no result dated in the window. The searches returned the 2020 Nature mouse paper, the later mouse studies from the same group, and a 2024 laboratory study of another engineered-cell design, all before the window and none in a person."""
+
+[[item]]
+leaf = "a-drug-lengthens-chromosome-ends-in-a-person"
+verdict = "quiet"
+queries = [
+  "danazol OR telomere biology disorder FDA OR Blood OR Blood Advances report telomere length treatment October 2026",
+  "telomere lengthening drug patients study results news this week",
+]
+found = """No result dated in the window turned up. The searches returned the 2016 danazol trial the stage rests on, a 2024 conference abstract on the long-term results, a low-dose danazol trial listing whose status the sources give inconsistently, and older trials of a supplement and of nandrolone. No regulator's step for danazol in telomere disease appeared."""
+
+[[item]]
+leaf = "a-gene-is-edited-inside-a-persons-body"
+verdict = "quiet"
+queries = [
+  "Intellia Therapeutics press release October 2026 nex-z MAGNITUDE FDA",
+  "in vivo CRISPR gene editing inside body approval transthyretin news week of October 19 2026",
+]
+found = """No Intellia release or regulator notice dated in the window turned up. The searches returned the January 2026 lifting of the regulator's hold on the nerve-disease trial, the October 2025 hold, and the plan to finish enrolment in the second half of 2026, all already known to the record. No approval of an in-body gene editor for an age-related disease appeared."""
+
+[[item]]
+leaf = "gene-therapy-lengthens-chromosome-ends-in-an-old-animal"
+verdict = "quiet"
+queries = [
+  "ClinicalTrials.gov ZSCAN4 EXG-34217 OR telomerase gene therapy telomere results October 2026",
+  "telomerase gene therapy telomere extension patients OR mice new study news October 2026",
+]
+found = """No new paper or result dated in the window turned up. I opened the registry's data page for the ZSCAN4 trial (registry number NCT04211714): it still shows active, not recruiting, 12 people, an estimated primary completion of 2026-10-08, no results posted, and last updated 2026-02-06. The news-style searches returned the 2012 mouse work, the 2025 two-person report and the Colombia trial coverage, nothing new."""
+
+[[item]]
+leaf = "premature-ageing-mutation-corrected-in-a-living-animal"
+verdict = "quiet"
+queries = [
+  "progeria base editing Science OR Nature OR Nature Medicine OR NEJM study October 2026",
+  "progeria gene correction mice OR children treatment news this week Progeria Research Foundation",
+]
+found = """No result dated in the window turned up. The searches returned the 2021 Nature mouse paper the stage rests on, the March 2026 manufacturing agreement of the Progeria Research Foundation for a gene-editing therapy (still in preparation for a first trial), and a 2026 talk listing about laboratory-grown tissue. No first child treated and no new animal paper appeared."""
+
+[[item]]
+leaf = "a-cells-settings-are-rewritten-at-one-gene-in-a-person"
+verdict = "quiet"
+queries = [
+  "Tune Therapeutics TUNE-401 hepatitis B epigenetic silencing press release OR ClinicalTrials.gov October 2026",
+  "epigenetic editing gene silencing human patients peer-reviewed results news this week",
+]
+found = """No peer-reviewed report or posted registry results dated in the window turned up. The newest human data returned is still the company's conference presentation released 2026-05-30, which the record holds. The wider search returned only animal work (a 2025 cholesterol-gene editor in mice and monkeys, 2025 T-cell work)."""
+
+[[item]]
+leaf = "a-cocktail-of-ordinary-drugs-resets-cell-age"
+verdict = "quiet"
+queries = [
+  "peer-reviewed journal small-molecule chemical reprogramming mice biological age epigenetic clock October 2026",
+  "drug cocktail rejuvenates aged animals without gene therapy new study this week",
+]
+found = """No new peer-reviewed report of a drug-only mix moving an age marker in a living animal turned up. The searches returned only the eLife multi-omics study of mouse cells in a dish (reviewed preprint of 2023), a January 2024 Frontiers in Aging mouse paper, the 2023 Harvard cocktail report and older drug-combination lifespan work, all older than the window or not the test."""
+
+[[item]]
+leaf = "a-person-receives-cell-resetting-genes-in-a-trial"
+verdict = "quiet"
+queries = [
+  "ClinicalTrials.gov NCT07290244 ER-100 Life Biosciences press release October 2026",
+  "reprogramming gene therapy first patients dosed Yamanaka factors company news late October 2026",
+]
+found = """No registry change and no company notice dated 2026-10-18 to 2026-10-25 turned up. The searches returned Life Biosciences' first-dose and funding releases, its announcement that it would present first-in-human data, and 2026 commentary (Foley, Mondaq), all already held; no other company was found dosing a person with these genes."""
+
+[[item]]
+leaf = "a-persons-biological-age-reading-falls-after-treatment"
+verdict = "quiet"
+queries = [
+  "peer-reviewed randomised trial epigenetic clock biological age reduced treatment published October 2026 journal",
+  "TRIIM-X thymus regeneration trial results Intervene Immune Fahy 2026",
+]
+found = """No peer-reviewed report dated in the window turned up. The searches returned the semaglutide clock analysis in Nature Communications (May or June 2026, not pre-specified), the 2021 diet-and-lifestyle trial, the 2019 thymus trial, the unchanged registry page for the larger thymus follow-up trial, and a Foresight talk and June 2026 summary of unpublished follow-up results, which are not a paper."""
+
+[[item]]
+leaf = "partially-resetting-cells-reverses-ageing-in-an-animal"
+verdict = "quiet"
+queries = [
+  "Nature OR Cell OR Aging Cell partial reprogramming old mice rejuvenation paper October 2026",
+  "cellular rejuvenation reprogramming reverses ageing news this week",
+]
+found = """No new animal or human report of measured reversal turned up. The one item dated in the window is a University of Bonn paper in Aging Cell (reported 2026-10-21) in which blood cells from an 80-year-old donor were converted to neural stem cells in a dish and read about 60 years younger on a molecular clock. It is human cells in the laboratory, not a living animal, so it does not bear on the test; I read only a ScienceDaily write-up of it. The other results were older mouse work (2022 and 2024 Nature Aging papers, a preprint)."""
+sibling_stage = "shown-in-animals"
+sibling_agrees = true
+
+[[item]]
+leaf = "antibody-clears-amyloid-from-the-brain-and-slows-decline"
+verdict = "quiet"
+queries = [
+  "FDA OR EMA OR NICE lecanemab donanemab remternetug decision October 2026",
+  "Alzheimer's amyloid antibody Eisai Biogen Lilly news this week October 2026 patients treated",
+]
+found = """No regulator decision, trial report or count of people treated dated in the window turned up. The results were background: the European authorisations of lecanemab (2025-04-15) and donanemab (2025-09-24), remternetug still in late-stage trials with no filing seen, and older trial and coverage-policy items."""
+
+[[item]]
+leaf = "drug-boosts-the-cells-recycling-of-worn-parts"
+verdict = "quiet"
+queries = [
+  "autophagy inducer older adults randomised placebo-controlled trial published journal October 2026 spermidine OR urolithin OR rapamycin",
+  "boosting autophagy supplement human trial memory muscle heart results news this week",
+]
+found = """No new controlled trial of an autophagy booster on an age-related function turned up in the window. The searches returned the small spermidine vaccine-response pilot in Aging Cell (June 2026), which the earlier reading already judged an immune marker and not an age-related function, a December 2025 fasting-mimicking-diet pilot, and the older null spermidine memory trial."""
+
+[[item]]
+leaf = "drug-breaks-the-sugar-cross-links-that-stiffen-old-tissue"
+verdict = "quiet"
+queries = [
+  "glycation cross-link breaker drug arterial stiffness trial published journal October 2026",
+  "glucosepane breaker company OR university announcement collagen stiffening drug news October 2026",
+]
+found = """No new trial or report turned up for the window. Results were the 2001 alagebrium paper, its later trial listings, a November 2025 mouse paper on a different glycation compound, and 2020 coverage of the company Revel Pharmaceuticals' seed funding; no 2026 clinical data or trial start was seen."""
+
+[[item]]
+leaf = "drug-stops-a-misfolded-protein-piling-up-in-the-heart"
+verdict = "quiet"
+queries = [
+  "FDA OR EMA transthyretin amyloid cardiomyopathy approval OR trial results October 2026 nucresiran OR eplontersen OR acoramidis",
+  "ATTR amyloidosis heart drug news this week patients treated uptake tafamidis generic Pfizer BridgeBio",
+]
+found = """No new approval, trial report or uptake count dated in the window turned up. The newest item seen was a European medicines committee positive opinion of 2026-07-23 for a generic tafamidis (seen in a search result), which is a copy of a drug the record already holds and not a uptake figure; one market report's mention of an acoramidis decision date in November 2026 conflicted with other sources and was not checked."""
+
+[[item]]
+leaf = "eye-drops-dissolve-the-clouded-protein-of-a-cataract"
+verdict = "quiet"
+queries = [
+  "lanosterol eye drops cataract Ocusun Lexitas press release OR journal October 2026",
+  "cataract reversal eye drops without surgery new study news this week",
+]
+found = """No animal replication, human result or regulator step dated in the window turned up. The newest items were the July 2026 coverage of the first patient in the Ocusun and Lexitas pilot trial (19 US sites, registry entry already held) and older reports of a different drop, C-KAD, in an American Journal of Ophthalmology phase 1 and 2 trial."""
+
+[[item]]
+leaf = "a-drug-adds-healthy-years-to-a-life"
+verdict = "quiet"
+queries = [
+  "ClinicalTrials.gov TAME trial metformin OR ARPA-H healthspan trial rapamycin dapagliflozin registered October 2026",
+  "first trial drug extends healthy lifespan in people launch OR results this week longevity trial news",
+]
+found = """No trial reporting longer life or longer disease-free life in people, and no new registry entry for the metformin ageing trial, turned up in the window. The searches returned only older planning coverage of that trial (2016 to 2024), the 2025 rapamycin year-long trial and a 2024 company release on it, and animal lifespan work already held."""
+sibling_stage = "shown-in-animals"
+sibling_agrees = true
+
+[[item]]
+leaf = "a-drug-is-approved-to-make-dogs-live-longer"
+verdict = "quiet"
+queries = [
+  "FDA Center for Veterinary Medicine Loyal LOY-002 conditional approval October 2026",
+  "dog lifespan drug Loyal news this week October 2026",
+]
+found = """No approval, conditional or full, turned up in either search. The newest items returned were the regulator's acceptances of effectiveness (2025-02-26) and safety (2026-01-13) and a company release of 2026-02-11 saying two of three major sections were satisfied; the manufacturing section was still described as outstanding, as the record already holds."""
+
+[[item]]
+leaf = "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people"
+verdict = "quiet"
+queries = [
+  "urolithin A OR elamipretide randomized placebo-controlled trial muscle older adults journal October 2026",
+  "mitochondria-targeted drug sarcopenia older people walking strength new study this week October 2026",
+]
+found = """No new controlled trial or approval turned up in a news-style search for the window. Results were the 2021 to 2022 urolithin A trials (66 older adults in JAMA Network Open, and the middle-aged trial in Cell Reports Medicine) and a registry listing for an oral compound in older people with sarcopenia (no results posted), none new."""
+
+[[item]]
+leaf = "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"
+verdict = "quiet"
+queries = [
+  "semaglutide OR tirzepatide OR retatrutide cardiovascular outcomes trial without diabetes published journal October 2026",
+  "GLP-1 weight loss drug heart attack stroke prevention FDA approval OR uptake news October 2026",
+]
+found = """No new trial report in people without diabetes, no new approval and no new uptake figure turned up. Seen and outside this test: the approval of tirzepatide to cut heart events in adults with type 2 diabetes (2026-08-28), a registered tirzepatide-against-semaglutide comparison with no journal report, and company topline weight-loss results for retatrutide (2026-05-21)."""
+
+[[item]]
+leaf = "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial"
+verdict = "quiet"
+queries = [
+  "nicotinamide riboside OR NMN randomised placebo-controlled trial published journal October 2026",
+  "NAD+ booster older adults study finds muscle OR blood vessels new research October 2026",
+]
+found = """No controlled trial showing an improved age-related function and no approval turned up for the window. Seen and falling short: the 2026 nicotinamide riboside trial in older adults with mild memory impairment (NAD rose, cognition and blood flow did not improve) and a company announcement of 2026-09-30 of a planned trial, both before the window and already held."""
+
+[[item]]
+leaf = "metformin-delays-age-related-disease-in-people-without-diabetes"
+verdict = "quiet"
+queries = [
+  "ClinicalTrials.gov metformin aging TAME trial registered October 2026",
+  "metformin older adults without diabetes dementia OR cancer trial results news October 2026",
+]
+found = """No trial report on age-related disease, and no news of the metformin ageing trial starting, turned up for the window. The searches returned a registry protocol document for the trial (still described as proposed), a blog saying it has no efficacy results in 2026, and older trials of metformin on frailty and muscle."""
+
+[[item]]
+leaf = "mitochondria-are-transplanted-into-a-person"
+verdict = "quiet"
+queries = [
+  "mitochondrial transplantation patients peer-reviewed report OR ClinicalTrials.gov results October 2026",
+  "mitochondria transplant first patients news this week stroke heart",
+]
+found = """No new peer-reviewed report of improved tissue function and no approval turned up in a news-style search for the window. Results were older: the 2024 stroke safety report, the infant heart reports, early findings from the five-patient blood-disease trial and 2026 mouse and monkey delivery papers, none dated in the window."""
+
+[[item]]
+leaf = "rapamycin-improves-an-age-related-measure-in-older-people"
+verdict = "quiet"
+queries = [
+  "rapamycin OR everolimus older adults randomised placebo-controlled trial journal publication October 2026",
+  "low-dose rapamycin ageing humans new trial results news this week",
+]
+found = """No new controlled-trial report and no approval turned up for the window. Results were registry entries for recruiting everolimus and rapamycin trials in older adults (no results posted) and the 2025 year-long trial in 114 adults, which the record already holds."""
+
+[[item]]
+leaf = "a-human-organ-is-grown-inside-an-animal"
+verdict = "quiet"
+queries = [
+  "human-pig chimera organ born animal Nature OR Cell OR Science paper October 2026",
+  "human organ grown in pig embryo kidney news this week scientists",
+]
+found = """No report of an animal born with a working mostly-human organ turned up. Results were the 2017 Cell chimera paper, the 2023 Guangzhou kidney embryos (28 days) and the 2025 conference report of beating part-human hearts in pig embryos at 21 days, all already known."""
+
+[[item]]
+leaf = "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface"
+verdict = "quiet"
+queries = [
+  "Vericel press release MACI October 2026 FDA OR peer-reviewed cartilage",
+  "cartilage cells grown from patient knee osteoarthritis older adults trial news October 2026",
+]
+found = """No company release, regulator step or trial dated in the window turned up. The newest items were Vericel's approval of its new manufacturing site (2026-03-04) and second-quarter results of 2026-07-30 (MACI revenue 65.5 million dollars), neither a use figure for worn older joints."""
+
+[[item]]
+leaf = "an-old-animals-blood-stem-cells-are-rejuvenated"
+verdict = "quiet"
+queries = [
+  "aged hematopoietic stem cells rejuvenation old mice immune Nature OR Cell OR Blood journal October 2026",
+  "old blood stem cells reset younger immune system antibody study news October 2026",
+]
+found = """No new animal report and no registered trial turned up for the window. Results were the 2024-03-27 Nature paper the record rests on, older mouse work and a 2025 Immunity and Ageing paper on transplanting old stem cells, which is a different test."""
+
+[[item]]
+leaf = "cells-grown-from-stem-cells-restore-a-lost-organ-function"
+verdict = "flagged"
+queries = [
+  "Vertex zimislecel type 1 diabetes FDA submission OR press release October 2026",
+  "stem cell derived cells restore function patients trial results published this week October 2026 Parkinson's bemdaneprocel OR islet",
+]
+found = """No filing for approval of Vertex's insulin-making cell therapy and no new peer-reviewed report turned up in a news-style search for October 2026; results were 2025 diabetes coverage. The search did return coverage dated July 2026 of the STEM-PD trial of stem-cell-derived dopamine-making cells in people with Parkinson's disease (Lund and Cambridge groups, eight people, reported safe at one year, six of seven cutting their dopamine drugs). That is before the window and the records searched (publications, treatments, earlier readings) do not hold it."""
+sources = ["https://www.news-medical.net/news/20260709/Stem-cell-derived-dopaminergic-cell-transplantation-shows-encouraging-results-for-Parkinsons-disease.aspx"]
+for_john = """The change I would make: log the STEM-PD report on dopamine-making cells in people with Parkinson's disease and add a line to the notes, once its own page is read. It is older than the window and bears on the first human rung, which the treatment already holds, so no stage change. Not mine to make: it is a record the entry missed, and the notes are the author's. Opened: only a news-medical.net page of 2026-07-09, which says the results were presented at the ISSCR 2026 meeting and names no journal or patient numbers. Seen in a search result only: the claim that the paper is in Nature Medicine, July 2026, with eight people and six of seven reducing dopamine drugs (summary of search results; journal page not opened). The next reading should find the paper itself and log it if it is peer-reviewed."""
+
+[[item]]
+leaf = "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart"
+verdict = "quiet"
+queries = [
+  "engineered heart muscle patch stem cell heart failure ClinicalTrials.gov OR journal report October 2026",
+  "Repairon OR BioVAT-HF heart patch news patients treated October 2026",
+]
+found = """No new report, registry change or company release for the Göttingen heart patch turned up in a news-style search for October 2026. The searches returned only the May 2026 New England Journal of Medicine report (Zimmermann and colleagues) and its coverage, plus the company Repairon's statement that it hopes to move to a late-stage trial, all already held in the records."""
+
+[[item]]
+leaf = "lab-grown-organ-works-in-a-person-for-a-year"
+verdict = "quiet"
+queries = [
+  "tissue-engineered organ implanted in patient peer-reviewed report one year follow-up October 2026 journal",
+  "lab-grown bioengineered organ transplant patient news this week October 2026",
+]
+found = """No news or journal report from October 2026 turned up. The searches returned older material only: the 2006 bladder report, the Karolinska windpipe coverage, engineered cartilage and vessel follow-ups, none of them a built organ working in a person for a year in a new report."""
+sibling_stage = "first-human"
+sibling_agrees = true
+
+[[item]]
+leaf = "organ-from-a-gene-edited-pig-keeps-a-person-alive"
+verdict = "quiet"
+queries = [
+  "pig kidney transplant transplant centre announces patient October 2026 NYU OR Massachusetts General OR Maryland",
+  "xenotransplant gene-edited pig organ FDA trial news week October 2026 eGenesis United Therapeutics",
+]
+found = """No new transplant announcement or regulator step dated October 2026 turned up. The newest items were the early September 2026 coverage of the 271-day pig kidney case at Massachusetts General (Lancet report), already in the records, and 2025 coverage of the trial clearances."""
+sibling_stage = "first-human"
+sibling_agrees = true
+
+[[item]]
+leaf = "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks"
+verdict = "quiet"
+queries = [
+  "colchicine OR ziltivekimab OR canakinumab inflammation heart attack trial published journal OR FDA October 2026",
+  "anti-inflammatory heart disease drug news Novo Nordisk ZEUS results presentation AHA 2026 OR colchicine guideline this week",
+]
+found = """Nothing dated October 2026 turned up. The searches returned Novo Nordisk's announcement of 2026-07-31 that its ziltivekimab trial found no fewer heart events (hazard ratio 0.99), which the notes already carry, and the company says full results will come at a meeting later in 2026; no regulator step or published uptake figure was seen."""
+
+[[item]]
+leaf = "blocking-one-messenger-protein-makes-old-animals-live-longer"
+verdict = "quiet"
+queries = [
+  "interleukin-11 antibody trial ClinicalTrials.gov OR Nature OR Aging Cell lifespan old mice October 2026",
+  "IL-11 blocker ageing frailty news Boehringer OR Singapore Cook study this week 2026",
+]
+found = """No new study or trial registration turned up in a news-style search for October 2026. Results were the 2024 Nature paper (Widjaja, Cook and colleagues) and its coverage, which mention antibodies against the protein in early trials for lung scarring only."""
+
+[[item]]
+leaf = "replacing-a-persons-plasma-slows-an-age-related-disease"
+verdict = "quiet"
+queries = [
+  "therapeutic plasma exchange older adults randomized trial journal OR ClinicalTrials.gov OR Grifols press release October 2026",
+  "plasma exchange Alzheimer's AMBAR Ace Alzheimer Center news October 2026 ageing blood cleaning",
+]
+found = """Nothing dated October 2026 turned up. The searches returned the Grifols release of 2026-03-12 and the 2020 trial report, both already in the records, and a registry listing of a plasma exchange study in adults over 50 in California whose status was not shown."""
+
+[[item]]
+leaf = "young-blood-rejuvenates-an-old-animal"
+verdict = "quiet"
+queries = [
+  "young plasma old mice OR older adults trial Nature OR Cell OR ClinicalTrials.gov October 2026",
+  "young blood factors rejuvenation study news week October 2026 parabiosis plasma fraction",
+]
+found = """No result from October 2026 turned up in a news-style search. The searches returned only older work (the 2014 and 2017 mouse studies, the 2017 Alzheimer's safety trial, and parabiosis reviews), all known to the records."""
+
+[[item]]
+leaf = "young-gut-microbes-rejuvenate-an-old-animal"
+verdict = "quiet"
+queries = [
+  "faecal microbiota transplant aged mice OR older adults ageing study published journal October 2026",
+  "young gut microbiome transfer rejuvenate old animals news this week October 2026",
+]
+found = """No study dated October 2026 turned up. Results were older mouse work (the 2019 Babraham and 2022 Norwich studies, a 2025 metabolic-health paper) and an April 2026 summary of old-to-young transfer speeding ageing in mice; no controlled human result was seen."""
+
+[[item]]
+leaf = "a-blood-count-of-mitochondrial-dna-predicts-death-and-disease"
+verdict = "quiet"
+queries = [
+  "mitochondrial DNA copy number blood mortality cohort study published journal October 2026",
+  "mtDNA copy number biomarker ageing death risk new research news October 2026 Picard",
+]
+found = """Nothing dated October 2026 turned up. Results were older cohort papers (a German kidney-disease cohort of 4,812 in 2019, a Japanese cohort of 814 in 2024, a 2023 Siberian cohort of about 9,360 where lower counts went with higher death risk) and no regulator clearance or published routine use; none is dated in the window."""
+
+[[item]]
+leaf = "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age"
+verdict = "quiet"
+queries = [
+  "epigenetic clock mortality prediction validation cohorts journal published October 2026",
+  "biological age test FDA clearance OR health system routine use news October 2026",
+]
+found = """No new validation report dated 2026-10-18 to 2026-10-25 turned up; the searches returned older clock papers (a GrimAge study in a United States survey group, a 2024 cheek-swab clock). For the clinic rung, results were consumer launches (a biological age report added to Quest's consumer testing site on 2026-08-25, a saliva test from Bayer) and commentary that no regulator has cleared such a clock, none of them a clearance or a published routine use in care."""
+
+[[item]]
+leaf = "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked"
+verdict = "quiet"
+queries = [
+  "FDA biomarker qualification program aging biomarker surrogate endpoint October 2026",
+  "regulator agrees ageing clock primary endpoint trial announced this week",
+]
+found = """No regulator act in the window turned up. The searches returned commentary (dated 2026) that no ageing marker is qualified, with only a handful of markers of any kind qualified so far, and trial-protocol commentary where sponsors name clocks as main measures without any regulator's agreement."""
+
+[[item]]
+leaf = "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat"
+verdict = "quiet"
+queries = [
+  "FDA ageing indication regulatory science report TAME trial October 2026",
+  "drug approval ageing as an indication regulator news week of October 2026",
+]
+found = """No approval or written agreement dated in the window turned up. The newest items were a public meeting summary on drugs that affect the ageing trajectory (dated 2026-07-31) and the United States regulator's chief scientist saying in early October that ageing will appear in its next regulatory science report, a stated intention already seen at the last reading; no registry entry for the metformin trial was returned."""
+
+[[item]]
+leaf = "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial"
+verdict = "quiet"
+queries = [
+  "randomised placebo-controlled trial slows epigenetic clock Nature OR Lancet OR Aging Cell published October 2026",
+  "biological age clock reversed in trial participants new study this week",
+]
+found = """No new controlled clock trial dated in the window turned up. The searches returned only reports the record already holds: the 2026-03-09 multivitamin trial in Nature Medicine, the semaglutide analysis in people with HIV, and the 2019 thymus trial. A company press page from Haleon on slower biological ageing was seen in a search result only and not opened."""
+
+[[item]]
+leaf = "an-age-for-each-organ-is-read-from-blood-proteins"
+verdict = "quiet"
+queries = [
+  "organ age proteomic clock Nature Medicine OR Nature Aging OR Cell published October 2026",
+  "blood protein organ ageing test predicts disease new cohort study news October 2026",
+]
+found = """No new organ-clock report dated in the window turned up. The searches returned the Wang and colleagues paper in Nature Aging and the Stanford papers (both already in the records), a Chinese biobank organ-clock study of about 4,000 people in EBioMedicine (July 2026, before the window), and a UCL paper on nine organ ages in the Whitehall II study seen without a date; none is a clinic-rung step."""
+
+[[item]]
+claim = "altos-labs-2022-launch"
+verdict = "quiet"
+queries = [
+  "Altos Labs press release October 2026",
+  "Altos Labs clinical trial first candidate news this week",
+]
+found = """No Altos announcement dated in the window turned up. Results were the 2022 launch coverage and a September 2026 company-profile summary saying it has no named clinical candidate or company-run human trial; the claim names no date or treatment."""
+
+[[item]]
+claim = "austad-olshansky-2000-bet-on-150"
+verdict = "quiet"
+queries = [
+  "Austad Olshansky bet 150 years alive 2150 news October 2026",
+  "oldest person ever record Calment 122 broken supercentenarian October 2026",
+]
+found = """No news of the bet in the window; it falls due in 2150. Results were older coverage of the wager and lists that still give Jeanne Calment's 122 years as the verified record, with the oldest living person at about 117."""
+
+[[item]]
+claim = "barzilai-2022-tame-starts-this-year"
+verdict = "quiet"
+queries = [
+  "TAME trial metformin ClinicalTrials.gov registered start October 2026",
+  "Nir Barzilai metformin aging trial update interview October 2026",
+]
+found = """No new statement or registry entry dated in the window turned up. Results were older interviews and the 2026 blog post on the trial's status that the previous reading already saw (secondary, not opened, and ruled on then); the missed verdict is unchanged by anything returned."""
+
+[[item]]
+claim = "brenner-2022-age-reversal-an-old-grift"
+verdict = "quiet"
+queries = [
+  "Charles Brenner NAD age reversal critique statement October 2026",
+  "Charles Brenner Helsinki new paper OR interview longevity supplements",
+]
+found = """No new statement or paper by him dated in the window turned up. Results were 2022 to 2024 interviews and profiles, a 2026 article on a Calcalist event where he says the aim should be health into the 90s and 100s (undated to the window), and the Helsinki post the record already carries."""
+
+[[item]]
+claim = "calico-2013-launch"
+verdict = "quiet"
+queries = [
+  "Calico Life Sciences press release October 2026",
+  "Calico Alphabet ageing company news clinical trial AbbVie partnership ended",
+]
+found = """No Calico release dated in the window turned up. Its news page listed a collaboration with Nexo Therapeutics on 2026-05-21, a new head of human biology on 2026-02-05 and a release of 2026-06-23, all before the window and none naming a treatment for ageing; the AbbVie ending coverage returned is the November 2025 reporting the record already holds."""
+
+[[item]]
+claim = "de-grey-2004-first-thousand-year-old"
+verdict = "quiet"
+queries = [
+  "Aubrey de Grey BBC News first person to live to 1,000 October 2026",
+  "Aubrey de Grey interview this week longevity escape velocity thousand years",
+]
+found = """No result dated 2026-10-18 to 2026-10-25 turned up in a news-style search. The searches returned only 2005 to 2011 coverage of the thousand-year line (Fight Aging!, NBC News, Fox News) and general explainers on longevity escape velocity; the claim is not due until 2944."""
+
+[[item]]
+claim = "de-grey-2004-humans-within-twenty-years"
+verdict = "quiet"
+queries = [
+  "LEV Foundation robust mouse rejuvenation results October 2026",
+  "de Grey SENS rejuvenation therapies working in humans 2024 deadline missed",
+]
+found = """No result dated in the window turned up. The foundation's own pages still describe its first mouse study (early 2023 to early 2025) and a planned second study, with a December 2025 progress update and no new results; the second search returned only 2006 to 2019 timeline interviews."""
+
+[[item]]
+claim = "de-grey-2005-fifty-fifty-fifteen-years"
+verdict = "quiet"
+queries = [
+  "Aubrey de Grey TED robust human rejuvenation 50/50 chance new statement October 2026",
+  "LEV Foundation second mouse study start Longevity Summit news",
+]
+found = """No restatement of his two-step form (even odds within fifteen years of robust mouse rejuvenation) turned up in the window. The searches returned 2012 to 2019 reports of earlier odds, the August 2026 podcast interview already held in the records, and the foundation's pages saying its second mouse study was planned for the second half of 2025 with no confirmed start."""
+
+[[item]]
+claim = "de-grey-2024-fifty-percent-twelve-to-fifteen-years"
+verdict = "flagged"
+queries = [
+  "Aubrey de Grey newsletter OR podcast \"12 to 15 years\" October 2026",
+  "de Grey 50 percent chance longevity escape velocity new odds 2026 talk",
+]
+found = """A blog repost dated 2026-10-16 (Lifeboat Foundation) of an episode of the Beyond Tomorrow podcast, a four-way debate with Alex Zhavoronkov, George Church and Michael Ringel, has him giving even odds within 12 to 15 years of longevity escape velocity. Earlier searches in the records found no October 2026 episode and no mention of this debate or podcast; the wording repeats what he said in 2026 interviews the records already hold."""
+sources = ["https://lifeboat.com/blog/2026/10/top-longevity-experts-debate-each-other-about-extending-human-lifespan"]
+for_john = """Change I would have made: a dated note that on or before 2026-10-16 he repeated even odds within 12 to 15 years in a podcast debate, with the same horizon as his August 2026 interview. The record is his 2024 claim of even odds within 12 to 15 years. Not mine because a restated claim is for John to rule on, and the evidence is thin. Opened: the Lifeboat Foundation blog page (dated 2026-10-16), which only reposts the video and gives no air date for the episode. Not opened: the Beyond Tomorrow episode itself on YouTube, so his words are unchecked and the episode may predate the window. Nothing changes the verdict (not yet due)."""
+
+[[item]]
+claim = "hayflick-2000-fifteen-year-limit"
+verdict = "quiet"
+queries = [
+  "Leonard Hayflick 2007 Annals New York Academy of Sciences biological aging no longer unsolved problem",
+  "Hayflick limit ageing life expectancy fifteen years debate October 2026",
+]
+found = """No result dated in the window turned up in a news-style search, and Hayflick died in 2024 so no new statement from him is possible. The searches returned his 2009 session title at the World Congress of Gerontology, a 2001 Deseret News report of the fifteen-year figure and a 2018 Fight Aging! piece, all older."""
+
+[[item]]
+claim = "hevolution-2023-up-to-a-billion-a-year"
+verdict = "quiet"
+queries = [
+  "Hevolution Foundation press release October 2026 grants",
+  "Hevolution Global Healthspan Summit 2026 funding commitment billion",
+]
+found = """No Hevolution announcement dated in the window turned up. The searches returned older grant releases (2022 to 2025), an Arab News report of 2024-06-25 giving over 400 million dollars committed against an annual budget of up to 4 billion riyals, and a May 2026 presentation saying over 400 million dollars allocated since 2022, none of which adds a new figure to what the records hold."""
+
+[[item]]
+claim = "johnson-2023-biological-age-stays-the-same"
+verdict = "quiet"
+queries = [
+  "Bryan Johnson biological age goal one year chronological time passes October 2026",
+  "Bryan Johnson Don't Die news this week rejuvenation announcement",
+]
+found = """No result dated in the window turned up. The searches returned low-quality 2026 aggregator pages, a Hello! Magazine piece quoting his December 2025 post that a year passes and he stays the same biological age, and older coverage of the Don't Die movement and its Netflix film; none gives a date or result that settles the goal."""
+
+[[item]]
+claim = "johnson-2024-pace-of-ageing-record"
+verdict = "quiet"
+queries = [
+  "Bryan Johnson DunedinPACE pace of aging new reading October 2026",
+  "Bryan Johnson Blueprint \"speed of aging\" results update birthday every months",
+]
+found = """No new pace-of-ageing reading by him dated in the window turned up. The searches returned the WION report of the 0.64 post, a Substack page mentioning 0.57 and 0.48 with no date, and July 2026 aggregator pages repeating 0.64, none a primary source."""
+
+[[item]]
+claim = "kurzweil-2022-end-of-the-decade"
+verdict = "quiet"
+queries = [
+  "Ray Kurzweil longevity escape velocity 2030 interview October 2026",
+  "Kurzweil \"end of this decade\" aging reversal prediction Lex Fridman new statement",
+]
+found = """No new statement dated in the window turned up. The searches returned the 2026 coverage of his 2032 date (Business Today, Yahoo, Ynet, Boston Magazine), older 2029 remarks on the Joe Rogan podcast and no new Lex Fridman interview."""
+
+[[item]]
+claim = "kurzweil-2026-escape-velocity-by-2032"
+verdict = "flagged"
+queries = [
+  "Kurzweil 2032 gain back one year for each year lived Boston Magazine October 2026",
+  "Ray Kurzweil says aging will end new interview podcast this week",
+]
+found = """Nothing from Kurzweil dated in the window turned up. But an earlier dated occasion of the same 2032 date came up that the records do not hold: MIT News, 2025-10-10, by Peter Dizikes, reporting his lecture 'Reinventing Intelligence' on accepting MIT's Robert A. Muh Alumni Award. Searched the claims, papers and changelog for the author, lecture title and award name and found no match."""
+sources = ["https://news.mit.edu/index.php/2025/ray-kurzwei-reinforces-his-optimism-tech-progress-1010"]
+for_john = """Change I would have made: a note, or a separate dated entry, for the lecture reported by MIT News on 2025-10-10, in which he said 'By roughly 2032 when you live through a year, you'll get back an entire year from scientific progress', and that the first to benefit would be those most diligent about their health. It is an earlier occasion of the same 2032 date as the Boston Magazine interview (published 2026-02-11), so it would show the date was being given eight months before that. Not mine because it is older than the window and adding or amending a claim is John's. Opened and read: the MIT News page (date, author and quote checked there). Nothing changes the verdict (not yet due)."""
+
+[[item]]
+claim = "kurzweil-2029-escape-velocity"
+verdict = "quiet"
+queries = [
+  "Ray Kurzweil longevity escape velocity 2030 interview October 2026",
+  "Kurzweil \"Singularity Is Nearer\" aging prediction news this week",
+]
+found = """No new statement of the date turned up for 2026-10-18 to 2026-10-25. The searches returned Boston Magazine's interview, Yahoo and AOL re-runs of the 2029 and 2032 claims and the Wikipedia entry, all older coverage the record already holds. The due year is 2030, so the claim is not yet due."""
+
+[[item]]
+claim = "kurzweil-grossman-2004-two-decades"
+verdict = "quiet"
+queries = [
+  "Kurzweil Grossman Fantastic Voyage reverse aging two decades October 2026",
+  "Terry Grossman Ray Kurzweil longevity bridges anniversary or interview 2026",
+]
+found = """No result turned up in a news-style search for the window. The searches returned the Fight Aging! excerpt of 2004, a 2004 NBC piece, book listings and Kurzweil's 2024 Fortune article; no 2026 statement by either author."""
+
+[[item]]
+claim = "kurzweil-grossman-2009-bridge-two"
+verdict = "quiet"
+queries = [
+  "Kurzweil Grossman Transcend reprogramming biology nanorobots 2029 October 2026",
+  "nanorobots reprogram human biology by 2029 prediction Kurzweil new interview",
+]
+found = """No result turned up in a news-style search for the window. The searches returned book listings, the Publishers Weekly review and older interviews (Playboy, CBC 2016, a 2008 to 2009 press piece); none is dated 2026. The due year is 2029, so the claim is not yet due."""
+
+[[item]]
+claim = "life-biosciences-2024-first-human-study-second-half-2025"
+verdict = "quiet"
+queries = [
+  "Life Biosciences press release ER-100 October 2026",
+  "partial reprogramming eye trial glaucoma optic neuropathy news week of October 19 2026",
+]
+found = """The only new item was a Fight Aging! post of 2026-10-19 that comments on the company's interim release of 2026-10-08 (three people with open-angle glaucoma, well tolerated to day 56, visual-field gains in two); that release is already in the record, so the post adds nothing new. No word on the optic-nerve stroke group turned up, and the late-start verdict is unaffected."""
+
+[[item]]
+claim = "loyal-2025-senior-dog-approval-by-end-of-2025"
+verdict = "quiet"
+queries = [
+  "Loyal LOY-002 FDA conditional approval October 2026 press release",
+  "dog longevity drug approval Celine Halioua news this week",
+]
+found = """No approval or acceptance of the manufacturing section turned up. The newest items returned were the company's releases of 2026-01-13 (safety section accepted) and the funding round of 2026-02-11, which says manufacturing is the one section still outstanding; nothing is dated in the window."""
+
+[[item]]
+claim = "methuselah-foundation-2013-ninety-the-new-fifty-by-2030"
+verdict = "quiet"
+queries = [
+  "Methuselah Foundation announcement October 2026",
+  "\"90 is the new 50\" regenerative medicine tissue engineering 2026 news",
+]
+found = """No result turned up in a news-style search for the window. The searches returned the foundation's own older news pages, a Lifeboat summary from 2017 and a Lifespan.io organisation page; no 2026 announcement. The due year is 2030, so the claim is not yet due."""
+
+[[item]]
+claim = "olshansky-2024-implausible-this-century"
+verdict = "quiet"
+queries = [
+  "Olshansky life expectancy Nature Aging OR Science journal October 2026 radical life extension",
+  "Jay Olshansky says human lifespan limit interview this week",
+]
+found = """No later paper or statement turned up. The searches returned coverage of the Nature Aging paper of 2024-10-07 (AFAR, Lifespan.io, Scientific American) and older interviews; nothing is dated in the window."""
+
+[[item]]
+claim = "retro-biosciences-2022-clinic-next-year"
+verdict = "quiet"
+queries = [
+  "Retro Biosciences blog announcement October 2026 clinical trial",
+  "Retro Biosciences RTR242 autophagy Alzheimer's trial registry ANZCTR OR ClinicalTrials.gov 2026",
+]
+found = """No new item turned up. The searches returned the company's blog of 2026-05-22 on its funding round, a STAT report of the same day, and coverage of the Australian safety trial of healthy volunteers that began in December 2025; none is dated in the window and there is no restatement of the original date."""
+
+[[item]]
+claim = "retro-biosciences-2022-ten-years"
+verdict = "quiet"
+queries = [
+  "Retro Biosciences Sam Altman longevity startup news this week",
+  "Retro Biosciences Joe Betts-LaCroix \"ten years\" healthy lifespan mission 2026",
+]
+found = """No new statement, withdrawal or date for the ten-year aim turned up. The searches returned older profiles, the STAT piece of 2026-05-22 and 2023 to 2025 coverage of Sam Altman's funding; nothing is dated in the window."""
+
+[[item]]
+claim = "salk-2016-up-to-ten-years-to-trials"
+verdict = "quiet"
+queries = [
+  "Salk Institute Belmonte reprogramming rejuvenation news October 2026",
+  "Izpisua Belmonte Altos Labs OR Salk partial reprogramming paper published October 2026",
+]
+found = """Nothing from the Salk Institute or Izpisua Belmonte dated in the window turned up; the searches returned the 2016 release, the 2017 and 2022 mouse studies and a university news page with no date. The Fight Aging! post of 2026-10-19 on the Life Biosciences trial comments on the 2026-10-08 company release the record already holds, so the delivered verdict is unchanged."""
+
+[[item]]
+claim = "sinclair-2019-lifespan"
+verdict = "quiet"
+queries = [
+  "David Sinclair \"no biological law\" ageing statement October 2026",
+  "David Sinclair Lifespan book reprogramming 150 years news this week October 2026",
+]
+found = """No result turned up in a news-style search for 2026-10-18 to 2026-10-25. The newest items returned were the University of Nicosia press release on his lecture of 2026-06-04 (the 'no law of biology' line as a headline) and a Cyprus Mail report of 2026-07-02, both restating the book's line without a date, so the claim is unchanged."""
+
+[[item]]
+claim = "sinclair-2023-age-reversal-in-people"
+verdict = "quiet"
+queries = [
+  "Life Biosciences press release ER-100 October 2026",
+  "Sinclair age reversal blindness human trial prediction first patient news October 2026",
+]
+found = """Nothing new in the window. The searches returned Life Biosciences' own releases of 2026-10-01 and 2026-10-08 (first human data from three people with glaucoma) and Sinclair's lecture of 2026-06-04 saying the first patient had been treated; the records already hold all of these, and the trial being under way is what the claim's test turned on."""
+
+[[item]]
+claim = "sinclair-2024-dog-supplement"
+verdict = "quiet"
+queries = [
+  "Sinclair dog supplement Animal Biosciences Scientific Reports follow-up October 2026",
+  "David Sinclair reverse ageing dogs claim criticism news this week",
+]
+found = """No result turned up in a news-style search for the window. The searches returned only the 2024 coverage (company release of 2024-02-28, STAT report of 2024-03-05, the criticism that followed), all already held, and no new statement or follow-up study."""
+
+[[item]]
+claim = "unity-2016-senolytic-medicines"
+verdict = "quiet"
+queries = [
+  "Unity Biotechnology SEC filing dissolution October 2026",
+  "senolytic company diseases of ageing therapeutics news week October 2026 Unity",
+]
+found = """No result turned up for the window. The searches returned the company's 2025 filings on its plan of dissolution (adopted 2025-06-27) and coverage of its March 2025 trial miss and wind-down, all already in the record; no new filing or statement."""
+
+[[item]]
+claim = "vijg-2016-limit-to-human-lifespan"
+verdict = "quiet"
+queries = [
+  "Vijg maximum human lifespan limit paper Nature Gerontology October 2026",
+  "world's oldest person dies OR record age 2026 Gerontology Research Group supercentenarian October",
+]
+found = """No result turned up in a news-style search for the window. The searches returned the 2016 Nature paper's coverage and a list dated 2026-07-30 naming Ethel Caterham, born 1909, as the oldest verified living person; no report of anyone near 125 and no new paper on the ceiling."""
+
+[[item]]
+claim = "xprize-healthspan-2023-launch"
+verdict = "quiet"
+queries = [
+  "XPRIZE Healthspan official announcement finalists October 2026",
+  "XPRIZE Healthspan restore muscle cognition immune function 2030 grand prize news this week",
+]
+found = """Nothing new in the window. The newest item returned was the finalists announcement of 2026-08-11 (twenty finalists, ten awarded a million dollars each, trials running 2026 to 2029), already in the record; the 2030 date stands."""
+
+[[item]]
+experiment = "bryan-johnson-blueprint"
+verdict = "quiet"
+queries = [
+  "Bryan Johnson Blueprint protocol page update October 2026",
+  "Bryan Johnson news autoimmune gastritis Don't Die latest week",
+]
+found = """Nothing dated in the window turned up. The searches returned an Axios interview dated 2026-10-06 in the result list (seen in search only, the page refused to open; the record already cites an Axios interview of 2026-10-08), coverage of his autoimmune gastritis diagnosis that the record already holds, and low-quality protocol summaries dated to July 2026 that contradict each other."""
+
+[[item]]
+experiment = "dave-pascoe"
+verdict = "quiet"
+queries = [
+  "Dave Pascoe biological age Rejuvenation Olympics own site update October 2026",
+  "Dave Pascoe longevity self-experiment podcast interview new",
+]
+found = """No result turned up in a news-style search for the window. The searches returned podcast pages and 2024 to 2025 coverage (epigenetic age near 38, pace of ageing near 0.66) that the record's period already covers; his own site did not appear and was not opened."""
+
+[[item]]
+experiment = "david-sinclair-own-regimen"
+verdict = "quiet"
+queries = [
+  "David Sinclair podcast interview own biological age NMN resveratrol October 2026",
+  "Sinclair Harvard longevity routine news this week says he takes",
+]
+found = """Nothing in the window. The newest item returned was a summary of a Modern Wisdom podcast episode of 2026-08-24 (seen only as a third-party summary, listing resveratrol, NAD precursors, a statin and GLP-1 drugs); the rest were undated or older routine profiles. No new measurement of his own biological age."""
+
+[[item]]
+experiment = "elizabeth-parrish-bioviva"
+verdict = "quiet"
+queries = [
+  "BioViva Elizabeth Parrish press release OR publication telomere October 2026",
+  "Liz Parrish gene therapy follistatin telomerase self-experiment news this week",
+]
+found = """No result turned up for the window. The searches returned the 2015 to 2016 coverage of her telomere claim and an Argentine article (page opened) retelling a 2023 report that her biological age had fallen to 21, with no new measurement, date or method and no source beyond a Spanish newspaper."""
+
+[[item]]
+experiment = "julie-gibson-clark"
+verdict = "quiet"
+queries = [
+  "Julie Gibson Clark slowest ageing woman TruDiagnostic Longevity Life Academy October 2026",
+  "Julie Gibson Clark biological age biohacker interview news",
+]
+found = """No result dated 18 to 25 October 2026 turned up in either search. The newest item returned was the July 2026 press release about her joining Longevity Life Academy, which the record already cites, along with the 2023 Fortune articles, a 2025 Healf profile and a podcast page that calls her a former structural engineer. No new leaderboard standing or test result for her was found."""
+
+[[item]]
+experiment = "michael-lustgarten"
+verdict = "quiet"
+queries = [
+  "Michael Lustgarten Tufts PubMed new paper October 2026",
+  "Lustgarten biological age blood markers diet longevity news October 2026",
+]
+found = """No result dated 18 to 25 October 2026 turned up. The first search returned only general Tufts news pages and no mention of him; the second returned older podcast pages and his 2020 slides on the blood-based age calculation, nothing new. His own site and the PubMed listing were not opened."""
+
+[[item]]
+experiment = "mikhail-blagosklonny-rapamycin"
+verdict = "quiet"
+queries = [
+  "Blagosklonny rapamycin Aging journal tribute October 2026",
+  "Mikhail Blagosklonny rapamycin cancer own use paper Oncotarget 2026",
+]
+found = """No result dated in the window turned up. Searches returned the journal Aging's tribute and its commemorative call for papers (deadlines already passed), and his 2023 Oncotarget paper on preventing cancer with rapamycin; none gives new information about his own use of the drug. No 2026 paper by him was found."""
+
+[[item]]
+experiment = "peter-attia-rapamycin"
+verdict = "quiet"
+queries = [
+  "Peter Attia rapamycin October 2026",
+  "Attia longevity doctor says he takes rapamycin new interview this week",
+]
+found = """No result dated in the window turned up. The searches returned older podcast episodes (a 2024 episode on drugs for longevity, a 2025 episode on rapamycin trials, a 2023 Huberman Lab discussion) and a 2021 article on his site; no report that he has changed or stopped the drug, and no new statement about his own use."""
+
+[[item]]
+experiment = "rejuvenation-olympics"
+verdict = "quiet"
+queries = [
+  "Rejuvenation Olympics leaderboard DunedinPACE October 2026",
+  "Rejuvenation Olympics Bryan Johnson TruDiagnostic leaderboard news this week",
+]
+found = """No news-style result for 18 to 25 October 2026 turned up; the first search returned only unrelated sports pages. The second returned an undated longevity newsletter (about 1,750 participants, Johnson outside the top five) and a prediction-market page, both undated secondary pages; the leaderboard itself was not opened, so the record's top five was not re-read."""

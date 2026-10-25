@@ -2,6 +2,10 @@
 
 Every change to the records or the site, dated year-month-day, newest first. Plain language; a reader outside the project should be able to follow it.
 
+## 2026-10-25
+
+- Weekly reading (scheduled task, 2026-10-25): 45 treatments, 31 claims and 9 self-experiments read, 0 moved a rung, 0 publications logged, 3 flagged for John (the July 2026 report of stem-cell-derived dopamine-making cells in Parkinson's disease, Aubrey de Grey's restated even odds in a podcast debate reposted 2026-10-16, and Ray Kurzweil's 2032 date in an MIT lecture of 2025-10-10); record at data/scans/2026-10-25.toml.
+
 ## 2026-10-21
 
 - **The weekly reading page shows its entries in one column, each one line until opened, as John approved on 2026-10-21.** The three-column grid of cards stretched every card in a row to the longest one and left the prose in narrow columns. Each entry is now one row: its name, its verdict and the first sentence of what was found. Opening it shows the rest. Quiet entries start closed and every other verdict starts open, so what needs attention is visible at once. The counts sit under the page's heading, and earlier readings use the same rows. No record, verdict or wording changed.
