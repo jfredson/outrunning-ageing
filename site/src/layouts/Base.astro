@@ -55,6 +55,7 @@ const iconVersion = '2';
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="author" content="John Andrew Fredrickson" />
+    <link rel="author" href="https://johnandrewfredrickson.com/" />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href={`/favicon.svg?v=${iconVersion}`} />
@@ -99,7 +100,7 @@ const iconVersion = '2';
             <a href={REPO} rel="noopener">Source on GitHub</a>
           </p>
           <p class="footer-meta">
-            © {currentYear} John Andrew Fredrickson. Last built {longDate(records.exported_on)} from {builtFrom()}. Free to reuse with credit (<a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>); code under the MIT licence. Please credit as: <cite>Outrunning Ageing</cite>, by John Andrew Fredrickson, a Sentient Horizons project, <a href="https://outrunningageing.com/">outrunningageing.com</a>.
+            © {currentYear} <a href="https://johnandrewfredrickson.com/" rel="author">John Andrew Fredrickson</a>. Last built {longDate(records.exported_on)} from {builtFrom()}. Free to reuse with credit (<a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>); code under the MIT licence. Please credit as: <cite>Outrunning Ageing</cite>, by John Andrew Fredrickson, a Sentient Horizons project, <a href="https://outrunningageing.com/">outrunningageing.com</a>.
           </p>
           <p class="footer-parent"><a href="https://sentient-horizons.com/projects/" rel="noopener">A Sentient Horizons project.</a></p>
         </div>
