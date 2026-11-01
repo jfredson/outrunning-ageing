@@ -2,6 +2,10 @@
 
 Every change to the records or the site, dated year-month-day, newest first. Plain language; a reader outside the project should be able to follow it.
 
+## 2026-10-31
+
+- **The site serves a sitemap at /sitemap.xml, robots.txt names it, and the home page's browser-tab title now carries the subject.** The sitemap is built from the records at every build (`site/src/pages/sitemap.xml.ts`): the fixed pages, one page per branch, one per treatment or measuring tool, one per news post; the not-found page and the two redirect pages are left out. The home page's tab title is "Outrunning Ageing: tracking life extension and longevity escape velocity" instead of the bare name (the two phrases people search for, chosen by John 2026-10-31; a line that described the site in its own words was tried first), and the page gives search engines the site's name, its bare name as an alternate, its one-line description and its address as structured data. The visible heading, the share-card title and every inner page's title are unchanged. Done after a check on 2026-10-31 of how the family's sites show up on Google when searched by name: this site was not on the first page for its own name. No record, stage or year changed.
+
 ## 2026-10-25
 
 - Weekly reading (scheduled task, 2026-10-25): 45 treatments, 31 claims and 9 self-experiments read, 0 moved a rung, 0 publications logged, 3 flagged for John (the July 2026 report of stem-cell-derived dopamine-making cells in Parkinson's disease, Aubrey de Grey's restated even odds in a podcast debate reposted 2026-10-16, and Ray Kurzweil's 2032 date in an MIT lecture of 2025-10-10); record at data/scans/2026-10-25.toml.
