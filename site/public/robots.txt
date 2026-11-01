@@ -1,4 +1,8 @@
-# The site is public and crawling is allowed. There is no sitemap: every page is reached from the
-# home page and the top bar, and the computed numbers are served as /data/headline.json.
+# The site is public and crawling is allowed. The sitemap is built from the records at every build
+# (site/src/pages/sitemap.xml.ts, added 2026-10-31) and lists every public page at its stable
+# address; the computed numbers are served as /data/headline.json. (Until 2026-10-31 this file said
+# there was no sitemap, which was true.)
 User-agent: *
 Allow: /
+
+Sitemap: https://outrunningageing.com/sitemap.xml

@@ -22,6 +22,25 @@ const {
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
+// The home page's browser-tab title carries the subject as well as the name, because the bare
+// name alone is a common phrase and the site was not on Google's first page for it (checked
+// 2026-10-31). Only the tab title and the search engines' structured data change: the visible
+// heading, the share-card title and the inner pages' titles stay as they are.
+const isHome = Astro.url.pathname === '/';
+const homeTitle = 'Outrunning Ageing: when medicine starts repairing the body faster than it ages';
+const tabTitle = isHome ? homeTitle : title;
+// What the site is, for search engines (schema.org WebSite), on the home page only: the name, the
+// bare name as an alternate name, the subject in one line, and the address. The parent site carries
+// the same block in its own Base.astro.
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: homeTitle,
+  alternateName: SITE_NAME,
+  description,
+  url: Astro.site?.href,
+  author: { '@type': 'Person', name: 'John Andrew Fredrickson', url: 'https://johnandrewfredrickson.com/' },
+};
 // The preview picture link cards show (site/public/social-preview.png, made by scripts/social-image.mjs); an absolute address, as the tags require.
 const socialImage = new URL(image ?? '/social-preview.png', Astro.site).href;
 const currentYear = new Date().getFullYear();
@@ -52,7 +71,7 @@ const iconVersion = '2';
       })();
     </script>
     <meta id="theme-color-meta" name="theme-color" content="#f3eee3" />
-    <title>{title}</title>
+    <title>{tabTitle}</title>
     <meta name="description" content={description} />
     <meta name="author" content="John Andrew Fredrickson" />
     <link rel="author" href="https://johnandrewfredrickson.com/" />
@@ -77,6 +96,7 @@ const iconVersion = '2';
     <meta property="og:image:alt" content="Outrunning Ageing: When do we start outrunning ageing?" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content={socialImage} />
+    {isHome && <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />}
   </head>
   <body>
     <Nav />
