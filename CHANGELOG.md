@@ -2,6 +2,10 @@
 
 Every change to the records or the site, dated year-month-day, newest first. Plain language; a reader outside the project should be able to follow it.
 
+## 2026-11-01
+
+- Weekly reading (scheduled task, 2026-11-01): 45 treatments, 31 claims and 9 self-experiments read, 0 moved a rung, 1 publication logged (Alnylam, 2026, results release for the third quarter, bearing on the treatment that stops a misfolded protein piling up in the heart), 1 flagged for John (Heartseed's trial of stem-cell-derived heart muscle cells, company announcements only); record at data/scans/2026-11-01.toml. The headline was not rerun.
+
 ## 2026-10-31
 
 - **The site serves a sitemap at /sitemap.xml, robots.txt names it, and the home page's browser-tab title now carries the subject.** The sitemap is built from the records at every build (`site/src/pages/sitemap.xml.ts`): the fixed pages, one page per branch, one per treatment or measuring tool, one per news post; the not-found page and the two redirect pages are left out. The home page's tab title is "Outrunning Ageing: tracking life extension and longevity escape velocity" instead of the bare name (the two phrases people search for, chosen by John 2026-10-31; a line that described the site in its own words was tried first), and the page gives search engines the site's name, its bare name as an alternate, its one-line description and its address as structured data. The visible heading, the share-card title and every inner page's title are unchanged. Done after a check on 2026-10-31 of how the family's sites show up on Google when searched by name: this site was not on the first page for its own name. No record, stage or year changed.

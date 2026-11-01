@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-01 under the weekly reading of 2026-11-01. The page was opened and read on 2026-11-01.
+
+id = "alnylam-2026"
+date = "2026-10-29"
+added_on = 2026-11-01
+authors = ["Alnylam Pharmaceuticals, Inc."]
+title = "Alnylam Pharmaceuticals Reports Third Quarter 2026 Financial Results and Highlights Recent Period Progress"
+venue = "Company results release, 2026-10-29, filed as an exhibit to a Form 8-K with the US Securities and Exchange Commission"
+link = "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000074/alny2026q3earningsrelease.htm"
+finding = """
+The company reports sales of its heart-amyloid drug vutrisiran (Amvuttra) of $1,130 million in the third quarter of 2026, and $1,150 million with its older drug patisiran, 59 per cent more than a year earlier for the two drugs together. It also raises the target enrolment of its pivotal trial of the next drug, nucresiran, in transthyretin amyloid heart disease to 2,250 people, and says it still expects a launch for that disease by 2030. The release gives revenue, not the number or share of eligible patients treated.
+"""
+leaves = ["drug-stops-a-misfolded-protein-piling-up-in-the-heart"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-01. This is the company's own results release, read in full on 2026-11-01 from the copy filed with the US Securities and Exchange Commission; the figures are the company's statements.
+"""
