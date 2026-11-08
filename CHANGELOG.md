@@ -2,6 +2,10 @@
 
 Every change to the records or the site, dated year-month-day, newest first. Plain language; a reader outside the project should be able to follow it.
 
+## 2026-11-08
+
+- Weekly reading (scheduled task, 2026-11-08): 45 treatments, 31 claims and 9 self-experiments read, 0 moved a rung, 0 publications logged, 1 flagged for John (a newsletter report of 2026-03-28 that the company Rejuvenate Bio treated a first person with a telomerase gene therapy, press only and unconfirmed); record at data/scans/2026-11-08.toml.
+
 ## 2026-11-01
 
 - Weekly reading (scheduled task, 2026-11-01): 45 treatments, 31 claims and 9 self-experiments read, 0 moved a rung, 1 publication logged (Alnylam, 2026, results release for the third quarter, bearing on the treatment that stops a misfolded protein piling up in the heart), 1 flagged for John (Heartseed's trial of stem-cell-derived heart muscle cells, company announcements only); record at data/scans/2026-11-01.toml. The headline was not rerun.
