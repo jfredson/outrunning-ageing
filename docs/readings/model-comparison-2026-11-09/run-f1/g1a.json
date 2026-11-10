@@ -1,0 +1,371 @@
+{
+ "records": [
+  {
+   "id": "aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial",
+   "verdict": "flagged",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 reports a new placebo- or sham-controlled result for a drug that clears aged cells: no paper, no posted registry results, no company release. The stage record (registry number NCT04857996, the Unity eye trial) is unchanged since 2024-05-16. Flagged because the entry does not name a placebo-controlled trial now recruiting whose main measure is physical function (the TROFFi trial of fisetin in breast cancer survivors, registry number NCT05595499), and one website claims results for it that the registry does not support.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "The registry entry for the Mayo Clinic placebo-controlled trial of fisetin in people with Covid-19 (registry number NCT04476953, 80 people) was updated; it is still listed as active, not recruiting, with no results posted and completion estimated for March 2027.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04476953",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2024-05-16",
+     "what": "The stage record, the Unity eye trial (registry number NCT04857996), shows completed, results posted 2024-05-16, last update 2024-05-16: no change in the window, and it agrees with the entry.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04857996",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-03-11",
+     "what": "A design paper for the TROFFi trial was published in Therapeutic Advances in Medical Oncology: 88 postmenopausal breast cancer survivors, fisetin against placebo, main measure the change in six-minute walk distance. The registry entry (NCT05595499) was last updated 2026-07-17 and still says recruiting, with no results. The records do not name this trial.",
+     "url": "https://doi.org/10.1177/17588359261424668",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "undated",
+     "what": "A website (tetrapod.pages.dev) says TROFFi results showing a better walking distance were presented at a 2026 meeting. Not opened, no primary source found, and it conflicts with the registry status of recruiting; treat as unconfirmed.",
+     "url": "https://tetrapod.pages.dev/en/news/fisetin-troffi-results-breast-cancer-survivors-frailty-2026",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (senolytic) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senescent OR senescence) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (dasatinib AND quercetin) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (fisetin) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (UBX1325 OR foselutoclax) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (navitoclax AND (fibrosis OR aging)) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (quercetin OR dasatinib OR navitoclax OR RLS-1496 OR HCW9302 OR \"senescent cells\") AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senolytic) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senescent OR senescence) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (dasatinib AND quercetin) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (fisetin) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (UBX1325 OR foselutoclax) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (navitoclax AND (fibrosis OR aging)) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (quercetin OR dasatinib OR navitoclax OR RLS-1496 OR HCW9302 OR \"senescent cells\") AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senolytic OR fisetin OR \"dasatinib and quercetin\") AND AREA[ResultsFirstPostDate]RANGE[2026-10-01,2026-11-09] (no results posted)",
+    "clinicaltrials.gov: NCT04857996, NCT04476953 opened",
+    "Europe PMC: (senolytic OR senolytics) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: ((dasatinib AND quercetin) OR fisetin OR navitoclax OR foselutoclax OR UBX1325) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: (TITLE:(senescent OR senescence OR senolysis OR senomorphic) AND (trial OR patients OR participants OR placebo OR mice)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: (\"senescent cells\" AND (clearance OR eliminate OR elimination) AND (placebo OR \"clinical trial\" OR randomized)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "web, limited to globenewswire/businesswire/prnewswire/sec.gov: senolytic clinical trial results November 2026",
+    "web, limited to the same four sites: senescent cells drug first patient dosed OR topline OR \"did not meet\" OR discontinued November 2026",
+    "web: Unity Biotechnology UBX1325 OR Rubedo Life Sciences OR Oisin OR Deciduous Therapeutics senolytic November 2026"
+   ],
+   "web_queries": [
+    "senolytics news this week senescent cells trial published November 2026",
+    "TROFFi trial fisetin breast cancer survivors six-minute walk results randomized placebo publication",
+    "dasatinib quercetin myelin damage mice PNAS 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04857996",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04476953",
+    "https://europepmc.org/abstract/MED/41835341",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=fisetin+AND+breast+cancer"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing happened in the window; the flag is housekeeping about a trial still recruiting."
+  },
+  {
+   "id": "aged-cell-clearing-drug-relieves-knee-arthritis",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on the test. The fisetin knee trial (registry number NCT04210986) still shows results posted 2024-09-19 and no later update, and the withdrawn ROPE trial (NCT04770064) is unchanged since 2022-07-29; both agree with the entry.",
+   "findings": [
+    {
+     "date": "2024-09-19",
+     "what": "Registry entry NCT04210986 (Steadman Philippon fisetin trial in knee osteoarthritis): completed, results first posted and last updated 2024-09-19, enrolment 75. Unchanged in the window.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04210986",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2022-07-29",
+     "what": "Registry entry NCT04770064 (ROPE): withdrawn, \"Funding was not awarded\", no one enrolled, last updated 2022-07-29. Unchanged.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04770064",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-11-03",
+     "what": "A short perspective article in the journal Function discusses mouse work on aged immune cells after a knee ligament injury and says clearing them is worth exploring; it is commentary, with no trial.",
+     "url": "https://doi.org/10.1152/function.90006.2026",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (osteoarthritis AND (senolytic OR fisetin OR quercetin OR dasatinib OR senescence)) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (fisetin) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senolytic) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (osteoarthritis AND (senolytic OR fisetin OR quercetin OR dasatinib OR senescence)) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (fisetin) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senolytic) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: the same osteoarthritis words with AREA[ResultsFirstPostDate]RANGE[2026-11-02,2026-11-09] (nothing)",
+    "clinicaltrials.gov: NCT04210986, NCT04770064 opened",
+    "Europe PMC: ((senescent OR senescence) AND (osteoarthritis OR knee) AND (trial OR randomized OR senolytic)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: (senolytic OR senolytics) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "web, limited to globenewswire/businesswire/prnewswire/sec.gov: senolytic clinical trial results November 2026",
+    "web, limited to the same four sites: senescent cells drug first patient dosed OR topline OR \"did not meet\" OR discontinued November 2026"
+   ],
+   "web_queries": [
+    "senolytic knee osteoarthritis randomized placebo-controlled trial results 2026",
+    "senolytics news this week senescent cells trial published November 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04210986",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04770064",
+    "https://europepmc.org/abstract/MED/42974932"
+   ],
+   "story_score": 0,
+   "story_why": "No trial result, registry change or company news on aged-cell clearing in the knee in the window."
+  },
+  {
+   "id": "clearing-aged-cells-makes-old-animals-live-longer",
+   "verdict": "noted",
+   "found": "On 2026-11-06 Nature Aging published a report (Wu and colleagues) that a mineral dietary supplement, vanadyl sulfate, given by mouth kills aged cells, eases several age-related conditions and extends lifespan in male mice. It is a further animal result on a rung the entry already holds; no human lifespan or healthy-years trial was published, registered or announced in the window, so the test for the next stage is not met.",
+   "findings": [
+    {
+     "date": "2026-11-06",
+     "what": "Nature Aging, \"Altered protein cysteine reactivity in senescent cells is a vulnerability for senolysis to ameliorate aging\" (Wu and colleagues): the abstract says the supplement by mouth \"extends lifespan in male mice\" and eases age-related disorders. Peer-reviewed; mice only, one sex named. The abstract was read at Europe PMC and the date confirmed at Crossref; the journal page asks for a sign-in, so the size of the lifespan gain was not read.",
+     "url": "https://doi.org/10.1038/s43587-026-01253-5",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Cell, \"Fatty acid desaturation controls cellular fate decisions between senescence and ferroptosis\" (Kuehnemann and colleagues): a fatty acid given by mouth lowered markers of aged cells in old mice and improved age-related function. No lifespan result is stated in the abstract.",
+     "url": "https://doi.org/10.1016/j.cell.2026.09.036",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (senolytic) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senescent OR senescence) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senolytic) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senescent OR senescence) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "Europe PMC: ((senescent cells OR senolytic) AND (lifespan OR \"healthspan\") AND (mice OR trial)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: (senolytic OR senolytics) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: (TITLE:(senescent OR senescence OR senolysis OR senomorphic) AND (trial OR patients OR participants OR placebo OR mice)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "web, limited to globenewswire/businesswire/prnewswire/sec.gov: senolytic clinical trial results November 2026",
+    "web, limited to the same four sites: senescent cells drug first patient dosed OR topline OR \"did not meet\" OR discontinued November 2026"
+   ],
+   "web_queries": [
+    "vanadyl sulfate senolytic Nature Aging lifespan mice",
+    "senolytics news this week senescent cells trial published November 2026"
+   ],
+   "pages_opened": [
+    "https://europepmc.org/abstract/MED/42995257",
+    "https://api.crossref.org/works/10.1038/s43587-026-01253-5",
+    "https://europepmc.org/abstract/MED/42971201",
+    "https://api.crossref.org/works/10.1016/j.cell.2026.09.036"
+   ],
+   "story_score": 1,
+   "story_why": "A new aged-cell-clearing compound that lengthens life in male mice, in a leading journal, is worth a line in the notes, but it repeats a rung reached in 2016 and says nothing about people."
+  },
+  {
+   "id": "drug-clears-aged-cells-from-a-person",
+   "verdict": "noted",
+   "found": "On 2026-11-05 a completed trial was first posted on the registry (registry number NCT07918261, Steadman Philippon Research Institute): 82 people over 55 given fisetin on one of two schedules, main measure the change in aged cells in the blood at 45 days; no results are posted and there was no placebo group. Its report exists only as a preprint of 2026-07-22, not peer-reviewed, which says markers of aged cells in blood cells fell from the start on both schedules. It does not change the stage, and no approval or routine clinical use was found. Also flagged: a peer-reviewed mouse report of 2026-03-17 (PNAS) that the two-drug course the entry rests on damaged nerve insulation in the brain is not in the records.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Registry entry NCT07918261, \"Evaluation of Fisetin to Reduce Systemic Senescence\" (Steadman Philippon Research Institute), first posted 2026-11-05: phases 1 and 2, randomised between two dosing schedules, no placebo, 82 enrolled, run 2023-05-24 to 2024-01-30, status completed, main measure the change from the start in aged blood cells at 45 days. No results posted.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07918261",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-07-22",
+     "what": "Preprint (Preprints.org, not peer-reviewed), Gao and colleagues, \"Effects of Two Fisetin Dosing Regimens on Reducing Senescence-Related Genes in Peripheral Blood Mononuclear Cells in Aged Humans\": 81 people, two schedules, no placebo; at day 45 both schedules lowered two gene markers of aged cells in blood cells compared with the start. This appears to be the report of the trial above. Abstract read at Europe PMC and Crossref; the preprint site refused the page.",
+     "url": "https://doi.org/10.20944/preprints202607.1685.v1",
+     "opened": true,
+     "source_kind": "preprint",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-03-17",
+     "what": "PNAS, Lombardo and colleagues, \"Senolytic treatment induces oligodendrocyte dysfunction and demyelination in the corpus callosum\": young and old mice given dasatinib and quercetin developed significant loss of nerve insulation in the brain compared with untreated mice. A peer-reviewed safety finding in animals, against, on the same two drugs as the 2019 kidney report and the 2026 liver trial; the records do not hold it.",
+     "url": "https://doi.org/10.1073/pnas.2524897123",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-04",
+     "what": "Trade coverage says a first trial in people of a skin cream from Rubedo Life Sciences (RLS-1496) reported fewer aged cells in skin in April 2026. Seen only in a search summary; not opened or checked. The registry lists a trial of the cream in sun-damaged skin (NCT07340697), last updated 2026-08-12.",
+     "url": "https://www.pulse.bot/biotech/news/first-human-data-for-rubedo-life-sciences-senolytic-drug-rls-1496-79b5bdac-f97c-4ca9-b256-e18e461bb6f0/",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-03",
+     "what": "Registry entry NCT07275359 (Duke University, a small uncontrolled study of metformin in older people with lung disease, with blood markers of ageing) was updated; not yet recruiting, start estimated February 2027.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07275359",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (senolytic) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (fisetin) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (dasatinib AND quercetin) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senescent OR senescence) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (quercetin OR dasatinib OR navitoclax OR RLS-1496 OR HCW9302 OR \"senescent cells\") AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senolytic) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (fisetin) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (dasatinib AND quercetin) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senescent OR senescence) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (quercetin OR dasatinib OR navitoclax OR RLS-1496 OR HCW9302 OR \"senescent cells\") AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: RLS-1496 OR HCW9302 (no date limit)",
+    "clinicaltrials.gov: NCT07918261, NCT07275359 opened",
+    "Europe PMC: (senolytic OR senolytics) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: ((dasatinib AND quercetin) OR fisetin OR navitoclax OR foselutoclax OR UBX1325) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: (\"senescent cells\" AND (clearance OR eliminate OR elimination) AND (placebo OR \"clinical trial\" OR randomized)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: fisetin AND (bolus OR \"daily dosing\") AND SRC:PPR, 2026-06-01 to 2026-11-09",
+    "Europe PMC: DOI 10.1073/pnas.2524897123",
+    "web, limited to globenewswire/businesswire/prnewswire/sec.gov: senolytic clinical trial results November 2026",
+    "web, limited to the same four sites: senescent cells drug first patient dosed OR topline OR \"did not meet\" OR discontinued November 2026",
+    "web: Unity Biotechnology UBX1325 OR Rubedo Life Sciences OR Oisin OR Deciduous Therapeutics senolytic November 2026"
+   ],
+   "web_queries": [
+    "fisetin senescent cells blood trial results Steadman Philippon 2026",
+    "senolytic human trial senescent cell burden reduced biopsy OR blood marker results published November 2026",
+    "dasatinib quercetin myelin damage mice PNAS 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07918261",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07275359",
+    "https://europepmc.org/abstract/PPR/PPR1284553",
+    "https://api.crossref.org/works/10.20944/preprints202607.1685.v1",
+    "https://europepmc.org/abstract/MED/41843680",
+    "https://europepmc.org/abstract/MED/42971435"
+   ],
+   "story_score": 1,
+   "story_why": "A registry posting for a trial finished in 2024, with no placebo and only a preprint behind it, is a note at most; the March 2026 mouse safety report matters more for the entry but is outside the window."
+  },
+  {
+   "id": "immune-cells-engineered-to-kill-aged-cells",
+   "verdict": "noted",
+   "found": "On 2026-11-02 the company Immorta Bio announced by press release that a first person had been given its immunotherapy meant to make the immune system clear aged cells (SenoMune-0257), on 2026-10-29 in Mexico, in an investigator-run study of people with advanced cancer. It does not meet the test: the product is not engineered immune cells, no measurement of aged cells was reported, there is no peer-reviewed report, and no registry entry was found for it. No trial of engineered T cells against aged cells was registered or updated in the window.",
+   "findings": [
+    {
+     "date": "2026-11-02",
+     "what": "PR Newswire release, Miami, 2026-11-02, \"First Human Administration of Senolytic Immunotherapy to Fight Cellular Aging Announced by Immorta Bio\": \"The first patient was treated on October 29, 2026, in Mexico\", in \"an independently conducted, investigator-initiated clinical study involving patients with advanced cancer\"; the company supplied the product. No results, no registry number and no regulator are named, and the release says safety and efficacy in people have not been established.",
+     "url": "https://www.prnewswire.com/news-releases/first-human-administration-of-senolytic-immunotherapy-to-fight-cellular-aging-announced-by-immorta-bio-302926449.html",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Registry searches for the company and product names (SenoVax, SenoMune, Immorta) and for engineered immune cells against the uPAR protein returned no entry at all, in or out of the window.",
+     "url": "https://clinicaltrials.gov/api/v2/studies?query.term=SenoVax+OR+SenoMune+OR+Immorta",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (uPAR AND CAR) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senolytic) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senescent OR senescence) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (uPAR AND CAR) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senolytic) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (senescent OR senescence) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: SenoVax OR SenoMune OR Immorta (no date limit; nothing)",
+    "clinicaltrials.gov: senolytic AND (CAR OR vaccine OR immunotherapy) (no date limit; one cancer trial, NCT07025226, last updated 2026-10-01)",
+    "Europe PMC: ((senescent OR senescence) AND (\"CAR T\" OR \"CAR-T\" OR \"chimeric antigen receptor\" OR uPAR OR vaccine)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: (senolytic OR senolytics) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "web, limited to globenewswire/businesswire/prnewswire/sec.gov: senolytic clinical trial results November 2026",
+    "web, limited to the same four sites: senescent cells drug first patient dosed OR topline OR \"did not meet\" OR discontinued November 2026"
+   ],
+   "web_queries": [
+    "senolytic CAR T uPAR senescent cells first-in-human trial 2026",
+    "Immorta Bio SenoMune-0257 first patient Mexico senolytic immunotherapy",
+    "senolytic immunotherapy OR vaccine OR \"CAR-T\" senescent cells clinical trial announced November 2026"
+   ],
+   "pages_opened": [
+    "https://www.prnewswire.com/news-releases/first-human-administration-of-senolytic-immunotherapy-to-fight-cellular-aging-announced-by-immorta-bio-302926449.html",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=SenoVax+OR+SenoMune+OR+Immorta",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=uPAR+AND+CAR"
+   ],
+   "story_score": 2,
+   "story_why": "A first person given an immune treatment aimed at aged cells is the kind of event this entry watches for, so a short post is fair; but it rests on one company release, about a different kind of product, outside any registry, with no result."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-11-04",
+   "what": "European Heart Journal Open published a double-blind randomised trial (61 people, 43 finished) of a multi-ingredient nutritional powder aimed at ageing mechanisms: after six months, artery function and stiffness and systolic blood pressure were better than on the control (registry number NCT06145087).",
+   "url": "https://doi.org/10.1093/ehjopen/oeag157",
+   "opened": true,
+   "why_it_matters": "A controlled human trial of a product sold against ageing, with a pre-stated main measure met; small, with a high drop-out, and on a marker, not on disease or lifespan."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "The Journal of Clinical Investigation published a report that aged cells drive a form of muscular dystrophy in patient tissue and mice, and that an existing antiviral drug (lamivudine) reduced them in mice; the authors call for a trial.",
+   "url": "https://doi.org/10.1172/jci207716",
+   "opened": true,
+   "why_it_matters": "Points to a possible first disease trial for a different way of quieting aged cells; animal work only."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "BioAge Labs issued its third-quarter 2026 results release; a search summary says first results of its trial in diabetic eye swelling are expected in the last quarter of 2026. Not opened.",
+   "url": "https://www.globenewswire.com/news-release/2026/11/05/3397158/0/en/bioage-labs-reports-third-quarter-2026-financial-results-and-provides-business-updates.html",
+   "opened": false,
+   "why_it_matters": "An ageing-biology company with a human readout due within weeks; not a drug that clears aged cells, so it fits none of these five records."
+  }
+ ]
+}

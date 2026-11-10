@@ -1,0 +1,61 @@
+{
+ "records": [
+  {
+   "id": "a-drug-lengthens-chromosome-ends-in-a-person",
+   "verdict": "quiet",
+   "found": "Nothing dated between 2026-11-02 and 2026-11-09 bears on this test. No danazol trial was updated or posted in the registry in the window, and no paper or company release about a drug that lengthens telomeres turned up.",
+   "findings": [
+    {"date": "2026-11-05", "what": "Paper in PLOS Genetics on how common germline TERT variants are and what they go with in people (not a treatment study).", "url": "https://doi.org/10.1371/journal.pgen.1012352", "opened": false, "source_kind": "paper", "direction": "neutral", "in_window": true, "in_records_already": false}
+   ],
+   "dated_queries": ["registry LastUpdatePostDate and StudyFirstPostDate in window: danazol; telomere; telomerase", "Europe PMC FIRST_PDATE window: telomere AND (danazol OR androgen OR telomerase)", "web search limited to globenewswire/businesswire/prnewswire/sec.gov: telomere disease treatment trial results November 2026"],
+   "web_queries": ["telomere lengthening treatment OR danazol OR telomerase gene therapy November 2026"],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "No treatment news in the window."
+  },
+  {
+   "id": "a-gene-is-edited-inside-a-persons-body",
+   "verdict": "bears-on-estimate",
+   "found": "On 2026-11-04 Intellia said enrolment in its late-stage nerve-disease trial of nex-z (MAGNITUDE-2) was complete, above the 60 people planned, and on 2026-11-05 its third-quarter report said enrolment in the heart-disease trial was advancing and that it had begun giving trial doctors each patient's immune-gene (HLA) results. The release says nothing about a hold, liver safety or when results are due, and the registry's heart-trial entry (updated 2026-11-04) still shows an expected primary completion of 2027-12.",
+   "findings": [
+    {"date": "2026-11-04", "what": "Intellia announced completed enrolment in the late-stage MAGNITUDE-2 trial of nex-z in hereditary transthyretin amyloidosis with nerve disease, about 60 adults, one dose against placebo; end points at month 18 (nerve score) and day 29 (protein level).", "url": "https://dealroom.co/news/169675-intellia-completes-enrolment-in-phase-3-magnitude-2-trial-of-one-time-cr/", "opened": true, "source_kind": "press", "direction": "for", "in_window": true, "in_records_already": false},
+    {"date": "2026-11-05", "what": "Intellia third-quarter 2026 results: MAGNITUDE-2 enrolment finished in the quarter (above the 60-person target); enrolment in the heart trial advanced; HLA genotyping results given to investigators in the ongoing nex-z late-stage trials. No mention of a clinical hold, liver safety or filing timeline. Only regulatory date given is for a different editor, lonvo-z (PDUFA 2027-03-10).", "url": "https://www.sec.gov/Archives/edgar/data/0001652130/000119312526448673/ntla-ex99_1.htm", "opened": true, "source_kind": "company-release", "direction": "for", "in_window": true, "in_records_already": false},
+    {"date": "2026-11-04", "what": "Registry entry for MAGNITUDE (NCT06128629): status recruiting, 1,200 planned, primary completion 2027-12, last updated 2026-11-04.", "url": "https://clinicaltrials.gov/api/v2/studies/NCT06128629", "opened": true, "source_kind": "registry", "direction": "neutral", "in_window": true, "in_records_already": true},
+    {"date": "2026-11-05", "what": "Registry entry for MAGNITUDE-2 (NCT06672237): status active, not recruiting, 67 enrolled, primary completion 2027-07, last updated 2026-11-05.", "url": "https://clinicaltrials.gov/api/v2/studies/NCT06672237", "opened": true, "source_kind": "registry", "direction": "for", "in_window": true, "in_records_already": false}
+   ],
+   "dated_queries": ["registry LastUpdatePostDate and StudyFirstPostDate in window: nexiguran ziclumeran; NTLA-2001; transthyretin; amyloidosis AND CRISPR", "Europe PMC FIRST_PDATE window: NTLA-2001 OR nexiguran OR transthyretin AND CRISPR", "web search limited to globenewswire/sec.gov/ir.intelliatx.com: Intellia completes enrollment MAGNITUDE-2 November 2026", "web search limited to company wires and sec.gov: in vivo gene editing approval or first patient dosed November 2026"],
+   "web_queries": ["Intellia Therapeutics third quarter 2026 financial results nex-z MAGNITUDE clinical hold", "in vivo CRISPR gene editing transthyretin amyloidosis November 2026 news"],
+   "pages_opened": ["https://finviz.com/news/416921/intellia-therapeutics-announces-third-quarter-2026-financial-results-and-business-updates", "https://dealroom.co/news/169675-intellia-completes-enrolment-in-phase-3-magnitude-2-trial-of-one-time-cr/", "https://www.sec.gov/Archives/edgar/data/0001652130/000119312526448673/ntla-ex99_1.htm", "https://clinicaltrials.gov/api/v2/studies/NCT06128629", "https://clinicaltrials.gov/api/v2/studies/NCT06672237"],
+   "story_score": 2,
+   "story_why": "A finished enrolment in a late-stage trial of an in-body editor is worth a short news post, though it does not meet the approval test. Estimate note: the earliest year (2028) rests on the nerve-disease trial, whose enrolment is now complete with a registered primary completion of 2027-07, which slightly supports that year; the record's description of the heart trial as restarted still stands, and the release gives no new safety or hold information, so the likely year of 2030 is not clearly moved. Flag: the entry's text does not yet mention the 2026-11-04 and 2026-11-05 announcements."
+  },
+  {
+   "id": "gene-therapy-lengthens-chromosome-ends-in-an-old-animal",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window bears on this test. The two registry entries named in the record are unchanged: the Colombian telomerase trial (NCT04133649) still shows status unknown, last updated 2019-12-10, and the ZSCAN4 trial (NCT04211714) was last updated 2026-02-06, with a primary completion date of 2026-10-08 and no results posted.",
+   "findings": [
+    {"date": "2026-02-06", "what": "ZSCAN4 trial registry entry: active, not recruiting, 12 planned, primary completion 2026-10-08; no update in the window.", "url": "https://clinicaltrials.gov/api/v2/studies/NCT04211714", "opened": true, "source_kind": "registry", "direction": "neutral", "in_window": false, "in_records_already": true},
+    {"date": "2019-12-10", "what": "Colombian telomerase gene therapy entry: status unknown, 5 planned, last updated 2019-12-10 (the record says 2019-12-06; the registry now shows 2019-12-10).", "url": "https://clinicaltrials.gov/api/v2/studies/NCT04133649", "opened": true, "source_kind": "registry", "direction": "neutral", "in_window": false, "in_records_already": true}
+   ],
+   "dated_queries": ["registry LastUpdatePostDate and StudyFirstPostDate in window: telomerase; telomere; ZSCAN4", "Europe PMC FIRST_PDATE window: telomerase AND gene therapy", "registry lookups of NCT04133649 and NCT04211714"],
+   "web_queries": ["telomere lengthening treatment OR danazol OR telomerase gene therapy November 2026"],
+   "pages_opened": ["https://clinicaltrials.gov/api/v2/studies/NCT04133649", "https://clinicaltrials.gov/api/v2/studies/NCT04211714"],
+   "story_score": 0,
+   "story_why": "No news in the window. Minor flag: the ZSCAN4 trial's primary completion date of 2026-10-08 has passed, so a result could follow."
+  },
+  {
+   "id": "premature-ageing-mutation-corrected-in-a-living-animal",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window bears on this test. No progeria trial was posted or updated in the registry, no relevant paper appeared in Europe PMC, and searches found no report of a first person treated.",
+   "findings": [],
+   "dated_queries": ["registry LastUpdatePostDate and StudyFirstPostDate in window: progeria; base editing", "Europe PMC FIRST_PDATE window: progeria AND (base editing OR gene editing OR correction)", "web search limited to company wires and sec.gov: in vivo gene editing approval or first patient dosed November 2026"],
+   "web_queries": ["progeria gene editing base editor first patient OR trial November 2026"],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "No news in the window."
+  }
+ ],
+ "unmatched": [
+  {"date": "2026-11-05", "what": "Intellia's third-quarter release says the US regulator's decision date for lonvo-z (an in-body gene editor for hereditary angioedema, not an age-related disease) is 2027-03-10 and that no advisory committee is planned. It would be the first approval of a treatment that edits a gene inside the body if granted.", "url": "https://www.sec.gov/Archives/edgar/data/0001652130/000119312526448673/ntla-ex99_1.htm", "opened": true, "why_it_matters": "It sets a date for the first regulator decision on an in-body gene editor, the tool the gene-editing entry's clinic rung needs, though that rung asks for an age-related or DNA-damage disease."}
+ ]
+}

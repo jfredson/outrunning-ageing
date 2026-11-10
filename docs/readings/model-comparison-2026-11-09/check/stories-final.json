@@ -1,0 +1,4776 @@
+[
+ {
+  "id": "S1089",
+  "members": [
+   "S1089"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "FDA Center for Veterinary Medicine updates list: no dog lifespan drug approved; newest entry is a screwworm emergency authorisation for dogs, 2026-11-03",
+  "topic": "a-drug-is-approved-to-make-dogs-live-longer",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1037",
+  "members": [
+   "S1037"
+  ],
+  "runs": [
+   "f2",
+   "s2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Dog Aging Project consortium, GeroScience, 2026-11-04: study design paper for the Dog Aging Project Pack observational cohort (50,188 dogs, 14,978 deaths)",
+  "topic": "a-drug-adds-healthy-years-to-a-life",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1035",
+  "members": [
+   "S1035",
+   "S1026",
+   "S1134",
+   "S1049",
+   "S1074"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g1b",
+   "g1b-unmatched",
+   "g2"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Intellia third-quarter 2026 release, 2026-11-05: enrolment complete in MAGNITUDE-2 (nex-z, nerve form, past target of 60); MAGNITUDE heart trial still enrolling; registry entries for both trials updated 2026-11-04 and 2026-11-05",
+  "topic": "a-gene-is-edited-inside-a-persons-body",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1156",
+  "members": [
+   "S1156"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g3",
+   "g3-unmatched",
+   "g5",
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "VITAL-H (NCT07923630), University of Texas Health Science Center at San Antonio, first posted 2026-11-06: phase 2 trial of oral semaglutide, dapagliflozin or placebo in 1,200 people aged 60 to 75 against the decline of ageing",
+  "topic": "a-drug-adds-healthy-years-to-a-life",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1167",
+  "members": [
+   "S1167",
+   "S1119"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Scribe Therapeutics release, 2026-11-04: to present updated monkey data on its PCSK9 epigenetic silencer STX-1150 (LDL cholesterol held down at least two years after one dose) at the American Heart Association meeting on 2026-11-07",
+  "topic": "a-cells-settings-are-rewritten-at-one-gene-in-a-person",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1102",
+  "members": [
+   "S1102"
+  ],
+  "runs": [
+   "f1",
+   "s1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Borkowski, Preprints.org, 2026-11-03: narrative review 'Artificial Intelligence in Longevity Research: From Molecular Clocks to Interventional Geroscience' (not peer reviewed)",
+  "topic": "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1152",
+  "members": [
+   "S1152"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": false,
+  "real": "yes",
+  "date": null,
+  "story": "Check for the metformin trial TAME on 2026-11-09: no registry entry posted or updated 2026-11-02 to 2026-11-09, and afar.org/research/TAME/ answers 'not found'",
+  "topic": "a-drug-adds-healthy-years-to-a-life",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1039",
+  "members": [
+   "S1039"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": false,
+  "real": "yes",
+  "date": null,
+  "story": "Loyal's page for veterinarians, read 2026-11-09: effectiveness and safety sections complete, manufacturing section and conditional approval 'In progress', STAY study ongoing; no dated news in the window",
+  "topic": "a-drug-is-approved-to-make-dogs-live-longer",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1168",
+  "members": [
+   "S1168"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "American Heart Association release, 2026-11-02, on meeting abstract MDP1524: in records of 256,492 adults with prediabetes and obesity, GLP-1 drug users had fewer heart attacks, strokes and deaths than metformin users",
+  "topic": "a-drug-adds-healthy-years-to-a-life",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1005",
+  "members": [
+   "S1005"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g3",
+   "g3-unmatched"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Epirium Bio, registry entry NCT07921420 first posted 2026-11-06: phase 2b placebo-controlled trial of MF-300 in 225 adults aged 65 and over with age-related muscle loss",
+  "topic": "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1043",
+  "members": [
+   "S1043"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-07",
+  "story": "Zheng and colleagues, Journal of Nutrition, Health and Aging, online 2026-11-07: faster biological age from routine blood tests linked to aortic valve narrowing in two groups (4,526 and 5,114 people)",
+  "topic": "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1007",
+  "members": [
+   "S1007"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Mostafaei, Lindh, Qin, Mak and Hagg, Research Square preprint, 2026-11-04: biological age measures and death from any cause in TwinGene (9,617) and UK Biobank (314,064)",
+  "topic": "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1140",
+  "members": [
+   "S1140"
+  ],
+  "runs": [
+   "f1",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g1b"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Niewisch and colleagues, PLOS Genetics, 2026-11-05: how common inherited TERT (telomerase gene) variants are in the population and which illnesses go with them",
+  "topic": "a-drug-lengthens-chromosome-ends-in-a-person",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1032",
+  "members": [
+   "S1032"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Chen and colleagues, Cardiovascular Diabetology, 2026-11-02: 'Biological age acceleration, plasma proteomics, and incident arrhythmias in type 2 diabetes'",
+  "topic": "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1111",
+  "members": [
+   "S1111"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g1b",
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Mizoguchi and colleagues (Verve Therapeutics, part of Eli Lilly), Nature, 2026-11-06: laboratory and monkey work for a one-dose base editor that switches off ANGPTL3; first trial in people under way",
+  "topic": "a-gene-is-edited-inside-a-persons-body",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "sweep"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1121",
+  "members": [
+   "S1121"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Journal of Clinical Investigation, 2026-11-02: dapagliflozin linked to lower odds of pre-frail older people with high blood pressure and kidney disease becoming frail over one year (odds ratio 0.13), matched comparison, not randomised",
+  "topic": "a-drug-adds-healthy-years-to-a-life",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1040",
+  "members": [
+   "S1040"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-07",
+  "story": "Biological Psychiatry, online 2026-11-07: post-traumatic stress disorder linked to older readings on five DNA-mark clocks in 43,155 United States veterans",
+  "topic": "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1003",
+  "members": [
+   "S1003"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Diaz-Vallejo and colleagues, GeroScience, 2026-11-04: systematic review of randomised trials of polyphenol supplements and muscle in adults aged 55 and over; five completed trials, inconsistent effects",
+  "topic": "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1038",
+  "members": [
+   "S1038"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g2",
+   "g2-unmatched",
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Ye and colleagues, Cell Stem Cell, 2026-11-05: lasting, partly reversible silencing of a platelet gene by editing DNA marks in human blood-forming stem cells, stable four months after transplant into mice",
+  "topic": "a-cells-settings-are-rewritten-at-one-gene-in-a-person",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1169",
+  "members": [
+   "S1169"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g2",
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Galkina and colleagues, Food & Function, 2026-11-02: in 104 older adults in a two-year walnut-diet trial, rises in urolithins went with preserved thickness of the brain's outer layer",
+  "topic": "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1151",
+  "members": [
+   "S1151"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Tune Therapeutics news page, item of 2026-11-05: its editing platform TEMPO named gene editing platform of the year in an industry awards scheme; no new clinical data",
+  "topic": "a-cells-settings-are-rewritten-at-one-gene-in-a-person",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1021",
+  "members": [
+   "S1021"
+  ],
+  "runs": [
+   "s2"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Grenville and colleagues, medRxiv preprint, 2026-11-04: markers of ageing in childhood and lung function over time in a UK birth cohort",
+  "topic": "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age",
+  "pairs": [
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1033",
+  "members": [
+   "S1033"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Stealth BioTherapeutics, registry entry NCT07531251 (4TAZPower) updated 2026-11-09: placebo-controlled confirming trial of elamipretide in 48 people with Barth syndrome, recruiting",
+  "topic": "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1118",
+  "members": [
+   "S1118"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Bautista and Lopez-Cortes, Frontiers in Cardiovascular Medicine, 2026-11-09: 'Toward a vascular mitochondrial clock of biological aging', a conceptual piece",
+  "topic": "a-blood-count-of-mitochondrial-dna-predicts-death-and-disease",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1004",
+  "members": [
+   "S1004"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Staiger preprint (Research Square, 2026-11-06): Medicaid use of and spending on obesity-labelled GLP-1 brands, 2021 to early 2026",
+  "topic": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1180",
+  "members": [
+   "S1180"
+  ],
+  "runs": [
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Nyambod and colleagues, Cureus, 2026-11-06: dispensing of obesity GLP-1 drugs fell about 85% in states whose Medicaid programmes withdrew coverage",
+  "topic": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+  "pairs": [
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1181",
+  "members": [
+   "S1181"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g1b"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "CRISPR Therapeutics third-quarter 2026 release, 2026-11-02: CTX310 (in-body editor of ANGPTL3) holds the regulator's regenerative-medicine designation for severe high triglycerides and for raised LDL cholesterol; phase 1b data due at the heart meeting 2026-11-09",
+  "topic": "a-gene-is-edited-inside-a-persons-body",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1148",
+  "members": [
+   "S1148"
+  ],
+  "runs": [
+   "f1",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g2",
+   "g2-unmatched",
+   "sweep"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Lifespan.io editorial 'Momentum on two fronts for rejuvenation', 2026-11-05: recap of FDA leaders' remarks at the ARDD meeting in Boston, a Lifespan Research Institute whitepaper, and Life Biosciences' ER-100 interim data",
+  "topic": "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "s1",
+    "sweep"
+   ],
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1154",
+  "members": [
+   "S1154"
+  ],
+  "runs": [
+   "f1",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": false,
+  "real": "yes",
+  "date": "2026-09-07",
+  "story": "Zhavoronkov and colleagues, Nature Biotechnology, 2026-09-07: six blood-protein age clocks read lower biological age in the rentosertib arms of a 12-week phase 2a lung-scarring trial (discussed by Fight Aging! 2026-11-09)",
+  "topic": "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "s1",
+    "sweep"
+   ],
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1136",
+  "members": [
+   "S1136"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "White and colleagues, medRxiv preprint, 2026-11-04: buckwheat sprout powder trial in 848 adults missed its main thinking measure; exploratory epigenetic-age signals in 34 people",
+  "topic": "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1061",
+  "members": [
+   "S1061"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g1b"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Nature Medicine author correction, 2026-11-03, to Wan and colleagues' phase 1 trial of in-body base editing for inherited high cholesterol",
+  "topic": "a-gene-is-edited-inside-a-persons-body",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1064",
+  "members": [
+   "S1064",
+   "S1150"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g1b",
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "CRISPR Therapeutics, 2026-11-09: phase 1b data for CTX310 (one-time in-body editor of ANGPTL3) in 10 people with severe high triglycerides, presented at the American Heart Association meeting; 65% fall in the target protein, 63% in triglycerides at day 30",
+  "topic": "a-gene-is-edited-inside-a-persons-body",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1066",
+  "members": [
+   "S1066",
+   "S1083"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Ding, Oura, Okamura and Wu, Cell Stem Cell, 2026-11-03: live mice born from donor stem cells that replaced the whole embryo proper in host mouse embryos (epiblast complementation)",
+  "topic": "a-human-organ-is-grown-inside-an-animal",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1132",
+  "members": [
+   "S1132"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Vericel third-quarter 2026 results call (reported 2026-11-06): the United Kingdom's cost-effectiveness body NICE accepted MACI for appraisal; United Kingdom launch targeted for the second half of 2027",
+  "topic": "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1054",
+  "members": [
+   "S1054"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g1b"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "unverified",
+  "date": "2026-11-05",
+  "story": "Intellia quarterly report (Form 10-Q for the quarter to 2026-09-30), filed 2026-11-05: restates the 2025 trial stop, the patient death and the immune-gene finding; no new safety event",
+  "topic": "a-gene-is-edited-inside-a-persons-body",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1107",
+  "members": [
+   "S1107",
+   "S1090"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Vericel third-quarter 2026 results release, 2026-11-05: MACI revenue $67.4 million (up 21%), full-year MACI forecast raised to $290 to $292 million, United Kingdom launch possible in 2027",
+  "topic": "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1177",
+  "members": [
+   "S1177"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Registry record NCT06915233 (Vericel phase 3 trial of MACI in ankle cartilage defects) updated, posted 2026-11-05",
+  "topic": "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1159",
+  "members": [
+   "S1159",
+   "S1160"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g1b"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Editas Medicine third-quarter 2026 release, 2026-11-09: Australian ethics approval and regulator notification complete for the first trial in people of EDIT-401, an in-body editor for inherited high cholesterol; first dosing expected in 2026",
+  "topic": "a-gene-is-edited-inside-a-persons-body",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1139",
+  "members": [
+   "S1139"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": false,
+  "real": "yes",
+  "date": "2026-08-01",
+  "story": "Heikkinen and colleagues, Aging Cell, 2026-08-01: nicotinamide riboside for five months linked to lower epigenetic age acceleration in muscle (mentioned in Niagen Bioscience's results release of 2026-11-04)",
+  "topic": "a-persons-biological-age-reading-falls-after-treatment",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1163",
+  "members": [
+   "S1163"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Marino and colleagues, Critical Pathways in Cardiology, 2026-11-02: pooled analysis of seven semaglutide trials (38,412 people), 17% lower risk of death from heart causes",
+  "topic": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1015",
+  "members": [
+   "S1015"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Registry record NCT03588975 (Vericel trial of MACI in knees of 10 to 17 year olds) updated, posted 2026-11-03",
+  "topic": "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1130",
+  "members": [
+   "S1130",
+   "S1071"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "FDA, 2026-11-09: all twelve approved GLP-1 drugs must add a label warning about a rare eye condition (non-arteritic anterior ischaemic optic neuropathy)",
+  "topic": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1128",
+  "members": [
+   "S1128"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g1b"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Beam Therapeutics third-quarter 2026 release, 2026-11-03: dosing continues in the pivotal group of its in-body base editor trial for alpha-1 antitrypsin deficiency (BEAM-302), to finish in the first half of 2027",
+  "topic": "a-gene-is-edited-inside-a-persons-body",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1117",
+  "members": [
+   "S1117"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Registry record NCT07339111 (Medipost United States phase 3 trial of CARTISTEM, donated cord-blood stem cells, in knee cartilage lesions and osteoarthritis) updated, posted 2026-11-05",
+  "topic": "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1112",
+  "members": [
+   "S1112"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Drug and Therapeutics Bulletin (BMJ), 2026-11-06: article 'Semaglutide (Wegovy) for secondary cardiovascular prevention in adults with an elevated BMI'",
+  "topic": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1147",
+  "members": [
+   "S1147"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Kafka and colleagues, Herz, 2026-11-02: review 'Age: a modifiable risk factor for cardiovascular disease?' on ageing clocks as stand-in outcomes in trials",
+  "topic": "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1120",
+  "members": [
+   "S1120",
+   "S1125",
+   "S1113",
+   "S1099",
+   "S1013"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g5",
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-07",
+  "story": "ZEUS trial: ziltivekimab (Novo Nordisk, interleukin-6 antibody) did not cut heart events in 6,376 people; presented at the American Heart Association meeting and published in NEJM, 2026-11-07",
+  "topic": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "sweep"
+   ],
+   [
+    "s2",
+    "readers"
+   ],
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1173",
+  "members": [
+   "S1173",
+   "S1046",
+   "S1129"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g3",
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "SYNCHRONIZE-CVOT: survodutide (Boehringer Ingelheim / Zealand) did not raise major heart events against placebo, no proven reduction; American Heart Association meeting and The Lancet, 2026-11-09",
+  "topic": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1162",
+  "members": [
+   "S1162"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-07",
+  "story": "Jaiswal and colleagues, American Journal of Cardiovascular Drugs, 2026-11-07: pooled analysis of nine trials (2,005 people) of colchicine around heart surgery",
+  "topic": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1044",
+  "members": [
+   "S1044"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Registry NCT04916470 (Novo Nordisk, semaglutide in heart failure with obesity and type 2 diabetes, 617 people): results first posted 2026-11-02",
+  "topic": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1158",
+  "members": [
+   "S1158"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g1a"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Meyer, perspective in the journal Function, 2026-11-03: aged immune cells in thigh muscle after knee ligament tears in mice",
+  "topic": "aged-cell-clearing-drug-relieves-knee-arthritis",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1100",
+  "members": [
+   "S1100"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Registry NCT06263244 (Amsterdam university hospital, 40-person ziltivekimab inflammation study) marked completed, updated 2026-11-06",
+  "topic": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1166",
+  "members": [
+   "S1166"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Yang and colleagues, BMC Medicine, 2026-11-03: cohort study of colchicine use and heart events in Chinese adults starting urate-lowering treatment",
+  "topic": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1012",
+  "members": [
+   "S1012",
+   "S1031",
+   "S1157"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g5",
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Novo Nordisk nine-month report, 2026-11-04: 4.6 billion kroner write-down on ziltivekimab; ZEUS and HERMES missed their main goals; ziltivekimab work closed",
+  "topic": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1001",
+  "members": [
+   "S1001"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Tah and Cheshire, medRxiv preprint, 2026-11-06: records study of GLP-1 drugs added to statins in people with artery disease, 119,911 matched pairs",
+  "topic": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1153",
+  "members": [
+   "S1153"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Registry NCT07920133 first posted 2026-11-05: TARGET-CHD, Sir Run Run Shaw Hospital, 1,768 people, colchicine guided by an inflammation blood marker after stenting",
+  "topic": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1138",
+  "members": [
+   "S1138"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Wang and colleagues, Diabetes Research and Clinical Practice, 2026-11-06: pooled analysis of ten GLP-1 outcome trials (87,334 people), effect over time",
+  "topic": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1126",
+  "members": [
+   "S1126"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-07",
+  "story": "Baldwin and colleagues, Cardiovascular Research, 2026-11-07: colchicine vs placebo in 111 people with coronary disease, no fall in artery inflammation on scans",
+  "topic": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1174",
+  "members": [
+   "S1174"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Circulation meeting abstract 17297, 2026-11-02: what changes the link between protein-based organ age gaps and outcome in 3,194 people with heart failure",
+  "topic": "an-age-for-each-organ-is-read-from-blood-proteins",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1098",
+  "members": [
+   "S1098"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Circulation meeting abstract 10037, 2026-11-02: design and starting characteristics of ARTEMIS, ziltivekimab after a heart attack, 8,346 people in 24 countries",
+  "topic": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1036",
+  "members": [
+   "S1036"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Registry NCT07241390 (Eli Lilly, ATTAIN-Outcomes, orforglipron heart-outcomes trial, 7,140 people) updated 2026-11-04",
+  "topic": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1087",
+  "members": [
+   "S1087"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Circulation meeting abstract 17152, 2026-11-02: protein-based organ age gaps and outcome in 2,579 people with heart failure, heart age gap hazard ratio 1.36",
+  "topic": "an-age-for-each-organ-is-read-from-blood-proteins",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1030",
+  "members": [
+   "S1030"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Ohe, Research Square preprint, 2026-11-04: pooled analysis of 162 placebo-controlled trials of GLP-1 drugs and tirzepatide on falls, fractures and lean mass",
+  "topic": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1024",
+  "members": [
+   "S1024"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Registry NCT07783802 (Eli Lilly, clazakizumab in 120 adults with raised inflammation) updated 2026-11-03",
+  "topic": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1041",
+  "members": [
+   "S1041"
+  ],
+  "runs": [
+   "f1",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Bao and colleagues, Environmental Research, 2026-11-06: artificial light at night and faster organ ageing on protein clocks in 37,323 UK Biobank participants",
+  "topic": "an-age-for-each-organ-is-read-from-blood-proteins",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1067",
+  "members": [
+   "S1067"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Baechle, Furman and colleagues, bioRxiv preprint, 2026-11-02: a 30-protein immune 'age' signature (iPACE) tracking heart-disease risk and death in older adults",
+  "topic": "an-age-for-each-organ-is-read-from-blood-proteins",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1105",
+  "members": [
+   "S1105"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Zschocke and colleagues, Fortschritte der Neurologie-Psychiatrie, 2026-11-06: donanemab's European approval set against Germany's added-benefit assessment, which found no added benefit in either stage of early Alzheimer's",
+  "topic": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1186",
+  "members": [
+   "S1186"
+  ],
+  "runs": [
+   "s2"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Eisai's programme for the CTAD meeting in Boston (2026-11-16 to 19): first five-year Clarity AD lecanemab findings to be presented on 2026-11-16; reported by Longevity.Technology 2026-11-09",
+  "topic": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+  "pairs": [
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1094",
+  "members": [
+   "S1094"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Registry: NCT07911670 first posted 2026-11-03, early trial of UX-DA003 (stem-cell-derived cells) in 12 people with Parkinson's disease, First Affiliated Hospital of Anhui Medical University",
+  "topic": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1056",
+  "members": [
+   "S1056"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Registry: NCT07917403 first posted 2026-11-04, University of California San Diego, 30-person feasibility study of a nicotinamide riboside combination supplement (NRPT) in knee osteoarthritis",
+  "topic": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1124",
+  "members": [
+   "S1124"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Registry updates: NCT07880925 (dsm-firmenich, trigonelline and blood NAD in 60 healthy adults) updated 2026-11-05; NCT07659834 (18-person 'longevity' supplement study measuring blood NAD) updated 2026-11-03, completed",
+  "topic": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1114",
+  "members": [
+   "S1114"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s2"
+  ],
+  "srcs": [
+   "g3",
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Nature Metabolism, 2026-11-04, Romenskaja-Avgul and colleagues: whole-blood NAD (1,340 measurements, 1,068 adults) does not fall with age in healthy people; lower in cardiovascular disease and high blood pressure",
+  "topic": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1088",
+  "members": [
+   "S1088",
+   "S1077"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Blood, 2026-11-05, Romero-Mulero and colleagues: in mice, most blood stem and early blood cells change markedly with age, but one lymphoid-leaning group (MPP6) changes little",
+  "topic": "an-old-animals-blood-stem-cells-are-rejuvenated",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1025",
+  "members": [
+   "S1025"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Blood, 2026-11-04, Igarashi and colleagues (Wilkinson group): old mouse blood stem cells expand poorly outside the body with low Lin28b; forcing Lin28b on improved their transplant performance",
+  "topic": "an-old-animals-blood-stem-cells-are-rejuvenated",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1097",
+  "members": [
+   "S1097"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g3",
+   "g4-unmatched",
+   "g5-unmatched"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Registry: NCT06907329 updated 2026-11-03, now completed; 26-week placebo-controlled trial of slow-release NMN tablets in 124 people aged 50 to 70 in China, main measure a marker of immune ageing",
+  "topic": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1178",
+  "members": [
+   "S1178"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s2"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "BioArctic announced 2026-11-02 that Novartis ended their 2025 brain-delivery technology agreement (up to 802 million dollars; BioArctic keeps the 30 million upfront)",
+  "topic": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1095",
+  "members": [
+   "S1095"
+  ],
+  "runs": [
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Neurological Sciences, 2026-11-06, T\u00e1buas-Pereira and colleagues: amyloid scan at 52 weeks as a cost-effective way to guide time-limited donanemab treatment",
+  "topic": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+  "pairs": [
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1165",
+  "members": [
+   "S1165"
+  ],
+  "runs": [
+   "f1",
+   "s2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Pharmacological Research review, 2026-11-06, Pei and colleagues: 'From NAD+ elevation to clinical benefit', covering 3,271 papers; human trials of NAD precursors gave inconsistent results on function",
+  "topic": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1122",
+  "members": [
+   "S1122"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Registry: NCT07923812 first posted 2026-11-06, Fudan University multi-centre look-back study of disease-modifying Alzheimer's treatment in routine care in China, 3,000 people",
+  "topic": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1068",
+  "members": [
+   "S1068"
+  ],
+  "runs": [
+   "s2"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Pharmazeutische Zeitung (dpa), 2026-11-04: a year of lecanemab and donanemab in Germany; neurologist \u00d6zg\u00fcr Onur estimates 1,000 to 2,000 people treated; no proven added benefit; price talks continuing",
+  "topic": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+  "pairs": [
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1065",
+  "members": [
+   "S1065"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Registry: NCT07435636 (MOSAIC, Australia) updated 2026-11-04; phase 2 trial of low-dose oral decitabine in 80 people aged 60 and over with clonal blood cell growth and low counts, not yet recruiting",
+  "topic": "an-old-animals-blood-stem-cells-are-rejuvenated",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1137",
+  "members": [
+   "S1137"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Annals of the Academy of Medicine, Singapore, 2026-11-04, Chen and colleagues: appropriate-use recommendations for lecanemab in Singapore, with a proposed national registry",
+  "topic": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1078",
+  "members": [
+   "S1078"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Niagen Bioscience (seller of nicotinamide riboside) third-quarter 2026 results, 2026-11-04: net sales 27.2 million dollars",
+  "topic": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1008",
+  "members": [
+   "S1008"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Registry: NCT05878119 updated 2026-11-09; Metro International Biotech's completed trial of MIB-626 (NMN) with and without exercise in 124 adults aged 19 to 40; still no results posted",
+  "topic": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1110",
+  "members": [
+   "S1110"
+  ],
+  "runs": [
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g2",
+   "g2-unmatched",
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": false,
+  "real": "yes",
+  "date": "2026-10-30",
+  "story": "Acumen announced 2026-10-30 that sabirnetug missed the main 18-month measure in the 542-person ALTITUDE-AD phase 2 trial in early Alzheimer's and that it is ending development; NeurologyLive report 2026-11-03",
+  "topic": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ],
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1057",
+  "members": [
+   "S1057"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "A",
+  "inw": false,
+  "real": "yes",
+  "date": "2026-09-07",
+  "story": "Novo Nordisk stopped two ziltivekimab heart-failure trials, HERMES and ATHENA, for low chance of success; reported 2026-09-07",
+  "topic": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1106",
+  "members": [
+   "S1106"
+  ],
+  "runs": [
+   "f1",
+   "s1"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Research Square preprint, 2026-11-02, Jin and colleagues: quieting over-active hypothalamus nerve cells in aged mice restored lymph-cell precursors and B-cell production and improved the H1N1 vaccine response",
+  "topic": "an-old-animals-blood-stem-cells-are-rejuvenated",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1172",
+  "members": [
+   "S1172"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Registry updates with no visible change of substance: Roche trontinemab prevention trial NCT07717411 (updated 2026-11-06), Lilly donanemab trials NCT07589595 (2026-11-04) and NCT06566170 (2026-11-03)",
+  "topic": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1133",
+  "members": [
+   "S1133",
+   "S1080"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Pfizer third-quarter 2026 results, 2026-11-03: tafamidis family (Vyndaqel) revenue $1,773 million, up 12 per cent before currency effects",
+  "topic": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1076",
+  "members": [
+   "S1076"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g3",
+   "g5",
+   "g5-unmatched"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Design paper for AMICO, a phase 3 trial of metformin in 212 people with chronic obstructive pulmonary disease (de-Torres and colleagues, journal COPD, online 2026-11-04)",
+  "topic": "metformin-delays-age-related-disease-in-people-without-diabetes",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1014",
+  "members": [
+   "S1014"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g1a",
+   "g3",
+   "g5"
+  ],
+  "grade": "C",
+  "inw": false,
+  "real": "yes",
+  "date": null,
+  "story": "Null checks of the trial registry made on 2026-11-09: no entry for the TAME metformin trial by its full title; no entry for SenoVax, SenoMune or Immorta",
+  "topic": "immune-cells-engineered-to-kill-aged-cells",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1027",
+  "members": [
+   "S1027"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Registry entry NCT07925437 first posted 2026-11-09: Slovenian placebo-controlled study of a collagen, MSM and vitamin C supplement and sugar-damage products in skin, 90 people, 16 weeks",
+  "topic": "drug-breaks-the-sugar-cross-links-that-stiffen-old-tissue",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1108",
+  "members": [
+   "S1108"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g2",
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Circulation, online 2026-11-03 (Garcia-Pavia and colleagues): HELIOS-B open-label extension of vutrisiran to month 48, 37 per cent lower risk of death in those on the drug throughout",
+  "topic": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1018",
+  "members": [
+   "S1018"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Alnylam release, 2026-11-09: five-year HELIOS-B data for vutrisiran at the American Heart Association meeting, 41 per cent lower combined risk of death and repeat heart events overall, 48 per cent in those on the drug alone",
+  "topic": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1009",
+  "members": [
+   "S1009",
+   "S1187"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g4",
+   "g4-unmatched"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Sana Biotechnology third-quarter 2026 update, 2026-11-05: expects to ask permission and start a first trial of SC451 (stem cell-derived islet cells) as early as this year; restates 14-month donor-islet result in one person",
+  "topic": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1029",
+  "members": [
+   "S1029"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s2"
+  ],
+  "srcs": [
+   "g1a",
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Immorta Bio release, 2026-11-02: first person given SenoMune-0257, a peptide meant to train the immune system against aged cells, on 2026-10-29 in Mexico, in a doctor-run study of advanced cancer",
+  "topic": "immune-cells-engineered-to-kill-aged-cells",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1182",
+  "members": [
+   "S1182"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Alnylam filing of 2026-11-05: board authorised a share buyback of up to $1.0 billion on 2026-11-02; head of commercialisation to leave in December 2026",
+  "topic": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1131",
+  "members": [
+   "S1131"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g1a",
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Registry entry NCT07918261 first posted 2026-11-05: Steadman Philippon Research Institute's completed fisetin trial in 82 healthy volunteers, two dosing schedules, no placebo, no results posted",
+  "topic": "drug-clears-aged-cells-from-a-person",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ],
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1082",
+  "members": [
+   "S1082"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g3",
+   "g5",
+   "g5-unmatched"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Registry entry NCT04264897 (ANTHEM, metformin against placebo for 12 weeks in 166 adults, Oklahoma Medical Research Foundation) updated 2026-11-05; results were first posted 2026-07-02",
+  "topic": "metformin-delays-age-related-disease-in-people-without-diabetes",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1093",
+  "members": [
+   "S1093"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Journal of the American Heart Association, 2026-11-04 (Mitchell and colleagues): in United States claims for 7,509 people, median 5.2 years from first sign to diagnosis of transthyretin amyloid heart disease",
+  "topic": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1006",
+  "members": [
+   "S1006"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Nature Reviews Nephrology review, 2026-11-06 (Winkler and colleagues): 'An integrative roadmap for a new era of kidney replacement therapies'",
+  "topic": "lab-grown-organ-works-in-a-person-for-a-year",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1086",
+  "members": [
+   "S1086"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "medRxiv preprint, 2026-11-03 (Charpignon and colleagues): metformin against sulfonylureas in the All of Us database, set up to imitate a trial; death hazard ratio 0.61, dementia 0.90",
+  "topic": "metformin-delays-age-related-disease-in-people-without-diabetes",
+  "pairs": [
+   [
+    "f2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1053",
+  "members": [
+   "S1146",
+   "S1053",
+   "S1091",
+   "S1104",
+   "S1017"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Vertex third-quarter 2026 results, 2026-11-02: company puts its newer islet-cell therapy VX-017 ahead of zimislecel, expects late-stage development of VX-017 in 2027",
+  "topic": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1019",
+  "members": [
+   "S1019"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Clinical Research in Cardiology, 2026-11-02 (Morbach and colleagues): early routine use of acoramidis in Germany, 289 people from April to September 2025",
+  "topic": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1184",
+  "members": [
+   "S1184"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Registry entry NCT04339764 (National Eye Institute, retinal cells from a person's own stem cells for age-related macular degeneration) updated 2026-11-05",
+  "topic": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1010",
+  "members": [
+   "S1010"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Preprints.org, 2026-11-04 (De Avila and colleagues): 'The Translational Path of Mitochondrial Transplantation for Pulmonary Fibrosis', a review-style preprint",
+  "topic": "mitochondria-are-transplanted-into-a-person",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1155",
+  "members": [
+   "S1155"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g2",
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Two urolithin A registry changes on 2026-11-09: NCT07925853 (Amazentis, absorption of two formulations, 24 people) first posted; NCT06274749 (National Institute on Aging, glucose handling in 180 people aged 55 and over) updated",
+  "topic": "drug-boosts-the-cells-recycling-of-worn-parts",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1050",
+  "members": [
+   "S1050"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Registry entry NCT06944522 (BlueRock Therapeutics, late-stage trial of bemdaneprocel cell therapy in Parkinson's disease) updated 2026-11-02; main results estimated October 2028",
+  "topic": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1042",
+  "members": [
+   "S1042"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": false,
+  "real": "yes",
+  "date": "2026-01-05",
+  "story": "Null check on 2026-11-09 of three mitochondrial transplant registry entries (NCT04998357, NCT02851758, NCT04976140): none changed in the week",
+  "topic": "mitochondria-are-transplanted-into-a-person",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1175",
+  "members": [
+   "S1175"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g1a",
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Cell, 2026-11-02 (Kuehnemann and colleagues): the fatty acid DGLA pushes aged cells into a form of cell death; by mouth it lowered markers of aged cells in old mice",
+  "topic": "clearing-aged-cells-makes-old-animals-live-longer",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1127",
+  "members": [
+   "S1127"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g1a",
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Nature Aging, 2026-11-06 (Wu and colleagues): vanadyl sulfate, a mineral supplement, kills aged cells and by mouth extends lifespan in male mice",
+  "topic": "clearing-aged-cells-makes-old-animals-live-longer",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s1",
+    "sweep"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1047",
+  "members": [
+   "S1047"
+  ],
+  "runs": [
+   "s2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Biofabrication, 2026-11-03 (Odbratt and colleagues): laboratory work on 3D-printed urethral grafts seeded with human cells",
+  "topic": "lab-grown-organ-works-in-a-person-for-a-year",
+  "pairs": [
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1023",
+  "members": [
+   "S1023"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g1b"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-07",
+  "story": "Joo and colleagues, Pharmacological Research, November 2026: modelling study in progeria that ranks the miR-4651/miR-6126 pair for laboratory testing",
+  "topic": "premature-ageing-mutation-corrected-in-a-living-animal",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1028",
+  "members": [
+   "S1028"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Grifols Form 6-K with third-quarter 2026 results, 2026-11-02: no mention of Alzheimer's, plasma exchange or Alkahest",
+  "topic": "replacing-a-persons-plasma-slows-an-age-related-disease",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1081",
+  "members": [
+   "S1081",
+   "S1045"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g4",
+   "g4-unmatched"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "United Therapeutics quarterly report for the quarter to 2026-09-30: EXPAND pig kidney trial ongoing, no results; pig facilities finished in Minnesota and Texas",
+  "topic": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1185",
+  "members": [
+   "S1185"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Frontiers in Immunology review on gene-edited pig liver transplants, 2026-11-05",
+  "topic": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1142",
+  "members": [
+   "S1142"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Fight Aging! 2026-11-03: circular RNA carrying OCT4, SOX2 and KLF4 partly resets aged human mesenchymal stem cells in culture without making them pluripotent",
+  "topic": "partially-resetting-cells-reverses-ageing-in-an-animal",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1164",
+  "members": [
+   "S1164"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-08",
+  "story": "Intelligent Living feature, 2026-11-08, retelling Tim Andrews's 271 days on a pig kidney and human kidney in January 2026",
+  "topic": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1092",
+  "members": [
+   "S1092"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Biodexa research update, 2026-11-09: 112 of 168 enrolled in the late-stage trial of its rapamycin tablet for an inherited bowel condition",
+  "topic": "rapamycin-improves-an-age-related-measure-in-older-people",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1016",
+  "members": [
+   "S1016"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g2",
+   "g2-unmatched",
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Registry posts results 2026-11-05 for Janssen's phase 2 trial of the anti-tau antibody posdinemab in early Alzheimer's (NCT04619420): no difference from placebo",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1070",
+  "members": [
+   "S1070"
+  ],
+  "runs": [
+   "s2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "GEN article 'Beyond Conventional CRISPR', 2026-11-05: eGenesis expects its RESTORE pig kidney trial to start in the first quarter of 2027 and a first pig heart transplant in 2027",
+  "topic": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
+  "pairs": [
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1085",
+  "members": [
+   "S1085"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s2"
+  ],
+  "srcs": [
+   "g3",
+   "g4-unmatched",
+   "g5-unmatched",
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Stewart and Fitzsimmons, GeroScience, 2026-11-05: kidney transplant recipients prescribed rapamycin died at the same age as those not (64.6 against 64.3 years)",
+  "topic": "rapamycin-improves-an-age-related-measure-in-older-people",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1109",
+  "members": [
+   "S1109"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g1b"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Pien and colleagues, Journal of Clinical Investigation, 2026-11-02: single-virus base editor eases Duchenne muscular dystrophy in humanised mice",
+  "topic": "premature-ageing-mutation-corrected-in-a-living-animal",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1020",
+  "members": [
+   "S1020"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s2"
+  ],
+  "srcs": [
+   "g1b"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Research Square preprint, 2026-11-03: selinexor and non-coding RNA in skin cells from progeria patients",
+  "topic": "premature-ageing-mutation-corrected-in-a-living-animal",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1170",
+  "members": [
+   "S1170"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g2",
+   "g2-unmatched",
+   "g3-unmatched",
+   "g5",
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Registry first posts NCT07912164 on 2026-11-03: Human Biome placebo-controlled trial of gut-microbe capsules to slow the pace of ageing in 68 adults aged 45 to 80",
+  "topic": "young-gut-microbes-rejuvenate-an-old-animal",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1060",
+  "members": [
+   "S1060"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Registry first posts NCT07911306 on 2026-11-02: Taipei Fertility Center study of spindle transfer in assisted reproduction for mitochondrial defects",
+  "topic": "mitochondria-are-transplanted-into-a-person",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1145",
+  "members": [
+   "S1145"
+  ],
+  "runs": [
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g1a",
+   "g1a-unmatched"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Journal of Controlled Release paper, online 2026-11-02: navitoclax packed in cell-derived vesicles eases fatty liver disease in cells and mice",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1143",
+  "members": [
+   "S1143"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "g3"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Registry update 2026-11-02 to NCT07166354: Applied Biology trial of a skin-applied mTOR drug for grey hair, 100 planned, not yet recruiting",
+  "topic": "rapamycin-improves-an-age-related-measure-in-older-people",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1062",
+  "members": [
+   "S1062"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Longevity.Technology 2026-11-09: 'Younger', a six-month contest by NeuroAge Therapeutics and Longevity Global for about 500 people to lower biological age, tested by TruDiagnostic",
+  "topic": "rejuvenation-olympics",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1072",
+  "members": [
+   "S1072"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Registry update 2026-11-02 to NCT07696962: ChoironeX phase 1 trial of a pig kidney with thymus tissue, 4 people, recruiting at NYU Langone",
+  "topic": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1069",
+  "members": [
+   "S1069"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g1a",
+   "g1a-unmatched",
+   "g3",
+   "g5-unmatched"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Registry date edits on 2026-11-03 to a Duke metformin study in lung disease (NCT07275359) and a Mayo fisetin trial in Covid-19 (NCT04476953)",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "s1",
+    "readers"
+   ],
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1161",
+  "members": [
+   "S1161"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "International Journal of Molecular Sciences, 2026-11-05: inflammation markers from the EFFACE-PD trial of gut-microbe transfer in Parkinson's disease showed no difference",
+  "topic": "young-gut-microbes-rejuvenate-an-old-animal",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1002",
+  "members": [
+   "S1002"
+  ],
+  "runs": [
+   "s1"
+  ],
+  "srcs": [
+   "g4-unmatched"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Nature Reviews Nephrology review on the future of kidney replacement treatment, 2026-11-06",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "s1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1022",
+  "members": [
+   "S1022"
+  ],
+  "runs": [
+   "s2"
+  ],
+  "srcs": [
+   "g2"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Blood Science, 2026-11-05: a single non-integrating vector carrying five factors turns blood cells into stem cells",
+  "topic": "partially-resetting-cells-reverses-ageing-in-an-animal",
+  "pairs": [
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1123",
+  "members": [
+   "S1123"
+  ],
+  "runs": [
+   "s2"
+  ],
+  "srcs": [
+   "g4"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Research Square preprint, 2026-11-02: gene-edited pig livers supported six monkeys in liver failure for 74 to 144 hours, with platelets falling sharply",
+  "topic": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
+  "pairs": [
+   [
+    "s2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1034",
+  "members": [
+   "S1034",
+   "S1115"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "FDA approves Bayer's asundexian (Sunharbo), first factor XIa blocker, to prevent a repeat stroke, 2026-11-09",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "sweep"
+   ],
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1000",
+  "members": [
+   "S1000"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Nature Biomedical Engineering paper on RetiME, a mortality-risk measure read from retinal photographs (Xu et al.), 2026-11-02",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1079",
+  "members": [
+   "S1079"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g5-unmatched"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "BMJ article 'Surrogate outcomes in clinical research' (Olivier), 2026-11-05",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1101",
+  "members": [
+   "S1101",
+   "S1048"
+  ],
+  "runs": [
+   "f1",
+   "s1"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "FDA investigates tumours after Novartis gene therapy Zolgensma; nine reported cases since 2019, 2026-11-06",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "s1",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1075",
+  "members": [
+   "S1075"
+  ],
+  "runs": [
+   "s1"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "BioSpace preview of FDA decisions due in November 2026 (ivonescimab, deramiocel, povetacicept), 2026-11-06",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "s1",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1183",
+  "members": [
+   "S1183"
+  ],
+  "runs": [
+   "f1",
+   "s2"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-03",
+  "story": "Muna Therapeutics phase 1 results for MNA-001, an oral TREM2 activator; spinal-fluid ageing markers shifted in elderly volunteers, 2026-11-03",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1144",
+  "members": [
+   "S1144",
+   "S1052",
+   "S1059"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-07",
+  "story": "Full Lp(a)HORIZON results: pelacarsen lowered lipoprotein(a) but not heart events; AHA meeting and NEJM, 2026-11-07",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "sweep"
+   ],
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1141",
+  "members": [
+   "S1141"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g1a-unmatched"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "JCI paper: senescent cells drive facioscapulohumeral muscular dystrophy; lamivudine reduced them in mice (Jung et al.), 2026-11-05",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1149",
+  "members": [
+   "S1149"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g1a-unmatched"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "BioAge Labs third-quarter 2026 results release, 2026-11-05",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1063",
+  "members": [
+   "S1063"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g3-unmatched"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Lilly registers phase 2 trial of bimagrumab in heart failure with preserved ejection fraction (NCT07920887, ACTIVATE-HFpEF), first posted 2026-11-06",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1055",
+  "members": [
+   "S1055"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-08",
+  "story": "STREAM trial: stopping statins in people 70 and over without cardiovascular disease was no worse at two years; AHA meeting and NEJM, 2026-11-08",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1171",
+  "members": [
+   "S1171",
+   "S1176"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "ATTAIN-OSA: orforglipron (Foundayo, Lilly) reduced sleep apnoea severity in two phase 3 trials; AHA meeting, 2026-11-09",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1084",
+  "members": [
+   "S1084"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g2",
+   "g2-unmatched",
+   "g3-unmatched",
+   "g5"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Registry entry NCT07906041: Atria institute's 22-person trial of tirzepatide with a blood-protein brain age as main measure; first posted 2026-10-30, updated 2026-11-02",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1051",
+  "members": [
+   "S1051"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g4-unmatched"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-06",
+  "story": "Transplantation Direct paper: human stem cell-derived liver and islet cells placed in the spleen of immunodeficient pigs (Enosawa et al.), 2026-11-06",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1073",
+  "members": [
+   "S1073"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g2-unmatched"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "Cell Reports mouse study: clearing light-chain amyloid around liver vessels with anselamimab restored aged liver regrowth (Zhang et al.), 2026-11-04",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1179",
+  "members": [
+   "S1179"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "g3-unmatched"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "Enlivex 12-month headline results for Allocetra injections in age-related knee osteoarthritis, phase 1/2a, 2026-11-02",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1116",
+  "members": [
+   "S1116",
+   "S1103"
+  ],
+  "runs": [
+   "f1",
+   "f2",
+   "s1",
+   "s2"
+  ],
+  "srcs": [
+   "g1a-unmatched",
+   "g2-unmatched",
+   "g5-unmatched",
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-04",
+  "story": "European Heart Journal Open: randomised trial of a multi-ingredient ageing supplement (NOVOS) improved artery measures in 61 healthy adults (Piercy et al.), 2026-11-04",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f1",
+    "sweep"
+   ],
+   [
+    "f2",
+    "readers"
+   ],
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s1",
+    "sweep"
+   ],
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1096",
+  "members": [
+   "S1096"
+  ],
+  "runs": [
+   "f1",
+   "f2"
+  ],
+  "srcs": [
+   "g4",
+   "g4-unmatched"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Humacyte release on its first study in people of an engineered blood vessel for heart bypass surgery, tied to the AHA meeting, 2026-11-09",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "readers"
+   ],
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1135",
+  "members": [
+   "S1135"
+  ],
+  "runs": [
+   "f2",
+   "s2"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "B",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-02",
+  "story": "FDA final guidance on potency assurance for cell and gene therapies, replacing 2011 guidance, 2026-11-02",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f2",
+    "sweep"
+   ],
+   [
+    "s2",
+    "sweep"
+   ]
+  ]
+ },
+ {
+  "id": "S1058",
+  "members": [
+   "S1058"
+  ],
+  "runs": [
+   "f2"
+  ],
+  "srcs": [
+   "g3-unmatched"
+  ],
+  "grade": "C",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-09",
+  "story": "Veru release announcing a 2026-11-16 ObesityWeek talk on enobosarm and physical function in older patients on a GLP-1 drug, 2026-11-09",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f2",
+    "readers"
+   ]
+  ]
+ },
+ {
+  "id": "S1011",
+  "members": [
+   "S1011"
+  ],
+  "runs": [
+   "f1"
+  ],
+  "srcs": [
+   "sweep"
+  ],
+  "grade": "A",
+  "inw": true,
+  "real": "yes",
+  "date": "2026-11-05",
+  "story": "Resolution Therapeutics interim six-month results for RTX001 engineered macrophage therapy in end-stage liver disease (EMERALD trial), 2026-11-05",
+  "topic": "zz-none",
+  "pairs": [
+   [
+    "f1",
+    "sweep"
+   ]
+  ]
+ }
+]

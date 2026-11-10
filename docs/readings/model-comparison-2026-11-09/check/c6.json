@@ -1,0 +1,301 @@
+{
+ "items": [
+  {
+   "id": "S1023",
+   "real": "yes",
+   "actual_date": "2026-11-07",
+   "in_window": true,
+   "grade": "C",
+   "story": "Joo and colleagues, Pharmacological Research, November 2026: modelling study in progeria that ranks the miR-4651/miR-6126 pair for laboratory testing",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.1016/j.phrs.2026.109745",
+   "note": "Crossref gives title, authors and journal as claimed. Crossref record created 2026-11-07 and issue date 2026-11; the claimed first-published day of 2026-11-06 could not be confirmed from Crossref but is within a day. Abstract not available there, so 'computer modelling, no animal treated' rests on the title."
+  },
+  {
+   "id": "S1028",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "C",
+   "story": "Grifols Form 6-K with third-quarter 2026 results, 2026-11-02: no mention of Alzheimer's, plasma exchange or Alkahest",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/1438569/000110465926121154/tm2628724d1_6k.htm",
+   "note": "A report of nothing found. The filing is real and dated 2026-11-02; the reader's summary of it found none of the terms."
+  },
+  {
+   "id": "S1081",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "C",
+   "story": "United Therapeutics quarterly report for the quarter to 2026-09-30: EXPAND pig kidney trial ongoing, no results; pig facilities finished in Minnesota and Texas",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000035/uthr-20260930.htm",
+   "note": "Only the financial statements of the filing loaded for me; the trial and facility wording was confirmed from a search excerpt of the same filing. Filing day not seen; 2026-11-04 is the results day on a secondary page. The claim about the Miromatrix liver product was not confirmed. The two facilities were announced earlier (2026-08-12 and 2026-10-20), so nothing here is new this week."
+  },
+  {
+   "id": "S1185",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Frontiers in Immunology review on gene-edited pig liver transplants, 2026-11-05",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.3389/fimmu.2026.1949083",
+   "note": "Title, journal and date match Crossref. A review."
+  },
+  {
+   "id": "S1045",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "C",
+   "story": "United Therapeutics third-quarter 2026 results, 2026-11-04: research cost tied to buying Thymmune, new 2.0 billion dollar buyback, thymokidney listed in phase 2",
+   "same_story_as": "S1081",
+   "source_opened": "https://www.biopharmawatch.com/news/UTHR/united-therapeutics-q3-2026-results",
+   "note": "Same quarterly report as S1081, different facts. The page does not give a Thymmune charge as such: the research line that mainly holds acquired research costs was 130.0 million dollars against 4.8 million a year before. New buyback approved October 2026. No patient news."
+  },
+  {
+   "id": "S1142",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Fight Aging! 2026-11-03: circular RNA carrying OCT4, SOX2 and KLF4 partly resets aged human mesenchymal stem cells in culture without making them pluripotent",
+   "same_story_as": null,
+   "source_opened": "https://www.fightaging.org/archives/2026/11/circular-rna-encoding-yamanaka-factors-enables-partial-reprogramming-without-pluripotency/",
+   "note": "All three claims match the post. Cell-culture work only; the underlying paper is DOI 10.1186/s13287-026-05193-0, whose own date was not checked. 'At any dose tested' is not stated in the post summary I read."
+  },
+  {
+   "id": "S1164",
+   "real": "yes",
+   "actual_date": "2026-11-08",
+   "in_window": true,
+   "grade": "C",
+   "story": "Intelligent Living feature, 2026-11-08, retelling Tim Andrews's 271 days on a pig kidney and human kidney in January 2026",
+   "same_story_as": null,
+   "source_opened": "https://intelligentliving.co/xenotransplantation-kidney-bridge",
+   "note": "Article date and the 271 days and January 2026 human kidney match. The Lancet date of 2026-09-03 is not given in the article and was not checked. A retelling, no new fact."
+  },
+  {
+   "id": "S1092",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "C",
+   "story": "Biodexa research update, 2026-11-09: 112 of 168 enrolled in the late-stage trial of its rapamycin tablet for an inherited bowel condition",
+   "same_story_as": null,
+   "source_opened": "https://www.stocktitan.net/news/BDRX/biodexa-provides-r-d-xwkiiuao8cjh.html",
+   "note": "The GlobeNewswire address refused; a copy of the release confirms date and figure. Not an ageing use."
+  },
+  {
+   "id": "S1016",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "A",
+   "story": "Registry posts results 2026-11-05 for Janssen's phase 2 trial of the anti-tau antibody posdinemab in early Alzheimer's (NCT04619420): no difference from placebo",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT04619420",
+   "note": "523 enrolled, terminated, reason as quoted, results first posted 2026-11-05. Change at week 104: -11.3 and -11.6 against -12.1 on placebo, p = 0.986 (the claim rounds to 0.99). The company's decision to stop was earlier (a claim says 2025-11-21; not checked); what is new this week is the posted numbers."
+  },
+  {
+   "id": "S1070",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "B",
+   "story": "GEN article 'Beyond Conventional CRISPR', 2026-11-05: eGenesis expects its RESTORE pig kidney trial to start in the first quarter of 2027 and a first pig heart transplant in 2027",
+   "same_story_as": null,
+   "source_opened": "https://genengnews.com/insights/beyond-conventional-crispr",
+   "note": "Matches the article. A company's stated expectation in a feature, not a formal announcement."
+  },
+  {
+   "id": "S1085",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "B",
+   "story": "Stewart and Fitzsimmons, GeroScience, 2026-11-05: kidney transplant recipients prescribed rapamycin died at the same age as those not (64.6 against 64.3 years)",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.1007/s11357-026-02643-8",
+   "note": "All numbers match the abstract: 4,885 against 6,589 (11,474 together), median 11 years of follow-up, difference interval -1.6 to 2.0 years. A records study in transplant patients, not a trial; graded B as a notable human paper, and a careful reader could argue A as evidence against a lifespan effect."
+  },
+  {
+   "id": "S1109",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "C",
+   "story": "Pien and colleagues, Journal of Clinical Investigation, 2026-11-02: single-virus base editor eases Duchenne muscular dystrophy in humanised mice",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.1172/jci202378",
+   "note": "Matches. Animal result in a leading journal, but muscular dystrophy is only loosely related to ageing, so C."
+  },
+  {
+   "id": "S1059",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "A",
+   "story": "Novartis and Ionis pelacarsen HORIZON trial: full results at the American Heart Association meeting and in NEJM show lipoprotein(a) lowered but no fewer heart attacks and strokes (BioSpace 2026-11-09)",
+   "same_story_as": null,
+   "source_opened": "https://www.biospace.com/drug-development/details-from-novartis-failed-cardiovascular-trial-offer-little-silver-lining-for-rivals",
+   "note": "Matches: about 8,300 people, seven years, no benefit; Leerink cut the rival olpasiran's chance of success from 50% to 20%. The BioSpace article is dated 2026-11-09; the exact day of the meeting presentation was not checked separately. Heart disease rather than ageing as such."
+  },
+  {
+   "id": "S1020",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Research Square preprint, 2026-11-03: selinexor and non-coding RNA in skin cells from progeria patients",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.21203/rs.3.rs-11547490/v1",
+   "note": "Matches. Cell work, not peer reviewed. The first claim also bundles the Pharmacological Research paper that is item S1023, a separate story."
+  },
+  {
+   "id": "S1170",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "A",
+   "story": "Registry first posts NCT07912164 on 2026-11-03: Human Biome placebo-controlled trial of gut-microbe capsules to slow the pace of ageing in 68 adults aged 45 to 80",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07912164",
+   "note": "All details match: double-blind, not yet recruiting, start 2026-12, main completion 2027-12, DunedinPACE in the main measure (share of responders at weeks 13 and 26). That the sponsor is Polish was not checked. A new trial in people plainly about ageing."
+  },
+  {
+   "id": "S1060",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry first posts NCT07911306 on 2026-11-02: Taipei Fertility Center study of spindle transfer in assisted reproduction for mitochondrial defects",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07911306",
+   "note": "Matches. Six people planned, enrolling by invitation. A fertility use, only loosely related."
+  },
+  {
+   "id": "S1145",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "C",
+   "story": "Journal of Controlled Release paper, online 2026-11-02: navitoclax packed in cell-derived vesicles eases fatty liver disease in cells and mice",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.jconrel.2026.115504&format=json&resultType=core",
+   "note": "Date from Europe PMC. One claim says cell models only; the abstract also reports a mouse model. No people."
+  },
+  {
+   "id": "S1103",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "A",
+   "story": "Lifespan.io 2026-11-06: University of Surrey placebo-controlled six-month trial of the supplement NOVOS Core, 61 adults, better blood-vessel function and lower systolic pressure",
+   "same_story_as": null,
+   "source_opened": "https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/",
+   "note": "Matches, including the 6.1 mmHg adjusted difference, unchanged blood fats, maker funding and paper in European Heart Journal Open. Detail: 61 randomised but 43 analysed; the placebo group was older (about 60 against 53), so 'around 60' fits only that group. The paper's own date is given only as earlier that week. Graded A as a trial result in people; small and on a stand-in measure, so B is defensible."
+  },
+  {
+   "id": "S1143",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry update 2026-11-02 to NCT07166354: Applied Biology trial of a skin-applied mTOR drug for grey hair, 100 planned, not yet recruiting",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07166354",
+   "note": "Matches. First posted 2025-09-10; update submitted 2026-10-30, posted 2026-11-02; main completion estimated 2027-10-15. What changed was not visible."
+  },
+  {
+   "id": "S1062",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "B",
+   "story": "Longevity.Technology 2026-11-09: 'Younger', a six-month contest by NeuroAge Therapeutics and Longevity Global for about 500 people to lower biological age, tested by TruDiagnostic",
+   "same_story_as": null,
+   "source_opened": "https://longevity.technology/news/500-people-six-months-one-goal-reverse-aging/",
+   "note": "Matches. Registration closes 15 January and baseline results 1 February; the article gives no year."
+  },
+  {
+   "id": "S1072",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry update 2026-11-02 to NCT07696962: ChoironeX phase 1 trial of a pig kidney with thymus tissue, 4 people, recruiting at NYU Langone",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07696962",
+   "note": "Matches: first posted 2026-07-10, update submitted 2026-10-29 and posted 2026-11-02, second site not yet recruiting, start October 2026 (estimated), main completion 2028-06-30. What changed in the update was not visible, so a move to recruiting is one reader's inference; if confirmed it would merit B."
+  },
+  {
+   "id": "S1115",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "A",
+   "story": "United States approval on 2026-11-09 of Bayer's Sunharbo (asundexian) to prevent a repeat stroke",
+   "same_story_as": null,
+   "source_opened": "https://www.biopharmadive.com/news/bayer-sunharbo-asundexian-fda-approve-stroke-factor-xi/872837/",
+   "note": "The Endpoints address refused; BioPharma Dive confirms approval and date. Graded A as a regulator's decision, but it is a stroke drug and not an ageing treatment, so only loosely related to the site."
+  },
+  {
+   "id": "S1069",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry date edits on 2026-11-03 to a Duke metformin study in lung disease (NCT07275359) and a Mayo fisetin trial in Covid-19 (NCT04476953)",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07275359 and https://clinicaltrials.gov/api/v2/studies/NCT04476953",
+   "note": "This item bundles three separate registry entries. The metformin study (Duke, with the National Institute on Aging; 45 people planned, single-group open-label, start 2027-02-01, main measures feasibility, acceptability, safety and tolerability) had its update posted 2026-11-03, not 2026-11-04 as the first claim says. The fisetin trial (Mayo, 80 people, active and not recruiting, no results, completion March 2027) also updated 2026-11-03. The third, metformin in ageing people with multiple sclerosis (NCT06463743, University at Buffalo, recruiting), updated 2026-11-06. All three are date edits."
+  },
+  {
+   "id": "S1161",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "International Journal of Molecular Sciences, 2026-11-05: inflammation markers from the EFFACE-PD trial of gut-microbe transfer in Parkinson's disease showed no difference",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.3390/ijms27219924",
+   "note": "Title and date match. Worth adding: in 59 people, a single transfer changed no inflammatory marker against placebo. A disease trial, not an ageing test."
+  },
+  {
+   "id": "S1002",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "C",
+   "story": "Nature Reviews Nephrology review on the future of kidney replacement treatment, 2026-11-06",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.1038/s41581-026-01146-1",
+   "note": "Title, journal and date match. A review."
+  },
+  {
+   "id": "S1022",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Blood Science, 2026-11-05: a single non-integrating vector carrying five factors turns blood cells into stem cells",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.1097/bs9.0000000000000277",
+   "note": "Published online 2026-11-05 (Crossref record created 2026-11-06). Full reprogramming to pluripotent cells, not partial resetting, so the reader is right that it does not bear on age reversal."
+  },
+  {
+   "id": "S1123",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "B",
+   "story": "Research Square preprint, 2026-11-02: gene-edited pig livers supported six monkeys in liver failure for 74 to 144 hours, with platelets falling sharply",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.21203/rs.3.rs-11552364/v1",
+   "note": "Matches the abstract: six macaques, blood circulated through a pig liver outside the body, support beyond 72 hours in all six, platelets dropped and stayed low, no hyperacute rejection. A preprint, so not peer reviewed; an animal result close to a treatment already used in people, so B."
+  }
+ ]
+}

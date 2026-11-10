@@ -1,0 +1,291 @@
+{
+ "records": [
+  {
+   "id": "a-drug-lengthens-chromosome-ends-in-a-person",
+   "verdict": "flagged",
+   "found": "Nothing dated between 2026-11-02 and 2026-11-09 bears on this entry: no paper, registry change, company release or regulator decision on a drug that lengthens telomeres. One older fact is missing from the entry: the United States trial registry posted results on 2026-10-27 for the National Heart, Lung, and Blood Institute's low-dose danazol trial in telomere diseases (registry entry NCT03312400), which was stopped for poor enrolment after 18 people. The entry's estimate says the other danazol trials are 'small, completed or of unknown status' and does not mention this one or its posted results.",
+   "findings": [
+    {
+     "date": "2026-10-27",
+     "what": "The trial registry posted first results for the low-dose danazol trial in telomere diseases (registry entry NCT03312400; sponsor the National Heart, Lung, and Blood Institute). Status: terminated, 'Study was stopped due to poor accrual'; 18 people enrolled; primary completion 2025-10-31. The posted main result counts people whose rate of telomere shortening fell by at least half at six months: 5 of 8 on the lower dose and 5 of 10 on the higher dose (Fisher exact p = 0.664). The entry's own caveat says the early closure limited the trial's statistical power. No telomere-length figures and none of the secondary results are posted. No deaths are recorded.",
+     "url": "https://clinicaltrials.gov/study/NCT03312400",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "against",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "A paper in PLoS Genetics on how common inherited faults in the telomerase gene (TERT) are in the general population and which illnesses go with them. It is about who has the faults, not about a treatment, and does not bear on the test.",
+     "url": "https://doi.org/10.1371/journal.pgen.1012352",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (telomere OR telomerase OR danazol OR dyskeratosis) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (telomere OR telomerase OR danazol OR dyskeratosis) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (danazol AND telomere) OR \"telomere biology\" OR \"dyskeratosis congenita\" OR \"short telomere\" OR TERT OR telomerase, last update posted 2026-09-01 or later",
+    "clinicaltrials.gov: intervention danazol, condition telomere OR dyskeratosis OR pulmonary fibrosis OR aplastic anemia OR bone marrow failure (all dates, to compare statuses)",
+    "clinicaltrials.gov: study NCT03312400 (opened in full, with posted results)",
+    "Europe PMC: (danazol OR \"telomere biology disorder\" OR \"dyskeratosis congenita\" OR \"short telomere syndrome\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: (telomere AND (lengthening OR elongation) AND (patients OR trial OR therapy)) AND (TITLE:telomere OR TITLE:telomerase) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: telomere biology disorder OR telomerase therapy November 2026 trial results OR \"first patient dosed\" OR FDA OR discontinued"
+   ],
+   "web_queries": [
+    "danazol telomere length patients study published November 2026",
+    "telomere lengthening treatment humans news November 2026 trial telomerase gene therapy",
+    "FDA OR EMA approval telomere biology disorder treatment 2026 danazol OR \"telomerase\" orphan designation"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT03312400"
+   ],
+   "story_score": 1,
+   "story_why": "Nothing in the window. The posted results of a small, early-stopped government trial are a correction to the entry's account of the danazol trials, not news a reader would look for."
+  },
+  {
+   "id": "a-gene-is-edited-inside-a-persons-body",
+   "verdict": "bears-on-estimate",
+   "found": "On 2026-11-05 Intellia Therapeutics said, in its third-quarter release filed with the United States securities regulator, that it finished enrolling the late-stage nerve-disease trial of its transthyretin gene editor (MAGNITUDE-2) during the third quarter, with more than the 60 patients it aimed for; the trial registry changed that trial to 'active, not recruiting' with 67 enrolled on 2026-11-05 and still gives July 2027 for its main result. This pulls towards the early end of the range, because the estimate's earliest year (2028) rests on that trial supporting an approval first, and a fully enrolled trial with an unchanged date makes that path firmer; it does not change the likely year, because the larger heart trial is still enrolling (1,200 planned, main result estimated December 2027). No approval, no trial result and no new safety stop were reported in the window.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Intellia Therapeutics' third-quarter 2026 release (exhibit 99.1 to a Form 8-K filed 2026-11-05): 'During the third quarter, the company completed enrollment in its MAGNITUDE-2 Phase 3 clinical trial in hereditary ATTR amyloidosis with polyneuropathy (ATTRv-PN), exceeding its targeted randomization of 60 patients.' It also says the company 'has made significant progress advancing enrollment' in the heart trial (MAGNITUDE), and that during the third quarter it began giving trial doctors the immune-gene (HLA) genotyping results for patients enrolled or entering screening. The release gives no date for results of either trial and reports no new safety event.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Trial registry, MAGNITUDE-2 (NCT06672237): update posted 2026-11-05 (submitted 2026-11-04). Status now 'active, not recruiting'; enrolment 67 (actual); main result estimated July 2027, study end August 2028; no results posted. The site's records say only that enrolment had restarted.",
+     "url": "https://clinicaltrials.gov/study/NCT06672237",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "Trial registry, MAGNITUDE heart trial (NCT06128629): update posted 2026-11-04 (submitted 2026-11-02). Status 'recruiting'; 1,200 planned; main result estimated December 2027, study end April 2028; 128 of 138 listed sites recruiting and 9 withdrawn; no results posted.",
+     "url": "https://clinicaltrials.gov/study/NCT06128629",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Intellia's quarterly report (Form 10-Q, filed 2026-11-05) repeats the account of the 2025 stop, the patient's death on 2025-11-05 and the HLA finding in the same terms the site already holds, and says the company is still engaging the regulator about that finding. It adds no new safety event.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526449862/ntla-20260930.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Older fact, restated in the same release: in September 2026 the United States regulator accepted Intellia's licence application for its other in-body gene editor (lonvo-z, for hereditary angioedema, a disease of swelling attacks), gave it priority review with a decision date of 2027-03-10, and said it plans no advisory committee. The site's records hold only the company's earlier expectation that the application would be accepted in the second half of 2026. An approval in March 2027 would be the first of any in-body gene editor, but hereditary angioedema is not an age-related disease or a disease of DNA damage, so on a plain reading it would not meet this entry's clinic test; the author may want to say so in the notes before the date arrives.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "CRISPR Therapeutics' third-quarter release (exhibit 99.1 to a Form 8-K filed 2026-11-02) says the United States regulator has granted its in-body gene editor for blood fats (CTX310, aimed at the ANGPTL3 gene) the Regenerative Medicine Advanced Therapy designation for two uses: severe high triglycerides and raised LDL cholesterol. The designation brings early meetings with the regulator and possible faster review; it is not an approval. The same release says early trials of two more in-body editors, for stubborn high blood pressure and for alpha-1 antitrypsin deficiency, are under way.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526443644/crsp-ex99_1.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "CRISPR Therapeutics release, as listed in search results: early-trial (phase 1b) data for the same blood-fat gene editor in people with severe high triglycerides, presented at the American Heart Association meeting in Chicago, with a reported mean fall of 65 per cent in the target protein and 63 per cent in triglycerides. The page refused the reader (access denied) and no filed copy was on the securities regulator's site yet, so the figures are from the search summary only.",
+     "url": "https://www.globenewswire.com/news-release/2026/11/09/3398537/0/en/crispr-therapeutics-presents-phase-1b-data-for-ctx310-demonstrating-reductions-in-angptl3-and-triglycerides-in-patients-with-severe-hypertriglyceridemia-at-the-american-heart-assoc.html",
+     "opened": false,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-06",
+     "what": "Paper in Nature (Mizoguchi and colleagues, 'In Vivo CRISPR Base Editing of ANGPTL3 for Durable Lipid Lowering'): laboratory and animal work behind a second in-body editor for blood fats, with the fall in the target protein in monkeys lasting three years after one dose. The abstract says the results were the basis for a first trial in people that is under way; the paper reports no result in people. Abstract read on Europe PMC.",
+     "url": "https://doi.org/10.1038/s41586-026-11233-9",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Editas Medicine's third-quarter release (exhibit 99.1 to a Form 8-K filed 2026-11-09): an Australian ethics committee has approved, and the Australian regulator's notification step is complete for, a first trial in people of its in-body gene editor for inherited high cholesterol (EDIT-401). The company says it expects to treat the first patient in 2026 and report first safety data in the first quarter of 2027. No person has been treated yet.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1650664/000165066426000100/editasmedicinepressrelease.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (nexiguran OR NTLA-2001 OR \"gene editing\" OR CRISPR OR \"base editing\" OR \"base editor\" OR \"prime editing\") AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: the same words AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: studies NCT06128629, NCT06672237 and NCT04601051 opened in full",
+    "Europe PMC: (nexiguran OR \"NTLA-2001\" OR (\"in vivo\" AND (\"gene editing\" OR \"base editing\" OR \"prime editing\") AND (TITLE:\"in vivo\" OR TITLE:editing) AND (patients OR participants OR \"clinical trial\"))) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: ((transthyretin OR \"ATTR\") AND (CRISPR OR \"gene editing\" OR nexiguran)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: ((TITLE:CRISPR OR TITLE:\"gene editing\" OR TITLE:\"base editing\" OR TITLE:\"base editor\" OR TITLE:\"prime editing\") AND (\"phase 1\" OR \"first-in-human\" OR \"clinical trial\" OR patients) AND (\"in vivo\" OR \"lipid nanoparticle\")) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "sec.gov filing lists (dated) for Intellia Therapeutics, CRISPR Therapeutics and Editas Medicine, 2026-10-25 onwards",
+    "Web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: in vivo gene editing therapy November 2026 results OR approval OR \"first patient dosed\" OR discontinued OR \"clinical hold\"",
+    "Web search limited to the same four sites: Verve OR \"CRISPR Therapeutics\" OR \"Beam Therapeutics\" OR YolTech OR \"Prime Medicine\" in vivo editing announces November 2026"
+   ],
+   "web_queries": [
+    "Intellia Therapeutics third quarter 2026 financial results nexiguran ziclumeran MAGNITUDE November 2026",
+    "AHA Scientific Sessions 2026 gene editing in vivo results CRISPR base editing lipid transthyretin November 2026",
+    "CTX310 Phase 1b severe hypertriglyceridemia AHA 2026 late-breaking results November 9 2026",
+    "FDA approves first in vivo CRISPR gene editing therapy November 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06128629",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06672237",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04601051",
+    "https://finviz.com/news/416921/intellia-therapeutics-announces-third-quarter-2026-financial-results-and-business-updates",
+    "https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1652130/000119312526449862/ntla-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1674416/000119312526443644/crsp-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1650664/000165066426000100/editasmedicinepressrelease.htm",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42994815%20AND%20SRC:MED&format=json&resultType=core"
+   ],
+   "story_score": 2,
+   "story_why": "A fully enrolled late-stage trial of the entry's own treatment, a regulator's fast-track designation for a second in-body editor aimed at heart disease, and a decision date (2027-03-10) for what would be the first approved in-body gene editor together make a short news post; none of them is a result or an approval."
+  },
+  {
+   "id": "gene-therapy-lengthens-chromosome-ends-in-an-old-animal",
+   "verdict": "quiet",
+   "found": "Nothing dated between 2026-11-02 and 2026-11-09 bears on this entry: no paper on a telomerase gene therapy in animals or people, no new or updated registry entry, and no company release. The two registry entries the record names are unchanged: the Colombian telomerase trial (NCT04133649) was last updated 2019-12-10 with status unknown and no results, and the ZSCAN4 trial (NCT04211714) was last updated 2026-02-06, active and not recruiting, with no results posted.",
+   "findings": [
+    {
+     "date": "2026-02-06",
+     "what": "Trial registry, ZSCAN4 trial in telomere diseases (NCT04211714): unchanged since its last update on 2026-02-06. Status 'active, not recruiting', 12 people planned, no results posted. Its estimated date for the main result, 2026-10-08, has now passed without an update to the entry.",
+     "url": "https://clinicaltrials.gov/study/NCT04211714",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2019-12-10",
+     "what": "Trial registry, telomerase gene therapy trial in Colombia (NCT04133649): unchanged. Last update posted 2019-12-10, status unknown, no results. This matches the record.",
+     "url": "https://clinicaltrials.gov/study/NCT04133649",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (telomere OR telomerase OR danazol OR dyskeratosis) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: the same words AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: studies NCT04133649 and NCT04211714 opened in full",
+    "Europe PMC: (\"telomerase gene therapy\" OR (TERT AND \"gene therapy\" AND (TITLE:telomerase OR TITLE:TERT)) OR ZSCAN4) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: ((TITLE:telomerase OR TITLE:TERT OR TITLE:telomere) AND (lifespan OR longevity OR \"gene therapy\" OR AAV OR mRNA) AND (mice OR mouse OR patients)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: telomere biology disorder OR telomerase therapy November 2026 trial results OR \"first patient dosed\" OR FDA OR discontinued"
+   ],
+   "web_queries": [
+    "telomere lengthening treatment humans news November 2026 trial telomerase gene therapy",
+    "Elixirgen EXG-34217 OR \"Libella Gene Therapeutics\" OR \"Telomere Therapeutics\" OR \"Rejuvenation Technologies\" telomerase 2026 announcement",
+    "FDA OR EMA approval telomere biology disorder treatment 2026 danazol OR \"telomerase\" orphan designation"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04133649",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04211714"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing happened in the window."
+  },
+  {
+   "id": "premature-ageing-mutation-corrected-in-a-living-animal",
+   "verdict": "flagged",
+   "found": "Nothing dated between 2026-11-02 and 2026-11-09 bears on this entry: no paper, registry entry or release reports a premature-ageing mutation corrected in a person, and no trial of such a treatment was registered. Two older facts are missing from the entry. On 2026-03-03 the Progeria Research Foundation announced a manufacturing agreement with Forge Biologics to produce its progeria gene-editing therapy, SamPro-2, with no date given for a filing or a trial. On 2026-09-24 a South Korean hospital registered a three-year study that only observes one child with progeria, to gather the comparison data for a future gene therapy that acts on RNA and not on the DNA letter itself.",
+   "findings": [
+    {
+     "date": "2026-03-03",
+     "what": "The Progeria Research Foundation announced that it 'has entered into a manufacturing agreement with Forge Biologics to produce SamPro-2', which it describes as its 'gene editing therapy designed to correct the single DNA letter misspelling that causes Progeria'. It calls the agreement 'a defining step toward Progeria gene therapy clinical trials' and gives no date for a filing with the regulator or a first trial. This suggests the first person would be treated in a planned trial that still needs its pre-trial studies, and not by the fast single-patient route the estimate's likely year (2029) assumes.",
+     "url": "https://www.progeriaresearch.org/2026/03/03/prfandforge/",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-09-24",
+     "what": "Trial registry entry NCT07839351, first posted 2026-09-24: Bundang CHA Hospital in Seongnam, South Korea, plans to follow one child with progeria for three years with no treatment, to build the record of the untreated disease 'for the Development of AAV-Cas13-Based RNA-Targeting Gene Therapy'. Status: not yet recruiting. It is an observation study, and the planned therapy would act on the RNA message, so it would not be a correction of the mutation as this entry's test asks.",
+     "url": "https://clinicaltrials.gov/study/NCT07839351",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Paper in the Journal of Clinical Investigation: a base editor carried by a single virus eased muscular dystrophy in mice carrying the human gene. Muscular dystrophy is not a premature-ageing or ageing-related disease, so it does not bear on the test; it is one more case of single-letter correction in a living animal. Title read, abstract not opened.",
+     "url": "https://doi.org/10.1172/jci202378",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-03",
+     "what": "Preprint (Research Square, not peer reviewed) on the drug selinexor in skin cells from progeria patients, and a paper of 2026-11-06 in Pharmacological Research proposing two small RNAs for laboratory testing in progeria. Both are cell or computer work on treating the disease's effects, not on correcting the mutation. Titles read, not opened.",
+     "url": "https://doi.org/10.21203/rs.3.rs-11547490/v1",
+     "opened": false,
+     "source_kind": "preprint",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (progeria OR Hutchinson-Gilford OR lonafarnib OR progerin) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: the same words AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "clinicaltrials.gov: (progeria OR Hutchinson-Gilford OR LMNA), last update posted 2026-08-01 or later; study NCT07839351 opened in full",
+    "Europe PMC: (progeria OR \"Hutchinson-Gilford\" OR progerin) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: ((LMNA OR lamin) AND (\"base editing\" OR \"base editor\" OR \"gene editing\" OR antisense OR \"prime editing\")) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Europe PMC: ((\"Werner syndrome\" OR \"premature aging\" OR \"premature ageing\" OR progeroid) AND (\"gene therapy\" OR editing OR \"in vivo\") AND (mice OR mouse OR patient)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "Web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: progeria OR \"premature aging\" gene editing OR \"base editing\" therapy IND clearance OR \"first patient\" OR results November 2026"
+   ],
+   "web_queries": [
+    "progeria base editing clinical trial first patient 2026 Progeria Research Foundation announcement November",
+    "Progeria Research Foundation SamPro-2 base editor IND FDA clinical trial 2026 news"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07839351",
+    "https://www.progeriaresearch.org/2026/03/03/prfandforge/"
+   ],
+   "story_score": 1,
+   "story_why": "Nothing in the window. The March 2026 manufacturing agreement is the first sign of a named progeria gene-editing therapy heading for a trial and belongs in the entry's notes, but it is eight months old."
+  }
+ ],
+ "unmatched": []
+}

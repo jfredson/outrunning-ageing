@@ -1,0 +1,738 @@
+{
+ "records": [
+  {
+   "id": "a-drug-adds-healthy-years-to-a-life",
+   "verdict": "bears-on-estimate",
+   "found": "On 2026-11-06 the United States trial registry first posted VITAL-H (NCT07923630), a placebo-controlled trial at the University of Texas Health Science Center at San Antonio, paid for by the federal health research agency ARPA-H, which plans to give two approved drugs (dapagliflozin and semaglutide tablets) or placebo to 1,200 healthy people aged 60 to 75 for 36 months, starting in January 2027 and finishing its main measurement in December 2030. This points towards the early end of the estimate, because the estimate assumes a trial of this kind starts by 2029 and here one is registered to start in 2027; but its main measure is a score of walking, balance and rising from a chair, not years free of disease or length of life, so a good result would not by itself meet the test as written. Against: a study in GeroScience on 2026-11-05 of 11,474 kidney transplant recipients found no difference in age at death between those prescribed rapamycin and those not (it is a study of records, not a controlled trial).",
+   "findings": [
+    {
+     "date": "2026-11-06",
+     "what": "Registry entry NCT07923630 first posted: 'Validation & Intervention Testing for Aging, Longevity and Healthspan (VITAL-H)', University of Texas Health Science Center at San Antonio with the Department of Health and Human Services (grant number marked ARPA-H). Not yet recruiting; 1,200 people aged 60 to 75 without diabetes; three groups (semaglutide tablets, dapagliflozin, placebo); 36 months of treatment plus 6 months of follow-up; estimated start 2027-01, main measurement complete 2030-12, study complete 2031-02. Main measure: the Short Physical Performance Battery score.",
+     "url": "https://clinicaltrials.gov/study/NCT07923630",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-03-04",
+     "what": "The university's own announcement of the same trial gave different figures: 726 adults in their 60s, three drugs (rapamycin, dapagliflozin, semaglutide) against placebo in four groups, up to 38 million dollars from ARPA-H over five years, enrolment to start in 2027. The registry entry of 2026-11-06 lists no rapamycin group and 1,200 people. I found no announcement explaining the change.",
+     "url": "https://news.uthscsa.edu/ut-san-antonio-to-lead-38-million-national-trial-testing-drugs-to-extend-healthspan/",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Stewart and Fitzsimmons, GeroScience, 'Rapamycin and human longevity among kidney transplant recipients surviving the first year': United States transplant registry data, 4,885 recipients prescribed rapamycin and 6,589 not, followed a median of 11 years; adjusted median age at death 64.6 against 64.3 years, no meaningful difference. Peer-reviewed; a records study, not a controlled trial. Date confirmed at Crossref.",
+     "url": "https://doi.org/10.1007/s11357-026-02643-8",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "American Heart Association news release on a meeting abstract (Scientific Sessions, Chicago, 2026-11-06 to 2026-11-09): in health records of 256,492 adults with prediabetes and obesity, those on GLP-1 drugs had a 41 per cent lower risk of death from any cause than those on metformin over about three years. Observational and not peer-reviewed, as the release itself says.",
+     "url": "https://newsroom.heart.org/news/glp-1-meds-linked-to-lower-diabetes-heart-risks-than-standard-diabetes-prevention-med",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Search of the trial registry for the metformin trial designed to measure time to age-related disease (TAME) by its full title still returns no entry for it.",
+     "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%22Targeting+Aging+with+Metformin%22",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(aging OR ageing OR longevity OR healthspan OR geroscience) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(aging OR ageing OR longevity OR healthspan OR geroscience) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=((aging OR ageing OR longevity OR healthspan) AND (rapamycin OR metformin OR senolytic)) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=((aging OR ageing OR longevity OR healthspan) AND (rapamycin OR metformin OR senolytic)) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(TAME OR Targeting Aging with Metformin) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(TAME OR Targeting Aging with Metformin) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(healthspan OR lifespan OR geroprotective OR gerotherapeutic OR senolytic OR \"biological age\") AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(rapamycin OR sirolimus OR metformin OR semaglutide OR tirzepatide OR urolithin OR nicotinamide OR mitochondria OR aging OR sarcopenia) AND AREA[ResultsFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07923630",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:(lifespan OR healthspan OR geroprotect* OR \"anti-aging\" OR \"anti-ageing\" OR geroscience) AND (trial OR randomized OR randomised OR placebo)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:(rapamycin OR sirolimus OR everolimus OR rapalog) AND (aging OR ageing OR older OR longevity OR healthspan OR lifespan)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "web, wire sites and sec.gov only: longevity drug healthspan clinical trial results announced November 2026"
+   ],
+   "web_queries": [
+    "VITAL-H trial ARPA-H semaglutide dapagliflozin healthspan UT Health San Antonio",
+    "TAME metformin trial aging November 2026",
+    "anti-ageing drug trial news November 2026 healthspan geroscience announcement",
+    "VITAL-H trial rapamycin dropped OR removed OR \"two drugs\" semaglutide dapagliflozin 1,200 participants Barshop"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07923630",
+    "https://news.uthscsa.edu/ut-san-antonio-to-lead-38-million-national-trial-testing-drugs-to-extend-healthspan/",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42989006",
+    "https://api.crossref.org/works/10.1007/s11357-026-02643-8",
+    "https://newsroom.heart.org/news/glp-1-meds-linked-to-lower-diabetes-heart-risks-than-standard-diabetes-prevention-med",
+    "https://www.hcplive.com/view/glp-1-ras-linked-to-lower-diabetes-cv-risk-than-metformin-in-prediabetes",
+    "https://www.sec.gov/Archives/edgar/data/1721484/000121390026102611/ea030614701ex99-1.htm"
+   ],
+   "story_score": 2,
+   "story_why": "A federally funded, 1,200-person, three-year placebo-controlled trial of two approved drugs against the decline of ageing in healthy people entered the public registry this week; the records hold nothing on it. It is a registration, not a result, and the registry entry differs from the university's March announcement (no rapamycin group, more people), which a post would need to say."
+  },
+  {
+   "id": "a-drug-is-approved-to-make-dogs-live-longer",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on the test. The United States veterinary regulator's own list of announcements, read on 2026-11-09, now runs to 2026-11-03 and shows no approval or conditional approval of a drug to lengthen dogs' lives; Loyal's page for veterinarians still lists the manufacturing section and the conditional approval as in progress.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "The regulator's announcements list (Center for Veterinary Medicine updates) runs to 2026-11-03. Its entries since the record's check of 2026-10-17 are an emergency authorisation for a screwworm drug in dogs (2026-11-03), a pilot programme on residue tests (2026-10-27) and an approval of a skin-infection injection for dogs (2026-10-20). None is a lifespan drug.",
+     "url": "https://www.fda.gov/animal-veterinary/news-events/cvm-updates",
+     "opened": true,
+     "source_kind": "regulator",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Loyal's page for veterinarians, read 2026-11-09 (the page carries no date of its own): effectiveness and safety sections complete, manufacturing section 'In progress', conditional approval 'In progress', the STAY study ongoing. No dates given. Same as the record.",
+     "url": "https://loyal.com/for-vets",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-11-04",
+     "what": "Dog Aging Project consortium, GeroScience: a paper setting out the design of the project's long-running observational study of pet dogs (50,188 dogs enrolled and 14,978 deaths recorded by 2024-12-31). It reports no drug result.",
+     "url": "https://doi.org/10.1007/s11357-026-02580-6",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=((dog OR dogs OR canine) AND (lifespan OR longevity OR \"Dog Aging Project\" OR rapamycin OR LOY-002)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "https://www.fda.gov/animal-veterinary/news-events/cvm-updates (regulator list, dated entries)",
+    "web, wire sites and sec.gov only: veterinary drug conditional approval dogs lifespan extension announced November 2026",
+    "web, wire sites, sec.gov and veterinary trade papers only: Loyal dog lifespan drug news November 2026 STAY study LOY-002 OR LOY-001 OR LOY-003",
+    "The human trial registry does not list veterinary trials, so no registry query applies."
+   ],
+   "web_queries": [
+    "Loyal LOY-002 dog longevity drug FDA November 2026",
+    "Loyal dog longevity conditional approval manufacturing section news"
+   ],
+   "pages_opened": [
+    "https://www.fda.gov/animal-veterinary/news-events/cvm-updates",
+    "https://loyal.com/for-vets",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42980899",
+    "https://www.dvm360.com/view/clinical-trial-for-longevity-drug-meets-goal-of-enrolling-1000-dogs",
+    "https://loyal.com/posts (returned not found)",
+    "https://www.businesswire.com/news/home/20260211301175/en/ (refused)"
+   ],
+   "story_score": 0,
+   "story_why": "No approval, no trial report, no company announcement in the week."
+  },
+  {
+   "id": "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people",
+   "verdict": "noted",
+   "found": "Nothing in the week meets the test, but three registry postings bear on it. On 2026-11-06 Epirium Bio registered a placebo-controlled trial of its drug MF-300 in 225 people aged 65 and over with age-related muscle loss (NCT07921420, starting January 2027, main measurement due June 2028); it is not a mitochondrial drug, so it would not count for this entry, but it is the kind of trial in that condition the estimate waits for. On 2026-11-09 the maker of urolithin A registered a small study of two forms of its product, and the National Institute on Aging's 180-person urolithin A trial in people 55 and over (main measure insulin release, not muscle) was updated with a start date of 2026-11-12. Also for the author: the entry's words 'if confirmed' about a 2025 approval can be settled; reports I opened say the United States regulator gave elamipretide (Forzinity, Stealth BioTherapeutics) an accelerated approval for Barth syndrome in September 2025.",
+   "findings": [
+    {
+     "date": "2026-11-06",
+     "what": "Registry entry NCT07921420 first posted: 'MF-300 for Treatment of Age-Related Sarcopenia', Epirium Bio; not yet recruiting; 225 people aged 65 and over; treatment for 24 weeks against placebo after an open first part; main measure a timed chair-stand test; estimated start 2027-01-01, main measurement 2028-06-01. The drug acts on an enzyme (15-PGDH), not on mitochondria.",
+     "url": "https://clinicaltrials.gov/study/NCT07921420",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Registry entry NCT07925853 first posted: Amazentis, 'Bioavailability of Two Mitopure Formulations', 24 healthy adults, a study of blood levels, not of muscle.",
+     "url": "https://clinicaltrials.gov/study/NCT07925853",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Registry entry NCT06274749 updated: National Institute on Aging, urolithin A against placebo in 180 people aged 55 and over; recruiting, estimated start 2026-11-12, main measurement 2027-03-31. Main measure is insulin release after a sugar drink, so a result would not meet this entry's test on muscle.",
+     "url": "https://clinicaltrials.gov/study/NCT06274749",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Registry entry NCT07531251 updated: Stealth BioTherapeutics' placebo-controlled trial of elamipretide in 48 people with Barth syndrome, recruiting. This is the confirming trial that goes with the 2025 accelerated approval for the rare disease, not a trial in age-related muscle loss.",
+     "url": "https://clinicaltrials.gov/study/NCT07531251",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2025-09-25",
+     "what": "HealthDay report that the United States regulator granted accelerated approval to Forzinity, the first treatment for Barth syndrome, on evidence of improved leg muscle strength. The page I opened gives the article date, 2025-09-25, not the approval date; a search summary (not opened) gives the approval date as 2025-09-19. The entry's notes say 'if confirmed'.",
+     "url": "https://www.healthday.com/healthpro-news/cardiovascular-diseases/fda-grants-accelerated-approval-for-first-treatment-for-barth-syndrome",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Food & Function: an analysis within a walnut-diet trial linking urolithins made in the gut to brain scans in older adults. Title only read; not a drug trial and not on muscle.",
+     "url": "https://doi.org/10.1039/d6fo02116f",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(urolithin) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(urolithin) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(sarcopenia) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(sarcopenia) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(elamipretide OR mitophagy) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(elamipretide OR mitophagy) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(mitochondria OR mitochondrial) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07921420",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07925853",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06274749",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07531251",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(\"urolithin A\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:(sarcopenia) AND (randomized OR randomised) AND (drug OR placebo)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(elamipretide OR \"mitophagy activator\" OR \"MIB-626\" OR TITLE:(NMN) OR TITLE:(nicotinamide)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "web, wire sites and sec.gov only: sarcopenia OR \"muscle\" mitochondria drug trial results OR \"first patient dosed\" OR \"did not meet\" November 2026"
+   ],
+   "web_queries": [
+    "Amazentis OR Timeline urolithin A Mitopure OR Stealth BioTherapeutics elamipretide OR Epirium MF-300 news November 2026",
+    "elamipretide FDA approval Barth syndrome date Forzinity; sarcopenia drug phase 2 news November 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07921420",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07925853",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06274749",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07531251",
+    "https://www.healthday.com/healthpro-news/cardiovascular-diseases/fda-grants-accelerated-approval-for-first-treatment-for-barth-syndrome"
+   ],
+   "story_score": 1,
+   "story_why": "A company trial in age-related muscle loss was registered, which the estimate's reasoning leans on, but the drug is not a mitochondrial one and nothing has been reported."
+  },
+  {
+   "id": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+   "verdict": "bears-on-estimate",
+   "found": "A preprint posted on 2026-11-06 gives a second published uptake figure: in state Medicaid programmes, prescriptions for the GLP-1 brands sold for weight rose from 20,449 in 2021 to 3,745,987 in 2025, with most of the rise coming after the heart and sleep apnoea approvals, and 41 states reporting Wegovy use by late 2024 though only 12 or 13 formally covered it for obesity. That points towards the earlier years of the wide-use estimate, because it shows the heart approval opening coverage that the weight-loss label could not; it is weakened by being one country and one payer, not yet peer-reviewed, not counted by purpose, and by an 80 per cent fall in the four states that ended coverage in early 2026. No new approval or trial report on the test came in the week; a meeting abstract and a pooled analysis, both dated 2026-11-02, agree with the existing stage.",
+   "findings": [
+    {
+     "date": "2026-11-06",
+     "what": "Staiger, preprint on Research Square: 'Utilization of and gross spending on anti-obesity GLP-1 receptor agonists in state Medicaid programs, 2021 to 2026'. From the federal State Drug Utilization Data: prescriptions 20,449 (2021) to 3,745,987 (2025); gross payments 24.7 million to 4.44 billion dollars; 41 states reported Wegovy use in the last quarter of 2024; California was 47 per cent of 2025 spending; prescriptions fell 80 per cent in early 2026 in four states that ended coverage. A preprint, not peer-reviewed; it counts brands, not the purpose of each prescription.",
+     "url": "https://doi.org/10.21203/rs.3.rs-11626343/v1",
+     "opened": true,
+     "source_kind": "preprint",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "American Heart Association news release on abstract MDP1524 for its Scientific Sessions (Chicago, 2026-11-06 to 2026-11-09): in records of 256,492 adults with prediabetes and obesity and no diabetes, GLP-1 drug users had 15 per cent fewer heart attacks, 20 per cent fewer strokes and a 41 per cent lower risk of death than metformin users over about three years. Observational; the release says abstracts are not peer-reviewed. It does not meet the test, which asks for a controlled trial.",
+     "url": "https://newsroom.heart.org/news/glp-1-meds-linked-to-lower-diabetes-heart-risks-than-standard-diabetes-prevention-med",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Marino and colleagues, Critical Pathways in Cardiology: pooled analysis of seven placebo-controlled semaglutide trials (38,412 people) finding 17 per cent fewer heart deaths, the same in people with overweight or obesity and no diabetes as in the other groups. Peer-reviewed; a pooling of trials already published, not a new trial.",
+     "url": "https://doi.org/10.1097/hpc.0000000000000445",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "Registry entry NCT07241390 updated: Eli Lilly's heart-outcomes trial of the GLP-1 tablet orforglipron against placebo, 7,140 people with heart or kidney disease, recruiting, main measurement due 2031-08. A second drug on the same road; no result.",
+     "url": "https://clinicaltrials.gov/study/NCT07241390",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-06",
+     "what": "Registry entry NCT07923630 (VITAL-H) first posted: semaglutide tablets are one of two drugs to be tested against placebo for the functional decline of ageing in 1,200 healthy people aged 60 to 75 without diabetes. It bears on the entry's question of whether these drugs act on ageing itself, not on the heart test.",
+     "url": "https://clinicaltrials.gov/study/NCT07923630",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "Ohe, preprint on Research Square: pooled analysis of 162 placebo-controlled trials of GLP-1 drugs and tirzepatide finding serious falls and fractures not increased, with more loss of lean mass than placebo. Abstract read. A preprint.",
+     "url": "https://doi.org/10.21203/rs.3.rs-11601462/v1",
+     "opened": true,
+     "source_kind": "preprint",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(semaglutide AND cardiovascular) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(semaglutide AND cardiovascular) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(semaglutide OR tirzepatide OR orforglipron OR retatrutide) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(semaglutide OR tirzepatide OR orforglipron OR retatrutide) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07241390",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:(semaglutide OR tirzepatide OR \"GLP-1\" OR orforglipron OR retatrutide) AND (cardiovascular OR mortality OR \"heart failure\" OR stroke OR \"myocardial infarction\") AND (trial OR randomized OR randomised OR uptake OR prescribing OR utilization)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "web, wire sites and sec.gov only: GLP-1 cardiovascular outcomes trial results OR FDA approval OR label expansion announced November 2026",
+    "web: Novo Nordisk OR Eli Lilly cardiovascular approval OR label OR outcomes semaglutide tirzepatide orforglipron news week of November 2 2026"
+   ],
+   "web_queries": [
+    "AHA Scientific Sessions 2026 semaglutide tirzepatide cardiovascular outcomes results November 2026",
+    "AHA 2026 late-breaking science GLP-1 obesity without diabetes cardiovascular trial results Chicago",
+    "GLP-1 Wegovy Medicare coverage OR prescriptions OR uptake cardiovascular indication study November 2026"
+   ],
+   "pages_opened": [
+    "https://newsroom.heart.org/news/glp-1-meds-linked-to-lower-diabetes-heart-risks-than-standard-diabetes-prevention-med",
+    "https://www.hcplive.com/view/glp-1-ras-linked-to-lower-diabetes-cv-risk-than-metformin-in-prediabetes",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:PPR1360466",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42969445",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:PPR1358318",
+    "https://api.crossref.org/works/10.1097/hpc.0000000000000445",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07241390"
+   ],
+   "story_score": 1,
+   "story_why": "A second uptake figure for the wide-use rung, but a preprint from one payer; worth a line in the entry's notes more than a post. I could not see the full programme of the heart meeting, so a trial report there on 2026-11-07 to 2026-11-09 may have been missed."
+  },
+  {
+   "id": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+   "verdict": "noted",
+   "found": "No trial report or regulator decision in the week. Two placebo-controlled NMN trials had registry updates showing them complete with no results posted: one in 124 people aged 50 to 70 with weight-related conditions, measuring a marker of immune ageing (NCT06907329, updated 2026-11-03), and Metro International Biotech's trial of its NMN drug candidate MIB-626 in 124 fit adults aged 19 to 40, measuring fitness (NCT05878119, updated 2026-11-09). The second shows a company is running an NAD precursor through drug-style trials, though not in an age-related condition, which is the exact claim the estimate makes.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Registry entry NCT06907329 updated: NMN tablets against placebo for 26 weeks in 124 people aged 50 to 70 with overweight and related conditions (sponsor listed as Qing Su); now completed, main measurement finished 2026-10-18; main measure the share of a type of aged immune cell in the blood. No results posted.",
+     "url": "https://clinicaltrials.gov/study/NCT06907329",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Registry entry NCT05878119 updated: Metro International Biotech, its NMN candidate MIB-626 against placebo, with and without an exercise programme, in 124 fit adults aged 19 to 40; completed, main measurement finished 2025-06-17; main measure aerobic capacity. No results posted nearly seventeen months later.",
+     "url": "https://clinicaltrials.gov/study/NCT05878119",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "Registry entry NCT07917403 first posted: University of California, San Diego, a 30-person feasibility study of a supplement combining nicotinamide riboside with another compound in knee osteoarthritis. No placebo group listed; measures are whether people take it and stay in the study.",
+     "url": "https://clinicaltrials.gov/study/NCT07917403",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-03",
+     "what": "Registry entry NCT07659834 updated: an 18-person study of a 'longevity' food supplement measuring NAD in blood, completed. Too small and not on a function.",
+     "url": "https://clinicaltrials.gov/study/NCT07659834",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2025-09-29",
+     "what": "Search summaries (not opened) report that the United States regulator, in letters dated 2025-09-29, reversed its 2022 position and said NMN may be sold as a dietary supplement. It does not touch the test, which excludes supplement sales, and the records do not mention it.",
+     "url": "https://longevity.technology/news/fda-reverses-nmn-decision/",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(nicotinamide riboside OR nicotinamide mononucleotide OR NMN OR NAD+) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(nicotinamide riboside OR nicotinamide mononucleotide OR NMN OR NAD+) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06907329",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05878119",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07917403",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07659834",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=((\"nicotinamide riboside\" OR \"nicotinamide mononucleotide\" OR \"NAD+ precursor\") AND (trial OR randomized OR randomised OR placebo)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(elamipretide OR \"mitophagy activator\" OR \"MIB-626\" OR TITLE:(NMN) OR TITLE:(nicotinamide)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "web, wire sites and sec.gov only: NAD precursor nicotinamide riboside OR NMN clinical trial results announced November 2026"
+   ],
+   "web_queries": [
+    "NMN OR \"nicotinamide riboside\" FDA OR trial news November 2026 Niagen OR \"Metro International Biotech\" OR Elysium",
+    "anti-ageing drug trial news November 2026 healthspan geroscience announcement"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06907329",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05878119",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07917403",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07659834"
+   ],
+   "story_score": 0,
+   "story_why": "Registry housekeeping only; no result."
+  },
+  {
+   "id": "metformin-delays-age-related-disease-in-people-without-diabetes",
+   "verdict": "flagged",
+   "found": "The week itself brought only a trial design paper (metformin against placebo for three years in 212 people with a lung disease, published online 2026-11-04) and no sign of the TAME trial in the registry. But the entry lacks an older controlled trial that bears directly on its test: the MeMeMe trial (Diabetes Care, February 2025 issue) gave metformin or placebo to 1,442 people with metabolic syndrome for about three years and found roughly half as many new major diseases on metformin, a difference its authors say was fully explained by fewer cases of type 2 diabetes. The author should also know that a web page dated 2026-03-02 states that TAME has reported results; it cites no journal, registry number or other source, and nothing I opened supports it.",
+   "findings": [
+    {
+     "date": "2025-02-01",
+     "what": "Pasanisi and colleagues, Diabetes Care (February 2025 issue), the MeMeMe randomised trial: 1,442 people with metabolic syndrome given metformin or placebo, with or without a diet programme, followed three years on average. Main measure: new cases of major diseases (type 2 diabetes, heart and circulation disease, cancer). 6.7 and 6.9 cases per 100 person-years in the two metformin groups against 13.3 and 11.3 in the two placebo groups; 'the differences were fully explained by the reduction of type 2 diabetes'. Abstract read at Europe PMC. Not in the records. Whether it counts depends on whether the test's 'first age-related disease' includes diabetes; the test names heart disease, cancer and dementia.",
+     "url": "https://doi.org/10.2337/dc24-1597",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "de-Torres and colleagues, COPD journal (online 2026-11-04): design of AMICO, a placebo-controlled trial of metformin for 36 months in 212 people with chronic obstructive pulmonary disease, described by its authors as the first trial of metformin as a treatment aimed at ageing in that disease. Main measure is lung function; new age-related illnesses are among the further measures. A design paper; the people have a disease, so it would not settle this test.",
+     "url": "https://doi.org/10.1080/15412555.2026.2753977",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Registry entry NCT04264897 updated: the ANTHEM study (Oklahoma Medical Research Foundation), metformin against placebo for 12 weeks in 166 adults free of chronic disease. Completed; results were first posted on 2026-07-02 and show no significant difference on either main measure (insulin sensitivity; a measure of mitochondrial function in muscle). A short trial of markers, not of disease. Not in the records.",
+     "url": "https://clinicaltrials.gov/study/NCT04264897",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "American Heart Association release on a meeting abstract: in records of 256,492 adults with prediabetes and obesity, metformin was the comparison drug and its users had more heart attacks, strokes and deaths than GLP-1 drug users. Observational, not peer-reviewed, and no untreated group, so it says little about metformin itself.",
+     "url": "https://newsroom.heart.org/news/glp-1-meds-linked-to-lower-diabetes-heart-risks-than-standard-diabetes-prevention-med",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Registry search for the TAME trial by its full title on 2026-11-09 returns no entry (one unrelated study matched the words). Same as the record's check of 2026-10-17.",
+     "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%22Targeting+Aging+with+Metformin%22",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-03-02",
+     "what": "A page on the site iMedic headed as news that the TAME trial reported an 18 per cent reduction in age-related disease. It names the trial's lead investigator but cites no journal, DOI or registry number for any result, and links only to its own pages. It contradicts the record and every primary source; I treat it as unsupported.",
+     "url": "https://imedic.pages.dev/en/health/news/metformin-anti-aging-tame-trial-results-2026",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-06",
+     "what": "The new federal trial against the decline of ageing (VITAL-H, NCT07923630) tests dapagliflozin and semaglutide, not metformin, and excludes people taking sugar-lowering drugs. A search summary (not opened) describes this as the government passing over TAME; that reading is the commentator's, not the registry's.",
+     "url": "https://clinicaltrials.gov/study/NCT07923630",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(metformin AND (aging OR ageing OR longevity)) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(metformin AND (aging OR ageing OR longevity)) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(TAME OR Targeting Aging with Metformin) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(TAME OR Targeting Aging with Metformin) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=\"Targeting Aging with Metformin\" OR (metformin AND \"age-related\" AND AFAR)",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04264897",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=((metformin) AND (aging OR ageing OR longevity OR healthspan) AND (trial OR randomized OR randomised OR TAME)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:(metformin) AND (aging OR ageing OR older OR longevity OR healthspan OR lifespan OR \"without diabetes\" OR nondiabetic)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=MeMeMe AND metformin AND TITLE:(metformin) AND PUB_YEAR:[2024 TO 2026] (not date-limited; to check an older trial)",
+    "web, wire sites and sec.gov only: longevity drug healthspan clinical trial results announced November 2026 (metformin is a generic with no company sponsor)"
+   ],
+   "web_queries": [
+    "TAME metformin trial aging November 2026",
+    "metformin non-diabetic randomized trial results aging cancer cardiovascular published November 2026",
+    "AFAR TAME trial status 2026 launch funding ARPA-H OR Hevolution metformin"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39641916",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42980248",
+    "https://api.crossref.org/works/10.1080/15412555.2026.2753977",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04264897",
+    "https://newsroom.heart.org/news/glp-1-meds-linked-to-lower-diabetes-heart-risks-than-standard-diabetes-prevention-med",
+    "https://imedic.pages.dev/en/health/news/metformin-anti-aging-tame-trial-results-2026",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07923630"
+   ],
+   "story_score": 1,
+   "story_why": "Nothing new this week. The reason to look is the older MeMeMe trial, which is the nearest thing yet to this entry's test and is missing from it; that is a correction to the entry, not news."
+  },
+  {
+   "id": "mitochondria-are-transplanted-into-a-person",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on the test. The three registry entries the record names are unchanged in the week: the stroke study (NCT04998357) is still listed as recruiting and was last updated on 2025-05-21, though its own estimated date for the main measurement, 2026-04-29, has passed; the Boston heart study (NCT02851758) is recruiting, last updated 2026-01-05; the Korean muscle-disease study (NCT04976140) is completed with no results posted.",
+   "findings": [
+    {
+     "date": "2025-05-21",
+     "what": "NCT04998357 (University of Washington, stroke): status recruiting, 20 people planned, last update posted 2025-05-21; estimated main measurement 2026-04-29 and completion 2026-10-29, both now past with no update. Matches the record's 'recruiting'; the staleness is new to note.",
+     "url": "https://clinicaltrials.gov/study/NCT04998357",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-01-05",
+     "what": "NCT02851758 (Boston Children's Hospital): recruiting, 16 people planned, last update posted 2026-01-05, main measurement estimated 2027-06. Matches the record.",
+     "url": "https://clinicaltrials.gov/study/NCT02851758",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2024-04-03",
+     "what": "NCT04976140 (Paean Biotechnology, polymyositis and dermatomyositis): completed, 9 people, last update 2024-04-03, no results posted on the registry. Matches the record.",
+     "url": "https://clinicaltrials.gov/study/NCT04976140",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-11-04",
+     "what": "A preprint (Preprints.org) reviewing the path of mitochondrial transplantation towards use in lung scarring. Title only read; a review, no patient result.",
+     "url": "https://doi.org/10.20944/preprints202611.0414.v1",
+     "opened": false,
+     "source_kind": "preprint",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-04-07",
+     "what": "Search summaries (not opened) say the company Mitrix Bio has reported a first safety study of mitochondrial infusions in two older people and plans clinics offering the treatment outside the usual approval route. No peer-reviewed report found; out of the window; not in the records.",
+     "url": "https://www.fightaging.org/archives/2026/04/mitrix-bio-as-an-example-of-the-trend-towards-alternative-paths-to-initial-human-data/",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(mitochondrial transplantation OR mitochondria transplantation OR mitochondrial transfer) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(mitochondrial transplantation OR mitochondria transplantation OR mitochondrial transfer) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(mitochondria OR mitochondrial) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04998357",
+    "https://clinicaltrials.gov/api/v2/studies/NCT02851758",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04976140",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(\"mitochondrial transplantation\" OR \"mitochondria transplantation\" OR \"mitochondrial transfer therapy\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:(mitochondria* AND (transplant* OR transfer))) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "web: mitochondrial transplantation OR \"mitochondria transplantation\" trial first patient OR results OR FDA November 2026 cellvie OR Minovia OR Mitrix OR Paean (the wire-site search by kind of treatment for this branch, run under the muscle entry, returned nothing on transplantation)"
+   ],
+   "web_queries": [
+    "mitochondrial transplantation OR \"mitochondria transplantation\" trial first patient OR results OR FDA November 2026 cellvie OR Minovia OR Mitrix OR Paean",
+    "\"mitochondrial transplantation\" clinical trial patients results published 2026 heart OR stroke OR muscle"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04998357",
+    "https://clinicaltrials.gov/api/v2/studies/NCT02851758",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04976140"
+   ],
+   "story_score": 0,
+   "story_why": "No report, registration or regulator action in the week."
+  },
+  {
+   "id": "rapamycin-improves-an-age-related-measure-in-older-people",
+   "verdict": "flagged",
+   "found": "No controlled result on rapamycin in older people was published in the week. Two things the author should see: the registry entry posted on 2026-11-06 for the federal trial VITAL-H lists no rapamycin group, although the university's announcement of 2026-03-04 named rapamycin as one of its three drugs; and the entry lacks a controlled trial published on 2026-04-01 (RAPA-EX-01, 40 people aged 65 to 85) in which weekly rapamycin did not improve the gain from an exercise programme and, in two planned further analyses, did worse than placebo. A study of transplant records in GeroScience on 2026-11-05 found no survival difference with rapamycin; it belongs with the lifespan entry.",
+   "findings": [
+    {
+     "date": "2026-11-06",
+     "what": "Registry entry NCT07923630 (VITAL-H, University of Texas Health Science Center at San Antonio) first posted with three groups: semaglutide tablets, dapagliflozin, placebo; 1,200 people. No rapamycin group.",
+     "url": "https://clinicaltrials.gov/study/NCT07923630",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-03-04",
+     "what": "The university's announcement of VITAL-H: 726 adults in their 60s, 'rapamycin, dapagliflozin and semaglutide' against placebo in four groups. A web search on 2026-11-09 found no statement that the rapamycin group was dropped or moved to another study, so the difference is unexplained, not confirmed as a withdrawal.",
+     "url": "https://news.uthscsa.edu/ut-san-antonio-to-lead-38-million-national-trial-testing-drugs-to-extend-healthspan/",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-04-01",
+     "what": "Stanfield and colleagues, Journal of Cachexia, Sarcopenia and Muscle, RAPA-EX-01: randomised, double-blind, placebo-controlled, 40 inactive adults aged 65 to 85, 13 weeks of weekly rapamycin or placebo alongside home exercise. Main measure (chair stands in 30 seconds): difference of -2.13 against rapamycin, not significant (p = 0.089); two planned sensitivity analyses favoured placebo significantly; more adverse events on rapamycin (99 against 63). Abstract read at Europe PMC. Not in the records.",
+     "url": "https://doi.org/10.1002/jcsm.70274",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Stewart and Fitzsimmons, GeroScience: among 11,474 kidney transplant recipients followed a median of 11 years, those prescribed rapamycin died at a similar age to those not (64.6 against 64.3 years). A records study at transplant doses, so outside this entry's test; it bears on the lifespan entry.",
+     "url": "https://doi.org/10.1007/s11357-026-02643-8",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-09-10",
+     "what": "Journal of Cerebral Blood Flow & Metabolism (published 2026-09-10; news coverage on ScienceDaily dated 2026-11-05): a single-group pilot at the University of Missouri, four weeks of rapamycin in 23 adults aged 45 to 65, found increased blood flow in the brain in the 9 who carry the APOE4 gene variant and no change in the 14 who do not. No placebo group and middle-aged people, so it does not meet the test. Not in the records.",
+     "url": "https://doi.org/10.1177/0271678X261490342",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Registry entry NCT07166354 updated: a planned study of an mTOR-pathway drug for grey hair, not yet recruiting. Title and status only read from the dated list.",
+     "url": "https://clinicaltrials.gov/study/NCT07166354",
+     "opened": false,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Biodexa company update (search summary, not opened): its rapamycin tablet is in a late-stage trial for an inherited bowel condition, 112 of 168 people enrolled. Not an ageing use.",
+     "url": "https://www.globenewswire.com/news-release/2026/11/09/3398400/0/en/biodexa-provides-r-d-update.html",
+     "opened": false,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(rapamycin OR sirolimus OR everolimus) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(rapamycin OR sirolimus OR everolimus) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=((rapamycin OR sirolimus OR everolimus OR RTB101 OR rapalog) AND (aging OR ageing OR older OR elderly OR longevity OR healthspan OR immune)) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]",
+    "https://clinicaltrials.gov/api/v2/studies?query.spons=Texas Health Science Center at San Antonio&query.term=rapamycin OR sirolimus (to look for a separate rapamycin entry for VITAL-H; none)",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07923630",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=((rapamycin OR sirolimus OR everolimus OR \"mTOR inhibitor\") AND (aging OR ageing OR longevity OR \"older adults\") AND (trial OR randomized OR randomised)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:(rapamycin OR sirolimus OR everolimus OR rapalog) AND (aging OR ageing OR older OR longevity OR healthspan OR lifespan)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09]",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:\"RAPA-EX-01\" OR (TITLE:(sirolimus AND exercise AND \"older adults\")) (not date-limited; to check an older trial)",
+    "web, wire sites and sec.gov only: mTOR inhibitor OR rapamycin analogue ageing OR \"age-related\" trial results OR \"first participant dosed\" announced November 2026"
+   ],
+   "web_queries": [
+    "rapamycin trial older adults results November 2026",
+    "rapamycin longevity news this week kidney transplant recipients survival GeroScience study",
+    "VITAL-H trial rapamycin dropped OR removed OR \"two drugs\" semaglutide dapagliflozin 1,200 participants Barshop"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07923630",
+    "https://news.uthscsa.edu/ut-san-antonio-to-lead-38-million-national-trial-testing-drugs-to-extend-healthspan/",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41985884",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42989006",
+    "https://api.crossref.org/works/10.1007/s11357-026-02643-8",
+    "https://api.crossref.org/works/10.1177/0271678X261490342",
+    "https://www.sciencedaily.com/releases/2026/11/261104084017.htm"
+   ],
+   "story_score": 1,
+   "story_why": "The week's only peer-reviewed rapamycin paper is a null result on survival in transplant patients, which is worth a line beside the VITAL-H story; the missing 2026-04-01 trial is a gap in the entry, not news."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-11-03",
+   "what": "Registry entry NCT07912164 first posted: Human Biome S.A., a placebo-controlled trial of capsules of gut bacteria from donors in 68 adults aged 45 to 80, with the pace of ageing on a DNA-based clock among its main questions; not yet recruiting, start estimated 2026-12.",
+   "url": "https://clinicaltrials.gov/study/NCT07912164",
+   "opened": true,
+   "why_it_matters": "A controlled trial that names slowing biological ageing as its aim; it fits the measuring branch's question of a treatment slowing a clock, not any record in this packet."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "Registry entry NCT07906041 updated (first posted 2026-10-30): Atria Research and Global Health Institute, tirzepatide in 22 people with the change in a blood-protein estimate of brain age as its main measure; one group, no placebo.",
+   "url": "https://clinicaltrials.gov/study/NCT07906041",
+   "opened": true,
+   "why_it_matters": "The packet's GLP-1 entry says a result on measures of biological age belongs on the measuring branch; this is a registered study of exactly that, small and uncontrolled."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "Veru company release saying it will present, at the ObesityWeek meeting on 2026-11-16, further results on physical function in older patients taking its drug enobosarm alongside a GLP-1 drug. The release itself refused my request, so this is from a search summary.",
+   "url": "https://globenewswire.com/news-release/2026/11/09/3398402/11676/en/veru-to-present-new-results-on-effects-of-enobosarm-on-physical-function-in-older-patients-receiving-glp-1-ra-from-the-phase-2b-quality-clinical-study-at-obesityweek-2026.html",
+   "opened": false,
+   "why_it_matters": "Bears on muscle loss in older people on the weight-loss drugs; an announcement of a presentation, not a result."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "VITAL-H (NCT07923630) also tests dapagliflozin, a diabetes and heart-failure drug of a class (SGLT2 inhibitors) that no record in this packet tracks, against the decline of ageing in 1,200 healthy older people.",
+   "url": "https://clinicaltrials.gov/study/NCT07923630",
+   "opened": true,
+   "why_it_matters": "If the site has no entry for this class of drug, the largest funded ageing trial now registered tests one."
+  }
+ ]
+}

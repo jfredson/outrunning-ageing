@@ -6,6 +6,8 @@ Written 2026-10-17, the day the site went live, in a cloud session from the mast
 
 **Changed 2026-11-09, after a trial** (`docs/readings/fable-trial-2026-11-09.md`). A trial compared this procedure with a deeper one on two models, and John ruled the same day. Step 1a is new and in force, except its part E: a reading starts from sources that can be filtered by date (the trial registry, the paper database, a search limited to the press-release newswires and company filings), opens what they return, files a result that counts against a treatment or bears on an estimate as a flagged item, runs one field-wide sweep, and reports a ranked shortlist of the week's stories. The dated queries sit outside cap 3. John also made it a hard rule that any limit the project sets on itself is always up for review when it may be costing quality; step 1a says how the reading reports a limit that cut something. Which model reads what (part E) waits on a measured comparison.
 
+**Changed again 2026-11-09, after the comparison** (`docs/readings/model-comparison-2026-11-09.md`). Four full readings of the same week were run from one fixed brief and every story was checked blind. Of 21 top-graded stories, readings wholly on Sonnet 5.5 found 12 and 9, Sonnet 5.5 readers with a Fable 5.2 sweep 13 to 17, and readings wholly on Fable 5.2 21 and 16; the scheduled reading of the same week, whose helpers were briefed in the main session's own words, found 3. John ruled the same day: "All Fable 5.2". Part E of step 1a is now in force: the routine and every helper run on Fable 5.2, and every helper is given a fixed brief from `docs/reading-briefs/`, word for word.
+
 This is a working document, so it uses the project's own words (leaf, scan, settler, verdict). On the public site the reading is "This week's reading", a leaf is a treatment and the test is "what would count". The reading record's prose is printed on the public site as written, so it uses the public words, not these (John's ruling of 2026-10-18; step 1, "Written for visitors").
 
 ## The idea in one paragraph
@@ -123,7 +125,7 @@ The standalone instruction for the scheduled reading. A fresh Claude session wit
 
 ### 1. Read each record against the world
 
-**Helpers (allowed, on conditions).** The reading may be shared among helper agents, one group of records each, as the first two readings were. Every helper gets the same brief, which is this step and the caps, and writes only its own output file; none edits the repository or runs git. The main session reads every flagged item itself and, before it files one, opens each source the item cites (or says in the item that the source was not opened and why). The main session names the helpers, the groups and the brief in the header comment of the reading record, and says in `limits` that helpers were used.
+**Helpers (allowed, on conditions).** The reading may be shared among helper agents, one group of records each, as the first two readings were. Every helper gets the same brief (from 2026-11-09 the fixed brief of step 1a part E, which carries this step and the caps), and writes only its own output file; none edits the repository or runs git. The main session reads every flagged item itself and, before it files one, opens each source the item cites (or says in the item that the source was not opened and why). The main session names the helpers, the groups and the brief in the header comment of the reading record, and says in `limits` that helpers were used.
 
 For each record, the leaves first in branch order (`data/branches.toml`, `order` 1 to 8) and by id within a branch, then the claims by id, then the self-experiments by id:
 
@@ -137,14 +139,14 @@ For each record, the leaves first in branch order (`data/branches.toml`, `order`
 
 Search economy: no fewer than two searches aimed at each record, no more than four. If the search tool fails twice, or refuses because its allowance is spent, write `search_short` on the item saying so, give the verdict the searches you have support, and move on; a record with no search at all is left out of the reading and named in the summary, to be read first at the next reading.
 
-### 1a. Dated sources, results against, the sweep and the shortlist (in force from 2026-11-09, except part E)
+### 1a. Dated sources, results against, the sweep and the shortlist (in force from 2026-11-09)
 
 Drafted on 2026-11-09 from the trial written up in `docs/readings/fable-trial-2026-11-09.md`. The trial
 showed that reading sources that can be filtered by date is what finds the week's news. **John ruled on
 2026-11-09: parts A, B, C, D, F, G and H are in force**, results against are filed as flagged items with
-no fifth verdict, and the dated queries of part A sit outside cap 3. **Part E (which model reads what) is
-not in force**: it waits on a comparison of the arrangements, and until John rules on it everything runs
-on the routine's model. Each part says what it changes in the steps above. Nothing here changes the
+no fifth verdict, and the dated queries of part A sit outside cap 3. **Part E (which model reads what,
+and the fixed briefs) came into force later the same day**, when John ruled "All Fable 5.2" on the
+comparison in `docs/readings/model-comparison-2026-11-09.md`. Each part says what it changes in the steps above. Nothing here changes the
 record layout, the validator or the site.
 
 **How the limits in this step are drawn (John's hard rule of 2026-11-09).** John ruled that any limit the
@@ -211,12 +213,46 @@ field (the summary is printed on the site, so it stays a paragraph; a story left
 named under "Limits that cut"). The reading may not add a record; proposing one is a line for John. The
 `limits` line says which of these sources were reached.
 
-**E. Who reads what. (NOT IN FORCE; a reading skips this part.)** The arrangement John chose for the
-draft: the main session on Fable 5.2 (the routine's model field) runs the sweep, opens every source
-behind a flagged item, does the weighing in part C and assembles the record; the record readers are
-helpers on Sonnet 5.5 (the helper tool's `model` set to `sonnet`), each with a group of records and the
-brief of step 1 with parts A to C. John asked on 2026-11-09 for a measured comparison of the
-arrangements before ruling. Until he rules, everything runs on the routine's model.
+**E. Who reads what, and the fixed briefs (in force from 2026-11-09; John's ruling: "All Fable 5.2").**
+This part replaces the sentence in step 1 that says a helper's brief "is this step and the caps".
+
+- **One model throughout.** The routine's model field is set to Fable 5.2, and the main session starts
+  every helper without naming a model, so that each helper runs on the main session's model. The main
+  session says in `limits` which model it is running on. If the routine could not be started on Fable
+  5.2 and is running on another model, the reading goes ahead, and the first line of the report and the
+  `limits` line both say so.
+- **Helpers always read.** The main session does not read the records itself. It shares all of them
+  among record readers and starts one more helper for the sweep of part D.
+- **The briefs are fixed.** A record reader is given the whole text of
+  `docs/reading-briefs/record-reader.md`, and the sweep helper the whole text of
+  `docs/reading-briefs/sweep.md`, word for word, with only the values in curly brackets filled in (the
+  window, the helper's records, the repository's path, the output file). The main session does not
+  shorten, summarise or reword a brief, and adds no limit of its own: no number of searches, pages or
+  minutes. This is here because of one finding: in the week of 2026-11-02 the scheduled reading's main
+  session briefed its helpers in its own words, and the reading found 3 of the week's 21 top stories;
+  readers on the same model given the fixed brief found 12 and 9.
+- **Group size.** A record reader gets no more than eight treatments, or no more than ten claims or
+  self-experiments, grouped in the order of step 1. Eight is the size the comparison used; ten is the
+  size the reading of 2026-11-09 used for claims. The numbers are there so that each record gets a
+  reader's full attention and so that a stopped reader loses little (part F). They are not tested
+  against other sizes, so a reader's note that its group was too large to read properly goes under
+  "Limits that cut".
+- **Output files** go in a working folder outside the repository. Each record reader writes its items
+  in the reading record's layout and a notes file; the sweep writes one file. The briefs say what goes
+  in each.
+- **What the main session does with them.** It checks that every record has an item and that each
+  items file loads. It opens every source behind a flagged item itself (step 1, "Helpers"). It decides
+  every move itself: a helper never files `moved`, it flags with "May meet the test for the next
+  stage:", and the main session opens the record and either moves the leaf under step 3 and the caps or
+  leaves the item flagged. It does the weighing of part C, logs the publications from the notes files
+  (step 2, after reading each page itself or naming the road the helper took), hands the sweep's
+  stories to the records they match, and builds the shortlist of part H from the notes files and the
+  sweep.
+- **Showing the depth of the reading.** The report gives one line per helper: records read, dated
+  queries run, web searches run and pages opened, taken from the helper's notes file. The `limits` line
+  gives the totals, and for the sweep how many paper titles its queries returned and how many it read.
+  A helper that opened very few pages for its group is named in the report, so that a shallow reading
+  shows.
 
 **F. Save as you go, and one retry.** Each helper writes its output file again after every record, and
 keeps its wording at the level of news: what was published or announced, when, by whom, and the link.
@@ -245,8 +281,8 @@ the reading writes no post and the shortlist is where the stories go.
 `scripts/check_news.py` (agreed 2026-11-09, not yet built); the monthly check by a non-Claude model of
 what the readings missed (agreed 2026-11-09; `scripts/miss_check_gemini.py`); a one-off check of the
 records for older facts they lack (agreed 2026-11-09); a place in the reading record for stories with no
-record (a layout change); the comparison of model arrangements and the routine's model field; and the
-same changes on the four sibling sites.
+record (a layout change); and the same changes on the four sibling sites. (The comparison of model
+arrangements was run on 2026-11-09 and part E follows from it.)
 
 ### 2. Log the publications
 

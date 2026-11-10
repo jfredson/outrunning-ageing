@@ -1,0 +1,301 @@
+{
+ "items": [
+  {
+   "id": "S1004",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "C",
+   "story": "Staiger preprint (Research Square, 2026-11-06): Medicaid use of and spending on obesity-labelled GLP-1 brands, 2021 to early 2026",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.21203/rs.3.rs-11626343/v1&format=json&resultType=core",
+   "note": "Europe PMC record confirms every figure: 20,449 to 3,745,987 prescriptions; $24.7 million to $4.44 billion gross; 41 states with Wegovy use in the last quarter of 2024 against 12 to 13 covering; California 47%; 80% fall in early 2026 in four states. The quoted phrase about the increase following the heart and sleep-apnoea approvals was not in the summary I read, so that wording is unchecked. Single-author preprint about payer use, not about whether the drug works; a different paper from S1180 on the same data."
+  },
+  {
+   "id": "S1180",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "C",
+   "story": "Nyambod and colleagues, Cureus, 2026-11-06: dispensing of obesity GLP-1 drugs fell about 85% in states whose Medicaid programmes withdrew coverage",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Medicaid%20Coverage%20Withdrawal%20and%20Dispensing%20of%20Glucagon-Like%20Peptide-1%22&format=json&resultType=core",
+   "note": "Paper exists (Cureus 18(11): e119224, DOI 10.7759/cureus.119224). Published 2026-11-06; the 2026-11-07 date in the claims is the date of the PubMed Central copy. Reports an 84.7% fall in obesity-labelled dispensing after withdrawal and no change in diabetes-labelled dispensing. Related topic to S1004 but a separate paper by different authors, not a duplicate."
+  },
+  {
+   "id": "S1181",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "B",
+   "story": "CRISPR Therapeutics third-quarter 2026 release, 2026-11-02: CTX310 (in-body editor of ANGPTL3) holds the regulator's regenerative-medicine designation for severe high triglycerides and for raised LDL cholesterol; phase 1b data due at the heart meeting 2026-11-09",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526443644/crsp-ex99_1.htm",
+   "note": "Release dated 2026-11-02 confirms two designations (severe high triglycerides and elevated LDL cholesterol); the second claim names only one. Phase 1 ongoing for CTX310, CTX340 (resistant high blood pressure) and CTX460 (alpha-1 antitrypsin deficiency); nothing stopped; presentation set for 2026-11-09. I did not establish whether the designations were first announced in this release or earlier, so graded B, a designation and not an approval. The 2026-11-09 data are items S1064 and S1150."
+  },
+  {
+   "id": "S1148",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Lifespan.io editorial 'Momentum on two fronts for rejuvenation', 2026-11-05: recap of FDA leaders' remarks at the ARDD meeting in Boston, a Lifespan Research Institute whitepaper, and Life Biosciences' ER-100 interim data",
+   "same_story_as": null,
+   "source_opened": "https://lifespan.io/momentum-on-two-fronts-for-rejuvenation/",
+   "note": "Editorial dated 2026-11-05 says what the claims say: senior agency leaders named longevity a priority at ARDD in Boston, spoke of fit-for-purpose endpoints and clearer pathways, did not call ageing a disease; ER-100 low dose tolerated in three glaucoma patients. The editorial gives no date for the remarks (only 'recent'), so 'in October' and the 2026-10-08 date for the ER-100 data are not confirmed by this page. Bundles three older things (the remarks, the whitepaper, the eye-therapy data); none is a new event in the window."
+  },
+  {
+   "id": "S1154",
+   "real": "yes",
+   "actual_date": "2026-09-07",
+   "in_window": false,
+   "grade": "B",
+   "story": "Zhavoronkov and colleagues, Nature Biotechnology, 2026-09-07: six blood-protein age clocks read lower biological age in the rentosertib arms of a 12-week phase 2a lung-scarring trial (discussed by Fight Aging! 2026-11-09)",
+   "same_story_as": null,
+   "source_opened": "https://www.fightaging.org/archives/2026/11/anti-fibrotic-drug-rentosertib-reduces-proteomic-clock-age-in-humans/ ; https://api.crossref.org/works/10.1038/s41587-026-03286-y",
+   "note": "Claims are accurate. The Fight Aging! post is dated 2026-11-09, inside the window, but the paper it discusses (DOI 10.1038/s41587-026-03286-y) was published 2026-09-07 per Crossref, so the result itself is two months old; only the commentary is in the window. The post quotes the paper saying the clocks cannot separate ageing effects from disease effects."
+  },
+  {
+   "id": "S1136",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "C",
+   "story": "White and colleagues, medRxiv preprint, 2026-11-04: buckwheat sprout powder trial in 848 adults missed its main thinking measure; exploratory epigenetic-age signals in 34 people",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.64898/2026.11.03.26367186&format=json&resultType=core",
+   "note": "Confirmed: 848 randomised (662 analysed), 12 weeks, main measure no different from placebo (p = .59); epigenetic analyses in 34 people called hypothesis-generating, none surviving correction for multiple tests. A food-supplement trial about thinking, with the clock work only exploratory, so minor for this site."
+  },
+  {
+   "id": "S1061",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Nature Medicine author correction, 2026-11-03, to Wan and colleagues' phase 1 trial of in-body base editing for inherited high cholesterol",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.1038/s41591-026-04786-9",
+   "note": "Crossref confirms an Author Correction published 2026-11-03, correcting DOI 10.1038/s41591-026-04254-4. What was corrected is not stated in the record."
+  },
+  {
+   "id": "S1064",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "A",
+   "story": "CRISPR Therapeutics, 2026-11-09: phase 1b data for CTX310 (one-time in-body editor of ANGPTL3) in 10 people with severe high triglycerides, presented at the American Heart Association meeting; 65% fall in the target protein, 63% in triglycerides at day 30",
+   "same_story_as": null,
+   "source_opened": "https://www.stocktitan.net/news/CRSP/crispr-therapeutics-presents-phase-1b-data-for-ctx310-demonstrating-nao9svbtrtnw.html",
+   "note": "The GlobeNewswire address refused (403); the same release read in full on Stock Titan. Figures confirmed: mean falls at day 30 of 65% in ANGPTL3 and 63% in triglycerides, 10 participants, single infusion, no treatment-related serious harms, no liver-enzyme rises of concern, only seven followed 90 days or more. The copy I read did not name the city, so 'Chicago' is unchecked. A company release of meeting data, not peer reviewed."
+  },
+  {
+   "id": "S1066",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Ding, Oura, Okamura and Wu, Cell Stem Cell, 2026-11-03: live mice born from donor stem cells that replaced the whole embryo proper in host mouse embryos (epiblast complementation)",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.stem.2026.10.010&format=json&resultType=core",
+   "note": "Confirmed (PMID 42976859, online 2026-11-03). Mouse into mouse, no human cells and no second species named in the abstract, so only loosely related to growing a human organ in an animal; a leading journal, but graded C for that reason. A reader weighting the method itself could call it B."
+  },
+  {
+   "id": "S1132",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "B",
+   "story": "Vericel third-quarter 2026 results call (reported 2026-11-06): the United Kingdom's cost-effectiveness body NICE accepted MACI for appraisal; United Kingdom launch targeted for the second half of 2027",
+   "same_story_as": null,
+   "source_opened": "https://www.marketbeat.com/instant-alerts/transcript-vericel-q3-earnings-call-highlights-2026-11-06/",
+   "note": "Article dated 2026-11-06 confirms NICE accepted MACI for a single technology appraisal and the second-half-2027 launch target, and adds that the United Kingdom medicines regulator inspected the new manufacturing site in the third quarter. It does not say the marketing application was filed in the second quarter of 2026; that detail is unconfirmed. Same quarterly results as S1107 and S1090 (the call followed the 2026-11-05 release) but carries facts the release does not, so not marked as a duplicate."
+  },
+  {
+   "id": "S1054",
+   "real": "unverified",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Intellia quarterly report (Form 10-Q for the quarter to 2026-09-30), filed 2026-11-05: restates the 2025 trial stop, the patient death and the immune-gene finding; no new safety event",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526449862/ (filing folder) ; https://www.sec.gov/Archives/edgar/data/1652130/000119312526449862/ntla-20260930.htm (cover and accounts only)",
+   "note": "The filing exists and its files are stamped 2026-11-05, but only the cover page and the accounts could be read; the sections that would hold the account of the stop, the death on 2025-11-05 and the talks with the regulator did not load, so the claim's wording is not confirmed. The same day's results release (item S1049) reports no new safety event, which agrees with the claim. On its own terms the item says nothing new happened."
+  },
+  {
+   "id": "S1107",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Vericel third-quarter 2026 results release, 2026-11-05: MACI revenue $67.4 million (up 21%), full-year MACI forecast raised to $290 to $292 million, United Kingdom launch possible in 2027",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/0000887359/000162828026070622/ex991earningsreleaseq32026.htm",
+   "note": "Figures confirmed ($67.4 million against $55.7 million; guidance raised from $284 to $290 million; record MACI Arthro cases; no mention of osteoarthritis). One detail is overstated: the release does not say a regulator's decision on the ankle use is pending. It names the ankle only in the legal boilerplate about future possibilities, and the ankle trial started recruiting in May 2026 (item S1177). Routine sales news."
+  },
+  {
+   "id": "S1177",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry record NCT06915233 (Vericel phase 3 trial of MACI in ankle cartilage defects) updated, posted 2026-11-05",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT06915233",
+   "note": "Confirmed: phase 3, recruiting, 309 planned, ages 17 to 65, started 2026-05-28, main results July 2030, against bone marrow stimulation, first posted 2025-04-08. The update was submitted 2026-11-03 and posted 2026-11-05. A routine update to an existing record; an ankle injury trial, not osteoarthritis."
+  },
+  {
+   "id": "S1090",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Vericel third-quarter 2026 results release, 2026-11-05 (same release as S1107)",
+   "same_story_as": "S1107",
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/0000887359/000162828026070622/ex991earningsreleaseq32026.htm",
+   "note": "Same filed release as S1107; all figures confirmed, including the record numbers of biopsies, implants and surgeons with no counts given. The quoted line about 20% growth for a sixth quarter running was not returned by my reading, so that exact wording is unchecked."
+  },
+  {
+   "id": "S1159",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "B",
+   "story": "Editas Medicine third-quarter 2026 release, 2026-11-09: Australian ethics approval and regulator notification complete for the first trial in people of EDIT-401, an in-body editor for inherited high cholesterol; first dosing expected in 2026",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/1650664/000165066426000100/editasmedicinepressrelease.htm",
+   "note": "Confirmed: ethics committee approval and the notification step with Australia's regulator are complete, dosing 'on track to begin this year', first safety data in the first quarter of 2027, fuller results in the second half of 2027. No one has been dosed. A go-ahead to start, not a result."
+  },
+  {
+   "id": "S1049",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "B",
+   "story": "Intellia third-quarter 2026 release, 2026-11-05: enrolment complete in the nerve-disease phase 3 trial of nex-z (MAGNITUDE-2), heart trial still enrolling, doctors now given immune-gene results; lonvo-z licence application under priority review with a decision date of 2027-03-10",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm",
+   "note": "All four claims confirmed against the filed release. It bundles two stories: (1) nex-z trial progress, new this quarter; (2) the regulator's acceptance of the lonvo-z application, which happened in September 2026 and is only restated here, so that part is outside the window. The release also lists lonvo-z durability data for 2026-11-12, after the window. No results and no new safety event."
+  },
+  {
+   "id": "S1139",
+   "real": "yes",
+   "actual_date": "2026-08-01",
+   "in_window": false,
+   "grade": "C",
+   "story": "Heikkinen and colleagues, Aging Cell, 2026-08-01: nicotinamide riboside for five months linked to lower epigenetic age acceleration in muscle (mentioned in Niagen Bioscience's results release of 2026-11-04)",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/0001386570/000138657026000057/ex991pressrelease-q32026.htm ; Europe PMC search for the Aging Cell paper (DOI 10.1111/acel.70638)",
+   "note": "The Business Wire address refused (403); the filed copy of the release, dated 2026-11-04, lists the Aging Cell paper as a third-quarter highlight. The paper itself was published 2026-08-01, so the finding is outside the window; only the company's mention is inside. Paper details confirmed: three studies pooled, five months of the supplement, lower age acceleration on three clocks, interval training moving one clock the other way, no control comparison described in the abstract."
+  },
+  {
+   "id": "S1150",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "A",
+   "story": "CRISPR Therapeutics, 2026-11-09: phase 1b data for CTX310 in 10 people with severe high triglycerides at the American Heart Association meeting (same story as S1064)",
+   "same_story_as": "S1064",
+   "source_opened": "https://www.stocktitan.net/news/CRSP/crispr-therapeutics-presents-phase-1b-data-for-ctx310-demonstrating-nao9svbtrtnw.html",
+   "note": "Confirmed in full: 10 participants, single infusion, mean falls of 65% in ANGPTL3 and 63% in triglycerides at day 30, no treatment-related serious harms, no liver-enzyme rises of concern. The release calls these the first data in a group made up only of people with severe high triglycerides, not the first results of CTX310 at all (earlier phase 1 data were published in 2025)."
+  },
+  {
+   "id": "S1074",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "B",
+   "story": "Intellia third-quarter 2026 release, 2026-11-05 (same release as S1049): MAGNITUDE-2 enrolment complete, heart trial enrolling, immune-gene results given to trial doctors",
+   "same_story_as": "S1049",
+   "source_opened": "https://finviz.com/news/416921/intellia-therapeutics-announces-third-quarter-2026-financial-results-and-business-updates",
+   "note": "Same release as S1049, read here on Finviz. Confirmed, with two details not in the release: it gives no size for the heart trial ('about 1,200 people' is not stated), and it gives no count beyond exceeding the target of 60. Finviz lists a separate company announcement of the enrolment milestone dated 2026-11-04, which I did not open."
+  },
+  {
+   "id": "S1163",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "C",
+   "story": "Marino and colleagues, Critical Pathways in Cardiology, 2026-11-02: pooled analysis of seven semaglutide trials (38,412 people), 17% lower risk of death from heart causes",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1097/hpc.0000000000000445&format=json&resultType=core",
+   "note": "Confirmed: seven placebo-controlled trials, 38,412 people, hazard ratio 0.83 (0.72 to 0.95), published online 2026-11-02. The abstract gives no separate figure for people without diabetes; it says only that the groups did not differ (p = 0.63). A pooling of trials already published, so it changes no expectation."
+  },
+  {
+   "id": "S1015",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry record NCT03588975 (Vericel trial of MACI in knees of 10 to 17 year olds) updated, posted 2026-11-03",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT03588975",
+   "note": "Confirmed: phase 3, recruiting, 45 planned, main results February 2030. The update was submitted 2026-10-30 and posted 2026-11-03; first posted 2018-07-17. A routine update, in children."
+  },
+  {
+   "id": "S1130",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "A",
+   "story": "FDA, 2026-11-09: all twelve approved GLP-1 drugs must add a label warning about a rare eye condition (non-arteritic anterior ischaemic optic neuropathy)",
+   "same_story_as": null,
+   "source_opened": "https://www.biospace.com/fda/fda-orders-class-wide-glp-1-label-update-to-include-potential-risk-for-rare-eye-disease",
+   "note": "Confirmed by the BioSpace report of 2026-11-09, which says the agency announced it that Monday: twelve drugs, cases reported for every marketed drug of the class, added to the warnings section, no limit on approved uses. The report gives the agency's own figures of 6.4 against 3.8 events per 100,000 patient-years. I read the news report, not the agency's own notice."
+  },
+  {
+   "id": "S1128",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Beam Therapeutics third-quarter 2026 release, 2026-11-03: dosing continues in the pivotal group of its in-body base editor trial for alpha-1 antitrypsin deficiency (BEAM-302), to finish in the first half of 2027",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/1745999/000119312526444454/beam-ex99_1.htm",
+   "note": "Confirmed: 'Enrollment and dosing continue in the global pivotal cohort', dosing to finish in the first half of 2027, and the group is designed to support a possible accelerated approval in the United States. A progress line in a quarterly release with no result and no decision; an inherited disease, not an age-related one."
+  },
+  {
+   "id": "S1117",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry record NCT07339111 (Medipost United States phase 3 trial of CARTISTEM, donated cord-blood stem cells, in knee cartilage lesions and osteoarthritis) updated, posted 2026-11-05",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07339111",
+   "note": "Confirmed: phase 3, recruiting, 300 planned, ages 18 to 75, started 2026-03-11, main results June 2029, first posted 2026-01-14, update submitted 2026-11-03 and posted 2026-11-05. The comparator is debridement (surgical cleaning of the joint) alone. What happened in the window is only a routine update; the trial itself, registered in January and started in March, is the more interesting fact and is not new this week. Donor cells, not the person's own."
+  },
+  {
+   "id": "S1112",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "C",
+   "story": "Drug and Therapeutics Bulletin (BMJ), 2026-11-06: article 'Semaglutide (Wegovy) for secondary cardiovascular prevention in adults with an elevated BMI'",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.1136/dtb.2026.000032",
+   "note": "Crossref confirms the title, the journal and publication on 2026-11-06 (authors Patterson and Mallarkey). No abstract available, so what it concludes is unknown. A drug review article."
+  },
+  {
+   "id": "S1147",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "C",
+   "story": "Kafka and colleagues, Herz, 2026-11-02: review 'Age: a modifiable risk factor for cardiovascular disease?' on ageing clocks as stand-in outcomes in trials",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1007/s00059-026-05398-2&format=json&resultType=core",
+   "note": "Confirmed: a review, online 2026-11-02. The abstract speaks of a first generation of trials in people testing calorie restriction, rapamycin, taurine, plasma exchange and diet against ageing clocks, and of heart-specific clocks as possible stand-in outcomes. Both claims describe the same review; no new data."
+  },
+  {
+   "id": "S1083",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Ding, Oura, Okamura and Wu, Cell Stem Cell, 2026-11-03: live mice from donor stem cells by epiblast complementation (same paper as S1066)",
+   "same_story_as": "S1066",
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.stem.2026.10.010&format=json&resultType=core",
+   "note": "Same paper as S1066, reached by its DOI. Confirmed, including the abstract's phrase that the older method 'has largely been limited to individual organs'. The abstract does not name the species of the donor cells in so many words, but it describes only mice and mentions no human cells."
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "records": [
+  {
+   "id": "a-human-organ-is-grown-inside-an-animal",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on the test. The registry and Europe PMC searches for human-pig chimeras and blastocyst complementation returned no relevant item, and the web searches found only the 2023 Guangzhou work already in the entry.",
+   "findings": [],
+   "dated_queries": ["clinicaltrials.gov: chimera OR blastocyst complementation, LastUpdatePostDate and StudyFirstPostDate 2026-11-02..2026-11-09 (only CAR-T hits, irrelevant)", "Europe PMC: (chimera* OR chimaeric) AND pig AND human AND (kidney OR organ OR embryo), FIRST_PDATE window (3 hits, none relevant)", "Europe PMC: blastocyst complementation AND organ (0 hits)"],
+   "web_queries": ["human-pig chimera embryo kidney organ grown in pig human cells study 2026"],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "No event in the window."
+  },
+  {
+   "id": "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface",
+   "verdict": "noted",
+   "found": "On 2026-11-05 Vericel (maker of MACI) published third-quarter results: MACI revenue $67.4 million, up 21%, and 'on track for a potential MACI launch in the U.K. in 2027'. The trial registry shows two Vericel MACI trials updated in the window (ankle, adult; knee, ages 10 to 17), both still recruiting; neither is a trial in worn older joints, so the wide-use test is not met.",
+   "findings": [
+    {"date": "2026-11-05", "what": "Vericel third-quarter 2026 results (8-K exhibit): MACI revenue up 21% to $67.4 million; potential U.K. launch in 2027; FDA decision on the ankle use still pending. No mention of osteoarthritis or older patients.", "url": "https://www.sec.gov/Archives/edgar/data/0000887359/000162828026070622/ex991earningsreleaseq32026.htm", "opened": true, "source_kind": "company-release", "direction": "neutral", "in_window": true, "in_records_already": false},
+    {"date": "2026-11-05", "what": "Registry record for the MACI ankle trial (NCT06915233, adults 17 to 65, versus bone marrow stimulation) updated; status recruiting, started 2026-05-28.", "url": "https://clinicaltrials.gov/study/NCT06915233", "opened": true, "source_kind": "registry", "direction": "neutral", "in_window": true, "in_records_already": false},
+    {"date": "2026-11-03", "what": "Registry record for the MACI knee trial in ages 10 to 17 (NCT03588975) updated; still recruiting.", "url": "https://clinicaltrials.gov/study/NCT03588975", "opened": true, "source_kind": "registry", "direction": "neutral", "in_window": true, "in_records_already": false}
+   ],
+   "dated_queries": ["clinicaltrials.gov: chondrocyte OR cartilage cell implantation, LastUpdatePostDate and StudyFirstPostDate window", "Europe PMC: autologous chondrocyte AND (knee OR cartilage), FIRST_PDATE window (5 hits, none a cell-implant trial)", "Europe PMC: knee osteoarthritis AND (autologous chondrocyte OR cell therapy) (1 hit, a review)"],
+   "web_queries": ["Vericel third quarter 2026 results MACI"],
+   "pages_opened": ["https://www.sec.gov/Archives/edgar/data/0000887359/000162828026070622/ex991earningsreleaseq32026.htm", "https://clinicaltrials.gov/api/v2/studies/NCT06915233", "https://clinicaltrials.gov/api/v2/studies/NCT03588975"],
+   "story_score": 1,
+   "story_why": "Routine company results; the possible U.K. launch in 2027 is a small step toward the 'several countries' part of the wide-use test."
+  },
+  {
+   "id": "an-old-animals-blood-stem-cells-are-rejuvenated",
+   "verdict": "noted",
+   "found": "On 2026-11-02 a preprint (Research Square, not peer reviewed) reported that quietening inflamed brain neurons in old mice restored lymphoid progenitors in bone marrow and improved the response to a flu vaccine. It targets the brain's control of marrow, not the age-biased blood stem cells themselves, so it does not meet the test as written.",
+   "findings": [
+    {"date": "2026-11-02", "what": "Preprint 'Targeting the inflamed paraventricular hypothalamic-bone marrow axis rejuvenates lymphopoiesis in aged mice'; abstract read through Europe PMC; not peer reviewed.", "url": "https://doi.org/10.21203/rs.3.rs-9350529/v1", "opened": true, "source_kind": "preprint", "direction": "neutral", "in_window": true, "in_records_already": false}
+   ],
+   "dated_queries": ["Europe PMC: hematopoietic stem cell AND (aged OR ageing OR aging) AND (antibody OR depletion OR rejuvenat*), FIRST_PDATE window (10 hits; one relevant preprint)", "clinicaltrials.gov: hematopoietic stem cell aging, both date fields (no relevant study)"],
+   "web_queries": ["rejuvenate aged blood stem cells mice immune system antibody study November 2026"],
+   "pages_opened": ["https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.21203/rs.3.rs-9350529/v1&resultType=core"],
+   "story_score": 0,
+   "story_why": "A preprint on a different route to a younger immune system; not a news story."
+  },
+  {
+   "id": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+   "verdict": "bears-on-estimate",
+   "found": "Vertex's third-quarter 2026 results (listed as 2026-11-02; the page itself carries no date line) say it has 'decided to focus on accelerating the development of VX-017', a second islet-cell treatment for type 1 diabetes, which 'has the potential to reach more patients than zimislecel', and that VX-017 moves into pivotal development in 2027. The release says nothing on a filing for zimislecel. The entry's clinic years (2030, 2032, 2046) rest on zimislecel being filed and approved, so a company turning its effort to a different product points to a later date; the careful reading is that it is against the current likely year, pending Vertex's promised updated timelines.",
+   "findings": [
+    {"date": "2026-11-02", "what": "Vertex third-quarter 2026 results: focus moved to VX-017 over zimislecel (zimislecel 'designed for patients with blood types A or A/B only'); VX-017 in a phase 1/2 trial with Fast Track status; pivotal development planned 2027; no zimislecel filing mentioned. Date taken from the search listing 'Vertex Reports Third Quarter 2026 Financial Results November 2, 2026'; the filed exhibit itself shows no date.", "url": "https://www.sec.gov/Archives/edgar/data/0000875320/000087532026000287/ex-991_q32026.htm", "opened": true, "source_kind": "company-release", "direction": "against", "in_window": true, "in_records_already": false},
+    {"date": "2026-11-03", "what": "Registry: two new or updated Chinese phase 1/2 trials of UX-DA003, a stem-cell-derived treatment for Parkinson's disease (NCT07911670 first posted; NCT07733349 updated 2026-11-04). Titles and status read from the registry listing only.", "url": "https://clinicaltrials.gov/study/NCT07911670", "opened": false, "source_kind": "registry", "direction": "neutral", "in_window": true, "in_records_already": false},
+    {"date": "2026-09-01", "what": "Registry record for the Vertex trial of VX-880 and VX-017 (NCT04786262) last updated 2026-09-01, recruiting, no results posted. Before the window; it shows VX-017 is already in the same trial.", "url": "https://clinicaltrials.gov/study/NCT04786262", "opened": true, "source_kind": "registry", "direction": "neutral", "in_window": false, "in_records_already": false},
+    {"date": "2026-10-28", "what": "Healio report on patient-reported outcomes in the 12 people given zimislecel (diabetes distress and fear of low blood sugar fell over the year). Before the window; secondary report only.", "url": "https://www.healio.com/news/endocrinology/20261028/islet-cell-therapy-reduces-diabetes-distress-fear-of-hypoglycemia-in-type-1-diabetes", "opened": false, "source_kind": "press", "direction": "for", "in_window": false, "in_records_already": false},
+    {"date": "undated", "what": "A Vertex investor slide deck found by search (undated) says global regulatory submissions for zimislecel began in the first half of 2026. This contradicts the entry ('No filing has been announced') and the Q3 text; I could not date or open it, so treat as unverified.", "url": "https://investors.vrtx.com/static-files/25a09e85-5615-46d3-8f28-7e5e75440a14", "opened": false, "source_kind": "company-release", "direction": "neutral", "in_window": false, "in_records_already": false}
+   ],
+   "dated_queries": ["clinicaltrials.gov: stem cell-derived islet OR VX-880 OR zimislecel, both date fields (0 hits)", "clinicaltrials.gov: hematopoietic stem cell aging OR dopaminergic progenitor Parkinson, both date fields (UX-DA003 trials)", "clinicaltrials.gov: NCT04786262 record opened", "Europe PMC: (islet) AND (stem cell-derived OR zimislecel OR VX-880), FIRST_PDATE window (5 hits, none a trial report)", "Europe PMC: stem cell AND islet AND type 1 diabetes AND transplant (6 hits, none relevant)", "web search limited to sec.gov, news.vrtx.com, investors.vrtx.com, businesswire.com: Vertex third quarter 2026 zimislecel"],
+   "web_queries": ["Vertex zimislecel type 1 diabetes update November 2026 third quarter results", "Vertex zimislecel VX-017 pivotal 2027 blood types third quarter 2026", "Vertex stem cell islet type 1 diabetes news November 2026"],
+   "pages_opened": ["https://www.sec.gov/Archives/edgar/data/0000875320/000087532026000287/ex-991_q32026.htm (opened twice)", "https://clinicaltrials.gov/api/v2/studies/NCT04786262"],
+   "story_score": 3,
+   "story_why": "A company setting aside, or at least sidelining, its lead cell treatment for type 1 diabetes in favour of a version for all blood types is the kind of result that counts against, and a reader following the entry would expect to be told. Caveat: I could not confirm the exact release date on the page or read the full paragraph, and one undated slide deck says filings began; the author should read the filed exhibit and the call transcript first."
+  },
+  {
+   "id": "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on the test. Registry and Europe PMC searches returned no heart-muscle graft trial or report; web searches found only the 2025 Nature paper and the 2026 New England Journal of Medicine trial report already in the entry.",
+   "findings": [],
+   "dated_queries": ["clinicaltrials.gov: pluripotent cardiomyocyte OR engineered heart muscle, both date fields (0 hits)", "Europe PMC: pluripotent AND cardiomyocyte AND (graft OR patch OR engineered heart), FIRST_PDATE window (6 hits, none a graft trial)", "Europe PMC: induced pluripotent OR embryonic stem cell AND cardiomyocyte AND (patch OR graft OR trial OR patients) (48 hits scanned by title, none relevant)", "web search limited to globenewswire, businesswire, prnewswire, sec.gov: stem cell-derived cardiomyocyte results/approval/hold"],
+   "web_queries": ["engineered heart muscle patch stem cell heart failure Repairon OR heart patch news November 2026"],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "No event in the window."
+  },
+  {
+   "id": "lab-grown-organ-works-in-a-person-for-a-year",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on the test. Searches for engineered bladder, windpipe, gullet or gut in people turned up only reviews and unrelated laboratory papers, and no company release or regulator action.",
+   "findings": [],
+   "dated_queries": ["clinicaltrials.gov: engineered organ OR bioengineered bladder OR tissue-engineered, both date fields (unrelated hits, e.g. NVD003 NCT07112443 updated 2026-11-09, a tissue-engineered implant for a congenital condition, not an organ under the test; status read from listing only)", "Europe PMC: (bioengineered OR tissue-engineered OR 3D-printed) AND (trachea OR windpipe OR bladder OR oesophagus OR esophagus) AND (patient OR clinical) (13 hits, none relevant)", "Europe PMC: tissue-engineered AND (bladder OR trachea OR oesophagus OR intestine OR organ) (49 hits scanned by title)"],
+   "web_queries": ["cell therapy approval OR clinical hold OR discontinued OR results November 2026 stem cell-derived cardiomyocyte OR chondrocyte OR bladder OR trachea (limited to wire services and sec.gov)"],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "No event in the window."
+  },
+  {
+   "id": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
+   "verdict": "noted",
+   "found": "The registry shows a new pig-kidney trial record, ChoironeX's 'GalKO Porcine Thymokidney' phase 1 study in end-stage kidney disease (NCT07696962, first posted 2026-07-10, updated 2026-11-02, recruiting, 4 participants planned, start estimated 2026-10). It is a further xenotransplant trial, not a new approval or a patient report, so it does not move the clinic rung. The entry also lacks two older facts: the FDA cleared a pig-heart trial from United Therapeutics on 2026-05-15, and a Lancet case report in September 2026 described a pig kidney bridging a patient to a human kidney.",
+   "findings": [
+    {"date": "2026-11-02", "what": "Registry record updated for the ChoironeX GalKO Porcine Thymokidney trial (Xeno Holdings (US), LLC dba ChoironeX); phase 1, recruiting, 4 participants estimated.", "url": "https://clinicaltrials.gov/study/NCT07696962", "opened": true, "source_kind": "registry", "direction": "for", "in_window": true, "in_records_already": false},
+    {"date": "2026-11-04", "what": "United Therapeutics third-quarter 2026 results (secondary summary only) list a 'GGTA1 KO Thymokidney' in phase 2 for kidney failure and name 'manufactured organ' projects as a cost; no xenotransplant patient news. Summary page, not the filed release.", "url": "https://www.biopharmawatch.com/news/UTHR/united-therapeutics-q3-2026-results", "opened": true, "source_kind": "press", "direction": "neutral", "in_window": true, "in_records_already": false},
+    {"date": "2026-05-15", "what": "United Therapeutics announced FDA clearance to proceed with its pig-heart xenotransplant trial (first up to two participants). Before the window; only the search-result summary was read.", "url": "https://www.businesswire.com/news/home/20260515765117/en/United-Therapeutics-Corporation-Announces-FDA-Clearance-to-Proceed-with-UHeart-Xenotransplantation-Clinical-Trial", "opened": false, "source_kind": "company-release", "direction": "for", "in_window": false, "in_records_already": false},
+    {"date": "2026-09-03", "what": "Reports of a Lancet paper on a pig kidney that kept a Massachusetts General patient off dialysis for 271 days before a human kidney was transplanted. Before the window; press summaries only.", "url": "https://www.news-medical.net/news/20260903/Pig-kidney-xenotransplantation-offers-a-bridge-for-patients-awaiting-human-donor-kidneys.aspx", "opened": false, "source_kind": "press", "direction": "neutral", "in_window": false, "in_records_already": false}
+   ],
+   "dated_queries": ["clinicaltrials.gov: xenotransplantation OR pig kidney OR pig heart OR gene-edited pig, LastUpdatePostDate (NCT07696962 found) and StudyFirstPostDate (none relevant)", "clinicaltrials.gov: NCT06878560 (EXPAND, recruiting, last update 2026-03-27, no results) and NCT07696962 opened", "Europe PMC: pig AND (kidney OR heart OR liver OR lung) AND xenotransplant*, FIRST_PDATE window (1 irrelevant hit)", "Europe PMC: xenotransplant* OR pig-to-human OR porcine kidney (705 hits, first 25 by title none a transplant report)", "web search limited to wire services and sec.gov: xenotransplantation results OR first patient OR trial update November 2026"],
+   "web_queries": ["pig kidney xenotransplant trial patient November 2026", "United Therapeutics third quarter 2026 financial results xenotransplantation", "United Therapeutics November 2026 pig kidney EXPAND trial ChoironeX thymokidney xenotransplant", "pig organ transplant news this week November 2026", "gene-edited pig kidney recipient news November 2026"],
+   "pages_opened": ["https://clinicaltrials.gov/api/v2/studies/NCT07696962", "https://clinicaltrials.gov/api/v2/studies/NCT06878560", "https://www.biopharmawatch.com/news/UTHR/united-therapeutics-q3-2026-results"],
+   "story_score": 1,
+   "story_why": "A second company's trial record is minor; the stronger point for the author is the older facts (pig-heart trial clearance in May 2026, September 2026 Lancet bridge case) the entry does not yet hold."
+  }
+ ],
+ "unmatched": [
+  {"date": "2026-11-04", "what": "United Therapeutics third-quarter 2026 results: an in-process research charge of about $130 million for the acquisition of Thymmune Therapeutics (a thymus-related company, per summary pages), and a new $2.0 billion share buyback. Secondary summaries only; the company's own release was not opened.", "url": "https://www.biopharmawatch.com/news/UTHR/united-therapeutics-q3-2026-results", "opened": true, "why_it_matters": "A large company buying a thymus-focused business bears on the thymus rejuvenation entry on the cell-settings branch, which was not in my packet."},
+  {"date": "2026-11-06", "what": "Nature Reviews Nephrology review 'An integrative roadmap for a new era of kidney replacement therapies'.", "url": "https://doi.org/10.1038/s41581-026-01146-1", "opened": false, "why_it_matters": "A review that may set out the field's own timeline for pig kidneys and engineered kidneys; not read."}
+ ]
+}
