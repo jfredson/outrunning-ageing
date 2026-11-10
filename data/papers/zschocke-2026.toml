@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "zschocke-2026"
+date = "2026-11-06"
+added_on = 2026-11-09
+authors = ["Juergen Zschocke", "Jonathan Vöglein", "Sascha Dichter", "Thomas Heisser", "Pia Maurer", "Martin Doerr", "Marion Scharf", "Jens Opalka", "Robert Perneczky", "Oezguer A. Onur"]
+title = "Donanemab bei früher symptomatischer Alzheimer-Krankheit: Zulassung und Zusatznutzenbewertung (AMNOG) im Spannungsfeld unterschiedlicher Evidenzanforderungen"
+venue = "Fortschritte der Neurologie · Psychiatrie (online 2026-11-06), DOI 10.1055/a-2989-2517"
+link = "https://doi.org/10.1055/a-2989-2517"
+finding = """
+An account of why Germany's bodies that judge a new drug's added benefit, whose finding informs its price, recognised no added benefit for donanemab, the second amyloid-clearing antibody, in either group of patients with early Alzheimer's disease, although the European regulator approved it for both. The German assessment asked for separate comparisons by stage of disease against the usual care.
+"""
+leaves = ["antibody-clears-amyloid-from-the-brain-and-slows-decline"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the English abstract in the Europe PMC literature database, with the date and authors confirmed in the Crossref record. The paper is in German and its full text was not read.
+"""

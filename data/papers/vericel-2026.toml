@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "vericel-2026"
+date = "2026-11-05"
+added_on = 2026-11-09
+authors = ["Vericel Corporation"]
+title = "Vericel Reports Third Quarter 2026 Financial Results and Raises Full-Year Financial Guidance"
+venue = "Company release, as filed with the United States Securities and Exchange Commission (2026-11-05)"
+link = "https://www.sec.gov/Archives/edgar/data/0000887359/000162828026070622/ex991earningsreleaseq32026.htm"
+finding = """
+The maker of the approved knee cartilage product grown from a person's own cells reports that its sales for July to September 2026 rose 21 per cent to 67.4 million dollars, with record numbers of surgeons using it, and that it remains on track for a possible launch in the United Kingdom in 2027. The release says nothing about worn joints in older people.
+"""
+leaves = ["a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface"]
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the copy filed with the United States securities regulator.
+"""

@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "chen-2026"
+date = "2026-11-04"
+added_on = 2026-11-09
+authors = ["Christopher Li-Hsian Chen", "Nagaendran Kandiah", "Sumeet Kumar", "Kim En Lee", "Tan Ming Liew", "Adeline Su Lyn Ng", "Kok Pin Ng", "Laura Bee Gek Tay", "Simon Kang Seng Ting"]
+title = "Lecanemab in Singapore: Appropriate use recommendations for early Alzheimer's disease"
+venue = "Annals of the Academy of Medicine, Singapore 55 (online 2026-11-04), DOI 10.47102/annals-acadmedsg.2026185"
+link = "https://doi.org/10.47102/annals-acadmedsg.2026185"
+finding = """
+National recommendations for Singapore's doctors on which patients with early Alzheimer's disease should be given lecanemab, the first of the amyloid-clearing antibodies, and how they should be watched with brain scans and gene tests. The paper states that the antibody is approved in Singapore. It gives no figure for how many people there receive it.
+"""
+leaves = ["antibody-clears-amyloid-from-the-brain-and-slows-decline"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the abstract in the Europe PMC literature database, with the date and authors confirmed in the Crossref record.
+"""

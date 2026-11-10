@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "nhlbi-2026"
+date = "2026-10-27"
+added_on = 2026-11-09
+authors = ["National Heart, Lung, and Blood Institute (NHLBI)"]
+title = "Low-Dose Danazol for the Treatment of Telomere Related Diseases"
+venue = "ClinicalTrials.gov, NCT03312400 (results first posted 2026-10-27)"
+link = "https://clinicaltrials.gov/study/NCT03312400"
+finding = """
+The registry entry shows the trial terminated, "stopped due to poor accrual", after 18 people, with results posted on 2026-10-27. The main measure was how many people's telomeres were shortening more slowly after six months: 5 of 8 on the lower dose and 5 of 10 on the higher, with no difference between the doses (P = 0.664) and no untreated group. That is slower shortening, not lengthening.
+"""
+leaves = ["a-drug-lengthens-chromosome-ends-in-a-person"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the registry entry, read through the registry's data interface.
+"""

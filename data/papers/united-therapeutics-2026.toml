@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "united-therapeutics-2026"
+date = "2026-11-04"
+added_on = 2026-11-09
+authors = ["United Therapeutics Corporation"]
+title = "Quarterly report for the quarter ended 30 September 2026"
+venue = "Form 10-Q, filed with the United States Securities and Exchange Commission (2026-11-04)"
+link = "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000035/uthr-20260930.htm"
+finding = """
+The company reports that the first transplant in its first pig kidney trial took place in the last quarter of 2025 and the trial continues; that the United States regulator cleared a second kidney trial, of a kidney transplanted with the pig's thymus tissue, in August 2025; and that in May 2026 the regulator cleared a first trial of its pig heart, to begin with up to two adults with advanced heart failure.
+"""
+leaves = ["organ-from-a-gene-edited-pig-keeps-a-person-alive"]
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the report as filed with the United States securities regulator.
+"""

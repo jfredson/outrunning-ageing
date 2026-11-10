@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "intellia-2026-q3"
+date = "2026-11-05"
+added_on = 2026-11-09
+authors = ["Intellia Therapeutics, Inc."]
+title = "Intellia Therapeutics Announces Third Quarter 2026 Financial Results and Business Updates"
+venue = "Company release, as filed with the United States Securities and Exchange Commission (2026-11-05)"
+link = "https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm"
+finding = """
+The company says that during the third quarter it finished enrolling its phase 3 trial of a one-time gene edit in the liver for the nerve form of transthyretin amyloidosis, past its target of 60 people, and that the larger trial in the heart form is still enrolling. It also says that in September the United States regulator accepted its licence application for a different in-body gene editor, for hereditary angioedema, with priority review and a decision date of 2027-03-10.
+"""
+leaves = ["a-gene-is-edited-inside-a-persons-body"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the copy filed with the United States securities regulator. The registry entry for the nerve trial, updated 2026-11-05, shows 67 people enrolled and main results expected in July 2027.
+"""

@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "sumitomo-pharma-2026"
+date = "2026-03-06"
+added_on = 2026-11-09
+authors = ["Sumitomo Pharma Co., Ltd.", "RACTHERA Co., Ltd."]
+title = "Announcement of conditional and time-limited approval in Japan for the iPS cell-derived dopaminergic neural progenitor cell product AMCHEPRY (raguneprocel)"
+venue = "Company announcement (2026-03-06)"
+link = "https://www.sumitomo-pharma.com/news/20260306.html"
+finding = """
+The companies announce that on 2026-03-06 Japan granted conditional and time-limited approval to make and sell dopamine-making nerve cells grown from reprogrammed donor cells, to improve movement in people with Parkinson's disease who do not respond well enough to existing drugs. The approval rests on a study run by Kyoto University Hospital, and the company must run a further study after launch. The Japanese regulator's list of review reports shows the product as approved in March 2026.
+"""
+leaves = ["cells-grown-from-stem-cells-restore-a-lost-organ-function"]
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the company's own page; the regulator's list of review reports was opened and shows the product, but the review report itself was not read. The title is a short description of the announcement, not its exact heading.
+"""

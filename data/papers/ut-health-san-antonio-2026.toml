@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "ut-health-san-antonio-2026"
+date = "2026-11-06"
+added_on = 2026-11-09
+authors = ["The University of Texas Health Science Center at San Antonio"]
+title = "Validation & Intervention Testing for Aging, Longevity and Healthspan (VITAL-H)"
+venue = "ClinicalTrials.gov, NCT07923630 (first posted 2026-11-06)"
+link = "https://clinicaltrials.gov/study/NCT07923630"
+finding = """
+A registry entry for a phase 2, placebo-controlled trial of two approved drugs, dapagliflozin and semaglutide taken as a tablet, in 1,200 adults, with the United States Department of Health and Human Services named as collaborator. The conditions named are "Aging" and "Functional Decline", and the main measure is a score of physical performance (balance, walking speed and rising from a chair). It is not yet recruiting: the start is estimated for January 2027 and the main result for December 2030. No result exists.
+"""
+leaves = ["a-drug-adds-healthy-years-to-a-life", "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat", "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked"]
+branches = ["energy-and-fuel", "measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the registry entry, read through the registry's data interface. The university's announcement of 2026-03-04 described three drugs including rapamycin and 726 people; the registered design has two drugs and 1,200 people.
+"""

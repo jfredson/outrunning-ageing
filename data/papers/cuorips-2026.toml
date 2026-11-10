@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "cuorips-2026"
+date = "2026-03-06"
+added_on = 2026-11-09
+authors = ["Cuorips Inc."]
+title = "World's First iPSC-Derived Cardiomyocyte Therapy for Heart Failure Receives Conditional Approval in Japan"
+venue = "Company release (2026-03-06)"
+link = "https://cuorips.co.jp/news-en/20260306"
+finding = """
+The company announces that Japan's Ministry of Health, Labour and Welfare granted conditional and time-limited marketing approval for its sheets of heart muscle cells grown from reprogrammed donor cells, for people with severe heart failure after heart attacks. A second notice from the company, dated 2026-10-01, says the product came under public health insurance on 2026-09-01 and was first used under that cover on 2026-09-29 at a hospital in Osaka. The Japanese regulator's list of review reports shows the product as approved in March 2026.
+"""
+leaves = ["heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart"]
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the company's own two notices; the regulator's list of review reports was opened and shows the product, but the review report itself was not read.
+"""

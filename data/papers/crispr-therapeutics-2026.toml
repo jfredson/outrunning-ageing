@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "crispr-therapeutics-2026"
+date = "2026-11-02"
+added_on = 2026-11-09
+authors = ["CRISPR Therapeutics"]
+title = "CRISPR Therapeutics third quarter 2026 financial results and business update"
+venue = "Company release, as filed with the United States Securities and Exchange Commission (2026-11-02)"
+link = "https://www.sec.gov/Archives/edgar/data/1674416/000119312526443644/crsp-ex99_1.htm"
+finding = """
+The company says the United States regulator has granted its in-body gene editor CTX310, which switches off a liver gene that raises blood fats, two Regenerative Medicine Advanced Therapy designations: for severe high triglycerides and for raised LDL cholesterol. The designations bring early meetings with the regulator and possible priority review; they are not an approval, and the editor is still in its first trial.
+"""
+leaves = ["a-gene-is-edited-inside-a-persons-body"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the copy filed with the United States securities regulator. The title is a short description of the release, not its exact heading.
+"""

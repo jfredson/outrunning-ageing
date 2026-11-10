@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "kuboi-2024"
+date = "2024-08-02"
+added_on = 2026-11-09
+authors = ["Tatsuya Kuboi", "Roy S. Chuck", "Roberto Pineda", "Rajiv Bhushan", "Amit Goswamy", "Randall J. Olson"]
+title = "Subgroup Analysis from a Phase 1/2 Randomized Clinical Trial of 2.6% EDTA Ophthalmic Solution in Patients with Age-Related Cataract"
+venue = "American Journal of Ophthalmology 268, 155-164 (2024)"
+link = "https://doi.org/10.1016/j.ajo.2024.07.038"
+finding = """
+A subgroup analysis of a randomised, double-blinded, placebo-controlled early-stage trial of an eye drop, called C-KAD, in people with early age-related cataract. In 41 eyes whose contrast vision was already reduced, it reports better contrast vision than placebo, with lens density analysed in a smaller group. The drop is a different one from the lanosterol drop, and the university's news page says three of the authors are employees of the company that makes it.
+"""
+leaves = ["eye-drops-dissolve-the-clouded-protein-of-a-cataract"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the abstract in the Europe PMC literature database, dated there 2024-08-02, with the journal details confirmed in the Crossref record. The paper's own page was not opened, so the figures in the full paper are unread.
+"""

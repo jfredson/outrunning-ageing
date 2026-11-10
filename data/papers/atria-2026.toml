@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "atria-2026"
+date = "2026-10-30"
+added_on = 2026-11-09
+authors = ["Atria Research and Global Health Institute (ARGHI)"]
+title = "Tirzepatide and Organ-Specific Biological Aging: A Parallel-Design Feasibility Study Using Proteomic Organ Clocks in a Preventive Brain Health Cohort"
+venue = "ClinicalTrials.gov, NCT07906041 (first posted 2026-10-30, updated 2026-11-02)"
+link = "https://clinicaltrials.gov/study/NCT07906041"
+finding = """
+A registry entry for a study of the weight-loss and diabetes drug tirzepatide in an estimated 22 people, whose main measure is the change after six months in a brain age read from blood proteins. A company that sells organ-age tests is named as collaborator. It is enrolling by invitation and has no result.
+"""
+leaves = ["an-age-for-each-organ-is-read-from-blood-proteins", "a-persons-biological-age-reading-falls-after-treatment"]
+branches = ["cell-settings", "measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the registry entry, read through the registry's data interface.
+"""

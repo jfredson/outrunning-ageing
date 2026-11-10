@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "university-of-arizona-2026"
+date = "2026-03-31"
+added_on = 2026-11-09
+authors = ["University of Arizona Foundation"]
+title = "U of A launches rapamycin clinical trial with philanthropic support of alumnus Ken Coit"
+venue = "University of Arizona announcement (2026-03-31)"
+link = "https://giving.arizona.edu/news/u-launches-rapamycin-clinical-trial-philanthropic-support-alumnus-ken-coit"
+finding = """
+The university says its researchers will begin a double-blind, randomised phase 3 trial of low-dose rapamycin in people of 65 and over, paid for by a gift of 12 million dollars, to measure whether it maintains or improves physical and immune function. Participants take the drug or a placebo for two years with a further year of follow-up; the trial awaited final approval from the United States regulator and is expected to take six years.
+"""
+leaves = ["rapamycin-improves-an-age-related-measure-in-older-people"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the university's own page. No entry for the trial was found on the trial registry.
+"""

@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "shanghai-east-hospital-2023"
+date = "2023-05-01"
+added_on = 2026-11-09
+authors = ["Shanghai East Hospital"]
+title = "Myocardial Telomere Recapping Study for Dilated Cardiomyopathy"
+venue = "ClinicalTrials.gov, NCT05837143 (first posted 2023-05-01, last updated 2024-07-16)"
+link = "https://clinicaltrials.gov/study/NCT05837143"
+finding = """
+A registry entry for an early study in which 12 people with heart failure were to receive a gene therapy carrying a modified telomerase gene, with a company as collaborator. Its main measures are safety. The registry now shows its status as unknown, and no results are posted.
+"""
+leaves = ["gene-therapy-lengthens-chromosome-ends-in-an-old-animal"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the registry entry, read through the registry's data interface. A 2026 paper from the same group describes the modified gene as protecting chromosome ends while lacking the activity that lengthens them.
+"""

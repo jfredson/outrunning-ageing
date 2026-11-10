@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "morbach-2026"
+date = "2026-11-02"
+added_on = 2026-11-09
+authors = ["Caroline Morbach", "Christoph Ohlmeier", "Teresa Trenkwalder", "Fabian aus dem Siepen", "Silvia Kruppert", "Gereon Keuken", "Thomas Evers", "Roman Pfister", "Stefan Herrmann", "Stefan Störk"]
+title = "Early real-world use of acoramidis for transthyretin amyloid cardiomyopathy in Germany: results from StarTTR"
+venue = "Clinical Research in Cardiology (online 2026-11-02), DOI 10.1007/s00392-026-03023-0"
+link = "https://doi.org/10.1007/s00392-026-03023-0"
+finding = """
+From a database covering 82 per cent of reimbursed prescriptions in Germany, the authors found 289 people dispensed acoramidis, the second protein-steadying drug for this heart disease, between April and September 2025. Their median age was 82, 15 per cent were women and 86 per cent had not had such a treatment before; most were started in hospital outpatient departments.
+"""
+leaves = ["drug-stops-a-misfolded-protein-piling-up-in-the-heart"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the abstract in the Europe PMC literature database, with the date and authors confirmed in the Crossref record.
+"""

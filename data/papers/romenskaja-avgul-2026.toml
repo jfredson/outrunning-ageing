@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "romenskaja-avgul-2026"
+date = "2026-11-04"
+added_on = 2026-11-09
+authors = ["Diana Romenskaja-Avgul", "Deimantė Stakelytė", "Audrius Laurynėnas", "Eimantas Ramonas", "Rūta Zabitaitė", "Simona Cibulskė", "Sigita Danilevičienė", "Rapolas Danilevičius", "Kristina Ratautė", "Marius Dagys", "Dalius Ratautas"]
+title = "Whole-blood NAD levels track cardiovascular disease but not chronological age"
+venue = "Nature Metabolism (online 2026-11-04), DOI 10.1038/s42255-026-01660-3"
+link = "https://doi.org/10.1038/s42255-026-01660-3"
+finding = """
+From 1,340 measurements in 1,068 adults, the authors found that the amount of NAD in whole blood does not fall with age in healthy people: it stays level in men and rises in women. It was lower in people with cardiovascular disease and high blood pressure. The authors say the study was not designed to show cause and gives no direct evidence that raising NAD would treat those diseases.
+"""
+leaves = ["an-nad-raising-supplement-improves-a-function-in-a-controlled-trial"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the abstract in the Europe PMC literature database, with the date and authors confirmed in the Crossref record.
+"""

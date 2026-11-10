@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "fda-2026"
+date = "2026-11-09"
+added_on = 2026-11-09
+authors = ["United States Food and Drug Administration"]
+title = "FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) Due to Potential Increased Risk of Rare But Serious Eye Condition"
+venue = "FDA Drug Safety Communication (2026-11-09)"
+link = "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential"
+finding = """
+The United States regulator requires the labels of the drugs of the weight-loss and diabetes family to warn of a possible raised risk of a rare, sudden loss of sight in one eye. Its pooling of 126 randomised trials in 134,253 people found 15 probable cases, 10 on these drugs and 5 on placebo: 6.4 against 3.8 cases for every 100,000 people treated for a year.
+"""
+leaves = ["a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the regulator's own page.
+"""

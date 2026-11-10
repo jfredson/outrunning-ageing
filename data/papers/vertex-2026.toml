@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "vertex-2026"
+date = "2026-11-02"
+added_on = 2026-11-09
+authors = ["Vertex Pharmaceuticals"]
+title = "Vertex Reports Third Quarter 2026 Financial Results"
+venue = "Company release, as filed with the United States Securities and Exchange Commission (2026-11-02)"
+link = "https://www.sec.gov/Archives/edgar/data/875320/000087532026000287/ex-991_q32026.htm"
+finding = """
+The company says it "has decided to focus on accelerating the development of" a second version of its insulin-making cells grown from stem cells, meant for people of any blood type and now in an early trial, which it expects to take into a late-stage trial in 2027. It describes its first version, zimislecel, as designed for people with blood types A or AB only, and gives no date for filing it for approval.
+"""
+leaves = ["cells-grown-from-stem-cells-restore-a-lost-organ-function"]
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the copy filed with the United States securities regulator. The title is as the release is usually headed; the filed exhibit was read for the passage on the cell therapy.
+"""

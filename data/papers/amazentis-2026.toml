@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "amazentis-2026"
+date = "2026-11-09"
+added_on = 2026-11-09
+authors = ["Amazentis SA"]
+title = "Bioavailability of Two Mitopure Formulations"
+venue = "ClinicalTrials.gov, NCT07925853 (first posted 2026-11-09)"
+link = "https://clinicaltrials.gov/study/NCT07925853"
+finding = """
+A registry entry from the maker of the supplement urolithin A for a study in an estimated 24 healthy adults of how two forms of it are taken up into the blood. It is not yet recruiting and measures no function of ageing.
+"""
+leaves = ["drug-boosts-the-cells-recycling-of-worn-parts", "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people"]
+branches = ["broken-proteins", "energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the registry entry, read through the registry's data interface.
+"""

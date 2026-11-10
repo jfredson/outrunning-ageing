@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "mizoguchi-2026"
+date = "2026-11-06"
+added_on = 2026-11-09
+authors = ["Taiji Mizoguchi", "Jamie E. DeNizio", "Alexandra C. Chadwick", "Anne Marie Mazzola", "Maxwell P. Brown", "Shashank Mishra", "Manashree Damle", "Yuri Matsumoto", "Victoria Neang", "Ryan Garrity", "Manini Mantri", "Joy Oshoname Olorife", "and 27 more"]
+title = "In Vivo CRISPR Base Editing of ANGPTL3 for Durable Lipid Lowering"
+venue = "Nature (online 2026-11-06), DOI 10.1038/s41586-026-11233-9"
+link = "https://doi.org/10.1038/s41586-026-11233-9"
+finding = """
+The authors describe a single infusion that changes one letter of a liver gene, ANGPTL3, which raises LDL cholesterol and triglycerides. In monkeys it was well tolerated and cut the protein the gene makes by more than 90 per cent on average, with the effect lasting; in human liver cells no editing was found at about 3,000 other candidate sites. It is animal and cell work, not a trial in people.
+"""
+leaves = ["a-gene-is-edited-inside-a-persons-body"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the abstract in the Europe PMC literature database, with the date and authors confirmed in the Crossref record.
+"""

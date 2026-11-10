@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "kuehnemann-2026"
+date = "2026-11-02"
+added_on = 2026-11-09
+authors = ["Chisaka Kuehnemann", "Samantha T. Jezak", "Bronwyn A. Mogck", "Niharika Kura", "Rushmeen Tariq", "Yuheng Che", "Maija Vaittinen", "Ioannis Siokas", "Sharvari Deshpande", "Carlyn Guthrie", "Xuejuan Tan", "Eliezer Aimontche", "and 21 more"]
+title = "Fatty acid desaturation controls cellular fate decisions between senescence and ferroptosis"
+venue = "Cell (online 2026-11-02), DOI 10.1016/j.cell.2026.09.036"
+link = "https://doi.org/10.1016/j.cell.2026.09.036"
+finding = """
+The authors report that aged cells run low on one fatty acid, and that giving it back makes them die. Fed to old mice, it lowered the markers of aged cells and improved measures of function. The abstract reports no effect on length of life.
+"""
+leaves = ["clearing-aged-cells-makes-old-animals-live-longer"]
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the abstract in the Europe PMC literature database, with the date and authors confirmed in the Crossref record.
+"""

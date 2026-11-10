@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "fudan-university-2026"
+date = "2026-11-06"
+added_on = 2026-11-09
+authors = ["Fudan University"]
+title = "Effectiveness and Safety of Disease-Modifying Therapy for Alzheimer's Disease: A Multicenter Retrospective Study"
+venue = "ClinicalTrials.gov, NCT07923812 (first posted 2026-11-06)"
+link = "https://clinicaltrials.gov/study/NCT07923812"
+finding = """
+A registry entry for a look back at the records of an estimated 3,000 people with Alzheimer's disease given disease-modifying treatment in ordinary care in China, measuring safety and how well the treatment worked. It began on 2026-10-26 and is due to finish its main part in June 2027. No result exists.
+"""
+leaves = ["antibody-clears-amyloid-from-the-brain-and-slows-decline"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the registry entry, read through the registry's data interface.
+"""

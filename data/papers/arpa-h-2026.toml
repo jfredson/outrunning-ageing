@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "arpa-h-2026"
+date = "2026-05-18"
+added_on = 2026-11-09
+authors = ["ARPA-H Convened Working Group"]
+title = "Intrinsic Capacity Framework for Geroscience and Healthspan Trials: A Consensus"
+venue = "Consensus statement to the United States Food and Drug Administration, published by the Advanced Research Projects Agency for Health (2026-05-18)"
+link = "https://arpa-h.gov/sites/default/files/2026-05/Consensus%20Statement%20to%20the%20FDA.pdf"
+finding = """
+A working group convened by the United States health research agency gives the regulator its agreed recommendations on measuring a person's physical and mental capacity in five parts and using it as an outcome in trials of treatments for ageing. The document says it "does not claim" that the measure is a validated stand-in for death or disability, or that a single combined score is ready to be the main measure for approving a drug.
+"""
+leaves = ["a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the document on the agency's own site; its opening pages were read, not all 46.
+"""

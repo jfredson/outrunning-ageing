@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "roche-2026"
+date = "2026-11-05"
+added_on = 2026-11-09
+authors = ["Hoffmann-La Roche"]
+title = "A Clinical Study Testing Enicepatide in Participants Living With Overweight or Obesity and Cardiovascular Disease"
+venue = "ClinicalTrials.gov, NCT07918846 (first posted 2026-11-05)"
+link = "https://clinicaltrials.gov/study/NCT07918846"
+finding = """
+A registry entry for a phase 3, placebo-controlled trial of enicepatide, a newer drug of the weight-loss family, in an estimated 8,200 people with excess weight and cardiovascular disease. Its main measure is the time to a first major heart or circulation event. It is due to start in January 2027 and reach its main result in March 2031.
+"""
+leaves = ["a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the registry entry, read through the registry's data interface.
+"""

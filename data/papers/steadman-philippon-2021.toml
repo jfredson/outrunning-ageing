@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "steadman-philippon-2021"
+date = "2021-03-25"
+added_on = 2026-11-09
+authors = ["Steadman Philippon Research Institute"]
+title = "The Use of Senolytic and Anti-Fibrotic Agents to Improve the Beneficial Effect of Bone Marrow Stem Cells for Osteoarthritis"
+venue = "ClinicalTrials.gov, NCT04815902 (first posted 2021-03-25, last updated 2024-04-16)"
+link = "https://clinicaltrials.gov/study/NCT04815902"
+finding = """
+A registry entry for a placebo-controlled trial in knee osteoarthritis, planned for 100 people, that gives fisetin or losartan alongside a person's own bone marrow cells. Its main measure is safety. It started on 2021-05-18; the registry now shows its status as unknown, and no results are posted.
+"""
+leaves = ["aged-cell-clearing-drug-relieves-knee-arthritis"]
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the registry entry, read through the registry's data interface.
+"""

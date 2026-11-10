@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "niagen-bioscience-2026"
+date = "2026-11-04"
+added_on = 2026-11-09
+authors = ["Niagen Bioscience, Inc."]
+title = "Niagen Bioscience third quarter 2026 financial results"
+venue = "Company release, as filed with the United States Securities and Exchange Commission (2026-11-04)"
+link = "https://www.sec.gov/Archives/edgar/data/1386570/000138657026000057/ex991pressrelease-q32026.htm"
+finding = """
+The largest seller of the supplement nicotinamide riboside says it has signed an agreement with the Mass General Brigham hospital group to begin planning what it calls the largest trial of its supplement so far, and that it is advancing an experimental drug of its own aimed at rare genetic diseases and disorders of ageing. The release names no condition, size or date for either.
+"""
+leaves = ["an-nad-raising-supplement-improves-a-function-in-a-controlled-trial"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the copy filed with the United States securities regulator. The title is a short description of the release, not its exact heading.
+"""

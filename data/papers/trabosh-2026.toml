@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "trabosh-2026"
+date = "2026-07-14"
+added_on = 2026-11-09
+authors = ["Trabosh N", "Smith J", "Hsu MY", "Panja S", "Nagaraj R", "Olsson N", "McAllister FE", "Cravens A"]
+title = "Reversal of protein chemical aging by enzymatic deglycation"
+venue = "Nature Communications 17, 5926 (2026)"
+link = "https://doi.org/10.1038/s41467-026-75141-2"
+finding = """
+The authors report an engineered enzyme that undoes one kind of sugar damage to proteins, called CML, restoring the protein's original building block. It worked on model proteins in a dish and in tissue samples from elderly donors. The damage it reverses is a single-protein modification, not a cross-link between proteins, and the work was not done in a living animal or a person.
+"""
+leaves = ["drug-breaks-the-sugar-cross-links-that-stiffen-old-tissue"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the abstract in the Europe PMC literature database. The journal's own page did not load for the final check, so the full paper is unread.
+"""

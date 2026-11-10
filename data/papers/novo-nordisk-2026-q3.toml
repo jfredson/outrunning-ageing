@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "novo-nordisk-2026-q3"
+date = "2026-11-04"
+added_on = 2026-11-09
+authors = ["Novo Nordisk A/S"]
+title = "Financial report for the period 1 January 2026 to 30 September 2026"
+venue = "Company announcement, as filed with the United States Securities and Exchange Commission (2026-11-04)"
+link = "https://www.sec.gov/Archives/edgar/data/353278/000162828026069805/caq32026.htm"
+finding = """
+The company reports that the phase 3 trials ZEUS and HERMES of ziltivekimab "did not meet the primary endpoint", that it stopped study treatment and closed HERMES, in heart failure, on its data monitoring committee's recommendation, and that it took an impairment charge of 4.6 billion Danish kroner on the drug. It also says it provides treatment to 5.6 million people living with obesity and that Wegovy has been launched in around 70 countries.
+"""
+leaves = ["an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks", "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"]
+branches = ["energy-and-fuel", "inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the copy filed with the United States securities regulator. A company's own account of its trials and sales, not a peer-reviewed report.
+"""

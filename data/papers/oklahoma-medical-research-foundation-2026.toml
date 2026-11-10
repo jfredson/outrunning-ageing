@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "oklahoma-medical-research-foundation-2026"
+date = "2026-07-02"
+added_on = 2026-11-09
+authors = ["Oklahoma Medical Research Foundation"]
+title = "Antecedent Metabolic Health and Metformin Aging Study"
+venue = "ClinicalTrials.gov, NCT04264897 (results first posted 2026-07-02, entry updated 2026-11-05)"
+link = "https://clinicaltrials.gov/study/NCT04264897"
+finding = """
+A completed placebo-controlled trial of metformin in 166 people free of chronic disease, with the National Institute on Aging among its collaborators. The results posted on the registry show no significant effect of metformin on either main measure, insulin sensitivity (P = 0.576 and 0.488 in the two groups of participants) or the working of the muscle's mitochondria (P = 0.88 and 0.932). It measured short-term biology, not time to disease, and no peer-reviewed report of it was found.
+"""
+leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the registry entry, read through the registry's data interface.
+"""

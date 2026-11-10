@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the second weekly reading of 2026-11-09.
+
+id = "immorta-bio-2026"
+date = "2026-11-02"
+added_on = 2026-11-09
+authors = ["Immorta Bio, Inc."]
+title = "First Human Administration of Senolytic Immunotherapy to Fight Cellular Aging Announced by Immorta Bio"
+venue = "Company release on PR Newswire (2026-11-02)"
+link = "https://www.prnewswire.com/news-releases/first-human-administration-of-senolytic-immunotherapy-to-fight-cellular-aging-announced-by-immorta-bio-302926449.html"
+finding = """
+The company announces that a first person has been given its treatment meant to prompt the immune system to find and remove aged cells. The release gives no trial registry number and no measurement of aged cells, and the treatment is not made of engineered immune cells.
+"""
+leaves = ["immune-cells-engineered-to-kill-aged-cells"]
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 (its second run that day) from the release on the wire service's own page. A company's claim with no registry entry or paper behind it.
+"""
