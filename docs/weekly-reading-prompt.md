@@ -38,3 +38,16 @@ At claude.ai/code/routines, open "Outrunning Ageing weekly reading": the toggle 
 ## The routine's model (set 2026-11-09)
 
 The routine's model field was empty until 2026-11-09, and the readings ran on Sonnet 5.5. After the comparison in `docs/readings/model-comparison-2026-11-09.md` John ruled "All Fable 5.2", and the field was set to `claude-fable-5-2` the same day. The prompt above was not changed. The helpers take the main session's model, and their briefs are the fixed files in `docs/reading-briefs/` (`docs/weekly-reading.md`, step 1a part E).
+
+## The sweep's own routine (created 2026-11-09)
+
+John ruled "Split into two runs" on 2026-11-09, after the reading of that day ran out of the search tool's allowance. A second routine, "Outrunning Ageing weekly sweep", runs Sundays at 05:00 Pacific on the same environment, tools, connector and model, and follows `docs/weekly-sweep.md`. Its prompt:
+
+> You are running Outrunning Ageing's weekly sweep of the field's news, for John Fredrickson. Do this without asking questions:
+>
+> 1. The repository jfredson/outrunning-ageing is cloned in the workspace; cd into it, then run `git fetch origin && git checkout -B main origin/main` before anything else (the clone lands on a session branch and may be behind).
+> 2. Read docs/weekly-sweep.md and follow its procedure exactly, top to bottom. It tells you what to read, the one file you may write, and how to publish it with the one publish command.
+> 3. If the push to main is refused, the publish command parks the commit on a branch named claude/sweep-YYYY-MM-DD and says so; report the branch name and do not retry or look for another route.
+> 4. Finish with the report the procedure specifies: a short numbered list. No prose beyond that.
+>
+> Get the date in John's time zone first (`TZ=America/Los_Angeles date +%F`); all dates you write are absolute, year-month-day. Plain language throughout, UK spelling, and never a bare id.
