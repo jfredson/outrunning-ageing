@@ -1,0 +1,298 @@
+{
+ "records": [
+  {
+   "id": "a-human-organ-is-grown-inside-an-animal",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 shows an animal born with a working organ made mostly of human cells. The only nearby paper is a mouse study (published 2026-11-03) in which donor stem cells replace the host's whole early embryo layer; it concerns mice and no organ.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Cell Stem Cell paper on epiblast complementation: donor stem cells replace the host epiblast and give live mouse offspring. Mice only, no organ, no human cells.",
+     "url": "https://doi.org/10.1016/j.stem.2026.10.010",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC: interspecies chimera human pig organ (0 hits); chimera AND human AND pig AND organ (0); blastocyst complementation (4 hits)",
+    "ClinicalTrials.gov: human pig chimera (0)"
+   ],
+   "web_queries": [
+    "human-pig chimera organ grown in pig embryo kidney study 2026 (returned only the 2023 Guangzhou story)"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search (core record 42976859)"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing that moves the question."
+  },
+  {
+   "id": "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface",
+   "kind": "treatment",
+   "verdict": "noted",
+   "found": "Two registry entries for ongoing trials were updated in the window: the maker's phase 3 of MACI against bone marrow stimulation in ankle defects (updated 2026-11-05), and a phase 3 of CARTISTEM (donor cord-blood stem cells, not the person's own cells) against debridement in knee cartilage damage and osteoarthritis (updated 2026-11-05). Neither is a trial result, and neither is own-cell treatment of worn older knees; small papers on grown-cell repair in middle-aged (50 to 65) patients appeared but do not meet the wide-use test.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Registry update to MACI phase 3 in ankle (talus) defects, ages 17 to 65, 309 planned, started 2026-05-28, primary completion 2030-07. Ankle, not knee osteoarthritis.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06915233",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Registry update to CARTISTEM phase 3 versus debridement for knee cartilage lesions and osteoarthritis, ages 18 to 75, 300 planned, started 2026-03-11. The cells are donor umbilical-cord-blood stem cells, so it does not match 'a person's own cells', but it is the first phase 3 of a cell product in knee osteoarthritis the record's registry check did not list.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07339111",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-27",
+     "what": "Cartilage journal: 12 patients aged 50 to 65, grown-cell implant with knee osteotomy, better repair scores at second-look arthroscopy than osteotomy alone; patient-reported outcomes did not differ between groups. Small, non-randomised.",
+     "url": "https://doi.org/10.1177/19476035261501621",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "ClinicalTrials.gov: autologous chondrocyte; cartilage cells knee; osteoarthritis cell therapy chondrocytes",
+    "Europe PMC: autologous chondrocyte implantation (11 hits); MACI OR NOVOCART OR Spherox (320); cartilage AND osteoarthritis AND chondrocyte implantation AND randomized (6)"
+   ],
+   "web_queries": [],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06915233",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07339111",
+    "https://doi.org/10.1177/19476035261501621"
+   ],
+   "story_score": 0,
+   "story_why": "Routine registry upkeep; no result."
+  },
+  {
+   "id": "an-old-animals-blood-stem-cells-are-rejuvenated",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window reports a treatment that resets old blood stem cells in an animal or person. Papers found were on other topics (loss of the X chromosome in blood cells in women, ageing bone marrow fat, a blood stem cell expansion method in a dish).",
+   "findings": [
+    {
+     "date": "2026-11-04",
+     "what": "Blood paper: adult blood stem cells switch on a fetal programme to expand in a dish. Not a rejuvenation treatment in a living animal.",
+     "url": "",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC: hematopoietic stem cell aged rejuvenation (3 hits); HSC aging mice rejuvenat* OR myeloid bias (8); clonal hematopoiesis / depletion (2)",
+    "ClinicalTrials.gov: hematopoietic stem cell aging (2, irrelevant)"
+   ],
+   "web_queries": [],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing relevant."
+  },
+  {
+   "id": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+   "kind": "treatment",
+   "verdict": "bears-on-estimate",
+   "found": "In its third-quarter results of 2026-11-02, Vertex said it is now focusing on its newer islet-cell therapy VX-017, which suits more patients than zimislecel (made only for blood types A or A/B), and expects to start pivotal development of VX-017 in 2027. The release reports no filing for approval of zimislecel and does not repeat the earlier plan to give updated zimislecel timelines.",
+   "findings": [
+    {
+     "date": "2026-11-02",
+     "what": "Vertex third-quarter 2026 results (exhibit 99.1 to its 8-K): focus moves to VX-017, pivotal development expected 2027, Fast Track granted; zimislecel limited to blood types A or A/B; zimislecel's only mentions are in this comparison. No filing for zimislecel is reported.",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000875320/000087532026000287/ex-991_q32026.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "against",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Registry: bemdaneprocel (dopamine cells, Bayer's BlueRock) phase 3 against sham surgery, 102 planned, recruiting; record updated. Parkinson's route to the same test.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06944522",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-03",
+     "what": "Registry: two Chinese phase 1/2 trials of an iPS-derived dopamine cell product, UX-DA003 (Shanghai UniXell), recruiting; records updated 2026-11-03 and 2026-11-04.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07733349",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-09-01",
+     "what": "(Outside window, context) VX-017 trial record NCT04786262 last updated 2026-09-01.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04786262",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "ClinicalTrials.gov: VX-880 OR zimislecel (two records, neither updated in window); stem cell derived islet (0); dopamine neurons stem cell Parkinson; iPSC; islet cell therapy type 1 diabetes",
+    "Europe PMC: bemdaneprocel OR zimislecel OR VX-880 OR VX-017 (1 irrelevant hit); stem cell-derived islet type 1 diabetes (16, only a mouse graft maturation study and reviews)"
+   ],
+   "web_queries": [
+    "Vertex zimislecel type 1 diabetes update third quarter 2026 results filing",
+    "Vertex Pharmaceuticals third quarter 2026 financial results zimislecel",
+    "Vertex zimislecel VX-017 pivotal 2027 deprioritize zimislecel blood type",
+    "bemdaneprocel OR BlueRock OR Sumitomo Parkinson's stem cell therapy news November 2026 (nothing in window)"
+   ],
+   "pages_opened": [
+    "https://www.sec.gov/Archives/edgar/data/0000875320/000087532026000287/ex-991_q32026.htm",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06944522",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07733349",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04786262"
+   ],
+   "story_score": 2,
+   "story_why": "A shift away from the one stem-cell diabetes therapy that was due to be filed in 2026 is worth a short post; the news was read from the company's own results exhibit, and the site's author should read the page directly before relying on my reading of the wording."
+  },
+  {
+   "id": "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "No new report on heart muscle grafts dated in the window. The Göttingen trial paper (NEJM, May 2026) is already in the record; the registry entry for a separate iPS-derived heart muscle trial (NCT04396899) was last updated 2026-02-20.",
+   "findings": [
+    {
+     "date": "2026-11-02",
+     "what": "Circulation clinician's guide to 3D printing and bioprinting of hearts: a review, no new patient data.",
+     "url": "",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "ClinicalTrials.gov: engineered heart muscle OR cardiomyocyte patch; stem cell-derived cardiomyocytes heart failure (0); BioVAT (0)",
+    "Europe PMC: engineered heart muscle patch (10 irrelevant); iPSC-derived cardiomyocyte graft patients (10 irrelevant)"
+   ],
+   "web_queries": [
+    "engineered heart muscle patch stem cell heart failure Zimmermann Göttingen Repairon 2026 (returned May 2026 coverage only)"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04396899"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new."
+  },
+  {
+   "id": "lab-grown-organ-works-in-a-person-for-a-year",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window reports a lab-built organ working in a person for a year. Hits were reviews, mouse or lab studies of printed urethra grafts, and registry updates for an existing urethra trial (NCT03258658, last updated 2026-07-28, outside the window).",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Biofabrication: 3D-printed urethral graft improved in strength, laboratory study only.",
+     "url": "",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "ClinicalTrials.gov: bioengineered organ OR tissue engineered bladder OR trachea; bladder augmentation; tissue engineered",
+    "Europe PMC: tissue-engineered organ bladder OR trachea ... patients (31); bioprinted organ OR decellularised organ transplant (1)"
+   ],
+   "web_queries": [
+    "lab-grown organ transplanted patient bioengineered bladder OR trachea OR oesophagus OR uterus first 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing relevant."
+  },
+  {
+   "id": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
+   "kind": "treatment",
+   "verdict": "noted",
+   "found": "A new first-in-human trial record appeared: ChoironeX's phase 1 of a pig thymus-plus-kidney graft (NCT07696962), four patients planned, status 'recruiting' with an estimated start in October 2026, record updated 2026-11-02. No transplant, result or approval dated in the window was found; eGenesis's latest news is 2026-10-22 (a hire) and United Therapeutics's releases in the window do not concern its kidney trial.",
+   "findings": [
+    {
+     "date": "2026-11-02",
+     "what": "Registry: ChoironeX (Xeno Holdings) phase 1, GalKO pig thymokidney in end-stage kidney disease, 4 planned, primary completion estimated 2028-06-30. First posted 2026-07-10; update in window only. Not in the site's records.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07696962",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "for",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-01",
+     "what": "Xenotransplantation journal review on pig cornea transplants; no new patient data.",
+     "url": "",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Preprint (Research Square): gene-edited pig livers connected outside the body to six monkeys with liver failure for 74 to 144 hours. Animal study; not a transplant.",
+     "url": "https://doi.org/10.21203/rs.3.rs-11552364/v1",
+     "opened": true,
+     "source_kind": "preprint",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "United Therapeutics third-quarter results press release listed on its investor page; I read the listing only, not the release.",
+     "url": "https://ir.unither.com/press-releases",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "ClinicalTrials.gov: xenotransplant (found NCT07696962); genetically modified porcine; kidney transplant xenograft; UKidney (0); EGEN-2784 (0); gene-edited pig (0)",
+    "Europe PMC: xenotransplantation OR xenograft kidney porcine (35); pig-to-human OR pig-to-nonhuman primate (171)"
+   ],
+   "web_queries": [
+    "pig kidney transplant xenotransplant patient November 2026",
+    "xenotransplantation news pig organ trial first patient eGenesis OR United Therapeutics OR ChoironeX"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07696962",
+    "https://egenesisbio.com/news/",
+    "https://ir.unither.com/press-releases"
+   ],
+   "story_score": 1,
+   "story_why": "A new company entering human trials of pig kidneys is a minor item; no patient outcome yet."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-11-02",
+   "what": "Vertex says the islet-cell therapy VX-017, which needs no blood-type match, will enter pivotal development in 2027.",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000875320/000087532026000287/ex-991_q32026.htm",
+   "opened": true,
+   "why_it_matters": "Bears on when a stem-cell diabetes cure might be approved and for whom."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Registry records updated for UX-DA003 Parkinson's cell trials in China (Anhui Medical University site; Shanghai UniXell).",
+   "url": "https://clinicaltrials.gov/api/v2/studies/NCT07733349",
+   "opened": true,
+   "why_it_matters": "Shows a second company's iPS-derived Parkinson's cells in people; a possible route for the cell-replacement test."
+  }
+ ]
+}

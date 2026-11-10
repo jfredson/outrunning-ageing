@@ -1,0 +1,355 @@
+{
+ "records": [
+  {
+   "id": "a-cells-settings-are-rewritten-at-one-gene-in-a-person",
+   "kind": "treatment",
+   "verdict": "noted",
+   "found": "Nothing new on the hepatitis B trial (NCT06671093): the registry shows no posted results and no update in the window, and the company's news page lists only an industry award on 2026-11-05. A paper in Cell Stem Cell dated 2026-11-05 shows epigenome editing that silenced a human blood-stem-cell gene for four months after transplant into mice; it is in cells and mice, so it does not meet the person test.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Cell Stem Cell: DNA-methylation epigenome editors delivered as RNA silenced ITGB3 in human blood stem cells; silencing held through self-renewal and 4 months after transplant into mice; partly reversed by targeted demethylation. Cells and mice only.",
+     "url": "https://doi.org/10.1016/j.stem.2026.10.009",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Tune Therapeutics news page: its editing platform named 'Gene Editing Platform of the Year' in an awards scheme; no new trial data.",
+     "url": "https://tunetx.com/news/",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "registry: epigenetic editing; CRISPRoff OR epigenetic silencing hepatitis B; Tune Therapeutics (all within update window; no match for the first two, three unrelated cancer trials for the third)",
+    "registry: NCT06671093 opened directly: recruiting, no results posted",
+    "Europe PMC: epigenetic editing/silencing/CRISPRoff/epigenome editing, 56 hits, one relevant"
+   ],
+   "web_queries": [
+    "Tune Therapeutics TUNE-401 hepatitis B epigenetic silencing 2026 data"
+   ],
+   "pages_opened": [
+    "https://tunetx.com/news/",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42987831%20AND%20SRC:MED&format=json&resultType=core"
+   ],
+   "story_score": 1,
+   "story_why": "A paper on durable gene silencing in human blood stem cells is interesting for the tool but is not a person and not an ageing gene."
+  },
+  {
+   "id": "a-cocktail-of-ordinary-drugs-resets-cell-age",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Dated sources and searches returned nothing on chemical mixes that reset cell age in animals or people in the window. The only near hit in Europe PMC was an unrelated senolytic vaccine paper (2026-10-28).",
+   "findings": [],
+   "dated_queries": [
+    "registry: partial reprogramming OR Yamanaka (20 unrelated hits, cancer and cell therapy)",
+    "Europe PMC: chemical reprogramming / small molecule rejuvenation, ageing, mice: 3 hits, none relevant"
+   ],
+   "web_queries": [
+    "chemical cocktail reprogramming rejuvenation mice (covered by general searches; search tool returned nothing dated in window)"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing happened."
+  },
+  {
+   "id": "a-person-receives-cell-resetting-genes-in-a-trial",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "The company's news page (opened) lists nothing after the 2026-10-08 interim results, and the registry entry NCT07290244 is still recruiting with no results posted and no update in the window. A web search found no news dated after the interim release.",
+   "findings": [
+    {
+     "date": "2026-10-08",
+     "what": "Latest item on Life Biosciences' news page is the first-in-human data release, before the window.",
+     "url": "https://www.lifebiosciences.com/news",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "registry: Life Biosciences ER-100 (no hits in window)",
+    "registry: NCT07290244 opened directly: recruiting, estimated 18, no results"
+   ],
+   "web_queries": [
+    "Life Biosciences ER-100 November 2026"
+   ],
+   "pages_opened": [
+    "https://www.lifebiosciences.com/news"
+   ],
+   "story_score": 0,
+   "story_why": "No news in the window."
+  },
+  {
+   "id": "a-persons-biological-age-reading-falls-after-treatment",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window reports a clock reading falling after a treatment in a controlled trial. The registry's only new items are two not-yet-reported stool-transplant and microbiome ageing trials; TRIIM-X (NCT04375657) is still listed as recruiting with no results.",
+   "findings": [
+    {
+     "date": "2026-11-02",
+     "what": "Registry entries for two new or updated ageing-clock-linked trials (stool transplant to slow biological ageing, NCT07912164, not yet recruiting; microbiota senoreduction, NCT07462767, recruiting). Plans only, no results.",
+     "url": "https://clinicaltrials.gov/study/NCT07912164",
+     "opened": false,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "registry: epigenetic clock aging intervention (2 hits)",
+    "registry: NCT04375657 opened: recruiting, no results",
+    "Europe PMC: epigenetic age AND trial AND intervention (4 hits; none a controlled treatment trial of a clock)"
+   ],
+   "web_queries": [
+    "epigenetic clock reversal randomized trial published November 2026 biological age"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "No result, only registrations."
+  },
+  {
+   "id": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Only small real-world and practice papers appeared in the window (donanemab scan monitoring, lecanemab safety reports from a WHO database, Singapore usage guidance, 2026-10-28 to 2026-11-06); none is a controlled trial or an approval, and no uptake figure was found. Web search found no company news dated in the window.",
+   "findings": [
+    {
+     "date": "2026-11-04",
+     "what": "Annals Academy of Medicine Singapore: appropriate-use recommendations for lecanemab. Practice guidance, not a trial or uptake figure.",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42995156%20AND%20SRC:MED&format=json&resultType=lite",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-01",
+     "what": "Medicine (Baltimore): report-pattern analysis of lecanemab adverse events in the WHO VigiAccess database. Reporting data, not controlled evidence.",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42994843%20AND%20SRC:MED&format=json&resultType=lite",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "registry: lecanemab OR donanemab OR remternetug (20 hits, mostly registries and old studies; none with posted results)",
+    "Europe PMC: lecanemab/donanemab/remternetug/trontinemab/gantenerumab, 24 hits"
+   ],
+   "web_queries": [
+    "Eisai Biogen Leqembi news November 2026",
+    "Alzheimer's amyloid antibody news Lilly Kisunla remternetug trontinemab November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Incremental practice papers only."
+  },
+  {
+   "id": "drug-boosts-the-cells-recycling-of-worn-parts",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "No controlled trial of a recycling-boosting drug or supplement on an age-related function was found in the window. A microbiome-linked urolithin and brain-thickness study (2026-11-02) is observational, so it does not count.",
+   "findings": [
+    {
+     "date": "2026-11-02",
+     "what": "Food & Function: gut-derived urolithins and cortical thickness in healthy older adults; observational, longitudinal MRI.",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42841852%20AND%20SRC:MED&format=json&resultType=lite",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "registry: autophagy spermidine older adults (no hits)",
+    "Europe PMC: spermidine OR urolithin OR autophagy with randomised, older (46 hits, none a matching trial)"
+   ],
+   "web_queries": [],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing."
+  },
+  {
+   "id": "drug-breaks-the-sugar-cross-links-that-stiffen-old-tissue",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Nothing on a drug that breaks sugar cross-links in animals or people was found in the window; the 81 Europe PMC hits for glycation were food science, diabetes and cell studies, plus an author correction to a Nature Biomedical Engineering review (2026-10-27).",
+   "findings": [],
+   "dated_queries": [
+    "registry: glucosepane OR advanced glycation end products cross-link (2 unrelated hits)",
+    "Europe PMC: alagebrium/glucosepane/cross-link breaker/advanced glycation, 81 hits scanned by title"
+   ],
+   "web_queries": [],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing."
+  },
+  {
+   "id": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+   "kind": "treatment",
+   "verdict": "bears-on-estimate",
+   "found": "On 2026-11-03 Circulation published a peer-reviewed follow-up of vutrisiran in HELIOS-B: through 48 months, the group on the drug throughout had 37 per cent lower risk of death (hazard ratio 0.63) against the group that started it later. On 2026-11-05 Intellia said its gene-editing treatment (nex-z) had advanced enrolment in its heart trial and was giving doctors a gene test for the liver-injury risk; this bears on competition and on safety.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Circulation: HELIOS-B open-label extension, 466 people; continuous vutrisiran vs placebo-then-vutrisiran: death or cardiovascular event HR 0.63 (95% CI 0.51 to 0.79), death HR 0.63 (0.46 to 0.84), to month 48. Not a placebo comparison after month 36, so it adds follow-up, not a new rung.",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42974684%20AND%20SRC:MED&format=json&resultType=core",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Intellia third-quarter release: nex-z trial in the heart disease (MAGNITUDE) 'advancing enrollment'; the nerve disease trial (MAGNITUDE-2) fully enrolled, over 60; gene test results being given to investigators. The earlier liver-injury safety story is background, not restated.",
+     "url": "https://finviz.com/news/416921/intellia-therapeutics-announces-third-quarter-2026-financial-results-and-business-updates",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-03",
+     "what": "Alnylam announced it would present five-year HELIOS-B data at the American Heart Association meeting; the data release itself is dated 2026-11-09, outside the window.",
+     "url": "https://investors.alnylam.com/press-releases",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Clinical Research in Cardiology: early real-world use of acoramidis in Germany (StarTTR); describes use, no uptake share.",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42970034%20AND%20SRC:MED&format=json&resultType=lite",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "registry: transthyretin amyloid cardiomyopathy (12 hits, all registries or ongoing trials; none posting results)",
+    "registry: acoramidis OR vutrisiran OR eplontersen OR nucresiran OR NTLA-2001 (20 hits; ongoing trials, none with posted results)",
+    "Europe PMC: tafamidis/acoramidis/vutrisiran/eplontersen/nex-z/nucresiran/coramitug/ALXN2220 AND amyloid/transthyretin (8 hits)"
+   ],
+   "web_queries": [
+    "transthyretin amyloidosis news November 2026 FDA approval AHA 2026 nex-z acoramidis",
+    "Intellia third quarter 2026 results nex-z MAGNITUDE clinical hold update",
+    "Alnylam Five-Year HELIOS-B AHA 2026 vutrisiran"
+   ],
+   "pages_opened": [
+    "https://investors.alnylam.com/press-releases",
+    "https://finviz.com/news/416921/intellia-therapeutics-announces-third-quarter-2026-financial-results-and-business-updates"
+   ],
+   "story_score": 1,
+   "story_why": "Longer follow-up of an approved drug class and a gene-editing rival's trial progress; the estimate is for wide use, and no uptake figure appeared. Why it bears: the benefit holds to four years and a second drug is established, which marginally supports earlier wide use; no uptake data yet."
+  },
+  {
+   "id": "eye-drops-dissolve-the-clouded-protein-of-a-cataract",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window: the registry entry NCT07395986 shows no update in the window and no results (8 actual enrolled), no lanosterol or cataract-drop papers appeared, and web searches only returned the July 2026 first-patient coverage.",
+   "findings": [
+    {
+     "date": "2026-07-14",
+     "what": "Joint release of Ocusun and Lexitas on the first patient; before the window.",
+     "url": "https://www.biospace.com/press-releases/lexitas-pharma-services-and-ocusun-enroll-first-patient-in-a-pilot-study-for-an-upcoming-phase-iii-clinical-trial-evaluating-investigational-eye-drop-for-age-related-cataract",
+     "opened": false,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "registry: cataract eye drops lanosterol (no hits in window)",
+    "registry: NCT07395986 opened: active not recruiting, 8 enrolled, no results",
+    "Europe PMC: lanosterol OR cataract AND eye drops (11 hits; none relevant)"
+   ],
+   "web_queries": [
+    "Ocusun lanosterol eye drop cataract Phase III 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "No news."
+  },
+  {
+   "id": "partially-resetting-cells-reverses-ageing-in-an-animal",
+   "kind": "treatment",
+   "verdict": "noted",
+   "found": "Two peer-reviewed mouse papers on partial resetting appeared. Aging Cell (2026-11-01): cyclic Yamanaka-gene switching in aged mice gave smaller stroke damage and better movement scores than normal controls. Aging (2026-10-27): a reanalysis of gene readings after seven months of resetting in aged mice found calmer inflammation in liver and kidney but signs of growth stress in the spleen. Neither is a clock-of-age result in a person, and the animal rung is already reached.",
+   "findings": [
+    {
+     "date": "2026-11-01",
+     "what": "Aging Cell: partial reprogramming (OSKM, Tet-ON mice) in aged mice reduced ischaemic brain damage vs wild-type controls; better neurological scores, preserved myelin and neurons.",
+     "url": "https://doi.org/10.1111/acel.70776",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-27",
+     "what": "Aging (Albany NY): re-analysis of RNA-seq from liver, kidney, spleen of aged mice after 7 months of partial reprogramming; benefits in liver and kidney, flagged possible genomic and proliferative stress in spleen; authors call for larger controlled studies.",
+     "url": "https://doi.org/10.18632/aging.206431",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-08",
+     "what": "Life Biosciences' latest news item is the interim data release, before the window.",
+     "url": "https://www.lifebiosciences.com/news",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "registry: partial reprogramming OR Yamanaka OR ER-100 (nothing relevant)",
+    "Europe PMC: partial reprogramming / Yamanaka / OSKM / cellular reprogramming AND aging, 8 hits, 3 relevant"
+   ],
+   "web_queries": [
+    "Life Biosciences ER-100 November 2026"
+   ],
+   "pages_opened": [
+    "https://www.lifebiosciences.com/news",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42924487%20AND%20SRC:MED&format=json&resultType=core",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42954813%20AND%20SRC:MED&format=json&resultType=core"
+   ],
+   "story_score": 1,
+   "story_why": "Two more mouse papers on a field already at the animal rung; the spleen warning echoes the tumour-risk worry in the estimate."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-11-05",
+   "what": "Cell Stem Cell: durable, reversible DNA-methylation epigenome editing in human blood stem cells (also logged under the single-gene entry).",
+   "url": "https://doi.org/10.1016/j.stem.2026.10.009",
+   "opened": true,
+   "why_it_matters": "A tool that switches human genes off for good without cutting DNA, though in cells and mice and not for ageing."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Alnylam announced its five-year HELIOS-B vutrisiran data would be presented at the American Heart Association meeting; the five-year release itself is dated 2026-11-09, one day after the window.",
+   "url": "https://investors.alnylam.com/press-releases",
+   "opened": true,
+   "why_it_matters": "Next week's reading should pick up the five-year heart-protein results."
+  },
+  {
+   "date": "2026-10-25 to 2026-11-08",
+   "what": "Registry listings for two stool-transplant and microbiome trials aimed at slowing biological ageing (NCT07912164, NCT07462767).",
+   "url": "https://clinicaltrials.gov/study/NCT07912164",
+   "opened": false,
+   "why_it_matters": "Ageing-clock-targeted trials are being registered, but no results."
+  }
+ ]
+}

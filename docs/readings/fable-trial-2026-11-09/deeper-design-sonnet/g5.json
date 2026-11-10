@@ -1,0 +1,351 @@
+{
+ "records": [
+  {
+   "id": "a-blood-count-of-mitochondrial-dna-predicts-death-and-disease",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Europe PMC returned eight records for mitochondrial DNA copy number in the window, none a cohort report linking the blood count to death or heart disease. Web search found no new cohort or regulator or health-system use.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC \"mitochondrial DNA copy number\" AND (mortality OR cardiovascular OR cohort) FIRST_PDATE 2026-10-25..2026-11-08",
+    "Europe PMC \"mtDNA copy number\" AND blood AND (mortality OR incident) FIRST_PDATE 2026-10-25..2026-11-08",
+    "Europe PMC \"mitochondrial DNA\" AND \"copy number\" AND (cardiovascular disease OR all-cause) FIRST_PDATE 2026-10-25..2026-11-08"
+   ],
+   "web_queries": [
+    "mitochondrial DNA copy number blood mortality cohort study new 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing in the window."
+  },
+  {
+   "id": "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "No new validation report or clearance for a blood clock turned up in the window; the clock papers in Europe PMC were reviews or secondary analyses. A web search for a regulator or health-system adoption found nothing dated in the window.",
+   "findings": [
+    {
+     "date": "2026-10-29",
+     "what": "Secondary analysis of the ASPREE aspirin trial (18,581 people) used epigenetic clocks only to validate an intrinsic-capacity score; not a test of clocks predicting death better than age.",
+     "url": "https://europepmc.org/article/MED/42955660",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC \"epigenetic clock\" AND (mortality OR trial OR randomized) FIRST_PDATE 2026-10-25..2026-11-08",
+    "Europe PMC \"epigenetic clock\" AND (cohort OR all-cause mortality) AND (GrimAge OR DunedinPACE) FIRST_PDATE 2026-10-25..2026-11-08",
+    "clinicaltrials.gov studies query.term=epigenetic clock OR biological age AND LastUpdatePostDate 2026-10-25..2026-11-08"
+   ],
+   "web_queries": [
+    "epigenetic clock randomized trial biological age slowed November 2026"
+   ],
+   "pages_opened": [
+    "Europe PMC abstract 42955660"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing that changes the picture."
+  },
+  {
+   "id": "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "No regulator qualification or written agreement on an ageing marker is dated in the window. The FDA qualification-status page was fetched but its content was only page markup, so the list itself was not read; web reporting says no ageing marker is qualified.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC \"surrogate endpoint\" AND (aging OR ageing OR geroscience) FIRST_PDATE 2026-10-25..2026-11-08",
+    "clinicaltrials.gov studies query.term=biological age OR epigenetic clock AND LastUpdatePostDate 2026-10-25..2026-11-08"
+   ],
+   "web_queries": [
+    "FDA biomarker qualification aging biomarker surrogate endpoint 2026"
+   ],
+   "pages_opened": [
+    "https://www.fda.gov/drugs/biomarker-qualification-program/status-biomarker-qualification-submissions (markup only, list not read)"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing in the window; the FDA list should still be read directly by the site."
+  },
+  {
+   "id": "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "No approval, regulator agreement or registered trial with an ageing-wide main measure is dated in the window. A registry search for the TAME metformin trial by name found no entry; web search found only older funding reports (latest seen August 2025), not dated in the window.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies query.term=TAME metformin aging AND LastUpdatePostDate 2026-10-25..2026-11-08",
+    "Europe PMC metformin AND (aging OR ageing) AND (TAME OR healthspan) FIRST_PDATE 2026-10-25..2026-11-08"
+   ],
+   "web_queries": [
+    "TAME trial metformin aging launch funding news",
+    "FDA biomarker qualification aging biomarker surrogate endpoint 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "No news."
+  },
+  {
+   "id": "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "No new controlled trial with a planned clock analysis was found in the window. Europe PMC returned only reviews and one clock-validation use inside the ASPREE aspirin trial (not a clock outcome); web search surfaced only earlier 2026 items already in the records (COSMOS, semaglutide, rentosertib).",
+   "findings": [
+    {
+     "date": "2026-10-29",
+     "what": "ASPREE secondary analysis: aspirin did not prevent decline in intrinsic capacity (slightly worse in women); clocks only used to validate the score.",
+     "url": "https://europepmc.org/article/MED/42955660",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC (\"biological age\" OR \"epigenetic age\" OR \"DNA methylation age\") AND (placebo OR randomized controlled) FIRST_PDATE 2026-10-25..2026-11-08",
+    "Europe PMC (semaglutide OR tirzepatide OR GLP-1) AND (epigenetic age OR epigenetic clock OR biological age) FIRST_PDATE 2026-10-25..2026-11-08",
+    "clinicaltrials.gov studies query.term=epigenetic clock OR biological age AND LastUpdatePostDate 2026-10-25..2026-11-08"
+   ],
+   "web_queries": [
+    "epigenetic clock randomized trial biological age slowed November 2026",
+    "longevity aging drug news week of November 3 2026 trial results ageing"
+   ],
+   "pages_opened": [
+    "Europe PMC abstract 42955660"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new."
+  },
+  {
+   "id": "an-age-for-each-organ-is-read-from-blood-proteins",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "No new organ-age validation paper was dated in the window. A June 2026 Nature Medicine paper from the Stanford group (cell-type version) appeared in a web search but is outside the window and not independent.",
+   "findings": [
+    {
+     "date": "2026-06-16",
+     "what": "Report of Stanford Nature Medicine paper extending organ ages to over 40 cell types; research use only, test 'in two to three years'. Outside window.",
+     "url": "https://www.diagnosticsworldnews.com/news/2026/06/16/biological-age-blood-test-predicts-diseases-before-onset",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC \"organ age\" AND (proteomic OR plasma proteins) FIRST_PDATE 2026-10-25..2026-11-08",
+    "Europe PMC proteomic AND (organ age OR organ-specific OR organ aging) AND UK Biobank FIRST_PDATE 2026-10-25..2026-11-08"
+   ],
+   "web_queries": [
+    "organ age blood proteins Wyss-Coray Teal Omics 2026 clinic test"
+   ],
+   "pages_opened": [
+    "https://www.diagnosticsworldnews.com/news/2026/06/16/biological-age-blood-test-predicts-diseases-before-onset"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing in the window."
+  },
+  {
+   "id": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+   "kind": "treatment",
+   "verdict": "bears-on-estimate",
+   "found": "The full ZEUS trial report of ziltivekimab was published in the New England Journal of Medicine on 2026-11-07 and presented at the American Heart Association meeting: no fall in heart attack, stroke or cardiovascular death (17.6 against 17.7 per cent, hazard ratio 0.99), despite a 64 per cent fall in the inflammation marker, with more serious infections. This turns the record's company-announcement mark against into a peer-reviewed one, and a careful person would weigh it as a second large null for a drug acting on inflammation alone, which may lower the odds of wide uptake of the class and weakens the case for the colchicine route widening.",
+   "findings": [
+    {
+     "date": "2026-11-07",
+     "what": "ZEUS NEJM paper 'Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease' (doi 10.1056/NEJMoa2612126), 6,376 people; hsCRP down 64%, MACE 17.6% vs 17.7% (HR 0.99, 95% CI 0.88-1.11); serious infections 20.4% vs 17.9%. Crossref record opened; journal page refused (403); numbers read from trade press.",
+     "url": "https://www.hcplive.com/view/ziltivekimab-fails-to-reduce-cardiovascular-events-in-ascvd-and-ckd-zeus",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-07",
+     "what": "Healio report of the same presentation (AHA, 6-9 Nov), with HERMES and ARTEMIS stated to be ongoing.",
+     "url": "https://www.healio.com/news/cardiology/20261107/ziltivekimab-cuts-inflammation-but-not-cv-events-in-atherosclerosis-kidney-disease",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "against",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-07",
+     "what": "Meta-analysis of nine colchicine trials after cardiac surgery (2,005 people): less post-operative atrial fibrillation, no difference in death or stroke.",
+     "url": "https://europepmc.org/article/MED/42999009",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-27/2026-11-05",
+     "what": "New colchicine heart trials registered or updated (all not yet recruiting or pilot): NCT07892976, NCT07654231 (kidney disease calcification, started 2026-10-30), NCT07920133 (starts 2026-12-01). None a result.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07654231",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-06",
+     "what": "NCT06263244 (ziltivekimab, anti-inflammatory effects) registry entry updated, completion 2026-10-30; no results posted.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06263244",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-07-31",
+     "what": "Company announcement of ZEUS already in records (novo-nordisk-2026); the NEJM paper is not.",
+     "url": "",
+     "opened": false,
+     "source_kind": "company-release",
+     "direction": "against",
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov studies query.term=colchicine AND cardiovascular AND LastUpdatePostDate 2026-10-25..2026-11-08",
+    "clinicaltrials.gov studies query.term=ziltivekimab AND LastUpdatePostDate 2026-10-25..2026-11-08",
+    "Europe PMC colchicine AND (cardiovascular OR myocardial) FIRST_PDATE 2026-10-25..2026-11-08",
+    "Europe PMC ziltivekimab FIRST_PDATE 2026-10-25..2026-11-08",
+    "Europe PMC \"anti-inflammatory therapy\" AND (atherosclerotic OR coronary) AND randomized FIRST_PDATE 2026-10-25..2026-11-08"
+   ],
+   "web_queries": [
+    "colchicine cardiovascular AHA 2026 Scientific Sessions trial results November 2026",
+    "ZEUS ziltivekimab results presented American Heart Association Scientific Sessions NEJM"
+   ],
+   "pages_opened": [
+    "https://www.hcplive.com/view/ziltivekimab-fails-to-reduce-cardiovascular-events-in-ascvd-and-ckd-zeus",
+    "https://www.healio.com/news/cardiology/20261107/ziltivekimab-cuts-inflammation-but-not-cv-events-in-atherosclerosis-kidney-disease",
+    "https://api.crossref.org/works/10.1056/NEJMoa2612126",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06263244",
+    "Europe PMC abstract 42999009"
+   ],
+   "story_score": 2,
+   "story_why": "The first peer-reviewed report of the largest test of an inflammation-only heart drug since 2017 came out and was negative; a short news post and a record update (swap the company announcement for the paper) are warranted. Note one search summary claimed Novo halted HERMES and ATHENA in September; the opened trade reports say HERMES and ARTEMIS continue, so that claim is unverified."
+  },
+  {
+   "id": "blocking-one-messenger-protein-makes-old-animals-live-longer",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window: Europe PMC found no interleukin-11 ageing or lifespan paper, the registry had no entry for an interleukin-11 antibody, and web search found only 2024 mouse coverage and earlier company deals.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC \"interleukin-11\" AND (lifespan OR aging OR ageing) FIRST_PDATE 2026-10-25..2026-11-08",
+    "Europe PMC \"anti-IL-11\" OR \"IL-11 antibody\" AND (aged OR senescence OR lifespan) FIRST_PDATE 2026-10-25..2026-11-08",
+    "clinicaltrials.gov studies query.term=interleukin-11 antibody AND LastUpdatePostDate 2026-10-25..2026-11-08"
+   ],
+   "web_queries": [
+    "interleukin-11 antibody aging frailty trial Boehringer Calico lifespan 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing."
+  },
+  {
+   "id": "replacing-a-persons-plasma-slows-an-age-related-disease",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "No peer-reviewed plasma-exchange trial, regulator step, or new centre announcement dated in the window; the registry had nothing for plasma exchange in Alzheimer's disease, and the newest Grifols item found is the 2026-03-12 release already in the records.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC \"plasma exchange\" AND (Alzheimer OR aging OR ageing) FIRST_PDATE 2026-10-25..2026-11-08",
+    "Europe PMC Alzheimer AND (plasmapheresis OR plasma exchange OR albumin) FIRST_PDATE 2026-10-25..2026-11-08",
+    "clinicaltrials.gov studies query.term=plasma exchange AND Alzheimer AND LastUpdatePostDate 2026-10-25..2026-11-08"
+   ],
+   "web_queries": [
+    "Grifols plasma exchange Alzheimer's AMBAR news November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new."
+  },
+  {
+   "id": "young-blood-rejuvenates-an-old-animal",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "No controlled human or animal report of young blood or plasma was found in the window: Europe PMC for young plasma, plasma fraction and parabiosis returned no relevant trial, and the registry's 'young plasma' hits were unrelated. Web search returned only older items.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC \"young plasma\" OR heterochronic OR parabiosis FIRST_PDATE 2026-10-25..2026-11-08",
+    "Europe PMC (\"young plasma\" OR \"plasma fraction\") AND (older adults OR aged) AND (trial OR placebo) FIRST_PDATE 2026-10-25..2026-11-08",
+    "clinicaltrials.gov studies query.term=young plasma AND LastUpdatePostDate 2026-10-25..2026-11-08",
+    "clinicaltrials.gov NCT03981419 study record (completed, last update 2024-03-13)"
+   ],
+   "web_queries": [
+    "young plasma OR plasma fraction older adults trial results 2026 Alkahest Grifols Gaudilliere"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing."
+  },
+  {
+   "id": "young-gut-microbes-rejuvenate-an-old-animal",
+   "kind": "treatment",
+   "verdict": "noted",
+   "found": "Only weak items in the window: a rat study (2026-10-28) in which FMT eased damage in a chemically induced model of ageing, and an unreviewed single-arm preprint (2026-10-30) of FMT capsules in 18 people with Alzheimer's disease. Neither meets the test (no naturally old animal given young donor microbes; no controlled trial in older people).",
+   "findings": [
+    {
+     "date": "2026-10-28",
+     "what": "Rat study, Experimental Gerontology: FMT from healthy donor rats improved memory and tissue damage in D-galactose 'accelerated ageing' rats; not naturally old animals, donors not stated as young.",
+     "url": "https://europepmc.org/article/MED/42951052",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-30",
+     "what": "Preprint: capsule FMT in 18 people with mild to moderate Alzheimer's disease, single arm, safety and cognition; no control group.",
+     "url": "https://europepmc.org/article/PPR/PPR1355139",
+     "opened": true,
+     "source_kind": "preprint",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-07-29",
+     "what": "Registry: ARMOR trial (NCT06649981) FMT in adults aged 65-84, active not recruiting, primary completion 2026-06-17; STEP-aging (NCT05598112) recruiting, primary completion 2026-12-31. Neither updated in the window and neither has results, but they are the nearest human tests.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06649981",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC \"fecal microbiota\" AND (aging OR aged OR elderly OR older) FIRST_PDATE 2026-10-25..2026-11-08",
+    "clinicaltrials.gov studies query.term=fecal microbiota AND older adults AND LastUpdatePostDate 2026-10-25..2026-11-08"
+   ],
+   "web_queries": [
+    "fecal microbiota transplant older adults frailty aging randomized trial 2026"
+   ],
+   "pages_opened": [
+    "Europe PMC abstracts 42951052, PPR1355139",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06649981",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05598112"
+   ],
+   "story_score": 0,
+   "story_why": "Minor; ARMOR and STEP-aging are worth watching for a first human result."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-10-30",
+   "what": "Registry: NCT07654231 low-dose colchicine pilot for heart-vessel calcification in chronic kidney disease started 2026-10-30 (not yet recruiting); other new colchicine trials registered.",
+   "url": "https://clinicaltrials.gov/api/v2/studies/NCT07654231",
+   "opened": true,
+   "why_it_matters": "Shows colchicine work continuing after ZEUS, but no result."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "Registry: NCT07707778 tirzepatide effects on epigenetic ageing (last update 2026-07-20, outside window) and several GLP-1 ageing-clock trials are registered, none reporting.",
+   "url": "https://clinicaltrials.gov/api/v2/studies/NCT07707778",
+   "opened": false,
+   "why_it_matters": "Possible future controlled clock trials; not dated in the window."
+  }
+ ]
+}

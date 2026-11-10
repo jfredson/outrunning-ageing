@@ -1,0 +1,350 @@
+{
+ "records": [
+  {
+   "id": "altos-labs-2022-launch",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window bears on Altos. Registry and Europe PMC returned no Altos trial or Altos-authored paper in the window, and web searches found no Altos announcement after September 2026; Altos still has no named clinical candidate in the coverage found (secondary sources only).",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Altos Labs news clinical trial first drug 2026",
+    "Altos Labs announces Mannick OR Barron November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "austad-olshansky-2000-bet-on-150",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No new statement by either man dated 2025-10-25 to 2026-11-08 was found. Europe PMC returned only a correction notice with no bearing; searches surfaced only the 2024 commentary.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Olshansky OR Austad OR Hayflick OR Brenner longevity radical life extension commentary November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "barzilai-2022-tame-starts-this-year",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "ClinicalTrials.gov returned no TAME record, either by title search or by update date in the window, and Europe PMC held no TAME paper. The American Federation for Aging Research page opened is a 2015 interview and says nothing on a start; a search summary said the trial is still underway but this was not supported by any opened source.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "TAME trial metformin Barzilai November 2026"
+   ],
+   "pages_opened": [
+    "https://www.agingresearch.org/blog/dr-nir-barzilai-on-the-tame-study/"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "brenner-2022-age-reversal-an-old-grift",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No Brenner paper or statement dated in the window was found in Europe PMC or the web searches.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Olshansky OR Austad OR Hayflick OR Brenner longevity radical life extension commentary November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "calico-2013-launch",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No Calico release is dated in the window: the press page could not be read, and searches showed its newest release as 2026-06-23 (fosigotifator breakthrough designation, search-summary only). The registry showed Calico-linked AbbVie trials last updated 2026-10-06 and earlier, outside the window.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Calico Life Sciences news October 2026"
+   ],
+   "pages_opened": [
+    "https://www.calicolabs.com/press-releases/"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "de-grey-2004-first-thousand-year-old",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No new de Grey statement dated in the window was found; web searches returned only older material.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Aubrey de Grey longevity escape velocity November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "de-grey-2004-humans-within-twenty-years",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No new de Grey statement dated in the window was found; nothing bears on the missed verdict.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Aubrey de Grey longevity escape velocity November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "de-grey-2005-fifty-fifty-fifteen-years",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No new de Grey statement dated in the window was found.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Aubrey de Grey longevity escape velocity November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "de-grey-2024-fifty-percent-twelve-to-fifteen-years",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No new de Grey statement dated in the window was found. A search summary mentioned an April 2026 piece (Pulse) with a first-human-trial target of 2028; that is outside the window and was not opened.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Aubrey de Grey longevity escape velocity November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "hayflick-2000-fifteen-year-limit",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing by or about Hayflick dated in the window was found.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Olshansky OR Austad OR Hayflick OR Brenner longevity radical life extension commentary November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "hevolution-2023-up-to-a-billion-a-year",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Hevolution's news page (opened) shows no dates inside the window and states no annual budget; no new funding figure was found. The page's featured item on 13 new Saudi scientists funded with 6.5 million riyals is undated.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Hevolution Foundation announces grants funding November 2026"
+   ],
+   "pages_opened": [
+    "https://www.hevolution.com/en/web/guest/news"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "johnson-2023-biological-age-stays-the-same",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No Johnson statement dated in the window was found. The newest coverage located was Axios on 2026-10-06 and 2026-10-08, before the window and already in the record.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Bryan Johnson Blueprint pace of aging news November 2026",
+    "Bryan Johnson says this week longevity Don't Die"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "johnson-2024-pace-of-ageing-record",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No new pace-of-ageing figure from Johnson dated in the window was found.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Bryan Johnson Blueprint pace of aging news November 2026",
+    "Bryan Johnson says this week longevity Don't Die"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "kurzweil-2022-end-of-the-decade",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No new Kurzweil statement dated in the window was found; search results were 2025 to mid-2026 coverage.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Ray Kurzweil longevity escape velocity interview November 2026",
+    "Kurzweil 2032 aging prediction new interview this week"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "kurzweil-2026-escape-velocity-by-2032",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No new Kurzweil interview dated in the window was found. Search results repeated the 2032 date in undated social posts and secondary articles, none dated in the window and none opened.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Ray Kurzweil longevity escape velocity interview November 2026",
+    "Kurzweil 2032 aging prediction new interview this week"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "kurzweil-2029-escape-velocity",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No new Kurzweil statement dated in the window was found.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov studies: metformin aging TAME, updated 2026-10-25..2026-11-08 (no hits)",
+    "clinicaltrials.gov: Targeting Aging with Metformin title search (no TAME record)",
+    "clinicaltrials.gov: Calico OR Altos Labs, updated in window (only AbbVie/Calico trials, none in window)",
+    "Europe PMC: TAME metformin, Altos/Calico/Hevolution, Johnson, Brenner, Olshansky/Austad, de Grey, Barzilai, Hayflick, first published in window"
+   ],
+   "web_queries": [
+    "Ray Kurzweil longevity escape velocity interview November 2026",
+    "Kurzweil 2032 aging prediction new interview this week"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-11-04",
+   "what": "Europe PMC lists a trial-design paper, Targeting Accelerated Aging in COPD: The AMICO (A Trial of Metformin In COpd) Trial Design; a design paper only, no results; abstract not opened.",
+   "url": "https://europepmc.org/search?query=AMICO%20metformin%20COPD",
+   "opened": false,
+   "why_it_matters": "Another metformin-against-ageing-biology trial being set up, while TAME still has no registry record."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "ClinicalTrials.gov record NCT07275359 (senolytic properties in pulmonary rehabilitation and metformin in COPD exacerbations) updated, not yet recruiting; seen in API listing only.",
+   "url": "https://clinicaltrials.gov/study/NCT07275359",
+   "opened": true,
+   "why_it_matters": "Small sign of senolytic-type trials being registered; not a result."
+  },
+  {
+   "date": "2026-10-19",
+   "what": "OUTSIDE WINDOW (6 days early): Fight Aging! reported Life Biosciences' first-in-human data for ER-100 (partial reprogramming, eye): three participants, well tolerated to day 56, two of three glaucoma patients improved visual field. Registry NCT07290244 last updated 2026-05-19.",
+   "url": "https://www.fightaging.org/archives/2026/10/life-biosciences-reports-initial-results-from-the-first-reprogramming-trial/",
+   "opened": true,
+   "why_it_matters": "First human data for the reprogramming approach Altos is built on; relevant to the Altos record and probably to the site's leaves, but dated before 2026-10-25 so it may already be in the records or the previous reading."
+  },
+  {
+   "date": "2026-11-08",
+   "what": "Fight Aging! newsletter of 2026-11-08: no ageing-treatment clinical trial results; items are animal and lab studies (e.g. circular RNA Yamanaka factors, mitofusin activators in worms).",
+   "url": "https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-9th-2026",
+   "opened": true,
+   "why_it_matters": "Shows the week was quiet for human results."
+  }
+ ]
+}

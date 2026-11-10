@@ -118,3 +118,69 @@ Nothing here is applied. In order of how much the trial supports each:
 6. **The backlog.** The trial turned up about twenty older facts the entries lack (the two Japanese
    approvals, the failed NAD and metformin trials, the danazol status). They want a dated batch, as the
    first reading's nineteen did.
+
+## Added the same day: the deeper design on Sonnet 5.5
+
+On John's go ("Run it on Sonnet"), the deeper design was run again on Sonnet 5.5: the same briefs, the
+same groups of records, the same window (2026-10-25 to 2026-11-08), nine readers. These readers worked
+from a fresh copy of the records and their own folder, so they could not see the Fable 5.2 results or
+this write-up. Their raw output is in `docs/readings/fable-trial-2026-11-09/deeper-design-sonnet/`.
+
+| | Deeper design, Fable 5.2 | Deeper design, Sonnet 5.5 |
+|---|---|---|
+| Quiet | 41 of 85 | 65 of 85 |
+| Noted | 21 | 14 |
+| Bears on an estimate | 10 | 4 |
+| Flagged for John | 13 | 2 |
+| Pages opened, by the readers' own lists | 230 | 91 |
+| Findings dated in the window that the records lack | 123 (26 against a treatment) | 61 (6 against a treatment) |
+| Records scored worth a news post | 14 | 3 |
+| Stories in the field-wide sweep | 23 | 16 |
+| Rough size of the run | about 2 million tokens, eleven minutes | about 1.2 million tokens, five minutes |
+| Readers stopped by a safety filter | 1 of 8, reread by two smaller readers | none |
+
+The same checklist, scored from the output files (a word search of each run's files, then read):
+
+| Story | Fable 5.2 | Sonnet 5.5 |
+|---|---|---|
+| Danazol trial results posted and status changed, 2026-10-27 | found | found |
+| Vertex's change of course, 2026-11-02 | found | found, from the company's own exhibit |
+| Rapamycin and length of life in transplant recipients, 2026-11-05 | found, by three readers | found, by one |
+| Full results of the inflammation-only heart drug trial, 2026-11-07 | found | found |
+| Negative metformin trial in 166 people (entry updated 2026-11-05) | found | found |
+| New trial of gut microbes on an ageing clock, registered 2026-11-03 | found | found |
+| NAD supplement trial highlighted 2026-11-06 | found, by a record reader and the sweep | found by the sweep only; the entry's own reader did not attach it |
+| New 1,200-person healthy-ageing trial, registered 2026-11-06 | found, by two readers | missed |
+| New trial of a weight-loss drug on a brain-age measure, registered 2026-10-30 | found | missed |
+| Japan's conditional approvals of 2026-03-06 (older than the window) | found | missed |
+| Account of resetting genes given outside any trial (older than the window) | flagged | missed |
+| Acumen's announcement of 2026-10-30 | missed | missed |
+
+**What this shows.** With the dated sources in front of it, Sonnet 5.5 found seven of the nine checked
+stories dated in or highlighted in the window, against the scheduled readings' none. So most of the gain
+comes from the design. What Fable 5.2 adds is the wider look: it opened two and a half times as many
+pages, found the two stories that had no record to start from, weighed ten items against the estimates
+where Sonnet 5.5 weighed four, and turned up nearly all of the older facts the entries lack (thirteen
+flags against two). Where a page failed to load, Fable 5.2 usually found another road and Sonnet 5.5
+usually stopped and called the record quiet; its claims reader returned sixteen of sixteen quiet and
+said its verdicts "rest on absence".
+
+**Where Sonnet 5.5 was better.** No reader was stopped by a safety filter. On the claim that two sister
+trials of the heart drug were halted, it noticed that the reports it opened disagree and marked the claim
+unverified, where the Fable 5.2 reader reported it as a fact; a web search in this session found the same
+disagreement. It also produced half the volume for John to rule on.
+
+**Limits.** One run of each model, so some of the difference is chance. The same single leak applies to
+both (the publications folder holds one release an earlier reading logged). The checklist was drawn from
+what the Fable 5.2 run found and this session then verified, which favours Fable 5.2: a story only
+Sonnet 5.5 found would not be on it. Reading the Sonnet 5.5 reports for such stories turned up small
+ones only (two cartilage trial records updated 2026-11-05, a 26-person drug-combination pilot marked
+completed 2026-10-30, a paper of 2026-11-05 on silencing one gene in human blood stem cells).
+
+**What it means for the choice of model (for John to rule).** Three workable arrangements, cheapest
+first: (a) Sonnet 5.5 on the deeper design every week, which already finds most of the week's news;
+(b) the same, with Fable 5.2 for the field-wide sweep and the assembling reader only, since stories with
+no record and the weighing against estimates are where it earned its cost; (c) Fable 5.2 throughout,
+with readers that save after every record and a retry for one that is stopped. Either way the newswires
+still have to be added, because neither model on this design caught the Acumen announcement. The
+backlog of older facts is a separate, one-off job that suits Fable 5.2 and does not need a weekly run.

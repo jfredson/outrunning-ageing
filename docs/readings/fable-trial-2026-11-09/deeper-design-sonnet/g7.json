@@ -1,0 +1,463 @@
+{
+ "records": [
+  {
+   "id": "kurzweil-grossman-2004-two-decades",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. Coverage of Kurzweil found is dated June 2026 (about 2032 for escape from ageing), outside the window and not opened.",
+   "findings": [],
+   "dated_queries": [
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Ray Kurzweil longevity escape velocity 2026 interview"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "kurzweil-grossman-2009-bridge-two",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. Not yet due (2029).",
+   "findings": [],
+   "dated_queries": [
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Ray Kurzweil longevity escape velocity 2026 interview"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "life-biosciences-2024-first-human-study-second-half-2025",
+   "kind": "claim",
+   "verdict": "flagged",
+   "found": "The company's news page (opened) shows nothing dated in the window; its latest item is 2026-10-08. The registry entry NCT07290244 reads recruiting, started 2026-03-02, last updated 2026-05-19, so there is no results posting and no update in the window.",
+   "findings": [
+    {
+     "date": "2026-11-09",
+     "what": "Registry entry NCT07290244: recruiting, start 2026-03-02, last update 2026-05-19, no results; no registry movement since the 2026-10-08 interim release",
+     "url": "https://clinicaltrials.gov/study/NCT07290244",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Life Biosciences ER-100 November 2026"
+   ],
+   "pages_opened": [
+    "https://www.lifebiosciences.com/news/",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244"
+   ],
+   "story_score": 0,
+   "story_why": "Quiet; nothing new in the window. Flag is only that the registry has not been updated since May, despite the October interim data. A search summary mentions a 'Phase 1 readout expected 4Q26' from a company-affiliated source, which I did not open."
+  },
+  {
+   "id": "loyal-2025-senior-dog-approval-by-end-of-2025",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. Loyal's own site returned nothing in the window; search results show only the 2026-01-13 safety-section post, already recorded.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Loyal dog longevity drug LOY-002 FDA news November 2026"
+   ],
+   "pages_opened": [
+    "https://loyal.com/posts (404)"
+   ],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "methuselah-foundation-2013-ninety-the-new-fifty-by-2030",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. Not yet due (2030).",
+   "findings": [],
+   "dated_queries": [
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Methuselah Foundation OR Aubrey de Grey announcement October 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "olshansky-2024-implausible-this-century",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. Europe PMC returned no Olshansky or radical-life-extension paper in the window.",
+   "findings": [],
+   "dated_queries": [
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "retro-biosciences-2022-clinic-next-year",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. The company blog (opened) lists only the undated financing post. Search results mention a widening of the Alzheimer's trial in August 2026, outside the window and not opened.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Retro Biosciences news November 2026"
+   ],
+   "pages_opened": [
+    "https://www.retro.bio/blog"
+   ],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "retro-biosciences-2022-ten-years",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Retro Biosciences news November 2026"
+   ],
+   "pages_opened": [
+    "https://www.retro.bio/blog"
+   ],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "salk-2016-up-to-ten-years-to-trials",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. Already marked delivered; the registry shows no change in the window.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Life Biosciences ER-100 November 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244"
+   ],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "sinclair-2019-lifespan",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches.",
+   "findings": [],
+   "dated_queries": [
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "David Sinclair biological age reversal claim November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "sinclair-2023-age-reversal-in-people",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. The trial he predicted is already recorded as started.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "David Sinclair biological age reversal claim November 2026"
+   ],
+   "pages_opened": [
+    "https://www.lifebiosciences.com/news/"
+   ],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "sinclair-2024-dog-supplement",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. The registry returned no Animal Biosciences study in the window.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "David Sinclair biological age reversal claim November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "unity-2016-senolytic-medicines",
+   "kind": "claim",
+   "verdict": "noted",
+   "found": "Two senolytic-related registry entries were updated in the window: NCT07275359 (senolytic properties in pulmonary rehabilitation and metformin in COPD exacerbation, not yet recruiting, updated 2026-11-03) and NCT04476953 (fisetin in COVID-19, active not recruiting, updated 2026-11-03). Neither is Unity's, and neither shows results.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Registry update to NCT07275359, a senolytic-themed trial not yet recruiting",
+     "url": "https://clinicaltrials.gov/study/NCT07275359",
+     "opened": false,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-03",
+     "what": "Registry update to NCT04476953, fisetin pilot in SARS-CoV-2",
+     "url": "https://clinicaltrials.gov/study/NCT04476953",
+     "opened": false,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Administrative updates only."
+  },
+  {
+   "id": "vijg-2016-limit-to-human-lifespan",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. Europe PMC returned no oldest-person or maximum-lifespan analysis in the window.",
+   "findings": [],
+   "dated_queries": [
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "xprize-healthspan-2023-launch",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "The prize page (opened) lists nothing dated in the window; latest items are the 2026-10-15 impact report and the 2026-08-11 finalist news, both already earlier than the window.",
+   "findings": [],
+   "dated_queries": [],
+   "web_queries": [],
+   "pages_opened": [
+    "https://www.xprize.org/prizes/healthspan"
+   ],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "bryan-johnson-blueprint",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. Searches returned only 2025 funding and CEO news and an undated protocol update.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Bryan Johnson Blueprint news November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "dave-pascoe",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches.",
+   "findings": [],
+   "dated_queries": [
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Peter Attia rapamycin OR Michael Lustgarten OR Dave Pascoe longevity 2026 November"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "david-sinclair-own-regimen",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches.",
+   "findings": [],
+   "dated_queries": [
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "David Sinclair biological age reversal claim November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "elizabeth-parrish-bioviva",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. A BioViva patent release is dated 2026-09-01 (patent issued 2026-03-03), outside the window and not opened.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "BioViva Elizabeth Parrish gene therapy telomerase 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "julie-gibson-clark",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Rejuvenation Olympics leaderboard Bryan Johnson DunedinPACE new record"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "michael-lustgarten",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches.",
+   "findings": [],
+   "dated_queries": [
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Peter Attia rapamycin OR Michael Lustgarten OR Dave Pascoe longevity 2026 November"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "mikhail-blagosklonny-rapamycin",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. Europe PMC returned no Blagosklonny paper in the window.",
+   "findings": [],
+   "dated_queries": [
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "peter-attia-rapamycin",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. Registry entry NCT07475546 (combination interventions for healthspan, includes rapamycin; completed, updated 2026-10-30) is not his.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Peter Attia rapamycin OR Michael Lustgarten OR Dave Pascoe longevity 2026 November"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  },
+  {
+   "id": "rejuvenation-olympics",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-10-25 to 2026-11-08 bears on this record in the dated sources or the web searches. Search results gave no dated leaderboard change; the live board was not opened.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: topic terms with LastUpdatePostDate 2026-10-25..2026-11-08 (ER-100, Retro/RTR242, senolytic, rapamycin ageing, Loyal LOY-002, Animal Biosciences)",
+    "europepmc FIRST_PDATE 2026-10-25..2026-11-08: reprogramming, rapamycin, senolytic, biological age, DunedinPACE, Dog Aging Project, maximum lifespan, Olshansky"
+   ],
+   "web_queries": [
+    "Rejuvenation Olympics leaderboard Bryan Johnson DunedinPACE new record"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": ""
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-10-30",
+   "what": "Dog Aging Project awarded about $29 million by the US National Institutes of Health for a five-year phase studying about 55,000 companion dogs (Tufts-led; first year $6.1 million). Neither rapamycin trial nor Loyal mentioned.",
+   "url": "https://longevity.technology/news/old-dogs-new-funding-dog-aging-project-fetches-29m-from-nih/",
+   "opened": true,
+   "why_it_matters": "Public money for the large dog-ageing cohort that sits beside Loyal's dog drug work; shows dogs as a testing ground."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "Longevity.Technology report of a new review arguing that ageing has several brakes and that gene switching may be the biggest speed limit; a review, not a trial.",
+   "url": "https://longevity.technology/news/epigenetics-may-be-agings-biggest-speed-limit/",
+   "opened": true,
+   "why_it_matters": "Commentary on the cell-settings branch; no treatment result."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "Longevity.Technology piece on a 500-person, six-month 'reverse ageing' programme (NeuroAge and TruDiagnostic). Dated one day after the window; noted only because it concerns biological-age clocks.",
+   "url": "https://longevity.technology/news/500-people-six-months-one-goal-reverse-aging/",
+   "opened": true,
+   "why_it_matters": "Outside the window by one day; consumer clock-based programme, no registered-trial result."
+  },
+  {
+   "date": "2026-10-2x to 2026-11-08",
+   "what": "Europe PMC lists two partial in-vivo reprogramming papers (PMIDs 42954813, 42924487, the latter in aged mice with ischaemic brain damage); animal work, abstracts not opened.",
+   "url": "https://europepmc.org/search?query=EXT_ID:42924487",
+   "opened": false,
+   "why_it_matters": "Mouse evidence for the cell-settings branch; does not meet any human test."
+  }
+ ]
+}
