@@ -63,7 +63,7 @@ described and not named, so it carries no link.
   explained in plain words in the second paragraph.
 - "Antibody" glossed as "an antibody drug that blocks one of the body's inflammation signals";
   "inflammation" glossed in the first paragraph; "placebo" said as "a dummy injection".
-- Every date says what happened on it: 7 November 2026 for the results; 9 November 2026 for the site's
+- Every date says what happened on it: November 7th, 2026 for the results; November 9th, 2026 for the site's
   move; July for the company announcement; 2027 for the trials still running.
 - The title names the site's change, not the trial as news. Rule 4.19: the post opens on the human
   question ("Can calming inflammation protect the heart?"), then the result, then why it matters. The
@@ -83,3 +83,12 @@ described and not named, so it carries no link.
 - Coinage budget: none. Closed loop: the body's links are mostly outside the site (the trial registry,
   the paper, the reports, Wikipedia); the treatment's page is linked for the reasons.
 - Genre: a short news story with its sources in the sentences; nothing reads as promotion.
+
+## John's edits (2026-11-09)
+
+- The title and two sentences no longer make the site its own agent ("the site expects", "the site
+  already counts", "what it still waits for"). John: it "makes the site its own agent, which is not
+  the goal of the project". The title is now in his voice, with the news first: "A heart trial found
+  no benefit, so I've moved my estimate for drugs that calm inflammation three years later".
+- Dates in the post's prose and source labels are spelled "November 7th, 2026", John's rule for
+  public prose (2026-10-21).
