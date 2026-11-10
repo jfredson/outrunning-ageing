@@ -6,7 +6,7 @@ summary: On 7 November 2026 the full results of ZEUS, the biggest test in years 
 records: [an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks]
 reading: 2026-11-09
 before: "Wide use most likely in 2032 (no earlier than 2027, no later than 2050)"
-after: "Most likely in 2035 (no earlier than 2028, no later than 2055)"
+after: "most likely in 2035 (no earlier than 2028, no later than 2055)"
 sources:
   - label: Ridker and others, the full ZEUS report, New England Journal of Medicine, 7 November 2026
     url: https://doi.org/10.1056/NEJMoa2612126
