@@ -1,0 +1,128 @@
+{
+ "reading_as_of": "2026-11-01",
+ "window": {"from": "2026-10-25", "to": "2026-11-01"},
+ "limits": "The search tool cannot limit results by date, so each search only asked for the window in its words. Nine records, two or three searches each, five pages opened.",
+ "records": [
+  {
+   "id": "a-drug-lengthens-chromosome-ends-in-a-person",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "danazol telomere length trial results journal October 2026",
+    "telomere biology disorder treatment lengthens telomeres patients news this week November 2026"
+   ],
+   "found": "The searches returned the 2016 danazol trial and its registry entry, the 2024 conference abstract of the long-term follow-up, a 2023 pilot trial of danazol in women with low ovarian reserve (no change in telomere length), a recruiting early trial of nucleoside therapy for telomere diseases, and 2025 to mid-2026 coverage of the company Elixirgen's cell therapy. None is dated in the window of 2026-10-25 to 2026-11-01, none is a regulator's approval, and the follow-up of the danazol trial is already in this entry's notes.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "a-gene-is-edited-inside-a-persons-body",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "Intellia press release nex-z MAGNITUDE October 2026",
+    "in vivo CRISPR gene editing therapy FDA approval BLA transthyretin hereditary angioedema news late October 2026",
+    "New England Journal of Medicine in vivo gene editing nexiguran ziclumeran phase 3 results published October 2026"
+   ],
+   "found": "No approval and no late-stage trial report turned up for the window. The searches returned the company Intellia's report of 2026-08-06 (already logged for this entry), the lifting of the trial hold in January 2026, the phase 1 papers of 2024 and 2025, and trade reports of 2026-09-08 that the American regulator accepted the filing for the same company's editor for hereditary angioedema, with a decision due 2027-03-10. That filing is before the window, is for a disease that is neither age-related nor one of DNA damage, and the entry's own change log already holds a pending note on it. One company release returned by the search is dated after 2026-11-01, outside the window, and was set aside.",
+   "sources": [],
+   "pages_opened": ["https://www.biopharmawatch.com/news/NTLA/intellia-completes-enrollment-magnitude-2-trial-nex-z (opened to check its date: 2026-11-04, outside the window, set aside)"],
+   "for_john": ""
+  },
+  {
+   "id": "aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "ClinicalTrials.gov senolytic randomized placebo-controlled trial results primary endpoint October 2026",
+    "senolytic drug trial result news this week UBX1325 foselutoclax dasatinib quercetin late October 2026"
+   ],
+   "found": "No new controlled result turned up for the window. The searches returned older items: the 2024 bone trial of dasatinib and quercetin in older women (main measure not met), the Unity Biotechnology eye and knee trials already in this entry, the company Rubedo's early skin-drug trial reported in March 2026 (its main measure was safety), and fisetin trials still recruiting. A registry listing opened for trials updated in the window did not narrow to drugs of this class and showed nothing that bears on the test. No regulator's approval of a drug of this class was reported.",
+   "sources": [],
+   "pages_opened": ["https://clinicaltrials.gov/api/v2/studies?query.term=senolytic+OR+senescent&filter.advanced=AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-01] (first 50 rows read; the listing was not specific to this drug class and was not relied on)"],
+   "for_john": ""
+  },
+  {
+   "id": "aged-cell-clearing-drug-relieves-knee-arthritis",
+   "kind": "treatment",
+   "verdict": "flagged",
+   "queries": [
+    "ClinicalTrials.gov senolytic knee osteoarthritis trial fisetin results 2026",
+    "senescent cells knee osteoarthritis senolytic injection pain placebo new study October 2026"
+   ],
+   "found": "Nothing dated in the window turned up: the searches returned the 2020 Unity Biotechnology knee trial, the Steadman Philippon fisetin trial and the withdrawn trial called ROPE, all already in this entry's notes. They also returned a second Steadman Philippon trial that the entry does not name. I searched the treatment, paper, claim and self-experiment records for its registry number and for 'losartan' and found neither. Its registry entry, opened on the registry's data interface, shows: 'Use of Senolytic and Anti-Fibrotic Agents to Improve the Beneficial Effect of Bone Marrow Stem Cells for Osteoarthritis' (registry number NCT04815902), 100 people with knee osteoarthritis, four groups (fisetin with losartan, fisetin alone, losartan alone, placebo for both), every group also given an injection of concentrated bone marrow; started 2021-05-18, last updated 2024-04-16, status unknown, no results posted. Its main measure is safety, so even with results it would not meet this entry's test as written. A suspended Assiut University trial of quercetin and fisetin with a third drug (20 people) was seen in a search result only.",
+   "sources": ["https://clinicaltrials.gov/api/v2/studies/NCT04815902"],
+   "pages_opened": ["https://clinicaltrials.gov/api/v2/studies/NCT04815902"],
+   "for_john": "An older record the entry missed, not a result in the window. The change I would have made: a dated note saying that the Steadman Philippon Research Institute has a second placebo-controlled fisetin trial in knee osteoarthritis (registry number NCT04815902, 100 people, fisetin with or without losartan on top of a bone marrow injection, started 2021-05-18, status unknown since the registry update of 2024-04-16, no results posted, main measure safety), and rewording the sentence in the notes that calls the first trial the only fisetin trial in knee osteoarthritis on this record. The stage and the years would not change. It is not mine to make because a reading does not edit an entry's notes on an older record. Source opened: the registry entry. Seen in a search result only, not opened: an Assiut University trial of quercetin and fisetin with a third drug in knee osteoarthritis, listed as suspended, 20 people, on a registry mirror (ctv.veeva.com, 'Effect of natural senolytic agents, NLRP3 inhibitors, on osteoarthritis')."
+  },
+  {
+   "id": "clearing-aged-cells-makes-old-animals-live-longer",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "senolytic trial lifespan healthspan humans peer-reviewed journal placebo age-related disease prevention October 2026",
+    "\"senolytics\" news older adults trial frailty results announced week of October 26 2026"
+   ],
+   "found": "No trial in people reporting longer life or more disease-free years from a drug of this class turned up, in the window or before it. The searches returned the 2018 mouse report already in this entry's notes, the 2019 pilot in lung scarring, the 2024 bone trial in older women, and placebo-controlled fisetin trials that are still running (a Danish trial in older patients with several conditions, a Cedars-Sinai lung-function trial listed as starting in July 2026), none with results.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "drug-clears-aged-cells-from-a-person",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "senolytic FDA approval senescent cells drug approved regulator 2026",
+    "senescent cell burden reduced in humans biopsy senolytic study published October 2026 p16 p21"
+   ],
+   "found": "No approval of a drug of this class and no new measurement study turned up for the window. The searches returned trade and blog pieces from March to June 2026 saying no such drug is approved by the American regulator, the company Rubedo's permission to start a trial of a skin drug in sun-damaged skin (a permission to test, not an approval), the 2019 kidney-disease report that is this entry's record, and a 2025 paper on blood and tissue markers of aged cells for use in trials.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "gene-therapy-lengthens-chromosome-ends-in-an-old-animal",
+   "kind": "treatment",
+   "verdict": "flagged",
+   "queries": [
+    "ClinicalTrials.gov telomerase gene therapy TERT AAV trial humans telomere length 2026",
+    "telomerase gene therapy first patient news Telomere Therapeutics Elixirgen EXG-34217 October 2026"
+   ],
+   "found": "Nothing dated in the window turned up, and no report of longer telomeres in a person after a telomerase gene therapy. The searches returned the 2019 Colombian trial and the 2025 report of two patients given cells treated with the gene ZSCAN4, both already in this entry. They also returned a registered telomerase gene therapy trial in people that the entry does not name. I searched the treatment, paper, claim and self-experiment records for its registry number, its drug name, 'dilated cardiomyopathy', 'Shanghai East' and 'Tongji' and found none. Its registry entry, opened on the registry's data interface, shows: 'Myocardial Telomere Recapping Study for Dilated Cardiomyopathy' (registry number NCT05837143), sponsored by Shanghai East Hospital with the company Shanghai Juvensis Therapeutics; a single infusion into the heart's arteries of a harmless virus carrying a modified telomerase gene, switched on in heart muscle; 12 people enrolled; started 2023-03-30; last updated 2024-07-16 with status unknown; no results posted. It does not list telomere length or cancer rate among its measures, so it does not meet the first human test.",
+   "sources": ["https://clinicaltrials.gov/api/v2/studies/NCT05837143"],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=telomerase+TERT+AAV+dilated+cardiomyopathy (to find the registry number)",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05837143"
+   ],
+   "for_john": "An older record the entry missed, not a result in the window. The change I would have made: a dated note, beside the one on the Colombian trial, saying the registry holds a second trial of a telomerase gene therapy in people (registry number NCT05837143, Shanghai East Hospital with Shanghai Juvensis Therapeutics, 12 people with heart failure from an enlarged, weakened heart, one infusion of a virus carrying a modified telomerase gene, started 2023-03-30, status unknown since the update of 2024-07-16, no results, and neither telomere length nor cancer rate among its listed measures). The estimate's dated note says the registry holds one such trial; this makes two, and the entry's 'far' reasoning may want to weigh that twelve people appear to have been dosed. The first human rung does not move: no peer-reviewed report, no telomere measurement. It is not mine to make because a reading does not edit notes or estimates on an older record. Source opened: the registry entry. Seen in a search result only and not opened, and I doubt it: an aggregator brief dated 2026-03-28 (the-teknologist.pages.dev, 'biotech longevity brief 2026-03-28') saying the company Rejuvenate Bio dosed a first person with a telomerase gene therapy; no company release or registry entry for it was returned."
+  },
+  {
+   "id": "immune-cells-engineered-to-kill-aged-cells",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "ClinicalTrials.gov senolytic CAR T uPAR first-in-human trial senescent cells 2026",
+    "engineered immune cells clear senescent cells CAR-T NKG2D aging study news October 2026"
+   ],
+   "found": "No trial in people of immune cells engineered against aged cells turned up, on the registry or in the news, and nothing dated in the window. The searches returned the 2020 and 2024 mouse reports already in this entry, and coverage of a Sichuan University group's engineered cells aimed at a different surface marker (NKG2D ligands), reported to lower aged cells in mice and in monkeys; that is animal work from before the window, seen in search results only, and the animal rung is already reached.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "premature-ageing-mutation-corrected-in-a-living-animal",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "ClinicalTrials.gov progeria base editing trial first patient LMNA adenine base editor 2026",
+    "progeria gene editing news Progeria Research Foundation base editor clinical trial child treated October 2026"
+   ],
+   "found": "No registered trial and no report of a person with progeria having the mutation corrected turned up. The searches returned only the 2021 mouse report that is this entry's record and its coverage from that year, the Progeria Research Foundation's statement at the time that more animal work was needed, and a research grant on gene therapy for progeria whose funding period ran to 2026-02-28. No result was dated in the window.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+  "reader": "g2",
+  "procedure": "existing weekly reading, step 1, run as if on 2026-11-01",
+  "window": "2026-10-25 to 2026-11-01",
+  "limits": "The search tool cannot limit results by date, so each search only asked for the window in its words. Two pages refused to open (Biogen's own investor site and a Fierce Pharma article); the Biogen release was read as the full text carried on a news site. One query to the Europe PMC literature database by publication date was run for the partial-resetting treatment; the procedure names Europe PMC only for opening a known paper, not for finding papers, so the two papers it found are marked as found outside the procedure. While checking whether the records already held a find, the publications log showed a company release dated 2026-10-29 (Alnylam's third-quarter results), which looks like it was logged by an earlier reading of this same week; it is named where it bears and was not used to find anything.",
+  "records": [
+    {
+      "id": "a-cells-settings-are-rewritten-at-one-gene-in-a-person",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "ClinicalTrials.gov NCT06671093 Tune Therapeutics TUNE-401 hepatitis B epigenetic silencer results October 2026",
+        "epigenetic editing first in human peer-reviewed results PCSK9 or hepatitis B durable silencing news late October 2026",
+        "Tune Therapeutics press release October 2026 TUNE-401 publication phase 2"
+      ],
+      "found": "The searches returned the company's conference presentation of 2026-05-30 and coverage of it, which the record already describes, and no peer-reviewed report of the hepatitis B trial. The trial's registry entry, opened through the registry's data interface, still shows no posted results: recruiting, last updated 2026-01-06, an estimated 36 people, primary completion estimated 2028-06-28. One search result said a second company's cholesterol-gene silencer (Scribe's STX-1150) entered a human trial in mid 2026; it was seen in a search result only, is dated before the window, and reports no result in a person.",
+      "sources": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT06671093"
+      ],
+      "pages_opened": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT06671093"
+      ],
+      "for_john": ""
+    },
+    {
+      "id": "a-cocktail-of-ordinary-drugs-resets-cell-age",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "Aging Cell journal chemical reprogramming cocktail mice epigenetic age reversed in vivo October 2026",
+        "small molecule partial reprogramming rejuvenation mice study news this week November 2026"
+      ],
+      "found": "The searches returned only older work: the 2023 report of six chemical mixes in a dish, and a study of chemical resetting in mouse skin cells in a dish (eLife). No result turned up, in a journal search or a news-style search for the window, of a living animal given a chemical mix and read on a marker of biological age.",
+      "sources": [],
+      "pages_opened": [],
+      "for_john": ""
+    },
+    {
+      "id": "a-person-receives-cell-resetting-genes-in-a-trial",
+      "kind": "treatment",
+      "verdict": "flagged",
+      "queries": [
+        "Life Biosciences press release ER-100 October 2026",
+        "partial epigenetic reprogramming OSK gene therapy human trial dosed news late October 2026"
+      ],
+      "found": "Nothing dated in the window turned up. The searches returned the company's interim results of 2026-10-08, which the record already describes, and the trial's registry entry is unchanged (recruiting, an estimated 18 people, last updated 2026-05-19, no posted results). They also returned an older claim the record does not hold: a foundation's release of 2026-09-30 saying a person was given a gene therapy containing three of the cell-resetting genes on 2026-03-11, outside any registered trial. The records were searched for the foundation's name and the developer's name (the treatment files, the publications log, the claims and the self-experiments) and neither appears.",
+      "sources": [
+        "https://khlfoundation.com/resources-center/madrid-2026-press-release/",
+        "https://www.fightaging.org/archives/2026/10/khl-foundation-reports-the-likely-first-human-partial-epigenetic-reprogramming-treatments/",
+        "https://clinicaltrials.gov/api/v2/studies/NCT07290244"
+      ],
+      "pages_opened": [
+        "https://khlfoundation.com/resources-center/madrid-2026-press-release/",
+        "https://www.fightaging.org/archives/2026/10/khl-foundation-reports-the-likely-first-human-partial-epigenetic-reprogramming-treatments/",
+        "https://clinicaltrials.gov/api/v2/studies/NCT07290244"
+      ],
+      "for_john": "An older report the entry missed, and a press-only one, so it is not mine to act on. The KHL Foundation's release of 2026-09-30 (Madrid), reported by Fight Aging! on 2026-10-07, says that on 2026-03-11 a named person, one of 'a small number of people', was given an eleven-gene therapy that includes three of the cell-resetting genes (OCT4, SOX2 and KLF4), injected under a mucous membrane and switched on with doxycycline, in a project of Triple Helix Science led by a named doctor. The release names no registered trial and no registry number, reports no result, and says the foundation is still checking whether it was the first such dose anywhere. It does not meet this entry's test, which asks for a registered trial, so no stage would change. The change I would have made is a sentence in the notes saying that a dose outside any trial is claimed three months before the trial's first dose of 2026-06-09, and a check that the description's sentence about the genes having been tried only in animals until 2026 still reads correctly beside it. Both dates are before this week's window. Opened: the foundation's release, the Fight Aging! post and the trial's registry entry. Not opened: Triple Helix Science's own site."
+    },
+    {
+      "id": "a-persons-biological-age-reading-falls-after-treatment",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "Aging Cell OR \"Nature Aging\" epigenetic clock randomized controlled trial intervention reduced epigenetic age published October 2026",
+        "biological age reversed trial DNA methylation clock study news this week late October 2026 TRIIM-X results"
+      ],
+      "found": "The searches returned earlier 2026 work only: the reanalysis of 51 studies reported by Yale in August 2026, which the record already names, a multivitamin trial reported in March 2026, and a small yogurt-and-exercise trial of May 2026. No result turned up for the window, and nothing on results from the larger follow-up to the 2019 thymus trial. No regulator's approval resting on a clock and no clinic's published clock-monitored practice was returned.",
+      "sources": [],
+      "pages_opened": [],
+      "for_john": ""
+    },
+    {
+      "id": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+      "kind": "treatment",
+      "verdict": "noted",
+      "queries": [
+        "FDA approval lecanemab donanemab October 2026 label Leqembi Kisunla regulator decision",
+        "Leqembi uptake patients treated third quarter 2026 Eisai Biogen results Alzheimer's antibody news",
+        "Biogen third quarter 2026 results press release Leqembi sales October 2026"
+      ],
+      "found": "Biogen's results release of 2026-10-28 for the quarter ending 2026-09-30 gives worldwide sales of the antibody (lecanemab) of $202 million, up from $121 million a year earlier, with $107 million of it in the United States. Like the release for the quarter before, which the record already holds at $184 million, it gives sales and no count of people treated or eligible, so it bears on the wide-use rung and does not meet it. Biogen's own site refused the page, so the release was read as the full text carried on a news site (BiopharmaWatch). The searches returned no regulator's decision dated in the window. The publications log was searched for the release and holds only the companies' July release.",
+      "sources": [
+        "https://www.biopharmawatch.com/news/BIIB/biogen-reports-third-quarter-2026-results"
+      ],
+      "pages_opened": [
+        "https://www.biopharmawatch.com/news/BIIB/biogen-reports-third-quarter-2026-results"
+      ],
+      "for_john": "",
+      "publication_to_log": {
+        "title": "Biogen Reports Third Quarter 2026 Results",
+        "date": "2026-10-28",
+        "venue": "Company results release",
+        "finding": "Worldwide sales of lecanemab of $202 million in the third quarter of 2026 (up 67 per cent on a year earlier), $107 million of it in the United States. The release gives no number of people treated or eligible.",
+        "notes": "Biogen's own investor site refused the page (https://investors.biogen.com/news-releases/news-release-details/biogen-reports-third-quarter-2026-results); read as the wire text on BiopharmaWatch."
+      }
+    },
+    {
+      "id": "drug-boosts-the-cells-recycling-of-worn-parts",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "spermidine OR \"urolithin A\" randomized placebo-controlled trial primary endpoint journal published October 2026 older adults autophagy",
+        "autophagy inducer drug clinical trial results ageing memory muscle heart news late October 2026"
+      ],
+      "found": "The searches returned the 2022 spermidine memory trial and the 2022 urolithin A trials, which the record already holds, a 2025 urolithin A trial of immune cells in Nature Aging, and mentions of a spermidine trial in older people with coronary artery disease said to finish in August 2026, with no published results found. One result said Retro Biosciences began a safety trial of a recycling booster in January 2026. No controlled trial meeting its main measure turned up for the window; all of these were seen in search results only.",
+      "sources": [],
+      "pages_opened": [],
+      "for_john": ""
+    },
+    {
+      "id": "drug-breaks-the-sugar-cross-links-that-stiffen-old-tissue",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "glucosepane cross-link breaker journal paper 2026 Revel Pharmaceuticals animal study advanced glycation end product breaker",
+        "AGE crosslink breaker arterial stiffness drug trial news October 2026"
+      ],
+      "found": "The searches returned the 2001 alagebrium trial and later alagebrium studies, and a Fight Aging! post of July 2026 on a Nature Communications paper about an enzyme that removes a different sugar-derived mark (carboxymethyllysine, not glucosepane), tested on aged human tissue samples. That paper is dated before the window and was seen in a search result only. No regulator's approval and no new trial in people turned up in a news-style search for the window.",
+      "sources": [],
+      "pages_opened": [],
+      "for_john": ""
+    },
+    {
+      "id": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "FDA approval transthyretin amyloid cardiomyopathy October 2026 tafamidis acoramidis nucresiran depleter antibody",
+        "ATTR-CM tafamidis prescriptions patients treated Pfizer third quarter 2026 Vyndaqel uptake generic news"
+      ],
+      "found": "The searches returned the approvals of acoramidis (November 2024) and vutrisiran (March 2025), Pfizer's settlements with three generic makers of April 2026, and third-quarter sales figures for tafamidis from an analysis dated 2026-11-04, which is after the window, and from a Fierce Pharma article that refused to open, so its date could not be checked. All of these give sales, not the share of eligible patients treated, so none meets the wide-use rung, and no new approval was returned for the window. The publications log already holds Alnylam's third-quarter release of 2026-10-29 on the competing drug, which likewise gives revenue only.",
+      "sources": [],
+      "pages_opened": [],
+      "for_john": ""
+    },
+    {
+      "id": "eye-drops-dissolve-the-clouded-protein-of-a-cataract",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "ClinicalTrials.gov NCT07395986 Ocusun ZOC2017217 cataract eye drop pilot study update 2026",
+        "cataract eye drops lanosterol OR oxysterol reverse lens opacity study news October 2026"
+      ],
+      "found": "The searches returned the July 2026 coverage of the pilot trial's first patient and older work on lanosterol and a related compound in mice (2022 and earlier). The trial's registry entry, opened through the registry's data interface, has not changed since its update of 2026-08-11: active and no longer recruiting, 8 people enrolled, primary completion estimated 2027-02, no posted results. The record already holds those figures. No published result in people and no second group's repeat of the animal result turned up.",
+      "sources": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT07395986"
+      ],
+      "pages_opened": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT07395986"
+      ],
+      "for_john": ""
+    },
+    {
+      "id": "partially-resetting-cells-reverses-ageing-in-an-animal",
+      "kind": "treatment",
+      "verdict": "noted",
+      "queries": [
+        "Cell OR Nature journal partial reprogramming OSK in vivo mice rejuvenation paper published late October 2026",
+        "cellular rejuvenation reprogramming therapy human results peer-reviewed Life Biosciences Altos Retro NewLimit news week of October 26 2026"
+      ],
+      "found": "The two web searches returned nothing dated in the window: the company's interim eye-trial results of 2026-10-08, which the record already describes, and a Neuron paper reported in February 2026 in which resetting memory-holding nerve cells restored memory in old mice. Two peer-reviewed mouse papers dated in the window were found another way, by a date-limited query to the Europe PMC literature database, which the procedure does not name as a way of finding papers; on the web searches alone this item would be quiet. Meiners and colleagues (Aging, 2026-10-27) reanalysed existing gene-activity data from the liver, kidney and spleen of old mice after seven months of cyclic resetting: age-related inflammation fell in liver and kidney, and the spleen showed signs of sustained growth stress that the authors call a possible risk. Mallavibarrena and colleagues (Aging Cell, dated 2026-11-01) report that old mice given cyclic resetting had less brain damage and better movement scores 48 hours after a stroke than untreated mice. Both are animal results on a rung the treatment already holds, and neither is a result in a person, so nothing moves. The records were searched for both first authors and both paper identifiers and hold neither.",
+      "sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.18632/aging.206431%22&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1111/acel.70776%22&format=json&resultType=core",
+        "https://lifespan.io/news/cellular-reprogramming-rescues-memory-encoding-neurons/"
+      ],
+      "pages_opened": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.18632/aging.206431%22&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1111/acel.70776%22&format=json&resultType=core",
+        "https://lifespan.io/news/cellular-reprogramming-rescues-memory-encoding-neurons/"
+      ],
+      "for_john": "",
+      "found_outside_procedure": "One query to Europe PMC limited to first publication dates 2026-10-25 to 2026-11-01 (terms: partial reprogramming, chemical reprogramming, epigenetic editing, epigenome editing; 23 results). The existing procedure names Europe PMC only for opening a known paper. Count this item as quiet if the trial scores only what the named web searches found.",
+      "publications_to_log": [
+        {
+          "title": "Investigating the efficacy and toxicity of partial in vivo reprogramming as a rejuvenation intervention",
+          "authors": "Meiners F, Palmer D, Avelar RA, Barrantes I, Fuellen G",
+          "venue": "Aging (Albany NY), volume 18, pages 1469-1493",
+          "date": "2026-10-27",
+          "doi": "10.18632/aging.206431",
+          "notes": "Abstract read on Europe PMC; the full text was not opened."
+        },
+        {
+          "title": "In Vivo Partial Cell Reprogramming With Yamanaka Factors Reduced Ischemic Brain Damage in Aging Mice",
+          "authors": "Mallavibarrena PR, Martín-López G, Rodríguez-Morales J, Ávila J, Hernández F, Pérez-Álvarez MJ",
+          "venue": "Aging Cell, volume 25, issue 11, e70776",
+          "date": "2026-11-01",
+          "doi": "10.1111/acel.70776",
+          "notes": "Abstract read on Europe PMC, which gives 2026-11-01 as both the first and the print date; the date it first appeared online may be earlier and was not checked on the journal's page."
+        }
+      ]
+    }
+  ]
+}

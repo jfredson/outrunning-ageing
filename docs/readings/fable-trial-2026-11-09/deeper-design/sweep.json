@@ -1,0 +1,357 @@
+{
+ "stories": [
+  {
+   "date": "2026-11-07",
+   "what": "The full results of the ZEUS trial were presented at the American Heart Association meeting and published in the New England Journal of Medicine: in 6,376 people with hardened arteries, chronic kidney disease and raised inflammation, the antibody ziltivekimab (which blocks the inflammatory messenger interleukin-6) lowered inflammation markers but did not lower heart attacks, strokes or cardiovascular deaths (17.6% against 17.7% on placebo; hazard ratio 0.99). Serious infections (20.4% against 17.9%) and serious blood clots in veins (1.6% against 0.6%) were more common on the drug.",
+   "url": "https://www.hcplive.com/view/ziltivekimab-fails-to-reduce-cardiovascular-events-in-ascvd-and-ckd-zeus",
+   "opened": true,
+   "source_kind": "trade press reporting a conference presentation and journal paper",
+   "direction": "against",
+   "matches_record": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+   "in_records_already": true,
+   "importance": 3,
+   "why": "The record already holds the company's headline announcement of 2026-07-31 (hazard ratio 0.99). What is new in the window is the peer-reviewed full result, with the safety figures and the investigators' argument that the trial population was too sick; it is the largest test yet of a drug that acts only on inflammation, and it failed. Also opened: Healio 2026-11-07 and BioSpace 2026-11-09. The journal paper itself was not opened."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "A study in the journal GeroScience used the United States transplant registry to compare 4,885 kidney transplant recipients prescribed rapamycin with 6,589 who were not, followed for a median of 11 years. After adjusting for differences between the groups, the median age at death was the same (64.6 against 64.3 years; the 95% range for the difference ran from 1.6 years shorter to 2.0 years longer).",
+   "url": "https://doi.org/10.1007/s11357-026-02643-8",
+   "opened": true,
+   "source_kind": "journal paper (abstract read through Europe PMC; the publisher's page refused the fetch)",
+   "direction": "against",
+   "matches_record": "rapamycin-improves-an-age-related-measure-in-older-people",
+   "in_records_already": false,
+   "importance": 3,
+   "why": "One of the largest sets of human data on years of rapamycin use, and it shows no gain in survival. It is observational and in transplant patients on other immune-suppressing drugs, so it does not settle the question for healthy people, but it bears directly on the rapamycin record and on the self-experiment records of people taking it (Peter Attia, Mikhail Blagosklonny)."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "Vertex's third-quarter results release says the company will put its effort into VX-017, a stem-cell-derived islet cell therapy for type 1 diabetes that works for any blood type, and move it into pivotal trials in 2027. That sets aside zimislecel, the earlier version that had restored insulin production in trial patients, which the release says is designed for blood types A or A/B only; no filing for zimislecel is mentioned.",
+   "url": "https://finviz.com/news/413471/vertex-reports-third-quarter-2026-financial-results",
+   "opened": true,
+   "source_kind": "company results release (Business Wire text carried by Finviz; the company's own investor page refused the fetch)",
+   "direction": "neutral",
+   "matches_record": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+   "in_records_already": false,
+   "importance": 3,
+   "why": "The leading example of cells grown from stem cells restoring a lost organ function is being replaced by a successor before it reaches a regulator, which pushes the first approval of such a therapy for diabetes back to after 2027. The record names Vertex; no record text mentions zimislecel or VX-017."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "A paper in Nature describes a one-time infusion that rewrites a single DNA letter in liver cells to switch off the gene ANGPTL3, which drives up cholesterol and blood fats. In monkeys it cut the protein by more than 90% for at least three years, and the paper says this was the basis for a first-in-human trial now under way in people with hard-to-treat high blood fats.",
+   "url": "https://www.nature.com/articles/s41586-026-11233-9",
+   "opened": true,
+   "source_kind": "journal paper",
+   "direction": "for",
+   "matches_record": "a-gene-is-edited-inside-a-persons-body",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "Gene editing inside the body is moving from rare inherited disease to the commonest cause of age-related death (artery disease). The paper is animal and cell data; the human trial it names has not reported, so it does not change the stage."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Intellia's third-quarter results release says enrolment is complete in its phase 3 trial of nex-z, a one-time gene edit inside the body, for the nerve form of transthyretin amyloidosis, and that enrolment in the heart-form trial is advancing. The company has begun giving investigators immune-gene test results for patients, after earlier liver-enzyme rises were tied to one gene variant.",
+   "url": "https://finviz.com/news/416921/intellia-therapeutics-announces-third-quarter-2026-financial-results-and-business-updates",
+   "opened": true,
+   "source_kind": "company results release (GlobeNewswire text carried by Finviz; the company's own investor page refused the fetch)",
+   "direction": "for",
+   "matches_record": "a-gene-is-edited-inside-a-persons-body",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "The records hold the company's second-quarter release (intellia-2026-q2) but not this one. A fully enrolled phase 3 trial of an in-body gene edit for an age-related protein disease is a concrete step toward an approval. It also bears on the record of the drug that stops a misfolded protein piling up in the heart. The safety-testing detail was read from a search summary and the release headline, not the full text."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "The journal Nature Aging ran a research highlight headed 'NAD+ precursor fails in Parkinson's disease', on the NOPARK trial: 410 people with early Parkinson's took nicotinamide riboside or placebo twice a day for a year. Press coverage of the trial paper, published in JAMA on 2026-10-08 (before this window), says the supplement did not slow the disease and symptom scores were slightly worse on it.",
+   "url": "https://www.nature.com/articles/s43587-026-01277-x",
+   "opened": true,
+   "source_kind": "journal news item on a trial paper published earlier",
+   "direction": "against",
+   "matches_record": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+   "in_records_already": false,
+   "importance": 3,
+   "why": "The largest and longest controlled trial of an NAD-raising supplement, and it found no benefit. The records do not hold it (a search for the trial name and its senior author found nothing). The trial paper is dated 2026-10-08, outside the window; the highlight in the window is what surfaced it. The trial figures beyond the design were read from a search summary of press coverage, not from the JAMA paper."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "A paper in Nature Aging reports that vanadyl sulfate, a mineral sold as a dietary supplement, kills aged (senescent) cells by exploiting a weakness in how they handle protein folding. Given by mouth it eased several age-related conditions and extended lifespan in male mice.",
+   "url": "https://www.nature.com/articles/s43587-026-01253-5",
+   "opened": true,
+   "source_kind": "journal paper",
+   "direction": "for",
+   "matches_record": "clearing-aged-cells-makes-old-animals-live-longer",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A new aged-cell-clearing compound with a lifespan result in a top field journal. Mouse data, males only, so it adds to a record already at 'shown in animals' without moving it."
+  },
+  {
+   "date": "2026-10-30",
+   "what": "lifespan.io reports a paper in Advanced Science: a nanoparticle vaccine that trains immune cells to attack aged cells carrying the protein Gpnmb, given late in life, lowered markers of aged cells and raised median lifespan by 12% in female mice. The article notes the untreated mice were short-lived, which weakens the result.",
+   "url": "https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/",
+   "opened": true,
+   "source_kind": "field press reporting a journal paper",
+   "direction": "for",
+   "matches_record": "immune-cells-engineered-to-kill-aged-cells",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A second route to making the immune system clear aged cells, with a lifespan figure. The record already cites Gpnmb. The short-lived controls are a known reason to discount mouse lifespan gains. The Advanced Science paper itself was not opened."
+  },
+  {
+   "date": "2026-10-28",
+   "what": "lifespan.io and Fight Aging! report a Nature Aging paper (Plesa and colleagues, from George Church's group): raising one RNA-processing protein, SRSF1, made human cells look younger by their gene activity, and raising it in the livers of mice reduced frailty and extended lifespan. The authors present it as a way to get the benefit of cell resetting without the risk of cells losing their identity.",
+   "url": "https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/",
+   "opened": true,
+   "source_kind": "field press reporting a journal paper",
+   "direction": "for",
+   "matches_record": "partially-resetting-cells-reverses-ageing-in-an-animal",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "An alternative to the Yamanaka genes with a mouse lifespan result. Animal data only. The paper is in the journal's October issue and its online date was not checked; the press coverage is in the window."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Fight Aging! reports a paper in which a circular RNA carrying three of the Yamanaka genes, delivered in fat droplets, gave a short burst of cell resetting that made aged stem cells from connective tissue behave younger without turning them into unspecialised cells. A second paper, in Aging Cell on 2026-11-01, found that cycles of the four Yamanaka genes in aged mice shrank the brain damage from a stroke.",
+   "url": "https://www.fightaging.org/archives/2026/11/circular-rna-encoding-yamanaka-factors-enables-partial-reprogramming-without-pluripotency/",
+   "opened": true,
+   "source_kind": "field press reporting a journal paper; second paper's abstract read through Europe PMC (doi 10.1111/acel.70776)",
+   "direction": "for",
+   "matches_record": "partially-resetting-cells-reverses-ageing-in-an-animal",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Two more animal and cell results on partial cell resetting, one aimed at the main safety worry. Incremental; no change of stage."
+  },
+  {
+   "date": "2026-10-27",
+   "what": "lifespan.io reprinted Life Biosciences' announcement of the first human data on its cell-resetting gene therapy ER-100: three people with glaucoma, no serious side effects by day 56, and better visual-field scores in two of them. The company's own release is dated 2026-10-08, before this window.",
+   "url": "https://lifespan.io/life-biosciences-announces-first-in-human-phase-1-trial-data/",
+   "opened": true,
+   "source_kind": "company press release reprinted by field press",
+   "direction": "for",
+   "matches_record": "a-person-receives-cell-resetting-genes-in-a-trial",
+   "in_records_already": true,
+   "importance": 1,
+   "why": "The most important reprogramming news of the season, but it is not new in the window and the records already hold it (life-biosciences-2026-interim, dated 2026-10-08). Listed so that the reprint is not mistaken for a new result."
+  },
+  {
+   "date": "2026-10-28",
+   "what": "The United States health department said it will not enforce the ban on pharmacies compounding six unapproved peptides popular for 'wellness' and longevity use (BPC-157, epitalon, KPV, MOTS-c, Semax and TB-500) if ten conditions are met, while the drug regulator writes a rule. The notice was due in the Federal Register on 2026-10-30; it is a draft policy, not an approval, and the reports say the department did not follow the regulator's staff advice.",
+   "url": "https://www.ajmc.com/view/hhs-draft-policy-eases-enforcement-on-6-compounded-peptides",
+   "opened": true,
+   "source_kind": "trade press reporting a government notice (also Endpoints News 2026-10-28, headline and opening only, paywalled)",
+   "direction": "neutral",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 2,
+   "why": "No record covers it, but it changes what the people in the self-experiment records and their followers can legally obtain, and it widens the use of compounds with no controlled human trials. It is access without evidence, so it is neither for nor against treatments arriving. The Federal Register notice itself was not opened."
+  },
+  {
+   "date": "2026-10-27",
+   "what": "A study in GeroScience of 41,047 dogs in the Dog Aging Project found median lifespans from 14 years in small dogs to under 10 in giant breeds, and that dogs' death rates by state track human death rates. On 2026-10-30 Longevity.Technology reported that the project won about $29 million from the National Institutes of Health for five more years, and on 2026-10-26 Nature ran a news feature on companies pursuing longer lives for pets.",
+   "url": "https://longevity.technology/news/old-dogs-new-funding-dog-aging-project-fetches-29m-from-nih/",
+   "opened": true,
+   "source_kind": "field press; journal abstract read through Europe PMC (doi 10.1007/s11357-026-02448-9); Nature news feature opened (doi 10.1038/d41586-026-03447-8)",
+   "direction": "neutral",
+   "matches_record": "a-drug-is-approved-to-make-dogs-live-longer",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "The dog record and the Loyal claim turn on whether a dog drug gets approved; nothing in the window says one was (a search found no approval news for Loyal's drugs). What did happen is renewed public funding for the main dog ageing study and its first lifespan findings. Europe PMC dates the Nature feature 2026-11-01; the page itself gives 2026-10-26."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "A six-month controlled trial at the University of Surrey, published in European Heart Journal Open and part-funded by the maker, found that the longevity supplement mix NOVOS Core improved how well arteries widen, reduced artery stiffness and lowered systolic blood pressure in healthy adults around 60. Blood fats did not change and the trial cannot say which ingredient did the work.",
+   "url": "https://longevity.technology/news/novos-core-trial-reports-vascular-gains-in-healthy-adults/",
+   "opened": true,
+   "source_kind": "field press reporting a journal paper (also lifespan.io 2026-11-06, opened)",
+   "direction": "for",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A blinded, placebo-controlled trial of a marketed longevity supplement with a positive result on a real age-related measure is rare. Company-funded and on intermediate measures, not disease. No record matches it directly; the nearest is the NAD supplement record, since such mixes usually contain an NAD precursor, but the ingredient list was not checked."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Muna Therapeutics announced phase 1 results for MNA-001, a pill aimed at the brain's maintenance cells through the protein TREM2: in elderly volunteers, some age-linked markers in spinal fluid moved toward the levels seen in younger people. The study was mainly a safety test and this is a company announcement, not a paper.",
+   "url": "https://longevity.technology/news/muna-oral-pill-shifts-aging-brain-markers-in-trial/",
+   "opened": true,
+   "source_kind": "field press reporting a company announcement",
+   "direction": "for",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "An early human signal on brain ageing markers from a pill. Very early and company-reported; no record covers it."
+  },
+  {
+   "date": "2026-10-27",
+   "what": "XellSmart reported at a movement-disorders congress that nine people with advanced Parkinson's given one transplant of its off-the-shelf nerve cells grown from reprogrammed stem cells gained on average more than five extra hours a day of well-controlled symptoms at six months, and that its 30-person phase 2 trial in China is fully enrolled. On 2026-11-04 Nature published a commentary on clearing the path for stem-cell treatment of Parkinson's, and Aspen Neuroscience, which makes a similar therapy from a patient's own cells, raised $141 million on the stock market on 2026-10-30.",
+   "url": "https://longevity.technology/news/xellsmarts-parkinsons-cell-shot-adds-5-good-hours-a-day/",
+   "opened": true,
+   "source_kind": "field press reporting a conference presentation; Nature commentary opened (doi 10.1038/d41586-026-03167-z); Aspen listing seen as an Endpoints News headline only",
+   "direction": "for",
+   "matches_record": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "More human evidence, and money, behind replacing lost cells with ones grown from stem cells in a common disease of ageing. Small, uncontrolled and company-reported. No record text mentions XellSmart or Aspen."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "The registry posted results for Johnson & Johnson's trial of posdinemab, an antibody against the tau protein, in 523 people with early Alzheimer's; the entry says the trial was stopped because the drug did not slow decline. On 2026-10-29 Eli Lilly dropped a phase 2 Alzheimer's drug (mevidalen) in its results update, and on 2026-11-03 Novartis ended an $800 million brain-drug partnership with BioArctic.",
+   "url": "https://clinicaltrials.gov/study/NCT04619420",
+   "opened": true,
+   "source_kind": "trial registry (read through the registry's data service); the Lilly and Novartis items were seen as Fierce Biotech and Endpoints News headlines and a search summary, not opened",
+   "direction": "against",
+   "matches_record": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "Outside the amyloid antibodies, the Alzheimer's pipeline kept failing in this window. It is context for the amyloid record, not a change to it: lecanemab's five-year data are due on 2026-11-16, after the window."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "Novo Nordisk's third-quarter results (reported 2026-11-04) raised its outlook on sales of the Wegovy pill, while injectable Wegovy and Ozempic sales fell, and reports say it wrote down its investment in ziltivekimab. Lilly's results on 2026-10-29 showed revenue up 39% and sales of its amyloid antibody Kisunla of $193 million in the quarter, and on 2026-10-28 Lilly said its three-hormone drug retatrutide beat semaglutide on blood sugar and weight in a phase 3 diabetes trial.",
+   "url": "https://pharmaphorum.com/news/oral-wegovy-bolsters-novo-q3",
+   "opened": true,
+   "source_kind": "trade press reporting company results; the Lilly figures and the write-down are from search summaries and headlines, not opened pages",
+   "direction": "for",
+   "matches_record": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Shows how widely the one class of drug with proof against heart attacks is now used, and that an anti-amyloid drug is selling. Sales figures, not new evidence. The pharmaphorum page carries no date; the report date is from a Reuters-sourced search result."
+  },
+  {
+   "date": "2026-10-29",
+   "what": "Alnylam's third-quarter results gave sales of its heart-amyloid drug vutrisiran of $1,130 million for the quarter.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000074/alny2026q3earningsrelease.htm",
+   "opened": false,
+   "source_kind": "company results release",
+   "direction": "for",
+   "matches_record": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+   "in_records_already": true,
+   "importance": 1,
+   "why": "Already in the records (alnylam-2026, added 2026-11-01), so I did not reopen it; listed to mark that the sweep saw it. An Endpoints News headline of 2026-11-06 says the company's commercial chief left 'as struggles continue', which I could not open."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Fight Aging! reports a study of 4,265 blood proteins in 1,025 older adults followed for eight years, which found 17 proteins tied to death from any cause and checked them in a second group of 1,124 people. The proteins were also related to protein-based estimates of whole-body and organ age.",
+   "url": "https://www.fightaging.org/archives/2026/11/identifying-plasma-proteins-associated-with-mortality-risk-and-biological-age/",
+   "opened": true,
+   "source_kind": "field press quoting a journal paper",
+   "direction": "for",
+   "matches_record": "an-age-for-each-organ-is-read-from-blood-proteins",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Adds an independent cohort to the evidence that blood proteins predict death. Incremental for two measuring records. The underlying paper was not opened and its date was not checked."
+  },
+  {
+   "date": "2026-10-26",
+   "what": "Longevity.Technology published an interview with the director and the chief judge of the XPRIZE Healthspan competition, ten weeks after its ten finalist teams were named, on how the $101 million prize will judge whether a treatment restored function in older people.",
+   "url": "https://longevity.technology/news/the-101-million-question-isnt-who-wins/",
+   "opened": true,
+   "source_kind": "field press",
+   "direction": "neutral",
+   "matches_record": "xprize-healthspan-2023-launch",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "No new result, but it is the only item in the window on a claim record, and it confirms the finalists were named in August 2026; the claim record should already say so."
+  },
+  {
+   "date": "2026-10-26",
+   "what": "Fight Aging! reports a paper showing that pig kidneys were stored glass-frozen, rewarmed evenly using iron oxide particles and an electromagnetic field, and then worked after transplant into pigs. Earlier this had been done only in rodent kidneys.",
+   "url": "https://www.fightaging.org/archives/2026/10/pig-kidneys-remain-functional-after-vitrification-with-iron-oxide-nanoparticles-rewarming-and-transplantion/",
+   "opened": true,
+   "source_kind": "field press quoting a journal paper",
+   "direction": "for",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Organ banking at human organ size would make every organ-replacement record more practical. No record covers it. The paper was not opened."
+  },
+  {
+   "date": "2026-11-01",
+   "what": "The trial registry shows a 136-person, randomised phase 2 trial of fisetin, a plant compound thought to clear aged cells, on blood-vessel function in older adults at the University of Colorado Boulder, starting in November 2026. It will also test whether any benefit goes with fewer aged cells.",
+   "url": "https://clinicaltrials.gov/study/NCT07871162",
+   "opened": true,
+   "source_kind": "trial registry (read through the registry's data service)",
+   "direction": "neutral",
+   "matches_record": "drug-clears-aged-cells-from-a-person",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "A properly controlled human test of a cheap aged-cell-clearing compound, with a measure of the cells themselves. A start, not a result; first posted 2026-10-13, start date given only as the month."
+  }
+ ],
+ "sources_read": [
+  {
+   "source": "US Food and Drug Administration press announcements",
+   "how": "press-release feed by curl; the 2026-11-02 cell and gene therapy guidance page opened",
+   "reached": true
+  },
+  {
+   "source": "US Food and Drug Administration novel drug approvals 2026",
+   "how": "page by curl; no novel approval is dated inside the window (2026-10-20, then 2026-11-09)",
+   "reached": true
+  },
+  {
+   "source": "European Medicines Agency news",
+   "how": "news feed by curl; the safety committee highlights of 2026-10-30 opened (nothing on these records)",
+   "reached": true
+  },
+  {
+   "source": "European Medicines Agency human medicines committee monthly highlights",
+   "how": "news feed; the last meeting was 12-15 October and none fell inside the window",
+   "reached": true
+  },
+  {
+   "source": "STAT",
+   "how": "site refused every fetch (403); headlines and dates read through a Google News feed limited to the site and the window; no article opened",
+   "reached": false
+  },
+  {
+   "source": "Fierce Biotech",
+   "how": "site refused every fetch (403); headlines and dates read through a Google News feed limited to the site and the window; no article opened",
+   "reached": false
+  },
+  {
+   "source": "Endpoints News",
+   "how": "article sitemap by curl for all dates in the window; articles open only to headline and first sentence (paywall)",
+   "reached": true
+  },
+  {
+   "source": "BioSpace",
+   "how": "news page by curl (current headlines only; the monthly sitemap gave no dated list); three articles opened",
+   "reached": true
+  },
+  {
+   "source": "Longevity.Technology",
+   "how": "full feed by curl, every headline 2026-10-25 to 2026-11-08 read; eight articles opened",
+   "reached": true
+  },
+  {
+   "source": "lifespan.io news",
+   "how": "feed by curl, every headline in the window read; seven articles opened",
+   "reached": true
+  },
+  {
+   "source": "Fight Aging!",
+   "how": "feed pages and monthly archives by curl, every headline in the window read; six posts opened",
+   "reached": true
+  },
+  {
+   "source": "Europe PMC (journals)",
+   "how": "the brief's query and a wider title-word query over 17 journals, date-filtered; abstracts read through the service; Nature pages opened; Springer page refused",
+   "reached": true
+  },
+  {
+   "source": "ClinicalTrials.gov",
+   "how": "the brief's two queries (results first posted; start date) through the data service, plus two study records",
+   "reached": true
+  },
+  {
+   "source": "Company results releases",
+   "how": "Vertex and Intellia read as wire text on Finviz (company investor pages refused); Novo Nordisk through pharmaphorum; Lilly and United Therapeutics through search summaries only; Alnylam already in the records; Eisai, Biogen, BridgeBio, Pfizer, Regeneron and Amgen not read",
+   "reached": true
+  },
+  {
+   "source": "Web search",
+   "how": "eleven searches for named records and companies (ZEUS, NOPARK, pig organs, Loyal, Altos, Retro, NewLimit, Unity, peptides, gene-editing guidance)",
+   "reached": true
+  }
+ ]
+}

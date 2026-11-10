@@ -1,0 +1,153 @@
+{
+  "records": [
+    {
+      "id": "a-drug-adds-healthy-years-to-a-life",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "peer-reviewed trial rapamycin OR metformin placebo lifespan healthspan humans results journal October 2026",
+        "anti-ageing drug trial people live longer news this week late October 2026",
+        "geroscience trial older adults placebo \"age-related disease\" OR healthspan results published Nature Medicine OR Lancet OR NEJM late October 2026 longevity drug"
+      ],
+      "found": "No result turned up for the window of 2026-10-25 to 2026-11-01 in three searches. What the searches returned was older: the year-long rapamycin trial of April 2025, which measured body fat and not length of life; mouse lifespan reports from 2024 to April 2026; and a planned five-year trial in San Antonio, Texas, of rapamycin, dapagliflozin and semaglutide against placebo in 726 adults aged 60 to 65, which an unofficial summary page says will begin enrolling in 2027 and will measure a World Health Organization score of physical and mental capacity. A planned trial is not a result, so none of this meets the test, which asks for a published trial in which people on the drug lived longer or stayed free of age-related disease longer than people on placebo. The search tool cannot limit results by date, so this shows only what it returned.",
+      "sources": [],
+      "pages_opened": [
+        "https://vital-h-trial.pages.dev/"
+      ],
+      "for_john": ""
+    },
+    {
+      "id": "a-drug-is-approved-to-make-dogs-live-longer",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "FDA Center for Veterinary Medicine conditional approval Loyal LOY-002 dog lifespan October 2026",
+        "Loyal dog longevity drug news STAY study manufacturing section approval November 2026",
+        "Loyal press release LOY-002 OR LOY-001 OR LOY-003 FDA announcement late October 2026",
+        "\"pill to help dogs live longer\" moves closer to FDA approval Loyal October 2026"
+      ],
+      "found": "The United States veterinary regulator's own list of announcements was opened and shows two items for late October 2026, neither about a drug to lengthen dogs' lives: an approval of an injectable antibiotic for skin infections in dogs (2026-10-20) and a pilot programme on residue testing (2026-10-27). The searches returned the company's known steps (effectiveness section accepted in February 2025, safety section in January 2026, the manufacturing section and the application expected in 2027) and no company release dated in the window. A ConsumerAffairs article whose address carries the date 2026-10-21, titled as a pill to help dogs live longer moving closer to approval, was seen in a search result; its page refused to open, and it is dated before the window. The company's news index page did not load. No approval, full or conditional, was found, and no peer-reviewed report of dogs living longer.",
+      "sources": [
+        "https://www.fda.gov/animal-veterinary/news-events/cvm-updates"
+      ],
+      "pages_opened": [
+        "https://www.fda.gov/animal-veterinary/news-events/cvm-updates",
+        "https://www.consumeraffairs.com/news/a-pill-to-help-dogs-live-longer-moves-closer-to-fda-approval-102126.html (refused, error 403)",
+        "https://loyal.com/posts (not found, error 404)"
+      ],
+      "for_john": ""
+    },
+    {
+      "id": "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "urolithin A randomized controlled trial muscle older adults journal published October 2026",
+        "mitochondria drug sarcopenia trial results news Timeline Mitopure elamipretide age-related muscle October 2026",
+        "Mitopure urolithin A frail older adults MitoEM NCT06556706 results published 2026"
+      ],
+      "found": "No result turned up for the window in three searches. The searches returned the two urolithin A trials of 2022 that the entry already describes, a registry listing for a completed 26-person trial of urolithin A in frail older adults (sponsored by Amazentis, finished in April 2025) for which no published report was found, and the 2025 approval of elamipretide for Barth syndrome, a rare inherited disease, which the entry's notes already cover. No regulator's approval of such a drug for an age-related condition was found. The search tool cannot limit results by date, so this shows only what it returned.",
+      "sources": [],
+      "pages_opened": [],
+      "for_john": ""
+    },
+    {
+      "id": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "FDA approval semaglutide OR tirzepatide OR orforglipron cardiovascular risk reduction without diabetes October 2026",
+        "GLP-1 heart attack stroke prevention uptake prescriptions share of eligible patients study this week October 2026",
+        "semaglutide SELECT trial new analysis all-cause death OR Wegovy heart indication Europe uptake published last week of October 2026"
+      ],
+      "found": "No result turned up for the window in three searches. The searches returned the 2024 approval this entry already rests on, 2024 analyses of the same trial, and trade-press reports that on 2026-08-28 the United States regulator added heart-risk reduction to the label of tirzepatide (Mounjaro) for adults with type 2 diabetes. That approval is for people with diabetes, and this entry's test is about people without it, so it does not bear on the test; it was seen in search results only and is two months before the window. No new uptake figure for the heart-prevention purpose was returned, which is what the next rung (wide use) needs.",
+      "sources": [],
+      "pages_opened": [],
+      "for_john": ""
+    },
+    {
+      "id": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+      "kind": "treatment",
+      "verdict": "flagged",
+      "queries": [
+        "nicotinamide riboside OR NMN randomized placebo-controlled trial journal results published October 2026",
+        "NAD supplement study older adults muscle walking news this week late October 2026",
+        "npj Aging 2026 nicotinamide mononucleotide randomized placebo-controlled older adults University of Tokyo 62 participants"
+      ],
+      "found": "Nothing dated inside the window of 2026-10-25 to 2026-11-01 was returned. The searches did return three controlled studies from the weeks just before it, none of which this site's records hold (the treatment entries, the claims, the self-experiments and the publications log were searched for the trial names, the first authors and the journals). First, a University of Tokyo trial in npj Aging (Igarashi and colleagues, 2026-09-25): 62 adults over 65 took 1,250 milligrams of NMN a day or placebo for 24 weeks; NAD in the blood rose, and neither hearing, the main measure, nor any other health measure changed. Second, a Norwegian trial in JAMA (Brakedal and colleagues, 2026-10-08): 410 people with early Parkinson's disease took nicotinamide riboside or placebo for a year, and symptom scores worsened slightly more on the supplement than on placebo. Third, a small open-label study of NMN drinks in Nutrients (Abe and colleagues, 2026-10-23): 42 adults, no significant difference from placebo in exercise capacity or thinking. None meets the test, and none is dated in the window.",
+      "sources": [
+        "https://api.crossref.org/works/10.1038/s41514-026-00482-7",
+        "https://www.nutraceuticalsworld.com/?p=72110",
+        "https://api.crossref.org/works/10.1001/jama.2026.18828",
+        "https://news-medical.net/news/20261012/Year-long-trial-finds-NAD-boosting-supplement-fails-to-improve-early-Parkinsons-symptoms.aspx",
+        "https://api.crossref.org/works/10.3390/nu18213490"
+      ],
+      "pages_opened": [
+        "https://api.crossref.org/works/10.1038/s41514-026-00482-7",
+        "https://www.nutraceuticalsworld.com/?p=72110",
+        "https://api.crossref.org/works/10.1001/jama.2026.18828",
+        "https://news-medical.net/news/20261012/Year-long-trial-finds-NAD-boosting-supplement-fails-to-improve-early-Parkinsons-symptoms.aspx",
+        "https://api.crossref.org/works/10.3390/nu18213490",
+        "https://nutraingredients.com/Article/2026/11/04/nmn-formulations-benefits-for-cardio-and-cognition-inconclusive-japan-study/"
+      ],
+      "for_john": "Older records the entry missed, all negative, all dated before this window, so this reading does not log them. The change I would have made is to add two of them to the entry's account of the larger trials, which at present says only that they \"have been mixed\": the 24-week placebo-controlled NMN trial in 62 adults over 65 (Igarashi and colleagues, npj Aging, 2026-09-25, https://doi.org/10.1038/s41514-026-00482-7), which raised NAD and changed no health measure, and the year-long nicotinamide riboside trial in 410 people with early Parkinson's disease (Brakedal and colleagues, JAMA, 2026-10-08, https://doi.org/10.1001/jama.2026.18828), in which the supplement group did slightly worse than placebo. The third (Abe and colleagues, Nutrients, 2026-10-23, https://doi.org/10.3390/nu18213490) is open-label and company-funded and probably does not earn a line. The stage would not change. It is not mine to do because a reading may not rewrite an entry's description, and the papers fall outside the window. What was opened: the Crossref record of each paper (title, authors, journal and date checked there) and one news report of each of the first two, which gave the numbers; the journals' own pages were not opened, so the numbers come from the news reports. The news report that led to the third paper is dated 2026-11-04, after the window, and was used only to find the paper.",
+      "search_short": ""
+    },
+    {
+      "id": "metformin-delays-age-related-disease-in-people-without-diabetes",
+      "kind": "treatment",
+      "verdict": "quiet",
+      "queries": [
+        "ClinicalTrials.gov TAME trial metformin aging AFAR launch enrolment October 2026",
+        "metformin people without diabetes age-related disease trial results news late October 2026",
+        "TAME metformin trial funding announced launch Barzilai AFAR news October 2026"
+      ],
+      "found": "No result turned up for the window in three searches. The searches returned no announcement that the large metformin trial (the TAME trial) has been funded or has started; the web articles about its status still disagree with each other, as the entry's notes already say. One of them gives a registry number for the trial; that registry entry was opened and is a Hungarian coronavirus screening study, not the metformin trial, so the registry still shows no entry for it. Two small studies were seen in search results only, both dated before the window: a 15-person trial of metformin in older adults with age-related macular degeneration and no diabetes (GeroScience, reported 2026-10-20), which found no significant change in gene activity in blood, and a trial of markers of ageing in adults with prediabetes in India (Mechanisms of Ageing and Development, September 2026 issue). Neither measures time to a first age-related disease, which is what the test asks for.",
+      "sources": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT04370067"
+      ],
+      "pages_opened": [
+        "https://clinicaltrials.gov/api/v2/studies/NCT04370067"
+      ],
+      "for_john": ""
+    },
+    {
+      "id": "mitochondria-are-transplanted-into-a-person",
+      "kind": "treatment",
+      "verdict": "flagged",
+      "queries": [
+        "mitochondrial transplantation clinical trial results journal patients published October 2026",
+        "mitochondria transplant first patients stroke heart FDA news this week October 2026",
+        "Mitrix Bio OR Minovia OR \"mitochondrial transplantation\" human trial results announced week of October 26 2026"
+      ],
+      "found": "Nothing dated inside the window was returned, and no regulator's approval of mitochondrial transplantation was found. The searches did return an older paper the entry does not hold (the treatment entries, the claims, the self-experiments and the publications log were searched for the journal, the authors and the registry number): the first results of the University of Washington stroke trial that the entry's notes list only as registered and recruiting. Walker, Levitt and colleagues reported in the Journal of Cerebral Blood Flow and Metabolism on 2024-12-04 that four people with a stroke were given their own mitochondria through an artery while the clot was being removed, with no complications; the study was built to test safety and says nothing yet about benefit. Also returned, in search results only: an April 2026 article saying the company Mitrix Bio had reported early safety results from two people, an undated mention of a mid-stage result from Minovia in a rare childhood disease, mouse and cell studies from 2026, and an unreviewed case report of mitochondria injected into a patient's eyes.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11615905/"
+      ],
+      "pages_opened": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11615905/"
+      ],
+      "for_john": "An older record the entry missed. The change I would have made is one sentence in the entry's notes, where the stroke trial at the University of Washington is listed as registered and recruiting: its first results are published (Walker, Levitt and colleagues, \"Autologous mitochondrial transplant for acute cerebral ischemia: Phase 1 trial results and review\", Journal of Cerebral Blood Flow and Metabolism, 2024-12-04, https://doi.org/10.1177/0271678X241305230). Four patients, no complications, compared with twelve earlier patients matched from records; a safety study with no claim of benefit. The stage would not change, since the treatment is already at first human. It is not mine to do because the paper is from 2024, well outside this window, and a reading may not rewrite an entry's notes. The paper's open copy at PubMed Central was opened and its title, authors, journal and date checked there; the last sixth of that long page was not read. The Mitrix Bio and Minovia items were seen in search results only and were not opened."
+    },
+    {
+      "id": "rapamycin-improves-an-age-related-measure-in-older-people",
+      "kind": "treatment",
+      "verdict": "flagged",
+      "queries": [
+        "rapamycin OR everolimus OR sirolimus low-dose randomized placebo trial older adults ageing journal results October 2026",
+        "rapamycin ageing trial news this week results gum disease immune muscle late October 2026",
+        "Stanfield rapamycin exercise trial published journal 2026 placebo outperformed OR \"UT Health San Antonio\" rapamycin interim"
+      ],
+      "found": "Nothing dated inside the window was returned. The searches did return a controlled trial from April 2026 that the entry does not hold (the treatment entries, the claims, the self-experiments and the publications log were searched for the trial's name, its first author and the journal). Stanfield, Leroux, Kaeberlein and colleagues reported in the Journal of Cachexia, Sarcopenia and Muscle (online 2026-04-15) a trial in which 40 inactive adults aged 65 to 85 followed a home exercise programme for 13 weeks and took either 6 milligrams of rapamycin once a week or a placebo. On the main measure, how many times a person can stand up from a chair in 30 seconds, the rapamycin group gained about two fewer repetitions than the placebo group, a difference that was not statistically significant; in the secondary analyses of those who completed the trial the difference did favour placebo. It is a controlled result at an ageing dose in older people, and it goes against the test, not for it. Also returned, in search results only: a rapamycin dosing trial in San Antonio, Texas, said to have a safety review due in October 2026, with no report of that review found.",
+      "sources": [
+        "https://api.crossref.org/works/10.1002/jcsm.70274",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1002/jcsm.70274%22&format=json&resultType=core"
+      ],
+      "pages_opened": [
+        "https://api.crossref.org/works/10.1002/jcsm.70274",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1002/jcsm.70274%22&format=json&resultType=core"
+      ],
+      "for_john": "An older record the entry missed. The change I would have made is one sentence in the entry's description, after the 2019 and 2025 trials: a third controlled trial at an ageing dose has since reported and found no benefit (Stanfield, Leroux, Kaeberlein, Jones and Lucas, \"Exercise and Weekly Sirolimus (Rapamycin) in Older Adults: RAPA-EX-01 Randomised, Double-Blind, Placebo-Controlled Trial\", Journal of Cachexia, Sarcopenia and Muscle, volume 17, issue 2, online 2026-04-15, https://doi.org/10.1002/jcsm.70274). Forty adults aged 65 to 85, 13 weeks, weekly rapamycin against placebo alongside exercise; the main measure favoured placebo by 2.13 chair stands (95 per cent interval from 4.61 fewer to 0.34 more, p = 0.089), not significant, and the analyses of those who completed the trial were significant in placebo's favour. The stage would not change. It may bear on the estimate's reasoning, which counts on a mid-sized trial in muscle reporting positive in the early 2030s. It is not mine to do because the paper is from April 2026, outside this window, and a reading may not rewrite an entry's description or touch an estimate. Both sources were opened: the Crossref record (title, authors, journal, date) and the Europe PMC record (the abstract with the design and the numbers). The journal's own page was not opened."
+    }
+  ]
+}

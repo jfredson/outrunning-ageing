@@ -1,0 +1,107 @@
+{
+ "records": [
+  {
+   "id": "a-human-organ-is-grown-inside-an-animal",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "peer-reviewed paper human-pig chimera humanized kidney pig born human cells October 2026",
+    "human organ grown in pig chimera news this week November 2026",
+    "Cell Stem Cell OR Nature interspecies chimera human pluripotent stem cells pig fetus organ 2026"
+   ],
+   "found": "The searches returned the 2023 Cell Stem Cell report of early humanised kidneys in pig embryos, the 2017 Cell paper this entry already cites, a June 2025 news report of small human hearts beating in pig embryos for 21 days, and papers on pig kidneys transplanted into people, which belong to a different entry. None is dated in the window of 2026-10-25 to 2026-11-01, and none reports an animal born carrying a working organ made mostly of human cells.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface",
+   "kind": "treatment",
+   "verdict": "flagged",
+   "queries": [
+    "ClinicalTrials.gov phase 3 autologous chondrocyte implantation knee osteoarthritis October 2026",
+    "Vericel MACI news third quarter 2026 results MACI Arthro ankle osteoarthritis"
+   ],
+   "found": "Nothing dated in the window of 2026-10-25 to 2026-11-01 bears on the test. The searches returned completed trials of grown cartilage cells for knee cartilage defects (the 144-person trial of MACI against microfracture, and a single-arm trial of a German gel product), and the maker of MACI's third-quarter results, which I opened and found dated 2026-11-05, after the window, so it was not used. One older registry entry came up that the entry's reasoning does not allow for: a phase 3 trial in knee osteoarthritis of sheets of cartilage cells grown from donors, registered by the Japanese company CellSeed. I searched this site's treatment, claim, self-experiment and paper records for the trial's number, the product's name and the company, and found none of them; the earlier weekly readings and the change log were not searched, under the rules of this trial reading.",
+   "sources": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06549686"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06549686",
+    "https://www.sec.gov/Archives/edgar/data/0000887359/000162828026070622/ex991earningsreleaseq32026.htm"
+   ],
+   "for_john": "The change I would have made: correct the sentence in this entry's reasoning that says the trial registry holds no phase 3 trial of cultured cartilage cells in knee osteoarthritis. The registry entry NCT06549686, which I opened, is \"A Phase III Study Evaluating the Efficacy and Safety of CLS2901C in Patients With Osteoarthritis of the Knee\", sponsored by CellSeed Inc., recruiting in Japan, 96 people planned, started 2023-10-20, first posted 2024-08-12, last updated 2026-07-09, main results expected by 2028-12-31. The cells are cartilage cells grown into sheets from donors (children born with an extra finger or toe), not the patient's own cells, so the trial does not meet this entry's test as written, which asks for a person's own cells. Why it is not mine to decide: it is an older record the entry missed, not news from this week; a reading may not change an estimate's reasoning or its years; and whether a donor-cell trial in worn knees should bear on the wide-use years, or belongs to a different entry, is your call. Opened: the registry entry. Also opened, and not used because it is dated 2026-11-05, after the window: the third-quarter results release of Vericel, the maker of MACI."
+  },
+  {
+   "id": "an-old-animals-blood-stem-cells-are-rejuvenated",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "ClinicalTrials.gov antibody depletion myeloid-biased hematopoietic stem cells first in human trial 2026",
+    "rejuvenate aged blood stem cells immune system old mice new study October 2026"
+   ],
+   "found": "The searches returned coverage of the 2024 Nature paper from Stanford that this entry already rests on, and trials of an antibody (briquilimab) that clears blood stem cells in general before a marrow transplant, which is not aimed at the age-biased cells and not at an age-related condition. No result dated in the window of 2026-10-25 to 2026-11-01 turned up, and none reports a person treated to remove or reset age-biased blood stem cells.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "Vertex press release zimislecel third quarter 2026 results regulatory submission timeline",
+    "stem cell derived islet cells OR dopamine neurons trial results type 1 diabetes Parkinson's news late October 2026",
+    "FDA approval stem cell-derived cell therapy bemdaneprocel OR zimislecel OR \"iPS\" October 2026",
+    "\"Vertex Reports Third Quarter 2026 Financial Results\" zimislecel"
+   ],
+   "found": "No regulator's approval of a therapy made from stem cells turned up for the window of 2026-10-25 to 2026-11-01; the approvals the searches returned were of donor-derived products earlier in 2026 and before. Two items sit just outside the window and were not used: Vertex's third-quarter results, which the search results date 2026-11-02 (the company's site refused the page twice, so the date and wording were not checked on the release itself), and four-year safety figures for the Parkinson's cell therapy bemdaneprocel, presented at a neurology meeting on 2026-10-17 to 2026-10-20 and reported by a trade news site on 2026-11-03. Both fall to the next reading.",
+   "sources": [],
+   "pages_opened": [
+    "https://news.vrtx.com/node/35446/pdf (refused, HTTP 403)",
+    "https://investors.vrtx.com/news-releases (refused, HTTP 403)"
+   ],
+   "for_john": ""
+  },
+  {
+   "id": "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "ClinicalTrials.gov BioVAT-HF engineered heart muscle patch trial update 2026 Repairon",
+    "stem cell heart patch heart failure patients results news October 2026"
+   ],
+   "found": "The searches returned the interim report of the heart patch trial in the New England Journal of Medicine of late May 2026 and the hospital and company releases about it, all of which this entry already describes, and a statement from February 2026 that the company had set up a United States arm and plans trials there. No result dated in the window of 2026-10-25 to 2026-11-01 turned up, and none reports a regulator approving such a graft.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "lab-grown-organ-works-in-a-person-for-a-year",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "peer-reviewed report bioengineered organ implanted patient one year follow-up bladder OR trachea OR oesophagus OR intestine 2026",
+    "lab-grown OR 3D printed organ transplanted into patient first news October 2026"
+   ],
+   "found": "The searches returned one-year results for an engineered blood vessel (August 2026) and a printed cornea placed in a person in October 2025, both of which the test counts as tissues and leaves out; a one-year report of a bladder transplanted from a donor (June 2026), which was not built from cells; and an engineered oesophagus in a large animal. No result dated in the window of 2026-10-25 to 2026-11-01 turned up, and none reports a regulator approving an engineered organ.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "FDA pig kidney xenotransplant trial EXPAND United Therapeutics OR eGenesis press release October 2026",
+    "gene-edited pig kidney OR liver OR heart transplant patient news this week late October 2026",
+    "xenotransplantation pig kidney clinical trial patients update eGenesis EGEN-2784 United Therapeutics UKidney October 2026"
+   ],
+   "found": "The searches returned the 2025 trial clearances this entry already describes, a June 2026 report of a pig liver and kidneys placed in a brain-dead person in China, and a company update from eGenesis dated 2026-09-03 saying five people had received its pig kidneys and that its main trial would start in early 2027. All are dated before the window of 2026-10-25 to 2026-11-01, the last was seen in a search result only, and none reports a regulator approving a pig organ for use outside a trial.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  }
+ ]
+}
