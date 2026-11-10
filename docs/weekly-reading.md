@@ -8,6 +8,8 @@ Written 2026-10-17, the day the site went live, in a cloud session from the mast
 
 **Changed again 2026-11-09, after the comparison** (`docs/readings/model-comparison-2026-11-09.md`). Four full readings of the same week were run from one fixed brief and every story was checked blind. Of 21 top-graded stories, readings wholly on Sonnet 5.5 found 12 and 9, Sonnet 5.5 readers with a Fable 5.2 sweep 13 to 17, and readings wholly on Fable 5.2 21 and 16; the scheduled reading of the same week, whose helpers were briefed in the main session's own words, found 3. John ruled the same day: "All Fable 5.2". Part E of step 1a is now in force: the routine and every helper run on Fable 5.2, and every helper is given a fixed brief from `docs/reading-briefs/`, word for word.
 
+**Changed a third time 2026-11-09, after the first reading on the fixed briefs** (`data/scans/2026-11-09-2.toml`). That reading found at least 13 of the 21 top-graded stories, but the search tool's allowance of about 200 web searches a run, shared by all helpers, ran out part-way: 30 records were short of searches and the sweep ran two. John ruled "Split into two runs". The field-wide sweep now has its own scheduled run an hour earlier (`docs/weekly-sweep.md`), and the reading uses the file that run publishes (step 1a part D).
+
 This is a working document, so it uses the project's own words (leaf, scan, settler, verdict). On the public site the reading is "This week's reading", a leaf is a treatment and the test is "what would count". The reading record's prose is printed on the public site as written, so it uses the public words, not these (John's ruling of 2026-10-18; step 1, "Written for visitors").
 
 ## The idea in one paragraph
@@ -202,7 +204,16 @@ John 2026-11-09), so the validator and the site are unchanged. A registry status
 what the records say (a trial the records call completed that the registry calls stopped) is flagged the
 same way, as a correction for John.
 
-**D. A field-wide sweep, once a reading.** One reader starts from the field's sources and not from the
+**D. A field-wide sweep, once a reading, in its own run (from 2026-11-09; John's ruling: "Split into two
+runs").** The sweep is done one hour before the reading by a second scheduled run, which follows
+`docs/weekly-sweep.md` and publishes `docs/readings/sweeps/YYYY-MM-DD.md`. It was split off because the
+search tool's allowance of about 200 web searches a run, shared by every helper, ran out part-way through
+the reading of 2026-11-09 and cut the sweep and 30 records short. The reading looks for the sweep file
+dated its own `read_on` (the newest, if there is more than one). If it is there, the reading starts no
+sweep helper: it uses the file, and opens the source behind any of its stories itself before that story
+goes into an item or a publication record. If the file is missing, the reading starts the sweep helper
+of part E as before and says so in `limits`. What the sweep covers: one reader starts from the field's
+sources and not from the
 records: the two regulators' announcement pages, the field's own press (Longevity.Technology,
 lifespan.io, Fight Aging!), the headlines of the trade press where its articles refuse, Europe PMC for
 the main journals by date, the registry for trials first posted or with results first posted in the
@@ -222,7 +233,8 @@ This part replaces the sentence in step 1 that says a helper's brief "is this st
   5.2 and is running on another model, the reading goes ahead, and the first line of the report and the
   `limits` line both say so.
 - **Helpers always read.** The main session does not read the records itself. It shares all of them
-  among record readers and starts one more helper for the sweep of part D.
+  among record readers. The sweep of part D comes from its own run; only if its file is missing does
+  the main session start one more helper for it.
 - **The briefs are fixed.** A record reader is given the whole text of
   `docs/reading-briefs/record-reader.md`, and the sweep helper the whole text of
   `docs/reading-briefs/sweep.md`, word for word, with only the values in curly brackets filled in (the
