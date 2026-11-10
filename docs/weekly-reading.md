@@ -183,6 +183,10 @@ cannot limit results by date; these can. Run them with `curl`, with the window's
   this way was tried. If the search tool will not take a limit to named sites, put the site names in
   the query's words and say so in `limits`.
 
+From 2026-11-09 the fixed brief adds a fourth dated source, the filings site's full-text search by date
+(`filings: ` in front), which is read with `curl` and reaches company announcements that a web search
+does not find while they are days old.
+
 Each dated query is listed in the item's `queries` exactly as run, with `registry: `, `papers: ` or
 `newswire: ` in front. They do not count toward the two to four web searches of cap 3 (ruled by John
 2026-11-09). There is no fixed number of them: a record normally needs the four above (the registry

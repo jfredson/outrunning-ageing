@@ -47,6 +47,19 @@ page-reading tool is refused.
   `query.term=(aging OR ageing OR longevity OR healthspan OR senolytic OR rapamycin OR reprogramming OR "biological age")`
   and variations, at `https://clinicaltrials.gov/api/v2/studies`. Read every trial first posted in the
   window that these return.
+- **Company filings by date** (added 2026-11-09). The United States filings site has a full-text search
+  that takes a date range and can be read with `curl` from any machine, at no cost in web searches:
+  `https://efts.sec.gov/LATEST/search-index?q=<words>&forms=8-K,6-K&dateRange=custom&startdt={FROM}&enddt={TO}`
+  (send a plain `-A` header naming a research reader; put a phrase in `%22` quotes). Each hit gives the
+  filing date, the company and an id of the form `<accession>:<file>`; the document is at
+  `https://www.sec.gov/Archives/edgar/data/<the company's CIK number without leading zeros>/<accession without dashes>/<file>`.
+  Run it for each kind of event, in the words a release uses: "topline results", "did not meet" with
+  "primary endpoint", "met its primary endpoint", "discontinue" with "program", "first patient dosed",
+  "clinical hold", "approval" with the regulator's name; and again with the words for each kind of
+  damage the site follows (senescence, ageing, amyloid, gene editing, cell therapy, and so on). Read
+  every hit's company and title, and open those that may bear on the question. Form 8-K is filed by
+  United States companies and form 6-K by many foreign ones; a company that files neither is not
+  reached this way, so say so under "Limits that cut". Do this before the web searches below.
 - **Company releases and filings**: web searches limited to globenewswire.com, businesswire.com,
   prnewswire.com and sec.gov, worded by kind of event (topline results, did not meet primary endpoint,
   discontinued, first patient dosed, approval) with the month and year; and the results releases in the
