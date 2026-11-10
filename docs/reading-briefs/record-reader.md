@@ -48,6 +48,14 @@ For each record, in this order:
      `https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(<words>)%20AND%20FIRST_PDATE:[{FROM}%20TO%20{TO}]&format=json&pageSize=25&resultType=lite`
      Read every title returned, and page on if there are more than one page of them. Open the abstract
      of any that may bear on the test. Say when one is a preprint.
+   - Company filings by date, with `curl` and at no cost in web searches: the filings site's
+     full-text search,
+     `https://efts.sec.gov/LATEST/search-index?q=<words>&forms=8-K,6-K&dateRange=custom&startdt={FROM}&enddt={TO}`
+     (send a plain `-A` header naming a research reader; put a phrase in `%22` quotes). Search by the
+     kind of treatment and the drug names, and by the companies the notes name. A hit's id is
+     `<accession>:<file>`, and the document is at
+     `https://www.sec.gov/Archives/edgar/data/<the company's CIK number without leading zeros>/<accession without dashes>/<file>`.
+     List these in `queries` with `filings: ` in front.
    - Company releases and filings: one web search limited to the sites globenewswire.com,
      businesswire.com, prnewswire.com and sec.gov, worded by the **kind of treatment and the kind of
      event** (results, did not meet, discontinued, approval, first patient dosed), with the month and

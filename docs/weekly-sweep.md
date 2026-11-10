@@ -36,8 +36,10 @@ reading does that, from this file, after opening each source itself.
    and told which of its sources are theirs; a helper writes only a working file outside the repository,
    and you open every story a helper lists before it goes into the sweep file.
 3. **Spend the web searches where only they will do.** The registry, the paper database and the listing
-   pages are read with `curl` and cost no search. Run the searches of the press-release and filings
-   sites by kind of event first (topline results, did not meet primary endpoint, discontinued, first
+   pages are read with `curl` and cost no search. Start with the filings site's own dated search, which the brief describes and which also costs no
+   search (added 2026-11-09, with John's yes, because the test sweep showed that web searches do not
+   find company announcements that are only days old). Then run the web searches of the press-release and filings
+   sites by kind of event (topline results, did not meet primary endpoint, discontinued, first
    patient dosed, approval, each with the month and year), then the results releases of the large
    companies the records name, then the meetings. If the allowance runs out, say what was not searched.
 4. **Head the file.** Before the brief's sections, the file starts with: a title with the date; one
