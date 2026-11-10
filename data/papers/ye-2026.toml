@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the weekly reading of 2026-11-09. Logged from the abstract and record in the Europe PMC literature database; the journal's own page was not opened.
+
+id = "ye-2026"
+date = "2026-11-05"
+added_on = 2026-11-09
+authors = ["Ye T", "Xu W", "Barrachina MN", "Lyu P", "Antoszewski M", "Della Volpe L", "Guo CJ", "Lee AJ", "Villalpando E", "Johnson IA", "Theardy MS", "Shelton SD", "Wahlster L", "Caulier A", "Messa L", "Poeschla M", "Agarwal G", "Mitra R", "Schmaier AA", "Weissman JS", "Machlus KR", "Sankaran VG"]
+title = "Durable and reversible epigenetic programming of human hematopoietic stem cells as a platform for modulation of platelet function"
+venue = "Cell Stem Cell (online 2026-11-05), DOI 10.1016/j.stem.2026.10.009"
+link = "https://doi.org/10.1016/j.stem.2026.10.009"
+finding = """
+Tools that edit the chemical marks on DNA, delivered briefly as RNA, switched off a platelet gene in human blood stem cells. The switching-off survived the cells' division and maturing, could be partly undone by a second edit, and was still in place 4 months after the cells were transplanted into mice. The work is in cells and mice, not in a person.
+"""
+leaves = ["a-cells-settings-are-rewritten-at-one-gene-in-a-person"]
+branches = ["cell-settings"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 from the abstract and record in the Europe PMC literature database. The journal's own page was not opened. It is peer-reviewed work on the same kind of tool the treatment's test names, but it is not a person, so it does not meet the test.
+"""

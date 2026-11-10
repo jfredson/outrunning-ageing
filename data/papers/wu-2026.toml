@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the weekly reading of 2026-11-09. Logged from the abstract and record in the Europe PMC literature database; the journal's own page was not opened.
+
+id = "wu-2026"
+date = "2026-11-06"
+added_on = 2026-11-09
+authors = ["Wu R", "Yang F", "Li J", "Wu T", "Lyu R", "Xiang J", "Gao X", "Zhang R", "Fan H", "Yin C", "Tu J", "Xie Z", "Cai C", "Zhang FQ", "Xue K", "Najarro J and colleagues"]
+title = "Altered protein cysteine reactivity in senescent cells is a vulnerability for senolysis to ameliorate aging"
+venue = "Nature Aging (online 2026-11-06), DOI 10.1038/s43587-026-01253-5"
+link = "https://doi.org/10.1038/s43587-026-01253-5"
+finding = """
+The authors report that vanadyl sulfate, a mineral compound taken by mouth, kills aged cells by pushing their proteins to misfold. In male mice it cleared aged cells, improved features of ageing and several age-related disorders, and lengthened lifespan. The abstract gives no lifespan figures, and the work is in mice only.
+"""
+leaves = ["clearing-aged-cells-makes-old-animals-live-longer"]
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 from the abstract and record in the Europe PMC literature database, dated there 2026-11-06. The journal's own page was not opened, so the figures in the full paper are unread. It adds a second kind of drug to the animal evidence and does not change what the treatment's test asks for, which is a result in people.
+"""

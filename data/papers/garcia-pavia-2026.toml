@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the weekly reading of 2026-11-09. Logged from the abstract and record in the Europe PMC literature database; the journal's own page was not opened.
+
+id = "garcia-pavia-2026"
+date = "2026-11-03"
+added_on = 2026-11-09
+authors = ["Garcia-Pavia P", "Witteles R", "Morbach C", "Delgado D", "Kitaoka H", "Maurer MS", "van der Meer P", "Yilmaz A", "Algalarrondo V", "Solomon SD", "Cappelli F", "Azevedo O", "Tang WHW", "Lairez O", "Boyle KL", "Eraly SA", "Bao Y", "Bender S", "Vest J", "Fontana M"]
+title = "Long-Term Impact of Vutrisiran in Patients With TTR Amyloidosis With Cardiomyopathy: 1-Year Efficacy and Safety Outcomes From the HELIOS-B Open-Label Extension"
+venue = "Circulation (online 2026-11-03), DOI 10.1161/circulationaha.126.080735"
+link = "https://doi.org/10.1161/circulationaha.126.080735"
+finding = """
+Of 654 people in the original heart trial, 466 entered the open-label extension. Through month 48, those on vutrisiran throughout had a 37 per cent lower risk of death or a first heart event than those who started it after placebo (hazard ratio 0.63, 95 per cent confidence interval 0.51 to 0.79), and the same for death alone (0.63, 0.46 to 0.84). Health-status scores and heart-failure class were better, and no new safety signals appeared.
+"""
+leaves = ["drug-stops-a-misfolded-protein-piling-up-in-the-heart"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09 from the abstract and record in the Europe PMC literature database. The journal's own page was not opened. It follows up a drug that is already approved for this use, so the treatment's stage does not change.
+"""

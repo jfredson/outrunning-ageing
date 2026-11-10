@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the weekly reading of 2026-11-09. The registry entry was read through the registry's data interface on 2026-11-09.
+
+id = "human-biome-2026"
+date = "2026-11-03"
+added_on = 2026-11-09
+authors = ["Human Biome S.A. (sponsor)"]
+title = "Fecal Microbiota Transplantation (FMT) to Slow Biological Aging"
+venue = "ClinicalTrials.gov registry entry NCT07912164, first posted 2026-11-03"
+link = "https://clinicaltrials.gov/study/NCT07912164"
+finding = """
+The registry lists a planned randomised, double-blind, placebo-controlled trial of gut-microbe capsules to slow biological ageing, in 68 adults aged 45 to 80. It has not started recruiting; the estimated start is December 2026 and the estimated end December 2027. The main measure is a response on the DunedinPACE ageing-pace clock or on inflammation markers.
+"""
+leaves = ["young-gut-microbes-rejuvenate-an-old-animal"]
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09. A registration with no result, so it moves nothing.
+"""

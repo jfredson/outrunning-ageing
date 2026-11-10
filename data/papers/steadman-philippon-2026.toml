@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-09 under the weekly reading of 2026-11-09. The registry entry was read through the registry's data interface on 2026-11-09.
+
+id = "steadman-philippon-2026"
+date = "2026-11-05"
+added_on = 2026-11-09
+authors = ["Steadman Philippon Research Institute (sponsor)"]
+title = "Evaluation of Fisetin to Reduce Systemic Senescence"
+venue = "ClinicalTrials.gov registry entry NCT07918261, first posted 2026-11-05"
+link = "https://clinicaltrials.gov/study/NCT07918261"
+finding = """
+The registry lists a finished randomised trial of fisetin, a plant compound some researchers use to clear aged cells, in 82 people. It compares two fisetin schedules, 100 mg a day for 60 days against a larger dose over two days, with no placebo group. Its main measure is the change in aged immune cells in blood; it ran from 2023-05-24 to 2024-01-30 and no results are posted.
+"""
+leaves = ["drug-clears-aged-cells-from-a-person"]
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-09. The entry was first posted on 2026-11-05, long after the trial finished, so results may follow. With no placebo group it cannot meet the test for the next step; it is logged because a posted or published result would bear on the treatment.
+"""

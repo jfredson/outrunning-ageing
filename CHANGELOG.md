@@ -2,6 +2,10 @@
 
 Every change to the records or the site, dated year-month-day, newest first. Plain language; a reader outside the project should be able to follow it.
 
+## 2026-11-09
+
+- Weekly reading (scheduled task, 2026-11-09): 45 treatments, 31 claims and 9 self-experiments read, 0 moved a rung, 5 publications logged (Wu, 2026, mouse paper on a mineral compound that clears aged cells; Steadman Philippon, 2026, registry entry for a finished fisetin trial; Ye, 2026, one-gene switching in human blood stem cells; Garcia-Pavia, 2026, four-year follow-up of the vutrisiran heart trial; Human Biome, 2026, registry entry for a planned gut-microbe capsule trial), 1 flagged for John (the full ZEUS results for the anti-inflammatory antibody ziltivekimab, no benefit on heart events, bearing on that treatment's estimate towards later); record at data/scans/2026-11-09.toml. The headline was not rerun.
+
 ## 2026-11-08
 
 - Weekly reading (scheduled task, 2026-11-08): 45 treatments, 31 claims and 9 self-experiments read, 0 moved a rung, 0 publications logged, 1 flagged for John (a newsletter report of 2026-03-28 that the company Rejuvenate Bio treated a first person with a telomerase gene therapy, press only and unconfirmed); record at data/scans/2026-11-08.toml.
