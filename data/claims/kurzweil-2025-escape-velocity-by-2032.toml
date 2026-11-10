@@ -1,0 +1,24 @@
+# Written 2026-11-09 on John's ruling of that day on the flagged item of the weekly reading of
+# 2026-10-25. MIT News's page was opened and read on 2026-11-09; the lecture's recording, embedded on
+# that page, was not heard, so the words are the report's quotation and the claim is marked as a
+# paraphrase.
+
+id = "kurzweil-2025-escape-velocity-by-2032"
+added_on = 2026-11-09
+who = "Ray Kurzweil"
+who_is = "the inventor and futurist Ray Kurzweil, a director of engineering at Google and the author of The Singularity Is Near (2005) and The Singularity Is Nearer (2024)"
+said_on = "2025-10-08"
+where = "His lecture Reinventing Intelligence at MIT, given on Wednesday 2025-10-08 on receiving the Robert A. Muh Alumni Award from MIT's School of Humanities, Arts, and Social Sciences; a recording is on MIT News's page about the lecture, and was not heard"
+link = "https://news.mit.edu/2025/ray-kurzwei-reinforces-his-optimism-tech-progress-1010"
+quote = "By roughly 2032 when you live through a year, you'll get back an entire year from scientific progress, and beyond that point you'll get back more than a year for every year you live"
+is_paraphrase = true
+paraphrase_seen_in = "MIT News, Ray Kurzweil '70 reinforces his optimism in tech progress, by Peter Dizikes, 2025-10-10, which prints these words in quotation marks as said in the lecture; read on the page on 2026-11-09"
+commits_to = "Longevity escape velocity by roughly 2032: from then on, living through a year gives back at least a whole year of life expectancy from scientific progress, and more than a year after that. The report adds that he said the gains would start with the people most diligent about their health."
+due = 2032
+about_the_headline = true
+verdict = "not-yet-due"
+
+notes = """
+An earlier dated occasion of the 2032 date that he gave again in his Boston Magazine interview, published 2026-02-11 (also on this log), so it shows the date was being given about four months before that interview. Like that interview it moves the date of his 2024 book, by around 2030, two years later. The weekly reading of 2026-10-25 found the report and left it to me, and I ruled on 2026-11-09 that it is entered as a claim of its own, as the log does for each dated occasion. The words are MIT News's quotation of the lecture and have not been checked against the recording, so they are shown as the version that circulates.
+When 2032 passes, the verdict turns on whether, in that year, the best available care added at least a year of remaining life expectancy per year lived.
+"""

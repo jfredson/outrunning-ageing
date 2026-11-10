@@ -1,0 +1,25 @@
+# Publications log. Added 2026-11-09 under John's ruling of that day on the flagged item of the weekly
+# reading of 2026-11-09 (re-estimate the heart-attack entry later because ZEUS failed). The journal's
+# own page refused to open (a bot check); the title, date and authors were read from the DOI
+# registry's record of the paper (Crossref) on 2026-11-09, and every figure below from the two pages
+# named in the notes, both opened and read in full the same day.
+
+id = "ridker-2026"
+date = "2026-11-07"
+added_on = 2026-11-09
+authors = ["Paul M. Ridker", "A. Michael Lincoff", "Nikolaus Marx", "Ann Marie Navar", "Naveed Sattar", "Katherine R. Tuttle", "Matthew Budoff", "Morten Böttcher", "Matthew A. Cavender", "Robin P. Choudhury", "Jan H. Cornel", "Grzegorz Gajos", "Issei Komuro", "K.M.K. Reddy Parvathareddy", "Roberto Pontremoli", "José Francisco Kerr Saraiva", "Iana I. Simova", "Lance A. Sloan", "Alejandro López-Suárez", "Yi-Da Tang", "Lale Tokgözoğlu", "Nqoba Tsabedze", "Konstantinos Tsioufis", "Subodh Verma", "Mathias Vrolix", "Andreas Andersen", "Florian M.M. Baeres", "Kathrine Ekström", "Mads D.M. Engelmann", "Sofia Gerward", "G. Kees Hovingh", "Anders Hvelplund", "Vlado Perkovic"]
+title = "Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease"
+venue = "New England Journal of Medicine, 2026, published online 2026-11-07, presented the same day at the American Heart Association's Scientific Sessions 2026"
+link = "https://doi.org/10.1056/NEJMoa2612126"
+finding = """
+The full report of the ZEUS trial. In 6,376 people with hardened arteries, chronic kidney disease and raised inflammation, mean age 69, given a monthly injection of ziltivekimab, an antibody against the inflammatory messenger interleukin-6, or a placebo, and followed for a median of 33 months, heart attack, stroke or death from heart disease happened to 17.6 per cent on the drug and 17.7 per cent on placebo (561 people against 565), no meaningful difference. The drug lowered the inflammation markers it was meant to lower, there was no effect on deaths from any cause, and infections rose slightly. The authors suggest the people enrolled, about ten years older and sicker than in the 2017 canakinumab trial, may have had disease too far along to change; the lead author added, in his hospital's release, that low-dose colchicine, already shown to work and approved, is under-used.
+"""
+leaves = ["an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks"]
+branches = ["inflammation-and-signalling"]
+moved_range = true
+settled_stage = false
+notes = """
+The peer-reviewed report of the result the company announced on 2026-07-31 (Novo Nordisk, its announcement of that date, also in this log). The weekly reading of 2026-11-09 found it and left it for me, because it bears on the estimate of when a drug acting only on inflammation is in wide use to prevent heart attacks. I ruled on 2026-11-09 that the estimate moves later, and it did the same day.
+
+The journal's page did not open on 2026-11-09: it showed a check for automated visitors, which was not got round. So the figures were read from two pages opened in full that day. The release by Mass General Brigham, the hospital group of the lead author (Heart researchers unpack neutral findings from ZEUS, an anti-inflammatory clinical trial, 2026-11-07, https://www.eurekalert.org/news-releases/1150801), gives 561 against 565 events, the reassuring safety with a small rise in infections and no effect on deaths from any cause, the older and sicker population, and Ridker's remark that low-dose colchicine is under-used. The American College of Cardiology's report of the presentation (2026-11-07, https://www.acc.org/latest-in-cardiology/articles/2026/11/06/14/37/sat-935am-zeus-aha-2026) gives the 6,376 people, the dose, the mean age of 69, the median follow-up of 33 months, and 17.6 per cent against 17.7 per cent. The paper's title, its date of 2026-11-07 and its 33 named authors were read from the record the journal filed with the DOI registry. The hazard ratio of 0.99 is the company's own figure, from its announcement of 2026-07-31.
+"""

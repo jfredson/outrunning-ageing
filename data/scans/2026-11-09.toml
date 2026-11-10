@@ -532,6 +532,8 @@ sources = ["https://www.hcplive.com/view/ziltivekimab-fails-to-reduce-cardiovasc
 for_john = """
 Bears on the estimate, towards later: the largest test of a drug acting on inflammation alone since 2017 now has its full results reported in a leading journal, and it found no benefit on heart attacks, strokes or cardiovascular deaths. It confirms the second mark against that was recorded from the company announcement, beside the 2025 colchicine trial. The paper (reported as Ridker and colleagues, New England Journal of Medicine, 2026-11-07, DOI 10.1056/NEJMoa2612126) was seen in news reports and a search result only: the journal page refused to open and the Europe PMC database did not list it, so it is not logged yet; the next reading can log it once its page opens. Sources opened: the three news reports listed; not opened: the journal page.
 """
+resolved_on = 2026-11-09
+resolved_by = "Ruled on 2026-11-09 and applied in the change to the records that day: I moved the estimate for wide use later, from 2027, 2032 and 2050 to 2028, 2035 and 2055, because the full peer-reviewed report of the ZEUS trial (Ridker and colleagues, New England Journal of Medicine, 2026-11-07) found no benefit; the report is now in the publications log. The journal's page still did not open, so its figures were checked against the lead author's hospital's release and the American College of Cardiology's report. The headline was worked out again and did not move."
 
 [[item]]
 leaf = "blocking-one-messenger-protein-makes-old-animals-live-longer"

@@ -1,0 +1,23 @@
+# Written 2026-11-09 on John's ruling of that day on the flagged item of the weekly reading of
+# 2026-10-25. The episode's description was read in the podcast's own feed and
+# in the Lifeboat Foundation's repost on 2026-11-09; the recording was not heard (YouTube refused
+# automated requests for its captions that day), so the claim is marked as a paraphrase.
+
+id = "de-grey-2026-fifty-fifty-twelve-to-fifteen-years"
+added_on = 2026-11-09
+who = "Aubrey de Grey"
+who_is = "the biogerontologist Aubrey de Grey, who coined the phrase longevity escape velocity, co-founded the Methuselah Foundation and the SENS Research Foundation, and since 2022 has run the Longevity Escape Velocity Foundation"
+said_on = "2026-10-15"
+where = "The Beyond Tomorrow podcast with Julian Issa, the episode 4 Longevity Legends Debate Each Other About Human Flourishing, a four-way debate with Alex Zhavoronkov, George Church and Michael Ringel, posted on YouTube and in the podcast's feed on 2026-10-15; the recording was not heard"
+link = "https://www.youtube.com/watch?v=-IxfU66fX7M"
+quote = "Aubrey puts it at a 50/50 chance within 12 to 15 years."
+is_paraphrase = true
+paraphrase_seen_in = "The episode's own description, the same in the podcast's feed and in the Lifeboat Foundation's repost of 2026-10-16 (https://lifeboat.com/blog/2026/10/top-longevity-experts-debate-each-other-about-extending-human-lifespan); read on 2026-11-09"
+commits_to = "Even odds of longevity escape velocity, the point where the body's damage is repaired faster than it builds up, within 12 to 15 years of 2026: by 2038 to 2041. Scored at the later year."
+due = 2041
+about_the_headline = true
+verdict = "not-yet-due"
+
+notes = """
+A restatement, in 2026, of the even odds within 12 to 15 years he gave in a written interview of 2024 (also on this log). Counted from the day of the episode, the window runs to 2038 to 2041, two years later than the 2024 statement's, which is why it is entered as its own dated claim and the 2024 claim is left as it was. The same horizon is in his own spoken words in a podcast interview posted on 2026-08-06, recorded in the notes of the 2024 claim. The weekly reading of 2026-10-25 found the episode through the Lifeboat Foundation's repost and left it to me, and I ruled on 2026-11-09 that it is entered. The words here are the podcast's description of what he said, not his own; they have not been checked against the recording.
+"""

@@ -95,6 +95,8 @@ queries = [
 found = "No peer-reviewed report dated in the window turned up. A newsletter brief dated 2026-03-28 says a company, Rejuvenate Bio, dosed a first person in a trial of a telomerase gene therapy; the records do not hold it, and other results conflict with it."
 sources = ["https://the-teknologist.pages.dev/brief/biotech/biotech-longevity-brief-2026-03-28"]
 for_john = "Change I would have made: none to the stage, but John may want to look into a possible first person treated with a telomerase gene therapy. The only report is a newsletter brief dated 2026-03-28 (opened), which cites a STAT News article of the same date that I did not open and gives no registry number; a company profile seen in a search result calls Rejuvenate Bio preclinical, so the report may be a confusion with another company. It is press only and older than the window, so it is not the reading's to act on, and the test needs measured longer telomeres in a peer-reviewed report in any case. Searched data/ for Rejuvenate Bio: only an unrelated query in the 2026-11-01 reading. Opened: the brief. Not opened: the STAT News article, any company release, any registry entry."
+resolved_on = 2026-11-09
+resolved_by = "Ruled on 2026-11-09: waiting for a paper or a registry record. The only report of a first person given Rejuvenate Bio's telomerase gene therapy is a newsletter's brief, and this treatment's test asks for longer telomeres measured in a person, with the cancer rate given, in a peer-reviewed report, so nothing changes until a paper or a registry record for such a trial can be opened."
 
 [[item]]
 leaf = "premature-ageing-mutation-corrected-in-a-living-animal"
