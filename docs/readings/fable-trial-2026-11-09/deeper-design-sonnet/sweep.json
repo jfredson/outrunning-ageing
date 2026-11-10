@@ -1,0 +1,263 @@
+{
+ "stories": [
+  {
+   "date": "2026-10-27",
+   "what": "Life Biosciences reported interim data from three people with glaucoma given a single eye injection of its cell-resetting gene therapy ER-100 plus daily doxycycline. It was well tolerated through day 56, the safety board recommended a higher dose, and two of three people showed possible visual-field improvement.",
+   "url": "https://lifespan.io/life-biosciences-announces-first-in-human-phase-1-trial-data/",
+   "opened": true,
+   "source_kind": "company press release (reposted by lifespan.io)",
+   "direction": "for",
+   "matches_record": "a-person-receives-cell-resetting-genes-in-a-trial",
+   "in_records_already": true,
+   "importance": 3,
+   "why": "First human data on partial reprogramming; open-label, three people, safety-focused. The records already hold a 2026-10-08 announcement of the same data, so this 10-27 post may be a repost, not new data."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "A randomized, placebo-controlled trial of 410 people with early Parkinson's disease found that a year of twice-daily nicotinamide riboside (a precursor that raises cell NAD) did not improve symptoms. Nature Aging ran a news summary of the result.",
+   "url": "https://www.nature.com/articles/s43587-026-01277-x",
+   "opened": true,
+   "source_kind": "journal news item (Nature Aging)",
+   "direction": "against",
+   "matches_record": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+   "in_records_already": false,
+   "importance": 3,
+   "why": "Largest controlled test of an NAD-raising supplement for a clinical outcome and it was negative; bears directly on the NAD record, though the disease is Parkinson's, not ageing as such. Only the news summary was readable (the paper is paywalled)."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "A Nature Aging paper reports that vanadyl sulfate, a mineral supplement, acts as a senolytic (it kills aged cells), and that taken by mouth it reduced ageing features and extended lifespan in male mice.",
+   "url": "https://www.nature.com/articles/s43587-026-01253-5",
+   "opened": true,
+   "source_kind": "journal paper abstract (Nature Aging)",
+   "direction": "for",
+   "matches_record": "clearing-aged-cells-makes-old-animals-live-longer",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "Another mouse lifespan result for clearing aged cells, with a cheap oral compound; male mice only and no human data."
+  },
+  {
+   "date": "2026-10-30",
+   "what": "A senolytic vaccine that trains T cells to attack aged cells raised median lifespan 12 percent in female mice when given late in life, with lower aged-cell markers. The reviewer notes the control mice were short-lived, which weakens the result.",
+   "url": "https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/",
+   "opened": true,
+   "source_kind": "lifespan.io news (reporting an Advanced Science paper)",
+   "direction": "neutral",
+   "matches_record": "immune-cells-engineered-to-kill-aged-cells",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "Immune route to clearing aged cells with a lifespan effect; caveat about short-lived controls limits it."
+  },
+  {
+   "date": "2026-10-28",
+   "what": "Overexpressing SRSF1, an RNA-processing factor, in mouse liver rejuvenated human cells in culture and extended lifespan and reduced frailty in mice, as an alternative to Yamanaka-factor reprogramming.",
+   "url": "https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/",
+   "opened": true,
+   "source_kind": "lifespan.io news",
+   "direction": "for",
+   "matches_record": "partially-resetting-cells-reverses-ageing-in-an-animal",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A new rejuvenation route that avoids the cell-identity loss of reprogramming; animal and cell data only."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "A report covered by Fight Aging! describes circular RNA carrying the Yamanaka factors that produced partial reprogramming without pushing cells to full pluripotency.",
+   "url": "https://www.fightaging.org/archives/2026/11/circular-rna-encoding-yamanaka-factors-enables-partial-reprogramming-without-pluripotency/",
+   "opened": true,
+   "source_kind": "blog (Fight Aging!)",
+   "direction": "for",
+   "matches_record": "partially-resetting-cells-reverses-ageing-in-an-animal",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Delivery-method advance for partial reprogramming; cell-level, I did not identify the underlying paper's venue."
+  },
+  {
+   "date": "2026-10-26",
+   "what": "Nature reported on a growing push to extend pet lifespans after the first Animal Longevity Summit in Toronto, including gene therapies for dogs and the commercial race around them.",
+   "url": "https://www.nature.com/articles/d41586-026-03447-8",
+   "opened": true,
+   "source_kind": "journal news feature (Nature)",
+   "direction": "neutral",
+   "matches_record": "a-drug-is-approved-to-make-dogs-live-longer",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "Mainstream coverage of the dog-longevity field that the dog-approval record and Loyal's 2025 approval-by-end-of-2025 claim depend on; I did not find in it a new approval, and did not read it in full."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "In a placebo-controlled trial published in a cardiology journal, the multi-ingredient supplement NOVOS Core improved artery function and systolic blood pressure in people around 60. The company funded the study and the effect cannot be traced to any ingredient.",
+   "url": "https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/",
+   "opened": true,
+   "source_kind": "lifespan.io news (reporting European Heart Journal Open paper)",
+   "direction": "for",
+   "matches_record": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "A controlled human trial of a longevity supplement, but industry-funded, one blend, and a vascular measure rather than ageing."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Lifespan Research Institute's editorial says regulators and investors are shifting toward aging biology, pointing to FDA leaders naming longevity a priority at a conference and to new funding.",
+   "url": "https://lifespan.io/momentum-on-two-fronts-for-rejuvenation/",
+   "opened": true,
+   "source_kind": "advocacy editorial (lifespan.io)",
+   "direction": "for",
+   "matches_record": "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Opinion piece by an advocacy group. The underlying FDA panel story is dated 2026-10-02, before the window, and the officials discussed endpoints and pathways, not declaring ageing a disease."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "The FDA issued final guidance on how makers of cell and gene therapies must assure each batch's potency, replacing its 2011 guidance.",
+   "url": "http://www.fda.gov/news-events/press-announcements/fda-provides-clarity-support-cell-and-gene-therapy-development-and-quality",
+   "opened": true,
+   "source_kind": "regulator press announcement (FDA)",
+   "direction": "neutral",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "General regulatory clarity for gene and cell therapies, which rejuvenation approaches would rely on; not specific to ageing."
+  },
+  {
+   "date": "2026-11-07",
+   "what": "The FDA opened an investigation of Novartis's gene therapy Zolgensma after cancer cases were reported.",
+   "url": "https://endpoints.news/fda-launches-investigation-of-novartis-zolgensma-after-cancer-cases/",
+   "opened": false,
+   "source_kind": "trade press headline (Endpoints News, article blocked)",
+   "direction": "against",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A gene-therapy safety signal relevant to any in-body gene therapy for ageing. Only the RSS headline and date were read; detail unverified."
+  },
+  {
+   "date": "2026-11-07",
+   "what": "Endpoints reported at the American Heart Association meeting that heart drugs from Novo Nordisk and Novartis failed in similar, surprising ways.",
+   "url": "https://endpoints.news/aha26-the-similar-surprising-novo-and-novartis-heart-drug-failures-spelled-out/",
+   "opened": false,
+   "source_kind": "trade press headline (Endpoints News, article blocked)",
+   "direction": "against",
+   "matches_record": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+   "in_records_already": true,
+   "importance": 2,
+   "why": "Possibly the full presentation of Novo's ziltivekimab ZEUS result, which the records already hold from 2026-07-31; I could not open the article to confirm which drugs."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "Endpoints reported at the American Heart Association meeting that Amgen's Repatha cuts heart-attack risk.",
+   "url": "https://endpoints.news/satellos-new-duchenne-study-endpoint-amgens-repatha-cuts-heart-attack-risk/",
+   "opened": false,
+   "source_kind": "trade press headline (Endpoints News, article blocked)",
+   "direction": "neutral",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Cardiovascular prevention news, not ageing-specific; headline only."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "A genetics-and-biomarker item identifies blood plasma proteins linked to mortality risk and biological age.",
+   "url": "https://www.fightaging.org/archives/2026/11/identifying-plasma-proteins-associated-with-mortality-risk-and-biological-age/",
+   "opened": false,
+   "source_kind": "blog (Fight Aging!)",
+   "direction": "neutral",
+   "matches_record": "an-age-for-each-organ-is-read-from-blood-proteins",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Headline and date only from the feed; I did not open the page."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "A Cell paper reports that fatty acid desaturation decides whether a stressed cell becomes senescent or dies by ferroptosis.",
+   "url": "https://www.cell.com/cell",
+   "opened": false,
+   "source_kind": "journal listing (Europe PMC, DOI 10.1016/j.cell.2026.09.036)",
+   "direction": "neutral",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Basic biology of aged cells; the page was not opened, only the Europe PMC listing entry."
+  },
+  {
+   "date": "2026-11-01",
+   "what": "A trial of fisetin for vascular function in older adults is registered (phase 2, University of Colorado Boulder, not yet recruiting, start 2026-11).",
+   "url": "https://clinicaltrials.gov/study/NCT07871162",
+   "opened": true,
+   "source_kind": "trial registry",
+   "direction": "neutral",
+   "matches_record": "aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "A new controlled test of a senolytic candidate; registry entry only, no results."
+  }
+ ],
+ "sources_read": [
+  {
+   "source": "FDA press announcements (RSS)",
+   "how": "curl of the RSS feed; opened the Nov 2 guidance and the Nov 9 Sunharbo approval pages",
+   "reached": true
+  },
+  {
+   "source": "FDA novel drug approvals page",
+   "how": "not separately opened; relied on press announcements feed",
+   "reached": false
+  },
+  {
+   "source": "EMA news RSS",
+   "how": "curl; headlines read (CVMP, PRAC highlights); nothing ageing-related, no CHMP meeting in window",
+   "reached": true
+  },
+  {
+   "source": "STAT",
+   "how": "curl returned 403",
+   "reached": false
+  },
+  {
+   "source": "Fierce Biotech",
+   "how": "curl returned 403",
+   "reached": false
+  },
+  {
+   "source": "Endpoints News",
+   "how": "RSS read for headlines; article pages blocked with 403, so none opened",
+   "reached": true
+  },
+  {
+   "source": "BioSpace",
+   "how": "news listing page fetched; only Nov 9 items visible, none ageing-related",
+   "reached": true
+  },
+  {
+   "source": "Longevity.Technology",
+   "how": "curl returned 502",
+   "reached": false
+  },
+  {
+   "source": "lifespan.io news",
+   "how": "RSS pages 1 and 2 and story pages opened",
+   "reached": true
+  },
+  {
+   "source": "Fight Aging!",
+   "how": "RSS pages 1 and 2; several story pages opened",
+   "reached": true
+  },
+  {
+   "source": "Europe PMC, journals query",
+   "how": "REST query run, 23 hits, titles read",
+   "reached": true
+  },
+  {
+   "source": "ClinicalTrials.gov results-posted and start-date queries",
+   "how": "API queries run; results first posted: nothing ageing-specific; start date: fisetin trial",
+   "reached": true
+  },
+  {
+   "source": "Company Q3 results releases",
+   "how": "not read directly; only Endpoints recap headline seen",
+   "reached": false
+  }
+ ]
+}

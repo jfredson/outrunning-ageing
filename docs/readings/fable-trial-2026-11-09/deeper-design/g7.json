@@ -1,0 +1,672 @@
+{
+ "records": [
+  {
+   "id": "kurzweil-grossman-2004-two-decades",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "The verdict (missed) is already settled and nothing dated 2026-10-25 to 2026-11-08 touches it. No paper by Kurzweil in the window and no new dated statement of his was found.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC: (AUTH:\"Kurzweil R\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Ray Kurzweil longevity escape velocity interview November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "kurzweil-grossman-2009-bridge-two",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Not due until 2029. The registry and paper searches on reprogramming returned no human reprogramming result in the window, and Life Biosciences, the one company with a registered human reprogramming trial, published nothing after 2026-10-08.",
+   "findings": [],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=partial reprogramming OR OSK AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "Europe PMC: (\"partial reprogramming\" AND (human OR clinical OR trial)) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Ray Kurzweil longevity escape velocity interview November 2026",
+    "partial reprogramming first human trial dosed 2026 NewLimit OR Turn Biotechnologies OR YouthBio OR Altos Labs November"
+   ],
+   "pages_opened": [
+    "https://www.lifebiosciences.com/news/"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "life-biosciences-2024-first-human-study-second-half-2025",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing in the window. The trial's registry entry (NCT07290244) is still recruiting, was last updated on 2026-05-19 and has no results posted; the company's news page lists nothing after its release of 2026-10-08, which the records already hold.",
+   "findings": [
+    {
+     "date": "2026-05-19",
+     "what": "Registry entry NCT07290244: recruiting, started 2026-03-02, last update posted 2026-05-19, no results posted.",
+     "url": "https://clinicaltrials.gov/study/NCT07290244",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=ER-100 AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=Life Biosciences AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244",
+    "Europe PMC: (\"ER-100\" OR \"Life Biosciences\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Life Biosciences ER-100 press release November 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244",
+    "https://www.lifebiosciences.com/news/"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "loyal-2025-senior-dog-approval-by-end-of-2025",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No approval and no new company post in the window: Loyal's blog lists nothing after its post of 2026-09-16, and searches found no report that the regulator has accepted the manufacturing section for LOY-002. A ConsumerAffairs piece dated 2026-10-21 (before the window, not opened) is reported to say manufacturing is still in progress.",
+   "findings": [
+    {
+     "date": "2026-10-21",
+     "what": "ConsumerAffairs article said (per the search summary) that the manufacturing requirements for LOY-002 remain in progress; four days before the window.",
+     "url": "https://www.consumeraffairs.com/news/a-pill-to-help-dogs-live-longer-moves-closer-to-fda-approval-102126.html",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC: (LOY-002 OR LOY-001 OR LOY-003 OR \"Loyal\" AND dog AND lifespan) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]",
+    "Europe PMC: (dog AND (lifespan OR longevity) AND (drug OR rapamycin OR trial)) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Loyal LOY-002 conditional approval FDA news November 2026",
+    "Loyal dog longevity drug LOY-002 manufacturing section FDA update"
+   ],
+   "pages_opened": [
+    "https://loyal.com/blog"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "methuselah-foundation-2013-ninety-the-new-fifty-by-2030",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing in the window. The foundation's news page shows no post later than 2023-10-26, and no paper or news item naming the foundation appeared in the dated searches.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC: (\"Methuselah Foundation\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Methuselah Foundation \"90 the new 50\" 2026 news"
+   ],
+   "pages_opened": [
+    "https://www.mfoundation.org/news"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "olshansky-2024-implausible-this-century",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Not due until 2100. No paper by Olshansky and no paper on a limit to life expectancy appeared in the window; the web search returned only the 2024 coverage of the paper already on the log.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC: (AUTH:\"Olshansky SJ\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]",
+    "Europe PMC: (TITLE:\"maximum lifespan\" OR TITLE:\"limit to human lifespan\" OR TITLE:\"radical life extension\" OR (TITLE:\"life expectancy\" AND TITLE:limit)) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Olshansky life expectancy limit new study October 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "retro-biosciences-2022-clinic-next-year",
+   "kind": "claim",
+   "verdict": "flagged",
+   "found": "Nothing dated in the window; no registry entry or paper names the drug. An older item the record does not hold: Longevity.Technology reported on 2026-09-11 that Retro is adding two higher-dose groups to the first trial of RTR242, raising enrolment from 76 to 108 healthy volunteers, after early doses showed no safety problems. It does not change the verdict (missed).",
+   "findings": [
+    {
+     "date": "2026-09-11",
+     "what": "Longevity.Technology: the RTR242 safety trial is widened with two higher-dose groups, 76 to 108 participants, healthy volunteers aged 18 to 65; no safety signals so far; no date given for results.",
+     "url": "https://longevity.technology/news/retro-biosciences-tweaks-its-alzheimers-pill-dosing/",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=Retro Biosciences AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=RTR242 AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=autophagy AND Alzheimer AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "Europe PMC: (\"Retro Biosciences\" OR RTR242) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Retro Biosciences RTR242 trial news October November 2026"
+   ],
+   "pages_opened": [
+    "https://www.retro.bio/blog",
+    "https://longevity.technology/news/retro-biosciences-tweaks-its-alzheimers-pill-dosing/"
+   ],
+   "story_score": 1,
+   "story_why": "An older trial change (2026-09-11) the record lacks; not news of the window."
+  },
+  {
+   "id": "retro-biosciences-2022-ten-years",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing in the window. The company's blog still shows one post (the financing announcement already in the record) and no registry entry or paper names the company in the window.",
+   "findings": [],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=Retro Biosciences AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "Europe PMC: (\"Retro Biosciences\" OR RTR242) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Retro Biosciences RTR242 trial news October November 2026"
+   ],
+   "pages_opened": [
+    "https://www.retro.bio/blog"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "salk-2016-up-to-ten-years-to-trials",
+   "kind": "claim",
+   "verdict": "flagged",
+   "found": "Nothing dated in the window. An older record the entry lacks: a KHL Foundation release dated 2026-09-30 (reported by Fight Aging! on 2026-10-07) says a person was given the three reprogramming genes on 2026-03-11 outside any registered trial, which is about the same time the Life Biosciences trial began (registry start 2026-03-02) and before that company announced its first dose on 2026-06-09. The claim is about clinical trials, so the verdict (delivered) stands, but the author may want it in the notes or on the treatment's entry.",
+   "findings": [
+    {
+     "date": "2026-09-30",
+     "what": "KHL Foundation release, Madrid (outside the window): says a small number of people received an experimental 11-gene therapy containing the three reprogramming genes (OCT4, SOX2, KLF4) from Triple Helix Science, one of them, Christine Scott, on 2026-03-11, outside any registered trial, switched on with doxycycline, aimed at thinking; led by Patrick Sewell. The release says nothing has been proved and stops short of an unqualified first-in-the-world claim.",
+     "url": "https://khlfoundation.com/resources-center/madrid-2026-press-release/",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-07",
+     "what": "Fight Aging! post reporting the KHL Foundation release and calling these the likely first human partial reprogramming treatments, given outside the regulated route.",
+     "url": "https://www.fightaging.org/archives/2026/10/khl-foundation-reports-the-likely-first-human-partial-epigenetic-reprogramming-treatments/",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=partial reprogramming OR OSK AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244",
+    "Europe PMC: (\"partial reprogramming\" AND (human OR clinical OR trial)) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Life Biosciences ER-100 press release November 2026",
+    "partial reprogramming first human trial dosed 2026 NewLimit OR Turn Biotechnologies OR YouthBio OR Altos Labs November"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244",
+    "https://www.lifebiosciences.com/news/",
+    "https://khlfoundation.com/resources-center/madrid-2026-press-release/",
+    "https://www.fightaging.org/archives/2026/10/khl-foundation-reports-the-likely-first-human-partial-epigenetic-reprogramming-treatments/"
+   ],
+   "story_score": 2,
+   "story_why": "A self-reported human dose of reprogramming genes outside any trial, dated before the window and absent from the records; unverified, but a reader following the first trial would want to know of it."
+  },
+  {
+   "id": "sinclair-2019-lifespan",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No date to settle and nothing in the window: no paper by Sinclair and no new statement of his dated 2026-10-25 to 2026-11-08 was found.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC: (AUTH:\"Sinclair DA\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "David Sinclair age reversal statement October 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "sinclair-2023-age-reversal-in-people",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Already settled (missed) and nothing in the window bears on it; the trial's registry entry has not changed since 2026-05-19. An Emirates news agency report of 2026-02-05 (read in the Aletihad copy) has him saying the first test of age reversal in people was about to begin; it carries no dated prediction and is older than the window.",
+   "findings": [
+    {
+     "date": "2026-02-05",
+     "what": "Aletihad copy of the Emirates news agency report from the World Government Summit: Sinclair says 'We are about to test, for the first time in history, whether we can reverse ageing and cure diseases'; no year given.",
+     "url": "https://en.aletihad.ae/news/uae/4642773/-ageing-could-soon-be-reversible---says-harvard-scientist-at",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244",
+    "Europe PMC: (AUTH:\"Sinclair DA\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "David Sinclair age reversal statement October 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244",
+    "https://en.aletihad.ae/news/uae/4642773/-ageing-could-soon-be-reversible---says-harvard-scientist-at"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "sinclair-2024-dog-supplement",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing in the window: no new paper on the dog supplement or by Sinclair, and no dog-ageing trial result in the dated paper search.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC: (AUTH:\"Sinclair DA\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]",
+    "Europe PMC: (dog AND (lifespan OR longevity) AND (drug OR rapamycin OR trial)) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=NMN OR nicotinamide mononucleotide AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]"
+   ],
+   "web_queries": [
+    "David Sinclair age reversal statement October 2026",
+    "David Sinclair NMN resveratrol own biological age interview November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "unity-2016-senolytic-medicines",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing in the window. Unity's four registry entries for its eye drug were last updated in 2025 or earlier, and the only paper in the window with senolytic in its title is a review on heart-valve disease, not a trial.",
+   "findings": [
+    {
+     "date": "2026-10-29",
+     "what": "Review article, Molecular Biology Reports: asks whether the field is ready for drugs that clear worn-out cells in calcific aortic valve disease; title only, not a trial.",
+     "url": "https://europepmc.org/abstract/MED/42965583",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=senolytic AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=UBX1325 OR foselutoclax AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "Europe PMC: (TITLE:senolytic AND (trial OR patients OR participants)) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Unity Biotechnology UBX1325 foselutoclax 2026 acquired OR licensed OR dissolution"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "vijg-2016-limit-to-human-lifespan",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing in the window: no paper by Vijg, no paper on a maximum lifespan, and no report of a new oldest-person record. The searches on the oldest people returned deaths at 112 to 115 earlier in 2026, all consistent with the claim.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC: (AUTH:\"Vijg J\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]",
+    "Europe PMC: (supercentenarian OR \"oldest person\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]",
+    "Europe PMC: (TITLE:\"maximum lifespan\" OR ...) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Vijg \"limit to human lifespan\" 2026 maximum lifespan new analysis",
+    "oldest living person dies 2026 supercentenarian record age"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "xprize-healthspan-2023-launch",
+   "kind": "claim",
+   "verdict": "noted",
+   "found": "Not due until 2030 and no prize announcement in the window; the prize page lists nothing newer than a report of 2026-10-15. The registry shows two trials tied to the prize moving: an ultrasound-bath trial in 20 people, with XPRIZE named as collaborator, reached its last measurement on 2026-10-31 (NCT07168525), and a 26-person pilot of drug combinations by the finalist AgelessRx was marked completed in an update posted 2026-10-30 (NCT07475546). Neither has results posted.",
+   "findings": [
+    {
+     "date": "2026-10-31",
+     "what": "NCT07168525, University of Texas Health Science Center at San Antonio with the XPRIZE Foundation as collaborator: sham-controlled low-frequency ultrasound bath, 20 participants, muscle, thinking and immune measures; primary completion 2026-10-31, status completed (that update was posted 2026-11-09, one day after the window), no results.",
+     "url": "https://clinicaltrials.gov/study/NCT07168525",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-30",
+     "what": "NCT07475546, AgelessRx: 90-day randomised pilot of combinations including rapamycin, metformin, naltrexone and NAD in 26 people; status completed, update posted 2026-10-30, no results.",
+     "url": "https://clinicaltrials.gov/study/NCT07475546",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10",
+     "what": "XPRIZE Healthspan page: describes trial participants as aged 50 to 80 and lists a finalist question-and-answer document marked Issue 4, October 2026 (not opened); late registration runs from 2026-08 to 2027-07.",
+     "url": "https://www.xprize.org/prizes/healthspan",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=XPRIZE OR healthspan AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07168525",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07475546",
+    "Europe PMC: (XPRIZE AND healthspan) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "XPRIZE Healthspan finalists news November 2026"
+   ],
+   "pages_opened": [
+    "https://www.xprize.org/prizes/healthspan",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07168525",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07475546"
+   ],
+   "story_score": 1,
+   "story_why": "First prize-linked trials finishing, with no results yet; worth a line, not a post."
+  },
+  {
+   "id": "bryan-johnson-blueprint",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing of his own dated in the window was found. The Rejuvenation Olympics page still shows him first at 0.50, as the record says; the newest coverage found is an Axios interview of about 2026-10-08, before the window and not opened.",
+   "findings": [
+    {
+     "date": "2026-10-08",
+     "what": "Axios newsletter interview with Johnson, reported in search results only; before the window.",
+     "url": "https://www.axios.com/newsletters/axios-future-of-health-care-325fc760-c286-11f1-87fb-abf5b6954858.html",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC: (\"Bryan Johnson\" OR \"Blueprint protocol\" OR \"Rejuvenation Olympics\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=plasma exchange AND aging AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]"
+   ],
+   "web_queries": [
+    "Bryan Johnson Blueprint news November 2026",
+    "Bryan Johnson \"Don't Die\" announcement October 2026",
+    "Bryan Johnson biohacker says this week (November 2026)"
+   ],
+   "pages_opened": [
+    "https://rejuvenationolympics.com/"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "dave-pascoe",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window. The search returned podcast appearances from earlier in 2026 repeating his own figures, and no independent measurement.",
+   "findings": [],
+   "dated_queries": [],
+   "web_queries": [
+    "\"Dave Pascoe\" longevity 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "david-sinclair-own-regimen",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window: no new figure for his own biological age and no retraction. The most recent appearances found are podcasts of 2026-04 and 2026-08-24, known only from summaries and not opened.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC: (AUTH:\"Sinclair DA\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=NMN OR nicotinamide mononucleotide AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]"
+   ],
+   "web_queries": [
+    "David Sinclair NMN resveratrol own biological age interview November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "elizabeth-parrish-bioviva",
+   "kind": "self-experiment",
+   "verdict": "noted",
+   "found": "On 2026-10-27 BioViva issued a release announcing her book, How I Became a GMO and Why You Will Too, which says she has pursued experimental gene therapies on herself since 2015; it reports no measurements or outcomes. Separately, Patrick Sewell, the author of the 2022 case report in the record, is named in a KHL Foundation release of 2026-09-30 as leading gene therapies given to people outside trials. A BioEdge item of 2025-11-26 (not opened) is reported to say she was awaiting results of a human study run in Mexico, which the record does not mention.",
+   "findings": [
+    {
+     "date": "2026-10-27",
+     "what": "BioViva Sciences USA release on PR Newswire (read in the Webull copy): announces Parrish's book; says she was among the first to undergo experimental gene therapies against ageing, from 2015; no results or safety data.",
+     "url": "https://www.webull.com/news/15821119262437376",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-09-30",
+     "what": "KHL Foundation release, Madrid (outside the window): says a small number of people received an experimental 11-gene therapy containing the three reprogramming genes (OCT4, SOX2, KLF4) from Triple Helix Science, one of them, Christine Scott, on 2026-03-11, outside any registered trial, switched on with doxycycline, aimed at thinking; led by Patrick Sewell. The release says nothing has been proved and stops short of an unqualified first-in-the-world claim.",
+     "url": "https://khlfoundation.com/resources-center/madrid-2026-press-release/",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2025-11-26",
+     "what": "BioEdge item citing STAT: Parrish awaiting results of a human study in Mexico; search summary only.",
+     "url": "https://bioedge.org/?p=22814",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=telomerase gene therapy AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=follistatin gene therapy AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "Europe PMC: (BioViva OR (telomerase AND \"gene therapy\" AND (aging OR ageing) AND human)) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Liz Parrish BioViva gene therapy 2026"
+   ],
+   "pages_opened": [
+    "https://www.webull.com/news/15821119262437376",
+    "https://khlfoundation.com/resources-center/madrid-2026-press-release/"
+   ],
+   "story_score": 1,
+   "story_why": "Her own book, published in the window, adds a first-person account but no data."
+  },
+  {
+   "id": "julie-gibson-clark",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window. The newest item is still the press release of 2026-07-27 already in the record.",
+   "findings": [],
+   "dated_queries": [],
+   "web_queries": [
+    "\"Julie Gibson Clark\" longevity 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "michael-lustgarten",
+   "kind": "self-experiment",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window was found. His site's feed shows no post after 2025-05-14, no paper of his appeared in the window, and a mirror lists a post titled Blood Test #2 in 2026 from 2026-05 (not opened), which the record does not mention.",
+   "findings": [
+    {
+     "date": "2026-05",
+     "what": "Lifeboat mirror of his post 'Blood Test #2 In 2026: Biological Age, CVD Risk, Correlations With Diet'; title only.",
+     "url": "https://lifeboat.com/blog/2026/05/blood-test-2-in-2026-biological-age-cvd-risk-correlations-with-diet",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC: (AUTH:\"Lustgarten MS\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Michael Lustgarten biological age blood test 2026 results \"Conquer Aging\""
+   ],
+   "pages_opened": [
+    "https://michaellustgarten.wordpress.com/feed/"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "mikhail-blagosklonny-rapamycin",
+   "kind": "self-experiment",
+   "verdict": "noted",
+   "found": "Nothing new about his own case. A paper in GeroScience dated 2026-11-05 bears on the argument he made for fifteen years: in about 11,500 kidney transplant recipients followed a median of 11 years, those prescribed rapamycin did not live longer than those who were not. It is an observational study of sick people on other immune-suppressing drugs, so it counts against without settling anything.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Stewart and Fitzsimmons, GeroScience (peer-reviewed paper, abstract read): among United States kidney transplant recipients alive with a working graft at one year, 4,885 prescribed rapamycin and 6,589 not, followed a median of 11 years, median age at death was 64.6 against 64.3 years after adjustment (95% interval for the difference -1.6 to 2.0 years); the authors saw no meaningful gain in long-term survival.",
+     "url": "https://doi.org/10.1007/s11357-026-02643-8",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC: (AUTH:\"Blagosklonny MV\" OR (TITLE:rapamycin AND (TITLE:aging OR TITLE:ageing OR TITLE:longevity OR TITLE:healthspan))) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=rapamycin AND aging AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]"
+   ],
+   "web_queries": [
+    "Blagosklonny rapamycin 2026 tribute OR legacy OR paper"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42989006&resultType=core"
+   ],
+   "story_score": 2,
+   "story_why": "The largest look yet at long-term rapamycin use and length of life in people, and it found no gain."
+  },
+  {
+   "id": "peter-attia-rapamycin",
+   "kind": "self-experiment",
+   "verdict": "noted",
+   "found": "No new statement of his about his own use was found in the window. The GeroScience paper of 2026-11-05 on rapamycin and survival in kidney transplant recipients (no difference in age at death) bears on the drug he takes, not on him.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Stewart and Fitzsimmons, GeroScience (peer-reviewed paper, abstract read): among United States kidney transplant recipients alive with a working graft at one year, 4,885 prescribed rapamycin and 6,589 not, followed a median of 11 years, median age at death was 64.6 against 64.3 years after adjustment (95% interval for the difference -1.6 to 2.0 years); the authors saw no meaningful gain in long-term survival.",
+     "url": "https://doi.org/10.1007/s11357-026-02643-8",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC: (TITLE:rapamycin AND (TITLE:aging OR TITLE:ageing OR TITLE:longevity OR TITLE:healthspan)) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=rapamycin AND aging AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]"
+   ],
+   "web_queries": [
+    "Peter Attia rapamycin 2026 still taking"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42989006&resultType=core"
+   ],
+   "story_score": 1,
+   "story_why": "Same paper as under the Blagosklonny record; the story belongs with the rapamycin treatment entry."
+  },
+  {
+   "id": "rejuvenation-olympics",
+   "kind": "self-experiment",
+   "verdict": "noted",
+   "found": "The leaderboard's home page now carries a banner saying the competition closes on 2027-03-30 and that the last day to enter was 2026-10-30, which falls in the window and is not in the record. The top five by pace have also shifted since 2026-10-16: Bryan Johnson 0.50, then 0.51, 0.52, 0.55 and 0.59, where the record says the four below him ran from 0.51 to 0.57. The page gives no date for the banner. A new trial using the same clock as its main measure was registered on 2026-11-03 (see unmatched).",
+   "findings": [
+    {
+     "date": "2026-10-30",
+     "what": "Rejuvenation Olympics home page banner: 'Competition closes 3/30/2027; last day to enter is 10/30/2026'; top five on the pace board are Bryan Johnson 0.50, Madeleine Saade 0.51, Annie N 0.52, Marcus Jecklin 0.55, Lorenz Sauer 0.59 (read 2026-11-09).",
+     "url": "https://rejuvenationolympics.com/",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC: (TITLE:DunedinPACE) AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=DunedinPACE AND AREA[LastUpdatePostDate]RANGE[2026-10-25,2026-11-08]",
+    "Europe PMC: (\"Bryan Johnson\" OR \"Blueprint protocol\" OR \"Rejuvenation Olympics\") AND FIRST_PDATE:[2026-10-25 TO 2026-11-08]"
+   ],
+   "web_queries": [
+    "Rejuvenation Olympics leaderboard 2026 Bryan Johnson DunedinPACE new"
+   ],
+   "pages_opened": [
+    "https://rejuvenationolympics.com/"
+   ],
+   "story_score": 1,
+   "story_why": "The board has an end date and entry has closed; a small change to a running record."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-11-06",
+   "what": "A new trial was registered: VITAL-H (NCT07923630), University of Texas Health Science Center at San Antonio with the United States Department of Health and Human Services as collaborator. It plans 1,200 people on dapagliflozin, oral semaglutide or placebo for 36 months to test whether two approved drugs delay age-related decline in health and function; not yet recruiting, start planned for 2027-01, main results 2030-12.",
+   "url": "https://clinicaltrials.gov/study/NCT07923630",
+   "opened": true,
+   "why_it_matters": "A large, publicly backed trial with healthy ageing itself as the aim, using approved drugs; it is the kind of trial the measuring question has been waiting for. Not found in the records."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Stewart and Fitzsimmons, GeroScience: in 4,885 kidney transplant recipients prescribed rapamycin and 6,589 not, followed a median of 11 years, adjusted median age at death was 64.6 against 64.3 years; no meaningful survival gain from long-term rapamycin.",
+   "url": "https://doi.org/10.1007/s11357-026-02643-8",
+   "opened": true,
+   "why_it_matters": "A result that counts against rapamycin lengthening human life, from one of the largest sets of people on the drug for years; it belongs beside the rapamycin treatment entry and may bear on its estimate. Not found in the records."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "A new trial was registered: NCT07912164, Human Biome S.A., a placebo-controlled trial in 68 adults aged 45 to 80 of capsules of gut bacteria from donors, with the pace-of-ageing clock DunedinPACE as its main measure; not yet recruiting.",
+   "url": "https://clinicaltrials.gov/study/NCT07912164",
+   "opened": true,
+   "why_it_matters": "A trial that uses a blood clock as its main outcome, which is the measuring branch's open question in practice."
+  },
+  {
+   "date": "2026-10-27",
+   "what": "Registry update for NCT07202403, Atria Research and Global Health Institute: an open-label dose-raising trial of spermidine in 10 people is now active and no longer recruiting, with its last main measurement on 2026-06-17; no results posted.",
+   "url": "https://clinicaltrials.gov/study/NCT07202403",
+   "opened": true,
+   "why_it_matters": "Minor: a small human trial of a compound that boosts the cell's recycling of worn parts has finished measuring."
+  },
+  {
+   "date": "2026-09-30",
+   "what": "Outside the window but absent from the records: the KHL Foundation's Madrid release saying a small number of people, one on 2026-03-11, were given a gene therapy containing the three reprogramming genes outside any registered trial; reported by Fight Aging! on 2026-10-07.",
+   "url": "https://khlfoundation.com/resources-center/madrid-2026-press-release/",
+   "opened": true,
+   "why_it_matters": "If true it sits beside the Life Biosciences trial as an early human use of reprogramming genes, but it is self-reported, uncontrolled and unverified."
+  }
+ ]
+}

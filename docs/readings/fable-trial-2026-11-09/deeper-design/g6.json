@@ -1,0 +1,544 @@
+{
+ "records": [
+  {
+   "id": "altos-labs-2022-launch",
+   "kind": "claim",
+   "verdict": "noted",
+   "found": "Altos Labs still has no trial on the registry and its own site lists no clinical trial or named treatment. Three papers with Altos addresses came out in the window (2026-10-26 and 2026-10-30), all laboratory work in cells and mice, so the mission statement is neither met nor contradicted. The site's items carry no dates, so nothing on it could be placed in the window.",
+   "findings": [
+    {
+     "date": "2026-10-26",
+     "what": "eLife paper from the Altos Cambridge institute: raising the gene regulator BCL11A in aged mouse cells that make the nerve-insulating sheath restored their ability to mature; mouse and cell work, no treatment in people.",
+     "url": "https://doi.org/10.7554/elife.110038",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-30",
+     "what": "Journal of Cell Science paper from Altos San Diego: an improved imaging method (ATAC-see) for reading how open the DNA packaging is, shown to pick up the changes during partial reprogramming of aged human skin cells; a research tool, not a treatment.",
+     "url": "https://doi.org/10.1242/jcs.264943",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-30",
+     "what": "Second Journal of Cell Science methods paper from the same Altos group (Targeted ATAC-see); title only read.",
+     "url": "https://europepmc.org/article/MED/42657785",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "undated",
+     "what": "Altos's own 'featured' page lists the appointment of Joan Mannick as chief medical officer and an Institute of Computation, with no dates shown and no trial or named treatment.",
+     "url": "https://www.altoslabs.com/featured",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov v2 search, LastUpdatePostDate 2026-10-25..2026-11-08: 'Altos Labs' -> 0 studies",
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: AFF:\"Altos Labs\" -> 3 papers"
+   ],
+   "web_queries": [
+    "Altos Labs announcement clinical trial October 2026 OR November 2026",
+    "Altos Labs news Mannick first clinical program reprogramming 2026"
+   ],
+   "pages_opened": [
+    "https://www.altoslabs.com/",
+    "https://www.altoslabs.com/featured",
+    "Europe PMC abstracts MED 42930359 and MED 42960674"
+   ],
+   "story_score": 1,
+   "story_why": "Routine laboratory papers; the notable fact is still the absence of any trial or named treatment."
+  },
+  {
+   "id": "austad-olshansky-2000-bet-on-150",
+   "kind": "claim",
+   "verdict": "flagged",
+   "found": "Nothing dated in the window was found. Just before it, on 2026-10-14, the New York Times ran 'Will Anyone Actually Ever Live to 200?', which the American Federation for Aging Research says features both men and their wager; the records do not hold it and the article itself could not be opened. The federation's page words the bet as about anyone 'alive in the year 2001', where the record says born in or before 2000.",
+   "findings": [
+    {
+     "date": "2026-10-14",
+     "what": "New York Times feature 'Will Anyone Actually Ever Live to 200?', said by the American Federation for Aging Research to cover Austad, Olshansky and their wager. Before the window; the article could not be fetched, so its wording is unread.",
+     "url": "https://www.nytimes.com/2026/10/14/well/live/humans-lifespan-limits-potential.html",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "undated (refers to 2026-10-14)",
+     "what": "American Federation for Aging Research news post about that article; calls it a friendly wager on whether anyone alive in the year 2001 will reach 150, and quotes neither man.",
+     "url": "https://www.afar.org/news/afar-experts-in-the-news-steven-n-austad-phd-jamie-l-justice-phd-and-s-jay-olshansky-phd-on-exceptional-longevity-and-the-limits-of-human-lifespan-in-the-new-york-times",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: AUTH Olshansky SJ OR Austad SN -> 1 hit, an unrelated correction notice",
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: maximum lifespan / limit / radical life extension / supercentenarian -> 16 hits, none on the human limit"
+   ],
+   "web_queries": [
+    "Olshansky Austad bet 150 years lifespan 2026",
+    "oldest living person Ethel Caterham November 2026"
+   ],
+   "pages_opened": [
+    "https://www.afar.org/news",
+    "https://www.afar.org/news/afar-experts-in-the-news-steven-n-austad-phd-jamie-l-justice-phd-and-s-jay-olshansky-phd-on-exceptional-longevity-and-the-limits-of-human-lifespan-in-the-new-york-times"
+   ],
+   "story_score": 1,
+   "story_why": "A fresh mainstream occasion for the bet, eleven days before the window, that the entry could cite once someone reads the article."
+  },
+  {
+   "id": "barzilai-2022-tame-starts-this-year",
+   "kind": "claim",
+   "verdict": "flagged",
+   "found": "The TAME trial still has no entry on ClinicalTrials.gov as of this reading, and the federation's news and 2026 press releases say nothing of it, so the verdict of missed stands. A different trial that asked whether metformin could slow ageing in people without diabetes (NCT04264897, 166 people, twelve weeks) had its registry record updated on 2026-11-05; its results, posted on 2026-07-02, show no significant difference on either main measure, and the records do not hold it.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Registry record updated for NCT04264897, 'Does Insulin Sensitivity Impact the Potential of Metformin to Slow Aging' (Oklahoma Medical Research Foundation with the National Institute on Aging). Results first posted 2026-07-02: the two main measures (insulin sensitivity and a measure of the cell's energy machinery) show p values of 0.576 and 0.88 in the main models; one secondary blood-marker measure shows p 0.004.",
+     "url": "https://clinicaltrials.gov/study/NCT04264897",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "against",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "Paper setting out the design of AMICO, a three-year trial of metformin against placebo in 212 people with the lung disease COPD, framed as targeting accelerated ageing; a design paper, no results.",
+     "url": "https://doi.org/10.1080/15412555.2026.2753977",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-30",
+     "what": "Registry update for NCT07475546, a 26-person, 90-day pilot by AgelessRx of drug combinations that include metformin and rapamycin; completed 2026-04-09, no results posted.",
+     "url": "https://clinicaltrials.gov/study/NCT07475546",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov v2 search, LastUpdatePostDate 2026-10-25..2026-11-08: 'metformin AND aging' -> 7 studies; 'Targeting Aging with Metformin' -> 2 (neither is TAME)",
+    "clinicaltrials.gov all dates: \"Targeting Aging with Metformin\" and 'TAME metformin Barzilai OR American Federation for Aging Research' -> no TAME record",
+    "clinicaltrials.gov records NCT04264897, NCT07475546 opened",
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: metformin AND (aging OR ageing) AND (trial OR TAME) -> 25 hits",
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: AUTH Barzilai N -> 1 preprint on a heart-risk blood signature, not on the trial"
+   ],
+   "web_queries": [
+    "TAME metformin trial Barzilai AFAR funding start November 2026",
+    "\"TAME\" metformin aging trial 2026 funding ARPA-H OR AFAR OR Barzilai \"2026\""
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04264897",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07475546",
+    "https://www.afar.org/news",
+    "https://www.afar.org/press-releases",
+    "Europe PMC abstract MED 42980248",
+    "https://www.afar.org/tame-trial (page not found)"
+   ],
+   "story_score": 2,
+   "story_why": "A government-funded trial of metformin against ageing in healthy people has posted results with nothing on its main measures, while the famous trial has still not begun; a reader following metformin would want both in one place."
+  },
+  {
+   "id": "brenner-2022-age-reversal-an-old-grift",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window was found: no paper by him on the subject and no new statement in the searches.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: AUTH Brenner C AND (NAD OR aging OR nicotinamide) -> 0"
+   ],
+   "web_queries": [
+    "Charles Brenner age reversal Sinclair criticism October 2026 OR November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new."
+  },
+  {
+   "id": "calico-2013-launch",
+   "kind": "claim",
+   "verdict": "flagged",
+   "found": "Nothing dated in the window: no Calico trial was updated and no paper carries its address. Calico's own news page, opened for this reading, lists two 2026 items the entry's notes do not hold: a collaboration with Nexo on small-molecule drugs for age-related diseases (2026-05-21) and a United States breakthrough therapy designation for fosigotifator in vanishing white matter disease, a rare childhood brain disease (2026-06-23). Neither names a treatment for ageing itself, so the verdict is unchanged.",
+   "findings": [
+    {
+     "date": "2026-06-23",
+     "what": "Calico news page: fosigotifator given breakthrough therapy designation by the United States Food and Drug Administration for vanishing white matter disease. Before the window; listing read, release itself not opened.",
+     "url": "https://www.calicolabs.com/news",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-05-21",
+     "what": "Calico news page: collaboration with Nexo to find small-molecule drugs for age-related diseases. Before the window; listing read, release itself not opened.",
+     "url": "https://www.calicolabs.com/news",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov v2 search, LastUpdatePostDate 2026-10-25..2026-11-08: 'Calico Life Sciences' -> 0; 'fosigotifator OR ABBV-CLS-7262' -> none updated in the window (newest update 2026-10-19, the open-label study NCT05757141)",
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: AFF:\"Calico Life Sciences\" -> 0"
+   ],
+   "web_queries": [
+    "Calico Life Sciences news November 2026"
+   ],
+   "pages_opened": [
+    "https://www.calicolabs.com/news"
+   ],
+   "story_score": 1,
+   "story_why": "Older company items that would bring the entry's account of what followed up to date."
+  },
+  {
+   "id": "de-grey-2004-first-thousand-year-old",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window was found. A claim due in 2944; nothing could bear on it.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: AUTH de Grey A OR LEV Foundation -> 0; \"longevity escape velocity\" -> 0",
+    "clinicaltrials.gov v2 search, LastUpdatePostDate 2026-10-25..2026-11-08: 'LEV Foundation OR rejuvenation' -> 20 studies, all cosmetic or unrelated"
+   ],
+   "web_queries": [
+    "Aubrey de Grey longevity escape velocity prediction November 2026",
+    "Aubrey de Grey LEV Foundation second Robust Mouse Rejuvenation study results 2026"
+   ],
+   "pages_opened": [
+    "https://www.levf.org/"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new."
+  },
+  {
+   "id": "de-grey-2004-humans-within-twenty-years",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window was found. Already marked missed; nothing in the window changes the account.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: AUTH de Grey A OR LEV Foundation -> 0; \"longevity escape velocity\" -> 0",
+    "clinicaltrials.gov v2 search, LastUpdatePostDate 2026-10-25..2026-11-08: 'LEV Foundation OR rejuvenation' -> 20 studies, all cosmetic or unrelated"
+   ],
+   "web_queries": [
+    "Aubrey de Grey longevity escape velocity prediction November 2026",
+    "Aubrey de Grey LEV Foundation second Robust Mouse Rejuvenation study results 2026"
+   ],
+   "pages_opened": [
+    "https://www.levf.org/"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new."
+  },
+  {
+   "id": "de-grey-2005-fifty-fifty-fifteen-years",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window was found. His foundation's site lists nothing after 2026-03 and no result from its second mouse study, so the mouse milestone the clock starts from has still not arrived.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: AUTH de Grey A OR LEV Foundation -> 0; \"longevity escape velocity\" -> 0",
+    "clinicaltrials.gov v2 search, LastUpdatePostDate 2026-10-25..2026-11-08: 'LEV Foundation OR rejuvenation' -> 20 studies, all cosmetic or unrelated"
+   ],
+   "web_queries": [
+    "Aubrey de Grey longevity escape velocity prediction November 2026",
+    "Aubrey de Grey LEV Foundation second Robust Mouse Rejuvenation study results 2026"
+   ],
+   "pages_opened": [
+    "https://www.levf.org/"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new."
+  },
+  {
+   "id": "de-grey-2024-fifty-percent-twelve-to-fifteen-years",
+   "kind": "claim",
+   "verdict": "flagged",
+   "found": "No new statement dated inside the window was found, but a further restatement the entry lacks turned up. Gary Leland's interview with him, published 2026-08-31 with a transcript made from the video captions (the page was updated 2026-11-04), has him saying 'I think we have at least a 50% chance of reaching a threshold I call longevity escape velocity' 'within the next 12 to 15 years', and that there is at least a 5% chance it takes a hundred years; Leland's Substack summary followed on 2026-10-23. The quotation was read through a page summary, not checked against the recording.",
+   "findings": [
+    {
+     "date": "2026-08-31 (page updated 2026-11-04)",
+     "what": "Gary Leland interview transcript: at least a 50% chance of longevity escape velocity within the next 12 to 15 years, and at least a 5% chance of not getting there for 100 years. Counted from 2026 that is 2038 to 2041, the same later horizon the entry already flags.",
+     "url": "https://garyleland.com/aubrey-de-grey-interview/",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-23",
+     "what": "Leland's Substack write-up of the same interview, in paraphrase only; two days before the window.",
+     "url": "https://garyleland.substack.com/p/aubrey-de-grey-i-do-not-work-on-longevity",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-01",
+     "what": "Arjun Khemani conversation with de Grey on longevity escape velocity; date from the search summary only.",
+     "url": "https://www.arjunkhemani.com/p/aubrey-de-grey-longevity-escape-velocity",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: AUTH de Grey A OR LEV Foundation -> 0; \"longevity escape velocity\" -> 0"
+   ],
+   "web_queries": [
+    "Aubrey de Grey longevity escape velocity prediction November 2026",
+    "\"de Grey\" longevity interview OR podcast OR talk \"November 2026\" OR \"October 2026\" escape velocity years"
+   ],
+   "pages_opened": [
+    "https://garyleland.com/aubrey-de-grey-interview/",
+    "https://garyleland.substack.com/p/aubrey-de-grey-i-do-not-work-on-longevity",
+    "https://www.levf.org/"
+   ],
+   "story_score": 1,
+   "story_why": "Another occasion of the same odds in his own words, now with 'at least' in front of the 50% and a stated 5% tail; a line for the notes, not a news post."
+  },
+  {
+   "id": "hayflick-2000-fifteen-year-limit",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window was found: no paper on a limit to life expectancy or on ageing as distinct from disease that bears on his position.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: maximum lifespan / limit / radical life extension / supercentenarian -> 16 hits, none on the question"
+   ],
+   "web_queries": [
+    "Olshansky Austad bet 150 years lifespan 2026 (shared search on lifespan limits)"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new."
+  },
+  {
+   "id": "hevolution-2023-up-to-a-billion-a-year",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing that could be dated to the window was found. The foundation's news page shows no dates; its top item says it funded 13 Saudi scientists with 6.5 million riyals, which a search could not date, and nothing restates or changes the billion-a-year ceiling. Seven papers in the window acknowledge its money, all routine research.",
+   "findings": [
+    {
+     "date": "undated",
+     "what": "Hevolution news page, top item: 13 new Saudi scientists funded with 6.5 million riyals in grants; no date shown, so it cannot be placed in or out of the window.",
+     "url": "https://www.hevolution.com/en/web/guest/news",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov v2 search, LastUpdatePostDate 2026-10-25..2026-11-08: 'Hevolution' -> 0",
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: Hevolution -> 8 hits, grant acknowledgements only"
+   ],
+   "web_queries": [
+    "Hevolution Foundation announces November 2026",
+    "Hevolution Foundation grants funding announcement 2026 healthspan summit",
+    "\"Hevolution\" \"13\" scientists \"6.5 million\" SAR grants Saudi aging research"
+   ],
+   "pages_opened": [
+    "https://www.hevolution.com/en/web/guest/news"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing datable."
+  },
+  {
+   "id": "johnson-2023-biological-age-stays-the-same",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window bears on the goal of a pace of ageing of zero. The one dated item is commercial: on 2026-11-04 Parade reported that the meal company Tovala is selling meals built on his diet, with no figure for his biological age or pace.",
+   "findings": [
+    {
+     "date": "2026-11-04",
+     "what": "Parade article (carried by AOL): Tovala launches 'Longevity Meals' with his company Blueprint; no statement about his biological age, pace of ageing or goal.",
+     "url": "https://www.aol.com/articles/tovala-making-bryan-johnsons-famous-192500000.html",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: \"Bryan Johnson\" OR (DunedinPACE AND (trial OR intervention)) -> 3 hits, none about him"
+   ],
+   "web_queries": [
+    "Bryan Johnson Blueprint \"pace of aging\" OR \"biological age\" news November 2026",
+    "Bryan Johnson \"Don't Die\" news this week Blueprint announcement",
+    "Bryan Johnson biological age claim epigenetic \"2026\" November Blueprint results new record speed of aging"
+   ],
+   "pages_opened": [
+    "https://www.aol.com/articles/tovala-making-bryan-johnsons-famous-192500000.html",
+    "https://blueprint.bryanjohnson.com/pages/new-protocol-launch (page not found)"
+   ],
+   "story_score": 0,
+   "story_why": "A product launch, not a result."
+  },
+  {
+   "id": "johnson-2024-pace-of-ageing-record",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No new reading from him dated in the window was found. The clock he quotes (DunedinPACE) was named as the main measure of a newly registered trial on 2026-11-03, listed under unmatched; that is a use of the clock, not evidence about what one person's reading means.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov v2 search, LastUpdatePostDate 2026-10-25..2026-11-08: 'DunedinPACE' -> 1 study (NCT07912164)",
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: \"Bryan Johnson\" OR (DunedinPACE AND (trial OR intervention)) -> 3 hits, none about him"
+   ],
+   "web_queries": [
+    "Bryan Johnson Blueprint \"pace of aging\" OR \"biological age\" news November 2026",
+    "Bryan Johnson biological age claim epigenetic \"2026\" November Blueprint results new record speed of aging"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07912164"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new from him."
+  },
+  {
+   "id": "kurzweil-2022-end-of-the-decade",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No statement by him dated in the window was found; the searches returned the 2026-02 and 2026-06 coverage of the 2032 date that the records already hold. One undated Australian article (Switzer) says a clip of him went round the world 'this month', but the page blocked the reader, so its date and content are unread.",
+   "findings": [
+    {
+     "date": "undated",
+     "what": "Switzer article 'Legendary futurist predicts the end of ageing'; could not be opened (the site asks for a browser check), so neither its date nor the clip it refers to is known.",
+     "url": "https://switzer.com.au/legendary-futurist-predicts-the-end-of-ageing/",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: Kurzweil -> 1 hit, an unrelated author of the same name"
+   ],
+   "web_queries": [
+    "Ray Kurzweil longevity escape velocity 2032 interview November 2026",
+    "Kurzweil \"longevity escape velocity\" says October 2026"
+   ],
+   "pages_opened": [
+    "https://nautil.us/ray-kurzweil-still-lives-in-utopia-716444/ (dated 2024-07-17, a book review, outside the window)"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new."
+  },
+  {
+   "id": "kurzweil-2026-escape-velocity-by-2032",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No statement by him dated in the window was found; the searches returned the 2026-02 and 2026-06 coverage of the 2032 date that the records already hold. One undated Australian article (Switzer) says a clip of him went round the world 'this month', but the page blocked the reader, so its date and content are unread.",
+   "findings": [
+    {
+     "date": "undated",
+     "what": "Switzer article 'Legendary futurist predicts the end of ageing'; could not be opened (the site asks for a browser check), so neither its date nor the clip it refers to is known.",
+     "url": "https://switzer.com.au/legendary-futurist-predicts-the-end-of-ageing/",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: Kurzweil -> 1 hit, an unrelated author of the same name"
+   ],
+   "web_queries": [
+    "Ray Kurzweil longevity escape velocity 2032 interview November 2026",
+    "Kurzweil \"longevity escape velocity\" says October 2026"
+   ],
+   "pages_opened": [
+    "https://nautil.us/ray-kurzweil-still-lives-in-utopia-716444/ (dated 2024-07-17, a book review, outside the window)"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new."
+  },
+  {
+   "id": "kurzweil-2029-escape-velocity",
+   "kind": "claim",
+   "verdict": "quiet",
+   "found": "No statement by him dated in the window was found; the searches returned the 2026-02 and 2026-06 coverage of the 2032 date that the records already hold. One undated Australian article (Switzer) says a clip of him went round the world 'this month', but the page blocked the reader, so its date and content are unread.",
+   "findings": [
+    {
+     "date": "undated",
+     "what": "Switzer article 'Legendary futurist predicts the end of ageing'; could not be opened (the site asks for a browser check), so neither its date nor the clip it refers to is known.",
+     "url": "https://switzer.com.au/legendary-futurist-predicts-the-end-of-ageing/",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC, FIRST_PDATE 2026-10-25..2026-11-08: Kurzweil -> 1 hit, an unrelated author of the same name"
+   ],
+   "web_queries": [
+    "Ray Kurzweil longevity escape velocity 2032 interview November 2026",
+    "Kurzweil \"longevity escape velocity\" says October 2026"
+   ],
+   "pages_opened": [
+    "https://nautil.us/ray-kurzweil-still-lives-in-utopia-716444/ (dated 2024-07-17, a book review, outside the window)"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-11-03",
+   "what": "New trial registered: NCT07912164, by the Polish company Human Biome, a placebo-controlled test in 68 adults aged 45 to 80 of gut-bacteria transplant capsules, with the pace of ageing on the DunedinPACE clock as a main question; not yet recruiting, start planned for 2026-12.",
+   "url": "https://clinicaltrials.gov/study/NCT07912164",
+   "opened": true,
+   "why_it_matters": "A trial that uses a clock of ageing, not a disease, as its main yardstick; it bears on the measuring branch."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Registry update for NCT04264897, the completed trial of whether metformin slows ageing in people without diabetes; results (posted 2026-07-02) show no significant difference on either main measure.",
+   "url": "https://clinicaltrials.gov/study/NCT04264897",
+   "opened": true,
+   "why_it_matters": "A negative result for the best-known candidate drug on the energy and fuel branch; also reported under the Barzilai claim."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "Design paper for AMICO, a three-year trial of metformin in 212 people with COPD, described by its authors as targeting accelerated ageing.",
+   "url": "https://doi.org/10.1080/15412555.2026.2753977",
+   "opened": true,
+   "why_it_matters": "Metformin is being tested against ageing through single diseases while the general trial waits for money."
+  },
+  {
+   "date": "2026-10-30",
+   "what": "Registry update for NCT07475546, AgelessRx's completed 26-person, 90-day pilot of combinations including rapamycin and metformin; no results posted.",
+   "url": "https://clinicaltrials.gov/study/NCT07475546",
+   "opened": true,
+   "why_it_matters": "A small combination trial aimed at healthspan; results would be the first of their kind from this company."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Fight Aging! post on a study using circular RNA to deliver the Yamanaka factors so that reprogramming stays partial; read as the blog's account, the paper itself was not opened. The same blog reported on 2026-10-19, before the window, that Life Biosciences had given first results from the first human trial of partial reprogramming.",
+   "url": "https://www.fightaging.org/archives/2026/11/circular-rna-encoding-yamanaka-factors-enables-partial-reprogramming-without-pluripotency/",
+   "opened": true,
+   "why_it_matters": "Laboratory progress on the safety problem of the cell-settings branch, on which Altos is the largest bet."
+  }
+ ]
+}

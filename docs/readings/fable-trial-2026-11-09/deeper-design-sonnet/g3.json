@@ -1,0 +1,322 @@
+{
+ "records": [
+  {
+   "id": "a-drug-adds-healthy-years-to-a-life",
+   "kind": "treatment",
+   "verdict": "noted",
+   "found": "On 2026-11-05 a registry-based study of kidney transplant recipients on rapamycin found no survival gain (against, but observational and not a placebo trial). A 90-day pilot combining rapamycin and metformin (NCT07475546) was marked completed on 2026-10-30 with no results. No controlled human lifespan trial reported, and nothing was found on the metformin trial TAME.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Geroscience paper, US transplant registry, 4,885 kidney transplant recipients on rapamycin vs 6,589 not: median survival age 64.6 vs 64.3 years, no meaningful survival gain. Observational, in transplant patients, not a controlled trial.",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42989006",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-30",
+     "what": "Registry record NCT07475546 (AgelessRx, 26 people, 90 days, randomised pilot of drug combinations including rapamycin and metformin) updated and marked completed; no results posted.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07475546",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "AMICO metformin-in-COPD trial design paper (212 patients, 36 months, lung function endpoint): a design, not a result, and not a lifespan trial.",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42980248",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov v2 studies, LastUpdatePostDate 2026-10-25..2026-11-08, terms: rapamycin aging; metformin aging; TAME metformin (0 hits)",
+    "Europe PMC FIRST_PDATE 2026-10-25..2026-11-08, terms: rapamycin aging/lifespan; metformin aging; TAME trial metformin (0 hits)"
+   ],
+   "web_queries": [
+    "TAME trial metformin aging launch funding news",
+    "rapamycin longevity trial news November 2026"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42989006",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42980248",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07475546"
+   ],
+   "story_score": 1,
+   "story_why": "A large records study finds no survival benefit from rapamycin, but only in transplant patients; a minor note, not a trial."
+  },
+  {
+   "id": "a-drug-is-approved-to-make-dogs-live-longer",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "The US veterinary regulator's list of updates shows only two items in the window (2026-10-27 residue-testing pilot; 2026-11-03 emergency authorisation for a screwworm drug in dogs), none about dog lifespan. Loyal's page for veterinarians still lists manufacturing and conditional approval as in progress and carries no November 2026 update.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Regulator list of updates: screwworm emergency authorisation for dogs; no lifespan drug approval or conditional approval.",
+     "url": "https://www.fda.gov/animal-veterinary/news-events/cvm-updates",
+     "opened": true,
+     "source_kind": "regulator",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "undated",
+     "what": "Loyal page for veterinarians: manufacturing 'In progress', conditional approval 'In progress'; undated banner on LOY-003 milestone (already in the records as the 2026-09-16 acceptance). Newest dated item is a Geroscience article of 2026-10-23, just before the window.",
+     "url": "https://loyal.com/for-vets",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC FIRST_PDATE 2026-10-25..2026-11-08, terms: Loyal AND dogs AND lifespan (0 hits)"
+   ],
+   "web_queries": [
+    "Loyal LOY-002 FDA conditional approval dog lifespan November 2026",
+    "Loyal LOY-003 FDA milestone large dogs"
+   ],
+   "pages_opened": [
+    "https://www.fda.gov/animal-veterinary/news-events/cvm-updates",
+    "https://loyal.com/for-vets",
+    "https://loyal.com"
+   ],
+   "story_score": 0,
+   "story_why": "No approval or new filing in the window."
+  },
+  {
+   "id": "a-drug-renews-the-cells-power-plants-and-improves-muscle-in-older-people",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window reports a controlled trial of a mitochondrial drug improving muscle in older people. Three registry records on urolithin A were only updated (NCT06022822, prostate cancer, 2026-10-27; NCT07377136, obesity, 2026-10-26), and the papers were mechanism or diet studies.",
+   "findings": [
+    {
+     "date": "2026-10-27",
+     "what": "Registry updates on urolithin A trials (prostate cancer surgery, obesity with restricted eating); no results and not muscle in older people.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06022822",
+     "opened": false,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov v2 studies, LastUpdatePostDate 2026-10-25..2026-11-08, terms: urolithin (3 hits)",
+    "Europe PMC FIRST_PDATE 2026-10-25..2026-11-08, terms: urolithin; urolithin AND (trial OR randomized OR muscle) (6 hits, none a trial result)"
+   ],
+   "web_queries": [
+    "Timeline Mitopure urolithin A clinical trial results announced"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "No trial result or approval."
+  },
+  {
+   "id": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+   "kind": "treatment",
+   "verdict": "noted",
+   "found": "A meta-analysis published 2026-11-02 pooled seven trials (38,412 people) and found semaglutide cut cardiovascular death by 17 per cent (hazard ratio 0.83), including people with obesity but no diabetes (for the test, but a pooling of known trials, not a new one). A 2026-11-07 preprint-server paper on Medicaid coverage withdrawal and GLP-1 dispensing bears on uptake but was seen by title only. No new regulator action found.",
+   "findings": [
+    {
+     "date": "2026-11-02",
+     "what": "Systematic review and meta-analysis of semaglutide and cardiovascular death, 7 randomised trials, HR 0.83 (0.72-0.95).",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42969445",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-06",
+     "what": "Drug and Therapeutics Bulletin appraisal of Wegovy for secondary cardiovascular prevention in people with raised BMI (abstract empty in Europe PMC).",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42994978",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-07",
+     "what": "Cureus paper on Medicaid coverage withdrawal and GLP-1 dispensing for obesity (title only).",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:PMC13742067",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov v2 studies, LastUpdatePostDate 2026-10-25..2026-11-08, terms: semaglutide cardiovascular (7 hits, none an outcomes result)",
+    "Europe PMC FIRST_PDATE 2026-10-25..2026-11-08, terms: semaglutide AND (cardiovascular OR mortality) AND obesity (41 hits)"
+   ],
+   "web_queries": [
+    "Novo Nordisk Wegovy semaglutide new FDA approval announcement November 2026"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42969445",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42994978"
+   ],
+   "story_score": 1,
+   "story_why": "Pooled analysis restates a known benefit; uptake paper might matter for the wide-use estimate if confirmed."
+  },
+  {
+   "id": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+   "kind": "treatment",
+   "verdict": "noted",
+   "found": "A controlled trial of slow-release NMN in middle-aged and older people with metabolic disorders (NCT06907329, immune ageing and metabolism) was marked completed with a last update on 2026-11-03; primary completion was 2026-10-18 and no results are posted. Nothing published reports a result.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Registry record NCT06907329 (NMN tablets, immunosenescence) completed, no results.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06907329",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-27",
+     "what": "Registry record NCT06889740 (NMNH in healthy adults) updated; completed 2024.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06889740",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov v2 studies, LastUpdatePostDate 2026-10-25..2026-11-08, terms: nicotinamide mononucleotide (4 hits); nicotinamide riboside (5 hits)",
+    "Europe PMC FIRST_PDATE 2026-10-25..2026-11-08, terms: NMN/NR AND (randomized OR trial) (25 hits, mice and reviews)"
+   ],
+   "web_queries": [
+    "NMN nicotinamide mononucleotide FDA supplement drug randomized trial older adults 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06907329",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06889740"
+   ],
+   "story_score": 0,
+   "story_why": "A trial finishing without results is not a story yet; watch for its report."
+  },
+  {
+   "id": "metformin-delays-age-related-disease-in-people-without-diabetes",
+   "kind": "treatment",
+   "verdict": "flagged",
+   "found": "No registry entry or launch news for the TAME trial in the window (the registry search by title found none). The registry record NCT04264897 (a metformin ageing study in people without diabetes, Oklahoma Medical Research Foundation) had results posted on 2026-07-02 and was updated on 2026-11-05; it is not in the records and is not a disease-delay trial.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Registry record NCT04264897, metformin and insulin sensitivity in people without diabetes: results posted 2026-07-02, last update 2026-11-05. A small metabolic study, not time to age-related disease.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04264897",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "AMICO: metformin in COPD, 36-month phase III design.",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42980248",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov v2 studies, LastUpdatePostDate 2026-10-25..2026-11-08, terms: metformin aging; TAME metformin (0 hits)",
+    "Europe PMC FIRST_PDATE 2026-10-25..2026-11-08, terms: TAME trial AND metformin (0 hits)"
+   ],
+   "web_queries": [
+    "TAME trial metformin aging launch funding news"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04264897",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42980248"
+   ],
+   "story_score": 0,
+   "story_why": "No movement on TAME."
+  },
+  {
+   "id": "mitochondria-are-transplanted-into-a-person",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "found": "Only review articles in the window (Signal Transduction and Targeted Therapy, 2026-10-26; Science Advances, 2026-10-30), no new patient result or registry change on the named trials. A web result describes a Nature report of one woman given her own mitochondria in the eye (August 2026, outside the window).",
+   "findings": [
+    {
+     "date": "2026-10-26",
+     "what": "Review: encapsulated mitochondrial transplantation.",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42928347",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov v2 studies, LastUpdatePostDate 2026-10-25..2026-11-08, terms: mitochondria transplantation (4 hits, unrelated)",
+    "Europe PMC FIRST_PDATE 2026-10-25..2026-11-08, terms: mitochondrial transplantation AND patients (289 hits, reviews and lab work)"
+   ],
+   "web_queries": [
+    "mitochondrial transplantation trial results patients 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Reviews only."
+  },
+  {
+   "id": "rapamycin-improves-an-age-related-measure-in-older-people",
+   "kind": "treatment",
+   "verdict": "noted",
+   "found": "The 2026-11-05 transplant-registry study found no survival gain from rapamycin (against, observational). The AgelessRx pilot with a rapamycin arm (NCT07475546, 26 people, 90 days; outcomes fitness, cognition, inflammation clock) was marked completed on 2026-10-30 with no results. A US trial in people 65 and over (announced 2026-03-26) was due an interim safety review in October 2026; no report was found.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Geroscience paper, US transplant registry, 4,885 kidney transplant recipients on rapamycin vs 6,589 not: median survival age 64.6 vs 64.3 years, no meaningful survival gain. Observational, in transplant patients, not a controlled trial.",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42989006",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-30",
+     "what": "Registry record NCT07475546 (AgelessRx, 26 people, 90 days, randomised pilot of drug combinations including rapamycin and metformin) updated and marked completed; no results posted.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07475546",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov v2 studies, LastUpdatePostDate 2026-10-25..2026-11-08, terms: rapamycin aging (2 hits)",
+    "Europe PMC FIRST_PDATE 2026-10-25..2026-11-08, terms: mTOR inhibitor AND older adults AND randomized (9 hits, none relevant)"
+   ],
+   "web_queries": [
+    "rapamycin longevity trial news November 2026"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42989006",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07475546"
+   ],
+   "story_score": 1,
+   "story_why": "Two items; neither is a controlled result, but the pilot's readout is worth watching."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-10-23",
+   "what": "Geroscience article by Peloquin, Chen and Halioua-Haubold on lessons from dog lifespan drugs (listed on Loyal's page; just before the window)",
+   "url": "https://loyal.com/for-vets",
+   "opened": true,
+   "why_it_matters": "Peer-reviewed commentary on dog lifespan trials; not a trial result."
+  }
+ ]
+}

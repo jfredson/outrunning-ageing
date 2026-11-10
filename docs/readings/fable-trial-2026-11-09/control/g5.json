@@ -1,0 +1,182 @@
+{
+ "records": [
+  {
+   "id": "a-blood-count-of-mitochondrial-dna-predicts-death-and-disease",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "mitochondrial DNA copy number blood mortality cohort journal article October 2026",
+    "mtDNA copy number predicts death cardiovascular disease new study platelets adjusted news this week"
+   ],
+   "found": "No result turned up in a news-style search for the window of 2026-10-25 to 2026-11-01. The searches returned older cohort papers only: a Japanese study of about 814 people followed for some 28 years (Journal of Nutrition, Health and Aging, 2024), a Danish study of 1,067 twins and singletons (2014), and a study of men with narrowed leg arteries in which the link to that disease faded once white cells and platelets were allowed for. None is dated in the window, none is a regulator's clearance or a health system's published use of the count, and the stage is already at first human.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "FDA clearance epigenetic clock biological age test October 2026",
+    "epigenetic clock GrimAge DunedinPACE health system routine care biological age news late October 2026"
+   ],
+   "found": "No result turned up in a news-style search for the window. The searches returned an Advisory Board briefing of 2026-05-05 and consumer pages saying no biological-age test sold to the public has been cleared by the United States regulator, and a News-Medical report of 2026-06-18 on a review that calls the clocks' place in routine care unresolved. Nothing returned is a regulator's clearance or a named health system publishing routine use, which is what the next rung asks for.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked",
+   "kind": "treatment",
+   "verdict": "flagged",
+   "queries": [
+    "FDA biomarker qualification program aging biomarker surrogate endpoint letter of intent accepted October 2026",
+    "regulator accepts ageing biomarker surrogate endpoint trial primary endpoint biological age news November 2026",
+    "FDA approval aging indication drug OR TAME metformin trial launch ClinicalTrials.gov October 2026"
+   ],
+   "reused": "The third search, \"FDA approval aging indication drug OR TAME metformin trial launch ClinicalTrials.gov October 2026\", was first run for the entry on a regulator recognising ageing as a condition a drug can treat. It is listed here because it returned the Reagan-Udall Foundation's meeting summary and the Lifespan.io report, in both of which officials of the United States regulator speak about markers of ageing as stand-ins for trial outcomes. It does not count toward this entry's two searches.",
+   "found": "Nothing dated in the window of 2026-10-25 to 2026-11-01 turned up, and nothing found meets the test: no marker of ageing has been qualified and no trial's main measure has been agreed in writing. The searches did return two older records that this entry's notes do not hold. The project's records (treatments, claims, self-experiments and the publications log) were searched for Kozlowski, Reagan-Udall, the conference's short name ARDD and \"Focus Areas\", with no match. First, the Reagan-Udall Foundation for the FDA's summary, dated July 2026, of a public meeting held on 2026-05-27 (\"Affecting the Aging Trajectory\"): the regulator's Chief Scientist, Steven Kozlowski, is reported as saying that no ageing biomarker has reached the standing of a validated or reasonably likely stand-in for a trial outcome, and that molecular markers of ageing remain useful for exploratory work while measures of function sit closer to what matters to patients. Second, a panel of four officials of the regulator at a conference in Boston on or about 2026-10-01, as reported by Lifespan.io (2026-10-02) and Longevity.Technology (2026-10-01): ageing and longevity are to be named in the regulator's next statement of its research priorities, with a tentative target of its 2027 budget year; one official set out the difference between a marker that predicts risk and one that can stand in for an outcome, and another proposed a shared effort among companies to build a list of markers for trials. Both fall outside the window and both are statements, not a qualification.",
+   "sources": [
+    "https://reaganudall.org/sites/default/files/2026-07/073126_Affecting%20the%20Aging%20Trajectory%20Public%20Meeting%20Summary.pdf",
+    "https://www.lifespan.io/news/fda-leaders-name-longevity-a-priority-at-ardd/",
+    "https://longevity.technology/news/fda-puts-aging-on-its-regulatory-science-agenda/"
+   ],
+   "pages_opened": [
+    "https://reaganudall.org/sites/default/files/2026-07/073126_Affecting%20the%20Aging%20Trajectory%20Public%20Meeting%20Summary.pdf",
+    "https://www.lifespan.io/news/fda-leaders-name-longevity-a-priority-at-ardd/",
+    "https://longevity.technology/news/fda-puts-aging-on-its-regulatory-science-agenda/"
+   ],
+   "for_john": "The change this reading would have made: add to this entry's notes the two older records it does not hold, both of which confirm the stage (idea only) in the regulator's own officials' words and neither of which moves it. (1) The Reagan-Udall Foundation for the FDA, \"Affecting the Aging Trajectory\", public meeting summary dated July 2026, of a meeting on 2026-05-27, in which the regulator's Chief Scientist says no ageing biomarker has reached validated or reasonably likely surrogate endpoint status. (2) The panel of the regulator's officials at the Aging Research and Drug Discovery meeting in Boston about 2026-10-01, saying ageing will be in the next update of the regulator's \"Focus Areas of Regulatory Science\", tentatively in its 2027 budget year. It is not this reading's to decide because both records are older than the window and adding to an entry's notes is your call; the second rests on two journalists' reports of a conference panel and not on a document of the regulator. All three sources were opened: the summary (a PDF, read as text on this machine), the Lifespan.io report and the Longevity.Technology report. Worth a look at the next reading: whether the updated priorities document has been published."
+  },
+  {
+   "id": "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat",
+   "kind": "treatment",
+   "verdict": "flagged",
+   "queries": [
+    "FDA approval aging indication drug OR TAME metformin trial launch ClinicalTrials.gov October 2026",
+    "\"FDA\" aging \"regulatory science\" OR \"indication\" longevity drugs announcement this week TAME trial funded"
+   ],
+   "found": "Nothing dated in the window of 2026-10-25 to 2026-11-01 turned up, and nothing found meets the test: no drug has been approved for ageing and no trial with a measure of ageing in general is registered and running with a regulator's written agreement. A blog's scorecard gave a registry number for the TAME metformin trial and called it recruiting; the registry entry was opened and is a different, completed study of 16 people (the Metformin in Longevity Study at Albert Einstein College of Medicine, last updated 2021-05-21), so the entry's statement that no registry entry for TAME was found still stands. The searches did return two older records that this entry's notes do not hold; the project's records were searched for Kozlowski, Reagan-Udall, the conference's short name ARDD, \"Focus Areas\" and the registry number, with no match. First, the Reagan-Udall Foundation for the FDA's summary, dated July 2026, of a public meeting on 2026-05-27 (\"Affecting the Aging Trajectory\"). It says no approved pathway exists for an ageing indication, and it reports the regulator's Chief Scientist, Steven Kozlowski, as saying he was part of a meeting in 2015 where the regulator discussed its framework with the TAME investigators; the summary cites a 2016 paper by Barzilai and colleagues in Cell Metabolism for this. This entry's notes say a 2015 meeting was removed on 2026-10-17 for want of a source. Second, a panel of four officials of the regulator at a conference in Boston about 2026-10-01, as reported by Lifespan.io on 2026-10-02: one official said his review office is responsible for ageing as an indication and expects the first trials that could support an approval to rest on age-related diseases or deaths; another set out two routes, benefit across several age-related conditions or slower decline across several physical and mental capacities; and ageing is to be named in the regulator's next statement of research priorities. Longevity.Technology's report of 2026-10-01 says nobody on the panel promised an ageing indication.",
+   "sources": [
+    "https://reaganudall.org/sites/default/files/2026-07/073126_Affecting%20the%20Aging%20Trajectory%20Public%20Meeting%20Summary.pdf",
+    "https://www.lifespan.io/news/fda-leaders-name-longevity-a-priority-at-ardd/",
+    "https://longevity.technology/news/fda-puts-aging-on-its-regulatory-science-agenda/",
+    "https://clinicaltrials.gov/api/v2/studies/NCT02432287"
+   ],
+   "pages_opened": [
+    "https://reaganudall.org/sites/default/files/2026-07/073126_Affecting%20the%20Aging%20Trajectory%20Public%20Meeting%20Summary.pdf",
+    "https://www.lifespan.io/news/fda-leaders-name-longevity-a-priority-at-ardd/",
+    "https://longevity.technology/news/fda-puts-aging-on-its-regulatory-science-agenda/",
+    "https://clinicaltrials.gov/api/v2/studies/NCT02432287"
+   ],
+   "for_john": "The change this reading would have made, in two parts, neither of which moves the stage (idea only). (1) Restore the year of the regulator's meeting with the TAME trial's designers, 2015, to this entry, now with a source that can be opened: the Reagan-Udall Foundation for the FDA's public meeting summary \"Affecting the Aging Trajectory\" (dated July 2026, meeting of 2026-05-27), which reports the regulator's Chief Scientist saying he was at that 2015 meeting. The summary does not say the regulator accepted the trial as grounds for an approval, so the removed word \"acceptance\" stays removed. The 2016 paper the summary cites (Barzilai and colleagues, Cell Metabolism, \"Metformin as a Tool to Target Aging\") was not opened. (2) Add the panel of the regulator's officials at the Aging Research and Drug Discovery meeting in Boston about 2026-10-01, and reconsider the description's sentence that the TAME consultation is as close as the published record shows a regulator coming to treating ageing as an indication: a named review office now says ageing as an indication is its responsibility and describes the trials it expects. It is not this reading's to decide because both records are older than the window, the first reverses a removal you made on 2026-10-17, and the second rests on journalists' reports of a conference panel, not a document of the regulator. Opened: the summary (a PDF, read as text on this machine), the Lifespan.io report, the Longevity.Technology report, and the registry entry for the number the blog gave. Seen in a search result only: the blog's scorecard (liveinthefuture.org, March 2026), whose registry number is wrong."
+  },
+  {
+   "id": "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "randomized controlled trial epigenetic clock prespecified slowed biological age Nature Medicine OR \"Nature Aging\" October 2026",
+    "trial slows epigenetic aging placebo-controlled results published late October 2026 semaglutide tirzepatide clocks",
+    "Novo Nordisk semaglutide proteomic aging clocks published peer-reviewed OR tirzepatide epigenetic clock paper 2026 \"pre-specified\""
+   ],
+   "found": "No result turned up in a news-style search for the window. The searches returned what this entry already holds: the multivitamin trial's clock paper (Nature Medicine, 2026-03-09), the semaglutide trial in people with HIV (Nature Communications, 2026), the MIT Technology Review article of 2026-10-06 and the unreviewed Novo Nordisk preprint. No peer-reviewed version of the Novo Nordisk or Eli Lilly analyses was found. One detail outside the window, from Longevity.Technology's report of 2026-10-04, which was opened: the Eli Lilly analysis read clocks in 71 people on tirzepatide before and after 72 weeks, with no placebo or other comparison group, and was a conference talk the company called preliminary; so it could not meet this test even if published as it stands. A trial at Zhejiang University comparing semaglutide, tirzepatide and metformin with a clock as its main measure was opened in the registry: 66 people planned, no placebo group, first posted 2025-12-19, no results. Nothing here is a regulator's approval or a clinic's published practice resting on a clock result.",
+   "sources": [
+    "https://longevity.technology/news/lilly-and-novo-share-glp-1-longevity-data/",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07293325"
+   ],
+   "pages_opened": [
+    "https://longevity.technology/news/lilly-and-novo-share-glp-1-longevity-data/",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07293325"
+   ],
+   "for_john": ""
+  },
+  {
+   "id": "an-age-for-each-organ-is-read-from-blood-proteins",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "organ age proteomic clock plasma proteins Nature Medicine OR \"Nature Aging\" published October 2026 cohort organ-specific aging",
+    "organ age blood test proteins clinic launch OR health system OR FDA news this week Wyss-Coray Vero Bioscience"
+   ],
+   "found": "No result turned up in a news-style search for the window. The searches returned the papers this entry already holds (the Stanford group's 2025 paper in Nature Medicine and the 2025 paper by Wang and colleagues in Nature Aging), and two items outside the window seen in search results only: a China Kadoorie Biobank study of organ ages from blood proteins in about 4,000 people (eBioMedicine, listed as 2026-07-29) and June 2026 coverage of a Stanford follow-up reading ages for cell types. No regulator's clearance and no health system's published routine use was returned.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "colchicine cardiovascular prescribing uptake study OR guideline October 2026 journal",
+    "anti-inflammatory drug heart attack prevention news this week ziltivekimab OR colchicine OR IL-6 FDA approval November 2026"
+   ],
+   "found": "No result dated in the window turned up. The searches returned summaries from February 2026 of pooled colchicine trials (American Family Physician; a Canadian family-practice review), a Pharmaceutical Journal feature asking whether practice in the United Kingdom is missing out on colchicine, and coverage of the Novo Nordisk trial of ziltivekimab that this entry already holds from the company's announcement of 2026-07-31. No published figure for how widely colchicine is prescribed for the heart, which is what the wide-use rung asks for, was returned. One search result was dated after the window (2026-11-07) and was left unread for the next reading.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "blocking-one-messenger-protein-makes-old-animals-live-longer",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "interleukin-11 antibody trial ClinicalTrials.gov results aging OR frailty OR fibrosis October 2026 Lassen OR Boehringer OR Mabwell",
+    "IL-11 inhibitor anti-ageing human trial news this week lifespan mice follow-up",
+    "Boehringer Ingelheim BI 765423 IL-11 phase 2 idiopathic pulmonary fibrosis status 2026 NCT"
+   ],
+   "found": "No result turned up in a news-style search for the window. The searches returned Boehringer Ingelheim's release of 2026-01-13 starting a mid-stage trial of its interleukin-11 antibody in lung scarring (about 71 people, lung capacity after three months as the main measure) and reports that the Chinese company Mabwell had dosed the first patient in a mid-stage trial of its antibody for raised scars. Both are trials in scarring with no results, which the entry's description already covers in general terms, and neither measures frailty, muscle or a clock in older people, which the first human rung asks for.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "replacing-a-persons-plasma-slows-an-age-related-disease",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "therapeutic plasma exchange Alzheimer's OR aging randomized trial results journal OR Grifols press release October 2026",
+    "plasma exchange longevity clinics biological age news this week AMBAR Ace Alzheimer Center registry hospitals",
+    "Grifols AMBAR plasma exchange Alzheimer's clinics Madrid Mallorca Alicante registry results 2026"
+   ],
+   "found": "No result turned up in a news-style search for the window. The searches returned the supplier Grifols's release of 2026-03-12, which this entry already holds, and no results yet from the registry it announced; an Axios report of 2026-06-07 and trade reports on the company Circulate Health widening its clinics for healthy paying customers and being bought by Viome; and an April 2026 report that the fall in clock readings in the 2025 trial in healthy adults had gone by the last assessment. None is a published figure for uptake in an age-related condition across a country, which the wide-use rung asks for, and a clinic selling the procedure to healthy people is not that.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "young-blood-rejuvenates-an-old-animal",
+   "kind": "treatment",
+   "verdict": "quiet",
+   "queries": [
+    "young plasma OR \"plasma fraction\" older adults placebo-controlled trial results peer-reviewed October 2026 Alkahest GRF6019 OR GRF6021",
+    "young blood factor rejuvenation human trial news late October 2026 parabiosis GDF11 OR klotho OR TIMP2 clinical trial"
+   ],
+   "found": "No result turned up in a news-style search for the window. The searches returned the 2019 safety trial of young plasma in Alzheimer's disease that this entry already describes, a 2021 safety report on a plasma fraction in 26 people with severe Alzheimer's disease, and an MIT Technology Review article of 2026-08-27 on a start-up offering an injected mixture said to make blood young before any trial has reported. None is a controlled trial in which older people improved on an age-related measure more than placebo.",
+   "sources": [],
+   "pages_opened": [],
+   "for_john": ""
+  },
+  {
+   "id": "young-gut-microbes-rejuvenate-an-old-animal",
+   "kind": "treatment",
+   "verdict": "flagged",
+   "queries": [
+    "fecal microbiota transplantation older adults frailty OR ageing randomized placebo-controlled trial results journal October 2026",
+    "young donor gut microbiome transplant aging study news this week rejuvenate old mice OR elderly people"
+   ],
+   "found": "Nothing dated in the window turned up, and no controlled trial in older people has reported, so the first human test is not met. The searches did return a registered trial this entry's notes do not hold (the project's records were searched for its name, ARMOR, and its registry number, with no match). The registry entry was opened: a double-blind, placebo-controlled trial at the University of Chile of gut microbes from young, physically active donors given as capsules to older adults, with grip strength, a score of balance, walking speed and rising from a chair, and side effects as its main measures; 80 people enrolled; started 2025-01-10; the main measurements finished on 2026-06-17; the entry was last updated on 2026-07-29 and no results are posted. A second registry entry was opened: a trial in China of such a transfer in 50 people aged 60 and over with a form of heart failure, first posted 2026-06-05 and not yet recruiting, with frailty as a secondary measure only. Also returned: January 2026 coverage of a mouse study in Stem Cell Reports, which adds nothing to a rung already reached.",
+   "sources": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06649981",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07628777"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06649981",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07628777"
+   ],
+   "for_john": "The change this reading would have made: add to this entry's notes the Chilean ARMOR trial (ClinicalTrials.gov NCT06649981), the controlled trial in older people that the estimate's earliest year assumes is already running. It is placebo-controlled, its main measures are age-related functions (strength and a score of balance, walking and rising from a chair), 80 people are enrolled and its main measurements finished on 2026-06-17, so a peer-reviewed report could come within a year or two and would be the record to test against the first human rung. No stage or year would change now: no results are posted and none is published. It is not this reading's to decide because the registry entry is older than the window (last updated 2026-07-29) and adding to an entry's notes is your call. Opened: both registry entries, through the registry's data interface. Seen in a search result only: the trial's published protocol (Universidad de los Andes research page) and a Fight Aging! post of February 2026 describing it."
+  }
+ ]
+}

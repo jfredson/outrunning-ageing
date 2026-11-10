@@ -4,6 +4,8 @@ Written 2026-10-17, the day the site went live, in a cloud session from the mast
 
 **Changed 2026-10-18, after the first audit** (`docs/readings/audit-2026-10-18.md`; John ruled on 2026-10-18 on its proposals 1 to 9 and left 10 to 12 out). Nine changes, each marked in the step it touches: (1) the reading record carries a `limits` line saying what the reading could not see; (2) a trial registry is read through its data interface; (3) before a flagged item says the records lack something, `data/` is searched for it; (4) helper agents are allowed on conditions, and the main session opens every source behind a flagged item itself; (5) a flagged item's `sources` are pages that were opened and say the thing; (6) every release, regulator's decision or paper that was read is logged, and "read" is spelt out; (7) the window is always the seven days up to the reading; (8) the first search for a leaf is aimed at the kind of record its settler names, in its words; (9) a quiet verdict says what the searches could and could not see. The routine reads this file fresh at the start of every run, so the routine itself needs no change.
 
+**Changed 2026-11-09, after a trial** (`docs/readings/fable-trial-2026-11-09.md`). A trial compared this procedure with a deeper one on two models, and John ruled the same day. Step 1a is new and in force, except its part E: a reading starts from sources that can be filtered by date (the trial registry, the paper database, a search limited to the press-release newswires and company filings), opens what they return, files a result that counts against a treatment or bears on an estimate as a flagged item, runs one field-wide sweep, and reports a ranked shortlist of the week's stories. The dated queries sit outside cap 3. John also made it a hard rule that any limit the project sets on itself is always up for review when it may be costing quality; step 1a says how the reading reports a limit that cut something. Which model reads what (part E) waits on a measured comparison.
+
 This is a working document, so it uses the project's own words (leaf, scan, settler, verdict). On the public site the reading is "This week's reading", a leaf is a treatment and the test is "what would count". The reading record's prose is printed on the public site as written, so it uses the public words, not these (John's ruling of 2026-10-18; step 1, "Written for visitors").
 
 ## The idea in one paragraph
@@ -135,6 +137,117 @@ For each record, the leaves first in branch order (`data/branches.toml`, `order`
 
 Search economy: no fewer than two searches aimed at each record, no more than four. If the search tool fails twice, or refuses because its allowance is spent, write `search_short` on the item saying so, give the verdict the searches you have support, and move on; a record with no search at all is left out of the reading and named in the summary, to be read first at the next reading.
 
+### 1a. Dated sources, results against, the sweep and the shortlist (in force from 2026-11-09, except part E)
+
+Drafted on 2026-11-09 from the trial written up in `docs/readings/fable-trial-2026-11-09.md`. The trial
+showed that reading sources that can be filtered by date is what finds the week's news. **John ruled on
+2026-11-09: parts A, B, C, D, F, G and H are in force**, results against are filed as flagged items with
+no fifth verdict, and the dated queries of part A sit outside cap 3. **Part E (which model reads what) is
+not in force**: it waits on a comparison of the arrangements, and until John rules on it everything runs
+on the routine's model. Each part says what it changes in the steps above. Nothing here changes the
+record layout, the validator or the site.
+
+**How the limits in this step are drawn (John's hard rule of 2026-11-09).** John ruled that any limit the
+project sets on itself is always up for review when it may be costing quality, and that a limit should
+not be an arbitrary number. So in this step: (1) a limit is written as a test where one will do
+("everything that bears on an estimate") and not as a count; (2) where a count remains, the text says
+what it protects; (3) **every time any limit in this file leaves something out, the reading says so**,
+in the report under a heading "Limits that cut" (which limit, what it left out, on which record), and in
+the `limits` line where there is room. That covers the older caps too (two to four web searches a
+record, three publications an item, three moves a reading), which stay as John ruled them on 2026-10-17
+until he rules again; (4) a limit that cuts something in two readings is put to John in the report as a
+question. The wording of these four points is the drafting session's and is John's to confirm or change.
+
+**A. Dated sources first (before the web searches of step 1, for every treatment; for a claim or a
+self-experiment only where it commits to something a registry or a paper would show).** A web search
+cannot limit results by date; these can. Run them with `curl`, with the window's two dates:
+
+- The trial registry, by date last updated and by date first posted, with words from the test and the
+  notes (the drug, the condition, the kind of treatment):
+  `https://clinicaltrials.gov/api/v2/studies?query.term=<words>+AND+AREA[LastUpdatePostDate]RANGE[<from>,<to>]&pageSize=20&fields=NCTId,BriefTitle,OverallStatus,LastUpdatePostDate,ResultsFirstPostDate,StudyFirstPostDate`
+  and the same with `StudyFirstPostDate`. For every registry number the record names, open its own entry
+  and compare its status, its last update and whether results are posted with what the record says.
+- Papers, by date first published:
+  `https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(<words>)%20AND%20FIRST_PDATE:[<from>%20TO%20<to>]&format=json&pageSize=25&resultType=lite`.
+  Read the titles and open the abstract of any that may bear on the test. Say when one is a preprint.
+- Company releases and filings: one web search limited to the sites `globenewswire.com`,
+  `businesswire.com`, `prnewswire.com` and `sec.gov`, worded by the **kind of treatment and the kind of
+  event**, not by the companies the notes name ("amyloid antibody phase 2 topline results did not meet
+  primary endpoint", with the month and year). The newswires refuse a direct read, but this search
+  reaches them. It is here because of one miss: on 2026-10-30 a company the amyloid entry does not name
+  announced that its antibody had failed, and no reader on either model found it until a search worded
+  this way was tried. If the search tool will not take a limit to named sites, put the site names in
+  the query's words and say so in `limits`.
+
+Each dated query is listed in the item's `queries` exactly as run, with `registry: `, `papers: ` or
+`newswire: ` in front. They do not count toward the two to four web searches of cap 3 (ruled by John
+2026-11-09). There is no fixed number of them: a record normally needs the four above (the registry
+twice, the papers once, the newswires once), and a record whose test names several drugs or conditions
+runs as many more as it takes to cover them.
+
+**B. Open what the dated sources return.** Every result dated in the window that may bear on a record is
+opened and its date and wording checked on the page before anything is written about it. When a page
+refuses, take another road before calling the record quiet: the registry's data interface, Europe PMC or
+Crossref for a paper, the filed copy on `sec.gov` or the wire text on a news site for a company's
+release. A quiet verdict that rests only on pages that would not load says so in `found`.
+
+**C. Results that count against, and anything that bears on an estimate.** A failed or stopped trial, a
+withdrawal, a safety hold, a company setting a treatment aside, or a result for it that a careful person
+would weigh when revising the estimate, is a `flagged` item whose `for_john` begins "Bears on the
+estimate, towards later:" (or "towards earlier:"), then two sentences: what happened, on what record, and
+why it cuts that way. The reading still may not touch an estimate. No fifth verdict is added (ruled by
+John 2026-11-09), so the validator and the site are unchanged. A registry status that now differs from
+what the records say (a trial the records call completed that the registry calls stopped) is flagged the
+same way, as a correction for John.
+
+**D. A field-wide sweep, once a reading.** One reader starts from the field's sources and not from the
+records: the two regulators' announcement pages, the field's own press (Longevity.Technology,
+lifespan.io, Fight Aging!), the headlines of the trade press where its articles refuse, Europe PMC for
+the main journals by date, the registry for trials first posted or with results first posted in the
+window, and the results releases of the large companies the records name. A story that matches a record
+is handed to that record's item. A story that matches none is listed in the report and the worklog
+entry, every one of them, and the `summary` names those a visitor to the site would call news about the
+field (the summary is printed on the site, so it stays a paragraph; a story left out of it for length is
+named under "Limits that cut"). The reading may not add a record; proposing one is a line for John. The
+`limits` line says which of these sources were reached.
+
+**E. Who reads what. (NOT IN FORCE; a reading skips this part.)** The arrangement John chose for the
+draft: the main session on Fable 5.2 (the routine's model field) runs the sweep, opens every source
+behind a flagged item, does the weighing in part C and assembles the record; the record readers are
+helpers on Sonnet 5.5 (the helper tool's `model` set to `sonnet`), each with a group of records and the
+brief of step 1 with parts A to C. John asked on 2026-11-09 for a measured comparison of the
+arrangements before ruling. Until he rules, everything runs on the routine's model.
+
+**F. Save as you go, and one retry.** Each helper writes its output file again after every record, and
+keeps its wording at the level of news: what was published or announced, when, by whom, and the link.
+A helper that ends without a complete file is run once more with its group split in two. A record still
+unread after that is left out and named in the summary, as step 1 already says. (In the trial a safety
+filter stopped one Fable 5.2 reader while it was writing, and its nine records were lost until two
+smaller readers reread them.)
+
+**G. File what you said you would flag, and put them in order.** Before writing the reading record, the
+main session rereads its own notes from the run and checks that every item it said it would flag has a
+flagged item. (On 2026-11-08 the run's log shows a note to flag an announcement that was then filed
+quiet.) The report lists every flagged item, in this order and under these three headings, so that the
+order does the work a count would: first those that bear on an estimate or a stage; then those that need
+John to do something (a correction, a merge, a ruling); then the rest, one line each.
+
+**H. The report gains a story shortlist (step 9).** After the flagged items: every story from the week
+that passes this test, ranked: it is dated in the window, its source was opened, and a visitor to the
+site would care. Each has its date, the source, the record it bears on (or "no record"), and one line on
+why a visitor would care. This is a list for John, not a post. John agreed on 2026-11-09 that a news
+post may be written about a story that changes no record, and said he is leaning towards all news of
+interest to the project being worth writing about. That changes his rule of 2026-10-18, and
+`scripts/check_news.py` still enforces the old rule; until the script and the news rules are changed,
+the reading writes no post and the shortlist is where the stories go.
+
+**Not in this step, each its own piece of work:** the change to the news rule and
+`scripts/check_news.py` (agreed 2026-11-09, not yet built); the monthly check by a non-Claude model of
+what the readings missed (agreed 2026-11-09; `scripts/miss_check_gemini.py`); a one-off check of the
+records for older facts they lack (agreed 2026-11-09); a place in the reading record for stories with no
+record (a layout change); the comparison of model arrangements and the routine's model field; and the
+same changes on the four sibling sites.
+
 ### 2. Log the publications
 
 For every paper, regulator's record, registry entry or company release that a `noted`, `moved` or `flagged` item rests on, and whose own page you have read, add a publication record under `data/papers/` (unless that publication is already there, which the item says) in the layout `docs/record-schema.md` gives: id from the first author's surname and year (a company's name for a release; a word added when two collide, as `hickson-2019-senolytics` would), `date` the record's own date as text, `added_on` the reading's date, `authors` as printed (the first twelve and a count when there are more), `title`, `venue` with volume and pages where they exist, `link`, a `finding` of two to four plain sentences with the numbers that matter, the `leaves` and `branches` it bears on, `moved_range = false`, `settled_stage = false` (true only when step 3 makes it a stage record), a `verify` list for anything on the page you could not confirm (or, better, leave it out), and a `notes` line naming the reading in words ("Logged by the weekly reading of 2026-10-25."). No more than three per item. "Read" means opened and read, and it includes a company's own release (read as wire text if its page refuses), a regulator's decision, a registry entry read through its data interface and an open copy of a paper; a page that asks for a sign-in is logged from the abstract, with a `notes` line saying so. A record is not left unlogged because it is dated before the window: the window decides what is news, not what is logged. Never edit a publication record that already exists; if one is wrong, say so in the report. Check each file with `python3 -c "import tomllib,sys; tomllib.load(open(sys.argv[1],'rb'))" data/papers/X.toml` and then `python3 scripts/compute.py validate`.
@@ -182,6 +295,6 @@ Send John one short message, a numbered list and nothing else: first what he nee
 
 - **Readings shown on the claims and self-experiments pages.** The export carries each record's last three readings; the pages show the treatments' only, until the first audit says the others earn the space.
 - **Reader-submitted items** ("did this move anything?"): a GitHub issue through the disagree page, answered by a reading item. No new machinery.
-- **Searching beyond the open web** (journal feeds, the registries' own interfaces): the settlers name their records and a web search reaches most of them; add a per-source fetch only once a reading has demonstrably missed something a feed would have caught.
+- **Searching beyond the open web** (journal feeds, the registries' own interfaces): the settlers name their records and a web search reaches most of them; add a per-source fetch only once a reading has demonstrably missed something a feed would have caught. **Done 2026-11-09:** readings of 2026-11-01 and 2026-11-08 missed what the registry and the newswires showed, and step 1a part A now reads them.
 - **The reading proposing new leaves**: it may flag a gap; adding a leaf is John's and the yearly review's.
 - **The sibling check filing a reading on The Upgrade Tree.** The item records the sibling's stage and flags a disagreement; filing on the other site needs that repository attached to the run, which is a change to the routine John makes once a disagreement has happened.
