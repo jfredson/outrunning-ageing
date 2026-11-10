@@ -42,9 +42,14 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
     {h.available && (
       <div class="stat-row" aria-label="The three numbers beside the year">
         <div><span class="stat">{(h.before_2050 * 100).toFixed(1)}%</span><span class="stat-label">chance it arrives before {fixed.before}</span></div>
-        <div><span class="stat">{h.percentiles.p5} to {yearWords(h.percentiles.p95)}</span><span class="stat-label">in nine runs of ten</span></div>
-        <div><span class="stat">{Math.round(h.after_2100 * 100)}%</span><span class="stat-label">not this century</span></div>
+        <div><span class="stat">{h.percentiles.p5} to {yearWords(h.percentiles.p95)}</span><span class="stat-label">nine runs in ten, if my ranges are right</span></div>
+        <div><span class="stat">{Math.round(h.after_2100 * 100)}%</span><span class="stat-label">not this century, which my ranges barely allow</span></div>
       </div>
+    )}
+    {h.available && h.bounds && (
+      <p class="width-line">
+        Those numbers show only how far chance moves the answer inside my own ranges. If everything went right, with every treatment at the earliest year I think possible, the answer would be <strong>{h.bounds.hopeful.year}</strong>. If everything went wrong, with every one at the latest, it would be <strong>{yearWords(h.bounds.doubtful.year)}</strong>. Neither is a forecast, but the gap between them is the argument, and some of what decides it has no date anyone can give yet. <a href="#least">What I know least about.</a>
+      </p>
     )}
     <h1 class="question">When do we start outrunning ageing?</h1>
     <p class="lede">
@@ -87,6 +92,31 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
       <p>{h.reason} <a href="/about/#method">How the numbers are worked out.</a></p>
     )}
   </section>
+
+  {h.available && h.bounds && (
+    <section class="section narrow" id="least">
+      <div class="shead"><h2>What I know least about</h2><span>and what would settle each</span></div>
+      <ul class="move-list">
+        <li>
+          <span class="move-name">How long a new treatment takes to reach ordinary people</span>
+          <span class="move-what">I add {h.method.lag_years.earliest} to {h.method.lag_years.latest} years, most likely {h.method.lag_years.likely}, between a treatment reaching the clinic and a person who keeps up with the best care getting it. That is a first guess with no published figure behind it. Published figures on how fast approved treatments of each kind come into wide use would settle it. A longer delay of 5 to 20 years moves the middle year to about 2061.</span>
+        </li>
+        <li>
+          <span class="move-name">Whether the eight branches move together</span>
+          <span class="move-what">I treat each treatment's year as separate from every other's. They are not: the fields share money, regulators and tools. If regulators accepted a test of biological age as proof that a treatment works, trials across every branch could finish in years rather than decades. In trial runs in November 2026 that linked them, the middle year stayed at 2058, but the chance before {fixed.before} rose from about 4 per cent to as much as 19. Nobody has measured how strong the link is, so it is left out.</span>
+        </li>
+        <li>
+          <span class="move-name">Why "not this century" reads zero</span>
+          <span class="move-what">{h.bounds.ranges_past_century} of the {h.bounds.ranges_drawn} ranges I draw from {h.bounds.ranges_past_century === 1 ? 'runs' : 'run'} past {fixed.century_end}. But a branch counts as handled when its two fastest treatments reach the clinic, so a slow one never holds it back. Even with every treatment at its latest year, the answer is {yearWords(h.bounds.doubtful.year)}. The zero comes from how I set up the ranges. It is not a finding that this will happen this century. Giving each treatment a chance that it never works at all would put a real number there.</span>
+        </li>
+        <li>
+          <span class="move-name">What the tree cannot count</span>
+          <span class="move-what">The year counts treatments arriving, not how much healthy life each one adds. Outrunning ageing needs the gains to add up to more than a year for every year that passes, in people, over decades, with treatments that are safe to take together. No one has shown that yet. The tree also holds only the kinds of damage that are named today, and that list has grown before: the researchers who drew it up named nine kinds in 2013 and twelve in <a href="https://doi.org/10.1016/j.cell.2022.11.001" rel="noopener">their 2023 update</a>. These are the questions no range of years can answer yet, and the year above assumes they come out well.</span>
+        </li>
+      </ul>
+      <p class="dim" style="font-size: 14px; margin-top: 12px;"><a href="/about/#method">How the numbers are worked out</a> has every setting with its reason and the strongest alternative.</p>
+    </section>
+  )}
 
   <section class="section" id="branches">
     <div class="shead"><h2>The eight branches</h2><span>what has to be dealt with, and what is recorded under each</span></div>

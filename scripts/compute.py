@@ -1092,6 +1092,32 @@ def compute_headline(loaded: dict, runs: int = RUNS, seed: int = SEED,
     n_after = sum(1 for y in escape if y > CENTURY_END)
     bins.append({"from": CENTURY_END + 1, "to": None, "share": round(n_after / runs, 4)})
 
+    # The two ends of the argument (proposed 2026-11-09, after The Quiet Galaxy's optimist and
+    # pessimist line): every leaf below the clinic set to its earliest year and the lag to its
+    # shortest, then every leaf to its latest and the lag to its longest. No draw is made, so the
+    # random numbers above are untouched. These are not percentiles: they show how far the
+    # answer moves if the ranges themselves lean all one way, which the spread of runs cannot.
+    def end_year(pick: int, lag_years: int) -> dict:
+        per_branch: dict[str, int] = {}
+        for k in required:
+            need = int(branches[k].get("handled_when", 2))
+            ys = []
+            for leaf in leaves_by_branch[k]:
+                f = leaf_facts[leaf["id"]]
+                ys.append(f["year"] if f["known"] else (f["earliest"], f["likely"], f["latest"])[pick])
+            per_branch[k] = sorted(ys)[need - 1]
+        slowest = max(required, key=lambda k: (per_branch[k], -BRANCH_ORDER.index(k)))
+        return {"year": per_branch[slowest] + lag_years, "slowest_branch": slowest,
+                "slowest_name": branches[slowest].get("name"), "lag": lag_years}
+
+    ranges_drawn = [f for f in leaf_facts.values() if not f["known"]]
+    bounds = {
+        "hopeful": end_year(0, lo_l),
+        "doubtful": end_year(2, hi_l),
+        "ranges_drawn": len(ranges_drawn),
+        "ranges_past_century": sum(1 for f in ranges_drawn if f["latest"] > CENTURY_END),
+    }
+
     branch_block = []
     for k in BRANCH_ORDER:
         b = branches[k]
@@ -1126,6 +1152,7 @@ def compute_headline(loaded: dict, runs: int = RUNS, seed: int = SEED,
         "before_2050": round(before, 4),
         "after_2100": round(after, 4),
         "percentiles": {"p5": pct(5), "p25": pct(25), "p50": pct(50), "p75": pct(75), "p95": pct(95)},
+        "bounds": bounds,
         "histogram": bins,
         "branches": branch_block,
         "counts": {
