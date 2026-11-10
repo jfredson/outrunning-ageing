@@ -1,0 +1,438 @@
+{
+ "stories": [
+  {
+   "date": "2026-11-07",
+   "what": "Full results of the ZEUS trial were presented at the American Heart Association meeting and published in the New England Journal of Medicine: ziltivekimab, a monthly antibody that blocks the inflammatory messenger interleukin-6, did not prevent heart attacks, strokes or cardiovascular deaths in 6,376 people with artery disease, kidney disease and raised inflammation (17.6% against 17.7% on placebo; hazard ratio 0.99). Inflammation markers fell, but serious infections, blood clots and low platelet counts were more common on the drug.",
+   "url": "https://www.hcplive.com/view/ziltivekimab-fails-to-reduce-cardiovascular-events-in-ascvd-and-ckd-zeus",
+   "opened": true,
+   "source_kind": "trade press (meeting report)",
+   "direction": "against",
+   "matches_record": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+   "in_records_already": false,
+   "importance": 3,
+   "why": "The largest test so far of treating inflammation alone to prevent heart attacks came back flat, with a safety cost. The records hold the July headline result from the company; the full numbers, the safety findings and the journal publication are new in this window. Two more outcome trials of the same drug (HERMES and ARTEMIS) are still running."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "A 1,200-person trial called VITAL-H was registered by the University of Texas Health Science Center at San Antonio, with the United States Department of Health and Human Services as collaborator. It will give healthy people aged 60 to 75 dapagliflozin, semaglutide or placebo for three years to see whether either drug slows the decline in physical function that comes with age; it is due to start in January 2027 and finish in 2030.",
+   "url": "https://clinicaltrials.gov/study/NCT07923630",
+   "opened": true,
+   "source_kind": "trial registry (first posted 2026-11-06)",
+   "direction": "for",
+   "matches_record": "a-drug-adds-healthy-years-to-a-life",
+   "in_records_already": false,
+   "importance": 3,
+   "why": "A large, government-backed, placebo-controlled trial that tests approved drugs against ageing itself in healthy older people, with a function measure as the main result. This is the kind of trial the field has asked for since the metformin trial (TAME) was proposed and never funded. It is a registration, not a result."
+  },
+  {
+   "date": "2026-11-07",
+   "what": "The Lp(a)HORIZON trial of pelacarsen, a drug that lowers the inherited blood fat lipoprotein(a), was presented at the American Heart Association meeting and published in the New England Journal of Medicine. In 8,350 people with heart disease the drug cut lipoprotein(a) by about 78% but did not reduce heart attacks, strokes or cardiovascular deaths (12.3% against 12.1% on placebo; hazard ratio 1.02).",
+   "url": "https://www.healio.com/news/cardiology/20261107/pelacarsen-no-better-than-placebo-in-patients-with-high-lipoproteina-heart-disease",
+   "opened": true,
+   "source_kind": "trade press (meeting report); extended analyses in NEJM Evidence, https://doi.org/10.1056/evidoa2600373",
+   "direction": "against",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A long-awaited first outcome test of lowering a major inherited heart risk factor failed despite a large fall in the marker. It is a caution for every treatment judged by a blood marker rather than by events, which bears on how the site reads marker-based claims."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "Nature published the laboratory and animal work behind a one-time treatment that rewrites a single DNA letter in the liver to switch off the ANGPTL3 gene, which raises cholesterol and blood fats. In monkeys one dose cut the protein by more than 90% for three years, and the paper says a first trial in people with hard-to-treat high blood fats is under way.",
+   "url": "https://doi.org/10.1038/s41586-026-11233-9",
+   "opened": true,
+   "source_kind": "journal (Nature), abstract read on Europe PMC",
+   "direction": "for",
+   "matches_record": "a-gene-is-edited-inside-a-persons-body",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "Three-year durability in monkeys from a single dose of an in-body gene editor aimed at a common cause of heart disease, with a human trial started. It extends in-body editing from a rare inherited disease toward ordinary age-related heart risk. A related human gene-editing result for severe high triglycerides was on the heart meeting's programme for 2026-11-09; its results were not found in this sweep."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "A study in GeroScience compared 4,885 United States kidney transplant recipients prescribed rapamycin with 6,589 who were not, followed for a median of 11 years. After adjusting for differences between the groups, the median age at death was the same (64.6 against 64.3 years), so long-term rapamycin use showed no survival gain.",
+   "url": "https://doi.org/10.1007/s11357-026-02643-8",
+   "opened": true,
+   "source_kind": "journal (GeroScience), abstract read on Europe PMC",
+   "direction": "against",
+   "matches_record": "rapamycin-improves-an-age-related-measure-in-older-people",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "One of the largest sets of people exposed to rapamycin for years shows no longer life. Transplant patients are not healthy older adults and the dose is higher than longevity users take, so it is not decisive, but it is the kind of human evidence the rapamycin claim has lacked, and it points the wrong way."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "A study in Nature Metabolism made 1,340 measurements of the cell fuel molecule NAD in the whole blood of 1,068 adults and found that it does not fall with age in healthy people (steady in men, rising in women). Levels were lower in people with cardiovascular disease and high blood pressure.",
+   "url": "https://doi.org/10.1038/s42255-026-01660-3",
+   "opened": true,
+   "source_kind": "journal (Nature Metabolism), abstract read on Europe PMC",
+   "direction": "against",
+   "matches_record": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "The case for NAD-raising supplements rests on the claim that NAD declines with age. A large human measurement that finds no such decline in blood weakens the premise, though blood may not reflect other tissues."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "A Nature Aging paper reports that vanadyl sulfate, a mineral sold as a dietary supplement, selectively kills aged (senescent) cells by exploiting a weakness in how they handle protein folding. Given by mouth to mice it eased several age-related disorders and lengthened life in males.",
+   "url": "https://doi.org/10.1038/s43587-026-01253-5",
+   "opened": true,
+   "source_kind": "journal (Nature Aging), abstract read on Europe PMC",
+   "direction": "for",
+   "matches_record": "clearing-aged-cells-makes-old-animals-live-longer",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A new, cheap oral compound that clears aged cells and extends mouse lifespan, with a worked-out mechanism. Animal evidence only, and in one sex."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "A paper in Cell shows that aged (senescent) cells run low on one particular fat, DGLA, and that restoring it tips them into a form of cell death. Feeding DGLA to old mice lowered markers of aged cells and improved age-related function.",
+   "url": "https://doi.org/10.1016/j.cell.2026.09.036",
+   "opened": true,
+   "source_kind": "journal (Cell), abstract read on Europe PMC",
+   "direction": "for",
+   "matches_record": "clearing-aged-cells-makes-old-animals-live-longer",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A dietary fat acting as an aged-cell-clearing agent, in a top journal, with supporting human fat-tissue data. Animal function improved; no lifespan result."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Circulation published the first year of the open-label extension of HELIOS-B, the trial of vutrisiran, a gene-silencing injection for the heart form of transthyretin amyloidosis. Through four years, people on the drug from the start had a 37% lower risk of death than those who began on placebo and switched later.",
+   "url": "https://doi.org/10.1161/circulationaha.126.080735",
+   "opened": true,
+   "source_kind": "journal (Circulation), abstract read on Europe PMC",
+   "direction": "for",
+   "matches_record": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "Four-year survival data for a treatment already in clinical use, showing the benefit holds and that starting late costs lives. Strengthens a record that is already at the clinic stage."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "The United States Food and Drug Administration required every maker of a GLP-1 drug (twelve products, including Wegovy, Ozempic, Zepbound, Mounjaro and the new pill Foundayo) to add a warning about a rare cause of sudden vision loss, non-arteritic anterior ischaemic optic neuropathy. Its pooled analysis of 126 trials found 6.4 cases per 100,000 patient-years on the drugs against 3.8 on comparators, and its records study found a raised risk against one older diabetes drug class but not another.",
+   "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential",
+   "opened": true,
+   "source_kind": "regulator drug safety communication (also read in BioSpace and listed by Endpoints News, 2026-11-09)",
+   "direction": "against",
+   "matches_record": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A class-wide safety warning from the regulator on the drugs behind one of the site's clinic-stage records. The risk is rare and the approved uses are unchanged, but it is a formal regulator action in the window."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "The SYNCHRONIZE-CVOT trial of survodutide, a weekly obesity injection from Boehringer Ingelheim and Zealand Pharma that acts on two gut-hormone receptors, was presented at the American Heart Association meeting and published in The Lancet. In 5,530 adults with obesity and heart or kidney risk it did not raise the rate of major cardiovascular events against placebo, but the trial was not built to show a reduction and showed only a favourable trend.",
+   "url": "https://www.biospace.com/drug-development/boehringer-zealands-obesity-drug-doesnt-elevate-heart-risk-in-key-late-stage-test",
+   "opened": true,
+   "source_kind": "trade press (meeting report)",
+   "direction": "neutral",
+   "matches_record": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A second kind of weight-loss drug has now cleared its heart-safety trial and its makers will file for approval. It does not add a new proof that weight-loss drugs prevent heart attacks, because the trial tested safety, not benefit."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Intellia's third-quarter report said enrolment is complete in MAGNITUDE-2, the late-stage trial of its one-time in-body gene editor nex-z for the nerve form of transthyretin amyloidosis (announced 2026-11-04, more than 60 patients randomised), and that enrolment in the larger heart-form trial has moved forward. The company has begun giving trial doctors each patient's immune-gene (HLA) type, the step it proposed after linking liver harm to one variant; the release reports no new safety events and gives no date for results.",
+   "url": "https://finviz.com/news/416921/intellia-therapeutics-announces-third-quarter-2026-financial-results-and-business-updates",
+   "opened": true,
+   "source_kind": "company results release (GlobeNewswire copy)",
+   "direction": "for",
+   "matches_record": "a-gene-is-edited-inside-a-persons-body",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "This is the programme the record follows. A fully enrolled late-stage trial of an in-body gene editor, with the genotype screening now in use, moves the first possible approval closer; the heart trial still has no finish date."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "A randomised, placebo-controlled trial of faecal microbiota transplant capsules to slow biological ageing was registered by the Polish company Human Biome. It plans to enrol 68 adults aged 45 to 80 and judge the result by an epigenetic pace-of-ageing clock (DunedinPACE) and inflammation markers over 26 weeks.",
+   "url": "https://clinicaltrials.gov/study/NCT07912164",
+   "opened": true,
+   "source_kind": "trial registry (first posted 2026-11-03)",
+   "direction": "for",
+   "matches_record": "young-gut-microbes-rejuvenate-an-old-animal",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "The record for gut microbes is at the animal stage. This is a registered, blinded human test of the same idea with an ageing clock as the main measure, which would be the next rung if it runs and reports."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "CRISPR Therapeutics presented the first results of its one-time in-body gene editor CTX310 in people with severe high triglycerides at the American Heart Association meeting. In 10 patients a single infusion cut the target protein ANGPTL3 by 65% and triglycerides by 63% at 30 days, with no serious treatment-related harms and no liver-enzyme rises of concern; the data are not yet peer reviewed.",
+   "url": "https://www.stocktitan.net/news/CRSP/crispr-therapeutics-presents-phase-1b-data-for-ctx310-demonstrating-nao9svbtrtnw.html",
+   "opened": true,
+   "source_kind": "company release (copy of the GlobeNewswire release of 2026-11-09; the GlobeNewswire page refused the fetch)",
+   "direction": "for",
+   "matches_record": "a-gene-is-edited-inside-a-persons-body",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A second in-body gene editor, from a different company and aimed at a common heart risk rather than a rare disease, working in people without the liver harm that paused the programme the record follows. Small, uncontrolled and company-reported."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "Eli Lilly announced that its weight-loss pill Foundayo (orforglipron) met its main goal in the ATTAIN-OSA trial of about 712 adults with obesity and moderate-to-severe obstructive sleep apnoea, cutting breathing interruptions during sleep by up to 44% over a year. The company plans to ask the regulator for a sleep apnoea approval before the end of 2026.",
+   "url": "https://www.biospace.com/drug-development/lilly-to-seek-second-sleep-apnea-approval-after-foundayo-reduces-disease-severity-in-phase-3",
+   "opened": true,
+   "source_kind": "trade press reporting a company release",
+   "direction": "for",
+   "matches_record": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Shows a pill form of the weight-loss drugs reaching a second disease of later life. Peripheral to the record's test, which is about heart attacks and strokes."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "The United States Food and Drug Administration approved asundexian (Sunharbo, Bayer), the first drug of a new class of blood thinners that block clotting factor XIa, to prevent a second stroke. In a trial of 12,327 people it cut the risk of ischaemic stroke by 26% when added to standard antiplatelet drugs, with similar rates of major bleeding overall.",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk",
+   "opened": true,
+   "source_kind": "regulator press announcement",
+   "direction": "neutral",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "A first-in-class approval for one of the main diseases of old age. It is ordinary disease medicine rather than a treatment aimed at ageing, so it sits outside the site's records."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "The United States Food and Drug Administration issued final guidance on how makers of cell and gene therapies must show that every batch has its intended biological effect, replacing guidance from 2011. It covers gene therapies carried by viruses, short-lived products and therapies made for a single patient.",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-provides-clarity-support-cell-and-gene-therapy-development-and-quality",
+   "opened": true,
+   "source_kind": "regulator press announcement",
+   "direction": "neutral",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Sets the manufacturing rules that every cell-resetting gene therapy, stem-cell graft and in-body gene editor on the site must meet before approval. Procedural, not a ruling on any one product."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "The Steadman Philippon Research Institute registered, after the fact, a completed randomised trial of the supplement fisetin in 82 adults aged 55 and over, which measured whether it lowers the number of aged immune cells in the blood. No results are posted yet.",
+   "url": "https://clinicaltrials.gov/study/NCT07918261",
+   "opened": true,
+   "source_kind": "trial registry (first posted 2026-11-05; trial ran 2023-2024)",
+   "direction": "neutral",
+   "matches_record": "drug-clears-aged-cells-from-a-person",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "A finished human trial of a much-used aged-cell-clearing supplement that had not been on the registry. It tells readers a result exists and is unpublished; the same institute's knee trial is already in the records."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "A paper in Cell Stem Cell shows that editors which change the chemical marks on DNA, without cutting it, can switch off a chosen gene in human blood-forming stem cells, and that the change lasts through cell division and for four months after the cells are transplanted into mice. The silencing could be partly undone by a second, targeted edit.",
+   "url": "https://doi.org/10.1016/j.stem.2026.10.009",
+   "opened": true,
+   "source_kind": "journal (Cell Stem Cell), abstract read on Europe PMC",
+   "direction": "for",
+   "matches_record": "a-cells-settings-are-rewritten-at-one-gene-in-a-person",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Durable and reversible rewriting of the marks on one gene in human stem cells is groundwork for the record's test, which asks for it in a person. Laboratory and mouse work only."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "A six-month randomised, placebo-controlled trial at the University of Surrey, published in European Heart Journal Open, found that a commercial multi-ingredient longevity supplement (NOVOS Core) improved two measures of blood-vessel ageing in healthy adults. Of 61 people randomised only 43 finished, the placebo group was five to seven years older, and the maker supplied the product and part of the funding.",
+   "url": "https://doi.org/10.1093/ehjopen/oeag157",
+   "opened": true,
+   "source_kind": "journal (European Heart Journal Open), abstract read on Europe PMC; also read in lifespan.io, 2026-11-06, https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/",
+   "direction": "for",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "A rare controlled trial of a marketed longevity supplement with a published result. Small, with heavy drop-out and a measure that has not been shown to prevent disease, so it is weak evidence."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "Immorta Bio announced that a first patient received SenoMune-0257, a short peptide meant to train the immune system to clear aged cells, on 2026-10-29 at a cancer clinic in Mexico in a study run by independent doctors. The release gives no safety or effect data and says safety and effectiveness in people are not established.",
+   "url": "https://www.prnewswire.com/news-releases/first-human-administration-of-senolytic-immunotherapy-to-fight-cellular-aging-announced-by-immorta-bio-302926449.html",
+   "opened": true,
+   "source_kind": "company release",
+   "direction": "neutral",
+   "matches_record": "immune-cells-engineered-to-kill-aged-cells",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "A company-reported first use in a person of an immune approach to clearing aged cells. It is a vaccine-like peptide, not engineered cells, given outside a registered trial that could be found, with no results; it does not meet the record's test. The records already name this company in one forecast."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "A study in the Journal of Clinical Investigation followed 105 matched older adults with high blood pressure and kidney disease who were at the edge of frailty, and found that those taking the diabetes and kidney drug dapagliflozin were much less likely to become frail within a year (odds ratio 0.13). People were not assigned to the drug at random.",
+   "url": "https://doi.org/10.1172/jci205416",
+   "opened": true,
+   "source_kind": "journal (Journal of Clinical Investigation), abstract read on Europe PMC",
+   "direction": "for",
+   "matches_record": "a-drug-adds-healthy-years-to-a-life",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Early human evidence for the same drug the new 1,200-person VITAL-H trial will test against ageing. Small and observational, so it shows an association only."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "A preprint on medRxiv re-ran the comparison of metformin with another diabetes drug class in the United States All of Us database, set up to imitate a trial. People starting metformin had a lower risk of death (hazard ratio 0.61) and a slightly lower, not statistically clear, rate of dementia (0.90).",
+   "url": "https://doi.org/10.64898/2026.11.02.26367055",
+   "opened": true,
+   "source_kind": "preprint (medRxiv), abstract read on Europe PMC",
+   "direction": "for",
+   "matches_record": "metformin-delays-age-related-disease-in-people-without-diabetes",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Adds another records-based finding in metformin's favour, in people with diabetes. Not peer reviewed, and the record's test asks for people without diabetes, which this does not address."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Fight Aging! reported a paper in which the cell-resetting genes OCT4, SOX2 and KLF4 were delivered as circular RNA in fat droplets to aged human connective-tissue stem cells. The cells lost markers of ageing and regained growth without turning into embryonic-like cells or changing their DNA.",
+   "url": "https://www.fightaging.org/archives/2026/11/circular-rna-encoding-yamanaka-factors-enables-partial-reprogramming-without-pluripotency/",
+   "opened": true,
+   "source_kind": "field press reporting a journal paper (https://doi.org/10.1186/s13287-026-05193-0; the paper itself was not opened)",
+   "direction": "for",
+   "matches_record": "partially-resetting-cells-reverses-ageing-in-an-animal",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "A way to deliver the resetting genes that leaves no trace in the DNA and switches itself off, which bears on the safety of every cell-resetting treatment. Cells in a dish only."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "BioArctic said Novartis has ended the 2025 agreement to pair BioArctic's technology for carrying antibodies across the blood-brain barrier with a Novartis antibody; BioArctic keeps the 30 million dollar upfront payment and loses up to 772 million dollars in later payments. The company said the technology itself was not the reason.",
+   "url": "https://longevity.technology/news/novartis-exits-a-bioarctic-deal-worth-up-to-802m/",
+   "opened": true,
+   "source_kind": "field press (article dated 2026-11-05) reporting a company announcement of 2026-11-02",
+   "direction": "neutral",
+   "matches_record": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "BioArctic is the originator of lecanemab, and brain-shuttle versions are the expected next generation of amyloid antibodies. A large partner leaving is a minor setback for that route; the company's own announcement was not opened."
+  }
+ ],
+ "sources_read": [
+  {
+   "source": "US Food and Drug Administration press announcements",
+   "how": "listing page fetched; two announcements opened",
+   "reached": true
+  },
+  {
+   "source": "US Food and Drug Administration novel drug approvals 2026",
+   "how": "listing page fetched",
+   "reached": true
+  },
+  {
+   "source": "US Food and Drug Administration drug safety communications",
+   "how": "listing fetched; GLP-1 communication opened",
+   "reached": true
+  },
+  {
+   "source": "European Medicines Agency news",
+   "how": "first listing page fetched; veterinary committee highlights of 3-5 November opened (nothing on ageing). No human-medicines committee meeting fell in the window",
+   "reached": true
+  },
+  {
+   "source": "Japan's regulator (PMDA / health ministry)",
+   "how": "web search only; nothing dated in the window found",
+   "reached": false
+  },
+  {
+   "source": "Britain's regulator (MHRA) and NICE",
+   "how": "web search only; nothing dated in the window found",
+   "reached": false
+  },
+  {
+   "source": "STAT",
+   "how": "site and feeds refused (HTTP 403); one domain-limited web search gave headlines for 3-6 November, none opened",
+   "reached": false
+  },
+  {
+   "source": "Fierce Biotech",
+   "how": "site and feed refused (HTTP 403); domain-limited search returned only older articles",
+   "reached": false
+  },
+  {
+   "source": "Endpoints News",
+   "how": "feed read with curl: headlines for 6-10 November only; earlier days of the window not reached; articles not opened",
+   "reached": true
+  },
+  {
+   "source": "BioSpace",
+   "how": "news listing fetched (3-9 November); three articles opened",
+   "reached": true
+  },
+  {
+   "source": "Longevity.Technology",
+   "how": "the site's post feed read with curl for every post of 2-9 November (44 posts); 16 opened",
+   "reached": true
+  },
+  {
+   "source": "lifespan.io news",
+   "how": "listing fetched (5 posts in window); three opened",
+   "reached": true
+  },
+  {
+   "source": "Fight Aging!",
+   "how": "November archive (18 posts in window) and the 9 November newsletter fetched; two posts opened",
+   "reached": true
+  },
+  {
+   "source": "Europe PMC",
+   "how": "API with first-publication-date filter: the brief's ageing query (1,017 hits, all paged; titles read for main journals and by topic keyword for the rest), a topic-title query (105 hits), and every window title in 22 named journals. The New England Journal of Medicine and The Lancet were thinly indexed for 5-9 November, so the heart-meeting papers were read through trade coverage",
+   "reached": true
+  },
+  {
+   "source": "ClinicalTrials.gov",
+   "how": "API, three ways (first posted, results first posted, last update posted) with the brief's term and a wider drug-name term; four entries opened",
+   "reached": true
+  },
+  {
+   "source": "Company releases (GlobeNewswire, Business Wire, PR Newswire)",
+   "how": "domain-limited web searches by kind of event; GlobeNewswire pages refused direct fetch, so copies were opened on finviz and stocktitan; one PR Newswire release opened",
+   "reached": true
+  },
+  {
+   "source": "sec.gov filings",
+   "how": "one domain-limited web search; no filing in the window opened",
+   "reached": false
+  },
+  {
+   "source": "American Heart Association Scientific Sessions (2026-11-06 to 2026-11-09, Chicago)",
+   "how": "web searches; results opened in HCPLive, Healio, BioSpace and a company release; the association's own newsroom listing returned 404 and Cardiovascular Business 403",
+   "reached": true
+  },
+  {
+   "source": "Clinical Trials on Alzheimer's Disease meeting",
+   "how": "checked: it runs 2026-11-16 to 2026-11-19, after the window",
+   "reached": false
+  },
+  {
+   "source": "Records folder and index named in the brief",
+   "how": "index read; records searched with grep for each story's key names. No record carries a date inside the window",
+   "reached": true
+  }
+ ],
+ "outside_window_noted": [
+  {
+   "date": "2026-10-08",
+   "what": "The NOPARK trial of the NAD-raising supplement nicotinamide riboside in 410 people with early Parkinson's disease found no benefit over a year (published in JAMA). Nature Aging ran a research highlight on it on 2026-11-06 (https://doi.org/10.1038/s43587-026-01277-x). A grep of the records for 'NOPARK' finds nothing.",
+   "matches_record": "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial",
+   "direction": "against"
+  },
+  {
+   "date": "2026-10-30",
+   "what": "A 22-person trial of tirzepatide judged by organ ages read from blood proteins, with brain age as the main measure, was first posted on the registry (NCT07906041, Atria Research and Global Health Institute; updated 2026-11-02).",
+   "matches_record": "an-age-for-each-organ-is-read-from-blood-proteins",
+   "direction": "neutral"
+  },
+  {
+   "date": "2026-10-30",
+   "what": "Acumen's amyloid-targeting antibody sabirnetug missed its main goal in a mid-stage Alzheimer's trial and development was stopped; trade coverage ran on 2026-11-03 and 2026-11-05.",
+   "matches_record": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+   "direction": "against"
+  },
+  {
+   "date": "2026-10-21",
+   "what": "Muna Therapeutics reported first-in-human results for its TREM2 pill MNA-001; Longevity.Technology covered it on 2026-11-03.",
+   "matches_record": null,
+   "direction": "neutral"
+  },
+  {
+   "date": "2026-11-16 to 2026-11-19",
+   "what": "The Alzheimer's trials meeting (CTAD, Boston) falls after the window, not in it. Five-year lecanemab data are scheduled for 2026-11-16 and Biogen's tau-lowering drug diranersen for 2026-11-17.",
+   "matches_record": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+   "direction": "neutral"
+  }
+ ]
+}

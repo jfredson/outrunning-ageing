@@ -1,0 +1,171 @@
+{
+ "records": [
+  {
+   "id": "aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial",
+   "verdict": "flagged",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 meets or counts against the test; the registry entries for the eye trial (NCT04857996, completed, results posted 2024-05-16) are unchanged. One older fact the entry may lack: a trade-press report of 2025-05-05 says the follow-on eye trial reported non-inferior vision gains at 36 weeks, which sits oddly beside \"missed its main goal in 2025\" and is worth checking against the company release.",
+   "findings": [
+    {
+     "date": "2025-05-05",
+     "what": "Older fact: a trade-press report says Unity reported its follow-on eye trial (ASPIRE, UBX1325 against aflibercept, 52 people) as non-inferior on vision at 9 of 10 time points through week 36; the entry says the trial missed its main goal in 2025.",
+     "url": "https://www.consultantlive.com/view/ubx1325-matches-aflibercept-in-vision-gains-for-dme-at-36-weeks",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Steadman Philippon Research Institute first posted a fisetin trial in 82 healthy volunteers, two dosing schedules and no placebo group, marked completed (ended 2024-01-30), no results posted; its main measure is change in aged immune cells in blood.",
+     "url": "https://clinicaltrials.gov/study/NCT07918261",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..09: senolytic, dasatinib quercetin, fisetin, UBX1325, senescent cells, navitoclax, CAR T senescent uPAR",
+    "Europe PMC FIRST_PDATE 2026-11-02..09: senolytic/senescent/dasatinib quercetin/fisetin; senolytic trial; UBX1325/foselutoclax; senescent CAR T; osteoarthritis senolytic knee; D+Q liver; senolytic macular; senolytic Alzheimer/frailty/fibrosis"
+   ],
+   "web_queries": [
+    "senolytic trial results November 2026",
+    "senolytic phase 2 placebo-controlled results announced ... November 2026 (globenewswire, businesswire, prnewswire, sec.gov)",
+    "Unity Biotechnology UBX1325 foselutoclax news 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04857996",
+    "https://www.consultantlive.com/view/ubx1325-matches-aflibercept-in-vision-gains-for-dme-at-36-weeks"
+   ],
+   "story_score": 0,
+   "story_why": "No new controlled result in the window; the flag is a possible correction, not news."
+  },
+  {
+   "id": "aged-cell-clearing-drug-relieves-knee-arthritis",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window bears on the knee test. The fisetin knee trial (NCT04210986) is still completed with results posted 2024-09-19, and the withdrawn ROPE entry (NCT04770064) is unchanged since 2022-07-29. The Steadman group did post a new fisetin trial on 2026-11-05, but in healthy volunteers, not knees.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Steadman Philippon Research Institute first posted a fisetin trial in 82 healthy volunteers, two dosing schedules and no placebo group, marked completed (ended 2024-01-30), no results posted; its main measure is change in aged immune cells in blood.",
+     "url": "https://clinicaltrials.gov/study/NCT07918261",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..09: senolytic, dasatinib quercetin, fisetin, UBX1325, senescent cells, navitoclax, CAR T senescent uPAR",
+    "Europe PMC FIRST_PDATE 2026-11-02..09: senolytic/senescent/dasatinib quercetin/fisetin; senolytic trial; UBX1325/foselutoclax; senescent CAR T; osteoarthritis senolytic knee; D+Q liver; senolytic macular; senolytic Alzheimer/frailty/fibrosis"
+   ],
+   "web_queries": [
+    "senolytic trial results November 2026",
+    "senolytic phase 2 placebo-controlled results announced ... November 2026 (globenewswire, businesswire, prnewswire, sec.gov)"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04210986",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04770064"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing new on knee osteoarthritis."
+  },
+  {
+   "id": "clearing-aged-cells-makes-old-animals-live-longer",
+   "verdict": "noted",
+   "found": "On 2026-11-06 Nature Aging published a mouse study reporting that a mineral supplement, vanadyl sulfate, clears aged cells and extends lifespan in male mice (abstract read on Europe PMC). This is an animal result, so it does not meet the human test, and the animal rung is already reached by the 2016 report.",
+   "findings": [
+    {
+     "date": "2026-11-06",
+     "what": "Nature Aging paper: oral vanadyl sulfate, a mineral supplement, acts as a senolytic and extends lifespan in male mice.",
+     "url": "https://doi.org/10.1038/s43587-026-01253-5",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC FIRST_PDATE 2026-11-02..09: senolytic/senescent/dasatinib quercetin/fisetin; senolytic trial; UBX1325/foselutoclax; senescent CAR T; osteoarthritis senolytic knee; D+Q liver; senolytic macular; senolytic Alzheimer/frailty/fibrosis"
+   ],
+   "web_queries": [
+    "senolytic trial results November 2026",
+    "senolytic phase 2 placebo-controlled results announced ... November 2026 (globenewswire, businesswire, prnewswire, sec.gov)"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s43587-026-01253-5"
+   ],
+   "story_score": 1,
+   "story_why": "Another mouse lifespan result for the class; minor, and in male mice only."
+  },
+  {
+   "id": "drug-clears-aged-cells-from-a-person",
+   "verdict": "noted",
+   "found": "On 2026-11-05 the Steadman Philippon Research Institute posted a completed fisetin trial in 82 healthy volunteers (NCT07918261) whose main measure is a fall in aged immune cells in blood; it has no placebo group and no posted results, so it does not yet meet the test. Its results, once posted, would bear on the blood-marker route.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Steadman Philippon Research Institute first posted a fisetin trial in 82 healthy volunteers, two dosing schedules and no placebo group, marked completed (ended 2024-01-30), no results posted; its main measure is change in aged immune cells in blood.",
+     "url": "https://clinicaltrials.gov/study/NCT07918261",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..09: senolytic, dasatinib quercetin, fisetin, UBX1325, senescent cells, navitoclax, CAR T senescent uPAR",
+    "Europe PMC FIRST_PDATE 2026-11-02..09: senolytic/senescent/dasatinib quercetin/fisetin; senolytic trial; UBX1325/foselutoclax; senescent CAR T; osteoarthritis senolytic knee; D+Q liver; senolytic macular; senolytic Alzheimer/frailty/fibrosis"
+   ],
+   "web_queries": [
+    "senolytic trial results November 2026",
+    "senolytic phase 2 placebo-controlled results announced ... November 2026 (globenewswire, businesswire, prnewswire, sec.gov)",
+    "Unity Biotechnology UBX1325 foselutoclax news 2026",
+    "senolytics aging news this week dasatinib quercetin fisetin trial"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07918261"
+   ],
+   "story_score": 1,
+   "story_why": "A new registry entry for a finished trial of a possible measurement result, with no results yet."
+  },
+  {
+   "id": "immune-cells-engineered-to-kill-aged-cells",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window: no registry entry or paper on engineered immune cells aimed at aged cells in people turned up in the registry or Europe PMC searches.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..09: senolytic, dasatinib quercetin, fisetin, UBX1325, senescent cells, navitoclax, CAR T senescent uPAR",
+    "Europe PMC FIRST_PDATE 2026-11-02..09: senolytic/senescent/dasatinib quercetin/fisetin; senolytic trial; UBX1325/foselutoclax; senescent CAR T; osteoarthritis senolytic knee; D+Q liver; senolytic macular; senolytic Alzheimer/frailty/fibrosis"
+   ],
+   "web_queries": [
+    "senolytic trial results November 2026",
+    "senolytic phase 2 placebo-controlled results announced ... November 2026 (globenewswire, businesswire, prnewswire, sec.gov)"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing found."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-11-03",
+   "what": "Registry update to the Mayo Clinic fisetin trial in COVID-19 (NCT04476953), active, no results posted; and Duke University trial of metformin on ageing blood markers in COPD (NCT07275359) updated, not yet recruiting.",
+   "url": "https://clinicaltrials.gov/study/NCT04476953",
+   "opened": true,
+   "why_it_matters": "Minor registry activity in trials of drugs aimed at ageing biology; neither reports results."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "Journal of Controlled Release paper on delivering navitoclax to clear aged cells in a liver-disease model (preclinical).",
+   "url": "https://doi.org/10.1016/j.jconrel.2026.115504",
+   "opened": false,
+   "why_it_matters": "Preclinical support for clearing aged cells in fatty liver disease, the organ of the 2026-10-01 trial."
+  }
+ ]
+}

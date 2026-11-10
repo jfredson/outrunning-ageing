@@ -1,0 +1,301 @@
+{
+ "items": [
+  {
+   "id": "S1133",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Pfizer third-quarter 2026 results, 2026-11-03: tafamidis family (Vyndaqel) revenue $1,773 million, up 12 per cent before currency effects",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000125/pfe-9272026xex99.htm",
+   "note": "Figures match the filed release: worldwide 1,773 against 1,591; United States 1,086; elsewhere 687; up 12 per cent operationally, put down mainly to market expansion in the United States plus uptake and access abroad. Routine sales figure, no patient count."
+  },
+  {
+   "id": "S1076",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "C",
+   "story": "Design paper for AMICO, a phase 3 trial of metformin in 212 people with chronic obstructive pulmonary disease (de-Torres and colleagues, journal COPD, online 2026-11-04)",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.1080/15412555.2026.2753977 and the Europe PMC record found by DOI (https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1080/15412555.2026.2753977&resultType=core&format=json)",
+   "note": "Abstract confirms 212 people, 36 months, placebo-controlled, phase 3, main measure the yearly fall in lung function, with heart events, cancer and kidney problems among the secondary measures. The authors call it the first randomised trial designed to evaluate metformin in this disease. Crossref gives the online date as 2026-11-04 (its issue-date field says 2026-10-24). A design paper, no result. The details 'fast-declining lung function', 'multi-centre', 'double-blind' and 'investigator-led' in one claim were not confirmed in what I read."
+  },
+  {
+   "id": "S1014",
+   "real": "yes",
+   "actual_date": null,
+   "in_window": false,
+   "grade": "C",
+   "story": "Null checks of the trial registry made on 2026-11-09: no entry for the TAME metformin trial by its full title; no entry for SenoVax, SenoMune or Immorta",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies?query.term=%22Targeting+Aging+with+Metformin%22 and https://clinicaltrials.gov/api/v2/studies?query.term=SenoVax+OR+SenoMune+OR+Immorta",
+   "note": "Bundles two different checks. (1) The TAME title search returns one study, NCT05651620 (the CALERIE Legacy Study, Tufts), which only mentions the TAME biomarkers group; there is no TAME trial entry. This check belongs to the metformin record, not the engineered-immune-cells record it is filed under. (2) The SenoVax/SenoMune/Immorta search returns zero studies. I repeated both on 2026-11-09 and got the same result, so the claims are true. But nothing happened: these are checks that found no change, so there is no event date and I have marked it outside the window on that ground only. The checks themselves were made on 2026-11-09. I did not repeat the separate search for engineered immune cells against the uPAR protein, or the sponsor pages said to return 'not found'."
+  },
+  {
+   "id": "S1027",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry entry NCT07925437 first posted 2026-11-09: Slovenian placebo-controlled study of a collagen, MSM and vitamin C supplement and sugar-damage products in skin, 90 people, 16 weeks",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07925437",
+   "note": "Confirmed: VIST Faculty of Applied Sciences (Ljubljana), 90 people estimated, not yet recruiting, 16 weeks, main measure a light reading of the skin. First submitted 2026-11-03, first posted 2026-11-09. A food supplement, only loosely related to drugs that break cross-links."
+  },
+  {
+   "id": "S1108",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "A",
+   "story": "Circulation, online 2026-11-03 (Garcia-Pavia and colleagues): HELIOS-B open-label extension of vutrisiran to month 48, 37 per cent lower risk of death in those on the drug throughout",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.1161/circulationaha.126.080735 and the Europe PMC record found by DOI (https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1161/circulationaha.126.080735&resultType=core&format=json)",
+   "note": "Abstract confirms 654 in the trial and 466 entering the extension; death from any cause hazard ratio 0.63 (0.46 to 0.84); first heart event or death hazard ratio 0.63 (0.51 to 0.79). All numbers in the claims match. A peer-reviewed result in people. Related to S1018 (the five-year conference data announced 2026-11-09) but a different publication with different figures, so not marked as the same story."
+  },
+  {
+   "id": "S1018",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "A",
+   "story": "Alnylam release, 2026-11-09: five-year HELIOS-B data for vutrisiran at the American Heart Association meeting, 41 per cent lower combined risk of death and repeat heart events overall, 48 per cent in those on the drug alone",
+   "same_story_as": null,
+   "source_opened": "https://investors.alnylam.com/press-release?id=65c2d0ab-27cd-42a0-a174-728416129efe",
+   "note": "All details match the release: 654 overall, 395 in the group not on tafamidis, p-values stated as nominal, no journal paper named, more than 14,000 patients treated worldwide. A company release of conference data, not peer reviewed. Same trial as S1108 but a later cut (five years against four) and a different measure."
+  },
+  {
+   "id": "S1009",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "B",
+   "story": "Sana Biotechnology third-quarter 2026 update, 2026-11-05: expects to ask permission and start a first trial of SC451 (stem cell-derived islet cells) as early as this year; restates 14-month donor-islet result in one person",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/1770121/000119312526449836/ (folder listing, dated 2026-11-05) and the same day's filed release https://www.sec.gov/Archives/edgar/data/1770121/000119312526449791/sana-ex99_1.htm",
+   "note": "The quarterly report itself came back cut off before the business sections, so I could not read the SC451 sentence in it. The filing folder is dated 2026-11-05, and the release filed the same day says the same thing: a filing for permission and a phase 1/2 start expected as early as 2026, with the chief executive saying 'later this year'. The 14-month result is old news: the New England Journal of Medicine letter it rests on was published 2026-08-20 (Crossref), outside the window. So the only thing new in the window is the restated timing, which is an expectation, not a start."
+  },
+  {
+   "id": "S1029",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "B",
+   "story": "Immorta Bio release, 2026-11-02: first person given SenoMune-0257, a peptide meant to train the immune system against aged cells, on 2026-10-29 in Mexico, in a doctor-run study of advanced cancer",
+   "same_story_as": null,
+   "source_opened": "https://www.prnewswire.com/news-releases/first-human-administration-of-senolytic-immunotherapy-to-fight-cellular-aging-announced-by-immorta-bio-302926449.html",
+   "note": "All details match: PR Newswire, Miami, 2026-11-02, 08:32 Eastern; Integrative Cancer Centers of America; no results, no registry number, no regulator named; the release says safety and efficacy in people are not established. The dosing itself was on 2026-10-29, before the window; the announcement is inside it. Graded B, not A: a company's own release, one patient, cancer not ageing, no registered trial (my registry search for the names returned nothing, see S1014), and the product is a peptide, not engineered immune cells."
+  },
+  {
+   "id": "S1182",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Alnylam filing of 2026-11-05: board authorised a share buyback of up to $1.0 billion on 2026-11-02; head of commercialisation to leave in December 2026",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000080/alny-20261102.htm",
+   "note": "Confirmed as claimed. The departing executive is Tolga Tanguler; the company announced it on 2026-11-04. Nothing on the drug or its trials. Corporate news only."
+  },
+  {
+   "id": "S1187",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "B",
+   "story": "Sana Biotechnology third-quarter 2026 release, 2026-11-05: SC451 trial start expected as early as this year; 14-month donor-islet result in one person without anti-rejection drugs",
+   "same_story_as": "S1009",
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/1770121/000119312526449791/sana-ex99_1.htm and https://api.crossref.org/works/10.1056/NEJMc2604408",
+   "note": "Release confirmed as claimed. I opened the Crossref record for the letter the readers did not check: 'Long-Term Survival of Hypoimmune Allogeneic Islets without Immunosuppression', New England Journal of Medicine, published 2026-08-20 (record created 2026-07-10). So the 14-month result is real but was published well before the window; only the release restating it is inside. The release's wording on timing is 'as early as 2026' and 'later this year'."
+  },
+  {
+   "id": "S1131",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "B",
+   "story": "Registry entry NCT07918261 first posted 2026-11-05: Steadman Philippon Research Institute's completed fisetin trial in 82 healthy volunteers, two dosing schedules, no placebo, no results posted",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07918261",
+   "note": "Confirmed: phases 1 and 2, randomised, open label, 82 enrolled, ran 2023-05-24 to 2024-01-30, completed, main measure change in aged blood cells at 45 days, first submitted 2026-10-21, first posted 2026-11-05, no results. Two faults in the sixth claim: it dates the entry 2026-11-06 (the registry says 2026-11-05) and says the trial 'will evaluate' fisetin, when it finished in January 2024. That claim also bundles a second story, a registration testing faecal transplants to slow ageing, with no registry number given; I could not check it."
+  },
+  {
+   "id": "S1082",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry entry NCT04264897 (ANTHEM, metformin against placebo for 12 weeks in 166 adults, Oklahoma Medical Research Foundation) updated 2026-11-05; results were first posted 2026-07-02",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT04264897",
+   "note": "Confirmed: completed 2025-03-12, 166 enrolled, results first posted 2026-07-02, last update posted 2026-11-05 (submitted 2026-10-15). P values 0.576 and 0.88 match the registry's first listed analyses of the two main measures. Only the update is inside the window; the results, which are the substance (no clear difference on either main measure), were posted four months earlier. What the update changed was not checked."
+  },
+  {
+   "id": "S1093",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "C",
+   "story": "Journal of the American Heart Association, 2026-11-04 (Mitchell and colleagues): in United States claims for 7,509 people, median 5.2 years from first sign to diagnosis of transthyretin amyloid heart disease",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.1161/jaha.125.048942",
+   "note": "Confirmed: 7,509 patients, mean age 75.9, median 5.2 years. About diagnosis, not about a treatment; the last sentence of the claim (late diagnosis limits who can be on the drug) is the reader's inference, not something I checked in the paper."
+  },
+  {
+   "id": "S1006",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "C",
+   "story": "Nature Reviews Nephrology review, 2026-11-06 (Winkler and colleagues): 'An integrative roadmap for a new era of kidney replacement therapies'",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42995255&resultType=core&format=json",
+   "note": "Confirmed a review; the abstract names transplants from animals and stem cell regeneration among the routes. 'Longer-term' is the reader's wording; the abstract summary I read says they come with problems of safety, fairness and scale. No new result."
+  },
+  {
+   "id": "S1086",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "medRxiv preprint, 2026-11-03 (Charpignon and colleagues): metformin against sulfonylureas in the All of Us database, set up to imitate a trial; death hazard ratio 0.61, dementia 0.90",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.64898/2026.11.02.26367055",
+   "note": "Confirmed. One detail to tighten: the 0.61 (0.49 to 0.75) is for death without dementia, not death overall. Dementia 0.90 (0.82 to 1.02), not statistically clear, as claimed. The comparison class is sulfonylureas. Not peer reviewed, observational, and in people with diabetes."
+  },
+  {
+   "id": "S1146",
+   "real": "unverified",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Vertex quarterly report filed 2026-11-03 repeating its decision to put VX-017 ahead of zimislecel (stem cell-derived islet cells for type 1 diabetes)",
+   "same_story_as": "S1053",
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000291/vrtx-20260930.htm (came back cut off) and https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000875320&type=10-Q&dateb=&owner=include&count=5",
+   "note": "The filing exists and was filed 2026-11-03 (the regulator's filing list confirms the date and number). But the text I received stops in the financial notes, before any mention of the diabetes programme, so I could not confirm that it repeats the decision in the same words, that zimislecel appears only once, or that the diabetes section now describes only VX-017. The decision itself is confirmed from the release (S1053). Graded C as a repeat; the news is S1053."
+  },
+  {
+   "id": "S1019",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "C",
+   "story": "Clinical Research in Cardiology, 2026-11-02 (Morbach and colleagues): early routine use of acoramidis in Germany, 289 people from April to September 2025",
+   "same_story_as": null,
+   "source_opened": "https://api.crossref.org/works/10.1007/s00392-026-03023-0 and the Europe PMC record found by DOI (https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1007/s00392-026-03023-0&resultType=core&format=json)",
+   "note": "Confirmed: 289 adults, April to September 2025, median age 82, 86 per cent new to treatment, database covering 82 per cent of reimbursed prescriptions. The European approval date of February 2025 in one claim was not checked. A small uptake count for one drug in one country."
+  },
+  {
+   "id": "S1184",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry entry NCT04339764 (National Eye Institute, retinal cells from a person's own stem cells for age-related macular degeneration) updated 2026-11-05",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT04339764",
+   "note": "Confirmed: recruiting, 20 people estimated, main completion estimated 2029-05-31, last update posted 2026-11-05 (submitted 2026-11-04). First posted in 2020. What the update changed was not checked. A routine registry edit."
+  },
+  {
+   "id": "S1010",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "C",
+   "story": "Preprints.org, 2026-11-04 (De Avila and colleagues): 'The Translational Path of Mitochondrial Transplantation for Pulmonary Fibrosis', a review-style preprint",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.20944/preprints202611.0414.v1&resultType=core&format=json",
+   "note": "Confirmed, including the quoted phrase that evidence is 'largely limited to in vitro and animal studies'. The abstract does not use the word review, but it surveys the experimental methods in the field and reports no patient result. Not peer reviewed."
+  },
+  {
+   "id": "S1155",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "C",
+   "story": "Two urolithin A registry changes on 2026-11-09: NCT07925853 (Amazentis, absorption of two formulations, 24 people) first posted; NCT06274749 (National Institute on Aging, glucose handling in 180 people aged 55 and over) updated",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT06274749 and https://clinicaltrials.gov/api/v2/studies/NCT07925853",
+   "note": "Bundles two different registry entries. NCT06274749: recruiting, 180 estimated, estimated start 2026-11-12, main completion 2027-03-31, main measure insulin release after a sugar drink, last update posted 2026-11-09 (first posted 2024-02-23). NCT07925853: 'Bioavailability of Two Mitopure Formulations', Amazentis, 24 healthy adults, not yet recruiting, first submitted 2026-11-04, first posted 2026-11-09. All details match. Neither measures muscle or function; the new one is a study of blood levels only."
+  },
+  {
+   "id": "S1050",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry entry NCT06944522 (BlueRock Therapeutics, late-stage trial of bemdaneprocel cell therapy in Parkinson's disease) updated 2026-11-02; main results estimated October 2028",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT06944522",
+   "note": "Confirmed: phase 3, recruiting, 102 planned, against sham surgery, started 2025-06-17, main completion estimated 2028-10, last update posted 2026-11-02 (submitted 2026-10-30). I could not tell whether the October 2028 date was changed in this update or was already there, so this is graded as a routine edit. The readers' point that the site's own record says 2027 is about the record, which I did not open; if the date did move in this update it would deserve a B."
+  },
+  {
+   "id": "S1053",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "A",
+   "story": "Vertex third-quarter 2026 results, 2026-11-02: company puts its newer islet-cell therapy VX-017 ahead of zimislecel, expects late-stage development of VX-017 in 2027",
+   "same_story_as": null,
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000287/ex-991_q32026.htm and its folder listing https://www.sec.gov/Archives/edgar/data/875320/000087532026000287/ (dated 2026-11-02)",
+   "note": "Confirmed from the filed release: the decision to focus on VX-017 because it can reach more patients than zimislecel (blood types A or A/B only), the phase 1/2 trial enrolling, Fast Track designation, and pivotal development expected in 2027. I read the quoted sentence in parts, not as one unbroken quote, and the parts match. The release page carries no date of its own; the filing folder and news reports give 2026-11-02. The comparison with the second-quarter release of 2026-08-03 was not checked. A company moving a treatment down its order of priority, which changes what to expect for zimislecel."
+  },
+  {
+   "id": "S1042",
+   "real": "yes",
+   "actual_date": "2026-01-05",
+   "in_window": false,
+   "grade": "C",
+   "story": "Null check on 2026-11-09 of three mitochondrial transplant registry entries (NCT04998357, NCT02851758, NCT04976140): none changed in the week",
+   "same_story_as": null,
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT04998357,NCT02851758,NCT04976140&fields=NCTId,BriefTitle,LeadSponsorName,OverallStatus,EnrollmentCount,PrimaryCompletionDate,LastUpdatePostDate,HasResults",
+   "note": "Every detail matches: NCT04998357 recruiting, last updated 2025-05-21, main completion estimated 2026-04-29, 20 planned, no results; NCT02851758 recruiting, last updated 2026-01-05, main completion June 2027, 16 planned; NCT04976140 completed, last updated 2024-04-03, no results. Nothing happened in the window; the date given is the most recent change to any of the three. One thing a reader might note: the stroke trial's estimated completion date (2026-04-29) has passed with the entry still marked recruiting and not updated since May 2025."
+  },
+  {
+   "id": "S1175",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "B",
+   "story": "Cell, 2026-11-02 (Kuehnemann and colleagues): the fatty acid DGLA pushes aged cells into a form of cell death; by mouth it lowered markers of aged cells in old mice",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42971201&resultType=core&format=json",
+   "note": "Confirmed from the abstract: aged cells are low in DGLA, restoring it triggers cell death, feeding it to old mice lowered markers and improved function, no lifespan result. One detail differs from the second claim: the human finding is that obese people with lower rates of converting DGLA had fewer markers of aged cells in fat tissue, which is a link seen in tissue, not a test of the treatment. An animal result in a leading journal."
+  },
+  {
+   "id": "S1127",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "B",
+   "story": "Nature Aging, 2026-11-06 (Wu and colleagues): vanadyl sulfate, a mineral supplement, kills aged cells and by mouth extends lifespan in male mice",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42995257&resultType=core&format=json",
+   "note": "Confirmed from the abstract: a research article, the supplement by mouth eases signs of ageing and extends lifespan in male mice, working through how aged cells handle protein chemistry (the reactivity of one amino acid and protein folding). Mice only, one sex. The size of the lifespan gain is not in the abstract and I did not read the full paper."
+  },
+  {
+   "id": "S1047",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Biofabrication, 2026-11-03 (Odbratt and colleagues): laboratory work on 3D-printed urethral grafts seeded with human cells",
+   "same_story_as": null,
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1088/1758-5090/aeb763&resultType=core&format=json",
+   "note": "Confirmed: bench work on a printing set-up and material, with strength and cell-survival tests; human cells used, no patients. Only loosely related to a lab-grown organ working in a person."
+  },
+  {
+   "id": "S1080",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Pfizer quarterly report for the quarter ended 2026-09-27, filed 2026-11-03: tafamidis family revenue $1,773 million for the quarter",
+   "same_story_as": "S1133",
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/pfe-20260927.htm (came back cut off before the revenue tables) and the same day's release https://www.sec.gov/Archives/edgar/data/78003/000007800326000125/pfe-9272026xex99.htm",
+   "note": "The quarterly report is real and covers the quarter ended 2026-09-27, but the text I received stops in the financial notes. The quarter's figures (1,773 against 1,591; United States 1,086; elsewhere 687) and the growth reasons are confirmed from the release filed the same day. Not confirmed by me: the nine-month figure of $5,136 million, the mention of net price erosion from new payer contracts, and the filing date of the report itself (taken from the release date and the filing number that follows it)."
+  }
+ ]
+}

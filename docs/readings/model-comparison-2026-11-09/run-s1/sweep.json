@@ -1,0 +1,234 @@
+{
+ "stories": [
+  {
+   "date": "2026-11-09",
+   "what": "Fight Aging! reports that six blood-protein age clocks all read a lower biological age in people treated with the experimental lung-scarring drug rentosertib in a 12-week phase 2a trial. The clocks cannot separate an effect on ageing from an effect on the disease itself.",
+   "url": "https://www.fightaging.org/archives/2026/11/anti-fibrotic-drug-rentosertib-reduces-proteomic-clock-age-in-humans/",
+   "opened": true,
+   "source_kind": "field press (paper in Nature Biotechnology, first published online 2026-09-07 per Europe PMC)",
+   "direction": "for",
+   "matches_record": "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial",
+   "in_records_already": "possible (record exists for a clock slowing in a controlled trial; this is a drug-specific analysis of a published trial)",
+   "importance": 3,
+   "why": "A drug developed for a disease, not for ageing, moves ageing clocks in a human trial; the post is dated in the window but the paper itself appeared in September."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "Nature published a paper on a single infusion of a base editor that switches off the ANGPTL3 gene in the liver for lasting cuts in LDL cholesterol and triglycerides. CRISPR Therapeutics had a late-breaking heart-meeting talk scheduled for 2026-11-09 on its related drug CTX310 (the talk itself was not opened).",
+   "url": "https://doi.org/10.1038/s41586-026-11233-9",
+   "opened": true,
+   "source_kind": "journal (Europe PMC listing and abstract)",
+   "direction": "for",
+   "matches_record": "a-gene-is-edited-inside-a-persons-body",
+   "in_records_already": "record exists; this adds a new peer-reviewed paper",
+   "importance": 2,
+   "why": "A one-time gene edit inside the body for a heart-disease risk factor, now in a top journal."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "A randomised placebo-controlled trial from the University of Surrey (around age 60) found the supplement NOVOS Core improved blood-vessel function and systolic blood pressure, with blood fats unchanged. The company supplied the product and helped fund it, and the paper is in European Heart Journal Open.",
+   "url": "https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/",
+   "opened": true,
+   "source_kind": "field press",
+   "direction": "for",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A controlled human trial of a product sold for longevity, though industry-funded and measuring a vessel marker, not lifespan."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "Nature Aging reports vanadyl sulfate, a mineral supplement, clears senescent (worn-out) cells and extends lifespan in male mice and eases several age-related disorders. It works by changing how senescent cells handle damaged proteins.",
+   "url": "https://doi.org/10.1038/s43587-026-01253-5",
+   "opened": true,
+   "source_kind": "journal (Europe PMC)",
+   "direction": "for",
+   "matches_record": "clearing-aged-cells-makes-old-animals-live-longer",
+   "in_records_already": "record exists; adds a new compound",
+   "importance": 1,
+   "why": "New animal evidence that clearing senescent cells helps; no human data."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "At the American Heart Association meeting and in the New England Journal of Medicine, Novartis and Ionis reported that pelacarsen cut lipoprotein(a) sharply but gave no reduction in heart attacks and strokes in about 8,300 people followed for seven years. Analysts now rate rival drugs aimed at the same target as less likely to succeed.",
+   "url": "https://www.biospace.com/drug-development/details-from-novartis-failed-cardiovascular-trial-offer-little-silver-lining-for-rivals",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "against",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A large heart-disease outcome trial failing despite a big change in the target blood marker is a caution about marker-based reasoning."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "At the heart meeting, Novo presented follow-up from its ZEUS trial of ziltivekimab, an inflammation-blocking antibody, which missed its main goal of fewer major heart events earlier this year. Investigators argued a sicker-than-expected group may have hidden a benefit and support testing it in less sick patients.",
+   "url": "https://www.biospace.com/drug-development/novos-troubled-cardio-drug-could-find-niche-in-less-sick-patients",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "against",
+   "matches_record": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+   "in_records_already": "record exists on a different drug (approval of an anti-inflammatory for heart attacks); this is a failure of another drug in the class",
+   "importance": 2,
+   "why": "Tests whether lowering inflammation prevents heart events, which is central to treating ageing-related disease."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "Bayer won United States approval for Sunharbo (asundexian), a stroke-prevention drug, according to Endpoints News.",
+   "url": "https://endpoints.news/bayer-wins-fda-approval-for-stroke-prevention-drug-sunharbo/",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "for",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "A new approved drug for a major age-related event; only the headline and date were checked, not the full text."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "Eli Lilly said its oral weight-loss pill Foundayo (orforglipron) met its main goal in a 52-week phase 3 sleep-apnoea trial of about 712 people, cutting breathing interruptions by up to 44%, and plans to file for approval.",
+   "url": "https://www.biospace.com/drug-development/lilly-to-seek-second-sleep-apnea-approval-after-foundayo-reduces-disease-severity-in-phase-3",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "for",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Widening uses of weight-loss drugs; peripheral to ageing treatments."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "Boehringer Ingelheim and Zealand said survodutide, a weight-loss injection, was not worse than placebo for heart death in a large phase 3 safety trial, clearing the way for filings. Analysts expect use mainly in people with liver risk factors.",
+   "url": "https://www.biospace.com/drug-development/boehringer-zealands-obesity-drug-doesnt-elevate-heart-risk-in-key-late-stage-test",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "neutral",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Safety result for a weight-loss drug class."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "The FDA ordered all GLP-1 weight-loss and diabetes drugs to carry a label warning of a possible risk of a rare eye disease.",
+   "url": "https://www.biospace.com/fda/fda-orders-class-wide-glp-1-label-update-to-include-potential-risk-for-rare-eye-disease",
+   "opened": true,
+   "source_kind": "trade press (regulator action)",
+   "direction": "against",
+   "matches_record": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+   "in_records_already": "record exists on the approval; this is a new safety label on the class",
+   "importance": 2,
+   "why": "A safety warning on the drug class most often discussed as a possible ageing treatment."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Fight Aging! summarises a study in which circular RNA carrying the Yamanaka reprogramming factors partly resets cells without making them fully pluripotent, shown in cell culture.",
+   "url": "https://www.fightaging.org/archives/2026/11/circular-rna-encoding-yamanaka-factors-enables-partial-reprogramming-without-pluripotency/",
+   "opened": true,
+   "source_kind": "field press",
+   "direction": "for",
+   "matches_record": "partially-resetting-cells-reverses-ageing-in-an-animal",
+   "in_records_already": "record exists on animals; this is a cell-culture delivery method",
+   "importance": 1,
+   "why": "A delivery route for partial reprogramming that avoids permanent DNA changes; early lab work."
+  },
+  {
+   "date": "2026-11-07",
+   "what": "The FDA opened an investigation into Novartis gene therapy Zolgensma after nine reported cases of tumours in treated patients.",
+   "url": "https://endpoints.news/fda-launches-investigation-of-novartis-zolgensma-after-cancer-cases/",
+   "opened": true,
+   "source_kind": "trade press (regulator action)",
+   "direction": "against",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Safety signal for gene therapy generally; Zolgensma is for a childhood disease, not ageing."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "BioSpace previews a crowded FDA November, with decisions due on Summit and Akeso lung-cancer antibody ivonescimab, Capricor Duchenne cell therapy and Vertex kidney drug, among others.",
+   "url": "https://www.biospace.com/fda/verdicts-for-summit-akeso-capricor-vertex-mark-fdas-stacked-november",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "neutral",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Calendar of upcoming decisions; none is an ageing treatment."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Lifespan.io editorial says the field is gaining momentum on regulation and money, citing senior FDA officials naming longevity a priority at the ARDD meeting in Boston (in October) and a Lifespan Research Institute whitepaper on platform designations and surrogate endpoints.",
+   "url": "https://lifespan.io/momentum-on-two-fronts-for-rejuvenation/",
+   "opened": true,
+   "source_kind": "field press (editorial)",
+   "direction": "for",
+   "matches_record": "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked",
+   "in_records_already": "related; no regulator has accepted such a marker yet",
+   "importance": 2,
+   "why": "Dated in the window, but the underlying FDA remarks came in October and no rule changed."
+  }
+ ],
+ "sources_read": [
+  {
+   "source": "Europe PMC (main journals, date filtered)",
+   "how": "REST query with FIRST_PDATE 2026-11-02 to 2026-11-09, journal and trial-term filters; 17 and 14 hits read",
+   "reached": true
+  },
+  {
+   "source": "ClinicalTrials.gov v2",
+   "how": "StudyFirstPostDate, ResultsFirstPostDate and LastUpdatePostDate ranges; nothing newsworthy (fisetin senescence trial NCT07918261 and fecal transplant biological-age trial NCT07912164 noted, not opened in detail)",
+   "reached": true
+  },
+  {
+   "source": "Fight Aging!",
+   "how": "home page and 15 November posts, dates checked",
+   "reached": true
+  },
+  {
+   "source": "lifespan.io news",
+   "how": "listing and 14 stories, dates checked",
+   "reached": true
+  },
+  {
+   "source": "BioSpace",
+   "how": "home page and 12 stories, dates checked",
+   "reached": true
+  },
+  {
+   "source": "Endpoints News",
+   "how": "home page and 8 stories, dates checked",
+   "reached": true
+  },
+  {
+   "source": "FDA press announcements",
+   "how": "listing fetched but the page carried no story list",
+   "reached": false
+  },
+  {
+   "source": "European Medicines Agency news",
+   "how": "listing fetched; only committee highlights, none about ageing, no oral GLP-1 date checked",
+   "reached": true
+  },
+  {
+   "source": "Longevity.Technology",
+   "how": "direct fetch returned 502; only search snippets",
+   "reached": false
+  },
+  {
+   "source": "STAT, Fierce Biotech",
+   "how": "fetch refused (403)",
+   "reached": false
+  },
+  {
+   "source": "Company releases (GlobeNewswire, Business Wire, PR Newswire, SEC)",
+   "how": "web search only; returned nothing dated in the window",
+   "reached": false
+  },
+  {
+   "source": "AHA Scientific Sessions 6-9 Nov",
+   "how": "via BioSpace, Endpoints and Europe PMC; the CRISPR Therapeutics talk page was not read",
+   "reached": true
+  }
+ ]
+}

@@ -1,0 +1,777 @@
+{
+ "records": [
+  {
+   "id": "a-cells-settings-are-rewritten-at-one-gene-in-a-person",
+   "verdict": "flagged",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 meets or moves the test: the hepatitis B trial's registry entry (NCT06671093) is unchanged since 2026-01-06 with no posted results, and no peer-reviewed report of it appeared. The entry lacks three older facts: the same kind of tool is now in registered human trials aimed at a person's own genes, including the cholesterol gene PCSK9 (the STX-1150 trial, registry entry NCT07428473, started 2026-06-30), a muscle-disease gene (the EPI-321 trial, NCT06907875, with a company release of 2026-06-26 on six-month results) and a second hepatitis B trial (CRMA-1001, NCT07200193). The description's line that the human trial is aimed at a virus 'rather than an ageing gene' is therefore out of date as a picture of the field.",
+   "findings": [
+    {
+     "date": "2026-01-06",
+     "what": "Registry entry for the Tune-401 hepatitis B trial (NCT06671093) read on 2026-11-09: recruiting, last updated 2026-01-06, study start 2024-11-29, sites in Hong Kong, Moldova and New Zealand, 36 people estimated, no results posted. Matches the record; no change in the window.",
+     "url": "https://clinicaltrials.gov/study/NCT06671093",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-02-23",
+     "what": "Registry entry NCT07428473 (first posted 2026-02-23, last updated 2026-09-21): a phase 1 trial in Australia and New Zealand of STX-1150, described in the entry as designed to silence the PCSK9 gene without changing the DNA sequence, in up to 64 people with raised LDL cholesterol; sponsor listed as Monash University; study start 2026-06-30 (marked actual); recruiting; no results. This is the same gene as the 2024 mouse paper the record rests on, now being tried in people.",
+     "url": "https://clinicaltrials.gov/study/NCT07428473",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-07-02",
+     "what": "NeurologyLive report of 2026-07-02 on a company release of 2026-06-26 (Epicrispr Biotechnologies): in the first-in-human trial of the epigenetic editing therapy EPI-321 for a muscular dystrophy (NCT06907875), nine people treated by 2026-05-12; the first three evaluable people showed a gain in lean muscle volume at six months and a fall in a blood marker meant to reflect the target gene's pathway. A company announcement, not peer-reviewed; the gene's product was not measured directly in muscle, so it does not meet the test.",
+     "url": "https://www.neurologylive.com/view/gene-silencing-therapy-epi-321-shows-early-evidence-increased-muscle-volume-phase-1-2-fshd-study",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-08-19",
+     "what": "Registry entry for the EPI-321 trial (NCT06907875): active, not recruiting; last updated 2026-08-19; study start 2025-05-08; 12 people estimated; sites in Australia, New Zealand and the United States; no results posted.",
+     "url": "https://clinicaltrials.gov/study/NCT06907875",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-06-15",
+     "what": "Registry search result: a second hepatitis B trial of an epigenetic silencer, CRMA-1001 from nChroma Bio (NCT07200193), listed as recruiting, first posted 2025-09-30, last updated 2026-06-15. Seen in the registry's search listing only; the full entry was not opened.",
+     "url": "https://clinicaltrials.gov/study/NCT07200193",
+     "opened": false,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Peer-reviewed paper in Cell Stem Cell (Ye and colleagues, published online 2026-11-05): epigenome editors silenced a platelet gene in human blood-forming stem cells in the laboratory, and the silencing held for four months after the cells were transplanted into mice. Laboratory and animal work, not a person treated; it does not bear on the first-human test.",
+     "url": "https://doi.org/10.1016/j.stem.2026.10.009",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Tune Therapeutics' news page lists an item dated 2026-11-05 saying its editing platform was named gene editing platform of the year in an industry awards scheme; the page lists no new clinical data, publication or phase 2 start since the release of 2026-05-30. Read from the company's news listing; the item itself was not opened.",
+     "url": "https://tunetx.com/news/",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov study NCT06671093 (direct)",
+    "clinicaltrials.gov: (epigenetic editor OR epigenome editing OR epigenetic editing OR Tune-401 OR EPI-321 OR CRISPRoff OR STX-1150 OR epigenetic silencing) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]; same with StudyFirstPostDate (no relevant entry)",
+    "clinicaltrials.gov (undated, to find sister trials): CRMA-1001 OR nChroma OR (epigenetic AND PCSK9) OR (epigenetic AND hepatitis B); studies NCT07428473 and NCT06907875 opened",
+    "Europe PMC: (\"epigenetic editing\" OR \"epigenome editing\" OR \"epigenetic editor\" OR \"epigenome editor\" OR CRISPRoff OR \"epigenetic silencing therapy\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (5 hits)",
+    "Europe PMC: (\"Tune-401\" OR epigenetic AND \"hepatitis B\" AND (silencing OR editor OR editing)) AND FIRST_PDATE window (3 hits, none relevant)",
+    "Release sites (globenewswire, businesswire, prnewswire, sec.gov): epigenetic editing clinical data hepatitis B results November 2026",
+    "Tune Therapeutics Tune-401 November 2026"
+   ],
+   "web_queries": [
+    "epigenetic editor first patient dosed OR clinical results November 2026 nChroma OR Epicrispr OR Chroma Medicine OR Scribe",
+    "AASLD Liver Meeting 2026 epigenetic silencer hepatitis B data presented",
+    "\"epigenetic editing\" OR \"epigenetic silencing\" trial peer-reviewed results published patients durable silencing November 2026",
+    "Scribe Therapeutics STX-1150 PCSK9 epigenetic silencer first participant dosed"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06671093",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07428473",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06907875",
+    "https://tunetx.com/news/",
+    "https://www.neurologylive.com/view/gene-silencing-therapy-epi-321-shows-early-evidence-increased-muscle-volume-phase-1-2-fshd-study",
+    "https://europepmc.org/article/MED/42987831"
+   ],
+   "story_score": 1,
+   "story_why": "No event in the week. The older facts are worth a correction to the entry (a human trial now aims this tool at the cholesterol gene from the mouse paper), not a news post. Two pages refused to open (the Business Wire copy of the 2026-06-26 release and Scribe's second-quarter results release), so the dosing dates for those trials rest on the registry alone."
+  },
+  {
+   "id": "a-cocktail-of-ordinary-drugs-resets-cell-age",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on this record: no peer-reviewed report or preprint of a small-molecule mix moving a marker of biological age in a living animal, no registered trial, and no company release of the kind.",
+   "findings": [],
+   "dated_queries": [
+    "clinicaltrials.gov: (partial reprogramming OR OSK OR ER-100 OR Yamanaka OR cellular reprogramming OR epigenetic reprogramming) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]; same with StudyFirstPostDate (one unrelated cancer study)",
+    "Europe PMC: (\"chemical reprogramming\" OR \"chemical rejuvenation\" OR \"rejuvenation cocktail\" OR (\"small molecule\" AND \"partial reprogramming\") OR (RepSox AND tranylcypromine)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (0 hits)",
+    "Europe PMC: rejuvenation or biological age or epigenetic age or transcriptomic age, with small molecule or cocktail or chemical or compound, with reprogramming or mice (title and abstract), FIRST_PDATE window (0 hits)",
+    "Europe PMC: reprogramming with rejuvenation, age reversal, aged mice or old mice (title and abstract), FIRST_PDATE window (1 hit, unrelated)",
+    "Release sites (globenewswire, businesswire, prnewswire, sec.gov): small molecule rejuvenation OR \"chemical reprogramming\" OR \"epigenetic rejuvenation\" preclinical results OR first patient dosed November 2026"
+   ],
+   "web_queries": [
+    "chemical reprogramming small molecule cocktail rejuvenation mice epigenetic clock study published November 2026",
+    "partial reprogramming rejuvenation news this week November 2026 NewLimit OR \"Retro Biosciences\" OR \"Altos Labs\" OR \"Turn Biotechnologies\" OR \"Junevity\" OR \"clock.bio\""
+   ],
+   "pages_opened": [
+    "https://www.fightaging.org/archives/2026/11/",
+    "https://www.lifespan.io/news/"
+   ],
+   "story_score": 0,
+   "story_why": "No event in the week."
+  },
+  {
+   "id": "a-person-receives-cell-resetting-genes-in-a-trial",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on this record. The trial's registry entry (NCT07290244) still reads recruiting, last updated 2026-05-19, with no results posted, and the company's news page shows nothing after its release of 2026-10-08, which the records already hold.",
+   "findings": [
+    {
+     "date": "2026-05-19",
+     "what": "Registry entry NCT07290244 read on 2026-11-09: recruiting, study start 2026-03-02, 18 people estimated, primary completion estimated 2027-05, last updated 2026-05-19, no results posted. Agrees with the record.",
+     "url": "https://clinicaltrials.gov/study/NCT07290244",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-10-08",
+     "what": "Life Biosciences' news page read on 2026-11-09: the newest release is the interim-results release of 2026-10-08; no release is dated November 2026.",
+     "url": "https://www.lifebiosciences.com/news/",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-11-05",
+     "what": "An editorial on lifespan.io dated 2026-11-05 recaps the 2026-10-08 interim results and reports no new trial event.",
+     "url": "https://lifespan.io/momentum-on-two-fronts-for-rejuvenation/",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov study NCT07290244 (direct)",
+    "clinicaltrials.gov: (partial reprogramming OR OSK OR ER-100 OR Yamanaka OR cellular reprogramming OR epigenetic reprogramming) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]; same with StudyFirstPostDate (no relevant entry)",
+    "Europe PMC: (\"partial reprogramming\" OR \"Yamanaka factors\" OR \"cellular rejuvenation\" OR \"OSK\" OR \"OSKM\" OR \"reprogramming-induced rejuvenation\" OR \"ER-100\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (3 hits, none on a person treated)",
+    "Europe PMC: glaucoma or optic neuropathy with reprogramming or gene therapy and OSK, epigenetic, rejuvenation or Yamanaka, FIRST_PDATE window (0 hits)",
+    "Release sites: partial epigenetic reprogramming gene therapy first patient dosed OR interim results November 2026",
+    "Release sites: Life Biosciences OR \"Turn Biotechnologies\" OR NewLimit OR \"Retro Biosciences\" OR \"YouthBio\" OR \"Rejuve\" reprogramming announcement November 2026"
+   ],
+   "web_queries": [
+    "Life Biosciences ER-100 November 2026",
+    "ER-100 glaucoma NAION trial second dose cohort update OR results lifespan.io OR longevity.technology November 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244",
+    "https://www.lifebiosciences.com/news/",
+    "https://lifespan.io/momentum-on-two-fronts-for-rejuvenation/"
+   ],
+   "story_score": 0,
+   "story_why": "No new dose, result, hold or approval in the week."
+  },
+  {
+   "id": "a-persons-biological-age-reading-falls-after-treatment",
+   "verdict": "noted",
+   "found": "No peer-reviewed report dated 2026-11-02 to 2026-11-09 shows a clock reading falling after a treatment, and the follow-up trial TRIIM-X (NCT04375657) is unchanged on the registry since 2025-05-07, still 'recruiting' with a completion date of 2025-12 that has passed and no results. One thing in the window bears on the test without meeting it: a placebo-controlled trial first posted on 2026-11-03 (NCT07912164) makes a fall of at least 5 per cent on a named DNA-marks clock (DunedinPACE) one of the two ways a participant counts as a responder on its main measure.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Registry entry NCT07912164, first posted 2026-11-03: a randomised, placebo-controlled, quadruple-masked trial by the company Human Biome S.A. of gut-microbe transplant capsules in an estimated 68 adults aged 45 to 80, not yet recruiting, start estimated 2026-12, primary completion estimated 2027-12. Its main measure is a responder rate, where a responder has either a fall of at least 5 per cent on the DunedinPACE pace-of-ageing clock or a fall of at least 25 per cent in an inflammation marker. A registration only; no result.",
+     "url": "https://clinicaltrials.gov/study/NCT07912164",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Registry entry NCT07906041, first posted 2026-10-30 and updated 2026-11-02: a phase 2, randomised, unmasked trial of tirzepatide in an estimated 22 people, sponsored by the Atria Research and Global Health Institute, whose main measure is the change in a brain-age reading taken from blood proteins at six months. The clock is read from proteins, not from the marks on DNA, so it sits beside this entry's test and not inside it.",
+     "url": "https://clinicaltrials.gov/study/NCT07906041",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2025-05-07",
+     "what": "Registry entry for TRIIM-X (NCT04375657) read on 2026-11-09: recruiting, status last verified 2025-05, last updated 2025-05-07, primary completion 2025-12, 85 people estimated, no results posted. Same as the record's reading of 2026-10-17.",
+     "url": "https://clinicaltrials.gov/study/NCT04375657",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-09-07",
+     "what": "A Nature Biotechnology paper applying six blood-protein clocks to a 12-week trial of the drug rentosertib was covered by Fight Aging! on 2026-11-09; the paper itself is dated 2026-09-07 and is already in the records' publications log.",
+     "url": "https://doi.org/10.1038/s41587-026-03286-y",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-10-01",
+     "what": "Peer-reviewed paper in Aging Cell (Borrus and colleagues, 2026-10-01), outside the window and not in the records: when earlier single-clock treatment studies were re-run with more clocks, no further clock reached significance; the authors propose three checks before a clock result is trusted (reliable clocks respond, mortality-trained or pace clocks respond, several clocks move the same way) and say some published single-clock findings may need re-examining. It bears on what 'a validated clock' should mean in this entry's test; the 2019 trial reported four clocks moving together.",
+     "url": "https://doi.org/10.1111/acel.70756",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov study NCT04375657 (direct)",
+    "clinicaltrials.gov: (epigenetic clock OR epigenetic age OR biological age OR DNA methylation age OR GrimAge OR DunedinPACE) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]; same with StudyFirstPostDate (about 40 entries each, read by title; NCT07912164 and NCT07906041 opened)",
+    "Europe PMC: epigenetic age, epigenetic clock, biological age, DunedinPACE or GrimAge with randomised, trial, intervention or treatment (title and abstract), FIRST_PDATE:[2026-11-02 TO 2026-11-09] (8 hits: reviews, observational studies and preprints, none a treatment trial reading a DNA clock)",
+    "Europe PMC: the same clock terms in titles, plus \"thymus regeneration\" OR \"TRIIM\", FIRST_PDATE window (14 hits, all observational or methods)",
+    "Release sites (globenewswire, businesswire, prnewswire, sec.gov): epigenetic age OR \"biological age\" reduced clinical trial results randomized November 2026",
+    "Intervene Immune TRIIM-X results thymus regeneration epigenetic age 2026"
+   ],
+   "web_queries": [
+    "epigenetic clock reversal randomized controlled trial published \"November 2026\" DNA methylation age decreased treatment",
+    "Intervene Immune TRIIM-X results thymus regeneration epigenetic age 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04375657",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07912164",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07906041",
+    "https://www.fightaging.org/archives/2026/11/",
+    "https://europepmc.org/article/MED/42706338",
+    "https://europepmc.org/article/MED/42850743",
+    "https://lifespan.io/rejuvenation-roundup-october-2026/"
+   ],
+   "story_score": 1,
+   "story_why": "A new controlled trial that names a DNA-marks clock in its main measure is a small sign of clocks moving into trial design, but it is a registration with no result."
+  },
+  {
+   "id": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+   "verdict": "noted",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 gives an uptake figure or otherwise meets the wide-use test. In the window, a Singapore expert group published rules for using lecanemab there (2026-11-04), a German journal article (2026-11-06) set out why Germany's benefit assessors recognised no added benefit for the second antibody, donanemab, and a hospital group in China registered a look-back study of about 3,000 treated patients (2026-11-06). Just outside the window, and not in the records: Eisai's release of 2026-10-28 puts lecanemab revenue for April to September 2026 at 61.5 billion yen, about half as much again as a year earlier, and its partner's release of 2026-10-30 says the drug is approved in 53 countries, with new five-year and real-world-use data due at a conference on 2026-11-16 to 2026-11-19.",
+   "findings": [
+    {
+     "date": "2026-11-04",
+     "what": "Peer-reviewed recommendations in the Annals of the Academy of Medicine, Singapore (Chen and colleagues, 2026-11-04): lecanemab is approved in Singapore and a local expert group sets out who should receive it and how they should be monitored, with a call for a national registry. Shows the drug entering practice in another country; gives no count of people treated.",
+     "url": "https://doi.org/10.47102/annals-acadmedsg.2026185",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-06",
+     "what": "Journal article in Fortschritte der Neurologie-Psychiatrie (Zschocke and colleagues, 2026-11-06; abstract read): donanemab has been available in Germany since 2025, and the national added-benefit assessment (by the Federal Joint Committee and its institute) recognised no added benefit in either stage of early Alzheimer's disease, which bears on its price there. The article argues the trial evidence is consistent with the approval; the assessment itself predates the window and its date was not checked on the regulator's page.",
+     "url": "https://doi.org/10.1055/a-2989-2517",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-06",
+     "what": "Registry entry NCT07923812, first posted 2026-11-06: Fudan University's multi-centre look-back study of the safety and effectiveness of disease-modifying Alzheimer's treatment in routine care in China, aiming at 3,000 patients, started 2026-10-26. A sign of the scale of routine use in China; a registration, not a result.",
+     "url": "https://clinicaltrials.gov/study/NCT07923812",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-06",
+     "what": "Registry entry NCT07717411, updated 2026-11-06: Roche's phase 3 trial of its next-generation amyloid antibody trontinemab in an estimated 1,600 people with amyloid but no symptoms is recruiting, with a study start of 2026-10-02 (marked actual) and primary completion estimated 2032-07. Bears on the estimate's 'next generation of antibodies' line; no result.",
+     "url": "https://clinicaltrials.gov/study/NCT07717411",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "Registry entries for two Lilly studies of donanemab were updated in the window with no change of substance: a phase 2 trial in early cognitive decline (NCT07589595, updated 2026-11-04, recruiting, 350 people) and a real-world comparison in 6,250 people in the United States (NCT06566170, updated 2026-11-03, recruiting, completion 2031).",
+     "url": "https://clinicaltrials.gov/study/NCT06566170",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-28",
+     "what": "Eisai release of 2026-10-28, preliminary revenue of lecanemab for 2026-04-01 to 2026-09-30: 61.5 billion yen worldwide against 41.1 billion a year earlier; United States 32.5 billion, Japan 13.0 billion, China 9.7 billion. No count of people treated. Full half-year results were scheduled for 2026-11-10, the day after the window.",
+     "url": "https://www.eisai.com/news/2026/news202659.html",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-30",
+     "what": "BioArctic release of 2026-10-30 (Eisai's partner): lecanemab is approved in 53 countries and under review in 6; the under-the-skin starting dose was approved in China and Japan in September 2026; at the Clinical Trials on Alzheimer's Disease conference in Boston, 2026-11-16 to 2026-11-19, Eisai will present five-year results from the main trial's extension and a real-world study of use three years after approval (2026-11-18). No sales or patient count.",
+     "url": "https://www.prnewswire.com/news-releases/new-clinical-data-on-lecanemab-to-be-presented-at-ctad-conference-2026-302924703.html",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-28",
+     "what": "Biogen filed its third-quarter 2026 results with the United States securities regulator on 2026-10-28 (the filing's cover page was opened; the release exhibit was not). Search summaries of press coverage give worldwide lecanemab sales of about $202 million for the quarter, $107 million of it in the United States; not read on the page.",
+     "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000094/biib-20261028.htm",
+     "opened": false,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-29",
+     "what": "Search summary only: Lilly's third-quarter 2026 results (filed 2026-10-29) are reported to give donanemab revenue of $193 million for the quarter, up from about $70 million a year earlier. The company's page refused to open.",
+     "url": "https://investor.lilly.com/node/55191",
+     "opened": false,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (lecanemab OR donanemab OR remternetug OR trontinemab OR gantenerumab OR anti-amyloid) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]; same with StudyFirstPostDate (13 and 1 entries; six opened)",
+    "Europe PMC: lecanemab, donanemab, anti-amyloid, trontinemab, remternetug, amyloid-related imaging abnormalities, gantenerumab, aducanumab in titles, FIRST_PDATE:[2026-11-02 TO 2026-11-09] (4 hits, abstracts read)",
+    "Europe PMC: lecanemab OR donanemab OR trontinemab OR remternetug in abstracts, FIRST_PDATE window (3 hits)",
+    "Release sites (globenewswire, businesswire, prnewswire, sec.gov): lecanemab OR donanemab OR \"anti-amyloid\" results OR approval OR sales Leqembi Kisunla November 2026",
+    "sec.gov filing lists for Biogen and Eli Lilly, filings from 2026-10-20 (results filed 2026-10-28 and 2026-10-29; nothing in the window)",
+    "Eisai Biogen Leqembi November 2026 announcement; Eisai news index read for 2026-10-25 to 2026-11-09"
+   ],
+   "web_queries": [
+    "Eli Lilly Kisunla donanemab OR remternetug news first week of November 2026",
+    "Alzheimer's amyloid antibody uptake number of patients treated Medicare coverage registry NICE decision November 2026",
+    "Eisai second quarter fiscal 2026 financial results Leqembi revenue November 2026",
+    "Biogen third quarter 2026 results Leqembi sales in-market patients",
+    "Lilly third quarter 2026 results Kisunla revenue"
+   ],
+   "pages_opened": [
+    "https://europepmc.org/article/MED/42995156",
+    "https://europepmc.org/article/MED/42994417",
+    "https://europepmc.org/article/MED/42988979",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07923812",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07717411",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07589595",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06566170",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05642429",
+    "https://www.eisai.com/news/index.html",
+    "https://www.eisai.com/news/2026/news202659.html",
+    "https://www.prnewswire.com/news-releases/new-clinical-data-on-lecanemab-to-be-presented-at-ctad-conference-2026-302924703.html",
+    "https://www.sec.gov/Archives/edgar/data/875045/000087504526000094/biib-20261028.htm"
+   ],
+   "story_score": 1,
+   "story_why": "The week itself held only small signs of spread (Singapore, China) and one of resistance (Germany). The larger material sits either side of it: revenue up by half and 53 approving countries in late October, and five-year and real-world-use data due on 2026-11-16 to 2026-11-19, which the next reading should expect. The entry's sales figure (second quarter of 2026) is now one quarter old."
+  },
+  {
+   "id": "drug-boosts-the-cells-recycling-of-worn-parts",
+   "verdict": "flagged",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 meets the test; the window holds only two registry items for urolithin A (a new absorption study and an update to a United States government trial that has not yet started) and a diet-study analysis. The entry lacks an older fact that bears on its estimate: a controlled trial of spermidine in 187 older people with coronary artery disease (NCT06186102, University of Aarhus), whose main measures include heart muscle mass and lean body mass, is listed as completed on 2026-06-29 with no results posted yet. The records do hold, under a claim, that a purpose-built recycling drug (RTR242) entered a first human trial in late 2025, but this entry's notes do not mention it.",
+   "findings": [
+    {
+     "date": "2026-07-01",
+     "what": "Registry entry NCT06186102 (last updated 2026-07-01): 'Polyamine Treatment in Elderly Patients With Coronary Artery Disease', sponsor University of Aarhus, completed, primary completion 2026-06-29 (marked actual), 187 people enrolled; main measures are change in the mass of the heart's main pumping chamber, change in lean limb mass, and change in an inflammation marker. No results posted and no report found. A mid-sized controlled trial of the entry's lead supplement, with function-related measures, is now waiting to report.",
+     "url": "https://clinicaltrials.gov/study/NCT06186102",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Registry entry NCT06274749, updated 2026-11-09: the United States National Institute on Aging's placebo-controlled trial of urolithin A in 180 healthy adults aged 55 and over, main measure insulin release after a glucose drink; listed as recruiting with a start now estimated for 2026-11-12 and completion 2027-03. A blood-sugar measure, not a function; urolithin A is carried by its own entry on the energy branch.",
+     "url": "https://clinicaltrials.gov/study/NCT06274749",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Registry entry NCT07925853, first posted 2026-11-09: the maker of urolithin A (Amazentis) registered a 24-person study comparing how two formulations are absorbed. No bearing on function.",
+     "url": "https://clinicaltrials.gov/study/NCT07925853",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Peer-reviewed analysis in Food & Function (Galkina and colleagues, 2026-11-02) of 104 older adults in a two-year walnut-diet trial: among those on the walnut diet, larger rises in urolithins in urine went with better-preserved thickness of the brain's outer layer on scans. An association inside a diet trial, not a drug given to boost recycling, and not the trial's main measure.",
+     "url": "https://doi.org/10.1039/d6fo02116f",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2025-12-16",
+     "what": "Already in the records under a claim about Retro Biosciences, but not in this entry's notes: the company's recycling drug RTR242 entered a first human safety trial in Australia, with the first participant enrolled on 2025-12-16 by the Australian registry. Not re-opened in this reading.",
+     "url": "https://www.fightaging.org/archives/2026/01/retro-biosciences-starts-a-safety-trial-for-an-autophagy-promoter/",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (spermidine OR urolithin OR autophagy OR mitophagy) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]; same with StudyFirstPostDate (4 and 1 entries; NCT07925853 and NCT06274749 opened)",
+    "clinicaltrials.gov studies NCT06186102 and NCT05421546 (direct, undated, after a search result named them)",
+    "Europe PMC: spermidine OR \"urolithin A\" (title and abstract) OR autophagy in title with randomised or clinical trial and ageing terms, FIRST_PDATE:[2026-11-02 TO 2026-11-09] (6 hits; one abstract opened)",
+    "Release sites (globenewswire, businesswire, prnewswire, sec.gov): spermidine OR \"urolithin A\" OR autophagy randomized trial results older adults announced November 2026"
+   ],
+   "web_queries": [
+    "spermidine supplementation randomized controlled trial results memory OR heart OR muscle published 2026",
+    "autophagy inducer drug phase 2 results age-related November 2026 Amazentis OR Timeline OR \"Vandria\" OR \"Longevity Labs\" OR \"Casma\" OR \"Samsara\""
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06186102",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05421546",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06274749",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07925853",
+    "https://europepmc.org/article/MED/42841852"
+   ],
+   "story_score": 1,
+   "story_why": "No result in the week. The completed spermidine heart trial is the thing to watch: its report, when it comes, is the most likely record to move or fail this entry, and the estimate's 'earliest' year assumes a running trial reports by 2029."
+  },
+  {
+   "id": "drug-breaks-the-sugar-cross-links-that-stiffen-old-tissue",
+   "verdict": "flagged",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on this record: no paper, preprint, trial or company release about a drug meant to break these cross-links. The entry lacks two older peer-reviewed results that count against the class: in 2013, two one-year randomised trials of alagebrium in healthy older people (48 and 62 people) found no change in arterial stiffness, though one found a modest gain in the stiffness of the heart's main chamber. The description names only the 2001 result and the 2011 heart-failure trial.",
+   "findings": [
+    {
+     "date": "2026-11-09",
+     "what": "Registry entry NCT07925437, first posted 2026-11-09: a placebo-controlled study of 90 people by a Slovenian applied-sciences faculty testing whether 16 weeks of a collagen, MSM and vitamin C supplement changes a skin light-reading used as a stand-in for the deposits sugar leaves in skin. A food supplement with no claim to break cross-links; it does not bear on the test.",
+     "url": "https://clinicaltrials.gov/study/NCT07925437",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2013-12-01",
+     "what": "Peer-reviewed randomised trial in Experimental Gerontology (Oudegeest-Sander and colleagues, 2013): 48 healthy people of about 70 given alagebrium or placebo, with or without exercise training, for one year; arterial stiffness, measured by pulse wave speed, did not change in any group, nor did the blood-vessel lining's response. A controlled report on the test's own measure that goes against the 2001 result.",
+     "url": "https://doi.org/10.1016/j.exger.2013.10.009",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2013-10-15",
+     "what": "Peer-reviewed randomised trial in Circulation: Heart Failure (Fujimoto and colleagues, 2013): 62 healthy older people randomised to alagebrium or placebo, with or without exercise, for one year; 57 completed. Alagebrium did not affect heart mass or exercise capacity; the part of the abstract read stops before the result on heart stiffness, which a later summary describes as a modest improvement. Read from the abstract, which was cut short.",
+     "url": "https://doi.org/10.1161/circheartfailure.113.000440",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (alagebrium OR glucosepane OR advanced glycation OR AGE breaker) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]; same with StudyFirstPostDate (4 and 2 entries, none a breaker drug)",
+    "Europe PMC: alagebrium, glucosepane, cross-link breaker, crosslink breaker, AGE breaker, or advanced glycation in title with stiffness, breaker or trial, FIRST_PDATE:[2026-11-02 TO 2026-11-09] (0 hits)",
+    "Release sites (globenewswire, businesswire, prnewswire, sec.gov): advanced glycation end-product breaker OR \"AGE breaker\" OR glucosepane clinical trial OR preclinical results November 2026"
+   ],
+   "web_queries": [
+    "glucosepane cross-link breaker Revel Pharmaceuticals OR alagebrium arterial stiffness 2026 news",
+    "alagebrium OR \"glucosepane\" OR \"crosslink breaker\" arterial stiffness study published November 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07925437",
+    "https://europepmc.org/article/MED/24400341",
+    "https://europepmc.org/article/MED/24130005"
+   ],
+   "story_score": 0,
+   "story_why": "No event in the week. The 2013 trials are a correction for the entry's history of the class, not news."
+  },
+  {
+   "id": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+   "verdict": "bears-on-estimate",
+   "found": "The week's records point towards wider use, which supports the early end of the wide-use range, but none gives the share of eligible patients treated, so the test is not met. Pfizer's results of 2026-11-03 put sales of the tafamidis family at $1,773 million for the quarter, up from $1,591 million, on 'continued market expansion' in the United States; Alnylam's release of 2026-11-09 reports five-year results for the rival drug vutrisiran and says more than 14,000 patients worldwide have been treated with it; and a peer-reviewed four-year follow-up of the same trial appeared in Circulation on 2026-11-03. Against that, the entry lacks an older result that counts the other way: a late-stage trial of another rival, eplontersen, in 1,432 people did not meet its main measure (presented and published 2026-08-28), which weakens the estimate's reasoning that arriving competitors will widen use.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Pfizer's third-quarter 2026 results release, filed with the United States securities regulator on 2026-11-03: revenue of the tafamidis family (sold as Vyndaqel, Vyndamax and Vynmac) was $1,773 million for the quarter against $1,591 million a year earlier (United States $1,086 million, elsewhere $687 million), up 12 per cent before currency effects, which the company puts down mainly to continued market expansion in the United States and more diagnosis abroad. Revenue only; no count of patients or share of those eligible.",
+     "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000125/pfe-9272026xex99.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-09",
+     "what": "Alnylam release of 2026-11-09, data presented at the American Heart Association's Scientific Sessions 2026: five-year follow-up of the HELIOS-B trial of vutrisiran (a drug that stops the liver making the protein), comparing people on it from the start with those who began after the placebo period; the combined risk of death and repeat heart events was 41 per cent lower in all 654 people and 48 per cent lower in the 395 not on tafamidis at the start. The release says the p-values are nominal, names no journal paper, and says more than 14,000 patients worldwide have been treated with the drug.",
+     "url": "https://investors.alnylam.com/press-release?id=65c2d0ab-27cd-42a0-a174-728416129efe",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-03",
+     "what": "Peer-reviewed paper in Circulation (Garcia-Pavia and colleagues, online 2026-11-03): one-year results of the open-label extension of HELIOS-B, through month 48. Of 654 people in the trial, 466 entered the extension; those on vutrisiran throughout had a 37 per cent lower risk of death from any cause than those who started on placebo (hazard ratio 0.63). A peer-reviewed report that a drug of this kind lowers deaths, which the test already counts as met; it adds weight, not a stage.",
+     "url": "https://doi.org/10.1161/circulationaha.126.080735",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Peer-reviewed paper in Clinical Research in Cardiology (Morbach and colleagues, 2026-11-02): early routine use of the second stabiliser, acoramidis, in Germany. A prescription database covering 82 per cent of reimbursed prescriptions found 289 people given it between April and September 2025; median age 82; 86 per cent had not had tafamidis before. A published uptake count for one drug in one country, with no figure for those eligible.",
+     "url": "https://doi.org/10.1007/s00392-026-03023-0",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Intellia's third-quarter 2026 results release (2026-11-05, read in the copy filed with the securities regulator): enrolment in the late-stage trial of its one-dose gene editor nexiguran ziclumeran in the nerve form of the disease was completed in the third quarter, past its target of 60; the heart-disease trial (MAGNITUDE) is still enrolling, with no numbers or data date given; doctors are now given the immune-gene test results for people in both trials. The registry entry for MAGNITUDE (NCT06128629) was updated on 2026-11-04 and still reads recruiting, 1,200 people, primary completion 2027-12.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Alnylam filing of 2026-11-05 with the securities regulator: the board authorised buying back up to $1.0 billion of shares on 2026-11-02, and the company's head of commercialisation will leave in December 2026. Nothing on the drug, its trials or its use.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000080/alny-20261102.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-08-28",
+     "what": "Not in the records: the CARDIO-TTRansform trial of eplontersen (another drug that stops the liver making the protein; Ionis and AstraZeneca) in 1,432 people with the heart disease showed no significant difference from placebo in deaths from heart causes and repeat heart events over up to 140 weeks; presented at the European Society of Cardiology congress and published in the New England Journal of Medicine the same day, as reported by the American College of Cardiology on 2026-08-28. Most participants (57 per cent) were already on a stabiliser, and those were the ones with no clear gain. The journal paper itself was not opened.",
+     "url": "https://www.acc.org/Latest-in-Cardiology/Articles/2026/08/24/12/30/fri-5am-cardio-ttr-esc-2026",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "against",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-29",
+     "what": "BridgeBio's third-quarter 2026 results release (2026-10-29, read in the filed copy): United States revenue of acoramidis was $253.2 million for the quarter, about $145 million more than a year earlier; the drug is approved in the United States, the European Union, Japan, Switzerland, Brazil, the United Kingdom and Australia. No patient count. Outside the window and not in the records.",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001743881/000174388126000033/bbio-20260930xex991.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-06",
+     "what": "Registry updates in the window with no change of substance: the HELIOS-B entry (NCT04153149, updated 2026-11-02, active, results first posted 2025-10-21) and AstraZeneca's eplontersen trial in Chinese patients (NCT06194825, updated 2026-11-06, active, primary completion 2026-05-13, no results posted).",
+     "url": "https://clinicaltrials.gov/study/NCT04153149",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov: (tafamidis OR acoramidis OR vutrisiran OR nucresiran OR eplontersen OR nexiguran OR coramitug OR anselamimab OR ALXN2220 OR transthyretin amyloid cardiomyopathy) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]; same with StudyFirstPostDate (10 and 0 entries; four opened)",
+    "Europe PMC: tafamidis, acoramidis, vutrisiran, eplontersen, nucresiran, nexiguran, coramitug, anselamimab (title and abstract) or the disease name in titles, FIRST_PDATE:[2026-11-02 TO 2026-11-09] (8 hits; three abstracts opened)",
+    "Release sites (globenewswire, businesswire, prnewswire, sec.gov): transthyretin amyloid cardiomyopathy results OR approval OR \"did not meet\" OR discontinued November 2026",
+    "sec.gov filing lists from 2026-10-20 for Alnylam, Intellia and Pfizer (filings of 2026-11-03 and 2026-11-05 opened)",
+    "Alnylam press release index, 2026-10-28 to 2026-11-09 (five releases; the one of 2026-11-09 opened)",
+    "BridgeBio third quarter 2026 results Attruby patient prescriptions",
+    "Pfizer third quarter 2026 results Vyndaqel family revenue tafamidis"
+   ],
+   "web_queries": [
+    "AHA Scientific Sessions 2026 ATTR-CM late-breaking eplontersen CARDIO-TTRansform OR ALXN2220 OR coramitug OR nucresiran results",
+    "Alnylam HELIOS-B AHA 2026 November 9 2026 vutrisiran data press release"
+   ],
+   "pages_opened": [
+    "https://www.sec.gov/Archives/edgar/data/78003/000007800326000125/pfe-9272026xex99.htm",
+    "https://investors.alnylam.com/press-releases",
+    "https://investors.alnylam.com/press-release?id=65c2d0ab-27cd-42a0-a174-728416129efe",
+    "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000080/alny-20261102.htm",
+    "https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/0001743881/000174388126000033/bbio-20260930xex991.htm",
+    "https://www.acc.org/Latest-in-Cardiology/Articles/2026/08/24/12/30/fri-5am-cardio-ttr-esc-2026",
+    "https://europepmc.org/article/MED/42974684",
+    "https://europepmc.org/article/MED/42970034",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04153149",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06128629",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06672237",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06194825"
+   ],
+   "story_score": 2,
+   "story_why": "Five-year survival data for a second kind of drug against this protein, a peer-reviewed four-year report, and the first drug still growing at about $7 billion a year make a short post on how far this treatment has spread; the post should also carry the August failure of eplontersen, which the site has not yet recorded. The wide-use years: the growth and the 14,000-patient count argue that 2027 to 2030 is reasonable, while the absence of any published share of eligible patients, and one competitor's failure, argue against moving them earlier."
+  },
+  {
+   "id": "eye-drops-dissolve-the-clouded-protein-of-a-cataract",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on this record. The pilot trial's registry entry (NCT07395986) is unchanged since 2026-08-11: active, not recruiting, 8 people enrolled, primary completion estimated 2027-02, no results; no paper, replication or company release on a cataract-clearing drop appeared in the week.",
+   "findings": [
+    {
+     "date": "2026-08-11",
+     "what": "Registry entry NCT07395986 read on 2026-11-09: active, not recruiting; 8 people enrolled (marked actual); last updated 2026-08-11; primary completion estimated 2027-02; no results posted. The same as the records hold. The entry's 8 enrolled sits beside the company's stated plan of about 40, which the description gives; the registry marks the 8 as the actual figure.",
+     "url": "https://clinicaltrials.gov/study/NCT07395986",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov study NCT07395986 (direct)",
+    "clinicaltrials.gov: (cataract AND (eye drops OR lanosterol OR ZOC2017217 OR pharmacological OR anti-cataract)) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]; same with StudyFirstPostDate (5 and 1 entries, none a cataract-clearing drug)",
+    "Europe PMC: lanosterol (title and abstract) or cataract in title with eye drops, pharmacological, anti-cataract, crystallin, oxysterol or reversal, FIRST_PDATE:[2026-11-02 TO 2026-11-09] (2 preprints, neither on a treatment)",
+    "Release sites (globenewswire, businesswire, prnewswire, sec.gov): cataract eye drop pharmacological treatment trial results OR first patient OR approval November 2026"
+   ],
+   "web_queries": [
+    "Ocusun ZOC2017217 cataract eye drop Lexitas pilot study update",
+    "anti-cataract eye drops lanosterol OR oxysterol OR \"VP1-001\" OR \"CAP1160\" OR \"N-acetylcarnosine\" clinical trial news 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07395986"
+   ],
+   "story_score": 0,
+   "story_why": "No event in the week; the trial's first results are not expected before 2027-02."
+  },
+  {
+   "id": "partially-resetting-cells-reverses-ageing-in-an-animal",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on this record: no peer-reviewed report of a measured reversal in a person, no registry change to the eye trial (NCT07290244, last updated 2026-05-19) and no regulator's decision. A laboratory paper on delivering the resetting genes as circular RNA was covered by a news site on 2026-11-03 but was published on 2026-07-26 and is cell work in a dish.",
+   "findings": [
+    {
+     "date": "2026-07-26",
+     "what": "Peer-reviewed paper in Stem Cell Research & Therapy (Luo and colleagues, published 2026-07-26; covered by Fight Aging! on 2026-11-03): three resetting genes delivered as circular RNA reduced signs of ageing in laboratory-grown human stem cells without turning them into embryonic-like cells. Dish work, outside the window, and not an animal or a person.",
+     "url": "https://doi.org/10.1186/s13287-026-05193-0",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-27",
+     "what": "Peer-reviewed paper in the journal Aging (Meiners and colleagues, 2026-10-27), outside the window and not in the records: a re-analysis of gene-activity data from the liver, kidney and spleen of old mice given seven months of partial resetting found age-related inflammation signals turned down in liver and kidney, and in the spleen signs of raised cell division that the authors flag as a possible risk; they call for larger controlled studies. A re-analysis of existing animal data, with a caution attached; it changes no stage.",
+     "url": "https://doi.org/10.18632/aging.206431",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "clinicaltrials.gov study NCT07290244 (direct)",
+    "clinicaltrials.gov: (partial reprogramming OR OSK OR ER-100 OR Yamanaka OR cellular reprogramming OR epigenetic reprogramming) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09]; same with StudyFirstPostDate",
+    "Europe PMC: (\"partial reprogramming\" OR \"Yamanaka factors\" OR \"cellular rejuvenation\" OR \"OSK\" OR \"OSKM\" OR \"reprogramming-induced rejuvenation\" OR \"ER-100\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (3 hits)",
+    "Europe PMC: OCT4 and SOX2 and KLF4 with ageing, rejuvenation, glaucoma or regeneration (title and abstract), FIRST_PDATE window (0 hits)",
+    "Europe PMC: reprogramming with rejuvenation, age reversal, aged mice or old mice (title and abstract), FIRST_PDATE window (1 hit, unrelated)",
+    "Release sites: partial epigenetic reprogramming gene therapy first patient dosed OR interim results November 2026",
+    "Release sites: Life Biosciences OR \"Turn Biotechnologies\" OR NewLimit OR \"Retro Biosciences\" OR \"YouthBio\" OR \"Rejuve\" reprogramming announcement November 2026"
+   ],
+   "web_queries": [
+    "partial reprogramming OSK mice study rejuvenation published Nature OR Cell OR Science \"November 2026\"",
+    "partial reprogramming rejuvenation news this week November 2026 NewLimit OR \"Retro Biosciences\" OR \"Altos Labs\" OR \"Turn Biotechnologies\" OR \"Junevity\" OR \"clock.bio\"",
+    "Life Biosciences ER-100 November 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244",
+    "https://www.lifebiosciences.com/news/",
+    "https://www.fightaging.org/archives/2026/11/",
+    "https://www.lifespan.io/news/",
+    "https://europepmc.org/article/MED/42907856",
+    "https://europepmc.org/article/MED/42954813",
+    "https://lifespan.io/rejuvenation-roundup-october-2026/"
+   ],
+   "story_score": 0,
+   "story_why": "No event in the week."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-11-05",
+   "what": "The trial registry posted results on 2026-11-05 for Janssen's phase 2 trial of posdinemab, an antibody against tau (the other protein that builds up in Alzheimer's disease), in 523 people with early disease (NCT04619420). The entry lists the trial as terminated, with the reason given as the drug not reaching statistical significance in slowing clinical decline.",
+   "url": "https://clinicaltrials.gov/study/NCT04619420",
+   "opened": true,
+   "why_it_matters": "A result that counts against: an antibody against a second age-related brain protein failed in a sizeable controlled trial, and the site's broken-proteins branch has no entry that would carry it."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Intellia's third-quarter release of 2026-11-05 says the United States regulator accepted its licence application for lonvo-z, a one-dose gene editor given inside the body for hereditary angioedema, in September 2026 with priority review and a target decision date of 2027-03-10, with no advisory committee currently planned; the company plans a launch in the first quarter of 2027.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm",
+   "opened": true,
+   "why_it_matters": "It dates the first possible approval of an in-body gene editor, which belongs to the site's entry on a gene edited inside a person's body (not in this packet); the records hold only the earlier expectation that the application would be accepted in the second half of 2026."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "Peer-reviewed randomised, double-blind, controlled trial in European Heart Journal Open (Piercy and colleagues, 2026-11-04): 61 apparently healthy adults were given a multi-ingredient supplement powder sold for ageing or a control for six months; 43 completed. Against control, the widening of an arm artery in response to blood flow (the main measure) improved by 2.9 percentage points, the speed of the pulse wave (a measure of arterial stiffness) fell by 1.18 metres a second and systolic blood pressure fell by 6.1 mmHg. Coverage on lifespan.io (2026-11-06) says the maker supplied the product and helped fund the study, and that about a third of participants were lost to follow-up.",
+   "url": "https://doi.org/10.1093/ehjopen/oeag157",
+   "opened": true,
+   "why_it_matters": "A small controlled trial reporting less stiff arteries in healthy adults from a product sold as an ageing treatment. It fits none of this packet's tests (it is not a cross-link breaker and names no recycling mechanism), and it is maker-funded with heavy drop-out, but readers will meet it."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "Peer-reviewed mouse study in Cell Reports (Zhang and colleagues, 2026-11-04): a protein deposit made of antibody light chains builds up around liver blood vessels with age, and clearing it with the antibody anselamimab restored the aged liver's ability to regrow after part of it was removed.",
+   "url": "https://doi.org/10.1016/j.celrep.2026.118227",
+   "opened": true,
+   "why_it_matters": "An animal result in which clearing an age-related protein deposit restores a lost function, using an antibody already tested in people for another disease; it is a different protein from any on the site's broken-proteins branch."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "Registry entry NCT07906041 (first posted 2026-10-30, updated 2026-11-02): a small phase 2 trial of the weight-loss drug tirzepatide whose main measure is a brain-age reading taken from blood proteins at six months; 22 people, sponsored by the Atria Research and Global Health Institute.",
+   "url": "https://clinicaltrials.gov/study/NCT07906041",
+   "opened": true,
+   "why_it_matters": "A trial of an approved drug with an ageing clock as its main measure, which belongs with the site's entry on a treatment slowing a clock in a controlled trial (not in this packet). Also listed under the biological-age record."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "An editorial on lifespan.io dated 2026-11-05 says senior officials of the United States regulator named longevity a priority at a Boston research conference in October 2026 and spoke of fit-for-purpose measures and development routes, without declaring ageing a disease. The underlying report was not opened and the editorial gives no date for the remarks.",
+   "url": "https://lifespan.io/momentum-on-two-fronts-for-rejuvenation/",
+   "opened": true,
+   "why_it_matters": "Regulatory acceptance of ageing measures sets the pace for several clinic-rung estimates on the site; this is second-hand and undated, so it is a lead to check, not a fact to enter."
+  }
+ ]
+}

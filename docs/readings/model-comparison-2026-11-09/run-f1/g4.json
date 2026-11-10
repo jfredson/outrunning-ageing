@@ -1,0 +1,505 @@
+{
+ "records": [
+  {
+   "id": "a-human-organ-is-grown-inside-an-animal",
+   "verdict": "noted",
+   "found": "One peer-reviewed paper dated 2026-11-03 (Cell Stem Cell, from the laboratory of Jun Wu, a lead author of the 2017 paper the record cites) reports live mice born entirely from donor stem cells placed in host mouse embryos. It is mouse cells in mouse embryos, with no human cells and no organ grown across species, so it does not meet the animal rung. Nothing else dated 2026-11-02 to 2026-11-09 was found in the trial registry, the paper index, company releases or the press.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Ding, Oura, Okamura and Wu, \"Epiblast complementation enables generation of live offspring from pluripotent stem cells\", Cell Stem Cell, peer-reviewed. The abstract says donor mouse stem cells replaced the whole embryo proper in host mouse embryos and gave live offspring, and that the older method \"has largely been limited to individual organs\". Same species throughout; no human cells; abstract read on Europe PMC, full text not opened.",
+     "url": "https://doi.org/10.1016/j.stem.2026.10.010",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(chimera AND (pig OR organ) OR \"blastocyst complementation\" OR interspecies) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09] (6 results, all cancer or blood-disease trials, none relevant)",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(same words) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09] (0 results)",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(\"blastocyst complementation\" OR \"interspecies chimera\" OR \"interspecies chimeras\" OR \"human-pig chimera\" OR \"humanized kidney\" OR \"humanised kidney\" OR \"interspecies organogenesis\" OR \"human-animal chimera\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (1 result)",
+    "web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: \"chimera organ company human cells animal embryo announcement November 2026\" (nothing dated in the window)"
+   ],
+   "web_queries": [
+    "human-pig chimera humanized organ pig born human cells kidney study published November 2026",
+    "interspecies chimera blastocyst complementation human organ in pig news this week"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42976859%20AND%20SRC:MED&resultType=core&format=json"
+   ],
+   "story_score": 0,
+   "story_why": "A laboratory method paper in mice; it says nothing new about human cells surviving in a pig, which is where this record is stuck. The record names no company, so no search by company name was run."
+  },
+  {
+   "id": "a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface",
+   "verdict": "noted",
+   "found": "Vericel, the maker of MACI, reported its third-quarter results on 2026-11-05: MACI revenue of $67.4 million, up 21% on a year earlier, and a statement that it \"remains on track for a potential MACI launch in the U.K. in 2027\". That bears on the wide-use rung (a second country, growing use) but says nothing about worn joints in older people, and no trial in osteoarthritis was posted or reported in the window. The two engineered-cartilage trials the record names are unchanged in the registry.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Vericel release, \"Vericel Reports Third Quarter 2026 Financial Results and Raises Full-Year Financial Guidance\", filed with the United States securities regulator the same day: MACI net revenue $67.4 million in the quarter (up 21%), full-year MACI revenue guidance raised to $290 to $292 million, record quarterly numbers of biopsies, implants and operating surgeons (no counts given), and a potential United Kingdom launch in 2027. Use figures are revenue, not a share of eligible cases.",
+     "url": "https://www.sec.gov/Archives/edgar/data/887359/000162828026070622/ex991earningsreleaseq32026.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Registry entry NCT06915233, Vericel's phase 3 trial of MACI in cartilage defects of the ankle (ages 17 to 65, 309 people planned), updated: recruiting, started 2026-05-28, main results expected 2030-07. An ankle injury trial, not an osteoarthritis trial.",
+     "url": "https://clinicaltrials.gov/study/NCT06915233",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-03",
+     "what": "Registry entry NCT03588975, MACI in knees of patients aged 10 to 17, updated: still recruiting, main results expected 2030-02.",
+     "url": "https://clinicaltrials.gov/study/NCT03588975",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-09-10",
+     "what": "The two phase 2 trials of engineered cartilage in osteoarthritis behind the kneecap that the record names are unchanged in the window: NCT06163573 recruiting, last updated 2026-09-10; NCT06576583 recruiting, last updated 2026-03-24. No results posted for either.",
+     "url": "https://clinicaltrials.gov/study/NCT06163573",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(\"autologous chondrocyte\" OR MACI OR \"cultured chondrocytes\" OR \"engineered cartilage\" OR NOVOCART OR chondrosphere OR Spherox OR \"chondrocyte implantation\" OR CartiLife OR Chondron OR \"nasal chondrocytes\") AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09] (4 results, 2 relevant)",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(same words) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09] (0 results)",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06163573 ; /NCT06576583 ; /NCT06915233 ; /NCT03588975",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(\"autologous chondrocyte\" OR \"chondrocyte implantation\" OR \"engineered cartilage\" OR \"nasal chondrocyte\" OR \"nasal chondrocytes\" OR TITLE:\"cartilage repair\" OR TITLE:\"cartilage regeneration\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (7 results, none a trial of grown cells)",
+    "web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: \"cultured cartilage cell therapy knee trial results approval November 2026\" (nothing dated in the window)",
+    "https://data.sec.gov/submissions/CIK0000887359.json (Vericel filings: quarterly report and results release both filed 2026-11-05)"
+   ],
+   "web_queries": [
+    "Vericel third quarter 2026 results MACI Arthro ankle"
+   ],
+   "pages_opened": [
+    "https://www.sec.gov/Archives/edgar/data/887359/000162828026070622/ex991earningsreleaseq32026.htm",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06915233",
+    "https://clinicaltrials.gov/api/v2/studies/NCT03588975",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06163573",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06576583"
+   ],
+   "story_score": 1,
+   "story_why": "Routine quarterly figures. The planned 2027 launch in the United Kingdom is the one fact the record lacks, and it touches the wide-use test only at its edge (several countries), not at the part that matters for ageing (worn joints in older people)."
+  },
+  {
+   "id": "an-old-animals-blood-stem-cells-are-rejuvenated",
+   "verdict": "noted",
+   "found": "Nothing in the window reaches the first-human rung: no trial of a treatment that removes or resets age-biased blood stem cells in people was posted, and no report in a person appeared. Two items in the window bear on the animal work: a preprint posted 2026-11-02 reporting restored production of immune cells and a better vaccine response in aged mice by a different route (calming a group of brain cells that signal to the marrow), and a peer-reviewed mouse paper in Blood dated 2026-11-05 describing a group of blood-forming cells that keeps its lymph-cell output in old age. A registry entry updated 2026-11-04 shows a placebo-controlled trial in people aged 60 and over with a blood-cancer precursor condition, not yet recruiting, aimed at restoring normal blood production; it was first posted 2026-02-27 and the records do not hold it.",
+   "findings": [
+    {
+     "date": "2026-11-02",
+     "what": "Preprint (Research Square, not peer reviewed), Jin and colleagues, \"Targeting the inflamed paraventricular hypothalamic-bone marrow axis rejuvenates lymphopoiesis in aged mice\": the abstract reports that switching off an over-active group of brain cells in aged mice restored early lymph-cell precursors and B-cell production in the marrow and improved the response to an H1N1 flu vaccine. A second route to the animal rung the record already holds; mice only.",
+     "url": "https://doi.org/10.21203/rs.3.rs-9350529/v1",
+     "opened": true,
+     "source_kind": "preprint",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Peer-reviewed paper in Blood, Romero-Mulero and colleagues, \"Multimodal omics identifies a lymphoid-biased multipotent progenitor population with limited age-associated remodeling\": in mice, one group of blood-forming cells kept its long-term lymph-cell output in old age while the stem cells themselves shifted toward the inflammatory side; the authors call it a possible target for restoring balance. A description, not a treatment.",
+     "url": "https://doi.org/10.1182/blood.2026034629",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "Registry entry NCT07435636 (the MOSAIC trial; sponsor Clinical Hub for Interventional Research, Australia) updated: phase 2, placebo-controlled, 80 people aged 60 and over with a blood-cancer precursor condition (clonal cytopenia), not yet recruiting, start expected 2026-12-01, main results expected 2030-12. Its stated goal is to restore normal blood cell production; its main measure is the share of mutated blood cells at 24 weeks, not immune age. First posted 2026-02-27. It is the kind of condition the estimate names as the likely way into people, though the drug is a low-dose existing medicine, not an antibody that removes cells.",
+     "url": "https://clinicaltrials.gov/study/NCT07435636",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(\"hematopoietic stem cell\" AND (aging OR ageing OR rejuvenation OR myeloid-biased OR clonal hematopoiesis)) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09] (3 results, 1 relevant)",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(\"hematopoietic stem cells\" AND (aging OR ageing OR elderly OR rejuvenation) OR \"myeloid-biased\" OR \"immune rejuvenation\" OR \"immune aging\" OR immunosenescence) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09] (20 results, none a treatment of this kind)",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(same two word sets) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09] (0 and 1 results, none relevant)",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=((\"hematopoietic stem cells\" OR \"haematopoietic stem cells\" OR \"hematopoietic stem cell\" OR \"haematopoietic stem cell\") AND (TITLE:aging OR TITLE:ageing OR TITLE:aged OR TITLE:rejuvenation OR \"myeloid-biased\" OR \"myeloid bias\" OR TITLE:old)) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (3 results)",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=((TITLE:hematopoietic OR TITLE:haematopoietic OR TITLE:hematopoiesis OR TITLE:\"bone marrow\") AND (aging OR ageing OR aged) AND (rejuvenat* OR \"myeloid-biased\" OR \"antibody-mediated depletion\" OR \"immune aging\")) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (3 results)",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:(immunosenescence OR \"immune aging\" OR \"immune ageing\" OR \"immune rejuvenation\" OR \"thymic regeneration\" OR \"thymus regeneration\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (0 results)",
+    "web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: \"immune rejuvenation blood stem cell antibody first patient dosed November 2026\" (nothing relevant in the window)"
+   ],
+   "web_queries": [
+    "aged blood stem cells rejuvenation immune system antibody depletion myeloid-biased human trial November 2026",
+    "hematopoietic stem cell aging rejuvenation study news November 2026"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:PPR1355524&resultType=core&format=json",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42986910%20AND%20SRC:MED&resultType=core&format=json",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07435636"
+   ],
+   "story_score": 1,
+   "story_why": "Mouse work and an unstarted trial; nothing a reader would miss. The record names no company, so no search by company name was run."
+  },
+  {
+   "id": "cells-grown-from-stem-cells-restore-a-lost-organ-function",
+   "verdict": "bears-on-estimate",
+   "found": "In the window: Vertex said on 2026-11-02 (results release) and 2026-11-03 (quarterly filing) that it \"has decided to focus on accelerating the development of VX-017\", a second islet cell therapy for all blood types, in place of zimislecel, and expects VX-017 to enter its deciding trials in 2027; neither document mentions a filing for approval of zimislecel. That pushes the diabetes route to an approval later than the record assumes. Separately, and outside the window, the record lacks a larger fact: on 2026-03-06 Japan's health ministry gave a conditional, time-limited approval to Amchepry, a Parkinson's cell therapy grown from donor stem cells (Sumitomo Pharma), which on a plain reading may already meet the clinic rung; the author should rule on whether a conditional approval counts.",
+   "findings": [
+    {
+     "date": "2026-11-02",
+     "what": "Vertex third-quarter 2026 results release (filed copy): \"Given the rapid progress with VX-017, Vertex has decided to focus on accelerating the development of VX-017, which has the potential to reach more patients than zimislecel, which is designed for patients with blood types A or A/B only. Vertex expects to advance VX-017 into pivotal development in 2027.\" VX-017 is in an early (phase 1/2) trial and has the United States regulator's Fast Track label. No filing for approval of zimislecel is mentioned, and no new timeline for it is given.",
+     "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000287/ex-991_q32026.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-03",
+     "what": "Vertex quarterly report for the quarter to 2026-09-30, filed with the United States securities regulator: the same statement in the company's own filing; the type 1 diabetes section now describes only VX-017.",
+     "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000291/vrtx-20260930.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-09-01",
+     "what": "Registry entry NCT04786262 (the Vertex trial; its title now reads \"VX-880 and VX-017\"): recruiting, 57 people planned, main results expected 2027-12-31, last updated 2026-09-01. Not changed in the window; no results posted.",
+     "url": "https://clinicaltrials.gov/study/NCT04786262",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-03-06",
+     "what": "Older fact the record lacks. Sumitomo Pharma release, \"Announcement on the Approval for Manufacturing and Marketing Authorization of the Allogeneic iPS Cell-Derived Dopaminergic Neural Progenitor Cell Product AMCHEPRY in Japan\": a conditional and time-limited approval from Japan's health ministry for improving movement symptoms in Parkinson's disease not controlled by existing drugs, based on the Kyoto University Hospital study of seven patients published in Nature in 2025. A further study after approval is required for full approval. The regulator's own list is a PDF that could not be read here.",
+     "url": "https://www.sumitomo-pharma.com/news/20260306.html",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-03-06",
+     "what": "Press report of the same decision (AFP, carried by The Star): Japan approved Amchepry for Parkinson's and a heart muscle sheet product for heart failure the same day; the Parkinson's approval described as a provisional licence resting on seven patients, four of whom improved.",
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/06/japan-approves-stem-cell-treatment-for-parkinson039s-in-world-first",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-01",
+     "what": "Press report (Euronews, Spanish edition), one day before the window: Sumitomo Pharma reported the first transplant of Amchepry since approval, done in October 2026 at Kyoto University Hospital, with 20 to 30 patients planned by March 2029. The company's own notice was not found.",
+     "url": "https://es.euronews.com/2026/11/01/japon-trasplante-celulas-madre-cerebro-tratamiento-parkinson",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Registry entry NCT06944522, the late-stage trial of bemdaneprocel in Parkinson's disease (BlueRock Therapeutics), updated: recruiting, 102 people planned, started 2025-06-17, main results expected 2028-10. The record's estimate says this therapy is \"due to read out in 2027\"; the registry now says October 2028.",
+     "url": "https://clinicaltrials.gov/study/NCT06944522",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-03",
+     "what": "New registry entry NCT07911670 posted: an early trial of UX-DA003, a stem-cell-grown dopamine cell product, in 12 people with Parkinson's disease at the First Affiliated Hospital of Anhui Medical University, start expected 2026-11-23. A companion entry from the maker, Shanghai UniXell Biotechnology (NCT07733349, phase 1/2, 12 people, started 2026-09-24), was updated 2026-11-04.",
+     "url": "https://clinicaltrials.gov/study/NCT07911670",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Sana Biotechnology third-quarter 2026 release (filed copy): it expects to file for permission and begin a first trial of SC451, islet cells grown from stem cells and altered to hide from the immune system, \"as early as this year\", and reports 14-month results in one person given altered donor islets (UP421) with no anti-rejection drugs, published as a letter in the New England Journal of Medicine (DOI 10.1056/NEJMc2604408; letter not opened, date not checked). The 14-month result is donor cells, not cells grown from stem cells, so it does not count under this test; it bears on the anti-rejection drug problem the notes name.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1770121/000119312526449791/sana-ex99_1.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(zimislecel OR VX-880 OR VX-264 OR \"islet cell therapy\" OR \"stem cell-derived islet\" OR bemdaneprocel OR \"dopaminergic\" AND (\"pluripotent\" OR \"embryonic stem\") OR \"iPSC-derived\" OR \"pluripotent stem cell-derived\" OR \"embryonic stem cell-derived\") AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09] (6 results)",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(same words) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09] (1 result)",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04786262 ; /NCT06944522 ; /NCT07911670 ; /NCT07733349",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:(\"stem cell-derived islets\" OR \"islet replacement\" OR zimislecel OR \"beta cell replacement\" OR \"dopaminergic progenitors\" OR \"dopamine neuron\" OR bemdaneprocel OR \"cell replacement\" OR \"iPSC-derived\" OR \"pluripotent stem cell-derived\" OR \"retinal pigment epithelium\") AND (patients OR participants OR trial OR transplantation) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (7 results, none a report in people)",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:(islet OR islets OR \"beta cells\") AND TITLE:(\"stem cell\" OR pluripotent OR transplantation OR hypoimmune OR \"type 1 diabetes\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (1 result, not relevant)",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:(Parkinson OR parkinsonian) AND TITLE:(\"cell therapy\" OR transplantation OR graft OR \"stem cell\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (0 results)",
+    "web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: \"stem cell-derived islet cell therapy type 1 diabetes results filing timeline November 2026\"",
+    "web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: \"pluripotent stem cell-derived cell therapy first patient dosed OR results OR approval November 2026\"",
+    "web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: \"BlueRock bemdaneprocel OR Sana OR islet cell therapy announcement November 2026\"",
+    "https://data.sec.gov/submissions/CIK0000875320.json (Vertex filings: results release 2026-11-02, quarterly report 2026-11-03) and CIK0001770121.json (Sana: both 2026-11-05)"
+   ],
+   "web_queries": [
+    "Vertex third quarter 2026 financial results zimislecel",
+    "Vertex zimislecel VX-017 prioritize November 2026 type 1 diabetes filing dropped",
+    "stem cell derived cell therapy Parkinson's OR diabetes OR heart news November 2026",
+    "Japan approval iPS cell Parkinson's Amchepry Sumitomo Pharma ReHeart Cuorips conditional approval",
+    "Sumitomo Pharma press release Amchepry raguneprocel conditional time-limited approval Japan March 2026",
+    "Amchepry first patient transplant after approval Parkinson's Sumitomo Pharma 2026"
+   ],
+   "pages_opened": [
+    "https://www.sec.gov/Archives/edgar/data/875320/000087532026000287/ex-991_q32026.htm",
+    "https://www.sec.gov/Archives/edgar/data/875320/000087532026000291/vrtx-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1770121/000119312526449791/sana-ex99_1.htm",
+    "https://www.sumitomo-pharma.com/news/20260306.html",
+    "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/06/japan-approves-stem-cell-treatment-for-parkinson039s-in-world-first",
+    "https://sj.jst.go.jp/stories/2026/s0518-01p.html",
+    "https://es.euronews.com/2026/11/01/japon-trasplante-celulas-madre-cerebro-tratamiento-parkinson",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04786262",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06944522",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07911670",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07733349"
+   ],
+   "estimate_direction": "Two ways at once. Vertex setting zimislecel aside for a product still in its first trial moves the diabetes route later than the 2030 earliest and 2032 likely years assume, and the Parkinson's late-stage trial the estimate leans on now lists its main results for October 2028, not 2027. Against that, Japan's conditional approval of a Parkinson's cell therapy on 2026-03-06 means the clinic rung may already have been reached, which would make the whole range moot if the author counts it.",
+   "story_score": 3,
+   "story_why": "The record's description is built around the Vertex diabetes therapy and its expected filing; the company has now said in its own filing that it is putting its effort into a different product. A reader of this page would expect that, and would also expect the Japanese approval of 2026-03-06, which the records do not mention anywhere."
+  },
+  {
+   "id": "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart",
+   "verdict": "flagged",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 was found: no registry change, no paper, no release. But the record lacks three older facts. On 2026-03-06 Japan's health ministry gave a conditional, time-limited approval to RiHEART (written ReHeart in most press), sheets of heart muscle cells grown from donor stem cells and placed on the heart, for severe heart failure after loss of blood supply (Cuorips, an Osaka University spin-off); the first use under that approval was on 2026-09-29. And on 2026-08-19 Nature Medicine published a randomised trial in 20 people of injected stem-cell-grown heart muscle cells. The author should rule on whether the Japanese approval meets the clinic rung (\"a regulator approves such a graft for heart failure\").",
+   "findings": [
+    {
+     "date": "2026-03-06",
+     "what": "Cuorips release, \"World's First iPSC-Derived Cardiomyocyte Therapy for Heart Failure Receives Conditional Approval in Japan\": conditional and time-limited marketing approval from Japan's Ministry of Health, Labour and Welfare for people with \"severe ischemic heart failure who have exhausted conventional treatment options\"; further study after approval is required. The release gives no trial numbers; a Japan Science and Technology Agency article of 2026-05-18 says eight patients were treated in the trial and that effectiveness must be confirmed within a seven-year approval period. Two points for the author: the approval is conditional, and press reports describe the sheets as working by helping new blood vessels form, which is not the same claim as grafted muscle surviving.",
+     "url": "https://www.cuorips.co.jp/news-en/20260306",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-05-18",
+     "what": "Japan Science and Technology Agency article on the two approvals of 2026-03-06: both conditional and time-limited; RiHEART trial of eight patients, all with reduced symptoms and improved heart function; an expert panel had agreed on 2026-02-19.",
+     "url": "https://sj.jst.go.jp/stories/2026/s0518-01p.html",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-01",
+     "what": "Cuorips notice, \"Notice regarding the First Transplantation of Regenerative Medicine Product RiHEART\": first transplant under the approval on 2026-09-29 at Osaka Police Hospital; covered by public health insurance from 2026-09-01. A press report of 2026-10-22 (The Standard, Hong Kong) says the patient, a woman in her fifties, was recovering and due to leave hospital.",
+     "url": "https://www.cuorips.co.jp/news-en/200261001",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-08-19",
+     "what": "Peer-reviewed trial report in Nature Medicine (Zhang, Menasche, Wang and colleagues), the HEAL-CHF trial, registry number NCT03763136: 20 people with advanced heart failure having bypass surgery, randomised to injections of stem-cell-grown heart muscle cells or none. No lasting dangerous heart rhythm and no tumours at 12 months; every treated patient had early rhythm disturbances and two needed treatment for a fast rhythm; walking distance, blood flow and wall thickening were better than with surgery alone, but pumping (ejection fraction) was not different at 12 months. The first comparison-group result for this kind of treatment, and a mixed one. Abstract read; full text not opened.",
+     "url": "https://doi.org/10.1038/s41591-026-04605-1",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-02-20",
+     "what": "Registry entry NCT04396899, the Göttingen patch trial the record follows: recruiting, 53 people planned, main results expected 2027-12, last updated 2026-02-20. Unchanged in the window; no results posted.",
+     "url": "https://clinicaltrials.gov/study/NCT04396899",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(\"engineered heart muscle\" OR \"engineered human myocardium\" OR BioVAT OR \"cardiomyocyte\" AND (\"pluripotent\" OR iPSC OR \"stem cell-derived\") OR \"cardiomyocyte spheroids\" OR \"cardiomyocyte patch\" OR \"cardiomyocyte sheet\") AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09] (0 results)",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(same words) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09] (0 results)",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04396899 ; /NCT03763136",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(\"engineered heart muscle\" OR \"engineered human myocardium\" OR \"cardiomyocyte patch\" OR \"cardiac patch\" OR \"cardiomyocyte spheroids\" OR \"cardiomyocyte transplantation\" OR \"iPSC-derived cardiomyocytes\" AND (TITLE:transplantation OR TITLE:\"heart failure\" OR TITLE:graft OR TITLE:patch) OR \"remuscularization\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (3 results, all laboratory studies)",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:cardiomyocyte OR TITLE:cardiomyocytes OR TITLE:\"heart muscle\" OR TITLE:myocardium) AND (TITLE:pluripotent OR TITLE:iPSC OR TITLE:\"stem cell-derived\" OR TITLE:engineered) AND (TITLE:patients OR TITLE:trial OR TITLE:\"heart failure\") AND FIRST_PDATE:[2026-10-15 TO 2026-11-09] (1 result, not relevant)",
+    "web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: \"stem cell-derived cardiomyocyte heart failure cell therapy results OR approval OR first patient November 2026\" (nothing dated in the window)"
+   ],
+   "web_queries": [
+    "AHA Scientific Sessions 2026 iPSC cardiomyocyte heart failure trial results Heartseed OR BioVAT OR \"engineered heart muscle\" OR RiHEART",
+    "Repairon BioVAT-HF engineered heart muscle Zimmermann Göttingen November 2026",
+    "Cuorips ReHeart approval press release iPS cardiomyocyte sheet ischemic cardiomyopathy March 2026",
+    "Cuorips RiHEART second transplant October 30 2026 press conference"
+   ],
+   "pages_opened": [
+    "https://www.cuorips.co.jp/news-en/20260306",
+    "https://www.cuorips.co.jp/news-en/200261001",
+    "https://www.cuorips.co.jp/en",
+    "https://www.cuorips.co.jp/news/20260929",
+    "https://sj.jst.go.jp/stories/2026/s0518-01p.html",
+    "https://www.thestandard.com.hk/world/article/346145/Japanese-woman-recovers-after-worlds-first-iPS-cell-heart-patch-transplant",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42618633%20AND%20SRC:MED&resultType=core&format=json",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04396899",
+    "https://clinicaltrials.gov/api/v2/studies/NCT03763136",
+    "https://www.biospace.com/biovat-hf-phase-1-2-reveals-first-evidence-for-effective-heart-repair-in-advanced-heart-failure"
+   ],
+   "story_score": 3,
+   "story_why": "Not news of this week, but the page says the clinic rung is likely in 2038 and earliest in 2031 \"assum[ing] a conditional approval in Europe or Japan\", and a conditional approval in Japan for a stem-cell-grown heart muscle product was given on 2026-03-06 with the first patient treated on 2026-09-29. A reader who knows that would think the page is out of date. A search summary mentioned a company media item about a second transplant on 2026-10-30; no page confirming it was found. The American Heart Association meeting fell in the window; no presentation on these products was found (a release that looked like one turned out to be from 2023)."
+  },
+  {
+   "id": "lab-grown-organ-works-in-a-person-for-a-year",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on the test. The registry shows no new or updated trial of an engineered bladder, windpipe, gullet, gut, kidney or liver; the paper index shows no report in a person; the only company release in the window was about a lab-grown blood vessel for heart bypass (Humacyte, 2026-11-09), which the test counts as a tissue and leaves out.",
+   "findings": [],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(\"tissue engineered\" AND (bladder OR trachea OR oesophagus OR esophagus OR intestine OR kidney OR liver) OR bioprinted OR \"bioengineered organ\" OR \"bioengineered liver\" OR \"engineered trachea\" OR \"bioartificial\") AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09] (1 result, a laboratory cancer model)",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(same words) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09] (the same 1 result)",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(\"tissue-engineered bladder\" OR \"engineered bladder\" OR \"bioengineered organ\" OR \"bioengineered liver\" OR \"bioengineered kidney\" OR \"tissue-engineered trachea\" OR \"engineered trachea\" OR \"tracheal replacement\" OR \"bioprinted organ\" OR \"bioprinted liver\" OR \"bioprinted kidney\" OR \"tissue-engineered esophagus\" OR \"tissue-engineered oesophagus\" OR \"tissue-engineered intestine\" OR \"whole-organ engineering\" OR recellularized OR recellularised) AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (1 result, a laboratory method)",
+    "web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: \"bioengineered organ OR bioprinted tissue implant first patient OR FDA clearance OR results November 2026\" (one release in the window, on a blood vessel, not opened)"
+   ],
+   "web_queries": [
+    "bioengineered OR lab-grown OR bioprinted organ transplanted patient bladder OR trachea OR liver OR kidney news November 2026",
+    "tissue engineered organ implant patient one year follow-up published 2026 engineered esophagus OR trachea OR bladder OR intestine"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing happened. The record names no company or registry number, so no search by name was run; the sibling entry on The Upgrade Tree was not checked because it lies outside the folders this reading may open."
+  },
+  {
+   "id": "organ-from-a-gene-edited-pig-keeps-a-person-alive",
+   "verdict": "noted",
+   "found": "No approval, no trial result and no report of a stop or a death was found in the window. Two dated items bear on the clinic rung without meeting it: United Therapeutics' quarterly filing of 2026-11-04 says its pig kidney trial \"is ongoing\" and that it finished two more pig-rearing facilities for clinical-grade organs in August and October 2026; and a registry entry updated 2026-11-02 shows a pig kidney trial from a third company, ChoironeX, now listed as recruiting at NYU Langone Health. The filing also records an older fact the record lacks: the United States regulator cleared a pig heart trial in May 2026.",
+   "findings": [
+    {
+     "date": "2026-11-04",
+     "what": "United Therapeutics quarterly report for the quarter to 2026-09-30, filed with the United States securities regulator: the pig kidney trial (EXPAND; six patients first, up to 50, meant to support a filing for approval) had its first transplant in the fourth quarter of 2025 \"and the study is ongoing\"; no patient numbers or results are given. Two more facilities for clinical-grade pig organs were completed in Minnesota (August 2026) and Texas (October 2026), each sized like the first, which targets up to 125 organs a year. The results release of the same day does not mention the pig organ work.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000035/uthr-20260930.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Registry entry NCT07696962 updated (sponsor Xeno Holdings (US), trading as ChoironeX): a phase 1 trial of a pig kidney with pig thymus tissue in 4 people with kidney failure, listed as recruiting at NYU Langone Health, start given as October 2026 (estimated), main results expected 2028-06-30. First posted 2026-07-10. What changed in this update could not be seen, and no report of a first transplant was found.",
+     "url": "https://clinicaltrials.gov/study/NCT07696962",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-05-15",
+     "what": "Older fact the record lacks (the description says the regulator \"cleared two formal trials in 2025\"): the same quarterly report says \"In May 2026, the FDA granted clearance ... to proceed with a clinical study of our UHeart product\", up to two adults with advanced heart failure at first. The company's release of 2026-05-15 was seen in search results only. The report also says a second kidney trial, of a kidney with thymus tissue (EXTEND, registry number NCT07224763), was cleared in August 2025; its registry entry is recruiting, 50 people planned, last updated 2026-09-09.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000035/uthr-20260930.htm",
+     "opened": true,
+     "source_kind": "company-release",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-03-27",
+     "what": "Registry entry NCT06878560 (EXPAND): recruiting, 50 people planned, started 2025-10-29, main results expected 2028-10, last updated 2026-03-27. Unchanged in the window; no results posted.",
+     "url": "https://clinicaltrials.gov/study/NCT06878560",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-09-04",
+     "what": "Older, seen in search results only and not opened: a Lancet report dated 2026-09-04 of a man who lived 271 days on a pig kidney without dialysis and then received a human kidney; a press report of 2026-09-08 that a second patient in Boston had passed nine months; and a company statement (eGenesis, about September 2026) that its own 33-person trial is cleared and due to start in early 2027. None of these names appears in the records folder.",
+     "url": "https://news.massgeneralbrigham.org/en/pig-kidney-xenotransplant-bridge-to-human-transplant",
+     "opened": false,
+     "source_kind": "press",
+     "direction": "for",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(xenotransplantation OR xenotransplant OR xenokidney OR \"porcine kidney\" OR \"pig kidney\" OR \"pig heart\" OR \"pig liver\" OR \"porcine liver\" OR EGEN-2784 OR UKidney OR UHeart) AND AREA[LastUpdatePostDate]RANGE[2026-11-02,2026-11-09] (9 results, 1 relevant)",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(same words) AND AREA[StudyFirstPostDate]RANGE[2026-11-02,2026-11-09] (0 results)",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=(same words) AND AREA[LastUpdatePostDate]RANGE[2026-09-01,2026-11-09] (to find the trials by name; the record names no registry number)",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06878560 ; /NCT07224763 ; /NCT07696962 ; /NCT07429838 (a pig liver support trial from eGenesis, not yet recruiting, last updated 2026-09-21)",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(xenotransplantation OR xenotransplant OR \"pig-to-human\" OR \"porcine kidney\" OR \"pig kidney\" OR \"gene-edited pig\" OR \"genetically modified pig\" OR xenokidney OR \"pig liver\" OR \"pig heart\" OR \"pig lung\") AND FIRST_PDATE:[2026-11-02 TO 2026-11-09] (14 results; one review in Nature Reviews Nephrology dated 2026-11-06 that names pig organs among future kidney treatments; no report of a patient)",
+    "web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: \"pig kidney xenotransplant trial patient results announcement November 2026\"",
+    "web search limited to globenewswire.com, businesswire.com, prnewswire.com, sec.gov: \"United Therapeutics eGenesis xenokidney November 2026\"",
+    "https://data.sec.gov/submissions/CIK0001082554.json (United Therapeutics filings: quarterly report and results release, both 2026-11-04)"
+   ],
+   "web_queries": [
+    "gene-edited pig kidney OR liver OR heart transplant patient news November 2026",
+    "xenotransplantation pig organ FDA trial clearance OR \"first patient\" OR death OR removed week of November 2 2026",
+    "eGenesis EGEN-2784 pig kidney trial patient update 2026",
+    "ChoironeX thymokidney NYU Langone trial first transplant 2026",
+    "United Therapeutics UHeart EXPRESS study FDA clearance May 2026 pig heart trial"
+   ],
+   "pages_opened": [
+    "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000035/uthr-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000036/uthrq32026-ex991.htm",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07696962",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06878560",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07224763",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07429838",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42995255%20AND%20SRC:MED&resultType=core&format=json"
+   ],
+   "story_score": 1,
+   "story_why": "Within the week, only a filing line and a registry update. The record is behind on the year, though: it speaks of two trials cleared in 2025, and by now there are at least three kidney trials registered and a heart trial cleared, which the next review of the description should take in."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-11-05",
+   "what": "Sana Biotechnology's quarterly release reports 14-month survival and working of donor insulin-making cells, altered to hide from the immune system, in one person with type 1 diabetes taking no anti-rejection drugs, and cites a letter in the New England Journal of Medicine (DOI 10.1056/NEJMc2604408; the letter itself was not opened and its date not checked).",
+   "url": "https://www.sec.gov/Archives/edgar/data/1770121/000119312526449791/sana-ex99_1.htm",
+   "opened": true,
+   "why_it_matters": "The site's stem cell record calls the need for anti-rejection drugs the catch for ageing. These are donor cells, not cells grown from stem cells, so the result fits no record as written, but it is the first sign in a person that the drugs might be avoided."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Registry entry NCT06907329, a trial of slow-release nicotinamide mononucleotide tablets on immune ageing and metabolism in middle-aged and older people, updated and listed as completed. Seen in the registry's dated list only; the entry itself was not opened and no results are posted.",
+   "url": "https://clinicaltrials.gov/study/NCT06907329",
+   "opened": false,
+   "why_it_matters": "Belongs to the site's record on supplements that raise NAD, which is not in this packet; a completed trial may report soon."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "Humacyte release on a first trial in people of its lab-grown blood vessel for heart bypass surgery, tied to the American Heart Association meeting. Seen in search results only.",
+   "url": "https://www.globenewswire.com/news-release/2026/11/09/3398371/0/en/humacyte-highlights-first-in-human-coronary-bypass-study-at-american-heart-association-scientific-sessions-2026.html",
+   "opened": false,
+   "why_it_matters": "A grown replacement part for a common disease of old age; the lab-grown organ record leaves blood vessels out by its own definition, so it fits nowhere."
+  }
+ ]
+}

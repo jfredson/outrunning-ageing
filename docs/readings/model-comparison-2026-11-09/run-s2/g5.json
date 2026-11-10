@@ -1,0 +1,334 @@
+{
+ "records": [
+  {
+   "id": "a-blood-count-of-mitochondrial-dna-predicts-death-and-disease",
+   "verdict": "quiet",
+   "found": "Nothing dated 2026-11-02 to 2026-11-09 bears on the test. A Europe PMC search for blood mitochondrial DNA copy number with death or heart disease returned no papers first published in the window, and the trial registry returned no matching entries.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC FIRST_PDATE 2026-11-02 to 2026-11-09: mitochondrial DNA copy number AND (mortality OR cardiovascular OR death): 0 hits",
+    "ClinicalTrials.gov LastUpdatePostDate and StudyFirstPostDate in window: mitochondrial DNA copy number: 0 hits"
+   ],
+   "web_queries": [
+    "mitochondrial DNA copy number blood mortality cohort study November 2026 (only older cohorts returned)"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing new in the window."
+  },
+  {
+   "id": "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age",
+   "verdict": "quiet",
+   "found": "No validation report or regulator clearance for a blood or saliva age clock was dated in the window. Europe PMC showed only a review, a Covid-related preprint and a lung-function preprint (2026-11-04) that mention clocks, none a cohort validation against death.",
+   "findings": [
+    {
+     "date": "2026-11-04",
+     "what": "Preprint on markers of ageing and lung function in a UK birth cohort; not a test of death or disease prediction by a clock.",
+     "url": "https://doi.org/10.64898/2026.11.03.26367166",
+     "opened": false,
+     "source_kind": "preprint",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC FIRST_PDATE 2026-11-02 to 2026-11-09: (epigenetic clock OR epigenetic age OR DNA methylation age) AND (mortality OR incident OR disease): 3 hits"
+   ],
+   "web_queries": [
+    "epigenetic clock aging trial results November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "No relevant dated news."
+  },
+  {
+   "id": "a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked",
+   "verdict": "flagged",
+   "found": "Nothing in the window shows a regulator qualifying or agreeing a marker of ageing. An older fact the entry lacks: at a conference panel in Boston on 2026-10-01 (reported 2026-10-02), United States regulator officials said biomarkers could shorten trials only with evidence that they track benefit, and an official suggested a shared industry effort to agree a set of markers; the regulator's chief scientist said ageing will feature in its planned regulatory-science priorities report, expected early in its 2027 financial year.",
+   "findings": [
+    {
+     "date": "2026-10-02",
+     "what": "Trade report of FDA panel at the Aging Research and Drug Discovery meeting: biomarkers as stand-ins need evidence; pre-competitive consortium suggested; ageing to feature in planned Focus Areas of Regulatory Science update.",
+     "url": "https://www.genengnews.com/topics/translational-medicine/fda-to-highlight-aging-longevity-medicine-in-planned-fars-update/",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-10-02",
+     "what": "Lifespan.io report of the same panel.",
+     "url": "https://www.lifespan.io/news/fda-leaders-name-longevity-a-priority-at-ardd/",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC FIRST_PDATE 2026-11-02 to 2026-11-09: (surrogate endpoint OR biomarker qualification) AND (ageing OR aging): 1 hit, a review preprint",
+    "ClinicalTrials.gov TAME metformin aging, window: 0"
+   ],
+   "web_queries": [
+    "FDA biomarker of aging surrogate endpoint longevity trial agreement November 2026",
+    "FDA aging longevity regulatory science focus areas document ageing indication November 2026"
+   ],
+   "pages_opened": [
+    "https://www.genengnews.com/topics/translational-medicine/fda-to-highlight-aging-longevity-medicine-in-planned-fars-update/",
+    "https://www.lifespan.io/news/fda-leaders-name-longevity-a-priority-at-ardd/"
+   ],
+   "story_score": 0,
+   "story_why": "Nothing in the window; the October panel is older and is for the author's information."
+  },
+  {
+   "id": "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat",
+   "verdict": "flagged",
+   "found": "Nothing in the window meets either rung, and no news of the TAME trial launching or being funded was found for 2026-11-02 to 2026-11-09. An older fact the entry lacks: reported 2026-10-02, an FDA official at the 2026-10-01 Boston panel said his review office handles ageing as an indication and invited sponsors to bring trial plans, and that early approval-supporting trials would likely aim at age-related diseases or death; the report says the FDA does not treat ageing as a disease.",
+   "findings": [
+    {
+     "date": "2026-10-02",
+     "what": "Lifespan.io: FDA official says his clinical review office is responsible for ageing as an indication and invites protocols through the investigational-drug route.",
+     "url": "https://www.lifespan.io/news/fda-leaders-name-longevity-a-priority-at-ardd/",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "ClinicalTrials.gov TAME metformin aging LastUpdatePostDate/StudyFirstPostDate in window: 0"
+   ],
+   "web_queries": [
+    "TAME trial metformin aging launch funding November 2026",
+    "FDA aging longevity regulatory science focus areas document ageing indication November 2026"
+   ],
+   "pages_opened": [
+    "https://www.lifespan.io/news/fda-leaders-name-longevity-a-priority-at-ardd/"
+   ],
+   "story_score": 0,
+   "story_why": "Older item; nothing new in the window."
+  },
+  {
+   "id": "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial",
+   "verdict": "noted",
+   "found": "No new controlled-trial clock result was published in the window. A trial using a clock as its main measure was newly registered on 2026-11-03 (oral microbe-transfer capsules, aged 45 to 80, main measure the DunedinPACE clock, not yet recruiting), which is a plan and not a result.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "ClinicalTrials.gov first posted a randomised trial from Human Biome S.A. with DunedinPACE as main question; not yet recruiting; start estimated 2026-12; no results.",
+     "url": "https://clinicaltrials.gov/study/NCT07912164",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "ClinicalTrials.gov epigenetic/biological age clock, both dates, window (broad query noisy)",
+    "Europe PMC FIRST_PDATE 2026-11-02 to 2026-11-09: (biological age) AND (randomised OR placebo): 1 hit, a review preprint"
+   ],
+   "web_queries": [
+    "epigenetic clock aging trial results November 2026",
+    "biological age clock longevity intervention randomized trial published this week (extended)"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07912164"
+   ],
+   "story_score": 1,
+   "story_why": "A newly registered trial that names a clock as its main measure; small."
+  },
+  {
+   "id": "an-age-for-each-organ-is-read-from-blood-proteins",
+   "verdict": "quiet",
+   "found": "No peer-reviewed validation of organ-age protein panels was first published in the window. Europe PMC showed an epidemiology paper (2026-11-06) linking night-time light to organ ageing, which does not bear on the test.",
+   "findings": [
+    {
+     "date": "2026-11-06",
+     "what": "Paper on artificial light at night and multi-organ biological ageing; not a validation of disease prediction against calendar age.",
+     "url": "https://doi.org/10.1016/j.envres.2026.126111",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC FIRST_PDATE 2026-11-02 to 2026-11-09: organ age OR organ clock OR proteomic aging: 1 hit",
+    "Europe PMC FIRST_PDATE 2026-11-02 to 2026-11-09: proteomic age AND UK Biobank: 4 hits, none relevant"
+   ],
+   "web_queries": [],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing relevant."
+  },
+  {
+   "id": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+   "verdict": "bears-on-estimate",
+   "found": "On 2026-11-07 the ZEUS trial of ziltivekimab (interleukin-6 antibody, 6,376 people) was presented at the American Heart Association meeting in Chicago and published in the New England Journal of Medicine: heart attacks, strokes and cardiovascular deaths were 17.6% against 17.7% on placebo (hazard ratio 0.99), with more serious infections and clots on the drug. This turns the company announcement of 2026-07-31 into a peer-reviewed second mark against anti-inflammatory heart treatment beside CLEAR SYNERGY, which a careful person would weigh as slightly lowering odds of wide use of such drugs on the earliest dates; it does not affect colchicine's approval.",
+   "findings": [
+    {
+     "date": "2026-11-07",
+     "what": "NEJM paper 'Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease' (doi 10.1056/NEJMoa2612126); Crossref lists online 2026-11-07. Primary result negative.",
+     "url": "https://doi.org/10.1056/NEJMoa2612126",
+     "opened": false,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-07",
+     "what": "Healio report of the late-breaking session: hazard ratio 0.99 (0.88 to 1.11); serious infections 20.4% against 17.9%; HERMES and ARTEMIS trials reported as continuing.",
+     "url": "https://www.healio.com/news/cardiology/20261107/ziltivekimab-cuts-inflammation-but-not-cv-events-in-atherosclerosis-kidney-disease",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-07",
+     "what": "HCPLive report with the same results.",
+     "url": "https://www.hcplive.com/view/ziltivekimab-fails-to-reduce-cardiovascular-events-in-ascvd-and-ckd-zeus",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "New registration of an open-label colchicine dosing trial in 1,768 people after stenting (NCT07920133), not yet recruiting; no result.",
+     "url": "https://clinicaltrials.gov/study/NCT07920133",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "ClinicalTrials.gov colchicine cardiovascular, LastUpdatePostDate window: 5 studies, none with results",
+    "ClinicalTrials.gov ziltivekimab: NCT06263244 updated 2026-11-06, completed, no results",
+    "Europe PMC FIRST_PDATE 2026-11-02 to 2026-11-09: colchicine OR ziltivekimab OR canakinumab AND cardiovascular: 3 hits"
+   ],
+   "web_queries": [
+    "anti-inflammatory heart attack trial results interleukin-6 OR colchicine November 2026",
+    "ZEUS ziltivekimab full results presented AHA Scientific Sessions 2026",
+    "Novo Nordisk ziltivekimab ZEUS Lancet OR NEJM published",
+    "AHA Scientific Sessions 2026 colchicine anti-inflammatory late-breaking"
+   ],
+   "pages_opened": [
+    "https://www.healio.com/news/cardiology/20261107/ziltivekimab-cuts-inflammation-but-not-cv-events-in-atherosclerosis-kidney-disease",
+    "https://www.hcplive.com/view/ziltivekimab-fails-to-reduce-cardiovascular-events-in-ascvd-and-ckd-zeus",
+    "https://api.crossref.org/works/10.1056/NEJMoa2612126"
+   ],
+   "story_score": 2,
+   "story_why": "The largest test of an inflammation-only drug since 2017 now has a peer-reviewed negative result; a short news post fits. One outlet (STAT, page refused, not opened) was said in a search summary to report two other trials halted; two opened reports say they continue, so unresolved."
+  },
+  {
+   "id": "blocking-one-messenger-protein-makes-old-animals-live-longer",
+   "verdict": "quiet",
+   "found": "No new animal lifespan result or human ageing trial for interleukin-11 blockers was dated in the window. Older facts the entry lacks (search summaries, not opened): Mabwell announced a first patient dosed in a phase 2 scarring trial of its antibody on 2025-12-30, and Boehringer Ingelheim announced a phase 2a trial of its antibody in lung scarring on 2026-01-13.",
+   "findings": [
+    {
+     "date": "2026-01-13",
+     "what": "Boehringer Ingelheim release: interleukin-11 antibody BI 765423 to phase 2a in idiopathic pulmonary fibrosis.",
+     "url": "https://www.globenewswire.com/news-release/2026/01/13/3217650/0/en/boehringer-ingelheim-advances-potential-first-in-class-il-11-inhibitor-to-phase-ii-clinical-research-in-idiopathic-pulmonary-fibrosis.html",
+     "opened": false,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    },
+    {
+     "date": "2025-12-30",
+     "what": "Mabwell release: first patient dosed, phase 2, anti-IL-11 antibody for pathological scarring.",
+     "url": "https://www.prnewswire.com/news-releases/mabwell-announces-first-patient-dosed-in-phase-ii-trial-of-anti-il-11-antibody-for-pathological-scarring-302650129.html",
+     "opened": false,
+     "source_kind": "company-release",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "Europe PMC FIRST_PDATE 2026-11-02 to 2026-11-09: interleukin-11 AND (ageing OR lifespan): 1 hit, a nanomedicine review",
+    "ClinicalTrials.gov interleukin-11 antibody window: 0"
+   ],
+   "web_queries": [
+    "interleukin-11 antibody ageing lifespan study OR trial news 2026",
+    "first patient dosed OR results anti-IL-11 antibody fibrosis phase 2 November 2026 (wire sites only)"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing in the window."
+  },
+  {
+   "id": "replacing-a-persons-plasma-slows-an-age-related-disease",
+   "verdict": "quiet",
+   "found": "No new plasma-exchange trial result, regulator act or clinic publication was found dated in the window. Europe PMC hits for plasma exchange were unrelated case reports.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC FIRST_PDATE 2026-11-02 to 2026-11-09: young plasma OR plasma exchange AND (aging OR Alzheimer): 2 hits, unrelated",
+    "ClinicalTrials.gov plasma exchange albumin Alzheimer and plasma exchange ageing, window: 0"
+   ],
+   "web_queries": [
+    "plasma exchange Alzheimer's Grifols AMBAR OR young plasma aging trial news November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing in the window."
+  },
+  {
+   "id": "young-blood-rejuvenates-an-old-animal",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window bears on young blood or plasma fractions in animals or in controlled human trials.",
+   "findings": [],
+   "dated_queries": [
+    "Europe PMC FIRST_PDATE 2026-11-02 to 2026-11-09: young plasma OR parabiosis: no relevant hits",
+    "ClinicalTrials.gov plasma ageing, window: 0"
+   ],
+   "web_queries": [
+    "plasma exchange Alzheimer's Grifols AMBAR OR young plasma aging trial news November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing in the window."
+  },
+  {
+   "id": "young-gut-microbes-rejuvenate-an-old-animal",
+   "verdict": "noted",
+   "found": "On 2026-11-03 ClinicalTrials.gov first posted a randomised trial from Human Biome S.A. of oral faecal-microbiota capsules in adults aged 45 to 80, asking whether they slow the DunedinPACE ageing clock and lower inflammation markers; not yet recruiting, start estimated 2026-12, no results. It is a plan for the first-human test, not a result, and the records do not hold it.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Registry entry NCT07912164 'Fecal Microbiota Transplantation (FMT) to Slow Biological Aging', first posted and last updated 2026-11-03.",
+     "url": "https://clinicaltrials.gov/study/NCT07912164",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "ClinicalTrials.gov fecal microbiota transplantation older adults aging, LastUpdatePostDate and StudyFirstPostDate in window: NCT07912164 (both)",
+    "Europe PMC FIRST_PDATE 2026-11-02 to 2026-11-09: faecal microbiota AND (ageing OR older): 6 hits, none a controlled trial in older people"
+   ],
+   "web_queries": [],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07912164"
+   ],
+   "story_score": 1,
+   "story_why": "Registration of the first trial aimed at the entry's human test; a result is years off."
+  }
+ ],
+ "unmatched": []
+}

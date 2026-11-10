@@ -1,0 +1,190 @@
+{
+ "stories": [
+  {
+   "date": "2026-11-07",
+   "what": "The ZEUS trial, shown at the American Heart Association meeting, found the inflammation-blocking antibody ziltivekimab lowered inflammation markers but did not reduce heart attacks, strokes or cardiovascular death (17.6% vs 17.7%) in people with heart disease and kidney disease.",
+   "url": "https://www.healio.com/news/cardiology/20261107/ziltivekimab-cuts-inflammation-but-not-cv-events-in-atherosclerosis-kidney-disease",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "against",
+   "matches_record": "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks",
+   "in_records_already": false,
+   "importance": 3,
+   "why": "A test of whether blocking inflammation alone protects the heart came back negative in a very high-risk group; bears directly on that record. Topline was announced 2026-07-31; full data now."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "The FDA approved Bayer's Sunharbo (asundexian), a once-daily factor XIa blocker, with antiplatelet medicine to lower the risk of a repeat stroke after a recent mild-to-moderate stroke or high-risk mini-stroke. In a large phase 3 trial it cut ischemic stroke by 26% against placebo, with more major bleeding in people over 75 and in the first 90 days.",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk",
+   "opened": true,
+   "source_kind": "regulator",
+   "direction": "for",
+   "matches_record": "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "First approval of a new class of clot-preventing drug for age-related stroke; adjacent to the age-disease approvals the site follows, but not an ageing treatment itself. Match to the record is loose (approval of a cardiovascular-prevention drug)."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "A paper reports that six blood-protein age clocks all read the treated group as biologically younger in a 12-week phase 2a trial of rentosertib, a drug for lung scarring. The clocks cannot separate an effect on ageing from an effect on the disease.",
+   "url": "https://www.fightaging.org/archives/2026/11/anti-fibrotic-drug-rentosertib-reduces-proteomic-clock-age-in-humans/",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "for",
+   "matches_record": "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "A controlled-trial drug moved age clocks, though in a disease population; caveat limits it."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "At the ageing-research meeting ARDD in Boston, senior FDA leaders called longevity a priority and discussed fit-for-purpose endpoints and clearer pathways for treatments aimed at ageing biology. Life Biosciences separately reported interim data (first released 2026-10-08) for ER-100, a partial-reprogramming eye gene therapy, in three glaucoma patients.",
+   "url": "https://lifespan.io/momentum-on-two-fronts-for-rejuvenation/",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "for",
+   "matches_record": "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "Regulator signals only, no formal recognition; the reprogramming data is older than the window."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Acumen's phase 2 trial of sabirnetug in early Alzheimer disease did not meet its main goal at 18 months, though amyloid scans showed less plaque. Acumen is ending development of the drug.",
+   "url": "https://www.neurologylive.com/view/alzheimer-agent-sabirnetug-misses-primary-endpoint-acumen-halts-development",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "against",
+   "matches_record": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+   "in_records_already": false,
+   "importance": 2,
+   "why": "Another amyloid antibody that cleared plaque without a clinical benefit. Topline was first announced 2026-10-30; page dated 11-03."
+  },
+  {
+   "date": "2026-11-07",
+   "what": "The full Lp(a)HORIZON results were presented at the American Heart Association meeting and published in the New England Journal of Medicine: pelacarsen cut lipoprotein(a) sharply in 8,323 patients but did not reduce heart events (death 5.7% vs 5.9%). Topline had been announced in September.",
+   "url": "https://www.tctmd.com/news/full-lpahorizon-results-affirm-lack-pelacarsen-benefit-secondary-prevention",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "against",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 2,
+   "why": "Large negative heart-prevention trial; Novartis ended the programme."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "A six-month placebo-controlled University of Surrey trial of the supplement NOVOS Core in 61 healthy adults around 60 found better blood-vessel function and lower arterial stiffness and systolic blood pressure (6.1 mmHg). Dropout was high and the maker helped fund it.",
+   "url": "https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "for",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Small, sponsor-funded; modest news."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "Muna Therapeutics reported phase 1 results for MNA-001, an oral pill that activates TREM2 in brain immune cells; in elderly volunteers some age-linked markers in spinal fluid moved toward younger levels. No cognitive benefit shown; phase 2 planned for early 2027.",
+   "url": "https://longevity.technology/news/muna-oral-pill-shifts-aging-brain-markers-in-trial/",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "neutral",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Early marker change only."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Novartis ended its option and license deal with BioArctic for a brain-delivery technology, leaving BioArctic with the $30 million upfront payment and no milestones. The technology has not yet been tested in humans.",
+   "url": "https://longevity.technology/news/novartis-exits-a-bioarctic-deal-worth-up-to-802m/",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "against",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Deal setback in Alzheimer's drug delivery."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "The FDA issued final guidance on checking the strength (potency) of each batch of cell and gene therapies, replacing its 2011 guidance.",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-provides-clarity-support-cell-and-gene-therapy-development-and-quality",
+   "opened": true,
+   "source_kind": "regulator",
+   "direction": "for",
+   "matches_record": null,
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Lowers a manufacturing hurdle for cell and gene therapies, including reprogramming."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "Eisai announced it will present five-year Clarity AD follow-up results for lecanemab at the CTAD meeting in Boston on November 16. No outcome data were released.",
+   "url": "https://longevity.technology/news/lecanemabs-five-year-report-card-lands-in-boston/",
+   "opened": true,
+   "source_kind": "trade press",
+   "direction": "neutral",
+   "matches_record": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Preview of a result due after the window."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "A new registered trial (Phase 1/2, Steadman Philippon Research Institute) will evaluate the supplement fisetin to reduce body-wide ageing (senescent) cells. A second registration tests faecal microbiota transplants to slow biological ageing.",
+   "url": "https://clinicaltrials.gov/study/NCT07918261",
+   "opened": false,
+   "source_kind": "registry",
+   "direction": "neutral",
+   "matches_record": "drug-clears-aged-cells-from-a-person",
+   "in_records_already": false,
+   "importance": 1,
+   "why": "Registry listing seen via API (first posted 2026-11-05); page itself did not render, so not opened."
+  }
+ ],
+ "sources_read": [
+  {
+   "source": "FDA press announcements",
+   "how": "WebFetch listing and two stories",
+   "reached": true
+  },
+  {
+   "source": "Europe PMC (main journals and trial/ageing terms)",
+   "how": "WebFetch API, two queries",
+   "reached": true
+  },
+  {
+   "source": "ClinicalTrials.gov v2 (first-posted and results-first-posted)",
+   "how": "WebFetch API; last-update query not run",
+   "reached": true
+  },
+  {
+   "source": "lifespan.io, Fight Aging!, Longevity.Technology",
+   "how": "WebFetch listings and stories",
+   "reached": true
+  },
+  {
+   "source": "AHA Scientific Sessions coverage (TCTMD, Healio)",
+   "how": "WebSearch and WebFetch",
+   "reached": true
+  },
+  {
+   "source": "STAT, Fierce Biotech",
+   "how": "WebFetch",
+   "reached": false
+  },
+  {
+   "source": "Endpoints, BioSpace, EMA, Japan/UK regulators",
+   "how": "One EMA search returned only 2025 pages; others not tried",
+   "reached": false
+  },
+  {
+   "source": "Company releases (globenewswire, businesswire, prnewswire, sec.gov)",
+   "how": "WebSearch; no wire releases surfaced",
+   "reached": false
+  }
+ ]
+}

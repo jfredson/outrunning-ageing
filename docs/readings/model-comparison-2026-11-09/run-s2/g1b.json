@@ -1,0 +1,41 @@
+{"records":[
+{"id":"a-drug-lengthens-chromosome-ends-in-a-person","verdict":"flagged",
+"found":"Nothing dated 2026-11-02 to 2026-11-09 shows a drug lengthening telomeres in people or a regulator approving one. The registry shows the NIH low-dose danazol trial (NCT03312400) was terminated for poor accrual with results first posted on 2026-10-27, a week before the window and not mentioned in the entry's notes.",
+"findings":[
+{"date":"2026-10-27","what":"Registry entry for the National Institutes of Health low-dose danazol trial for telomere diseases shows status terminated (stopped for poor accrual) and results first posted on 2026-10-27. Results content not read.","url":"https://clinicaltrials.gov/study/NCT03312400","opened":true,"source_kind":"registry","direction":"against","in_window":false,"in_records_already":false},
+{"date":"2026-11-05","what":"Paper in PLOS Genetics on how common harmful germline TERT (telomerase gene) variants are and what illnesses go with them, from UK Biobank and DiscovEHR exomes. Background, not a treatment result.","url":"https://doi.org/10.1371/journal.pgen.1012352","opened":true,"source_kind":"paper","direction":"neutral","in_window":true,"in_records_already":false}],
+"dated_queries":["ClinicalTrials.gov danazol+telomere, LastUpdatePostDate and StudyFirstPostDate, window","ClinicalTrials.gov telomere+disease, both dates","NCT03312400, NCT04638517, NCT05012111 opened","Europe PMC telomere AND (danazol OR telomerase), FIRST_PDATE window","web search limited to wire sites: telomere biology disorder treatment November 2026"],
+"web_queries":["danazol telomere dyskeratosis congenita pulmonary fibrosis 2026","telomere lengthening therapy trial news November 2026"],
+"pages_opened":["https://clinicaltrials.gov/api/v2/studies/NCT03312400","https://clinicaltrials.gov/api/v2/studies/NCT04638517","https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1371/journal.pgen.1012352"],
+"story_score":0,"story_why":"No new result or decision in the window. The termination is an older fact worth adding to the entry."},
+{"id":"a-gene-is-edited-inside-a-persons-body","verdict":"bears-on-estimate",
+"found":"On 2026-11-05 Intellia reported it had finished enrolling its late-stage nerve-disease trial (MAGNITUDE-2, more than the 60 patients aimed for), had moved on enrolment in the heart trial, and had begun giving doctors patients' immune-gene (HLA) results; the registry shows both trials updated on 2026-11-04 and 2026-11-05. The same release repeats that a regulator decision on the company's hereditary angioedema editor (a different disease) is due 2027-03-10.",
+"findings":[
+{"date":"2026-11-05","what":"Intellia third-quarter release (filed copy on sec.gov): MAGNITUDE-2 enrolment complete in hereditary transthyretin polyneuropathy; MAGNITUDE (heart) enrolment advancing; HLA genotyping results being given to investigators; no new safety event stated; lonvo-z (hereditary angioedema) decision date 2027-03-10.","url":"https://www.sec.gov/Archives/edgar/data/0001652130/000119312526448673/ntla-ex99_1.htm","opened":true,"source_kind":"company-release","direction":"for","in_window":true,"in_records_already":false},
+{"date":"2026-11-05","what":"Registry entry for the nerve-disease late-stage trial now reads active, not recruiting, last updated 2026-11-05; estimated primary completion 2027-07.","url":"https://clinicaltrials.gov/study/NCT06672237","opened":true,"source_kind":"registry","direction":"for","in_window":true,"in_records_already":false},
+{"date":"2026-11-04","what":"Registry entry for the heart trial (MAGNITUDE) still recruiting, last updated 2026-11-04; estimated primary completion 2027-12; no results.","url":"https://clinicaltrials.gov/study/NCT06128629","opened":true,"source_kind":"registry","direction":"neutral","in_window":true,"in_records_already":false},
+{"date":"2026-11-06","what":"Nature paper on a one-time base editor for ANGPTL3 (a blood-fat gene) given into the body: monkeys, over 90 percent fall in the protein for 3 years, and a first-in-human trial is said to be under way. Not an age-related disease and no human result in the paper.","url":"https://doi.org/10.1038/s41586-026-11233-9","opened":true,"source_kind":"paper","direction":"neutral","in_window":true,"in_records_already":false}],
+"dated_queries":["ClinicalTrials.gov nexiguran+ziclumeran, transthyretin+CRISPR, both dates","NCT06128629 and NCT06672237 opened","Europe PMC in vivo gene editing OR NTLA-2001 OR nexiguran, FIRST_PDATE window","web search limited to wire sites and sec.gov: Intellia nexiguran November 2026 and third quarter 2026"],
+"web_queries":["Verve Lilly OR Beam OR Prime Medicine in vivo gene editing results November 2026 AHA"],
+"pages_opened":["https://www.sec.gov/Archives/edgar/data/0001652130/000119312526448673/ntla-ex99_1.htm","https://clinicaltrials.gov/api/v2/studies/NCT06128629","https://clinicaltrials.gov/api/v2/studies/NCT06672237","https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41586-026-11233-9"],
+"story_score":1,"story_why":"Enrolment finishing early after the hold is a minor step. The editor's approval for a non-age disease is the bigger event and was already in the entry's history."},
+{"id":"gene-therapy-lengthens-chromosome-ends-in-an-old-animal","verdict":"quiet",
+"found":"Nothing dated 2026-11-02 to 2026-11-09 bears on telomerase gene therapy in animals or people. The registry shows the Colombian telomerase trial (NCT04133649) unchanged since 2019 and the ZSCAN4 trial (NCT04211714) last updated 2026-02-06, with no result posted.",
+"findings":[
+{"date":"2026-02-06","what":"Registry entry for the ZSCAN4 gene therapy trial in telomere disorders: active, not recruiting; last updated 2026-02-06; no results posted.","url":"https://clinicaltrials.gov/study/NCT04211714","opened":true,"source_kind":"registry","direction":"neutral","in_window":false,"in_records_already":true}],
+"dated_queries":["ClinicalTrials.gov telomerase+gene+therapy, both dates (one unrelated nutrition trial only)","NCT04133649 and NCT04211714 opened","Europe PMC telomere AND telomerase, window","web search wire sites: telomere biology disorder"],
+"web_queries":["telomere lengthening therapy trial news November 2026"],
+"pages_opened":["https://clinicaltrials.gov/api/v2/studies/NCT04133649","https://clinicaltrials.gov/api/v2/studies/NCT04211714"],
+"story_score":0,"story_why":"Nothing new in the window."},
+{"id":"premature-ageing-mutation-corrected-in-a-living-animal","verdict":"quiet",
+"found":"Nothing dated 2026-11-02 to 2026-11-09 shows progeria mutation correction in animals or people. A preprint on 2026-11-03 on selinexor in Hutchinson-Gilford progeria cells does not correct the mutation.",
+"findings":[
+{"date":"2026-11-03","what":"Preprint (not peer reviewed) on selinexor, a drug, and the gene activity of progeria cells; not a mutation correction. Abstract not opened.","url":"https://doi.org/10.21203/rs.3.rs-11547490/v1","opened":false,"source_kind":"preprint","direction":"neutral","in_window":true,"in_records_already":false}],
+"dated_queries":["ClinicalTrials.gov progeria+base+editing, both dates (none)","Europe PMC progeria / base editing, window"],
+"web_queries":["progeria base editing OR gene correction news November 2026 Progeria Research Foundation"],
+"pages_opened":[],
+"story_score":0,"story_why":"No window event."}
+],
+"unmatched":[
+{"date":"2026-11-05","what":"Intellia reports the FDA accepted its application for lonvo-z (hereditary angioedema), the first in-body CRISPR therapy to reach that stage, with a decision due 2027-03-10 (acceptance itself announced in September).","url":"https://www.sec.gov/Archives/edgar/data/0001652130/000119312526448673/ntla-ex99_1.htm","opened":true,"why_it_matters":"A first approval of an in-body gene editor would show the tool is allowed in the clinic, though not for an age-related disease."}
+]}

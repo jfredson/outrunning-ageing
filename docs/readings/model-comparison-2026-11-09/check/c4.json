@@ -1,0 +1,301 @@
+{
+ "items": [
+  {
+   "id": "S1105",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "C",
+   "story": "Zschocke and colleagues, Fortschritte der Neurologie-Psychiatrie, 2026-11-06: donanemab's European approval set against Germany's added-benefit assessment, which found no added benefit in either stage of early Alzheimer's",
+   "source_opened": "https://api.crossref.org/works/10.1055/a-2989-2517",
+   "note": "Crossref record gives published online 2026-11-06 and the abstract matches the claims. The abstract says donanemab has been available in Europe (not specifically Germany) since 2025. Five of the ten authors are Lilly Germany staff, so this is the maker's commentary on an earlier assessment; the assessment itself predates the window. Commentary, not new evidence.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1186",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "C",
+   "story": "Eisai's programme for the CTAD meeting in Boston (2026-11-16 to 19): first five-year Clarity AD lecanemab findings to be presented on 2026-11-16; reported by Longevity.Technology 2026-11-09",
+   "source_opened": "https://longevity.technology/news/lecanemabs-five-year-report-card-lands-in-boston/",
+   "note": "Date is the news article's date; the article gives no separate date for Eisai's own announcement, which I did not open. No outcome data released, as the claim says. A notice of a coming presentation only.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1094",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "B",
+   "story": "Registry: NCT07911670 first posted 2026-11-03, early trial of UX-DA003 (stem-cell-derived cells) in 12 people with Parkinson's disease, First Affiliated Hospital of Anhui Medical University",
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07911670",
+   "note": "Bundles three registry events. NCT07911670: first posted 2026-11-03, early phase 1, 12 people, start 2026-11-23, confirmed; the registry lists it as recruiting. NCT07733349 (Shanghai UniXell, phase 1/2, 12 people, started 2026-09-24): first posted 2026-07-29, updated 2026-11-04, recruiting, confirmed; an update only. NCT07371338 (Innopeutics, IPS101A, phase 1, 6 people): first posted 2026-01-27, updated 2026-11-05, recruiting, confirmed; an update only. One claim calls NCT07911670 phase 1/2; the registry says early phase 1.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1056",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "B",
+   "story": "Registry: NCT07917403 first posted 2026-11-04, University of California San Diego, 30-person feasibility study of a nicotinamide riboside combination supplement (NRPT) in knee osteoarthritis",
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07917403",
+   "note": "All details confirmed: 30 people, main measures adherence, retention and recruitment rate. Start given as 2026-12, yet status reads recruiting. A borderline B: a first registration, but a feasibility study that measures no function.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1091",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "A",
+   "story": "Vertex third-quarter 2026 results, 2026-11-02: company will focus on VX-017 over zimislecel for type 1 diabetes; VX-017 to enter pivotal development in 2027",
+   "source_opened": "https://finviz.com/news/413471/vertex-reports-third-quarter-2026-financial-results",
+   "note": "Business Wire release reposted on Finviz, dated 2026-11-02. Confirmed: focus on VX-017 because it could reach more patients; zimislecel 'designed for patients with blood types A or A/B only'; phase 1/2 trial enrolling and dosing; Fast Track; pivotal development 2027; no zimislecel filing mentioned. The claim's 'freed people from insulin injections in its 2025 trial' is background not in this release.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1124",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry updates: NCT07880925 (dsm-firmenich, trigonelline and blood NAD in 60 healthy adults) updated 2026-11-05; NCT07659834 (18-person 'longevity' supplement study measuring blood NAD) updated 2026-11-03, completed",
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07880925 and https://clinicaltrials.gov/api/v2/studies/NCT07659834",
+   "note": "Bundles two separate registry updates, both confirmed. NCT07659834: 18 people, completed, first posted 2026-06-22, updated 2026-11-03, main measure whole-blood NAD. NCT07880925: phase 1, 60 people, recruiting, first posted 2026-10-19, updated 2026-11-05, main measure blood NAD. Neither is a first posting and neither has results.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1114",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "B",
+   "story": "Nature Metabolism, 2026-11-04, Romenskaja-Avgul and colleagues: whole-blood NAD (1,340 measurements, 1,068 adults) does not fall with age in healthy people; lower in cardiovascular disease and high blood pressure",
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s42255-026-01660-3&resultType=core&format=json",
+   "note": "Abstract confirms every detail: stable in men, rising in women, lower in cardiovascular disease and hypertension, and the authors' caution that it gives no direct evidence that supplements would treat those diseases. An observational study in people, not a trial; a high B, since it weakens the usual reason given for NAD supplements.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1088",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "B",
+   "story": "Blood, 2026-11-05, Romero-Mulero and colleagues: in mice, most blood stem and early blood cells change markedly with age, but one lymphoid-leaning group (MPP6) changes little",
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42986910&resultType=core&format=json",
+   "note": "Confirmed, including the quoted phrase 'may represent a potential target'. Published ahead of print 2026-11-05. Descriptive mouse work; no treatment tested.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1025",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "B",
+   "story": "Blood, 2026-11-04, Igarashi and colleagues (Wilkinson group): old mouse blood stem cells expand poorly outside the body with low Lin28b; forcing Lin28b on improved their transplant performance",
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1182/blood.2025030268&resultType=core&format=json",
+   "note": "Confirmed. First published online 2026-11-04. The abstract says Lin28b expression is low in aged cells and tracks with transplant performance; the claim's 'because' is a little stronger than the abstract. Mice only.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1097",
+   "real": "yes",
+   "actual_date": "2026-11-03",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry: NCT06907329 updated 2026-11-03, now completed; 26-week placebo-controlled trial of slow-release NMN tablets in 124 people aged 50 to 70 in China, main measure a marker of immune ageing",
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT06907329",
+   "note": "All details confirmed: sponsor Qing Su, 124 people, ages 50 to 70, primary completion 2026-10-18, main measure the share of CD27-/CD28- CD8 T cells at week 26. First posted 2025-04-02. No results posted. A status change only.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1178",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "B",
+   "story": "BioArctic announced 2026-11-02 that Novartis ended their 2025 brain-delivery technology agreement (up to 802 million dollars; BioArctic keeps the 30 million upfront)",
+   "source_opened": "https://longevity.technology/news/novartis-exits-a-bioarctic-deal-worth-up-to-802m/",
+   "note": "Announcement was 2026-11-02 (9:30 pm Central European Time); the news article is dated 2026-11-05. Figures confirmed: 30 million upfront kept, up to 772 million in later payments lost. One claim says Novartis gave reasons specific to its own programme; the article says the reason was not disclosed, only that Novartis called it unrelated to the technology. Other partnerships continue; the technology has not been tested in people. A preclinical deal, so it changes no expectation for a treatment in people.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1095",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "C",
+   "story": "Neurological Sciences, 2026-11-06, Tábuas-Pereira and colleagues: amyloid scan at 52 weeks as a cost-effective way to guide time-limited donanemab treatment",
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1007/s10072-026-09535-x&resultType=core&format=json",
+   "note": "Confirmed by Crossref (first online 2026-11-06) and the Europe PMC abstract. The finding is conditional: cost-effective if the scan costs less than about 21 to 23 percent of the price of 78 weeks of donanemab. An economic modelling paper.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1165",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "C",
+   "story": "Pharmacological Research review, 2026-11-06, Pei and colleagues: 'From NAD+ elevation to clinical benefit', covering 3,271 papers; human trials of NAD precursors gave inconsistent results on function",
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.phrs.2026.109743&resultType=core&format=json",
+   "note": "Confirmed, including the quoted phrase and the 3,271 count. More exactly, the 3,271 papers were counted and sorted in a publication-pattern analysis, alongside a narrative review; they were not each reviewed. A review, no new data.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1122",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry: NCT07923812 first posted 2026-11-06, Fudan University multi-centre look-back study of disease-modifying Alzheimer's treatment in routine care in China, 3,000 people",
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07923812",
+   "note": "All details confirmed: observational, retrospective, 3,000 people, started 2026-10-26, recruiting, primary completion 2027-06-30. A first posting, but of a look-back study, not a trial; the 3,000 is a target, not a count of people treated. Could be read as a low B.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1068",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "B",
+   "story": "Pharmazeutische Zeitung (dpa), 2026-11-04: a year of lecanemab and donanemab in Germany; neurologist Özgür Onur estimates 1,000 to 2,000 people treated; no proven added benefit; price talks continuing",
+   "source_opened": "https://www.pharmazeutische-zeitung.de/erfahrungen-nach-einem-jahr-in-der-anwendung-171690/",
+   "note": "Confirmed. The 1,000 to 2,000 figure is one neurologist's estimate given at the German neurology congress in Berlin, not an official count. The added-benefit decisions were February 2026 (lecanemab) and April 2026 (donanemab), before the window; a price result is expected in early 2027. Related to, but not the same story as, the Zschocke paper (S1105); Onur is an author of that paper.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1065",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry: NCT07435636 (MOSAIC, Australia) updated 2026-11-04; phase 2 trial of low-dose oral decitabine in 80 people aged 60 and over with clonal blood cell growth and low counts, not yet recruiting",
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT07435636",
+   "note": "Confirmed: first posted 2026-02-27, updated 2026-11-04, not yet recruiting, start 2026-12-01, primary completion 2030-12-01, main measure the share of mutated cells at 24 weeks. The medicine is oral decitabine with tetrahydrouridine. An update to an existing entry; what changed in the update is not shown.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1137",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "C",
+   "story": "Annals of the Academy of Medicine, Singapore, 2026-11-04, Chen and colleagues: appropriate-use recommendations for lecanemab in Singapore, with a proposed national registry",
+   "source_opened": "https://api.crossref.org/works/10.47102/annals-acadmedsg.2026185",
+   "note": "Confirmed: published online 2026-11-04; abstract says lecanemab is approved in Singapore. The Singapore approval itself is earlier and its date was not checked. Guidance paper, no uptake figure.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1157",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "A",
+   "story": "Novo Nordisk nine-month results, 2026-11-04: non-cash write-down of 4.6 billion Danish kroner related to ziltivekimab",
+   "source_opened": "https://via.ritzau.dk/pressemeddelelse/15268956/novo-nordisk-as?publisherId=90446",
+   "note": "Confirmed: released 2026-11-04 07:30 Central European Time; 8.7 billion kroner of write-downs in the quarter, 4.6 billion of it tied to ziltivekimab. No trial is named and no reason given in the release. Graded A because a company writing down the value of the treatment bears directly on what to expect for it; the reason should be found before it is used.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1104",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "A",
+   "story": "Vertex third-quarter 2026 results, 2026-11-02: focus on VX-017 over zimislecel; pivotal development in 2027",
+   "same_story_as": "S1091",
+   "source_opened": "https://www.sec.gov/Archives/edgar/data/0000875320/000087532026000287/ex-991_q32026.htm",
+   "note": "Filed copy of the same release on sec.gov; wording confirmed. The exhibit shows no date; 2026-11-02 comes from the Business Wire copy opened for S1091."
+  },
+  {
+   "id": "S1078",
+   "real": "yes",
+   "actual_date": "2026-11-04",
+   "in_window": true,
+   "grade": "C",
+   "story": "Niagen Bioscience (seller of nicotinamide riboside) third-quarter 2026 results, 2026-11-04: net sales 27.2 million dollars",
+   "source_opened": "https://www.itiger.com/news/2681091222",
+   "note": "Press release dated 2026-11-04, reposted by Tiger Brokers 2026-11-05. Net sales 27.2 million dollars confirmed, 23.3 million of it from Tru Niagen; net loss 1.2 million. Sales figures, not evidence about the treatment.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1017",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "A",
+   "story": "Vertex third-quarter 2026 results, 2026-11-02: focus on VX-017 over zimislecel; pivotal trials in 2027",
+   "same_story_as": "S1091",
+   "source_opened": "https://finsee.ai/earnings/vrtx/2026/q3/en/",
+   "note": "A secondary summary of the same Vertex release; it matches the release. 'Pushes pivotal trials to 2027' is this summary's framing; the release itself says only that VX-017 is expected to enter pivotal development in 2027. Graded as the story, not as this source."
+  },
+  {
+   "id": "S1008",
+   "real": "yes",
+   "actual_date": "2026-11-09",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry: NCT05878119 updated 2026-11-09; Metro International Biotech's completed trial of MIB-626 (NMN) with and without exercise in 124 adults aged 19 to 40; still no results posted",
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies/NCT05878119",
+   "note": "Confirmed: phase 2, 124 people, ages 19 to 40, completed, primary completion 2025-06-17, main measure aerobic capacity at week 11, no results posted. First posted 2023-05-26. What changed in the update is not shown.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1110",
+   "real": "yes",
+   "actual_date": "2026-10-30",
+   "in_window": false,
+   "grade": "A",
+   "story": "Acumen announced 2026-10-30 that sabirnetug missed the main 18-month measure in the 542-person ALTITUDE-AD phase 2 trial in early Alzheimer's and that it is ending development; NeurologyLive report 2026-11-03",
+   "source_opened": "https://www.neurologylive.com/view/alzheimer-agent-sabirnetug-misses-primary-endpoint-acumen-halts-development",
+   "note": "All details confirmed: 542 people, neither dose differed from placebo on the main measure at 18 months, key secondary measures not met, dose-related fall in amyloid on scans, brain swelling on scans in about 10 percent, development and the extension study stopped. The company's announcement is dated 2026-10-30, three days before the window; only the news report (2026-11-03) falls inside it. The company release itself was not opened.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1057",
+   "real": "yes",
+   "actual_date": "2026-09-07",
+   "in_window": false,
+   "grade": "A",
+   "story": "Novo Nordisk stopped two ziltivekimab heart-failure trials, HERMES and ATHENA, for low chance of success; reported 2026-09-07",
+   "source_opened": "https://pharmaphorum.com/news/novo-nordisks-il-6-drug-flunks-two-more-heart-trials",
+   "note": "The stopping of HERMES and ATHENA is real but old: pharmaphorum reported it on 2026-09-07, after the ZEUS trial missed its goal, and search results from several trade outlets agree (they give 2026-09-04 as the day investigators were told; I did not open those). Only ARTEMIS, in people after a heart attack, continues. So a report describing HERMES as continuing is wrong on this point. I could not read the nine-month report file either (the text is compressed; its file date is 2026-11-03), so whether it restates the stops is not confirmed; the only in-window news is the write-down in S1157, which is the financial result of these stops. Fierce Biotech refused the fetch.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1106",
+   "real": "yes",
+   "actual_date": "2026-11-02",
+   "in_window": true,
+   "grade": "B",
+   "story": "Research Square preprint, 2026-11-02, Jin and colleagues: quieting over-active hypothalamus nerve cells in aged mice restored lymph-cell precursors and B-cell production and improved the H1N1 vaccine response",
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.21203/rs.3.rs-9350529/v1&resultType=core&format=json",
+   "note": "Confirmed from the abstract; first posted 2026-11-02. Not peer reviewed; mice only. A low B, since it is a preprint and not in a journal.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1172",
+   "real": "yes",
+   "actual_date": "2026-11-06",
+   "in_window": true,
+   "grade": "C",
+   "story": "Registry updates with no visible change of substance: Roche trontinemab prevention trial NCT07717411 (updated 2026-11-06), Lilly donanemab trials NCT07589595 (2026-11-04) and NCT06566170 (2026-11-03)",
+   "source_opened": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07717411,NCT07589595,NCT06566170",
+   "note": "Bundles three separate registry updates, all confirmed. NCT07717411: phase 3, 1,600 people, recruiting, started 2026-10-02 (actual), primary completion 2032-07-30, first posted 2026-07-21. NCT07589595: phase 2, 350 people, recruiting, first posted 2026-05-15. NCT06566170: 6,250 people in the United States, recruiting, completion 2031-05, first posted 2024-08-22. None is a first posting and none has results.",
+   "same_story_as": null
+  },
+  {
+   "id": "S1077",
+   "real": "yes",
+   "actual_date": "2026-11-05",
+   "in_window": true,
+   "grade": "B",
+   "story": "Blood, 2026-11-05, Romero-Mulero and colleagues: a lymphoid-leaning blood progenitor group (MPP6) changes little with age in mice",
+   "same_story_as": "S1088",
+   "source_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42986910&resultType=core&format=json",
+   "note": "Same paper as S1088: the Europe PMC record opened there carries this DOI (10.1182/blood.2026034629) and this title. Details confirmed; descriptive mouse work, no treatment."
+  }
+ ]
+}

@@ -1,0 +1,394 @@
+{
+ "records": [
+  {
+   "id": "a-cells-settings-are-rewritten-at-one-gene-in-a-person",
+   "verdict": "noted",
+   "found": "The trial's registry entry (NCT06671093) was last updated on 2026-01-06 and shows nothing new in the window. On 2026-11-05 Cell Stem Cell published a paper (online record opened in Europe PMC) in which chemical-mark editing silenced a gene in human blood-forming stem cells in a dish, and the silencing held for 4 months after transplant into mice; it is not a person, so it does not meet the test.",
+   "findings": [
+    {
+     "date": "2026-11-05",
+     "what": "Cell Stem Cell paper: durable, reversible chemical-mark editing of a platelet gene in human blood-forming stem cells; silencing stable 4 months after transplant into mice",
+     "url": "https://doi.org/10.1016/j.stem.2026.10.009",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-01-06",
+     "what": "Registry entry NCT06671093 last updated; still recruiting, primary completion 2028-06-28, no results posted",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06671093",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..2026-11-09 by topic words",
+    "Europe PMC FIRST_PDATE 2026-11-02..2026-11-09 by topic words",
+    "epigenetic editing / epigenome editing / CRISPRoff",
+    "hepatitis B epigenetic silencing",
+    "TUNE-401"
+   ],
+   "web_queries": [
+    "epigenetic editing first-in-human results hepatitis B Tune Therapeutics November 2026 (businesswire, globenewswire, prnewswire, sec.gov)"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06671093",
+    "https://doi.org/10.1016/j.stem.2026.10.009 (abstract via Europe PMC)"
+   ],
+   "story_score": 1,
+   "story_why": "A laboratory paper on lasting gene silencing in human stem cells is of interest but is not a person and not the company's trial."
+  },
+  {
+   "id": "a-cocktail-of-ordinary-drugs-resets-cell-age",
+   "verdict": "quiet",
+   "found": "No paper, registry entry or release dated 2026-11-02 to 2026-11-09 bears on a drug mix that resets cell age in animals or people. Searches for the two-chemical mix and for chemical reprogramming returned nothing in the window.",
+   "findings": [],
+   "dated_queries": [
+    "registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..2026-11-09 by topic words",
+    "Europe PMC FIRST_PDATE 2026-11-02..2026-11-09 by topic words",
+    "RepSox OR tranylcypromine",
+    "chemical reprogramming small molecule cellular rejuvenation",
+    "registry: rejuvenation chemical reprogramming"
+   ],
+   "web_queries": [
+    "chemical cocktail reverses epigenetic age mice small molecules rejuvenation study November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing found."
+  },
+  {
+   "id": "a-person-receives-cell-resetting-genes-in-a-trial",
+   "verdict": "quiet",
+   "found": "The trial's registry entry (NCT07290244) was last updated on 2026-05-19, with enrolment of 18 and primary completion 2027-05; nothing new in the window. Searches found no coverage newer than the company's 2026-10-08 interim results, which the record already holds.",
+   "findings": [
+    {
+     "date": "2026-05-19",
+     "what": "Registry entry NCT07290244 last updated; recruiting; no results posted",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07290244",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    }
+   ],
+   "dated_queries": [
+    "registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..2026-11-09 by topic words",
+    "Europe PMC FIRST_PDATE 2026-11-02..2026-11-09 by topic words",
+    "ER-100 optic neuropathy",
+    "partial reprogramming / Yamanaka / OSK"
+   ],
+   "web_queries": [
+    "gene therapy cellular reprogramming rejuvenation trial results November 2026 Life Biosciences ER-100"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244"
+   ],
+   "story_score": 0,
+   "story_why": "No new event."
+  },
+  {
+   "id": "a-persons-biological-age-reading-falls-after-treatment",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window shows a person's DNA-mark age reading falling after treatment in a controlled report. The TRIIM-X registry entry (NCT04375657) is unchanged since 2025-05-07, still saying recruiting with a primary completion date of 2025-12 that has passed.",
+   "findings": [
+    {
+     "date": "2025-05-07",
+     "what": "TRIIM-X registry entry last updated; unchanged, completion date passed",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04375657",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": true
+    },
+    {
+     "date": "2026-11-03",
+     "what": "New registry entry NCT07912164 (not yet recruiting): stool-transplant capsules versus placebo to slow biological ageing in healthy adults; a plan, not a result",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07912164",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..2026-11-09 by topic words",
+    "Europe PMC FIRST_PDATE 2026-11-02..2026-11-09 by topic words",
+    "biological age epigenetic clock (registry)",
+    "epigenetic clock AND trial AND intervention",
+    "TRIIM / thymus regeneration growth hormone DHEA metformin"
+   ],
+   "web_queries": [
+    "epigenetic clock biological age reversed randomized trial published November 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04375657",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07912164"
+   ],
+   "story_score": 0,
+   "story_why": "Only a newly registered plan; no result."
+  },
+  {
+   "id": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+   "verdict": "noted",
+   "found": "NeurologyLive reported on 2026-11-03 that Acumen's antibody sabirnetug cleared amyloid on scans but missed its main measure in a phase 2 trial of early Alzheimer's, and that Acumen is ending its development (company announcement dated 2026-10-30, just before the window). A German paper of 2026-11-06 says that country's benefit assessment found no added benefit for donanemab, and a paper of the same date discusses scan monitoring costs.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "NeurologyLive: sabirnetug missed the 18-month main measure in a phase 2 trial; Acumen halts development (announcement 2026-10-30)",
+     "url": "https://www.neurologylive.com/view/alzheimer-agent-sabirnetug-misses-primary-endpoint-acumen-halts-development",
+     "opened": true,
+     "source_kind": "press",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-06",
+     "what": "Paper: German benefit assessment of donanemab found no added benefit in either stage of early Alzheimer's, though the European licence covers both",
+     "url": "https://doi.org/10.1055/a-2989-2517",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-06",
+     "what": "Paper: scan at 52 weeks is a cost-effective way to guide limited-duration donanemab",
+     "url": "https://doi.org/10.1007/s10072-026-09535-x",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-05",
+     "what": "Registry: posdinemab (J&J, anti-tau, not amyloid) phase 2 NCT04619420 terminated for missing its main measure; results first posted 2026-11-05",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04619420",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "against",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..2026-11-09 by topic words",
+    "Europe PMC FIRST_PDATE 2026-11-02..2026-11-09 by topic words",
+    "amyloid antibody Alzheimer",
+    "lecanemab",
+    "donanemab",
+    "lecanemab OR donanemab OR remternetug OR trontinemab (Europe PMC)"
+   ],
+   "web_queries": [
+    "Alzheimer's antibody approval OR results lecanemab donanemab trontinemab November 2026",
+    "Leqembi/Kisunla amyloid antibody results approval November 2026 (wire sites + sec.gov)",
+    "Acumen sabirnetug ALTITUDE-AD topline results"
+   ],
+   "pages_opened": [
+    "https://www.neurologylive.com/view/alzheimer-agent-sabirnetug-misses-primary-endpoint-acumen-halts-development",
+    "https://doi.org/10.1055/a-2989-2517 (abstract via Europe PMC)",
+    "https://doi.org/10.1007/s10072-026-09535-x (abstract)",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04619420"
+   ],
+   "story_score": 2,
+   "story_why": "Another amyloid antibody clearing plaque without clinical benefit, and a German no-added-benefit assessment, are fair material for a short post on how modest this class is."
+  },
+  {
+   "id": "drug-boosts-the-cells-recycling-of-worn-parts",
+   "verdict": "quiet",
+   "found": "No controlled human trial report on a drug or supplement given to boost cell recycling, dated in the window, was found. Registry and Europe PMC searches on spermidine, autophagy, rapamycin and urolithin returned nothing that bears on the test; new urolithin registry updates are formulation or glucose studies.",
+   "findings": [
+    {
+     "date": "2026-11-09",
+     "what": "Registry updates to urolithin A studies (NCT07925853 formulation absorption, new; NCT06274749 glucose in adults 55+, updated): no results",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06274749",
+     "opened": false,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..2026-11-09 by topic words",
+    "Europe PMC FIRST_PDATE 2026-11-02..2026-11-09 by topic words",
+    "autophagy spermidine",
+    "urolithin",
+    "autophagy AND (spermidine OR trehalose OR rapamycin) AND randomized",
+    "spermidine supplementation older adults"
+   ],
+   "web_queries": [
+    "glucosepane breaker OR spermidine autophagy trial OR urolithin A trial results November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing found."
+  },
+  {
+   "id": "drug-breaks-the-sugar-cross-links-that-stiffen-old-tissue",
+   "verdict": "quiet",
+   "found": "Nothing dated in the window on a drug that breaks sugar cross-links. The only registry hit, a new collagen supplement study on skin glycation (NCT07925437, posted 2026-11-09), is not a cross-link breaker.",
+   "findings": [
+    {
+     "date": "2026-11-09",
+     "what": "New registry entry: collagen and MSM supplement and skin glycation products, not yet recruiting",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07925437",
+     "opened": false,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..2026-11-09 by topic words",
+    "Europe PMC FIRST_PDATE 2026-11-02..2026-11-09 by topic words",
+    "advanced glycation",
+    "glucosepane OR advanced glycation cross-link AND (breaker OR alagebrium)"
+   ],
+   "web_queries": [
+    "glucosepane breaker ... November 2026"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing found."
+  },
+  {
+   "id": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+   "verdict": "bears-on-estimate",
+   "found": "Circulation published on 2026-11-03 the one-year extension of the vutrisiran heart trial (HELIOS-B): over 48 months, those on the drug throughout had 37 per cent fewer deaths than those who started late. A German prescribing study of 2026-11-02 counted only 289 acoramidis patients in April to September 2025.",
+   "findings": [
+    {
+     "date": "2026-11-03",
+     "what": "Circulation: HELIOS-B open-label extension, 37 per cent lower risk of death and of events in continuous vutrisiran group versus placebo-then-vutrisiran, to month 48",
+     "url": "https://doi.org/10.1161/circulationaha.126.080735",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "for",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Paper: 289 patients started acoramidis in Germany in April to September 2025, median age 82, 86 per cent new to treatment",
+     "url": "https://doi.org/10.1007/s00392-026-03023-0",
+     "opened": true,
+     "source_kind": "paper",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    },
+    {
+     "date": "2026-11-04",
+     "what": "Registry updates: nex-z phase 3 NCT06128629 (recruiting, completion 2027-12), NCT06672237; no results",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06128629",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": true,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..2026-11-09 by topic words",
+    "Europe PMC FIRST_PDATE 2026-11-02..2026-11-09 by topic words",
+    "transthyretin amyloid cardiomyopathy",
+    "tafamidis OR acoramidis OR vutrisiran OR eplontersen OR NTLA-2001 (Europe PMC)"
+   ],
+   "web_queries": [
+    "transthyretin amyloid cardiomyopathy gene editing OR silencer OR stabiliser results OR approval November 2026 (wire sites)",
+    "Intellia nex-z MAGNITUDE update November 2026"
+   ],
+   "pages_opened": [
+    "https://doi.org/10.1161/circulationaha.126.080735 (abstract via Europe PMC)",
+    "https://doi.org/10.1007/s00392-026-03023-0 (abstract)",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06128629"
+   ],
+   "story_score": 1,
+   "story_why": "Estimate: the extension shows more drugs and longer benefit, which supports wider use by 2030, but the prescribing count is small and tells us little about the share of eligible patients; a careful person would leave the years alone but note the first published uptake counts."
+  },
+  {
+   "id": "eye-drops-dissolve-the-clouded-protein-of-a-cataract",
+   "verdict": "flagged",
+   "found": "Nothing dated in the window on the lanosterol-derived drop. The registry entry (NCT07395986) now reads active, not recruiting (last updated 2026-08-11, first posted 2026-02-09), which the record does not mention.",
+   "findings": [
+    {
+     "date": "2026-08-11",
+     "what": "Registry entry NCT07395986 changed to active, not recruiting; primary completion still 2027-02; no results",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07395986",
+     "opened": true,
+     "source_kind": "registry",
+     "direction": "neutral",
+     "in_window": false,
+     "in_records_already": false
+    }
+   ],
+   "dated_queries": [
+    "registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..2026-11-09 by topic words",
+    "Europe PMC FIRST_PDATE 2026-11-02..2026-11-09 by topic words",
+    "cataract eye drops",
+    "lanosterol"
+   ],
+   "web_queries": [
+    "cataract eye drop trial OR lanosterol OR Ocusun November 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07395986"
+   ],
+   "story_score": 0,
+   "story_why": "No new event; only a status change before the window."
+  },
+  {
+   "id": "partially-resetting-cells-reverses-ageing-in-an-animal",
+   "verdict": "quiet",
+   "found": "No peer-reviewed animal report of partial resetting with an age marker moved towards youth was found dated in the window. Europe PMC searches on reprogramming and rejuvenation returned nothing, and no coverage newer than the company's 2026-10-08 results turned up.",
+   "findings": [],
+   "dated_queries": [
+    "registry LastUpdatePostDate and StudyFirstPostDate 2026-11-02..2026-11-09 by topic words",
+    "Europe PMC FIRST_PDATE 2026-11-02..2026-11-09 by topic words",
+    "partial reprogramming / Yamanaka factors / OSKM / rejuvenation",
+    "ER-100"
+   ],
+   "web_queries": [
+    "gene therapy cellular reprogramming rejuvenation trial results November 2026 Life Biosciences ER-100"
+   ],
+   "pages_opened": [],
+   "story_score": 0,
+   "story_why": "Nothing found."
+  }
+ ],
+ "unmatched": [
+  {
+   "date": "2026-11-05",
+   "what": "Registry posted first results for J&J's anti-tau antibody posdinemab in early Alzheimer's (NCT04619420), terminated for not slowing decline (company stop announced 2025-11-21 per search summary)",
+   "url": "https://clinicaltrials.gov/api/v2/studies/NCT04619420",
+   "opened": true,
+   "why_it_matters": "A second class of Alzheimer's antibody, aimed at tau, has now failed in a large trial; results page is dated in the window though the stop was a year earlier."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "New registry entry for stool-transplant capsules to slow biological ageing in healthy adults (NCT07912164)",
+   "url": "https://clinicaltrials.gov/api/v2/studies/NCT07912164",
+   "opened": true,
+   "why_it_matters": "A registered trial that names biological ageing as the aim, but no result."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "Acumen's sabirnetug failure covered by NeurologyLive on 2026-11-03, announced 2026-10-30",
+   "url": "https://www.neurologylive.com/view/alzheimer-agent-sabirnetug-misses-primary-endpoint-acumen-halts-development",
+   "opened": true,
+   "why_it_matters": "Also listed under the amyloid antibody record."
+  }
+ ]
+}
