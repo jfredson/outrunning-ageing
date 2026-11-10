@@ -34,3 +34,7 @@ The audit of the first scheduled reading (`docs/readings/audit-2026-10-18.md`) l
 ## How to switch it off, change it or run it now
 
 At claude.ai/code/routines, open "Outrunning Ageing weekly reading": the toggle disables it without deleting it; the schedule, the prompt and the tools are fields on the same page; "Run now" starts a run outside the schedule. A Claude Code session can do the same with the scheduled-task tools (pause with the enabled flag, start a run, list runs and read a run's log). Deleting it is done on the page, not from a session.
+
+## The routine's model (set 2026-11-09)
+
+The routine's model field was empty until 2026-11-09, and the readings ran on Sonnet 5.5. After the comparison in `docs/readings/model-comparison-2026-11-09.md` John ruled "All Fable 5.2", and the field was set to `claude-fable-5-2` the same day. The prompt above was not changed. The helpers take the main session's model, and their briefs are the fixed files in `docs/reading-briefs/` (`docs/weekly-reading.md`, step 1a part E).
