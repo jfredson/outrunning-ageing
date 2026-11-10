@@ -23,8 +23,10 @@ reading does that, from this file, after opening each source itself.
 ## The procedure
 
 1. **Orient.** Get the date in John's time zone: `TZ=America/Los_Angeles date +%F`. `cd` into the
-   repository and run `git fetch origin && git checkout -B main origin/main`. The window is the seven days
-   up to that date, both ends included, the same window the reading will use. Read `CLAUDE.md` at the
+   repository and run `git fetch origin && git checkout -B main origin/main`. The window is the one the reading
+   will use: it starts seven days before that date and ends on it, both ends included (a sweep on
+   2026-11-15 covers 2026-11-08 to 2026-11-15). The test sweep of 2026-11-09 started a day late, on
+   2026-11-03, because this sentence was unclear. Read `CLAUDE.md` at the
    root and `docs/reading-briefs/sweep.md`.
 2. **Sweep.** Follow `docs/reading-briefs/sweep.md` yourself, word for word, as the reader it addresses,
    with the window filled in, the repository's path, and the output file
@@ -39,7 +41,7 @@ reading does that, from this file, after opening each source itself.
    patient dosed, approval, each with the month and year), then the results releases of the large
    companies the records name, then the meetings. If the allowance runs out, say what was not searched.
 4. **Head the file.** Before the brief's sections, the file starts with: a title with the date; one
-   paragraph giving the window, the model this run is on, and counts (paper titles returned and read,
+   paragraph giving the window and counts (paper titles returned and read,
    trials first posted that were read, web searches run, pages opened, stories listed).
 5. **Publish.** One command:
 
@@ -64,5 +66,9 @@ Name "Outrunning Ageing weekly sweep", Sundays at 05:00 Pacific
 (`CRON_TZ=America/Los_Angeles 0 5 * * 0`), one hour before the weekly reading, on the same cloud
 environment, tools, connector and model (`claude-fable-5-2`) as the reading's routine. The hour is the
 session's choice: the reading of 2026-11-09 took 26 minutes with the sweep inside it, so an hour leaves
-room; if a sweep is ever still running at 06:00 the reading falls back as part D says. The routine's id
+room; if a sweep is ever still running at 06:00 the reading falls back as part D says. (The test sweep
+of 2026-11-09 took 12 minutes. It ran straight after a reading that had used up its allowance and still
+had its own, so the allowance is counted for each run. It used 28 searches and left about 170, because
+the search tool returns little that is only days old and the press-release sites refuse the cloud
+machine: more searches do not find the company announcements, and another road to them is still needed.) The routine's id
 is recorded in `docs/weekly-reading-prompt.md`.
