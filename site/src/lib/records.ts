@@ -439,6 +439,12 @@ export interface WorkedRun {
   escape_year: number | null;
   note: string;
 }
+export interface HeadlineBound {
+  year: number;
+  slowest_branch: string;
+  slowest_name: string;
+  lag: number;
+}
 export type Headline =
   | { available: false; reason: string }
   | {
@@ -459,6 +465,15 @@ export type Headline =
       before_2050: number;
       after_2100: number;
       percentiles: { p5: number; p25: number; p50: number; p75: number; p95: number };
+      // The two ends of the argument (proposed 2026-11-09): every range at its earliest with the
+      // shortest delay, then every range at its latest with the longest. Missing in a headline
+      // file written before that date.
+      bounds?: {
+        hopeful: HeadlineBound;
+        doubtful: HeadlineBound;
+        ranges_drawn: number;
+        ranges_past_century: number;
+      };
       histogram: { from: number; to: number | null; share: number }[];
       branches: HeadlineBranch[];
       counts: { leaves_counted: number; leaves_in_clinic_already: number; estimates_first_pass: number; estimates_first_pass_drawn: number; verify_entries: number };

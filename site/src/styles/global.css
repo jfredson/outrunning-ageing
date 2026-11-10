@@ -194,6 +194,9 @@ a.dim:hover { color: var(--accent); }
 .stat-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0 0 20px; padding-top: 12px; border-top: 1px solid var(--line); max-width: 560px; }
 .stat-row .stat { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 20px; font-weight: 500; letter-spacing: -0.02em; color: var(--text); line-height: 1.1; display: block; }
 .stat-row .stat-label { font-family: var(--sans); font-size: 11px; line-height: 1.3; color: var(--muted); display: block; margin-top: 3px; }
+/* The two ends of the argument under the stat row (2026-11-09), after The Quiet Galaxy's width line. */
+.home-hero .width-line { font-size: 15px; line-height: 1.5; color: var(--text-soft); margin: -8px 0 20px; max-width: 560px; }
+.home-hero .width-line strong { font-family: var(--mono); font-variant-numeric: tabular-nums; font-weight: 500; color: var(--text); }
 .home-hero h1.question { font-size: clamp(24px, 2.7vw, 32px); line-height: 1.2; letter-spacing: -0.012em; margin: 0 0 8px; max-width: 560px; }
 .home-hero .lede { margin: 0 0 14px; font-size: 16.5px; line-height: 1.5; max-width: 560px; }
 .home-hero .ctas { margin-top: 6px; }
