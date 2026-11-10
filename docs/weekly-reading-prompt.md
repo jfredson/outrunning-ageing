@@ -51,3 +51,5 @@ John ruled "Split into two runs" on 2026-11-09, after the reading of that day ra
 > 4. Finish with the report the procedure specifies: a short numbered list. No prose beyond that.
 >
 > Get the date in John's time zone first (`TZ=America/Los_Angeles date +%F`); all dates you write are absolute, year-month-day. Plain language throughout, UK spelling, and never a bare id.
+
+**Created 2026-11-09** with the scheduled-task tools: id `trig_01Sa7LaUWiV1Nzsq2BaLvmYc` (the weekly sweep routine), page https://claude.ai/code/routines/trig_01Sa7LaUWiV1Nzsq2BaLvmYc, schedule `CRON_TZ=America/Los_Angeles 0 5 * * 0`. First scheduled firing: Sunday 2026-11-15 at about 05:07 Pacific.
