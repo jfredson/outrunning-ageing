@@ -1,0 +1,731 @@
+{
+ "records": [
+  {
+   "id": "aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial",
+   "name": "A drug that clears aged cells beats a sham treatment in a controlled trial",
+   "corrections": [
+    {
+     "entry_says": "The 2022 eye trial of UBX1325 (registry number NCT04857996) is the record for first human: a single injection 'improved their vision over twenty-four weeks compared with a sham injection', and the test asks for an improvement in 'the trial's pre-stated main measure'.",
+     "source_says": "The registry entry lists the trial's two main measures as safety and tolerability (of the eye and of the whole body). Change in vision is listed as a secondary measure. The peer-reviewed report (Klier and colleagues, NEJM Evidence, 2025-04-22) says the same in its abstract: 'The primary trial objective was to evaluate the safety and side-effect profile', vision was the 'secondary objective', the difference from sham at week 48 was 5.6 letters with a 95 per cent confidence interval of -1.5 to 12.7 (which includes zero), and the authors conclude there were 'trends suggestive of potential efficacy; larger trials are needed'. The statistically significant figure (7.6 letters better than sham at 24 weeks, p = 0.0084) is from the company's release of 2022-11-01, on that secondary measure. So the vision result was real as reported, but it was not the trial's pre-stated main measure, and the peer-reviewed report does not call it significant.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04857996 ; https://europepmc.org/article/MED/40261111 ; https://www.sec.gov/Archives/edgar/data/1463361/000095017022020696/ubx-ex99_1.htm",
+     "opened": true
+    },
+    {
+     "entry_says": "The description gives no figures for the eye trial; the stage record is the registry entry NCT04857996.",
+     "source_says": "For the record: the registry shows the trial completed on 2023-04-06 with 65 people (32 on the drug, 33 on sham) and results posted on 2024-05-16. The posted results give the change in vision at week 24 as +6.7 letters on the drug and -1.4 on sham, and at week 48 as +6.2 and +0.6. The company's release of 2022-11-01 gave the week-24 gain on the drug as +6.2 letters, so the registry and the release differ by half a letter at week 24.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04857996",
+     "opened": true
+    },
+    {
+     "entry_says": "The Amsterdam liver trial had 31 people.",
+     "source_says": "The trial's registry entry (NCT05506488) gives the number enrolled as 30 (marked actual), status completed, primary completion 2026-02-26, last updated 2026-04-15, with no results posted on the registry. The journal report's figure is 31, as the entry says; the registry and the paper differ by one person. The registry's stated main measure (at least one stage less scarring without worsening, at 21 weeks) matches the entry.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT05506488",
+     "opened": true
+    },
+    {
+     "entry_says": "Estimate reasons: 'several academic and company programmes in the knee, the lung and the eye are at early stages'.",
+     "source_says": "The registry does not show this on 2026-11-09. In the knee, no trial of a drug of this class is recruiting: the two knee trials listed are withdrawn (NCT04770064, funding not awarded) or suspended (NCT05276895, Assiut University, 'unavailability of drugs'), and a fisetin-with-other-treatments knee trial (NCT04815902) has had no update since 2024-04-16 and is marked status unknown. In the eye, the only company programme was Unity's, and the company dissolved (certificate effective 2025-09-26; a notice ending its registration with the US securities regulator was filed on 2026-01-02). The trials of this class that finished in 2026 are in liver scarring, frailty in people with HIV, and bone loss.",
+     "url": "https://clinicaltrials.gov/api/v2/studies?query.term=senolytic&pageSize=100 ; https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1463361&type=15-12G",
+     "opened": true
+    }
+   ],
+   "missing": [
+    {
+     "date": "2025-04-22",
+     "what": "The peer-reviewed report of the 2022 eye trial (Klier and colleagues, 'Safety and Efficacy of Senolytic UBX1325 in Diabetic Macular Edema', NEJM Evidence volume 4 issue 5) states that the trial's main aim was safety and that vision was a secondary measure, and gives the week-48 difference from sham as 5.6 letters with a confidence interval that includes zero. An editorial in the same issue (Emily Chew) is titled 'A Potential Novel Therapy?'. The data folder has no entry for this paper.",
+     "url": "https://europepmc.org/article/MED/40261111",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "stage",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "On a plain reading of the test's words 'improves the trial's pre-stated main measure ... by a statistically significant margin, in a peer-reviewed report or a trial registry's posted results', the eye trial does not meet the test, because its pre-stated main measure was safety. The Amsterdam liver trial (published 2026-10-01) does meet those words: its pre-stated main measure was the biopsy result and P = 0.021. So the stage (first human) can stand, but its date and its record would be 2026-10-01 and the liver paper, not 2022 and the eye trial; only the abstract of the NEJM Evidence paper was read, since the full text needs a subscription."
+    },
+    {
+     "date": "2025-08-05",
+     "what": "The follow-on eye trial against the standard drug (ASPIRE, registry number NCT06011798) posted its results on the registry: 52 people (26 in each group), completed 2025-04-08. On the main measure, the average of weeks 20 and 24, vision improved by 3.7 letters on UBX1325 and 5.1 letters on the standard drug aflibercept; at week 36 the figures were 4.6 and 4.7. The entry says only that this trial 'missed its main goal in 2025'; the company's releases of 2025-03-24 and 2025-05-05 are summarised in the claims file on Unity but the registry results are not logged anywhere in the data folder.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06011798",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "This trial had no sham or placebo group, so it could not meet the test whatever it found. It gives the description a checkable number for 'missed its main goal'."
+    },
+    {
+     "date": "2024-08-07",
+     "what": "A third controlled trial of UBX1325 is not mentioned in the entry or anywhere in the data folder: ENVISION, in wet age-related macular degeneration (registry number NCT05275205), 51 people, UBX1325 against aflibercept, completed 2023-07-25, results posted 2024-08-07. The company's release of 2023-03-27 said the drug 'did not achieve non-inferiority through 24 weeks'. The registry's posted figures at week 24 are +0.1 letters on UBX1325 and +2.2 on aflibercept. Its registered main measure was safety.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT05275205 ; https://www.sec.gov/Archives/edgar/data/1463361/000095017023009847/ubx-ex99_1.htm",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "It is a second miss for the same drug in a second, more plainly age-related eye condition, before the 2025 miss. The estimate's earliest year assumes the UBX1325 asset is picked up; a buyer would be weighing two misses against one small positive result on a secondary measure."
+    },
+    {
+     "date": "2024-07-02",
+     "what": "A controlled trial of the same two drugs as the liver trial (dasatinib and quercetin) missed its main measure and is not in the entry: Farr and colleagues, Nature Medicine 30, pages 2605 to 2612, a phase 2 randomised trial in 60 postmenopausal women (registry number NCT04313634, results posted 2024-07-22). The main measure, change in a blood marker of bone breakdown at 20 weeks, did not differ from the untreated control group (P = 0.611). The control group was untreated, not on placebo. The data folder mentions this trial only in passing in two weekly readings (2026-10-25 and 2026-11-08) and has no paper entry for it.",
+     "url": "https://europepmc.org/article/MED/38956196 ; https://clinicaltrials.gov/api/v2/studies/NCT04313634",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "The notes count the controlled results for the class as one failure (knee, 2020) and two positives. This is a second controlled miss on a pre-stated main measure, with the same two-drug course that the liver trial used, so the balance of controlled results is less favourable than the notes say."
+    },
+    {
+     "date": "2025-08-26",
+     "what": "A placebo-controlled trial of fisetin in older nursing-home residents with COVID-19 (COVID-FIS, Mayo Clinic, registry number NCT04537299) is recorded on the registry as terminated: 'The DSMB and NIA determined the study should be stopped due to futility.' Twenty people had been enrolled; results were posted on 2025-08-26. A sister trial in people at home (COVFIS-HOME, NCT04771611, 55 people, results posted 2023-08-01) shows 26 of 27 on fisetin and 22 of 24 on placebo with no limitations at 60 days. Neither is in the data folder.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04537299 ; https://clinicaltrials.gov/api/v2/studies/NCT04771611",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "These are placebo-controlled trials of a compound used to clear aged cells that did not show a benefit, one of them stopped early. The condition is an infection, not an age-related condition, so the bearing on the estimate is slight."
+    },
+    {
+     "date": "2026-08-26",
+     "what": "A placebo-controlled phase 2 trial of dasatinib and quercetin in 82 frail or near-frail people with HIV, sponsored by the US National Institute of Allergy and Infectious Diseases (registry number NCT07144293), is recorded as completed on 2026-08-26 (registry updated 2026-09-15). One of its three main measures is change in walking speed over 12 weeks. No results are posted yet. It is not in the data folder.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07144293",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "stage",
+     "direction": "neutral",
+     "test_met_on_plain_reading": "unclear",
+     "why": "Walking is one of the measures the test names, and this trial is more than twice the size of the liver trial with a placebo group. When its results are posted or published they will either be a third controlled result or a third miss; nothing can be said until then."
+    },
+    {
+     "date": "2026-04-24",
+     "what": "A 120-person randomised trial at Odense University Hospital, Denmark, of dasatinib and quercetin (and, separately, nicotinamide riboside) added before a standard bone drug in people with age-related bone loss (registry number NCT06018467) is recorded as completed on 2026-04-24 (registry updated 2026-10-23). No results are posted. The weekly reading of 2026-11-01 saw this entry and set it aside as 'a bone condition and not a test of this kind'.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT06018467",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "estimate",
+     "direction": "neutral",
+     "test_met_on_plain_reading": "unclear",
+     "why": "The control group is untreated and assessors only are masked, so it has no placebo or sham group and could not meet the test as worded. It is still the largest finished trial of the two-drug course, and its result will bear on whether the liver result is believed."
+    },
+    {
+     "date": "2025-05-15",
+     "what": "A randomised, double-blind, placebo-controlled trial of quercetin alone in 97 people having heart bypass surgery (Mury and colleagues, Aging Cell 24, e70108; Montreal Heart Institute; registry number NCT04907253, results posted on the registry 2026-04-15). The two pre-stated main measures were inflammation and blood-vessel function in the removed artery: the inflammation marker showed 'a trend' (p = 0.073) and vessel relaxation improved (p = 0.049), in men but not in women. Irregular heartbeat after surgery was less common on quercetin (4 per cent against 18 per cent, p = 0.033), which was not a main measure. Not in the data folder.",
+     "url": "https://europepmc.org/article/MED/40375481 ; https://clinicaltrials.gov/api/v2/studies/NCT04907253",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": "unclear",
+     "why": "Quercetin on its own is a plant compound that the authors frame as acting on aged cells in blood vessels; whether it counts as 'a drug meant to kill aged cells' is a judgement for the owner of the records. One of two main measures reached p = 0.049 and it was a laboratory measure on removed tissue, not vision, walking, joint function or disease progression."
+    },
+    {
+     "date": "2026-03-26",
+     "what": "Rubedo Life Sciences announced preliminary results of a phase 1, vehicle-controlled trial of its skin cream RLS-1496 in psoriasis, eczema and skin ageing, and the registry shows a 24-person, single-group phase 1 and 2 trial in sun-damaged skin (registry number NCT07340697) with primary completion on 2026-05-27 and no results posted. The weekly reading of 2026-10-17 logged the Rubedo items; the treatment's own entry does not mention them.",
+     "url": "https://www.businesswire.com/news/home/20260326810310/en ; https://clinicaltrials.gov/api/v2/studies/NCT07340697",
+     "opened": false,
+     "source_kind": "company-release",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "The company release would not open (the site refused the request), so its content is from a search summary only; the registry entry was opened. A phase 1 trial whose main measure is safety does not meet the test, and this is the only company programme of the class found with a trial reporting in 2026."
+    },
+    {
+     "date": "2026-01-02",
+     "what": "Unity Biotechnology filed a notice ending the registration of its shares with the US Securities and Exchange Commission (Form 15) on 2026-01-02. Its filings from 2025-05-05 to that date record no sale or licence of UBX1325; a web search found no buyer either. The claims file on Unity gives the dissolution (2025-09-26) but not this last filing.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1463361/000119312526000373/d80085d1512g.htm ; https://data.sec.gov/submissions/CIK0001463361.json",
+     "opened": true,
+     "source_kind": "company-release",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "The estimate's earliest year (2031) 'assumes the UBX1325 asset is picked up and a confirmatory trial starts within two years'. Eighteen months after the company let its staff go, no public record shows the asset picked up. (The list of filings and the Form 15 itself were both opened.)"
+    },
+    {
+     "date": "2026-10-05",
+     "what": "A systematic review of human trials of drugs against aged cells (Trivedi and colleagues, British Journal of Clinical Pharmacology) found six completed clinical studies and concluded that the evidence 'remains insufficient to establish clinical efficacy or long-term safety' and that these drugs 'should therefore be considered investigational'. Not in the data folder.",
+     "url": "https://europepmc.org/article/MED/42834340",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "A review, not a trial, so it cannot meet the test. It is a recent outside statement of where the class stands and agrees with the entry's cautious reading. Only the abstract was read."
+    }
+   ],
+   "checked": [
+    "NCT04857996 (the eye trial): completed, 65 people, sponsor Unity Biotechnology, results posted 2024-05-16; the entry's 'small trial in the eye', 'single injection' and 'sham' are right",
+    "NCT06011798 (the follow-on eye trial): the entry's 'missed its main goal in 2025' agrees with the registry's posted results and the company's release of 2025-03-24",
+    "Company release of 2022-11-01 (filed copy on sec.gov): 24-week vision result against sham, p = 0.0084; the entry's 'in 2022 the company ... reported' is right",
+    "Company release of 2025-05-05 (filed copy on sec.gov): the workforce reduction 'affecting all of its workforce'; the entry's 'the company let its staff go' is right",
+    "Koning and colleagues, Nature Metabolism, DOI 10.1038/s42255-026-01643-4: Crossref gives online 2026-10-01 and 35 authors, as the data folder's paper entry says (the 47 and 7 per cent figures were taken from the data folder's own full reading, not reopened)",
+    "No regulator approval of a drug of this class was found in any country"
+   ],
+   "queries": [
+    "registry: senolytic",
+    "registry: UBX1325 OR foselutoclax",
+    "registry: UBX0101",
+    "registry: dasatinib quercetin",
+    "registry: fisetin",
+    "registry: RLS-1496",
+    "registry: Rubedo",
+    "Europe PMC: UBX1325 OR foselutoclax, from 2025-01-01",
+    "Europe PMC: senolytic / dasatinib and quercetin / fisetin / navitoclax limited to clinical trial publication types, from 2025-01-01",
+    "Europe PMC: senolytic or fisetin or dasatinib and quercetin in title with patients/adults/humans/clinical/placebo, from 2025-01-01",
+    "Europe PMC: Farr senolytic postmenopausal, from 2024-01-01",
+    "web: Unity Biotechnology UBX1325 BEHOLD 24-week results diabetic macular edema sham p-value press release 2022",
+    "web (wire services and sec.gov): senolytic phase 2 topline results 2026",
+    "web (wire services and sec.gov): senolytic clinical trial did not meet OR discontinued OR primary endpoint 2025 senescent cells",
+    "web: Rubedo Life Sciences RLS-1496 Phase 1 results senolytic 2026",
+    "web: UBX1325 foselutoclax acquired OR licensed OR asset purchase after Unity Biotechnology dissolution 2025 2026",
+    "web: senolytic drug regulatory approval OR IND clearance OR orphan drug OR fast track FDA EMA PMDA 2026 senescent cells",
+    "sec.gov: list of Unity Biotechnology filings (company number 1463361)"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04857996",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06011798",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05275205",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05506488",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04313634",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04537299",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04771611",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07144293",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06018467",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04907253",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07340697",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05422885",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05416515",
+    "https://europepmc.org/article/MED/40261111",
+    "https://europepmc.org/article/MED/38956196",
+    "https://europepmc.org/article/MED/40375481",
+    "https://europepmc.org/article/MED/42834340",
+    "https://api.crossref.org/works/10.1038/s42255-026-01643-4",
+    "https://data.sec.gov/submissions/CIK0001463361.json",
+    "https://www.sec.gov/Archives/edgar/data/1463361/000095017022020696/ubx-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1463361/000095017023009847/ubx-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1463361/000095017023013935/ubx-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1463361/000095017025043483/ubx-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1463361/000095017025063167/ubx-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1463361/000119312525162537/d921163d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1463361/000119312525220778/d190494d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1463361/000119312526000373/d80085d1512g.htm"
+   ],
+   "could_not_check": "The full text of the NEJM Evidence report of the eye trial (subscription; the abstract was read through Europe PMC). The Rubedo release on businesswire.com (the site refused the request). The full text of the Nature Metabolism liver paper was not reopened; the data folder records a full reading on 2026-10-20. Regulators in Japan, China, South Korea and Australia were covered only by web search, which found no approval or refusal for a drug of this class; their own databases were not searched one by one."
+  },
+  {
+   "id": "aged-cell-clearing-drug-relieves-knee-arthritis",
+   "name": "A drug that clears aged cells relieves knee osteoarthritis",
+   "corrections": [
+    {
+     "entry_says": "'in 2017 a Mayo Clinic and Unity Biotechnology group showed that killing them in the knees of mice eased pain and let cartilage regrow'",
+     "source_says": "The 2017 paper (Jeon and colleagues, Nature Medicine 23, pages 775 to 781, online 2017-04-24) was led from Johns Hopkins University: the first author (Ok Hee Jeon) and the last author (Jennifer Elisseeff) are both there. The other authors are from the Buck Institute for Research on Aging, Unity Biotechnology, the Mayo Clinic (two authors, Baker and van Deursen) and three other institutions. 'A Johns Hopkins group, with the Buck Institute, Unity Biotechnology and the Mayo Clinic' would match the paper. The date and the findings (less pain, more cartilage growth) are as the entry says.",
+     "url": "https://europepmc.org/article/MED/28436958 ; https://api.crossref.org/works/10.1038/nm.4324",
+     "opened": true
+    },
+    {
+     "entry_says": "Estimate reasons: 'the earliest assumes a trial already recruiting reads out positive by 2028', and 'The likely year assumes an academic trial with an oral drug reports a positive result around 2030'.",
+     "source_says": "On 2026-11-09 the registry lists no trial of a drug of this class in osteoarthritis that is recruiting or about to recruit. A search by condition (osteoarthritis) and treatment (fisetin, quercetin, dasatinib, navitoclax, UBX0101 or senolytic) returns nine entries: four finished Unity trials, the finished fisetin trial, two withdrawn for lack of funding (NCT04770064 and NCT05482672), one suspended for 'unavailability of drugs' (NCT05276895) and one with status unknown and no update since 2024-04-16 (NCT04815902). So there is no 'trial already recruiting' for the earliest year to rest on.",
+     "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=osteoarthritis&query.intr=fisetin%20OR%20quercetin%20OR%20dasatinib%20OR%20navitoclax%20OR%20UBX0101%20OR%20senolytic&pageSize=100",
+     "opened": true
+    },
+    {
+     "entry_says": "Notes on the 2020 trial: 'It was a single injection of a short-lived drug, judged at twelve weeks'.",
+     "source_says": "Right for the phase 2 trial (NCT04129944). But the registry also shows a separate Unity study of single and repeat doses of the same drug in the knee (NCT04229225, 35 people, completed 2020-09-18) and the phase 2 trial's own 24-week follow-up. The phase 2 trial's posted results (2021-12-29) show no difference from placebo at 24 weeks either. The repeat-dose study has never had results posted; the company said on 2020-11-04 that '24-week results from the Phase 1b and Phase 2 studies will be shared at a future scientific meeting'. So a longer look and a repeat course were both tried, and neither is on the record as helping.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04129944 ; https://clinicaltrials.gov/api/v2/studies/NCT04229225 ; https://www.sec.gov/Archives/edgar/data/1463361/000156459020050461/ubx-ex991_6.htm",
+     "opened": true
+    }
+   ],
+   "missing": [
+    {
+     "date": "2021-12-29",
+     "what": "The 2020 knee trial's results are posted on the registry (NCT04129944, results first posted 2021-12-29), which the entry's settler names as a settling record but the entry does not cite. 183 people in four groups of 45 or 46. Change in the pain score from the start to week 12: -1.07 on placebo, and -0.89, -1.03 and -1.03 on the three doses. At week 24: -1.12 on placebo, and -1.02, -1.00 and -1.00 on the three doses. The data folder holds the company's release of 2020-08-17 for this trial but not the registry results. No peer-reviewed report of this trial was found in Europe PMC.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04129944",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "It confirms the failure from the registry and adds the 24-week figures, which weaken the note's suggestion that twelve weeks was too short a time to judge."
+    },
+    {
+     "date": "2020-11-17",
+     "what": "Unity's one-year follow-up study of the people in its knee trials (NCT04349956, 161 people) is recorded as terminated, with the reason given as 'Inability to achieve primary or secondary study objectives' (primary completion 2020-11-02, last updated 2020-11-17). Not in the data folder.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04349956",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "It is a stopped trial of the entry's own drug that the entry does not mention. It adds no new result."
+    },
+    {
+     "date": "2024-04-16",
+     "what": "A second placebo-controlled fisetin trial in knee osteoarthritis by the same institute as the finished one (Steadman Philippon Research Institute, NCT04815902: fisetin and the blood-pressure drug losartan added to a bone-marrow cell injection, 100 people planned, four groups) has had no registry update since 2024-04-16, and the registry now marks its status as unknown. Its planned end was 2025-06-01. Its main measure is safety. The weekly reading of 2026-10-25 saw 'a fisetin-and-losartan trial listing with no results posted' but the entry does not mention it.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04815902",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "This was the one remaining registered knee trial of the class with a placebo group, and it has gone quiet past its planned end. Its main measure is safety, so like the finished fisetin trial it could not meet the test even if it reported."
+    },
+    {
+     "date": "2023-07-25",
+     "what": "A 60-person placebo-controlled trial at Assiut University, Egypt, of quercetin with fisetin in osteoarthritis, whose main measure is pain (NCT05276895), is recorded as suspended, reason 'unavailability of drugs'; last updated 2023-07-25. A US trial of fisetin after knee cartilage (meniscus) repair (NCT05505747) was withdrawn, 'Funding not awarded', last updated 2025-05-08. Neither is in the data folder.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT05276895 ; https://clinicaltrials.gov/api/v2/studies?query.term=senolytic&pageSize=100",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "The Assiut trial is the only registered trial that could meet the test as worded (pain as the pre-stated main measure, against placebo), and it is not running. Together with the two withdrawals for lack of funding, the registry shows the academic route the estimate relies on is stalled for want of money and supply."
+    },
+    {
+     "date": "2024-09-19",
+     "what": "Detail from the finished fisetin trial's posted results that the notes do not give: 25 of the 34 people on fisetin and 35 of the 40 on placebo finished the trial (9 and 5 did not).",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04210986",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "A small addition to a trial the entry already describes correctly; it changes nothing about the stage or the years."
+    },
+    {
+     "date": "2026-11-05",
+     "what": "The same institute registered, on 2026-11-05, a finished trial of two fisetin schedules in 82 older adults that measured signs of aged cells in blood cells (NCT07918261, completed 2024-01-30), with a preprint of its results dated 2026-07-22. It is not a knee trial; it is reported in full under the entry 'A drug clears aged cells from a person'.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07918261",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "Named here only because it comes from the group whose knee trial this entry describes, and shows that group is still publishing on fisetin while its knee trials are silent."
+    }
+   ],
+   "checked": [
+    "NCT04210986 (the fisetin knee trial): completed 2023-02-01, enrolment count 75, 74 started (34 fisetin, 40 placebo), results first posted 2024-09-19, main measure safety with 28 and 33 people having an adverse event (p above 0.9), no secondary measure below 0.05; all as the notes say",
+    "NCT04770064 (ROPE): withdrawn, 'Funding was not awarded', nobody enrolled; as the notes say",
+    "NCT04129944 (the 2020 Unity trial): 183 people, single injection, pain at 12 weeks as the main measure, no difference from placebo; as the entry says",
+    "Jeon and colleagues 2017, DOI 10.1038/nm.4324: online 2017-04-24, as the entry's stage date says",
+    "The conference abstract in Osteoarthritis and Cartilage 33, page S456 (April 2025): Crossref confirms the title, the page and the authors Tashman, Philippon, Dornan and Huard (DOI 10.1016/j.joca.2025.02.667)",
+    "No regulator approval of a drug of this class for osteoarthritis was found"
+   ],
+   "queries": [
+    "registry: UBX0101",
+    "registry: senolytic osteoarthritis",
+    "registry: senescent cells knee osteoarthritis",
+    "registry by condition osteoarthritis and treatment fisetin OR quercetin OR dasatinib OR navitoclax OR UBX0101 OR senolytic",
+    "Europe PMC: UBX0101 from 2019-01-01 (266 hits, titles scanned for a trial report; none found)",
+    "Europe PMC: (fisetin OR senolytic OR UBX0101) with osteoarthritis and fisetin/senolytic/senescent in the title and trial or randomized, from 2025-01-01",
+    "Europe PMC: senolytic or senescent cells with osteoarthritis and trial/patients/randomized/phase in the title, from 2025-01-01",
+    "Crossref: Results from a randomized clinical trial evaluating the senolytic fisetin for treating knee osteoarthritis",
+    "web: knee osteoarthritis senolytic clinical trial results 2025 OR 2026 placebo pain intra-articular OR oral senescent phase 2",
+    "web (wire services and sec.gov): osteoarthritis senolytic OR senescent cells phase 2 results OR first patient dosed OR IND"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04210986",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04770064",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04129944",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04349956",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04229225",
+    "https://clinicaltrials.gov/api/v2/studies/NCT03513016",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04815902",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05276895",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05025956",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07918261",
+    "https://clinicaltrials.gov/api/v2/studies?query.cond=osteoarthritis&query.intr=fisetin%20OR%20quercetin%20OR%20dasatinib%20OR%20navitoclax%20OR%20UBX0101%20OR%20senolytic&pageSize=100",
+    "https://europepmc.org/article/MED/28436958",
+    "https://api.crossref.org/works/10.1038/nm.4324",
+    "https://api.crossref.org/works/10.1016/j.joca.2025.02.667",
+    "https://www.sec.gov/Archives/edgar/data/1463361/000156459020050461/ubx-ex991_6.htm"
+   ],
+   "could_not_check": "The text of the April 2025 conference abstract on the fisetin knee trial (Osteoarthritis and Cartilage 33, S456): the publisher's page returned only a redirect and Europe PMC does not hold it, so, as the notes already say, its text is still unread. Whether the 24-week results of Unity's repeat-dose study were ever presented at a meeting: no record was found. Trial registries outside the United States (China, Japan, the European Union) were not searched directly."
+  },
+  {
+   "id": "clearing-aged-cells-makes-old-animals-live-longer",
+   "name": "Clearing aged cells makes old animals live longer",
+   "corrections": [
+    {
+     "entry_says": "'in 2018 the same group gave old ordinary mice a two-drug course that kills such cells and the mice lived longer from that point'",
+     "source_says": "The 2018 paper (Xu and colleagues, 'Senolytics improve physical function and increase lifespan in old age', Nature Medicine 24, pages 1246 to 1256, online 2018-07-09) came from a different Mayo Clinic laboratory from the 2016 paper. The 2016 paper's senior author is Jan van Deursen; the 2018 paper's is James Kirkland. Two of the 2018 paper's 33 authors (Verzosa and Miller) are also on the 2016 paper. 'A second Mayo Clinic group' would match the record better than 'the same group'. The finding is as the entry says: the abstract gives 36 per cent longer survival after treatment and a mortality hazard reduced to 65 per cent. This paper, which the notes call 'the one that matters most for people', has no entry of its own in the data folder's publications log.",
+     "url": "https://europepmc.org/article/MED/29988130 ; https://europepmc.org/article/MED/26840489",
+     "opened": true
+    }
+   ],
+   "missing": [
+    {
+     "date": "2023-12-02",
+     "what": "The US National Institute on Aging's mouse testing programme, which tests compounds at three sites in genetically mixed mice, reported that fisetin, a plant compound widely used to clear aged cells, did not lengthen life in either sex at the dose and schedule used (Harrison and colleagues, GeroScience 46, pages 795 to 816; fisetin is named in the paper's title among the compounds that 'do not significantly affect lifespan'). Nothing in the data folder mentions this result.",
+     "url": "https://europepmc.org/article/MED/38041783",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "The description gives two animal results, both positive and both from the Mayo Clinic. This is an independent, multi-site test of a drug of the class that found no longer life, so the animal record is more mixed than the description says. It is before the 2025 start of this check's window and is reported because the entry lacks it; it does not touch the test for the next stage, which is a trial in people."
+    },
+    {
+     "date": "2025-12-31",
+     "what": "A preprint from Newcastle University (Brookes and colleagues, Preprints.org) reports that two short courses of an aged-cell-clearing drug pair (navitoclax with a second compound) given to overweight male mice from 20 months of age lengthened median life by 18 to 21 per cent against untreated mice, as did a food-supplement mixture; the authors describe the drug's effects on frailty as 'transient'. Not peer reviewed. Not in the data folder.",
+     "url": "https://europepmc.org/article/PPR/PPR1139466",
+     "opened": true,
+     "source_kind": "preprint",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "It is a third animal result in the direction of the two the description gives, from a group outside the Mayo Clinic, with a different drug. It is animal work, so it cannot meet the test for the next stage. Only the abstract was read."
+    },
+    {
+     "date": "2026-06-17",
+     "what": "A peer-reviewed study in Nature Aging (Hou and colleagues, volume 6, pages 1281 to 1297) mapped what the two-drug course (dasatinib and quercetin) does across the tissues of old mice. Its abstract names the course's 'potential off-target effects, incomplete senescent cell clearance and associated hematologic side effects', and reports that starting earlier and treating for longer 'showed a greater tendency' to reduce signs of ageing than a short, late course. It did not measure length of life. Not in the data folder.",
+     "url": "https://europepmc.org/article/MED/42310394",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "The estimate's reasoning turns on how a trial in people would have to be run. A finding that long treatment from early in ageing works better than a short late course points to longer and larger human trials, not shorter ones, which is consistent with the entry's far horizon. Only the abstract was read."
+    },
+    {
+     "date": "2026-01-29",
+     "what": "The Nature Aging comparison of 21 aged-cell-clearing drugs (Wakita and colleagues, volume 6, pages 316 to 328, online 2026-01-29) found that even the two most effective drugs left a share of aged cells alive after extended treatment. The weekly readings of 2026-11-01 and 2026-11-08 name this paper in passing; it is not in the publications log and the entry does not mention it.",
+     "url": "https://europepmc.org/article/MED/41611832",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "Laboratory and mouse work on how well the drugs kill aged cells, with no measure of length of life, so it does not bear on the test. It is context for why the engineered-mouse result of 2016 (which removes the cells by a genetic switch) may not carry over fully to drugs."
+    },
+    {
+     "date": "2026-11-09",
+     "what": "The registry holds no trial in people of a drug of this class whose main measure is length of life or years free of age-related disease. A search for trials of these drugs with death or survival among their measures returned eleven entries: trials in sepsis, COVID-19, cancer and HIV, and none in ageing as such. The description's statement that 'No human result of that kind exists' still holds on 2026-11-09.",
+     "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=senolytic%20OR%20fisetin%20OR%20dasatinib%20quercetin&query.outc=mortality%20OR%20survival%20OR%20death%20OR%20lifespan&pageSize=100",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "estimate",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "This confirms the reasoning's opening sentence ('has not been proposed') from the registry as of the check date. Nothing here moves the years."
+    }
+   ],
+   "checked": [
+    "Baker and colleagues 2016, DOI 10.1038/nature16932: Crossref gives Nature 530, pages 184 to 189, online 2016-02-03, 13 authors, as the entry's stage date and the data folder's paper entry say; no correction or retraction notice was found in Crossref or Europe PMC",
+    "Xu and colleagues 2018, DOI 10.1038/s41591-018-0092-9: ordinary old mice, the two-drug course, longer survival after treatment (36 per cent); as the entry says apart from 'the same group'; no correction notice found",
+    "No trial in people with a lifespan or disease-free-years main measure exists on the registry, as the description says"
+   ],
+   "queries": [
+    "Europe PMC: title 'Senolytics improve physical function and increase lifespan in old age'",
+    "Europe PMC: senolytic/fisetin/senescent cells/dasatinib with lifespan/longevity/survival in the title, mice, from 2023-01-01",
+    "Europe PMC: 'Interventions Testing Program' or UM-HET3 lifespan in the title, from 2023-01-01",
+    "Europe PMC: senolytic and lifespan terms in the abstract, mice, not reviews, from 2025-01-01",
+    "Europe PMC: journal Nature Aging with senolytic in the title, from 2025-01-01",
+    "Europe PMC: correction, corrigendum or erratum notices for the 2016 and 2018 papers",
+    "registry: trials of senolytic OR fisetin OR dasatinib quercetin with mortality OR survival OR death OR lifespan among the outcome measures",
+    "registry: senolytic; dasatinib quercetin; fisetin (the same sweeps as for the other entries on this branch)",
+    "web: senolytic lifespan mice study 2025 OR 2026 did not extend OR extended lifespan dasatinib quercetin OR fisetin OR navitoclax independent replication"
+   ],
+   "pages_opened": [
+    "https://api.crossref.org/works/10.1038/nature16932",
+    "https://europepmc.org/article/MED/26840489",
+    "https://europepmc.org/article/MED/29988130",
+    "https://europepmc.org/article/MED/38041783",
+    "https://europepmc.org/article/PPR/PPR1139466",
+    "https://europepmc.org/article/MED/42310394",
+    "https://europepmc.org/article/MED/41611832",
+    "https://europepmc.org/article/MED/42260530",
+    "https://clinicaltrials.gov/api/v2/studies?query.intr=senolytic%20OR%20fisetin%20OR%20dasatinib%20quercetin&query.outc=mortality%20OR%20survival%20OR%20death%20OR%20lifespan&pageSize=100"
+   ],
+   "could_not_check": "The 'about a quarter longer' figure for the 2016 mice is in the paper's results text, not its abstract; the data folder records it as checked on 2026-10-16 (27 and 24 per cent) and it was not reopened here. Full texts of the 2025 preprint and the two 2026 Nature Aging papers were not read, only abstracts. One paper whose title claims longer life from an immune treatment against aged cells combined with stem cells (Ichim and colleagues, Journal of Translational Medicine, 2026-06-08) was opened: its abstract reports liver and blood measures in two mouse models of induced damage and gives no length-of-life figure, so it is not reported as a missing fact."
+  },
+  {
+   "id": "drug-clears-aged-cells-from-a-person",
+   "name": "A drug clears aged cells from a person",
+   "corrections": [
+    {
+     "entry_says": "Description: 'The first company drug to reach a controlled trial on a clinical outcome, for knee osteoarthritis, failed in 2020; a small academic controlled trial ... in scarred fatty liver read out positive on 2026-10-01 ..., the first result on a clinical-type measure in this class that went the other way.'",
+     "source_says": "Between the 2020 knee failure and the 2026 liver result the public record holds four other controlled results for the class that this sentence passes over. (1) 2022-11-01: Unity's eye drug UBX1325 against sham, vision better at 24 weeks (p = 0.0084) on a secondary measure; the sister entry on this branch treats this as the first positive controlled result, so the two entries disagree about which came first. (2) 2023-03-27: the same drug in a second eye condition 'did not achieve non-inferiority' against the standard drug. (3) 2024-07-02: dasatinib and quercetin in 60 postmenopausal women missed the main bone measure (P = 0.611). (4) 2025-03-24: the eye drug's follow-on trial missed its main measure. So the liver result was not the first to go the other way on any reading that counts the eye result, and it came after three more controlled misses, not one.",
+     "url": "https://www.sec.gov/Archives/edgar/data/1463361/000095017022020696/ubx-ex99_1.htm ; https://www.sec.gov/Archives/edgar/data/1463361/000095017023009847/ubx-ex99_1.htm ; https://europepmc.org/article/MED/38956196 ; https://www.sec.gov/Archives/edgar/data/1463361/000095017025043483/ubx-ex99_1.htm",
+     "opened": true
+    },
+    {
+     "entry_says": "The Amsterdam liver trial had 31 people.",
+     "source_says": "The registry entry for the trial (NCT05506488) gives 30 enrolled (marked actual). The journal report's figure is 31, as the entry says; the two sources differ by one. No results are posted on the registry.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT05506488",
+     "opened": true
+    },
+    {
+     "entry_says": "Estimate reasons: 'several smaller trials in knee, lung and eye conditions are under way or planned'.",
+     "source_says": "On 2026-11-09 the registry shows no trial of a drug of this class under way or planned in the knee (two withdrawn, one suspended, one silent since 2024-04-16) or in the eye (all four Unity eye trials are finished and the company is dissolved). In the lung two small trials are listed (NCT05593588, 20 people, active; NCT07676435, 40 people, recruiting). The trials of the class now running or just finished are mostly in frailty, bone loss, Alzheimer's disease, blood-vessel function and cancer survivors.",
+     "url": "https://clinicaltrials.gov/api/v2/studies?query.term=senolytic&pageSize=100 ; https://clinicaltrials.gov/api/v2/studies?query.term=dasatinib%20quercetin&pageSize=100 ; https://clinicaltrials.gov/api/v2/studies?query.term=fisetin&pageSize=100",
+     "opened": true
+    }
+   ],
+   "missing": [
+    {
+     "date": "2026-05-19",
+     "what": "The trial behind the 2019 kidney report is still open. Its registry entry (NCT02848131, Mayo Clinic, 'Senescence in Chronic Kidney Disease') was last updated on 2026-05-19 and shows status 'enrolling by invitation', 30 people planned, and an estimated primary completion of April 2027, with no results posted. The 2019 paper calls itself a 'preliminary report' on the first nine; seven years on, the full trial has not reported.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT02848131",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "The stage record is a preliminary report of nine people from a trial of thirty that is still running, and the entry does not say so. The stage is already reached and this does not change it; it tells a reader how much weight the record can carry and when the fuller result is due."
+    },
+    {
+     "date": "2024-07-22",
+     "what": "A controlled measurement that did not show a fall: in the phase 2 trial of dasatinib and quercetin in postmenopausal women (NCT04313634; Farr and colleagues, Nature Medicine, 2024-07-02), the registry's posted results give the change in the blood signal that aged cells give off at two weeks as -2.6 per cent on the drugs and -2.5 per cent in the untreated control group (p = 0.953). The paper reports that the bone response was confined to the third of women with the most aged cells at the start. Mentioned in passing in two weekly readings; not in the publications log or the entry.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT04313634 ; https://europepmc.org/article/MED/38956196",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "description",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "The 2019 kidney report had no control group. This is the largest trial of the same course that had one, and on a blood marker it found no difference from untreated people. It does not undo the first-human stage (which rests on counts in tissue), but it bears on the estimate: a drug that only works in people with many aged cells needs a test to pick them, which lengthens the path to approval."
+    },
+    {
+     "date": "2026-07-22",
+     "what": "A preprint (Gao and colleagues, Steadman Philippon Research Institute, Preprints.org) reports a double-blind randomised trial of two fisetin schedules in 81 adults over 55 (41 daily, 40 in two-day bursts) with no placebo group. At day 45, the main time point, both schedules lowered the activity of two genes used as signs of aged cells in white blood cells, compared with the start. The trial was added to the registry on 2026-11-05, after it finished (NCT07918261: 82 people, completed 2024-01-30). Not peer reviewed. Not in the data folder.",
+     "url": "https://europepmc.org/article/PPR/PPR1284553 ; https://clinicaltrials.gov/api/v2/studies/NCT07918261",
+     "opened": true,
+     "source_kind": "preprint",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": "unclear",
+     "why": "The test for first human is already met by the 2019 report, so this is a supporting measurement like the one the notes record from the liver trial. It would not meet the test on its own: it is not peer reviewed, it has no untreated group, and gene activity in blood cells is not a count of aged cells in tissue or a validated blood marker. Only the abstract was read."
+    },
+    {
+     "date": "2025-05-15",
+     "what": "A randomised, placebo-controlled trial of quercetin alone in 97 people having heart bypass surgery (Mury and colleagues, Aging Cell 24, e70108; registry number NCT04907253, results posted 2026-04-15) examined pieces of artery removed at surgery. In men, gene activity linked to aged cells in the artery wall was lower on quercetin than on placebo; in women it was not, and one cell type looked worse. The registry's blood marker of aged cells, a pre-stated main measure, was about the same in both groups four days after surgery (for men, 7.2 on quercetin and 7.5 on placebo). Not in the data folder.",
+     "url": "https://europepmc.org/article/MED/40375481 ; https://clinicaltrials.gov/api/v2/studies/NCT04907253",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": "unclear",
+     "why": "It is the only placebo-controlled human trial found that looked for signs of aged cells in a tissue sample after one of these compounds. The comparison is with placebo, not with before treatment as the test words it, and the measure is gene activity, not a count, so on a plain reading it supports the record without replacing it. The split between men and women is new information the entry lacks."
+    },
+    {
+     "date": "2025-02-25",
+     "what": "Two small reports from 2025 on the two-drug course in older adults, neither with a control group. Millar and colleagues (EBioMedicine 113, 105612; registry number NCT05422885, results posted 2025-03-17): 12 people at risk of Alzheimer's disease finished twelve weeks; one blood signal of aged cells fell by 3.0 per cent, not significant (95 per cent confidence interval -13.0 to 7.1). Garbarino and colleagues (Neurotherapeutics, 2025-04-23): in the five people of the first Alzheimer's trial, three inflammatory signals rose in blood or spinal fluid after treatment; the authors write that trials 'have yet to establish reliable outcome measures reflecting senescent cell burden'. Neither is in the data folder (a weekly reading names 'the 2023 Alzheimer's safety trial' in passing).",
+     "url": "https://europepmc.org/article/MED/40010154 ; https://europepmc.org/article/MED/40274471 ; https://clinicaltrials.gov/api/v2/studies/NCT05422885",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "Neither shows measurably fewer aged cells, so neither meets the test. Together with the bone trial they show that since 2019 no report in people has repeated the kidney report's tissue counts, which the description's 'That is a first human, on a measurement' does not tell the reader."
+    },
+    {
+     "date": "2025-01-17",
+     "what": "Work on a blood test for aged cells, which the test's words 'a validated blood marker' turn on. Farr and colleagues (Aging Cell 24, e14489, 2025-01-17) report that a measure of one gene in white blood cells, and a panel of proteins in blood, picked out the women who responded in the bone trial, and propose it for choosing trial participants. The same group argued in Nature Aging (Khosla, Monroe and Farr, 2025-10-01, 'Towards a personalized approach in senolytic trials') for trials limited to people with many aged cells. The authors do not call the test validated. Not in the data folder.",
+     "url": "https://europepmc.org/article/MED/39823170 ; https://europepmc.org/article/MED/40926125",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "No blood marker has been validated, so the tissue-sample half of the test remains the only one in use. A selection test could shorten the path (smaller trials in people likely to respond) or lengthen it (the test itself needs approval), so the direction is not clear. The Nature Aging piece was seen by title only; the Aging Cell abstract was read."
+    },
+    {
+     "date": "2023-02-28",
+     "what": "The lung-scarring pilot the notes mention had a placebo-controlled follow-up that they do not: Nambiar and colleagues (EBioMedicine 90, 104481), 12 people randomised to the two-drug course or placebo for three weeks. The main aim was feasibility and side effects. Frailty, lung function and physical function 'do not appear to differ meaningfully between groups', and non-serious side effects were more frequent on the drugs (65 events against 22). The registry entry for the lung trial (NCT02874989, 26 people, completed 2019-06-03) lists a marker of aged cells among its main measures and has no results posted.",
+     "url": "https://europepmc.org/article/MED/36857968 ; https://clinicaltrials.gov/api/v2/studies/NCT02874989",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "The notes cite the uncontrolled 2019 pilot's 'better walking and standing' without the controlled follow-up that did not see it. This is before the 2025 start of the check's window and is reported because the entry names the earlier half of the same trial."
+    },
+    {
+     "date": "2026-09-30",
+     "what": "Two larger trials that count or measure aged cells are finished or close to it and have not reported. The US government's trial in 82 frail or near-frail people with HIV (NCT07144293, placebo-controlled, completed 2026-08-26) is titled for 'Cellular Senescence Elimination'. A St. Jude Children's Research Hospital trial in 120 adult survivors of childhood cancer (NCT04733534, the two-drug course against fisetin, registry updated 2026-09-30) has the amount of an aged-cell marker in blood as one of its two main measures and an estimated primary completion of December 2026. Neither is in the data folder.",
+     "url": "https://clinicaltrials.gov/api/v2/studies/NCT07144293 ; https://clinicaltrials.gov/api/v2/studies/NCT04733534",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "estimate",
+     "direction": "neutral",
+     "test_met_on_plain_reading": "unclear",
+     "why": "These are the next results due on whether the drugs lower measures of aged cells in people, each several times the size of the 2019 report. Nothing can be said about direction until they report; they are the entries a weekly reading should watch."
+    },
+    {
+     "date": "2026-10-05",
+     "what": "A systematic review of human trials (Trivedi and colleagues, British Journal of Clinical Pharmacology, 2026-10-05) concluded that these drugs 'should therefore be considered investigational rather than established therapies'. Searches of the registry, of company releases and of regulators' news found no approval of a drug of this class anywhere, and no published account of routine use in a named clinical setting.",
+     "url": "https://europepmc.org/article/MED/42834340",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "stage",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "This bears on the clinic rung: the test's words 'a regulator approves such a drug ... or it is in routine use in a named clinical setting' are not met on 2026-11-09. The description's 'No such drug is approved anywhere' still holds."
+    }
+   ],
+   "checked": [
+    "Hickson and colleagues 2019, DOI 10.1016/j.ebiom.2019.08.069: nine people with diabetic kidney disease, three days of the two drugs, samples before and 11 days after, fewer aged cells in fat and skin; EBioMedicine 47, pages 446 to 456; online 2019-09-18 (Europe PMC); all as the entry and the data folder say",
+    "The 2020 corrigendum to that paper (DOI 10.1016/j.ebiom.2019.12.004, open copy PMC6994619): its text says 'a re-analysis of the raw data has been conducted, which means that some conclusions presented in the paper have changed', with the detail in an appendix file that is not part of the open text; this matches the data folder's note, and the appendix remains unread",
+    "The 2019 lung pilot (Justice and colleagues): as the notes say, logged in the data folder",
+    "The 2020 knee failure (NCT04129944): as the description says",
+    "No approval of a drug of this class by any regulator was found, as the description says"
+   ],
+   "queries": [
+    "registry: senolytic; dasatinib quercetin; fisetin; NCT02848131; NCT02874989; NCT04733534; NCT02652052",
+    "Europe PMC: senolytic / dasatinib and quercetin / fisetin / navitoclax limited to clinical trial publication types, from 2025-01-01",
+    "Europe PMC: senolytic or fisetin or dasatinib and quercetin in the title with patients/adults/humans/clinical/placebo, from 2025-01-01",
+    "Europe PMC: senolytic or dasatinib or fisetin in the title with biopsy and p16 or senescent cell burden in the abstract, from 2022-01-01 (no hits)",
+    "Europe PMC: title 'Senolytics decrease senescent cells in humans' (found the corrigendum)",
+    "Europe PMC: title 'Senolytics dasatinib and quercetin in idiopathic pulmonary fibrosis'",
+    "web (wire services and sec.gov): senolytic company announces clinical trial results OR first patient OR phase 2 2026 senescent cells",
+    "web: senolytic drug regulatory approval OR IND clearance OR orphan drug OR fast track FDA EMA PMDA 2026 senescent cells",
+    "web: clinic prescribes dasatinib quercetin senolytic off-label patients published protocol OR case series 2025 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT02848131",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04313634",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07918261",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04907253",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05422885",
+    "https://clinicaltrials.gov/api/v2/studies/NCT02874989",
+    "https://clinicaltrials.gov/api/v2/studies/NCT07144293",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04733534",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05506488",
+    "https://clinicaltrials.gov/api/v2/studies/NCT02652052",
+    "https://clinicaltrials.gov/api/v2/studies/NCT05416515",
+    "https://clinicaltrials.gov/api/v2/studies/NCT04063124",
+    "https://europepmc.org/article/MED/31542391",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6994619/fullTextXML",
+    "https://europepmc.org/article/MED/38956196",
+    "https://europepmc.org/article/PPR/PPR1284553",
+    "https://europepmc.org/article/MED/40375481",
+    "https://europepmc.org/article/MED/40010154",
+    "https://europepmc.org/article/MED/40274471",
+    "https://europepmc.org/article/MED/39823170",
+    "https://europepmc.org/article/MED/36857968",
+    "https://europepmc.org/article/MED/42834340",
+    "https://api.crossref.org/works/10.1016/j.ebiom.2019.08.069"
+   ],
+   "could_not_check": "The appendix to the 2020 corrigendum of the kidney paper, which holds what changed in the re-analysis (it is a supplementary file on the publisher's site, not in the open text). The Nature Aging comment by Khosla, Monroe and Farr (2025-10-01) has no abstract and was seen by title only. Whether any clinic has published its routine use of these drugs: one web search found none, which is not proof there is none. Regulators outside the United States were covered by web search only."
+  },
+  {
+   "id": "immune-cells-engineered-to-kill-aged-cells",
+   "name": "A person's immune cells are engineered to hunt down aged cells",
+   "corrections": [
+    {
+     "entry_says": "The stage record is the 2020 Nature paper (DOI 10.1038/s41586-020-2403-9), cited with no qualification.",
+     "source_says": "The paper carries a published Author Correction dated 2024-03-01 (Nature 627, page E9, DOI 10.1038/s41586-024-07197-3), which neither the entry nor the data folder mentions. What it corrects could not be read (the journal's page asks for a sign-in and the notice has no abstract). The paper itself is as the entry says: Memorial Sloan Kettering authors, online 2020-06-17, engineered T cells against the surface protein uPAR cleared aged cells and restored the liver in mice with liver scarring.",
+     "url": "https://europepmc.org/article/MED/38383793 ; https://europepmc.org/article/MED/32555459",
+     "opened": true
+    },
+    {
+     "entry_says": "Estimate reasons: 'the latest allows for the surface-protein target proving unsafe in people, since uPAR also sits on some healthy cells' (written as a possibility).",
+     "source_says": "A peer-reviewed paper of 2026-10-01 (Deng and colleagues, Aging Cell 25, e70742) states it as an observed finding in animals: 'Senolytic CAR-T cells targeting uPAR induce dose-dependent toxicities', and reports that a high dose of a related uPAR-directed treatment damaged the liver in animals through an attack on the cells lining its blood vessels. The same paper says that 'clinical translation remains challenging' for the engineered-cell form because the cells multiply unpredictably from one patient to the next.",
+     "url": "https://europepmc.org/article/MED/42806572",
+     "opened": true
+    }
+   ],
+   "missing": [
+    {
+     "date": "2023-08-16",
+     "what": "Engineered immune cells of this kind have been tested in monkeys, which the entry does not say. Yang and colleagues (Science Translational Medicine 15, eadd1951; a group in China) built T cells against a different surface signal on aged cells (the NKG2D ligands) and report that the animals' own T cells, so engineered, 'effectively delete naturally occurring senescent cells in aged nonhuman primates without any observed adverse effects', as well as easing several age-related conditions in old mice. Not in the data folder.",
+     "url": "https://europepmc.org/article/MED/37585504",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "earlier",
+     "test_met_on_plain_reading": false,
+     "why": "The description says the work stands at mice and names one target. A result in aged monkeys with the animal's own cells is the usual last step before a first trial in people, and a second target lessens the dependence on uPAR that the estimate's latest year worries about. It is before the 2025 start of this check's window and is reported because the entry lacks it; it is animal work, so the test for first human is not met. Only the abstract was read."
+    },
+    {
+     "date": "2025-11-25",
+     "what": "The group behind the 2020 and 2024 mouse papers published a third (Eskiocak and colleagues, Nature Aging 6, pages 108 to 126, online 2025-11-25): engineered T cells against uPAR, given to old mice or to younger mice ahead of time, improved the gut's lining, its ability to renew itself and its inflammation. Not in the data folder (the weekly reading of 2026-10-25 refers to 'the later mouse studies from the same group' without naming it).",
+     "url": "https://europepmc.org/article/MED/41291258",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "It extends the animal record to a third organ after the liver and metabolism, and brings the description's account of the group's work up to date. It is in mice, so it does not bear on the test."
+    },
+    {
+     "date": "2025-07-01",
+     "what": "A different way of doing the same thing was shown in mice: instead of taking a person's cells out and engineering them, a group in China delivered genetic instructions by injection so that T cells inside the body take up the receptor against uPAR for a time (Zhang and colleagues, Cell Reports Medicine 6, 102209). The paper reports less liver scarring and less joint inflammation in mice and says the authors have prepared a human version 'to facilitate clinical translation'. Not in the data folder.",
+     "url": "https://europepmc.org/article/MED/40602406",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "earlier",
+     "test_met_on_plain_reading": false,
+     "why": "The notes give cost ('hundreds of thousands of dollars per patient') as 'the main reason the horizon is far'. Engineering the cells inside the body avoids the per-patient manufacturing that drives that cost, so if it carries over to people the wide-use years could come earlier. Whether cells engineered inside the body count as 'given their own ... immune cells engineered' under the test is a wording question the owner of the records would need to settle."
+    },
+    {
+     "date": "2026-10-01",
+     "what": "A group in China reported a non-cell treatment aimed at the same target, a protein that links T cells to uPAR-carrying aged cells, tested in old mice and monkeys (Deng and colleagues, Aging Cell 25, e70742, 2026-10-01). At a low dose with blood monitoring it cleared aged cells without harm; at a high dose it damaged the liver. The authors present it as a safer alternative to engineered cells. In the same year, natural killer cells engineered against a third target (DPP4) eased liver scarring in mice (Hua and colleagues, Acta Pharmaceutica Sinica B, 2026-07-01), and T cells engineered against the target of the 2021 Japanese vaccine (GPNMB) were reported in the Journal of Immunology Research (Yu and colleagues, 2026). None is in the data folder.",
+     "url": "https://europepmc.org/article/MED/42806572 ; https://europepmc.org/article/MED/42764891 ; https://europepmc.org/article/MED/42554242",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "The safety finding supports the estimate's caution about uPAR and points to a rival approach that is not engineered cells, which could reach people first and draw investment away from this entry's route. All of it is animal work. The third paper (GPNMB) was seen by title only."
+    },
+    {
+     "date": "2026-11-02",
+     "what": "Immorta Bio announced what it called 'the first human administration of an immunotherapy specifically designed to eliminate senescent cells': a nine-amino-acid peptide named SenoMune-0257, given on 2026-10-29 to a first patient with advanced cancer in Mexico in 'an independently conducted, investigator-initiated clinical study'. The release reports no results, no count of aged cells and no registry number, and says 'its safety and efficacy in humans have not been established'. The company's earlier product SenoVax, made from a patient's own immune cells, had an application to the US regulator announced in July 2024 for lung cancer; no clearance or first patient was found. Not in the data folder (the release is a week old).",
+     "url": "https://www.prnewswire.com/news-releases/first-human-administration-of-senolytic-immunotherapy-to-fight-cellular-aging-announced-by-immorta-bio-302926449.html",
+     "opened": true,
+     "source_kind": "company-release",
+     "bears_on": "stage",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "On a plain reading the test is not met: the product is a peptide, not 'their own, or a donor's, immune cells engineered'; no measurement of aged cells is reported; and a company release is not 'a peer-reviewed report'. It is worth a note because it is the first claim of a person receiving an immune treatment aimed at aged cells, and readers may meet it. The SenoVax status is from a search summary only and was not opened."
+    },
+    {
+     "date": "2026-11-09",
+     "what": "The registry holds no trial in people of immune cells engineered against aged cells. Searches by treatment (engineered T cells) with ageing, senescence, scarring or frailty as the condition, and by the names of the target, returned only cancer trials and studies of older cancer patients. The description's 'Nothing of the kind has been tried in a person' still holds for engineered cells on 2026-11-09.",
+     "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=CAR-T%20OR%20chimeric%20antigen%20receptor&query.cond=aging%20OR%20senescence%20OR%20fibrosis%20OR%20frailty%20OR%20cirrhosis%20OR%20osteoarthritis&pageSize=100",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "The estimate's earliest year for a first human is 2028 and its likely year 2031 ('a first person is treated around 2030'). With no trial registered and no application to a regulator announced by late 2026, 2028 would need a trial to be registered, started and published within about two years."
+    }
+   ],
+   "checked": [
+    "Amor and colleagues 2020, DOI 10.1038/s41586-020-2403-9: Nature 583, pages 127 to 132, online 2020-06-17, 18 authors (Crossref); uPAR, liver scarring in mice; as the entry says",
+    "The 2024 follow-up (Amor and colleagues, Nature Aging 4, pages 336 to 349, online 2024-01-24): 'a single administration ... is sufficient to achieve long-term therapeutic and preventive effects'; as the description says",
+    "The 2021 Japanese vaccine (Suda and colleagues, Nature Aging, online 2021-12-10, 'Senolytic vaccination improves normal and pathological age-related phenotypes and increases lifespan in progeroid mice'): the year and the subject are as the notes say (title and date seen; abstract not reopened)",
+    "No registered trial of engineered immune cells against aged cells in a person, as the description says",
+    "SenTcell (named in the weekly reading of 2026-11-08): a web search summary describes its product as an injection meant to restore worn-out T cells, not cells engineered to kill aged cells, with a first trial 'expected to begin later in 2026' and no first patient announced; not opened"
+   ],
+   "queries": [
+    "registry: uPAR; senolytic CAR-T; senolytic CAR; urokinase plasminogen activator receptor chimeric antigen receptor",
+    "registry by treatment CAR-T OR chimeric antigen receptor with condition aging OR senescence OR fibrosis OR frailty OR cirrhosis OR osteoarthritis",
+    "Europe PMC: CAR T / chimeric antigen receptor with senolytic/senescent/senescence/aging in the title, not reviews, from 2021-01-01",
+    "Europe PMC: title 'Senolytic CAR T cells reverse senescence-associated pathologies' (found the Author Correction)",
+    "Europe PMC: title 'Senolytic vaccination'; GPNMB senolytic",
+    "web: senolytic CAR-T first-in-human trial 2026 uPAR senescent cells patient dosed OR IND OR clinical trial authorisation",
+    "web: SenTcell UCL spin-out senolytic CAR-T clinical trial 2026 announcement first patient",
+    "web (wire services and sec.gov): senolytic CAR-T OR CAR T senescent cells company IND OR first-in-human OR financing 2025 2026 uPAR OR NKG2D",
+    "web: Immorta Bio SenoVax IND cleared FDA phase 1 trial first patient dosed dendritic cell senolytic immunotherapy"
+   ],
+   "pages_opened": [
+    "https://api.crossref.org/works/10.1038/s41586-020-2403-9",
+    "https://europepmc.org/article/MED/32555459",
+    "https://europepmc.org/article/MED/38383793",
+    "https://europepmc.org/article/MED/38267706",
+    "https://europepmc.org/article/MED/37585504",
+    "https://europepmc.org/article/MED/41291258",
+    "https://europepmc.org/article/MED/40602406",
+    "https://europepmc.org/article/MED/42806572",
+    "https://europepmc.org/article/MED/42764891",
+    "https://www.prnewswire.com/news-releases/first-human-administration-of-senolytic-immunotherapy-to-fight-cellular-aging-announced-by-immorta-bio-302926449.html",
+    "https://clinicaltrials.gov/api/v2/studies?query.intr=CAR-T%20OR%20chimeric%20antigen%20receptor&query.cond=aging%20OR%20senescence%20OR%20fibrosis%20OR%20frailty%20OR%20cirrhosis%20OR%20osteoarthritis&pageSize=100",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=senolytic%20CAR",
+    "https://clinicaltrials.gov/api/v2/studies?query.term=uPAR&pageSize=100"
+   ],
+   "could_not_check": "The text of the 2024 Author Correction to the 2020 Nature paper (the journal's page redirects to a sign-in, and Europe PMC holds no text for it), so what was corrected is not known here. The 2026 Cell paper on uPAR-directed engineered cells in solid tumours, which the weekly reading of 2026-10-17 already logged, was not reopened. Trial registries in China, where three of the groups named above work, were not searched directly; a first trial there would not appear on the US registry. The SenoVax application status and the SenTcell announcement were seen in search summaries only."
+  }
+ ]
+}

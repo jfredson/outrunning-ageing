@@ -1,0 +1,596 @@
+{
+ "records": [
+  {
+   "id": "a-cells-settings-are-rewritten-at-one-gene-in-a-person",
+   "name": "The chemical marks on one gene are rewritten in a person, with no cut in the DNA",
+   "corrections": [],
+   "missing": [
+    {
+     "date": "2026-06-26",
+     "what": "A second company, Epicrispr Biotechnologies, has a trial in people of a treatment of this kind, aimed at one of a person's own genes in a muscle-wasting disease. Its release of 2026-06-26 says nine people had been treated, that the first three to reach six months had gained muscle on scans, and that a blood marker tied to the target gene had fallen (no figures). The registry entry (NCT06907875) shows a start of 2025-05-08, 12 people, active and no longer recruiting, last updated 2026-08-19, no results posted. Neither the entry nor anything in data/ mentions this company or trial.",
+     "url": "https://www.fshdsociety.org/2026/06/26/epicrispr-pr-26-6-26/",
+     "opened": true,
+     "source_kind": "company-release",
+     "bears_on": "stage",
+     "direction": "earlier",
+     "test_met_on_plain_reading": false,
+     "why": "It bears on the first-human test but does not meet it: the test asks for 'a peer-reviewed report or a trial registry's posted results', and this is a company release (read as the copy on a patient society's site, because the wire service refused the fetch). It is a second trial that could reach the rung, so the first-human years rest on more than one programme."
+    },
+    {
+     "date": "2026-10-05",
+     "what": "A trade article dated 2026-10-05 says the same company presented six-month findings from six people at a congress in Japan, with twelve-month findings promised for the second half of 2027. Seen in a search summary only.",
+     "url": "https://pharmacally.com/epicrispr-epi-321-fshd-six-month-muscle-volume-strength-data/",
+     "opened": false,
+     "source_kind": "press",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "A conference presentation, not a peer-reviewed report or posted results, and not opened here. It does not change the stage."
+    },
+    {
+     "date": "2026-01-28",
+     "what": "A third company, nChroma Bio (formerly Chroma Medicine), announced on 2026-01-28 that the first person had been dosed in its trial of a treatment of the same kind for the same liver infection as the trial the entry names. The registry entry (NCT07200193) shows a start of 2025-12-22, an estimated 66 people, recruiting, last updated 2026-06-15, no results posted. The entry does not mention it; the weekly reading of 2026-10-18 names the company only for an animal study.",
+     "url": "https://sofinnovapartners.com/news/nchroma-bio-announces-first-patient-dosed-in-phase-1-2-clinical-trial-of-epigenetic-silencer-crma-1001-for-chronic-hepatitis-b",
+     "opened": true,
+     "source_kind": "company-release",
+     "bears_on": "estimate",
+     "direction": "earlier",
+     "test_met_on_plain_reading": false,
+     "why": "A dose alone does not meet the test, which asks for a measured change lasting six months in a peer-reviewed report or posted results. Three companies now have people dosed where the estimate reasons from one, which makes an early peer-reviewed human report somewhat more likely."
+    },
+    {
+     "date": "2026-01-06",
+     "what": "The registry entry for the trial the entry names (NCT06671093) gives an estimated primary completion of 2028-06-28 and study completion of 2028-10-30, with 36 people estimated. The entry's notes do not give these dates.",
+     "url": "https://clinicaltrials.gov/study/NCT06671093",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "estimate",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "Of the two routes the test allows, posted registry results are unlikely before 2029, since results follow completion. The likely first-human year of 2027 therefore rests on a journal paper alone."
+    }
+   ],
+   "checked": [
+    "NCT06671093: start 2024-11-29 (actual), recruiting, sites in Auckland, Hong Kong and Chisinau, no results posted, last updated 2026-01-06; the entry is right",
+    "Cappelluti and colleagues, Nature, 2024-02-28 (https://doi.org/10.1038/s41586-024-07087-8): the abstract says one dose almost halved the protein in the blood for nearly a year in mice; the entry is right",
+    "The company's release of 2026-05-30: says 'out to 17 months' after one dose and that a larger trial is expected to start as early as late 2026; the entry is right"
+   ],
+   "queries": [
+    "registry: epigenetic editor OR epigenetic editing OR Tune-401 OR EPI-321 OR CRMA-1001",
+    "registry by sponsor: Tune Therapeutics, Epigenic Therapeutics, nChroma, Chroma Medicine, Epicrispr, Scribe Therapeutics",
+    "registry by treatment: epigenetic silencer OR epigenetic editor OR EPI-003 OR EPI-001 OR STX-1400",
+    "Europe PMC: epigenetic editing / epigenome editing with patients, first-in-human, clinical trial, from 2024-02-28",
+    "Europe PMC: Tune-401 OR EPI-321 OR CRMA-1001 from 2024-02-28",
+    "web: Epicrispr EPI-321 first-in-human clinical data results 2026",
+    "web: Tune Therapeutics Tune-401 2026 results publication OR phase 2",
+    "web: nChroma Bio CRMA-1001 first participant dosed",
+    "web: Epigenic Therapeutics EPI-003 OR EPI-001 first-in-human data",
+    "web: Epicrispr World Muscle Society 2026; Tune phase 2 October or November 2026"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT06671093",
+    "https://clinicaltrials.gov/api/v2/studies (searches listing NCT06907875, NCT07200193, NCT06661148, NCT06745973, NCT07428473)",
+    "https://www.ebi.ac.uk/europepmc/ (abstract of doi 10.1038/s41586-024-07087-8 and two searches)",
+    "https://www.fshdsociety.org/2026/06/26/epicrispr-pr-26-6-26/",
+    "https://sofinnovapartners.com/news/nchroma-bio-announces-first-patient-dosed-in-phase-1-2-clinical-trial-of-epigenetic-silencer-crma-1001-for-chronic-hepatitis-b",
+    "https://tunetx.com/tune-therapeutics-presents-positive-phase-1b-2a-proof-of-concept-data-on-tune-401-a-first-in-class-epigenetic-silencer-for-patients-with-hepatitis-b-at-easl-2026/"
+   ],
+   "could_not_check": "The wire service's own pages for the two company releases refused the fetch, so copies on other sites were read. No peer-reviewed report of results in people turned up for any of the three companies, and no regulator's approval. A fourth company (Epigenic Therapeutics) has two registry entries (NCT06661148, NCT06745973) not updated since late 2024 and still marked not yet recruiting; whether anyone has been dosed could not be established. The company's notice of 2024-11-14 about the New Zealand permission was not opened. One 2026 animal paper from the third company was found and is left out of this file."
+  },
+  {
+   "id": "a-cocktail-of-ordinary-drugs-resets-cell-age",
+   "name": "A mix of small-molecule drugs resets a cell's age without gene therapy",
+   "corrections": [],
+   "missing": [
+    {
+     "date": "2025-08-21",
+     "what": "A peer-reviewed report in the journal Aging (Kato and colleagues, 2025-08-21) gave frail 25-month-old mice a mix of two small molecules, with no genes delivered: an inhibitor of a signalling pathway that rises with age, together with the hormone oxytocin. From the start of treatment the treated male mice lived 73 per cent longer, their median lifespan across the whole study was 14 per cent greater, and they did better on physical performance, endurance, short-term memory and resistance to death; the benefit appeared in males and not females. The entry does not mention it, and the only mentions of oxytocin anywhere in data/ are passing ones in two other treatments' notes.",
+     "url": "https://doi.org/10.18632/aging.206304",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "stage",
+     "direction": "earlier",
+     "test_met_on_plain_reading": "unclear",
+     "why": "On a plain reading it could meet the animal rung: 'a living animal given a mix of small-molecule drugs, with no genes delivered', with 'a restored tissue function' moved towards youth against untreated controls, in a peer-reviewed report. What is unclear is whether the entry means its mix to be a cell-resetting one; this mix was given to correct two age-related signals, not to reset cell age, and the paper reports no clock of cell age. If it counts, the animal rung was reached in 2025, four years before the likely year of 2029."
+    },
+    {
+     "date": "2026-10-09",
+     "what": "Another peer-reviewed report in Aging and Disease (Schwarz and colleagues, 2026-10-09), from a randomised placebo-controlled trial, gave a single substance (spermidine) rather than a mix, so it does not bear on this entry's test; it is noted only because the entry's notes name no human work.",
+     "url": "https://doi.org/10.14336/ad.2026.0559",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "One substance is not a mix, and the people were not given it to reset cell age. It does not meet or bear on the test; it is recorded so that a later reader does not count it."
+    }
+   ],
+   "checked": [
+    "Schoenfeldt and colleagues, EMBO Molecular Medicine, 2025-06-30 (https://doi.org/10.1038/s44321-025-00265-9): the abstract matches the entry, including the two-chemical mix and the longer life and healthspan of the roundworm",
+    "Vedunova and colleagues, Brain and Behavior, 2025 (https://doi.org/10.1002/brb3.70573): the abstract matches the entry on the two chemicals, the 30 days of injections, the better neurological scores in the older group, the adverse changes in liver and brain, and the greater maximum lifespan at p = 0.039. One difference of wording: Europe PMC gives the publication date as 2025-06-01, where the entry says 2025-05-30",
+    "Mitchell and colleagues, Aging Cell (https://doi.org/10.1111/acel.70390): the abstract matches the entry, no change in the age reading of kidney or liver at lower doses and weight loss needing the mice to be put down at higher ones. Europe PMC dates it 2026-02-01, where the entry says 2026-01-27; the earlier preprint is dated 2025-06-28"
+   ],
+   "queries": [
+    "Europe PMC: chemical reprogramming / reprogramming cocktail / small molecule cocktail with ageing and mice, from 2025-01-01",
+    "Europe PMC: partial reprogramming OR OSK OR OSKM with ageing and animals, from 2025-01-01",
+    "Europe PMC: spermidine with randomised and older, from 2025-01-01",
+    "web: chemical reprogramming small molecule cocktail rejuvenation mice epigenetic age 2026"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/ (abstracts of doi 10.1038/s44321-025-00265-9, 10.1002/brb3.70573, 10.1111/acel.70390, 10.18632/aging.206304, 10.14336/ad.2026.0559, and four searches)"
+   ],
+   "could_not_check": "No registered trial in people of a chemical mix meant to reset cell age turned up in the registry searches, and no regulator's decision on one. The Kato paper was read as an abstract, not in full, so whether its measures answer this entry's test is a question for the record's author. Two 2025 and 2026 preprints on chemical partial resetting in cells were listed but not opened, because cell work does not bear on the animal rung."
+  },
+  {
+   "id": "a-person-receives-cell-resetting-genes-in-a-trial",
+   "name": "A person receives cell-resetting genes in a registered trial",
+   "corrections": [],
+   "missing": [
+    {
+     "date": "2026-05-19",
+     "what": "The trial's registry entry (NCT07290244) gives, besides the start date and the enrolment of 18 that the entry already has, an estimated primary completion of 2027-05 and an estimated study completion of 2032-03, four sites in the United States (Boston, Charleston, Glendale and New York), status recruiting, last updated 2026-05-19, and no results posted. The entry's notes give none of these.",
+     "url": "https://clinicaltrials.gov/study/NCT07290244",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "estimate",
+     "direction": "earlier",
+     "test_met_on_plain_reading": true,
+     "why": "The test for this entry's own rung was already met by the dose of 2026-06-09, so these dates bear only on the clinic rung. The estimate's reasoning assumes the safety study reports by 2028, and the registry's own estimated primary completion of 2027-05 is a little earlier than that, which if anything pulls the clinic rung's years forward."
+    },
+    {
+     "date": "2026-10-08",
+     "what": "The company's release of 2026-10-08, which the entry cites, says more than the entry records: the safety board recommended going up to a second dose level of 6 times ten to the eleventh viral genomes, and in each of the two people whose visual field improved, at least 28 per cent of the field's measured points improved by more than 4 decibels.",
+     "url": "https://www.lifebiosciences.com/?p=1114",
+     "opened": true,
+     "source_kind": "company-release",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": true,
+     "why": "This entry's test asks only for a dose inside a registered trial with a public record of it, which is already met. The figures bear on the companion entry, which needs a measured result in a person, and they are a company release rather than the peer-reviewed report that entry's settler asks for."
+    },
+    {
+     "date": "2026-10-07",
+     "what": "A longevity news site reported on 2026-10-07 that the KHL Foundation had announced that a small number of people were given an experimental eleven-gene treatment containing three of the four cell-resetting genes, outside any registered trial, one of them on 2026-03-11, through an initiative led by a named doctor. The foundation says plainly that this is not an announcement that the treatment was proved to do anything, and nothing has been published. The entry does not mention it, and nothing in data/ does.",
+     "url": "https://www.fightaging.org/archives/2026/10/khl-foundation-reports-the-likely-first-human-partial-epigenetic-reprogramming-treatments/",
+     "opened": true,
+     "source_kind": "press",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "It does not meet the test, which asks for the dose to be given 'inside a registered clinical trial, with a public record of the dose from the sponsor or the registry'; this was outside any registered trial and is reported at second hand. It bears on the description because the entry's opening sentence says the resetting genes 'had been tried only in animals until 2026' and names the June 2026 dose as the first, which a reader may now meet a competing claim about."
+    }
+   ],
+   "checked": [
+    "NCT07290244: start 2026-03-02 (actual), estimated enrolment 18, phase 1, sponsor Life Biosciences; the entry is right on both figures",
+    "The company's release of 2026-06-09 at the stage link: it announces the first participant dosed, names the two eye conditions and gives the registry number; the entry is right"
+   ],
+   "queries": [
+    "registry: ER-100 OR OSK OR partial reprogramming OR Yamanaka; by sponsor: Life Biosciences, YouthBio, Turn Biotechnologies, NewLimit, Retro Biosciences, Altos Labs, Shift Bioscience, Junevity, Rejuvenate Bio",
+    "web: Life Biosciences ER-100 October or November 2026 interim results",
+    "web: partial reprogramming first patient dosed 2026 trial, other companies"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07290244",
+    "https://www.lifebiosciences.com/life-biosciences-announces-first-patient-dosed-in-phase-1-trial-of-er-100-for-optic-neuropathies/",
+    "https://www.lifebiosciences.com/?p=1114",
+    "https://www.fightaging.org/archives/2026/10/khl-foundation-reports-the-likely-first-human-partial-epigenetic-reprogramming-treatments/"
+   ],
+   "could_not_check": "The foundation's own press release was not opened; the news site's report of it was. No other company turned up with a person dosed with cell-resetting genes in a registered trial, and no regulator has approved such a treatment."
+  },
+  {
+   "id": "partially-resetting-cells-reverses-ageing-in-an-animal",
+   "name": "Partially resetting cells reverses ageing in a living animal",
+   "corrections": [],
+   "missing": [
+    {
+     "date": "2026-10-27",
+     "what": "A peer-reviewed reanalysis in the journal Aging (Meiners and colleagues, 2026-10-27) went back over the gene readings from the liver, kidney and spleen of old mice given seven months of partial resetting. In liver and kidney it found age-related inflammation turned down and age-suppressed metabolism turned back up; in the spleen it found cell division and DNA-repair programmes prominent and flagged a possible risk of lasting genetic and growth stress. The entry does not mention it, and nothing in data/ does.",
+     "url": "https://doi.org/10.18632/aging.206431",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": true,
+     "why": "The animal rung is already held, so this does not change the stage. It bears on the estimate's latest year, which allows for 'the safety question that hangs over the field' closing it for a generation: a peer-reviewed reading of a tissue-by-tissue risk signal is the first dated evidence in this record for that worry, which argues for keeping the late years where they are rather than pulling them in."
+    },
+    {
+     "date": "2026-02-10",
+     "what": "A peer-reviewed report in Neuron (Berdugo-Vega and colleagues, 2026-02-10) reports cognitive rejuvenation in mice through partial resetting of the brain cells that hold a memory. The entry does not mention it.",
+     "url": "https://doi.org/10.1016/j.neuron.2025.11.028",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": true,
+     "why": "On a plain reading it meets the animal rung the entry already holds ('a restored tissue function moved towards youth, compared with untreated controls, in a peer-reviewed report'), in a second organ. It makes the description out of date, which stops at 2016 and 2020, rather than moving a stage."
+    },
+    {
+     "date": "2026-11-01",
+     "what": "A peer-reviewed report in Aging Cell (Mallavibarrena and colleagues, 2026-11-01) reports that short bursts of the four resetting genes in ageing mice left a smaller area of brain damage after a blocked artery, with better neurological scores, preserved myelin and preserved nerve-cell density against untreated controls. The entry does not mention it; it is eight days before the date of this check, so a weekly reading may yet catch it.",
+     "url": "https://doi.org/10.1111/acel.70776",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": true,
+     "why": "It meets the animal rung already held, by the test's words 'a restored tissue function moved towards youth, compared with untreated controls, in a peer-reviewed report'. It is the newest such report and belongs in the description rather than in a stage change."
+    },
+    {
+     "date": "2025-08-14",
+     "what": "A peer-reviewed report in Cell (Lu and colleagues, 2025-08-14) reports that a drift of cells towards a connective-tissue-like state, which the authors find widespread in ageing and disease, is reversed by partial resetting. The entry does not mention it.",
+     "url": "https://doi.org/10.1016/j.cell.2025.07.031",
+     "opened": false,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": "unclear",
+     "why": "Listed in the literature database by title and date; its abstract was not opened here, so whether it reports a measured marker moved towards youth in a living animal against controls is unchecked. It bears on the description, which names no work after 2020."
+    },
+    {
+     "date": "2026-10-08",
+     "what": "The company's release of 2026-10-08 gives figures the entry's description leaves out: in each of the two people whose visual field improved, at least 28 per cent of the field's measured points improved by more than 4 decibels, and the safety board recommended going up to a second dose level.",
+     "url": "https://www.lifebiosciences.com/?p=1114",
+     "opened": true,
+     "source_kind": "company-release",
+     "bears_on": "stage",
+     "direction": "earlier",
+     "test_met_on_plain_reading": false,
+     "why": "It bears on the first-human rung, which asks for a measured marker of biological age or a restored tissue function in a person, but it does not meet it, because the settler asks for a peer-reviewed report and this is a company release of an open-label trial with no control group. If the same figures appear in a journal, the first-human rung is reached, which is earlier than the likely year of 2029."
+    }
+   ],
+   "checked": [
+    "Ocampo and colleagues, Cell, 2016 (https://doi.org/10.1016/j.cell.2016.11.052): the abstract matches the entry, longer life in mice with a premature-ageing disease and better recovery in older normal mice. Europe PMC dates it 2016-12-01, where the entry's stage date is 2016-12-15",
+    "Lu and colleagues, Nature, 2020 (https://doi.org/10.1038/s41586-020-2975-4): named in the companion entry's notes and not re-checked here"
+   ],
+   "queries": [
+    "Europe PMC: partial reprogramming OR OSK OR OSKM OR Yamanaka factors with ageing, rejuvenation, lifespan, glaucoma or vision, and animals or people, from 2025-01-01 (50 hits read)",
+    "registry: ER-100 and reprogramming factors; by sponsor: the cell-resetting companies",
+    "web: Life Biosciences ER-100 interim results October 2026"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/ (abstracts of doi 10.1016/j.cell.2016.11.052, 10.18632/aging.206431, 10.1111/acel.70776, and searches listing the rest)",
+    "https://www.lifebiosciences.com/?p=1114"
+   ],
+   "could_not_check": "Only abstracts were read, never full papers. The Neuron paper's abstract was read in the search listing rather than in full, and the Cell paper of 2025-08-14 only as a listing. Whether each of these counts as the entry's 'measured marker of biological age' is a judgement for the record's author, since several report a restored function rather than a clock. Several 2025 and 2026 preprints on the same ground were listed and left out, because the settler asks for peer-reviewed reports."
+  },
+  {
+   "id": "a-persons-biological-age-reading-falls-after-treatment",
+   "name": "A person's biological age, read from the marks on their DNA, falls after a treatment",
+   "corrections": [],
+   "missing": [
+    {
+     "date": "2026-05-19",
+     "what": "A peer-reviewed report in Nature Communications (Corley and colleagues, 2026-05-19) looked afterwards at the DNA marks of 84 adults in a randomised, double-blind, placebo-controlled trial of the weight-loss drug semaglutide (45 on the drug, 39 on placebo, 32 weeks, blood samples before and after). It reports less epigenetic ageing on several named clocks against placebo, including a pace-of-ageing clock 9 per cent slower, and the authors call the analysis exploratory and not planned in advance. The treatment's own entry does not mention it; a companion treatment on the same site does, so the fact is logged in data/.",
+     "url": "https://doi.org/10.1038/s41467-026-72861-3",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "stage",
+     "direction": "earlier",
+     "test_met_on_plain_reading": "unclear",
+     "why": "The test asks for a person who 'afterwards reads younger on a validated clock built from the chemical marks on their DNA, compared with before and with untreated controls, in a peer-reviewed report that names the clock and the sample'. This report names the clocks and the sample and has a placebo group, which the 2019 trial the entry rests on did not; what is unclear is whether a slower pace and a lower adjusted reading against placebo count as reading younger than before. If they do, this entry's first-human rung now rests on controlled evidence."
+    },
+    {
+     "date": "2026-04-01",
+     "what": "A peer-reviewed report in the Journal of Cachexia, Sarcopenia and Muscle (Stanfield and colleagues, 2026-04-01) gives a randomised, double-blind, placebo-controlled trial of weekly rapamycin alongside exercise in 40 adults aged 65 to 85 over 13 weeks, with 'several epigenetic age measures' among its secondary outcomes. The entry does not mention it, and nothing in data/ does.",
+     "url": "https://doi.org/10.1002/jcsm.70274",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "earlier",
+     "test_met_on_plain_reading": "unclear",
+     "why": "The abstract says clock measures were taken but does not give their result, so whether a reading fell cannot be settled from it. It bears on the estimate's reasoning that 'a controlled trial that turns a validated clock back is likely within a decade, since several are running', by naming one that has now reported."
+    },
+    {
+     "date": "2026-10-29",
+     "what": "A peer-reviewed secondary analysis in GeroScience (Ryan and colleagues, 2026-10-29) reports on aspirin and a measure of capacity in older men and women within a randomised controlled trial. Listed in the literature database; the abstract was not opened.",
+     "url": "https://doi.org/10.1007/s11357-026-02624-x",
+     "opened": false,
+     "source_kind": "paper",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": "unclear",
+     "why": "Found in a search of the literature database and not opened, so whether it reports a clock read from DNA marks is unchecked. It is recorded so that a later reading can rule it in or out."
+    }
+   ],
+   "checked": [
+    "Fahy and colleagues, Aging Cell, 2019-09-08 (https://doi.org/10.1111/acel.13028): the abstract matches the entry on nine men, four clocks, a mean reading about 1.5 years below the start and 2.5 years below the untreated comparison, and a fall that held six months after the course. One difference: the abstract gives the men's ages as 51 to 65, where the entry says 'in their fifties and sixties'",
+    "NCT04375657 (TRIIM-X): read again on 2026-11-09 and unchanged from what the entry records, status recruiting, start 2020-11-23, estimated 85 people, estimated primary completion 2025-12, status last verified 2025-05, last updated 2025-05-07, no results posted",
+    "Wang and colleagues, Genome Biology, 2017 (https://doi.org/10.1186/s13059-017-1186-2): the abstract matches the entry's account, a clock built from 107 mouse livers and mice on rapamycin, dwarfism or less food reading significantly younger than untreated controls"
+   ],
+   "queries": [
+    "Europe PMC: epigenetic age / epigenetic clock / biological age / DunedinPACE / GrimAge with randomised controlled or placebo-controlled and reduced or reversed, from 2025-06-01",
+    "registry: TRIIM OR Intervene Immune OR thymus regeneration growth hormone",
+    "web: epigenetic clock reversed randomised controlled trial 2026 published"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT04375657",
+    "https://www.ebi.ac.uk/europepmc/ (abstracts of doi 10.1111/acel.13028, 10.1186/s13059-017-1186-2, 10.1038/s41467-026-72861-3, 10.1002/jcsm.70274, and a search)"
+   ],
+   "could_not_check": "No results of the larger follow-up trial (TRIIM-X) have been posted or published, and its registry entry has not been updated since 2025-05-07, so whether it is still running cannot be established from the record. No regulator's approval resting on a clock reading turned up, and no clinic's published practice beyond the one the entry already cites. The two 2026 preprints that report lower biological age readings in trials (one of an antiviral treatment, one of metformin) were left out, because the settler asks for peer-reviewed reports."
+  },
+  {
+   "id": "drug-boosts-the-cells-recycling-of-worn-parts",
+   "name": "A drug that boosts the cell's recycling of its worn parts improves an age-related function in people",
+   "corrections": [],
+   "missing": [
+    {
+     "date": "2026-06-01",
+     "what": "A peer-reviewed report in Aging Cell (Alsaleh and colleagues, 2026-06-01) gives a double-blind, randomised, placebo-controlled pilot trial of spermidine, 6 mg a day for 13 weeks, in 40 adults over 65 after a third covid vaccine dose. It reports that the supplement turned on the cell's recycling in immune cells and improved the antibody response, but only in those who had not responded to the vaccine, and the authors present the trial as a safety pilot. The entry does not mention it, and nothing in data/ does.",
+     "url": "https://doi.org/10.1111/acel.70545",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "stage",
+     "direction": "earlier",
+     "test_met_on_plain_reading": false,
+     "why": "It does not meet the test, which asks for a pre-stated main measure of 'an age-related function (memory, heart function, muscle strength)' to improve more than placebo: this trial's stated purpose was safety, and the gain was in part of the group. It bears on the estimate towards earlier, because it is the first controlled human trial of a recycling booster since 2022 to report a benefit of any kind on the trial's own terms."
+    },
+    {
+     "date": "2026-10-09",
+     "what": "A peer-reviewed report in Aging and Disease (Schwarz and colleagues, 2026-10-09) gives a further analysis of brain scans from 75 people aged 60 to 90 with self-reported memory complaints in a randomised, double-blind, placebo-controlled trial of spermidine, 0.9 mg a day for 12 months. Blood flow in one brain region rose against placebo and one measure of white-matter structure held steady where it fell on placebo. The authors call the analysis exploratory. The entry does not mention it, and nothing in data/ does.",
+     "url": "https://doi.org/10.14336/ad.2026.0559",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "earlier",
+     "test_met_on_plain_reading": false,
+     "why": "It does not meet the test: an exploratory analysis of scan measures is not the trial's pre-stated main measure, and blood flow in a brain region is not one of the functions the test names. It bears on the estimate towards earlier, because it is a mid-sized controlled trial of the kind the estimate expects to report in the early 2030s already reporting something."
+    },
+    {
+     "date": "2025-10-30",
+     "what": "The protocol of a Danish randomised, double-blind, placebo-controlled trial (POLYCAD, Thorup and colleagues, Trials, 2025-10-30) says 187 patients aged 65 and over with coronary artery disease have been randomised to spermidine 24 mg a day or placebo for 48 weeks, with four main measures stated in advance: the mass of the heart's main pumping chamber on a scan, peak oxygen uptake, muscle mass and inflammation. The entry does not mention it, and nothing in data/ does.",
+     "url": "https://doi.org/10.1186/s13063-025-09176-z",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "earlier",
+     "test_met_on_plain_reading": false,
+     "why": "No result yet, so the test is not met. It bears directly on the estimate, whose earliest first-human year of 2028 assumes 'a trial already running reports positive by 2029': this is that trial, fully enrolled, with heart function and muscle mass as pre-stated main measures, and a 48-week course that began before the protocol was published."
+    }
+   ],
+   "checked": [
+    "Eisenberg and colleagues, Nature Medicine, 2016-11-14 (https://doi.org/10.1038/nm.4222): the abstract matches the entry, longer life in mice and protection of the heart, from a group in Graz and elsewhere",
+    "The two 2022 trials of urolithin A the entry describes (https://doi.org/10.1001/jamanetworkopen.2021.44279 and https://doi.org/10.1016/j.xcrm.2022.100633): both abstracts match the entry, including the main measures that did not differ from placebo and the secondary gains in endurance and in strength of about 12 per cent"
+   ],
+   "queries": [
+    "Europe PMC: spermidine with randomised or placebo and older or memory or muscle or heart, from 2025-01-01",
+    "Europe PMC: autophagy with randomised controlled or placebo-controlled and trehalose, spermidine, rapamycin or urolithin and muscle, memory or cardiac, from 2025-01-01",
+    "Europe PMC: POLYCAD and the trial's first author",
+    "web: spermidine randomised controlled trial 2025 2026 primary endpoint older adults"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/ (abstracts of doi 10.1038/nm.4222, 10.1001/jamanetworkopen.2021.44279, 10.1016/j.xcrm.2022.100633, 10.1111/acel.70545, 10.14336/ad.2026.0559, 10.1186/s13063-025-09176-z, and three searches)"
+   ],
+   "could_not_check": "The Danish trial's results have not been published; its protocol says completion was expected in 2026-08, and a search of the literature database on 2026-11-09 found only the protocol and a separate cross-sectional paper by the same group. No regulator's approval of a recycling booster for an age-related condition turned up. A 2026 paper by the same Danish group in European Heart Journal Open had no abstract in the literature database, so what it reports could not be read."
+  },
+  {
+   "id": "drug-breaks-the-sugar-cross-links-that-stiffen-old-tissue",
+   "name": "A drug breaks the sugar cross-links that stiffen old tissue",
+   "corrections": [],
+   "missing": [
+    {
+     "date": "2026-06-01",
+     "what": "A peer-reviewed report in Physiological Reports (Reeve and colleagues, 2026-06-01) gave the drug the entry is built on, alagebrium, to 20-month-old mice by mouth for four months. It did not significantly reduce stiffness in the large or brain arteries, and had no effect on blood-vessel lining function, thinking or the collagen cross-linking itself; cross-linking was higher in old than young untreated mice. The entry does not mention it, and nothing in data/ does.",
+     "url": "https://doi.org/10.14814/phy2.70982",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "It does not meet the animal rung, which asks for a living animal to have measurably more elastic arteries or less of the cross-link; this report is the opposite finding. It bears on the estimate towards later, and on the entry's second sentence, because the 2001 human result the record keeps as the class's first human now has a long animal study against it."
+    },
+    {
+     "date": "2026-07-14",
+     "what": "A peer-reviewed report in Nature Communications (Trabosh and colleagues, 2026-07-14, from the company working on this class) describes an engineered enzyme that undoes one kind of sugar damage on proteins, chosen from more than 500 million variants, and shows it undoing that damage in model proteins and in tissue samples from elderly donors. The paper says plainly that this is a proof of principle, and the damage it undoes is not the main human cross-link the entry names. The entry does not mention it, and nothing in data/ does.",
+     "url": "https://doi.org/10.1038/s41467-026-75141-2",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "estimate",
+     "direction": "earlier",
+     "test_met_on_plain_reading": false,
+     "why": "It does not meet the animal rung, because the work is in test tubes and in tissue samples, not in a living animal. It bears on the estimate, whose reasoning says 'the current candidates had not reached animals in a peer-reviewed report' and expects an animal result by 2030: a peer-reviewed paper from the company now exists one step short of an animal."
+    },
+    {
+     "date": "2012-06",
+     "what": "Two trials in the registry that the entry does not mention put the drug together with exercise: one at a university hospital in the Netherlands in 48 people, completed, last updated 2013-09-09 (NCT01417663), and one at a university medical centre in Texas in 62 people, completed, estimated primary completion 2012-06, last updated 2020-08-07 (NCT01014572). Neither has results posted.",
+     "url": "https://clinicaltrials.gov/study/NCT01014572",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": "unclear",
+     "why": "Whether either meets the test cannot be told from the registry, which posts no results for them; the entry's own first-human rung is already held. They bear on the description, which says the company 'ended its remaining trials in January 2009' and leaves the impression that nothing was tried after the 2011 heart-failure trial."
+    }
+   ],
+   "checked": [
+    "Kass and colleagues, Circulation, 2001 (https://doi.org/10.1161/hc3801.097806): the abstract matches the entry, 93 older adults at nine centres in the United States given the drug or placebo for 56 days, with better total arterial compliance and a greater fall in pulse pressure. The abstract's date is 2001-09-01, where the entry's stage date is 2001-09-25",
+    "The registry's record of the company's collapse: four of its trials are marked terminated, three of them last updated 2009-01-30 and two saying in as many words that they were stopped early because of financial constraints (NCT00662116, NCT00739687, NCT00557518); this matches the entry's account of January 2009"
+   ],
+   "queries": [
+    "registry: alagebrium OR ALT-711 OR glucosepane OR AGE breaker OR cross-link breaker",
+    "Europe PMC: glucosepane / advanced glycation end-product / crosslink with enzyme, breaker or cleave and mice, in vivo, artery, stiffness or skin, from 2025-01-01",
+    "Europe PMC: the company author's name with glycation or crosslink",
+    "web: glucosepane cross-link breaker 2026 animal results arterial stiffness"
+   ],
+   "pages_opened": [
+    "https://www.ebi.ac.uk/europepmc/ (abstracts of doi 10.1161/hc3801.097806, 10.14814/phy2.70982, 10.1038/s41467-026-75141-2, and two searches)",
+    "https://clinicaltrials.gov/api/v2/studies (search listing NCT01417663, NCT01014572 and the terminated trials)"
+   ],
+   "could_not_check": "The 2011 trial in 102 people with heart failure that the entry cites has no reference in the record, so the number could not be checked against a paper; the nearest registry entry (NCT00516646) gives 100 people. No trial of a drug aimed at the main human cross-link is registered, and no regulator has decided anything about one."
+  },
+  {
+   "id": "antibody-clears-amyloid-from-the-brain-and-slows-decline",
+   "name": "An antibody clears amyloid from the brain and slows the decline of Alzheimer's disease",
+   "corrections": [],
+   "missing": [
+    {
+     "date": "2025-04-15",
+     "what": "The European Union authorised the antibody the entry is built on, lecanemab (sold as Leqembi), on 2025-04-15, for adults with early Alzheimer's disease and confirmed amyloid in the brain who carry one copy or none of a particular risk gene. The medicines agency's own page gives that date and says the authorisation is valid throughout the Union. The entry does not mention it, and nothing in data/ does.",
+     "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leqembi",
+     "opened": true,
+     "source_kind": "regulator",
+     "bears_on": "stage",
+     "direction": "earlier",
+     "test_met_on_plain_reading": "unclear",
+     "why": "The wide-use rung asks for the drug to be 'available by prescription in several countries and taken by a substantial share of eligible patients'. With the United States, the European Union and, by other accounts, Japan and China, the first half of that is plainly met; the second half has no published figure, as the entry's own notes say. So the test is half met on the record and the entry does not show it."
+    },
+    {
+     "date": "2025-09-24",
+     "what": "The European Union authorised the second antibody, donanemab (sold as Kisunla), on 2025-09-24, for the same narrowed group of patients. The entry says only that 'a second antibody followed in 2024', which is its United States approval.",
+     "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kisunla",
+     "opened": true,
+     "source_kind": "regulator",
+     "bears_on": "description",
+     "direction": "earlier",
+     "test_met_on_plain_reading": "unclear",
+     "why": "The clinic rung for this entry asks for a full approval for Alzheimer's disease, which it already holds. This bears on the wide-use rung in the same way as the first authorisation, by adding a second drug across the same 27 countries, and on the description, which stops at 2024 for the second antibody."
+    },
+    {
+     "date": "2026-05-04",
+     "what": "A position paper by Alzheimer Europe dated 2026-05-04 says, by the account of a search summary, that the great majority of patients in Europe cannot get these authorised treatments through publicly funded care, and that as of September 2025 the first antibody had been launched in only Austria and Germany. Separately, by the same kind of summary, Britain's health-value body advised against both drugs in final draft guidance of 2025-06-19, both makers won appeals in January 2026, and a decision was expected later in 2026. None of this is in the entry or in data/.",
+     "url": "https://www.alzheimer-europe.org/sites/default/files/2026-06/2026-05-04_ae_position_on_access_to_treatments_vfinal.pdf",
+     "opened": false,
+     "source_kind": "press",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "The document was fetched but came back as unreadable file data, so these facts rest on search summaries and are reported as unopened. They bear on the estimate towards later: the estimate's likely wide-use year of 2035 turns on price and on clinics able to give the drug, and the clearest dated evidence on the record now is that a European authorisation has not brought payment for it, and that Britain's value body has so far said no."
+    }
+   ],
+   "checked": [
+    "The United States regulator's notice of 2023-07-06 at the stage link: it is the conversion to a full approval the entry describes",
+    "The Cochrane overview the entry cites (2026-04-16, https://pubmed.ncbi.nlm.nih.gov/41985900/): named in the entry's notes and not re-checked here"
+   ],
+   "queries": [
+    "web: lecanemab donanemab approvals 2026 European Union, Japan, China, United Kingdom, uptake and number of patients treated",
+    "European medicines agency pages for both medicines"
+   ],
+   "pages_opened": [
+    "https://www.ema.europa.eu/en/medicines/human/EPAR/leqembi",
+    "https://www.ema.europa.eu/en/medicines/human/EPAR/kisunla"
+   ],
+   "could_not_check": "No count of people treated or of eligible patients turned up anywhere, which matches what the entry's own notes say. Britain's value body's appraisal page refused the fetch, and the Alzheimer Europe paper came back as unreadable file data, so the access and reimbursement facts are reported from search summaries only. Japan's, China's and South Korea's approvals were not opened at a regulator's page. The entry's own figures (the 2022 trial of nearly eighteen hundred people, the quarter slower decline, the 2026-07-13 approval of the under-the-skin starting dose) were not re-opened, because the brief's first step covers sources the entry cites for a number and those sit in its notes with dates already checked on 2026-10-17."
+  },
+  {
+   "id": "drug-stops-a-misfolded-protein-piling-up-in-the-heart",
+   "name": "A drug stops a misfolded protein piling up in the heart and extends life",
+   "corrections": [],
+   "missing": [
+    {
+     "date": "2024-11-22",
+     "what": "The United States regulator approved a second drug of the same kind, acoramidis (sold as Attruby, from BridgeBio Pharma), on 2024-11-22, by its own application record. The entry says competitors 'were in late-stage trials when this was written' and names none; the weekly readings log the approval, so the fact is in data/.",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216540",
+     "opened": true,
+     "source_kind": "regulator",
+     "bears_on": "estimate",
+     "direction": "earlier",
+     "test_met_on_plain_reading": "unclear",
+     "why": "The wide-use rung asks for a drug 'available by prescription in several countries and taken by a substantial share of eligible patients'. A second approved drug bears on the estimate's own reasoning that competitors bring prices down and widen use, which is what its likely year of 2030 rests on; it does not settle the share of patients treated, which no figure gives."
+    },
+    {
+     "date": "2025-03-20",
+     "what": "The same regulator's application record for vutrisiran (sold as Amvuttra, from Alnylam) shows a new-indication approval on 2025-03-20, on top of its original approval of 2022-06-13. The page does not name the indication; by a search summary it is the heart form of this disease. The entry does not mention it; the weekly readings do.",
+     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215515",
+     "opened": true,
+     "source_kind": "regulator",
+     "bears_on": "estimate",
+     "direction": "earlier",
+     "test_met_on_plain_reading": "unclear",
+     "why": "Same reasoning as the second stabiliser: a third approved drug for the same condition is what the estimate assumes when it puts wide use at 2030, and the entry names none of them. The indication on the regulator's page is unnamed, so the link to the heart form rests on a search summary."
+    },
+    {
+     "date": "2026-08-28",
+     "what": "By a search summary, a late-stage trial of a gene silencer (eplontersen) in 1,432 people with the heart form of this disease did not add benefit to standard care, reported on 2026-08-28; and in April 2026 the United States regulator gave a fast-track designation to one of the deposit-clearing antibodies (coramitug), whose late-stage trial of about 1,280 people is not expected to finish until 2029. A second deposit-clearing antibody (cliramitug) is in a late-stage trial. The weekly reading of 2026-10-17 logs the failed trial and one antibody; the entry mentions none of it.",
+     "url": "https://www.healio.com/news/cardiology/20260828/no-added-cv-benefit-of-eplontersen-on-top-of-standard-care-for-attrcm",
+     "opened": false,
+     "source_kind": "press",
+     "bears_on": "description",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "Not opened, so reported as a summary. It bears on the entry's last sentence, which says the drugs that clear what has already settled 'were in late-stage trials when this was written': those trials now have dates, the earliest finishing in 2029, and one drug of a different kind has failed, which argues against the sentence's hopeful reading."
+    }
+   ],
+   "checked": [
+    "The regulator's application record at the stage link for tafamidis (application 211996): the entry's approval date of 2019-05-03 is the date that record gives",
+    "Bulawa and colleagues, PNAS, 2012 (https://doi.org/10.1073/pnas.1121005109): the abstract matches the entry, the binding, the crystal structure and the steadying of protein from patients, with no living animal mentioned"
+   ],
+   "queries": [
+    "web: transthyretin amyloid cardiomyopathy 2026 approval, acoramidis, vutrisiran, depleter antibody, phase 3 results",
+    "the regulator's application records for the second stabiliser and the gene silencer"
+   ],
+   "pages_opened": [
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216540",
+    "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215515",
+    "https://www.ebi.ac.uk/europepmc/ (abstract of doi 10.1073/pnas.1121005109)"
+   ],
+   "could_not_check": "No count of people treated or eligible turned up, which the entry's own notes already say of the maker's releases and filings. The 2018 trial of 441 people the entry cites was not re-opened. The failed late-stage trial and the fast-track designation were seen only as search summaries; a European committee's positive opinion of 2026-07-23 for a copy of the original drug, which the weekly reading of 2026-10-25 logs, was not opened either and would bear on price."
+  },
+  {
+   "id": "eye-drops-dissolve-the-clouded-protein-of-a-cataract",
+   "name": "Eye drops dissolve the clouded protein of a cataract",
+   "corrections": [
+    {
+     "entry_says": "The description calls it 'a controlled pilot trial ... in about 40 people', and the estimate's note says '8 people enrolled by the registry's last update'.",
+     "source_says": "Read on 2026-11-09, the registry entry (NCT07395986) gives an enrolment of 8 marked actual, not estimated, and a status of active and no longer recruiting, last updated 2026-08-11. On the registry's own record the trial has stopped taking part and will not reach about 40 people.",
+     "url": "https://clinicaltrials.gov/study/NCT07395986",
+     "opened": true
+    },
+    {
+     "entry_says": "The estimate's note calls the trial 'randomised, double-masked, placebo-controlled'.",
+     "source_says": "The registry's masking field gives four masked parties: the participant, the care provider, the investigator and the person assessing the outcome. The trial's own official title does say 'Double-Masked', so the entry follows the title rather than the field.",
+     "url": "https://clinicaltrials.gov/study/NCT07395986",
+     "opened": true
+    }
+   ],
+   "missing": [
+    {
+     "date": "2026-08-11",
+     "what": "The registry entry also gives 21 sites across the United States and an estimated primary completion of 2027-02, which the entry has. The change since the entry was written is the status, now active and no longer recruiting, with 8 people enrolled as an actual figure.",
+     "url": "https://clinicaltrials.gov/study/NCT07395986",
+     "opened": true,
+     "source_kind": "registry",
+     "bears_on": "estimate",
+     "direction": "later",
+     "test_met_on_plain_reading": false,
+     "why": "The first-human rung asks for drops to give measurably clearer lenses in a person in a controlled trial, which a trial with 8 people and no published result does not meet. It bears on the estimate, whose clinic years were brought in on this trial's dates and its path to a late-stage trial: a pilot that closed at 8 of about 40 people is a weaker base for that path than the note assumes."
+    },
+    {
+     "date": "2025-09-26",
+     "what": "A peer-reviewed report in Nature Communications (Song and colleagues, 2025-09-26) raised the amount of the same natural molecule inside the lens of rats by delivering, into the eye, the instructions for the enzyme that makes it, and reports a marked improvement of cataract in two rat models. It is not drops of the molecule itself, and the delivery was by injection into the eye rather than a drop. The entry does not mention it, and nothing in data/ does.",
+     "url": "https://doi.org/10.1038/s41467-025-63553-5",
+     "opened": true,
+     "source_kind": "paper",
+     "bears_on": "stage",
+     "direction": "earlier",
+     "test_met_on_plain_reading": false,
+     "why": "It does not meet the animal rung as written, which asks for 'a living animal with cataracts given eye drops' and for a second group to have repeated it. It bears on the entry's replication question all the same, because it is the first peer-reviewed report since 2015 in which raising this molecule in a living animal's lens improved a cataract, by a different group and a different route."
+    },
+    {
+     "date": "2026-07-15",
+     "what": "Two trade reports of 2026-07-15 and 2026-07-16 cover the first patient in the pilot trial, and one says the first patient was enrolled at a site in California. They are further accounts of the release the entry already cites. Seen in search summaries only.",
+     "url": "https://www.healio.com/news/optometry/20260715/eye-drop-for-cataracts-to-be-evaluated-in-pilot-study",
+     "opened": false,
+     "source_kind": "press",
+     "bears_on": "description",
+     "direction": "neutral",
+     "test_met_on_plain_reading": false,
+     "why": "Nothing in them is new beyond the company's release of 2026-07-14, and they were not opened. They are recorded so that a later reading does not take them for fresh news."
+    }
+   ],
+   "checked": [
+    "Zhao and colleagues, Nature, 2015-07-22 (https://doi.org/10.1038/nature14650): the abstract matches the entry, the molecule cutting protein clumps in a dish and reducing cataract severity in dogs, from groups in San Diego and Guangzhou",
+    "NCT07395986: the start date of 2026-02-10 (actual), the sponsor in Guangzhou, the placebo-controlled design and the estimated primary completion of 2027-02 are as the entry says"
+   ],
+   "queries": [
+    "registry: lanosterol OR ZOC2017217 OR Ocusun OR VP1-001; cataract eye drops with reverse, dissolve or oxysterol",
+    "Europe PMC: lanosterol with cataract, from 2024-01-01",
+    "Europe PMC: cataract with eye drops or topical and animals or patients and lens, transparency, reversal or opacity, from 2025-01-01",
+    "web: cataract eye drop 2026 lanosterol VP1-001 trial results China approval"
+   ],
+   "pages_opened": [
+    "https://clinicaltrials.gov/api/v2/studies/NCT07395986",
+    "https://www.ebi.ac.uk/europepmc/ (abstracts of doi 10.1038/nature14650, 10.1038/s41467-025-63553-5, and three searches)"
+   ],
+   "could_not_check": "No peer-reviewed report of the exploratory study in China turned up, which matches the entry's own note. No regulator's decision on a cataract drop turned up in any country, and no registered trial of any other cataract-reversing drop. The company's joint release of 2026-07-14 was not re-opened; the entry says it was read on 2026-10-17. The two 2015 and 2019 failures to repeat the dog result, which the entry describes, were not re-opened either."
+  }
+ ]
+}
