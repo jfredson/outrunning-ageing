@@ -1,0 +1,24 @@
+# Written 2026-11-11 from his own post, opened that day by two roads: a public mirror of the post,
+# which returns the whole text and the timestamp, and X's public embed feed, which returns the
+# timestamp and the first 276 characters (it cuts long posts short). The two agree word for word
+# as far as the feed goes. Who he is was read on the Jackson Laboratory's own page for him the
+# same day.
+
+id = "unutmaz-2026-escape-velocity-in-five-to-ten-years"
+added_on = 2026-11-11
+who = "Derya Unutmaz"
+who_is = "the immunologist Derya Unutmaz, a professor at the Jackson Laboratory in Farmington, Connecticut, whose laboratory studies the immune system's T cells in health, disease and ageing"
+said_on = "2026-10-30"
+where = "His own post on X, 2026-10-30, written above a post of the same day by Elon Musk that said \"Longevity is coming\"; read in full on 2026-11-11 through a public mirror of the post, with the date and the opening sentences checked against the platform's public embed feed"
+link = "https://x.com/DeryaTR_/status/2116173177491468629"
+quote = "Yes, Longevity IS coming! Just don’t die for the next 5-10 years to make it to longevity escape velocity (LEV). Once we reach LEV, then every year you live will begin to add an additional year to your lifespan until we reverse aging in ~15 years. After that, longevity will be defined as 100s of years!"
+is_paraphrase = false
+commits_to = "Three things, in order. Longevity escape velocity, which he describes as every year lived adding a year to a person's lifespan, reached within 5 to 10 years of the post: by 2031 to 2036, scored at the later year. Ageing reversed in about 15 years, read here as counted from the post: by about 2041. After that, lifespans of hundreds of years, which carries no date of its own."
+due = 2036
+about_the_headline = true
+verdict = "not-yet-due"
+
+notes = """
+The post is the whole statement: he gives no reasons in it and names no treatment, so it is about the whole question and not any one branch. His page at the Jackson Laboratory is https://www.jax.org/research-and-faculty/faculty/derya-unutmaz, and the post he wrote above, by Elon Musk, is https://x.com/elonmusk/status/2116026811570069944.
+The three parts fall due at different times, and the entry is scored at the first. When 2036 passes, the verdict turns on whether, in that year, the best available care added at least a year of remaining life expectancy per year lived. The second part comes due about 2041, and turns on whether a treatment by then makes an old person's body measurably younger, and not only slower to age. "In ~15 years" could also be read as fifteen years after escape velocity is reached, which would put it between 2046 and 2051; the plainer reading, fifteen years from the post, is the one used here. The third part, lifespans of hundreds of years, cannot be checked by anyone alive today: nobody could be shown to have lived that long before the 2100s at the earliest.
+"""
