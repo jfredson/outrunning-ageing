@@ -4,6 +4,7 @@ Every change to the records or the site, dated year-month-day, newest first. Pla
 
 ## 2026-11-14
 
+- **The site's text now says what was decided and why, not who decided it.** Wording only: no stage, estimate, headline year, date of a fact or source moved. 157 phrases in the records a visitor reads (treatment notes, descriptions, reasoning and revision reasons; claim, self-experiment and publication notes; weekly-reading resolutions and one reading summary) and 11 in the site's pages and two news posts that said "I ruled", "my ruling" or "John ruled" now give the reason from the record: the test, the source, the outside review's point, or the site's rule that an estimate is marked reviewed once every point of a review is answered. Lines that tell a reader who decides an open question, or what a weekly reading left for the author, are kept. The posts "Start here" and the plasma-exchange post each end with a dated line linking their earlier wording. Lines whose only reason was the ruling itself are listed in the pull request for review.
 - **The home page now lists the latest news on the right of the first screen**, under the chart of escape years: up to three of the newest posts, each as its date, its kind and a title that links to the post, with a link to all the news and a line sending a new reader to the opening post. Before this, nothing on the home page said a post existed. No record or number changes.
 
 ## 2026-11-11

@@ -125,7 +125,7 @@ sources = [
 ]
 for_john = """Still waiting on the ruling raised on 2026-10-17: if the ZSCAN4 report counts, the treatment would move one rung from shown in animals to first human; on a plain reading I think it does not (different gene, cells treated outside the body, two people, no cancer rate). New since then: the registry summary gives a primary completion date of 2026-10-08 for that trial, so the data that would settle the question about cancer rate and follow-up may soon appear; I would look at the registry entry at the next reading. Not mine to change because it is a reading of the test."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by my ruling of 2026-10-18, in the change to the records that day: nothing new to write, since the registry's primary completion date of 2026-10-08 is only an estimate; the question raised on 2026-10-17, whether the treatment has reached the first human rung, stays open on the treatment for me to decide."
+resolved_by = "Declined in the change to the records on 2026-10-18: nothing new to write, since the registry's primary completion date of 2026-10-08 is only an estimate; the question raised on 2026-10-17, whether the treatment has reached the first human rung, stays open on the treatment for me to decide."
 
 [[item]]
 leaf = "premature-ageing-mutation-corrected-in-a-living-animal"
@@ -418,7 +418,7 @@ found = """Nothing dated in the window. A review on fightaging.org (2026-08) say
 sources = ["https://www.fightaging.org/archives/2026/08/a-review-of-the-present-state-of-data-for-metformin-as-a-geroprotective-drug/", "https://www.stackingyears.com/blog/tame-trial-metformin-2026-status-update"]
 for_john = """Lead only, not in the window: two secondary 2026 pages disagree about whether the trial has started (one says enrolment is ongoing, one says on hold, now with ARPA-H). If a primary page (the registry, the American Federation for Aging Research, or the 2025 interview) confirms either, the missed verdict's reasoning in the record of Nir Barzilai's 2022 claim that the trial would start that year would need a note. I would not change the record on press alone; the call on what counts is yours."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by my ruling of 2026-10-18, in the change to the records that day: both pages are secondary and disagree, and the record's primary check of 2026-10-16 stands."
+resolved_by = "Declined in the change to the records on 2026-10-18: both pages are secondary and disagree, and the record's primary check of 2026-10-16 stands."
 
 [[item]]
 claim = "brenner-2022-age-reversal-an-old-grift"
@@ -558,7 +558,7 @@ found = """Nothing from the Salk Institute or Izpisua Belmonte in 2026 was seen.
 sources = ["https://www.lifebiosciences.com/news/press-releases/", "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/"]
 for_john = """Company releases of 2026-10-01 and 2026-10-08 on the first-in-human trial exist that the record does not carry (the 2026-10-08 one falls before the window; the reading of 2026-10-17 listed the company's releases only to 2026-08-10). The verdict delivered stands. Proposed change: add the 2026-10-08 release to the notes as a progress line, or leave the record as it is. Not mine to decide, since it changes the record's text."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by my ruling of 2026-10-18, in the change to the records that day: the company's release of 2026-10-08 has been in the publications log and in the record of the treatment 'A person receives cell-resetting genes in a registered trial' since 2026-10-17, and the claim's verdict is unaffected."
+resolved_by = "Declined in the change to the records on 2026-10-18: the company's release of 2026-10-08 has been in the publications log and in the record of the treatment 'A person receives cell-resetting genes in a registered trial' since 2026-10-17, and the claim's verdict is unaffected."
 
 [[item]]
 claim = "sinclair-2019-lifespan"
@@ -574,7 +574,7 @@ found = """Life Biosciences' own newsroom lists a release of 2026-10-08 with fir
 sources = ["https://www.lifebiosciences.com/news/press-releases/", "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/"]
 for_john = """Same item as for the Salk claim: the company releases of 2026-10-01 and 2026-10-08 are not in the record. The verdict missed stands. Proposed change: add the 2026-10-08 data release to the notes, or leave as is. Not mine to decide since it edits the record."""
 resolved_on = 2026-10-18
-resolved_by = "Declined by my ruling of 2026-10-18, in the change to the records that day: the same finding as for the Salk claim, already in the publications log and in the treatment's record since 2026-10-17; the claim's verdict is unaffected."
+resolved_by = "Declined in the change to the records on 2026-10-18: the same finding as for the Salk claim, already in the publications log and in the treatment's record since 2026-10-17; the claim's verdict is unaffected."
 
 [[item]]
 claim = "sinclair-2024-dog-supplement"

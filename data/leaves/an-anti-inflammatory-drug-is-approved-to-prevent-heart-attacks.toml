@@ -53,7 +53,7 @@ strokes or deaths. It was therefore not entered as an earlier stage. A search of
 2026-10-17 for animal studies of colchicine in atherosclerosis found later studies (not examined here), and one rabbit
 study of 2017 that found no effect on plaque, but no clean earlier record that meets the test.
 Added 2026-10-18, from the weekly reading of 2026-10-18: Germany's Federal Joint Committee resolved on 2026-08-20 that colchicine added to the best standard care, in adults with coronary heart disease and a recent heart attack, has a hint of a minor added benefit, on the evidence of the COLCOT trial; its resolution gives the German marketing authorisation as of 2025-08-02. That is an authorisation and a benefit assessment in a second country, not a measure of how widely the drug is prescribed, which is what the wide-use rung asks for. The stage and the years are unchanged.
-Added 2026-11-09: the full results of the ZEUS trial were published in a peer-reviewed journal on 2026-11-07 (Ridker and colleagues, New England Journal of Medicine), and they agree with the company's announcement: in 6,376 people, heart attack, stroke or heart death happened to 17.6 per cent on the drug and 17.7 per cent on placebo. The weekly reading of 2026-11-09 found the report, and I ruled the same day that the estimate for wide use moves later; the reasoning under the estimate says by how much and why.
+Added 2026-11-09: the full results of the ZEUS trial were published in a peer-reviewed journal on 2026-11-07 (Ridker and colleagues, New England Journal of Medicine), and they agree with the company's announcement: in 6,376 people, heart attack, stroke or heart death happened to 17.6 per cent on the drug and 17.7 per cent on placebo. The weekly reading of 2026-11-09 found the report, and the estimate for wide use moved later the same day; the reasoning under the estimate says by how much and why.
 """
 
 [[earlier_stage]]
@@ -107,14 +107,14 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. I ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. Every point the outside review of 2026-10-17 raised has been answered, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
 
 [[revision]]
 date = 2026-10-18
 field = "notes"
 old = "(nothing; text added at the end of the notes)"
 new = "Added 2026-10-18, from the weekly reading of 2026-10-18: Germany's Federal Joint Committee resolved on 2026-08-20 (g-ba-2026) that colchicine added to the best standard care, in adults with coronary heart disease and a recent heart attack, has a hint of a minor added benefit, on the evidence of the COLCOT trial; its resolution gives the German marketing authorisation as of 2025-08-02. That is an authorisation and a benefit assessment in a second country, not a measure of how widely the drug is prescribed, which is what the wide-use rung asks for. The stage and the years are unchanged."
-why = "Found by the weekly reading of 2026-10-18 and applied in the change to the records on 2026-10-18, on my ruling of that day on the audit of that reading: the resolution's PDF was opened and read (date, authorisation date, indication, the sentence on added benefit). The press statement that the drug has been on the German market since 2026-03-01 is not in the notice and is left out."
+why = "Found by the weekly reading of 2026-10-18 and applied in the change to the records on 2026-10-18, on the audit of that reading: the resolution's PDF was opened and read (date, authorisation date, indication, the sentence on added benefit). The press statement that the drug has been on the German market since 2026-03-01 is not in the notice and is left out."
 publication = "g-ba-2026"
 
 [[revision]]
@@ -130,7 +130,7 @@ date = 2026-11-09
 field = "estimate.rung.in-wide-use.earliest"
 old = 2027
 new = 2028
-why = "I ruled on 2026-11-09 that the estimate moves later because the ZEUS trial failed: its full report (Ridker and colleagues, New England Journal of Medicine, 2026-11-07) found no fewer heart attacks, strokes or heart deaths on ziltivekimab. The earliest year had allowed for a second drug helping colchicine into routine use; with ziltivekimab's remaining trials not due to report until 2027, it now rests on colchicine alone."
+why = "The estimate moves later because the ZEUS trial failed: its full report (Ridker and colleagues, New England Journal of Medicine, 2026-11-07) found no fewer heart attacks, strokes or heart deaths on ziltivekimab. The earliest year had allowed for a second drug helping colchicine into routine use; with ziltivekimab's remaining trials not due to report until 2027, it now rests on colchicine alone."
 publication = "ridker-2026"
 
 [[revision]]
@@ -138,7 +138,7 @@ date = 2026-11-09
 field = "estimate.rung.in-wide-use.likely"
 old = 2032
 new = 2035
-why = "I ruled on 2026-11-09 that the estimate moves later because the ZEUS trial failed. Two large trials of drugs acting on inflammation have now come back against (the 2025 colchicine trial after a heart attack, and ZEUS), and the trial's lead author said on 2026-11-07 that colchicine is still under-used, so the most likely year for wide use moves three years later."
+why = "The estimate moves later because the ZEUS trial failed. Two large trials of drugs acting on inflammation have now come back against (the 2025 colchicine trial after a heart attack, and ZEUS), and the trial's lead author said on 2026-11-07 that colchicine is still under-used, so the most likely year for wide use moves three years later."
 publication = "ridker-2026"
 
 [[revision]]
@@ -146,7 +146,7 @@ date = 2026-11-09
 field = "estimate.rung.in-wide-use.latest"
 old = 2050
 new = 2055
-why = "I ruled on 2026-11-09 that the estimate moves later because the ZEUS trial failed. The latest year had allowed for one negative trial keeping the treatment a niche choice; with a second, it allows longer, until a different drug acting further up the chain of inflammation proves itself."
+why = "The estimate moves later because the ZEUS trial failed. The latest year had allowed for one negative trial keeping the treatment a niche choice; with a second, it allows longer, until a different drug acting further up the chain of inflammation proves itself."
 publication = "ridker-2026"
 
 [[revision]]
@@ -162,4 +162,4 @@ date = 2026-11-09
 field = "estimate.set_on"
 old = 2026-10-16
 new = 2026-11-09
-why = "The estimate was set again on 2026-11-09, on my ruling of that day."
+why = "The estimate was set again on 2026-11-09, when the ZEUS trial's full report moved it later."
