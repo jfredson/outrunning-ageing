@@ -10,13 +10,24 @@ site/src/data/records.json (the build's prebuild does both, in that order):
 
 A post is one Markdown file, YYYY-MM-DD-slug.md, with a frontmatter block. The check refuses a
 post that: has a file name not of that form, or a frontmatter date that differs from it; carries
-a kind outside the seven; names no record, or one that does not exist (the opener, kind
-"start-here", is the one post that need not name a record); cites no source with an https
-address; states a figure (any digit) in a paragraph that carries no link (a Markdown link or a written-out https address) to a source or a record
-(a table is covered by the record links the page draws under the post; the frontmatter is not
-prose); or names a record that shows no dated change within fourteen days of the post's date
-(a revision, the rung reached, or a reading item resolved or moved), so a post cannot announce
-what the record does not show. The rules are John's of 2026-10-18.
+a kind outside the eight; names no record, or one that does not exist (the opener, kind
+"start-here", and a story that changes no record, kind "story", need not name one); cites no
+source with an https address; states a figure (any digit) in a paragraph that carries no link (a
+Markdown link or a written-out https address) to a source or a record (a table is covered by the
+record links the page draws under the post; the frontmatter is not prose); or names a record that
+shows no dated change within fourteen days of the post's date (a revision, the rung reached, or a
+reading item resolved or moved), so a post cannot announce what the record does not show. The
+rules are John's of 2026-10-18.
+
+A story (the eighth kind, "story"; John agreed on 2026-11-09 that a post may be written about a
+story that changes no record; the rule is written out in docs/news.md) is about a story from the
+field that a visitor would care about, whether or not it touches an entry. It need not name a
+record, and any record it names need show no change, so the check asks of it what it asks of every
+post (a source, a link beside every figure, the records it names existing) and one thing more: it
+carries no before-and-after line, since no number on the site moved. It need not say what it leaves
+unchanged (John, 2026-11-09, for every tracker's news posts: "Not every article needs to include
+the statement ... the article itself can stick to the news"). The Belt Equation's "discovery" kind
+is the same idea.
 """
 from __future__ import annotations
 
@@ -28,7 +39,8 @@ from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-KINDS = {"start-here", "rung-reached", "estimate-revised", "flagged-item-ruled", "claim", "headline-moved", "method-changed"}
+KINDS = {"start-here", "rung-reached", "estimate-revised", "flagged-item-ruled", "claim", "headline-moved", "method-changed", "story"}
+NO_RECORD_KINDS = {"start-here", "story"}  # the kinds that need not name a record
 WINDOW_DAYS = 14
 NAME_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})-([a-z0-9]+(?:-[a-z0-9]+)*)\.md$")
 
@@ -113,6 +125,13 @@ def record_changed_near(rec: dict, when: date, readings: list[dict]) -> bool:
     return False
 
 
+def story_problems(name: str, fm: dict) -> list[str]:
+    """What a post about a story that changes no record may not carry."""
+    if fm.get("before") or fm.get("after"):
+        return [f"{name}: a story changes no number on the site, so it carries no before or after line"]
+    return []
+
+
 def check(posts_dir: Path, records: dict) -> tuple[list[str], int]:
     problems: list[str] = []
     by_id: dict[str, dict] = {}
@@ -138,11 +157,11 @@ def check(posts_dir: Path, records: dict) -> tuple[list[str], int]:
             problems.append(f"{name}: the frontmatter date {fm['date']} differs from the file name's {m.group(1)}")
         kind = fm.get("kind")
         if kind not in KINDS:
-            problems.append(f"{name}: kind {kind!r} is not one of the seven")
+            problems.append(f"{name}: kind {kind!r} is not one of the eight")
         if kind == "start-here":
             openers += 1
         recs = fm.get("records") or []
-        if kind != "start-here" and not recs:
+        if kind not in NO_RECORD_KINDS and not recs:
             problems.append(f"{name}: names no record (records: [...])")
         for rid in recs:
             if rid not in by_id:
@@ -154,7 +173,9 @@ def check(posts_dir: Path, records: dict) -> tuple[list[str], int]:
             when = date.fromisoformat(fm.get("date") or m.group(1))
         except ValueError:
             when = None
-        if when and kind != "start-here":
+        if kind == "story":
+            problems += story_problems(name, fm)
+        if when and kind not in NO_RECORD_KINDS:
             for rid in recs:
                 if rid in by_id and not record_changed_near(by_id[rid], when, readings):
                     problems.append(f"{name}: {rid} shows no dated change within {WINDOW_DAYS} days of {when}; a post cannot announce what the record does not show")

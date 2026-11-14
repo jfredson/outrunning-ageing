@@ -289,12 +289,14 @@ that passes this test, ranked: it is dated in the window, its source was opened,
 site would care. Each has its date, the source, the record it bears on (or "no record"), and one line on
 why a visitor would care. This is a list for John, not a post. John agreed on 2026-11-09 that a news
 post may be written about a story that changes no record, and said he is leaning towards all news of
-interest to the project being worth writing about. That changes his rule of 2026-10-18, and
-`scripts/check_news.py` still enforces the old rule; until the script and the news rules are changed,
-the reading writes no post and the shortlist is where the stories go.
+interest to the project being worth writing about. That changed his rule of 2026-10-18: since
+2026-11-14 a post of the kind "a story from the field" (`kind: story`) may be written about a story
+that changes no record, under `docs/news.md`, and `scripts/check_news.py` accepts it. The reading
+still writes no post itself: the shortlist is where the stories go, and a post is drafted from it
+separately and waits for John's approval.
 
 **Not in this step, each its own piece of work:** the change to the news rule and
-`scripts/check_news.py` (agreed 2026-11-09, not yet built); the monthly check by a non-Claude model of
+`scripts/check_news.py` (agreed 2026-11-09, built 2026-11-14 in `docs/news.md`); the monthly check by a non-Claude model of
 what the readings missed (agreed 2026-11-09; `scripts/miss_check_gemini.py`); a one-off check of the
 records for older facts they lack (agreed 2026-11-09); a place in the reading record for stories with no
 record (a layout change); and the same changes on the four sibling sites. (The comparison of model

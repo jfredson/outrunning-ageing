@@ -933,6 +933,53 @@ class NewsPosts(unittest.TestCase):
         opener = self.GOOD.replace("kind: rung-reached", "kind: start-here").replace("records: [a-leaf]\n", "")
         self.assertEqual(self.run_check(opener, name="2026-10-18-start-here.md"), [])
 
+    # A story that changes no record (John, 2026-11-09; docs/news.md).
+    STORY = ("---\ntitle: A trial of an old drug in older people starts\ndate: 2026-11-14\nkind: story\n"
+             "summary: A trial started.\nrecords: []\n"
+             "sources:\n  - label: The registry entry\n    url: https://example.org/trial\n---\n\n"
+             "On 10 November 2026 [the trial opened](https://example.org/trial).\n")
+
+    def story_check(self, text):
+        return self.run_check(text, name="2026-11-14-a-trial-starts.md")
+
+    def test_a_story_that_changes_no_record_passes(self):
+        self.assertEqual(self.story_check(self.STORY), [])
+
+    def test_a_story_may_name_a_record_it_bears_on_without_a_change_to_it(self):
+        self.assertEqual(self.story_check(self.STORY.replace("records: []", "records: [a-leaf]")), [])
+
+    def test_a_story_still_names_only_records_that_exist(self):
+        bad = self.STORY.replace("records: []", "records: [no-such-leaf]")
+        self.assertTrue(any("does not exist" in p for p in self.story_check(bad)))
+
+    def test_a_story_still_needs_a_source_and_links_for_its_figures(self):
+        no_source = self.STORY.replace("sources:\n  - label: The registry entry\n    url: https://example.org/trial\n", "")
+        self.assertTrue(any("cites no source" in p for p in self.story_check(no_source)))
+        no_link = self.STORY.replace("[the trial opened](https://example.org/trial)", "the trial opened")
+        self.assertTrue(any("states a figure with no link" in p for p in self.story_check(no_link)))
+
+    def test_a_story_carries_no_before_or_after(self):
+        bad = self.STORY.replace("records: []", "records: []\nbefore: 2032\nafter: 2035")
+        self.assertTrue(any("no before or after" in p for p in self.story_check(bad)))
+
+    def test_an_unknown_kind_is_still_refused(self):
+        self.assertTrue(any("not one of the eight" in p for p in self.story_check(self.STORY.replace("kind: story", "kind: rumour"))))
+
+    def test_other_kinds_still_need_a_record_change(self):
+        # The new kind is the only way round the record-change rule: an estimate post still needs one.
+        far = self.GOOD.replace("date: 2026-10-18", "date: 2026-12-30").replace("kind: rung-reached", "kind: estimate-revised")
+        self.assertTrue(any("shows no dated change" in p for p in self.run_check(far, name="2026-12-30-a-leaf-moves.md")))
+
+    def test_the_real_posts_pass(self):
+        import check_news
+        exported = ROOT / "site" / "src" / "data" / "records.json"
+        if not exported.exists():  # written by scripts/export.py; the build checks the real posts after it
+            self.skipTest("records.json not exported yet")
+        records = json.loads(exported.read_text(encoding="utf-8"))
+        problems, n = check_news.check(ROOT / "site" / "src" / "content" / "news", records)
+        self.assertEqual(problems, [])
+        self.assertGreaterEqual(n, 3)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=1)
