@@ -812,6 +812,20 @@ class TheRun(unittest.TestCase):
             years = sorted(f["year"] if f["known"] else f["earliest"] for f in b["leaves"])
             floors.append(years[b["handled_when"] - 1])
         self.assertGreaterEqual(h["percentiles"]["p5"], max(floors) + compute.LAG[0])
+        # The hopeful end is exactly that floor, and every run lands between the two ends.
+        self.assertEqual(h["bounds"]["hopeful"]["year"], max(floors) + compute.LAG[0])
+        self.assertLessEqual(h["bounds"]["hopeful"]["year"], h["percentiles"]["p5"])
+        self.assertGreaterEqual(h["bounds"]["doubtful"]["year"], h["percentiles"]["p95"])
+
+    def test_the_two_ends_make_no_draw(self):
+        # Adding the two ends must not change a single drawn number: the same seed gives the same
+        # spread whether or not they are worked out.
+        loaded = compute.load_and_validate(DATA, history=False)
+        a = compute.compute_headline(loaded, runs=3000)
+        b = compute.compute_headline(loaded, runs=3000)
+        self.assertEqual(a["percentiles"], b["percentiles"])
+        self.assertEqual(a["bounds"], b["bounds"])
+        self.assertLessEqual(a["bounds"]["ranges_past_century"], a["bounds"]["ranges_drawn"])
 
 
 class TheServedHeadline(unittest.TestCase):

@@ -25,6 +25,22 @@
     "p75": 2062,
     "p95": 2069
   },
+  "bounds": {
+    "hopeful": {
+      "year": 2035,
+      "slowest_branch": "damaged-dna",
+      "slowest_name": "Damaged DNA",
+      "lag": 3
+    },
+    "doubtful": {
+      "year": 2095,
+      "slowest_branch": "damaged-dna",
+      "slowest_name": "Damaged DNA",
+      "lag": 15
+    },
+    "ranges_drawn": 39,
+    "ranges_past_century": 7
+  },
   "histogram": [
     {
       "from": 2040,
