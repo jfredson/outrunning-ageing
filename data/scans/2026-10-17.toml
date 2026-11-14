@@ -306,7 +306,7 @@ page has been read, as the reading's rule asks: Clinical Use of ZSCAN4 for Telom
 Hematopoietic Stem Cells (NEJM Evidence volume 4, issue 3, article EVIDoa2400252 (2025), 2025;
 https://doi.org/10.1056/EVIDoa2400252)."""
 resolved_on = 2026-11-09
-resolved_by = "Ruled on 2026-11-09: waiting for a paper or a registry record that meets the test. The first person rung stays open; the 2025 report on the gene ZSCAN4 is not counted as reaching it, because this treatment's test asks for a gene therapy that lengthens telomeres in a person with the cancer rate given, and that report gives none and treated cells outside the body. The years are unchanged."
+resolved_by = "Waiting for a paper or a registry record that meets the test. The first person rung stays open; the 2025 report on the gene ZSCAN4 is not counted as reaching it, because this treatment's test asks for a gene therapy that lengthens telomeres in a person with the cancer rate given, and that report gives none and treated cells outside the body. The years are unchanged."
 
 [[item]]
 leaf = "premature-ageing-mutation-corrected-in-a-living-animal"
@@ -1099,7 +1099,7 @@ Alzheimer Center Barcelona renew their collaboration to drive the AMBAR programm
 centres (Company press release, 2026-03-12;
 https://www.grifols.com/en/view-news/-/news/grifols-y-ace-alzheimer-center-barcelona-renuevan-su-colaboracion-para-impulsar-el-programa-ambar-e-incorporar-nuevos-centros)."""
 resolved_on = 2026-10-17
-resolved_by = "I ruled on 2026-10-17, after an outside review of the same date argued that the Barcelona centre's own announcement met the test, that the announcement (Ace Alzheimer Center Barcelona, 2026-04-27) counts as a named clinical setting publishing its practice, so the treatment moved to in clinical use dated 2026-04-27 and its estimate was rewritten for the wide-use rung; the supplier's release (Grifols, 2026-03-12) was logged in the change to the records on 2026-10-17."
+resolved_by = "An outside review of 2026-10-17 argued that the Barcelona centre's own announcement met the test, and the announcement (Ace Alzheimer Center Barcelona, 2026-04-27) counts as a named clinical setting publishing its practice, so the treatment moved to in clinical use dated 2026-04-27 and its estimate was rewritten for the wide-use rung; the supplier's release (Grifols, 2026-03-12) was logged in the change to the records on 2026-10-17."
 
 [[item]]
 leaf = "young-blood-rejuvenates-an-old-animal"
