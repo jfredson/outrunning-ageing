@@ -2,6 +2,10 @@
 
 Every change to the records or the site, dated year-month-day, newest first. Plain language; a reader outside the project should be able to follow it.
 
+## 2026-11-14
+
+- **The home page now lists the latest news on the right of the first screen**, under the chart of escape years: up to three of the newest posts, each as its date, its kind and a title that links to the post, with a link to all the news and a line sending a new reader to the opening post. Before this, nothing on the home page said a post existed. No record or number changes.
+
 ## 2026-11-11
 
 - **One claim added: Derya Unutmaz's post of 2026-10-30.** The immunologist Derya Unutmaz, a professor at the Jackson Laboratory, wrote on X that longevity escape velocity is 5 to 10 years away, that ageing will be reversed in about 15 years, and that lifespans will then run to hundreds of years. The post was opened on 2026-11-11 and the words in the entry are his own, taken from it. The entry is about the whole question, is not yet due, and is scored at 2036, the later end of his first window; its note says when the second part comes due (about 2041) and why the third cannot be checked by anyone alive today. The claims log now holds 34 claims. No treatment, stage, year or headline number changed.

@@ -16,6 +16,19 @@
 import Base from '../layouts/Base.astro';
 import Spread from '../components/Spread.astro';
 import { records, longDate, plural, percentWords, spreadWords, yearWords, REPO } from '../lib/records';
+import { datedPosts, opener, postPath, KIND_LABEL } from '../lib/news';
+
+// The latest news, on the right of the first screen (the tracker family's home-page panel,
+// first built on The Belt Equation on 2026-11-14; both layouts considered are drawn in
+// sentient-horizons/design/proposals/home-latest-news-2026-11-14.md). Titles and links only: the
+// three newest posts, newest first, so a returning reader sees what is new the moment the page
+// opens. The pinned "Start here" post is not one of the three; it gets its own line underneath.
+// One dated post is enough to show the panel: its date tells the reader how fresh it is.
+const NEWS_ON_HOME = 3;
+const NEWS_MIN_POSTS = 1;
+const newsPosts = await datedPosts();
+const latestNews = newsPosts.length >= NEWS_MIN_POSTS ? newsPosts.slice(0, NEWS_ON_HOME) : [];
+const startHere = await opener();
 
 const c = records.counts;
 const h = records.headline;
@@ -69,6 +82,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
     </p>
   </section>
 
+  <div class="home-side">
   <div class="first-side figure-card">
     <p class="plate-label">Sheet I · The spread of escape years</p>
     <Spread />
@@ -77,6 +91,26 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
       <li><i class="before"></i> before {fixed.before}, the date the loudest promises name</li>
     </ul>
     <p class="figure-note">The tree is played out two hundred thousand times, each time drawing a year for every treatment and tool. Each run's answer is the year the last required branch is handled, plus the years it takes a treatment to reach ordinary people. Nothing on the chart is typed in.</p>
+  </div>
+  {latestNews.length > 0 && (
+    <aside class="side-news" aria-labelledby="side-news-title">
+      <div class="side-news-head">
+        <h2 class="plate-label" id="side-news-title">Latest news</h2>
+        <a href="/news/">All news</a>
+      </div>
+      <ul class="side-news-list">
+        {latestNews.map((p) => (
+          <li>
+            <p class="side-news-meta"><time datetime={p.data.date}>{longDate(p.data.date)}</time><span class="kind">{KIND_LABEL[p.data.kind]}</span></p>
+            <a class="side-news-title" href={postPath(p)}>{p.data.title}</a>
+          </li>
+        ))}
+      </ul>
+      {startHere && (
+        <p class="side-news-foot">New here? <a href={postPath(startHere)}>Start with the opening post</a>.</p>
+      )}
+    </aside>
+  )}
   </div>
   </div>
 
