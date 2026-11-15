@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "jering-2026"
+date = "2026-11-09"
+added_on = 2026-11-15
+authors = ["K. S. Jering", "H. Skali", "B. Claggett", "N. Prasad", "J. Chen", "E. Gonzalez-Lopez", "C. Morbach", "S. A. M. Cuddy", "M. K. Davis", "F. Fernandes", "J. D. Mitchell", "N. Sarswat", "and 6 others, the last S. D. Solomon"]
+title = "Effects of Eplontersen on Cardiac Structure and Function in Patients With Transthyretin Amyloidosis With Cardiomyopathy: Insights from the CARDIO-TTRansform Trial"
+venue = "Circulation (online 2026-11-09)"
+link = "https://doi.org/10.1161/circulationaha.126.083722"
+finding = """
+In 1,426 people with transthyretin amyloid in the heart followed by ultrasound in the trial of eplontersen, the drug modestly slowed the thickening of the heart wall and the decline in the heart's filling and pumping over 140 weeks. The benefit was almost all in people not already taking a protein-steadying drug, and none was seen in those who were. The paper repeats that the trial did not significantly reduce its main outcome, heart deaths and repeat heart events.
+"""
+leaves = ["drug-stops-a-misfolded-protein-piling-up-in-the-heart"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database; the journal's own page was not read.
+"""

@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "shin-2026"
+date = "2026-11-11"
+added_on = 2026-11-15
+authors = ["Y. Shin", "J. J. Cha", "J. H. Kim", "H. J. Joo", "J. H. Park", "C. W. Yu", "M. Park", "Y. Lee", "S. J. Hong"]
+title = "Colchicine use was associated with reduced all-cause mortality in patients with diabetic gout without prior coronary artery disease: A propensity-matched nationwide cohort study"
+venue = "PLoS One 21, e0362218 (2026-11-11)"
+link = "https://doi.org/10.1371/journal.pone.0362218"
+finding = """
+In Korean national insurance records, 17,337 matched pairs of people with diabetes and gout and no earlier coronary disease were compared by whether they took colchicine. Fewer of the colchicine users died (8.01 against 11.07 per cent), but they had no fewer heart attacks (hazard ratio 1.15, 0.96 to 1.37) or strokes (0.91, 0.81 to 1.01). It is a comparison from records, not a trial.
+"""
+leaves = ["an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks"]
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database; the journal's own page was not read.
+"""

@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "editas-medicine-2026"
+date = "2026-11-09"
+added_on = 2026-11-15
+authors = ["Editas Medicine, Inc."]
+title = "Editas Medicine Announces Third Quarter 2026 Results and Business Updates"
+venue = "Company release, as filed with the United States Securities and Exchange Commission (2026-11-09)"
+link = "https://www.sec.gov/Archives/edgar/data/1650664/000165066426000100/editasmedicinepressrelease.htm"
+finding = """
+The company says it has ethics approval and has completed the notification to Australia's medicines regulator needed to start a first trial in people of its gene editor given into the body to lower LDL cholesterol, in people with an inherited form of high cholesterol, and that it remains on track to treat its first patient in 2026. The trial registry lists the trial as planned for 56 people in Australia and not yet recruiting.
+"""
+leaves = ["a-gene-is-edited-inside-a-persons-body"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the copy filed with the United States securities regulator. The registry entry (NCT07894887, first posted 2026-10-26) was read through the registry's data interface.
+"""

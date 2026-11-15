@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "murugadoss-2026"
+date = "2026-11-11"
+added_on = 2026-11-15
+authors = ["K. Murugadoss", "A. Venkatakrishnan", "V. Soundararajan"]
+title = "Reversal of Heart Age in Adults with Obesity After Initiation of Semaglutide Detected by Serial Electrocardiography"
+venue = "Preprints.org (preprint, 2026-11-11)"
+link = "https://doi.org/10.20944/preprints202611.1116.v1"
+finding = """
+A computer model trained on about a million routine heart tracings estimates a person's age from a tracing. In hospital records, that reading fell relative to calendar age after people with obesity started the weight-loss drug semaglutide, by 0.73 years at 12 months and 1.23 years at 15 months, and did not change after weight-loss surgery, although surgery patients lost far more weight (25.6 per cent against 4.8 per cent). It compares matched patients who chose their treatment, so it cannot show the drug caused the fall, and the reading is not one made from the marks on DNA.
+"""
+leaves = ["a-persons-biological-age-reading-falls-after-treatment"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database. A preprint, not yet peer reviewed.
+"""

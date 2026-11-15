@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "li-2026-organ-imbalance"
+date = "2026-11-09"
+added_on = 2026-11-15
+authors = ["Y. Li", "X. Xu", "X. He", "Y. Zheng", "C. Suo", "Z. Liu", "Z. Yuan", "Y. Jiang", "K. Xu", "X. Chen"]
+title = "Beyond accelerated aging: Multi-organ aging imbalance predicts adverse health outcomes"
+venue = "Research Square (preprint, 2026-11-09)"
+link = "https://doi.org/10.21203/rs.3.rs-11629199/v1"
+finding = """
+In 221,599 people of the UK Biobank, how unevenly a person's six organ systems had aged went with a higher risk of death beyond their overall biological age (11 per cent higher for each step, 1.09 to 1.13 times), and the link with death held in five other cohorts. The main organ ages here are not all read from blood proteins; the abstract says similar findings were seen with 11 organ ages that are.
+"""
+leaves = ["an-age-for-each-organ-is-read-from-blood-proteins"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database. A preprint, not yet peer reviewed.
+"""

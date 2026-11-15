@@ -1,0 +1,18 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "longeveron-2026"
+date = "2026-11-12"
+added_on = 2026-11-15
+authors = ["Longeveron Inc."]
+title = "Longeveron Announces 2026 Third Quarter Financial Results and Provides Business Update"
+venue = "Company release, as filed with the United States Securities and Exchange Commission (2026-11-12)"
+link = "https://www.sec.gov/Archives/edgar/data/1721484/000121390026119052/ea031194401ex99-1.htm"
+finding = """
+The company, which makes a donor-cell therapy it is testing against frailty and Alzheimer's disease and is one of the ten finalists of the XPRIZE Healthspan competition, says its trial in 40 infants with a rare heart defect did not meet its main measure. It has 7.2 million dollars in cash, enough to last into the first quarter of 2027, has cut spending and has hired an adviser to look at a partnership, a sale or a merger. It says its chance at the competition's grand prize depends on completing the required trial and finding the money for it.
+"""
+branches = ["replacing-parts", "measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the copy filed with the United States securities regulator.
+"""

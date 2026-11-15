@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "washizu-2026"
+date = "2026-11-12"
+added_on = 2026-11-15
+authors = ["K. Washizu", "X. Wang", "J. M. Draper", "S. Yamanaka", "A. Kunitomi"]
+title = "Partial reprogramming reveals lineage-specific uncoupling of rejuvenation, function, and recoverability in human cells"
+venue = "bioRxiv (preprint, 2026-11-12)"
+link = "https://doi.org/10.64898/2026.11.09.764947"
+finding = """
+Three kinds of human cell were briefly reset in a dish with the four resetting genes and then left to recover. Skin cells kept a lower age reading from the marks on their DNA but did not fully recover their growth; immune T cells recovered only from a shallow reset; cells that line blood vessels recovered quickly, stayed younger by the same reading and worked better. The authors, Shinya Yamanaka among them, conclude that the balance between making cells younger and letting them recover has to be set one kind of cell at a time.
+"""
+leaves = ["a-person-receives-cell-resetting-genes-in-a-trial", "partially-resetting-cells-reverses-ageing-in-an-animal"]
+branches = ["cell-settings"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database. A preprint, not yet peer reviewed.
+"""

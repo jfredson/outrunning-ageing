@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "aubrac-2026"
+date = "2026-11-10"
+added_on = 2026-11-15
+authors = ["G. Aubrac", "R. V. Raquib", "M. T. Le", "M. Webster-Clark", "R. W. Platt", "A. C. Stokes"]
+title = "Cardiovascular Outcomes in Semaglutide Versus Tirzepatide Users With Obesity and Atherosclerotic Disease: A Target Trial Emulation"
+venue = "Diabetes, Obesity and Metabolism (online 2026-11-10)"
+link = "https://doi.org/10.1111/dom.71550"
+finding = """
+A study of United States insurance records comparing people with heart and artery disease, overweight or obesity and no diabetes who started semaglutide or the newer drug tirzepatide. It found no significant difference between the two in a combined count of heart attacks, strokes, heart admissions, artery procedures and deaths (hazard ratio 1.21, 0.99 to 1.51). It is a comparison from records, not a trial.
+"""
+leaves = ["a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database; the journal's own page was not read.
+"""

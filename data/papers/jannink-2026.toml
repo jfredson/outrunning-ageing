@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "jannink-2026"
+date = "2026-11-12"
+added_on = 2026-11-15
+authors = ["J. Jannink", "J. van der Veen", "N. Mohammadnia", "M. F. van der Bijl", "E. Boersma", "A. van Broekhoven", "C. A. Budgeon", "J. H. Cornel", "J. W. Eikelboom", "S. El Messaoudi", "S. M. Nidorf", "T. S. J. Opstal", "and 8 others, the last A. T. L. Fiolet"]
+title = "Side Effects of Low-Dose Colchicine in Chronic Coronary Disease: A Post Hoc Analysis of the LoDoCo2 Trial"
+venue = "Journal of the American Heart Association, e049844 (2026-11-12)"
+link = "https://doi.org/10.1161/jaha.126.049844"
+finding = """
+A later analysis of the 2020 trial of low-dose colchicine in long-standing coronary disease. In the first month, when everyone took the drug, 618 of 6,519 people (9.5 per cent) reported side effects. Among those who then went on to the drug or placebo for about two and a half years, 4.2 per cent on colchicine and 4.4 per cent on placebo stopped for side effects, no difference.
+"""
+leaves = ["an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks"]
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database; the journal's own page was not read.
+"""

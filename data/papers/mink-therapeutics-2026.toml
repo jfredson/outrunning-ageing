@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "mink-therapeutics-2026"
+date = "2026-11-11"
+added_on = 2026-11-15
+authors = ["MiNK Therapeutics, Inc."]
+title = "MiNK Therapeutics Reports Third Quarter 2026 Results, First Pre-Commercial Product Revenue from agenT-797, Randomized ARDS Trial Advancing, and ARPA-H Selection for Deployable Cell Therapies"
+venue = "Company release, as filed with the United States Securities and Exchange Commission (2026-11-11)"
+link = "https://www.sec.gov/Archives/edgar/data/1840229/000119312526457244/inkt-ex99_1.htm"
+finding = """
+The company says that, in laboratory work with Imperial College London shown at a cancer immunotherapy meeting, two of its off-the-shelf immune-cell products, one of them engineered, cleared the aged cells that chemotherapy and radiation leave behind; it calls them "living senolytics". No person has been treated for this purpose: the company says it will finish its randomised trial in severe lung injury first and take aged cells and scarring into the clinic after that.
+"""
+leaves = ["immune-cells-engineered-to-kill-aged-cells"]
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the copy filed with the United States securities regulator.
+"""

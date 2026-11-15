@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "kovalchuk-2026"
+date = "2026-11-12"
+added_on = 2026-11-15
+authors = ["I. Kovalchuk", "O. Kovalchuk"]
+title = "Youthful circulation reshapes age-associated DNA methylation across blood and liver"
+venue = "The Journals of Gerontology, Series A, glag258 (online 2026-11-12)"
+link = "https://doi.org/10.1093/gerona/glag258"
+finding = """
+A fresh analysis of 78 blood and liver samples from an experiment already published, in which old mice were joined to a young mouse's circulation for a long period. The age-related marks on DNA were pushed back in both tissues, at many of the same sites, and much of the change was still there two months after the animals were separated. It is a re-analysis, not a new experiment.
+"""
+leaves = ["young-blood-rejuvenates-an-old-animal"]
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database; the journal's own page was not read.
+"""

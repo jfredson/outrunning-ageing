@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "verve-therapeutics-2026"
+date = "2026-09-24"
+added_on = 2026-11-15
+authors = ["Verve Therapeutics, Inc."]
+title = "A Study of VERVE-102 (LY4636581) in Adults With or at High Risk for Cardiovascular Disease"
+venue = "ClinicalTrials.gov, registry entry NCT07839936 (first posted 2026-09-24, last updated 2026-11-10)"
+link = "https://clinicaltrials.gov/study/NCT07839936"
+finding = """
+A mid-stage (phase 2) trial of a gene editor given into the body to lower LDL cholesterol for good, in 175 adults who have heart and artery disease or are at high risk of it. The entry shows it recruiting in the United States since 2026-09-24, with its main results expected in August 2028 and none posted.
+"""
+leaves = ["a-gene-is-edited-inside-a-persons-body"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the registry's data interface. First posted before the week the reading covered; the entry was updated inside it.
+"""

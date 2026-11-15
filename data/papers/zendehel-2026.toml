@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "zendehel-2026"
+date = "2026-11-10"
+added_on = 2026-11-15
+authors = ["R. Zendehel", "L. An", "L. Chauveau", "H. S. Oh", "G. Vilkaite", "I. Hristovska", "V. Warrier", "J. Seidlitz", "R. A. Bethlehem", "A. Pichet-Binette", "J. W. Vogel"]
+title = "Beyond organ age gaps: comparing plasma proteomic metrics of organ biology in relation to brain structure and neurodegenerative disease"
+venue = "bioRxiv (preprint, 2026-11-10)"
+link = "https://doi.org/10.64898/2026.11.09.765339"
+finding = """
+Three ways of scoring 15 organs from the proteins in blood were compared in 52,667 people of the UK Biobank. The three were related but not interchangeable. The gap between an organ's age and the person's age was the score most consistently linked to later brain and blood-vessel diagnoses, but adding the scores to a model of basic personal details improved prediction only modestly, the most for Alzheimer's disease.
+"""
+leaves = ["an-age-for-each-organ-is-read-from-blood-proteins"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database. A preprint, not yet peer reviewed.
+"""

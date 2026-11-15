@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "marx-2026"
+date = "2026-11-11"
+added_on = 2026-11-15
+authors = ["N. Marx", "J. E. Deanfield", "S. L. Mulvagh", "A. Videmark", "T. van Bemmel", "J. B. Buse", "Z. Davicevic-Elez", "M. D. M. Engelmann", "M. Haluzik", "G. K. Hovingh", "S. E. Inzucchi", "J. F. E. Mann", "and 10 others, for the SOUL Study Group"]
+title = "First and Subsequent Major Cardiovascular Events With Oral Semaglutide in High-Risk Type 2 Diabetes: A Secondary Analysis of the SOUL Randomized Clinical Trial"
+venue = "JAMA Cardiology (online 2026-11-11)"
+link = "https://doi.org/10.1001/jamacardio.2026.4944"
+finding = """
+In the placebo-controlled trial of semaglutide taken by mouth in 9,650 people with type 2 diabetes and heart, artery or kidney disease, followed for about four years, counting every heart attack, stroke and heart death and not only each person's first gave 683 events on the drug against 791 on placebo (ratio 0.86, 0.76 to 0.97). The people in it all had diabetes.
+"""
+leaves = ["a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database; the journal's own page was not read.
+"""

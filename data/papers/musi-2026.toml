@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "musi-2026"
+date = "2026-07-28"
+added_on = 2026-11-15
+authors = ["N. Musi", "C. Wang", "D. MacCarthy", "Z. Feng", "J. T. Holmes", "M. Suda", "T. Pirtskhalava", "A. Aslamy", "J. Wanagat", "R. Brooke", "T. Tchkonia", "J. L. Kirkland", "S. Horvath", "S. E. Espinoza"]
+title = "A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance"
+venue = "medRxiv (preprint, 2026-07-28)"
+link = "https://doi.org/10.64898/2026.07.27.26359055"
+finding = """
+A two-year placebo-controlled trial of metformin in 145 adults of about 72 with raised blood sugar short of diabetes, in San Antonio. On its first frailty score metformin showed no benefit once the weight loss it causes was set aside. On a second score that counts 95 health deficits it gave a small, significant slowing, and two clocks read from the marks on DNA in blood ran slightly slower (by 0.40 and 0.33 years a year). The trial measured frailty, not the time to a first age-related disease.
+"""
+leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database. A preprint, not yet peer reviewed. The trial's registry entry (NCT02570672) is marked completed, with results posted on 2025-08-06 and 141 people enrolled. Posted before the week the reading covered.
+"""

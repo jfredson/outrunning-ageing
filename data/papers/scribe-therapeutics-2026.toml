@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "scribe-therapeutics-2026"
+date = "2026-11-12"
+added_on = 2026-11-15
+authors = ["Scribe Therapeutics, Inc."]
+title = "Scribe Therapeutics Reports Third Quarter 2026 Financial Results and Recent Corporate Highlights"
+venue = "Company release, as filed with the United States Securities and Exchange Commission (2026-11-12)"
+link = "https://www.sec.gov/Archives/edgar/data/1853921/000119312526458486/sctx-ex99_1.htm"
+finding = """
+The company says its first trial in people of a one-dose treatment that switches off a cholesterol gene by changing the marks on it, without cutting the DNA, began in mid 2026 and is under way, with first results from people expected in the first half of 2027. In monkeys, it says, one dose kept LDL cholesterol down by more than half for two years.
+"""
+leaves = ["a-cells-settings-are-rewritten-at-one-gene-in-a-person"]
+branches = ["cell-settings"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the copy filed with the United States securities regulator. The trial's registry entry (NCT07428473) shows it recruiting in Australia and New Zealand, 64 people planned.
+"""

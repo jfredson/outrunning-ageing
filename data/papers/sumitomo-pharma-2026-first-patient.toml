@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "sumitomo-pharma-2026-first-patient"
+date = "2026-10-30"
+added_on = 2026-11-15
+authors = ["Sumitomo Pharma Co., Ltd."]
+title = "Financial results presentation for the second quarter of the year to March 2027, with research and development update"
+venue = "Company presentation (2026-10-30)"
+link = "https://www.sumitomo-pharma.com/news/assets/pdf/eir20261030.pdf"
+finding = """
+The maker of the Parkinson's cell product approved conditionally in Japan on 2026-03-06, nerve cells grown from reprogrammed donor cells, says the first patient in the study it must run after approval was treated at Kyoto University Hospital in October 2026. It plans about 1 or 2 patients in the year to March 2027, about 10 in the next year and 10 to 20 in the year after, with patients in that study given priority and other hospitals and a wider group of patients to follow once the study is complete.
+"""
+leaves = ["cells-grown-from-stem-cells-restore-a-lost-organ-function"]
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the company's own document; the title is a description, since the presentation's cover page was not read. Published before the week the reading covered.
+"""

@@ -1,0 +1,18 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "weon-2026"
+date = "2026-11-13"
+added_on = 2026-11-15
+authors = ["Byung Mook Weon"]
+title = "Centenarian population growth does not require extension of the fitted lifespan tail across five countries"
+venue = "Research Square (preprint, 2026-11-13)"
+link = "https://doi.org/10.21203/rs.3.rs-11326424/v1"
+finding = """
+Using population counts and life tables for Japan, Sweden, France, Italy and South Korea, a single author finds that the number of people aged 100 and over is growing because more people reach 100, while the model's measure of the far end of the lifespan shows no comparable long-term rise and sits at about 117 to 122 years. The author says this does not imply a fixed biological maximum.
+"""
+branches = ["worn-out-cells", "damaged-dna", "cell-settings", "broken-proteins", "energy-and-fuel", "replacing-parts", "inflammation-and-signalling", "measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database. A preprint, not yet peer reviewed. It bears on the question of a limit to human lifespan as a whole and on no one branch, so it is listed against all eight.
+"""

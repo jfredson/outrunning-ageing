@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "tian-2026"
+date = "2026-11-13"
+added_on = 2026-11-15
+authors = ["X. Tian", "J. Sun", "Y. Huo", "C. Ge", "W. Liu", "K. Li", "W. Sun", "G. Xiang", "Y. Tao", "H. Wang"]
+title = "Engineered compact TnpB epigenetic editors prevent choroidal neovascularization via Vegfa repression"
+venue = "Protein & Cell, pwag077 (online 2026-11-13)"
+link = "https://doi.org/10.1093/procel/pwag077"
+finding = """
+A Chinese group built smaller tools for switching a gene up or down by changing the marks on it, small enough to be carried by a single virus shell. Given once to mice, one of them switched down a gene that drives blood-vessel growth in the eye and markedly reduced the abnormal vessels of a model of the wet form of age-related macular degeneration, with no sign of DNA damage. It is mouse work.
+"""
+leaves = ["a-cells-settings-are-rewritten-at-one-gene-in-a-person"]
+branches = ["cell-settings"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database; the journal's own page was not read.
+"""

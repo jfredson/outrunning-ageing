@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "razvi-2026-gene-editing"
+date = "2026-11"
+added_on = 2026-11-15
+authors = ["Yousuf Razvi", "Scott Solomon", "Jorg Taubel", "Ed Gane", "Björn Pilebro", "Andoni Echaniz-Laguna", "Jessica Kachadourian", "Michael Sopko", "Derek Smith", "Joy Olbertz", "David Gutstein", "Liron Walsh", "Marianna Fontana", "Julian Gillmore"]
+title = "Abstract 5183: Cardiac Outcomes Following a Single Dose of Nexiguran Ziclumeran in Patients with Transthyretin Amyloidosis with Cardiomyopathy or Hereditary Transthyretin Amyloidosis with Polyneuropathy: A Phase 1 Analysis"
+venue = "Circulation 154 (supplement 1), abstract 5183 (meeting abstract, 2026)"
+link = "https://doi.org/10.1161/circ.154.suppl_1.5183"
+finding = """
+In the 72 people of the first trial of a one-time gene edit made inside the body for transthyretin amyloidosis, the level of the protein in blood was about 89 per cent lower a month after the single dose and stayed there at two years. In the 36 with advanced heart disease, heart measures held steady or improved, and 86 per cent were in the same or a better class of heart failure at 18 months. There was no comparison group, and it is a meeting abstract, not a full paper.
+"""
+leaves = ["a-gene-is-edited-inside-a-persons-body"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract's text in the Crossref record, because the journal's page refused; the record was created on 2026-11-08 and the issue's exact date was not confirmed.
+"""

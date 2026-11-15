@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "eisai-2026-pen-japan"
+date = "2026-11-13"
+added_on = 2026-11-15
+authors = ["Eisai Co., Ltd.", "Biogen Inc."]
+title = "LEQEMBI Pen (Subcutaneous Formulation of LEQEMBI) Now Available in Japan for Patients with Early Alzheimer's Disease"
+venue = "Company release (2026-11-13)"
+link = "https://www.eisai.com/news/2026/news202662.html"
+finding = """
+The makers say the under-the-skin pen form of the amyloid antibody lecanemab went on sale in Japan on 2026-11-13, the day it was listed in the national health insurance price list, after its approval there on 2026-09-16. Japan is the second country after the United States where a course can be given at home, once a week by the patient or a carer, in place of an infusion every two weeks at a hospital. Brain scans before and during treatment are still required.
+"""
+leaves = ["antibody-clears-amyloid-from-the-brain-and-slows-decline"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the maker's own page.
+"""

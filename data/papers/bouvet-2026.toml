@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "bouvet-2026"
+date = "2026-11-11"
+added_on = 2026-11-15
+authors = ["P. Bouvet", "L. Partridge"]
+title = "Body weight modifies the efficacy of lifespan-extending interventions in ad libitum-fed mice"
+venue = "bioRxiv (preprint, 2026-11-11)"
+link = "https://doi.org/10.64898/2026.11.10.765234"
+finding = """
+A reanalysis of body weight and survival for 33,780 mice in the United States programme that tests drugs for longer life. In males, the gain in median lifespan rose from 6.2 per cent in the lightest quarter of mice to 20.2 per cent in the heaviest, mainly because heavy untreated mice died sooner; the pattern held for 13 of 14 compounds and was weak in females. The authors conclude that much of the gain is relief from the harm of excess weight in freely fed mice, and that the drugs may do less in healthier mice or in people.
+"""
+leaves = ["a-drug-adds-healthy-years-to-a-life", "rapamycin-improves-an-age-related-measure-in-older-people"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database. A preprint, not yet peer reviewed.
+"""

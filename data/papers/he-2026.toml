@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "he-2026"
+date = "2026-11-13"
+added_on = 2026-11-15
+authors = ["Z. He", "J. Park", "J. Tan", "R. Wen", "J. Wang", "K. Ying", "Y. L. Guen", "E. Mormino", "V. Henderson", "T. Wyss-Coray"]
+title = "Disease aging clocks in the plasma proteome stratify risk and track preclinical progression"
+venue = "Research Square (preprint, 2026-11-13)"
+link = "https://doi.org/10.21203/rs.3.rs-10675323/v1"
+finding = """
+The Stanford group that built the organ clocks built blood-protein clocks for 31 age-related diseases in 44,526 people of the UK Biobank. Among people of the same age the clocks separated ten-year risk up to twentyfold; each extra year on a clock raised the hazard of type 2 diabetes by 24 per cent, chronic kidney disease by 21 per cent and Alzheimer's disease by 17 per cent, and 56 per cent of what the clocks measure was not captured by calendar age or the organ clocks. The Alzheimer's clock held, without refitting, in 501 people at a second centre.
+"""
+leaves = ["an-age-for-each-organ-is-read-from-blood-proteins", "a-blood-test-predicts-a-persons-death-and-disease-better-than-their-age"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database. A preprint, not yet peer reviewed.
+"""

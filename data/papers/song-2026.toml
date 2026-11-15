@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "song-2026"
+date = "2026-10-28"
+added_on = 2026-11-15
+authors = ["Q. Song", "X. Du", "W. Dong", "Y. Wang", "X. Wang", "Q. Yin"]
+title = "A Bi-Adjuvant Senolytic Nanovaccine Modulating Dendritic Cell Senescence Ameliorates Aging-Related Metabolic Dysfunction"
+venue = "Advanced Science, e78545 (online 2026-10-28)"
+link = "https://doi.org/10.1002/advs.78545"
+finding = """
+A vaccine that trains the immune system against aged cells carrying a surface protein called Gpnmb cleared such cells from the fat of old mice, improved their handling of sugar and fat, and, the abstract says, lengthened their lives. A news report of 2026-10-30 on the paper gives the lifespan figure: a median life 12 per cent longer in female mice vaccinated at 75 weeks, with ten mice to a group and untreated mice that were short-lived for their strain. It is small mouse work and no person has been given the vaccine.
+"""
+leaves = ["clearing-aged-cells-makes-old-animals-live-longer", "immune-cells-engineered-to-kill-aged-cells"]
+branches = ["worn-out-cells"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database; the full paper was not read, and the lifespan figures are from the report on lifespan.io of 2026-10-30. Published eleven days before the week the reading covered.
+"""

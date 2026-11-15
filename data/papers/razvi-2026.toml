@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "razvi-2026"
+date = "2026-11-09"
+added_on = 2026-11-15
+authors = ["Y. Razvi", "S. D. Solomon", "S. A. M. Cuddy", "L. Venneri", "A. Martinez-Naharro", "F. Cappelli", "A. Cipriani", "P. Garcia-Pavia", "A. Masri", "A. Sheikh", "N. Ramos-Lopez", "P. Sekar", "and 14 others, the last M. Fontana"]
+title = "Myocardial Responses to Eplontersen in Transthyretin Amyloid Cardiomyopathy: The CARDIO-TTRansform CMR study"
+venue = "Circulation (online 2026-11-09)"
+link = "https://doi.org/10.1161/circulationaha.126.083732"
+finding = """
+In 120 people scanned by magnetic resonance inside the large placebo-controlled trial of eplontersen, a drug that switches off the liver's production of the protein transthyretin, the scan measure of amyloid in the heart muscle was 6.7 percentage points lower on the drug than on placebo at week 140 (8.7 to 4.7 lower), with better heart structure and pumping. Most of those scanned were not taking a protein-steadying drug. The authors call it randomised evidence that lowering the protein changes the disease in the heart muscle; the trial as a whole did not significantly reduce heart deaths and repeat heart events.
+"""
+leaves = ["drug-stops-a-misfolded-protein-piling-up-in-the-heart"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the abstract in the Europe PMC paper database; the journal's own page was not read.
+"""

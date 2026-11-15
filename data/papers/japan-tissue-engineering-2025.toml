@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "japan-tissue-engineering-2025"
+date = "2025-05-13"
+added_on = 2026-11-15
+authors = ["Japan Tissue Engineering Co., Ltd."]
+title = "Japan Tissue Engineering Announces Approval for Expanded Indication of Autologous Cultured Cartilage \"JACC\" for Osteoarthritis"
+venue = "Company release (2025-05-13)"
+link = "https://www.jpte.co.jp/sys/upload/save/6994297976822d27ac55a4.pdf"
+finding = """
+The company says Japan approved on 2025-05-13 the use of its cultured cartilage, grown from the patient's own knee cartilage cells and sold since 2013 for injuries, for osteoarthritis of the knee, in people with a cartilage defect larger than 2 square centimetres whom medicines and exercise have not helped. It ran its trial for this from April 2019 and applied in June 2024; the product had been used in more than 1,900 cases for its earlier uses. The release gives no trial figures.
+"""
+leaves = ["a-persons-own-cells-are-grown-to-rebuild-a-worn-joint-surface"]
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the company's own release, in English. Published well before the week the reading covered.
+"""

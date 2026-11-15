@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-15 under the weekly reading of 2026-11-15.
+
+id = "reagan-udall-foundation-2026"
+date = "2026-07"
+added_on = 2026-11-15
+authors = ["Reagan-Udall Foundation for the FDA"]
+title = "Affecting the Aging Trajectory: Public Meeting Summary"
+venue = "Reagan-Udall Foundation for the FDA, summary of the public meeting of 2026-05-27 (July 2026)"
+link = "https://reaganudall.org/sites/default/files/2026-07/073126_Affecting%20the%20Aging%20Trajectory%20Public%20Meeting%20Summary.pdf"
+finding = """
+The summary of a public meeting on treatments for ageing, held by the foundation that Congress created to support the United States regulator, with funding from the government agency ARPA-H and the XPRIZE Foundation. It says no approved route now exists for a drug whose stated use is ageing, that there is no validated marker of ageing and no accepted regulatory measure, and that no marker of ageing has reached the standing of a validated or reasonably likely stand-in for a trial's outcome. Speakers pointed to the routes that exist, among them meetings on a company's own trial plan, the marker qualification programme and approvals disease by disease.
+"""
+leaves = ["a-regulator-accepts-a-marker-of-ageing-as-proof-a-treatment-worked", "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-15 from the foundation's own document. Published well before the week the reading covered.
+"""
