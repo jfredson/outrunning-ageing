@@ -3,11 +3,12 @@
 // from the records through scripts/export.py; a post explains a change the records already carry,
 // and scripts/check_news.py refuses a post that cannot be trusted (no record, no source, a figure
 // in a paragraph with no link, a record that shows no change near the post's date). Since 2026-11-09
-// a post may also tell a story that changes no record (kind "story", docs/news.md).
+// a post may also tell a story that changes no record (kind "story", docs/news.md); since 2026-11-15
+// one post a year may look back over the calendar year (kind "year-in-review", docs/news.md).
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-export const NEWS_KINDS = ['start-here', 'rung-reached', 'estimate-revised', 'flagged-item-ruled', 'claim', 'headline-moved', 'method-changed', 'story'] as const;
+export const NEWS_KINDS = ['start-here', 'rung-reached', 'estimate-revised', 'flagged-item-ruled', 'claim', 'headline-moved', 'method-changed', 'story', 'year-in-review'] as const;
 
 // YAML reads a bare 2026-10-18 as a date; the site keeps dates as YYYY-MM-DD strings.
 const isoDate = z.union([z.string().regex(/^\d{4}-\d{2}-\d{2}$/), z.date().transform((d) => d.toISOString().slice(0, 10))]);

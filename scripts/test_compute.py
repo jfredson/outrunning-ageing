@@ -943,6 +943,35 @@ class NewsPosts(unittest.TestCase):
         bad = self.GOOD.replace("sources:\n  - label: The paper\n    url: https://example.org/paper\n", "")
         self.assertTrue(any("cites no source" in p for p in self.run_check(bad)))
 
+    def _review(self, date="2026-12-29", records="[a-leaf]"):
+        return (f"---\ntitle: The year\ndate: {date}\nkind: year-in-review\nsummary: The year.\nrecords: {records}\n"
+                "sources:\n  - label: The paper\n    url: https://example.org/paper\n---\n\n"
+                "On 27 April 2026 the centre [published it](https://example.org/paper).\n")
+
+    def test_a_year_in_review_is_accepted(self):
+        # The record changed on 2026-10-17, months before the post: the calendar year is the window.
+        self.assertEqual(self.run_check(self._review(), name="2026-12-29-the-year.md"), [])
+        self.assertEqual(self.run_check(self._review(records="[]"), name="2026-12-29-the-year.md"), [])
+
+    def test_a_second_year_in_review_in_the_same_year_is_refused(self):
+        import check_news
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp)
+            (d / "2026-12-29-the-year.md").write_text(self._review(), encoding="utf-8")
+            (d / "2026-12-30-the-year-again.md").write_text(self._review(date="2026-12-30"), encoding="utf-8")
+            problems, n = check_news.check(d, self.RECORDS)
+        self.assertTrue(any("at most one a year" in p for p in problems))
+        with tempfile.TemporaryDirectory() as tmp:  # one in each of two years is fine
+            d = Path(tmp)
+            (d / "2026-12-29-the-year.md").write_text(self._review(), encoding="utf-8")
+            (d / "2027-12-29-the-year.md").write_text(self._review(date="2027-12-29", records="[]"), encoding="utf-8")
+            problems, n = check_news.check(d, self.RECORDS)
+        self.assertEqual(problems, [])
+
+    def test_a_year_in_review_naming_a_record_with_no_change_that_year_is_refused(self):
+        late = self._review(date="2027-12-29")
+        self.assertTrue(any("shows no dated change in 2027" in p for p in self.run_check(late, name="2027-12-29-the-year.md")))
+
     def test_the_opener_need_not_name_a_record(self):
         opener = self.GOOD.replace("kind: rung-reached", "kind: start-here").replace("records: [a-leaf]\n", "")
         self.assertEqual(self.run_check(opener, name="2026-10-18-start-here.md"), [])
@@ -981,7 +1010,7 @@ class NewsPosts(unittest.TestCase):
         self.assertTrue(any("outside a <figure>" in p for p in self.story_check(bad)))
 
     def test_an_unknown_kind_is_still_refused(self):
-        self.assertTrue(any("not one of the eight" in p for p in self.story_check(self.STORY.replace("kind: story", "kind: rumour"))))
+        self.assertTrue(any("not one of the nine" in p for p in self.story_check(self.STORY.replace("kind: story", "kind: rumour"))))
 
     def test_other_kinds_still_need_a_record_change(self):
         # The new kind is the only way round the record-change rule: an estimate post still needs one.

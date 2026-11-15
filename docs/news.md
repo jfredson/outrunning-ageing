@@ -1,10 +1,40 @@
 # The news posts: this site's rules
 
 This site's news posts follow the family's tracker pattern, rules 4.10 to 4.19
-(`sentient-horizons/design/tracker-pattern.md`, ruled by John from 2026-10-18), with one change
-of 2026-11-09 written out below. `scripts/check_news.py` enforces what a script can check; the
+(`sentient-horizons/design/tracker-pattern.md`, ruled by John from 2026-10-18), with two changes
+written out below, of 2026-11-15 and 2026-11-09. `scripts/check_news.py` enforces what a script can check; the
 build runs it before anything else, and its tests are the `NewsPosts` class in
 `scripts/test_compute.py`.
+
+## The change of 2026-11-15: one year in review a year
+
+**What John ruled.** On 2026-11-15 John ruled that every tracker in the family gets a ninth kind of
+post, "the year in review" (`kind: year-in-review`), for the end-of-year post that looks back over the
+calendar year and ahead to the next. It is the same on all five sites; the family's rule 4.11 is to be
+changed to match in sentient-horizons, separately.
+
+**What the check asks of it.**
+
+1. **At most one a year.** The check refuses a second post of this kind dated in the same calendar
+   year.
+2. **The calendar year in place of the fourteen days.** It need not name an entry, as a story need not
+   (the change of 2026-11-09 below). Each entry it does name must show a dated change (a revision, the
+   stage reached, or a reading item resolved or moved) somewhere in the post's own calendar year, so it
+   still cannot announce what the record does not show.
+3. **Everything every post must carry**, as below: the dated file name, a source with a web address, a
+   link beside every figure, John's approval before it goes live.
+
+**Held until its day.** A year in review is written weeks before the last week of December, when it is
+published. Since 2026-11-15 the site leaves out of every page, list, feed and the sitemap any post dated
+after the day the site is built (Pacific time), so a post merged early stays off the site until a build
+on or after its date: the next deploy after that day, or the deploy workflow run by hand. Its preview
+card, in `site/public/news/`, is still served at its own address in the meantime, though nothing links
+to it. To preview a held post, build with `NEWS_BUILD_DATE=YYYY-MM-DD`.
+
+| The choice | Confidence | Standard or judgment | Strongest alternative, and its cost |
+|---|---|---|---|
+| Named entries must change within the calendar year, not within fourteen days | High: it is the shared spec for all five sites | John's ruling, the spec's wording | No record rule at all, as for a story; simpler, but a review could name an entry that did not change that year |
+| Held posts left out of the built site by date | Moderate: it keeps a merged post off the site without a second branch; a page appears only at a build, so the post needs a deploy on or after its date | Judgment call | A scheduled daily deploy, so the post appears on its date with no one acting; one more moving part, and a deploy every day |
 
 ## The change of 2026-11-09: a post may tell a story that changes no record
 
