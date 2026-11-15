@@ -26,6 +26,15 @@ const bw = bins.length ? (W - padL - padR) / bins.length : 0;
 const y = (s: number) => padT + (H - padT - padB) * (1 - s / maxShare);
 const gridShares = [0.1, 0.2, 0.3, 0.4].filter((g) => g - 0.05 < maxShare);
 // The bin the middle year falls in, worked out here because the template cannot hold a <= comparison.
+// Each bar is labelled with its whole span ("2045–49"), not its first year alone: a single year
+// under a bar was read as the year the span ends, which put each bar five years early against the
+// text ("4.3% before 2050" sat under a bar marked 2050 at 23%). Fixed 2026-11-14.
+const centuryEnd = h.available ? h.method.century_end : 2100;
+const spanLabel = (b: { from: number; to: number | null }) => {
+  if (b.to === null) return `after ${b.from - 1}`;
+  const to = Math.min(b.to, centuryEnd);
+  return to === b.from ? String(b.from) : `${b.from}–${String(to).slice(-2)}`;
+};
 const medianBin = h.available ? bins.findIndex((b) => b.to !== null && b.from - 1 < h.median_year && h.median_year - 1 < b.to) : -1;
 
 const docs = [
@@ -115,12 +124,12 @@ const docs = [
                 <>
                   <rect class={`chart-bar ${isMedian ? 'median' : ''}`} x={x} y={top} width={Math.max(bw - 6, 2)} height={Math.max(H - padB - top, 0)} rx="2" />
                   {b.share >= 0.01 && <text class="chart-label" x={x + (bw - 6) / 2} y={top - 4} text-anchor="middle">{Math.round(b.share * 100)}%</text>}
-                  <text class="chart-axis" x={x + (bw - 6) / 2} y={H - padB + 16} text-anchor="middle">{b.to === null ? `${b.from}+` : String(b.from)}</text>
+                  <text class="chart-axis" x={x + (bw - 6) / 2} y={H - padB + 16} text-anchor="middle">{spanLabel(b)}</text>
                 </>
               );
             })}
           </svg>
-          <p class="chart-source">Source: <a href={`${REPO}/blob/main/data/headline.json`} rel="noopener">the computed result</a> in the public repository, {longDate(h.computed_on)}, also served from this site at <a href={h.served_at}>{h.served_at}</a>. Each span is labelled with its first year; the last bar is every run after {fixed.century_end}.</p>
+          <p class="chart-source">Source: <a href={`${REPO}/blob/main/data/headline.json`} rel="noopener">the computed result</a> in the public repository, {longDate(h.computed_on)}, also served from this site at <a href={h.served_at}>{h.served_at}</a>. Each bar is labelled with the years it covers, so the bar marked 2045–49 holds the runs landing from 2045 to 2049; any runs past {fixed.century_end} get a last bar of their own.</p>
         </div>
 
         {run && (

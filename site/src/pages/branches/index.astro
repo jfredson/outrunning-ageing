@@ -30,8 +30,7 @@ const branches = records.branches;
             <div class="bcard-title">{b.name}</div>
             <div class="bcard-sub">{b.meaning}</div>
             <div class="bcard-foot">
-              {b.in_clinic === 0 ? 'Nothing in the clinic yet' : `${plural(b.in_clinic, 'treatment', 'treatments')} in the clinic`}
-              {b.median_handled_year !== null && <>. Middle estimate: handled by <span class="year">{yearWords(b.median_handled_year)}</span></>}
+              {b.in_clinic === 0 ? 'Nothing in the clinic yet' : `${plural(b.in_clinic, 'treatment', 'treatments')} in the clinic`}{b.median_handled_year !== null && <>. Middle estimate: handled by <span class="year">{yearWords(b.median_handled_year)}</span></>}
             </div>
           </a>
         </li>
