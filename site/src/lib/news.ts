@@ -11,6 +11,7 @@ export const KIND_LABEL: Record<string, string> = {
   'claim': 'a claim added or settled',
   'headline-moved': 'the headline moved',
   'method-changed': 'the method changed',
+  'story': 'a story from the field',
 };
 
 export const postPath = (p: Post) => `/news/${p.id}/`;
