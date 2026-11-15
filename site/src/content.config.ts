@@ -20,6 +20,10 @@ const news = defineCollection({
     summary: z.string(),
     records: z.array(z.string()).default([]),
     sources: z.array(z.object({ label: z.string(), url: z.string().url() })).default([]),
+    // The pictures the post shows (tracker pattern, rule 4.23, in force since 2026-11-14): for each, its file
+    // in public/news/, the page it came from, the credit, the licence with its link, and the day the licence
+    // was read on that page. scripts/check_news.py refuses a picture in the body with no entry here.
+    photos: z.array(z.object({ file: z.string(), source: z.string().url(), credit: z.string(), licence: z.string(), licence_url: z.string().url(), read_on: isoDate })).default([]),
     reading: isoDate.optional(),
     before: z.string().optional(),
     after: z.string().optional(),
