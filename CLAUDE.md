@@ -110,6 +110,17 @@ Two more rulings of 2026-10-18 follow from it:
   from `CHANGELOG.md`. So every new treatment, claim and self-experiment carries `added_on`, and
   the headline is only ever written by `compute.py run`, which adds to its history.
 
+## Public text is written for visitors
+
+Decided by John on 2026-11-14, after a review of the live sites found notes to him on public
+pages. A record's `notes`, a revision's `why` and the weekly readings appear on public pages, so each is written for a visitor: what changed or was
+decided, and why. Never who was told, who ruled or what is waiting for whom ("flagged for John",
+"John's ruling", "put to me"), and never how the work was done (which computer, a session, a
+routine, a pull request or a commit). On the reading page a question waiting for my decision is said in my own voice ("left for me
+to decide"), never as a note to John. `scripts/check_site.py` reads the built site after
+every build and stops the deploy if a page carries one of those phrases, the check The Belt
+Equation, The Quiet Galaxy and The Upgrade Tree also run.
+
 ## End of a session
 
 Worklog entry on the TimeAssembler project "Outrunning Ageing" with `repo = outrunning-ageing`,
