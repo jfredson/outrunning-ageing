@@ -1,11 +1,11 @@
 # The year-end post for 2026: sources and checks
 
 The post: `site/src/content/news/2026-12-29-longevity-medicine-in-2026-and-what-to-watch-in-2027.md`,
-a "story from the field" post (the kind of `docs/news.md`, since no record changes with it), drafted
+a "year in review" post (the kind John ruled on 2026-11-15, `docs/news.md`), drafted
 2026-11-15 and dated for the publishing week John set (2026-12-28 to 2026-12-31). **Not published.**
-It sits on its own branch and pull request; merging it to `main` deploys it, and John approves it
-first (tracker pattern, rule 4.18). The kind was chosen because a year's review changes no record; a
-separate "year in review" kind is a question for John.
+It sits on its own branch and pull request, and John approves it first (tracker pattern, rule
+4.18). Merging it deploys the site, but the post, dated 2026-12-29, stays off every page until a
+build on or after that day. Every entry it names shows a dated change in 2026, as the kind requires.
 
 ## Promotion gate
 

@@ -29,6 +29,12 @@ unchanged (John, 2026-11-09, for every tracker's news posts: "Not every article 
 the statement ... the article itself can stick to the news"). The Belt Equation's "discovery" kind
 is the same idea.
 
+A year in review (the ninth kind, "year-in-review"; ruled by John on 2026-11-15 for all five
+trackers) looks back over one calendar year and ahead to the next. It need not name a record. Each
+record it does name must show a dated change (a revision, the stage reached, or a reading item
+resolved or moved) somewhere in the post's own calendar year, in place of the fourteen-day window,
+so it still cannot announce what the record does not show. There is at most one such post a year.
+
 Pictures (tracker pattern, rule 4.23, in force since 2026-11-14). A post may show real photographs
 of its event. The check refuses a post whose picture: is not written as a <figure> with an <img> and
 a <figcaption>; is loaded from another site and not from /news/ here; has no description (alt); has
@@ -48,8 +54,9 @@ from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-KINDS = {"start-here", "rung-reached", "estimate-revised", "flagged-item-ruled", "claim", "headline-moved", "method-changed", "story"}
-NO_RECORD_KINDS = {"start-here", "story"}  # the kinds that need not name a record
+KINDS = {"start-here", "rung-reached", "estimate-revised", "flagged-item-ruled", "claim", "headline-moved", "method-changed", "story", "year-in-review"}
+NO_RECORD_KINDS = {"start-here", "story", "year-in-review"}  # the kinds that need not name a record
+YEAR_KINDS = {"year-in-review"}  # the kinds held to the calendar-year rule instead of the fourteen days
 WINDOW_DAYS = 14
 NAME_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})-([a-z0-9]+(?:-[a-z0-9]+)*)\.md$")
 
@@ -110,8 +117,12 @@ def paragraphs(body: str) -> list[str]:
     return out
 
 
-def record_changed_near(rec: dict, when: date, readings: list[dict]) -> bool:
-    lo, hi = when - timedelta(days=WINDOW_DAYS), when + timedelta(days=WINDOW_DAYS)
+def record_changed_near(rec: dict, when: date, readings: list[dict], whole_year: bool = False) -> bool:
+    """A dated change within fourteen days of `when`, or, with whole_year, anywhere in when's calendar year."""
+    if whole_year:
+        lo, hi = date(when.year, 1, 1), date(when.year, 12, 31)
+    else:
+        lo, hi = when - timedelta(days=WINDOW_DAYS), when + timedelta(days=WINDOW_DAYS)
     dates: list[str] = []
     for rv in rec.get("revisions") or []:
         if rv.get("date"):
@@ -215,6 +226,7 @@ def check(posts_dir: Path, records: dict, pictures_dir: Path | None = None) -> t
     readings = records.get("readings") or []
     files = sorted(p for p in posts_dir.glob("*.md")) if posts_dir.exists() else []
     openers = 0
+    years: dict[str, list[str]] = {}
     for path in files:
         name = path.name
         m = NAME_RE.match(name)
@@ -231,9 +243,11 @@ def check(posts_dir: Path, records: dict, pictures_dir: Path | None = None) -> t
             problems.append(f"{name}: the frontmatter date {fm['date']} differs from the file name's {m.group(1)}")
         kind = fm.get("kind")
         if kind not in KINDS:
-            problems.append(f"{name}: kind {kind!r} is not one of the eight")
+            problems.append(f"{name}: kind {kind!r} is not one of the nine")
         if kind == "start-here":
             openers += 1
+        if kind in YEAR_KINDS:
+            years.setdefault(m.group(1)[:4], []).append(name)
         recs = fm.get("records") or []
         if kind not in NO_RECORD_KINDS and not recs:
             problems.append(f"{name}: names no record (records: [...])")
@@ -250,6 +264,10 @@ def check(posts_dir: Path, records: dict, pictures_dir: Path | None = None) -> t
             when = None
         if kind == "story":
             problems += story_problems(name, fm)
+        if when and kind in YEAR_KINDS:
+            for rid in recs:
+                if rid in by_id and not record_changed_near(by_id[rid], when, readings, whole_year=True):
+                    problems.append(f"{name}: {rid} shows no dated change in {when.year}; a year in review cannot announce what the record does not show")
         if when and kind not in NO_RECORD_KINDS:
             for rid in recs:
                 if rid in by_id and not record_changed_near(by_id[rid], when, readings):
@@ -257,6 +275,9 @@ def check(posts_dir: Path, records: dict, pictures_dir: Path | None = None) -> t
         for i, para in enumerate(paragraphs(body), 1):
             if re.search(r"\d", para) and "](" not in para and "https://" not in para:
                 problems.append(f"{name}: paragraph {i} states a figure with no link to a source or a record: {para[:70]!r}")
+    for year, names in sorted(years.items()):
+        if len(names) > 1:
+            problems.append(f"{posts_dir}: {len(names)} posts of kind year-in-review in {year} ({', '.join(names)}); there is at most one a year")
     if openers > 1:
         problems.append(f"{posts_dir}: {openers} posts of kind start-here; there is one per site")
     return problems, len(files)

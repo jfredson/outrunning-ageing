@@ -1,7 +1,7 @@
 ---
 title: "Longevity medicine in 2026: Japan approves stem-cell treatments, a heart trial fails, and what Outrunning Ageing is watching in 2027"
 date: 2026-12-29
-kind: story
+kind: year-in-review
 summary: In March 2026 Japan approved two treatments made from reprogrammed stem cells, the year's biggest step towards replacing worn-out parts of the body. Here is what else mattered in longevity medicine in 2026, what moved on this site after it launched in October, and the dated results and decisions to watch for in 2027.
 records: [cells-grown-from-stem-cells-restore-a-lost-organ-function, heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart, replacing-a-persons-plasma-slows-an-age-related-disease, a-person-receives-cell-resetting-genes-in-a-trial, a-treatment-slows-a-biological-age-clock-in-a-controlled-trial, aged-cell-clearing-drug-beats-a-sham-in-a-controlled-trial, an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks, metformin-delays-age-related-disease-in-people-without-diabetes, a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat, a-drug-is-approved-to-make-dogs-live-longer, a-cells-settings-are-rewritten-at-one-gene-in-a-person]
 sources:
