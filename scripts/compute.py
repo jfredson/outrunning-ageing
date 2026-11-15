@@ -1085,7 +1085,7 @@ def compute_headline(loaded: dict, runs: int = RUNS, seed: int = SEED,
     bins: list[dict] = []
     start = first_bin
     while start <= CENTURY_END:
-        end = start + 4
+        end = min(start + 4, CENTURY_END)  # the last bin stops at the century's end, so no year is counted twice
         n = sum(1 for y in escape if start <= y <= end)
         bins.append({"from": start, "to": end, "share": round(n / runs, 4)})
         start += 5

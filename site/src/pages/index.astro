@@ -162,8 +162,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
             <div class="bcard-title">{b.name}</div>
             <div class="bcard-sub">{b.meaning}</div>
             <div class="bcard-foot">
-              {b.furthest_label ? `Furthest stage: ${b.furthest_label.toLowerCase()}` : 'No stage reached'}
-              {b.median_handled_year !== null && <>. Middle estimate: handled by <span class="year">{yearWords(b.median_handled_year)}</span></>}
+              {b.furthest_label ? `Furthest stage: ${b.furthest_label.toLowerCase()}` : 'No stage reached'}{b.median_handled_year !== null && <>. Middle estimate: handled by <span class="year">{yearWords(b.median_handled_year)}</span></>}
             </div>
           </a>
         </li>
