@@ -4,6 +4,7 @@
 // image (rule 4.15). Ruled by John 2026-10-18.
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import RecentNews from '../../components/RecentNews.astro';
 import { longDate, leafById } from '../../lib/records';
 import { allPosts, cardPath, KIND_LABEL, type Post } from '../../lib/news';
 
@@ -21,6 +22,7 @@ const named = post.data.records.map((id) => leafById(id)).filter(Boolean);
     <h1>{post.data.title}</h1>
     <p class="lede">{post.data.summary}</p>
   </section>
+  <div class="post-layout">
   <article class="post">
     {post.data.stand_in && <p class="stand-in">A stand-in written from the record while the opening post is drafted; it will be replaced, not revised.</p>}
     <Content />
@@ -32,4 +34,6 @@ const named = post.data.records.map((id) => leafById(id)).filter(Boolean);
     )}
     <p class="news-follow">Follow the news: <a href="/news/feed.xml">the feed</a> · <a href="https://x.com/SentHorizons" rel="noopener">@SentHorizons on X</a> · <a href="https://www.reddit.com/r/SentientHorizons/" rel="noopener">r/SentientHorizons on Reddit</a>.</p>
   </article>
+  <RecentNews currentId={post.id} />
+  </div>
 </Base>

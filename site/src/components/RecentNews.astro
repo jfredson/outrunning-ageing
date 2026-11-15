@@ -1,0 +1,33 @@
+---
+// "Recent news" beside a news post (2026-11-14, carried across from The Belt Equation): the newest
+// dated posts on the site, leaving out the one being read, so a visitor who lands on one post can
+// find the others. It wears the home page's "Latest news" panel styles (.side-news and its parts)
+// rather than a second look of its own. The opening post is left out of the list and offered
+// underneath, as on the home page, except on the opening post itself.
+import { longDate } from '../lib/records';
+import { datedPosts, opener, postPath } from '../lib/news';
+
+interface Props { currentId: string; count?: number }
+const { currentId, count = 5 } = Astro.props;
+
+const recent = (await datedPosts()).filter((p) => p.id !== currentId).slice(0, count);
+const startHere = await opener();
+const showStart = startHere && startHere.id !== currentId;
+---
+
+{recent.length > 0 && (
+  <nav class="side-news recent-news" aria-labelledby="recent-news-title">
+    <div class="side-news-head">
+      <h2 class="plate-label" id="recent-news-title">Recent news</h2>
+    </div>
+    <ul class="side-news-list">
+      {recent.map((p) => (
+        <li>
+          <p class="side-news-meta"><time datetime={p.data.date}>{longDate(p.data.date)}</time></p>
+          <a class="side-news-title" href={postPath(p)}>{p.data.title}</a>
+        </li>
+      ))}
+    </ul>
+    <p class="side-news-foot"><a href="/news/">All news</a>{showStart && <> · New here? <a href={postPath(startHere!)}>Start with the opening post</a>.</>}</p>
+  </nav>
+)}
