@@ -51,16 +51,14 @@ be conditionally approved on full safety data, full manufacturing data and a rea
 expectation of effectiveness, for up to five years while the full trial finishes, and a
 veterinarian may prescribe it as normal in that time. This entry counts such an approval as the
 clinic rung, which is a lower bar than the human treatments on this branch clear; a stricter test
-would wait for the full approval, perhaps two years later than the estimate. It is a judgment
-call, and I ruled on 2026-10-17 that the conditional approval counts as the clinic rung.
+would wait for the full approval, perhaps two years later than the estimate. It is a judgment call, settled on 2026-10-17: the conditional approval counts as the clinic rung.
 What this does to the headline. The treatment is on the energy and fuel branch because the drug
 (LOY-002) is said to act on the metabolic dysfunction of ageing, and because the claims log
 already files the Loyal claim there. Its early clinic estimate would make it the second treatment
 on that branch to reach the clinic, so the branch would count as handled much earlier than before.
 The site's headline computation shows the effect; the report on the check of this record, put to
 me, gave the numbers before and after. An approval for dogs says nothing yet about people, which
-is the other reason this treatment was put to me; I ruled on 2026-10-17 that the entry stands
-with the stage idea only and the estimate as proposed (earliest 2027, likely 2028, latest 2032).
+is the other reason this treatment was put to me; the entry stands with the stage idea only and the estimate as proposed (earliest 2027, likely 2028, latest 2032).
 Related: Loyal's claim of 2025-02-26, in the claims log, that its senior-dog drug's application
 would be complete by the end of 2025 (the promise, missed).
 Checked on 2026-10-17 against the regulator's own news list and the company's own pages. The United
@@ -111,4 +109,4 @@ date = 2026-10-17
 field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
-why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. I ruled on every point of the review on 2026-10-17, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. Every point the outside review of 2026-10-17 raised has been answered, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
