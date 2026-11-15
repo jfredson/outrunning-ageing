@@ -63,6 +63,7 @@ def main(argv: list[str] | None = None) -> int:
     try:
         run([sys.executable, str(ROOT / "scripts" / "compute.py"), "validate"])
         run([sys.executable, str(ROOT / "scripts" / "test_compute.py")])
+        run([sys.executable, str(ROOT / "scripts" / "test_check_site.py")])
         run([sys.executable, str(ROOT / "scripts" / "export.py")])
         if not (SITE / "node_modules").exists():
             run(["npm", "ci"], cwd=SITE)
