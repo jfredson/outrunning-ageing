@@ -58,6 +58,11 @@ PHRASES = [
     r"browser pane",
     r"refus\w+ a script",
     r"\bhis own (browser|subscription|login)\b",
+    # Added 2026-11-20: a page must never say a fact was "written from memory". If a record
+    # with unchecked claims reaches the built site, its page prints that phrase, and this
+    # stops the deploy so the claims are checked first. The phrase is an alarm, not wording
+    # to tidy away: check the claims, then clear the record's list.
+    r"from memory\b",
 ]
 PATTERN = re.compile("|".join(PHRASES), re.IGNORECASE)
 TAGS = re.compile(r"<script\b.*?</script>|<style\b.*?</style>|<[^>]+>", re.IGNORECASE | re.DOTALL)

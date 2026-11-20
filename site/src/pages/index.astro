@@ -7,7 +7,7 @@
 // chart of the spread of escape years (Spread.astro), the trunk's picture, standing between double
 // rules as "Sheet I". The first-screen markup is the design session's (merged from main on
 // 2026-10-17); everything below the first screen is the site session's: what a treatment is, the
-// eight branches with live counts and the year each is handled in the middle run, the six kinds of
+// eight branches with live counts and the year each has two treatments in the clinic in the middle run, the six kinds of
 // record with live counts, who is asking. Written for a reader who has never heard of any of this
 // (design standard, section 1a); UK spelling throughout. Every number comes from records.json
 // (scripts/export.py), which reads the computed headline from data/headline.json; nothing here is
@@ -49,8 +49,11 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
     )}
     <p class="big-claim-line">
       {h.available
-        ? `The middle estimate of the year medicine starts adding more than a year of healthy life for every year that passes.`
-        : `The year medicine starts adding more than a year of healthy life for every year that passes, worked out from the record and never chosen by hand, will stand here.`}
+        ? `My middle estimate of the year two treatments are in ordinary use for each kind of ageing damage this site tracks, along with tools to measure whether they work.`
+        : `The year two treatments are in ordinary use for each kind of ageing damage this site tracks, worked out from the record and never chosen by hand, will stand here.`}
+    </p>
+    <p class="claim-condition">
+      I treat that as the year medicine could start adding more than a year of healthy life for every year that passes. It counts treatments arriving, not the healthy life each one adds, and no one has shown yet that the gains add up to that much. <a href="#least">What the year cannot count.</a>
     </p>
     {h.available && (
       <div class="stat-row" aria-label="The three numbers beside the year">
@@ -90,7 +93,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
       <li><i class="bars"></i> share of runs landing in each five-year span</li>
       <li><i class="before"></i> before {fixed.before}, the date the loudest promises name</li>
     </ul>
-    <p class="figure-note">The tree is played out two hundred thousand times, each time drawing a year for every treatment and tool. Each run's answer is the year the last required branch is handled, plus the years it takes a treatment to reach ordinary people. Nothing on the chart is typed in.</p>
+    <p class="figure-note">The tree is played out two hundred thousand times, each time drawing a year for every treatment and tool. Each run's answer is the year the last branch gets its second treatment into the clinic, plus the years it takes a treatment to reach ordinary people. Nothing on the chart is typed in.</p>
   </div>
   {latestNews.length > 0 && (
     <aside class="side-news" aria-labelledby="side-news-title">
@@ -141,7 +144,7 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
         </li>
         <li>
           <span class="move-name">Why "not this century" reads zero</span>
-          <span class="move-what">{h.bounds.ranges_past_century} of the {h.bounds.ranges_drawn} ranges I draw from {h.bounds.ranges_past_century === 1 ? 'runs' : 'run'} past {fixed.century_end}. But a branch counts as handled when its two fastest treatments reach the clinic, so a slow one never holds it back. Even with every treatment at its latest year, the answer is {yearWords(h.bounds.doubtful.year)}. The zero comes from how I set up the ranges. It is not a finding that this will happen this century. Giving each treatment a chance that it never works at all would put a real number there.</span>
+          <span class="move-what">{h.bounds.ranges_past_century} of the {h.bounds.ranges_drawn} ranges I draw from {h.bounds.ranges_past_century === 1 ? 'runs' : 'run'} past {fixed.century_end}. But a branch is counted when its two fastest treatments reach the clinic, so a slow one never holds it back. Even with every treatment at its latest year, the answer is {yearWords(h.bounds.doubtful.year)}. The zero comes from how I set up the ranges. It is not a finding that this will happen this century. Giving each treatment a chance that it never works at all would put a real number there.</span>
         </li>
         <li>
           <span class="move-name">What the tree cannot count</span>
@@ -162,14 +165,14 @@ const loneMover = reading && reading.movers.length === 1 ? reading.movers[0] : n
             <div class="bcard-title">{b.name}</div>
             <div class="bcard-sub">{b.meaning}</div>
             <div class="bcard-foot">
-              {b.furthest_label ? `Furthest stage: ${b.furthest_label.toLowerCase()}` : 'No stage reached'}{b.median_handled_year !== null && <>. Middle estimate: handled by <span class="year">{yearWords(b.median_handled_year)}</span></>}
+              {b.furthest_label ? `Furthest stage: ${b.furthest_label.toLowerCase()}` : 'No stage reached'}{b.median_handled_year !== null && <>. Middle estimate: two in the clinic by <span class="year">{yearWords(b.median_handled_year)}</span></>}
             </div>
           </a>
         </li>
       ))}
     </ul>
     <p class="dim" style="font-size: 14px; margin-top: 12px;">
-      A branch counts as handled in the year its second treatment reaches the clinic, so a branch with nothing in the clinic pushes the year out. <a href="/branches/">The tree</a> has the branches one at a time.
+      A branch is counted in the year its second treatment reaches the clinic, so a branch with nothing in the clinic pushes the year out. Two treatments in the clinic is a low bar: it does not mean that kind of damage has been dealt with. <a href="/branches/">The tree</a> has the branches one at a time.
     </p>
   </section>
 

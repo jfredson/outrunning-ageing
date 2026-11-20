@@ -1,8 +1,8 @@
 ---
 // The tree: the index of the eight branches (tracker pattern, section 2 and rule 2.4), under the
 // ruled public name "The tree". One card per branch with its live counts and the year it counts
-// as handled in the middle run, then the stage ladder explained once. Copied from The Upgrade
-// Tree's branches index on 2026-10-17 (the `bcard` cards), with the handled year added because
+// as having two treatments in the clinic in the middle run, then the stage ladder explained once. Copied from The Upgrade
+// Tree's branches index on 2026-10-17 (the `bcard` cards), with that year added because
 // this site has a computed year and that one has a count.
 import Base from '../../layouts/Base.astro';
 import { records, plural, yearWords } from '../../lib/records';
@@ -12,7 +12,7 @@ const h = records.headline;
 const branches = records.branches;
 ---
 
-<Base title="The tree · Outrunning Ageing" description="The eight things that would have to be dealt with for medicine to start outrunning ageing, and what has been recorded under each: the treatments and tools, the stage each has reached, and the year each branch counts as handled.">
+<Base title="The tree · Outrunning Ageing" description="The eight things that would have to be dealt with for medicine to start outrunning ageing, and what has been recorded under each: the treatments and tools, the stage each has reached, and the year each branch gets its second treatment into the clinic.">
   <section class="hero">
     <p class="eyebrow">The tree</p>
     <h1>Eight things that would have to be dealt with</h1>
@@ -30,7 +30,7 @@ const branches = records.branches;
             <div class="bcard-title">{b.name}</div>
             <div class="bcard-sub">{b.meaning}</div>
             <div class="bcard-foot">
-              {b.in_clinic === 0 ? 'Nothing in the clinic yet' : `${plural(b.in_clinic, 'treatment', 'treatments')} in the clinic`}{b.median_handled_year !== null && <>. Middle estimate: handled by <span class="year">{yearWords(b.median_handled_year)}</span></>}
+              {b.in_clinic === 0 ? 'Nothing in the clinic yet' : `${plural(b.in_clinic, 'treatment', 'treatments')} in the clinic`}{b.median_handled_year !== null && <>. Middle estimate: two in the clinic by <span class="year">{yearWords(b.median_handled_year)}</span></>}
             </div>
           </a>
         </li>
@@ -41,7 +41,7 @@ const branches = records.branches;
   <section class="section narrow prose">
     <h2>How a branch sets the year</h2>
     <p>
-      Each branch counts as handled in the year its second treatment or tool reaches the clinic: the rung called "in clinical use", where a regulator somewhere has approved it or a doctor can give it outside a trial. The tree is played out many thousands of times, each time drawing a year for every treatment from its range; in each run the latest handled year across the eight branches, plus a few years for treatments to spread from the clinic to ordinary people, is that run's answer. So the slowest branch sets the year, and the fastest two treatments under a branch set that branch. {h.available ? `Taking each branch's middle estimate, the slowest is handled by ${yearWords(Math.max(...branches.map((b) => b.median_handled_year ?? 0)))}, and the year at the top is ${h.median_year}.` : ''} The rule, with its alternatives, is on <a href="/about/#method">how the numbers are worked out</a>.
+      Each branch is counted in the year its second treatment or tool reaches the clinic: the rung called "in clinical use", where a regulator somewhere has approved it or a doctor can give it outside a trial. The tree is played out many thousands of times, each time drawing a year for every treatment from its range; in each run the latest of those years across the eight branches, plus a few years for treatments to spread from the clinic to ordinary people, is that run's answer. So the slowest branch sets the year, and the fastest two treatments under a branch set that branch. {h.available ? `Taking each branch's middle estimate, the slowest has two in the clinic by ${yearWords(Math.max(...branches.map((b) => b.median_handled_year ?? 0)))}, and the year at the top is ${h.median_year}.` : ''} The rule, with its alternatives, is on <a href="/about/#method">how the numbers are worked out</a>.
     </p>
 
     <h2>The five stages</h2>
