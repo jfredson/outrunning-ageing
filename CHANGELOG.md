@@ -2,6 +2,10 @@
 
 Every change to the records or the site, dated year-month-day, newest first. Plain language; a reader outside the project should be able to follow it.
 
+## 2026-11-21
+
+- **Two news stories, drafted and not yet published.** The first is a new look at 33,780 mice, which found that, in males, the drugs known to lengthen mouse life added far more to the lives of the heaviest mice than to the lightest. Rapamycin follows the same pattern. It is a preprint that other scientists have not yet checked, so the estimate for a drug giving people extra healthy years is left where it is, and will be weighed again once a checked version is published (decided 2026-11-21). The second is the makers' five-year results for the Alzheimer's drug lecanemab, which compare the treated people with patients followed in two earlier studies of the disease rather than with a placebo group. It also mentions the pen form of the drug going on sale in Japan. Neither story changes a stage, an estimate or a count. Each post goes live only when it is approved.
+
 ## 2026-11-20
 
 - **The sentence under the year now says what the year counts** (`site/src/pages/index.astro`). A cold-reader audit of the site on 2026-11-20 found that the year was presented as "the year medicine starts adding more than a year of healthy life for every year that passes", while the computation counts treatments reaching the clinic and does not measure healthy life added. The home page already said so, five screens down. The sentence under the year now reads "My middle estimate of the year two treatments are in ordinary use for each kind of ageing damage this site tracks, along with tools to measure whether they work", and a second sentence straight under it gives the condition: I treat that as the year medicine could start outrunning ageing, it counts treatments arriving and not healthy life added, and no one has shown the gains add up. No number, range, stage or record changed.
