@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-21 when the estimate for wide use of the amyloid antibody was weighed.
+
+id = "eisai-2026-canada-payment"
+date = "2026-09-01"
+added_on = 2026-11-21
+authors = ["Eisai Co., Ltd.", "Biogen Inc."]
+title = "Canada's Drug Agency Issues Final Positive Recommendation Supporting Public Reimbursement of LEQEMBI (lecanemab) for Early Alzheimer's Disease"
+venue = "Company release (2026-09-01)"
+link = "https://www.eisai.com/news/2026/news202648.html"
+finding = """
+The makers say Canada's drug agency issued a final recommendation, on reconsideration, that public drug plans pay for the amyloid antibody lecanemab for eligible people with early Alzheimer's disease. A recommendation is not payment: the next steps are a price negotiation between the makers and Canada's public plans together, and then a decision by each province and territory.
+"""
+leaves = ["antibody-clears-amyloid-from-the-brain-and-slows-decline"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Read on the maker's own page on 2026-11-21, after the weekly reading of 2026-11-15 pointed to it.
+"""

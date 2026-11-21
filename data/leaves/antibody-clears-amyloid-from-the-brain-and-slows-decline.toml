@@ -64,8 +64,10 @@ record = "https://doi.org/10.1056/NEJMoa2212948"
 status = "reviewed"
 set_on = 2026-10-16
 why = """
-Wide use needs a form that does not require infusions and frequent scans (an under-the-skin
-version was approved in 2025 for maintenance), lower prices, and clinics able to give it. The
+Wide use needs a form that does not require infusions and frequent scans, lower prices, and
+clinics able to give it. An under-the-skin version was approved in the United States in 2025 for
+the later doses, and on 2026-07-13 for the first doses too, so a whole course can now be given at
+home there. The
 likely year assumes those come together in the mid 2030s; the earliest assumes the next
 generation of antibodies, with fewer brain-swelling events, arrives sooner; the latest allows for
 the drugs staying a specialist treatment given to a small share of patients.
@@ -75,7 +77,18 @@ Since 2026-07-13 it is also approved as a starting dose (the companies' own rele
 Biogen, 2026-07-13), so that bar no longer holds. The frequent brain scans, the price and the absence of any published
 uptake figure stand. The years are unchanged; I may want to weigh whether the earliest and likely
 wide-use years (2028, 2035) should move at the next review.]
+[Note 2026-11-21: I weighed four newer facts and left the years as they are. The pen form went on
+sale in Japan on 2026-11-13, the second country after the United States where a course can be given
+at home. China approved the same form as a starting treatment on 2026-09-03, with a launch planned by
+2027-03-31. Canada's drug agency recommended on 2026-09-01 that public plans pay for the drug, though
+each province still has to decide. And worldwide sales for April to September 2026 were 61.5 billion
+yen against 41.1 billion a year earlier, a figure that included a one-off stockpile in China. All four
+point earlier, but none says how many people are treated, and a substantial share of eligible patients
+taking the drug is what wide use means here. Brain scans before and during treatment are still
+required. The years wait on a published count of people treated.]
 """
+
+sources = ["eisai-2026", "eisai-2026-pen-japan", "eisai-2026-china-starting-dose", "eisai-2026-canada-payment", "eisai-2026-half-year-sales"]
 
 [[estimate.rung]]
 rung = "in-wide-use"
@@ -112,3 +125,18 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. Every point the review of 2026-10-17 raised has been answered, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."
+
+[[revision]]
+date = 2026-11-21
+field = "estimate.why"
+old = "Wide use needs a form that does not require infusions and frequent scans (an under-the-skin version was approved in 2025 for maintenance), lower prices, and clinics able to give it."
+new = "Wide use needs a form that does not require infusions and frequent scans, lower prices, and clinics able to give it. An under-the-skin version was approved in the United States in 2025 for the later doses, and on 2026-07-13 for the first doses too, so a whole course can now be given at home there. [and a dated note of 2026-11-21 at the end of the reasoning]"
+why = "The first sentence still said the under-the-skin form was approved for the later doses only; it now also gives the approval of 2026-07-13, which the note of 2026-10-17 had recorded. A note dated 2026-11-21 records four newer facts about the drug's reach (the pen on sale in Japan, China's approval of the starting dose, Canada's recommendation of public payment, and the half-year sales) and says why the years stay: none of them counts the people treated. No year changed."
+publication = "eisai-2026-pen-japan"
+
+[[revision]]
+date = 2026-11-21
+field = "estimate.sources"
+old = "(nothing; the estimate named no publications)"
+new = "eisai-2026, eisai-2026-pen-japan, eisai-2026-china-starting-dose, eisai-2026-canada-payment, eisai-2026-half-year-sales"
+why = "The estimate now names the makers' releases its reasoning rests on, so that each one is linked from the treatment's page. No year changed."

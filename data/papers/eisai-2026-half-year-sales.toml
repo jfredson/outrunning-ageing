@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-21 when the estimate for wide use of the amyloid antibody was weighed.
+
+id = "eisai-2026-half-year-sales"
+date = "2026-10-28"
+added_on = 2026-11-21
+authors = ["Eisai Co., Ltd."]
+title = "Revenue of LEQEMBI (Preliminary Basis)"
+venue = "Company release (2026-10-28)"
+link = "https://www.eisai.com/news/2026/news202659.html"
+finding = """
+The maker gives worldwide sales of the amyloid antibody lecanemab of 61.5 billion yen for 2026-04-01 to 2026-09-30, before audit, against 41.1 billion yen a year earlier. The earlier figure included a one-off stockpile by distributors in China. By country: 32.5 billion yen in the United States (19.3 billion a year earlier), 13.0 billion in Japan (11.7 billion) and 9.7 billion in China (7.9 billion). The release gives no count of people treated.
+"""
+leaves = ["antibody-clears-amyloid-from-the-brain-and-slows-decline"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Read on the maker's own page on 2026-11-21, after the weekly reading of 2026-11-15 pointed to it.
+"""

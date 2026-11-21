@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-21 when the estimate for wide use of the amyloid antibody was weighed.
+
+id = "eisai-2026-china-starting-dose"
+date = "2026-09-03"
+added_on = 2026-11-21
+authors = ["Eisai Co., Ltd.", "Biogen Inc."]
+title = "LEQEMBI (lecanemab) Subcutaneous Formulation as an Initiation Treatment for Early Alzheimer's Disease Approved in China"
+venue = "Company release (2026-09-03)"
+link = "https://www.eisai.com/news/2026/news202649.html"
+finding = """
+The makers say China's medicines regulator approved the under-the-skin autoinjector form of the amyloid antibody lecanemab as a starting treatment for early Alzheimer's disease on 2026-09-03. It is given at home once a week, as two injections, in place of an infusion every two weeks in a hospital. The makers plan to launch it in China by 2027-03-31, so it was not yet on sale when the release was written.
+"""
+leaves = ["antibody-clears-amyloid-from-the-brain-and-slows-decline"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Read on the maker's own page on 2026-11-21, after the weekly reading of 2026-11-15 pointed to it.
+"""
