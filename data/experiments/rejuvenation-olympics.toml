@@ -15,11 +15,14 @@ consents to share the result; the site asks them to retest every three months. T
 are kept: one by pace of ageing (DunedinPACE, a clock that reads the chemical marks on DNA and
 reports how many years of ageing the body shows per calendar year) and one by an organ-by-organ
 age from Yale's system-specific clocks. A participant is marked verified after three tests within
-two years, and the ranking is the average of their three lowest pace scores in that time."""
+two years, and the ranking is the average of their three lowest pace scores in that time. New entrants are
+closed: the last day to send a first sample was 2026-10-30, and the competition ends on 2027-03-30
+(https://rejuvenationolympics.com/rules)."""
 measures = """
 The two clock readings per test, as reported by one commercial laboratory; a rank; a verified
 badge, which the site's rules define as three tests within two years. On 2026-10-16 the top five by
-pace were Bryan Johnson at 0.50, then four other entrants between 0.51 and 0.57."""
+pace were Bryan Johnson at 0.50, then four other entrants between 0.51 and 0.57. On 2026-11-27 the top five ran from Bryan Johnson
+at 0.50 to a fifth entrant at 0.59."""
 claims = """
 That the people at the top of the board are ageing at about half the normal rate, and that the
 board shows what is possible for ordinary people as well as for its founder."""
@@ -56,4 +59,6 @@ than four years old, with the ranking average taken over the best three tests in
 frequently-asked-questions page says the board was founded by Bryan Johnson and TruDiagnostic, the
 About page by Bryan Johnson and Oliver Zolman. An earlier version of this record said the "verified"
 badge rests on the count of tests "and not on anything independent"; that was removed on 2026-10-17
-because the pages do not say either way."""
+because the pages do not say either way.
+Checked 2026-11-27: the rules and the home page both give 2026-10-30 as the last day to enter and 2027-03-30 as the close; TruDiagnostic's page about the leaderboard gave no closing date that day.
+"""

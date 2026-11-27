@@ -1409,6 +1409,8 @@ sources = [
   "https://clinicaltrials.gov/api/v2/studies?query.spons=Calico&pageSize=50",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-09, where it was first raised. The entry on Calico's launch tells what followed up to the end of the AbbVie partnership and stops there, so it lacks Calico's own 2026 releases on the one drug it has kept in trials, for vanishing white matter disease: a breakthrough designation from the United States regulator on 2026-06-23 and the European Medicines Agency's priority medicines status (dated 2026-10-22 by that reading). Nothing dated between 2026-11-20 and 2026-11-27 changes it. Opened this week: Calico's news page and the trial registry's list of Calico's studies; the release pages themselves were opened by the reading of 2026-11-09 and not again, and the search this week showed them in its results only."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the note now records Calico's two regulatory steps of 2026 for fosigotifator (changelog, 2026-11-27, the first batch of older questions)."
 
 [[item]]
 claim = "de-grey-2004-first-thousand-year-old"
@@ -1464,6 +1466,8 @@ sources = [
   "https://aubreydegrey.substack.com/feed",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-15, where it was first raised. The entry on his 2024 odds lists his later restatements of 2026 but not the interview Cyprus Business News published on 2026-03-31, in which he says \"it seems at least 50% likely to me that we will reach LEV by 2040\"; that is the one occasion found where he names a calendar year himself, and 2040 falls inside the 2038 to 2041 the entry works out from his spoken twelve to fifteen years. Nothing dated between 2026-11-20 and 2026-11-27 changes it. Opened again this week: the interview's own page, where the date and the sentence were read; seen in a search result only: nothing used here."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the note now quotes his printed interview of 2026-03-31 naming 2040 (changelog, 2026-11-27, the first batch of older questions)."
 
 [[item]]
 claim = "de-grey-2026-fifty-fifty-twelve-to-fifteen-years"
@@ -1484,6 +1488,8 @@ sources = [
   "https://lifeboat.com/blog/2026/11/aubrey-de-grey-longevity-is-just-a-side-effect-of-health",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-15, where it was first raised. The entry for Aubrey de Grey's 2026 statement quotes a podcast's description of what he said, while Gary Leland's page for his interview (published 2026-08-31, updated again on 2026-11-22) has the same odds in his own words: \"I think we have at least a 50% chance of reaching a threshold I call longevity escape velocity within the next 12 to 15 years\", with at least a 5 per cent chance it takes a century. I opened the host's page again this week and read the quotation on it; the update of 2026-11-22 adds no new statement, and the Lifeboat Foundation's repost was not reopened."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the note now quotes the same odds in close to his own words from his interview of 2026-08-31, and the quotation stays marked as the version that circulates (changelog, 2026-11-27, the first batch of older questions)."
 
 [[item]]
 claim = "hayflick-2000-fifteen-year-limit"
@@ -1516,6 +1522,8 @@ sources = [
   "https://hevolution.com/en/executive-management",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-09, where it was first raised. The entry's latest figure for what the Hevolution Foundation has actually committed is from 2025-01-27, and the foundation's own release of 2025-12-02 gives a later one, about $400 million allocated across more than 230 research grants. New in the window, and not a change to the ceiling: the foundation listed a release on 2026-11-21 appointing HRH Princess Dr Haya Bint Khaled Bin Bandar Al Saud as chief executive, and its page of executives now names her in the post. I opened the foundation's list of press releases and its page of executives, which show the title, the date and her post; the release's own page loaded without its text, so its wording was not read, and the release of 2025-12-02 was opened by the reading of 2026-11-09 and not reopened this week."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the note now gives the total of about $400 million across more than 230 grants, of 2025-12, and the new chief executive (changelog, 2026-11-27, the first batch of older questions)."
 
 [[item]]
 claim = "johnson-2023-biological-age-stays-the-same"
@@ -1536,6 +1544,8 @@ sources = [
   "https://blueprint.bryanjohnson.com/blogs/news/bryan-johnson-stem-cells",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-09, where it was first raised. The entry says Bryan Johnson's goal carries no date, but in a post on X on 2025-12-16 he restated it with a year attached, 2039; nothing dated between 2026-11-20 and 2026-11-27 changes that. This week I opened his company's blog and its posts of 2026-11-18 and 2026-11-20, none of which restates the goal; the post of 2025-12-16 and the coverage of it were opened by the reading of 2026-11-09 and not reopened, and X refused the request for his recent posts."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the note now records his restatement with the year 2039, which is entered as its own claim (changelog, 2026-11-27, the first batch of older questions)."
 
 [[item]]
 claim = "johnson-2024-pace-of-ageing-record"
@@ -1606,6 +1616,8 @@ sources = [
   "https://lifearchitect.ai/kurzweil/",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-09, where it was first raised. The entries for Ray Kurzweil's book and for his Boston Magazine interview read as though he moved his date to 2032 in 2026, but he gave it earlier: a page of transcripts has it on Peter Diamandis's podcast in October 2024 and at the Mobile World Congress in March 2025, and this week a report by Taiwan's Central News Agency, dated 2025-01-06, quotes him telling Nikkei Asia (in Chinese translation) that by around 2032 a person will get back a whole year for each year lived, so that occasion falls between the book and the MIT lecture of 2025-10-08 already on the list. I opened the Central News Agency's report and the page of transcripts; Nikkei Asia's own interview was seen in a search result only and was not opened, and nothing here is dated in this week's window."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the notes of both 2032 records now say he gave the date as early as 2024-10-24 (changelog, 2026-11-27, the first batch of older questions)."
 
 [[item]]
 claim = "kurzweil-2029-escape-velocity"
@@ -1999,6 +2011,8 @@ sources = [
   "https://www.prnewswire.com/news-releases/bioviva-secures-us-patent-for-htert-and-follistatin-344-gene-therapy-approach-to-age-related-disorders-302874790.html",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-09, the entry on Elizabeth Parrish lacks two things her company announced in 2026, before this week's window: her book 'How I Became a GMO and Why You Will Too', announced on 2026-10-27, a firsthand account that claims no new measured result, and a United States patent on giving the telomerase and follistatin genes together, issued on 2026-06-16 and announced on 2026-09-10. Nothing dated between 2026-11-20 and 2026-11-27 changes this. This week I opened the copy of the book release on a finance news site, which carries the date 2026-10-27; the two releases on the wire service were opened by the reading of 2026-11-09, and a third release, of 2026-09-01, on a patent for a different gene, I saw in a search result only."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the entry now records the patent of 2026-06-16 and the book of 2026-10-27 (changelog, 2026-11-27, the first batch of older questions)."
 
 [[item]]
 experiment = "julie-gibson-clark"
@@ -2016,6 +2030,8 @@ sources = [
   "https://www.buzzsprout.com/2446463/episodes/19207138-55-how-to-live-longer-without-spending-a-fortune",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-15, the entry on Julie Gibson Clark says no publication of her own could be found, but she has a website in her own name describing her daily routine in the first person, and the notes of a podcast episode of 2026-05-20 give a later reading of her pace of ageing, 0.77, beside the 0.665 the entry holds as a reporter's account. This week adds an older fact the entry lacks: the supplement company whose trial entered her test is NOVOS, and its own page about her, first published on 2024-09-11 and updated on 2026-11-02, gives her readings as 0.76 at the start, 0.68 after six months and 0.65 after a year, as a customer story from a company that sells the product. I opened her website and the company's page this week; the podcast page was opened by the reading of 2026-11-15, and the episode was not heard."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the entry now names her own website, the supplement company's figures and the podcast's later figure (changelog, 2026-11-27, the first batch of older questions)."
 
 [[item]]
 experiment = "michael-lustgarten"
@@ -2033,6 +2049,8 @@ sources = [
   "https://michaellustgarten.wordpress.com/feed/",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-09, the entry on Michael Lustgarten rests on post titles of April 2025 from his written site, which has carried nothing new since 2025-05-14, while his video channel has gone on publishing every week; its titles of 2026-09 give a biological age twenty years below his calendar age, where the entry quotes twenty-two, and a video of 2026-09-06 is titled as an analysis of fifty tests since 2018. Nothing dated between 2026-11-20 and 2026-11-27 changes this: the one video in the window is about his mouth's bacteria. This week I opened the channel's feed, which carries each video's title, date and description, and his written site's feed; I did not watch any video, and a copy of a video of 2026-05 titled 'Blood Test #2 In 2026' on another site I saw in a search result only."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the entry now says his results moved to his video channel, with the 2026-09 titles (changelog, 2026-11-27, the first batch of older questions)."
 
 [[item]]
 experiment = "mikhail-blagosklonny-rapamycin"
@@ -2074,6 +2092,8 @@ sources = [
   "https://peterattiamd.com/ama90/",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-09, the entry on Peter Attia lacks his own podcast episode of 2026-10-12, whose public summary says he discusses his growing uncertainty about rapamycin, with the animal evidence still compelling and the dose for people unresolved, and that he no longer takes metformin for longevity. The entry says he calls rapamycin the most promising drug of its kind and takes it weekly, on his words of 2024, and nothing dated between 2026-11-20 and 2026-11-27 changes this. This week I opened his site's feed and the public pages of the three items published from 2026-11-16 to 2026-11-23, none of which mentions rapamycin; the episode of 2026-10-12 was opened by the reading of 2026-11-09 and is for subscribers, so it was not heard."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the entry now records the summary of his episode of 2026-10-12 (changelog, 2026-11-27, the first batch of older questions)."
 
 [[item]]
 experiment = "rejuvenation-olympics"
@@ -2098,3 +2118,5 @@ sources = [
   "https://www.trudiagnostic.com/rejuvenation-olympics",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-09, the entry on the Rejuvenation Olympics calls the leaderboard running and says nothing of an end, but its home page and its rules, opened again on 2026-11-27, both say that the last day to enter a first sample was 2026-10-30 and that the competition closes on 2027-03-30; the entry's top five also runs to 0.57, where the board now runs to 0.59. Nothing dated between 2026-11-20 and 2026-11-27 changes this. I opened the home page, the rules page and the testing company's page about the leaderboard, which still gives no closing date; no outside report of the closing was searched for, because the search allowance had run out."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the entry now gives the closing dates and the top five of 2026-11-27 (changelog, 2026-11-27, the first batch of older questions)."

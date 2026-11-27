@@ -1,0 +1,27 @@
+# Written 2026-11-27 from the post itself, read through X's public syndication service (which gives its
+# full text and its time, 2025-12-16 22:55 UTC), and from his blog post of 2026-01-30.
+
+id = "johnson-2025-immortality-by-2039"
+added_on = 2026-11-27
+who = "Bryan Johnson"
+who_is = "the technology entrepreneur Bryan Johnson, who founded and sold the payments company Braintree and since 2021 has run a published programme to slow his own ageing, which he calls Blueprint"
+said_on = "2025-12-16"
+where = "His own post on X of 2025-12-16"
+link = "https://x.com/bryan_johnson/status/2001063756445733346"
+quote = "I’m going to try and achieve immortality by 2039. One year of time passes and I remain the same biological age."
+is_paraphrase = false
+commits_to = "A measured pace of ageing of zero, that is, no biological ageing at all over a calendar year, by 2039."
+due = 2039
+branches = ["measuring-age"]
+verdict = "not-yet-due"
+
+notes = """
+The same goal as his undated one of 2023 on this log, now with a year attached, which is why it is
+entered as its own dated claim and the 2023 claim is left as it was. He says he will try, and that
+he may fail. He repeated the year and the measure on his company's blog in a post dated 2026-01-30
+(https://blueprint.bryanjohnson.com/blogs/news/you-might-be-immortal-by-2039): "Success will be
+measured by one year of timing passing and my biological age staying the same." By his own figures
+his pace of ageing has run between about 0.48 and 0.76 years per year, never zero; his programme has
+its own entry among the self-experiments. When 2039 comes, the verdict turns on whether he reports,
+by a measure he names, a year in which his biological age did not rise.
+"""
