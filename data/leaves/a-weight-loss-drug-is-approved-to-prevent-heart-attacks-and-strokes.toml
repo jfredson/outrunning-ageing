@@ -47,6 +47,7 @@ No earlier stage is recorded for the animal rung. The nearest animal result is a
 days. It came after the drug's approval, and it is a result on lifespan in mice, not on heart
 attacks, strokes or deaths in people, which is what the test for this entry (what would count) asks about, so it is not entered
 as an earlier stage.
+Added 2026-11-27: on 2026-11-09 the United States regulator required every drug of this family, semaglutide among them, to carry a new warning of a possible raised risk of a rare, sudden loss of sight in one eye (non-arteritic anterior ischaemic optic neuropathy). Its pooling of 126 randomised trials in 134,253 people found 10 probable cases on the drugs and 5 on the comparison treatments, or 6.4 against 3.8 for every 100,000 people treated for a year (https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential). Also from November 2026: among the 357 Japanese people in the large semaglutide heart trial in people without diabetes, 10 on the drug and 16 on placebo had a heart attack, a stroke or a heart death, too few to be sure of on their own but pointing the same way as the whole trial (Circulation Journal, 2026-11-21, https://doi.org/10.1253/circj.cj-26-0448). Lilly's trial of tirzepatide on deaths, heart attacks and strokes in 15,374 people with obesity expects its main result in October 2027 (https://clinicaltrials.gov/study/NCT05556512).
 """
 
 [estimate]
@@ -63,6 +64,7 @@ coverage began, with data to September 2024. That points the other way from the 
 2027 above, which assumed uptake might already count. The years are unchanged; I may want to weigh
 moving the earliest wide-use year later at the next review.]
 [Note 2026-10-17, on an outside review's proposal: the wide-use earliest year moved from 2027 to 2030 and the likely year from 2029 to 2033. The record's one published uptake figure (Scannell and colleagues, 2026: under 1 per cent of eligible Medicare beneficiaries six months after coverage began) says the earliest's assumption, that uptake might already count, does not hold, and a substantial share of eligible people in several countries takes years of payer coverage and prescribing habit. The latest of 2040 stays. This rung is shown on the page and not drawn by the headline.]
+[Note 2026-11-27: the regulator's eye warning of 2026-11-09 (in the notes) was weighed and the years held. The event is rare, and how fast the drugs spread for heart prevention turns more on their cost and on payers' coverage than on this warning.]
 """
 
 [[estimate.rung]]
@@ -124,3 +126,17 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) proposed a change to this range, which was accepted the same day: the wide-use earliest and likely years moved to 2030 and 2033 (see the revisions above). With every point of the review answered, the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say."
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: on 2026-11-09 the United States regulator required every drug of this family, semaglutide among them, to carry a new warning of a possible raised risk of a rare, sudden loss of sight in one eye (non-arteritic anterior ischaemic optic neuropathy). Its pooling of 126 randomised trials in 134,253 people found 10 probable cases on the drugs and 5 on the comparison treatments, or 6.4 against 3.8 for every 100,000 people treated for a year (https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential). Also from November 2026: among the 357 Japanese people in the large semaglutide heart trial in people without diabetes, 10 on the drug and 16 on placebo had a heart attack, a stroke or a heart death, too few to be sure of on their own but pointing the same way as the whole trial (Circulation Journal, 2026-11-21, https://doi.org/10.1253/circj.cj-26-0448). Lilly's trial of tirzepatide on deaths, heart attacks and strokes in 15,374 people with obesity expects its main result in October 2027 (https://clinicaltrials.gov/study/NCT05556512)."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the regulator's eye warning of 2026-11-09 and two trial updates were missing from the notes. I weighed it and held the years. No stage or year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "estimate.why"
+old = "(nothing; text added at the end of the reasoning)"
+new = "[Note 2026-11-27: the regulator's eye warning of 2026-11-09 (in the notes) was weighed and the years held. The event is rare, and how fast the drugs spread for heart prevention turns more on their cost and on payers' coverage than on this warning.]"
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the regulator's eye warning was weighed against the years. I weighed it and held the years. No stage or year changed."
