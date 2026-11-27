@@ -14,7 +14,7 @@ cell back into something like an embryonic one; switched on briefly and then off
 animal, they turn back some of the marks of age without erasing what the cell is. In 2016 mice
 with a premature-ageing disease lived longer when this was done to them, and in 2020 old mice
 regained sight after the nerve from the eye was reset. It is the most direct attempt yet to
-reverse ageing rather than slow it. The first person was given it, in one eye, in June 2026. On
+reverse ageing rather than slow it. The first person in a registered trial was given it, in one eye, in June 2026. On
 2026-10-08 the company announced interim results from the first three people with glaucoma: no
 serious side effects by day 56 and a preliminary improvement in the visual field in two of them.
 It is a company announcement of an open-label safety trial, not a peer-reviewed report, and it
@@ -38,7 +38,8 @@ notes = """
 The Upgrade Tree keeps the same entry at shown in animals under the same test, and recorded on
 2026-10-16 that if I would rather count the June 2026 dose as a first human, the stage moves
 on the company's release; here the dose has its own entry instead, so that this one stays about
-the result. The weekly reading checks the two stages agree."""
+the result. The weekly reading checks the two stages agree.
+Added 2026-11-27: a foundation says these genes reached a person earlier, outside any trial. The KHL Foundation's release of 2026-09-30 says that a woman was given an experimental therapy of 11 genes, three of them these cell-resetting genes, on 2026-03-11, through a programme led by the doctor Patrick Sewell and Triple Helix Science, and that a small number of people have had it. The release names no trial, clinic, country or regulator and reports no measured result, and the foundation says it is still checking the order of events before calling this a first. It does not meet the test, which asks for a measured marker of age moved in a peer-reviewed report, so the stage is unchanged."""
 
 [estimate]
 status = "reviewed"
@@ -79,3 +80,19 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. Every point the review of 2026-10-17 raised has been answered, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "description"
+old = "reverse ageing rather than slow it. The first person was given it, in one eye, in June 2026."
+new = "reverse ageing rather than slow it. The first person in a registered trial was given it, in one eye, in June 2026."
+why = "A foundation says a woman was given these genes, as part of an 11-gene therapy, on 2026-03-11 outside any trial, so the June 2026 dose is the first in a registered trial, not the first of all. No stage or year changed."
+publication = "khl-foundation-2026"
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: a foundation says these genes reached a person earlier, outside any trial. The KHL Foundation's release of 2026-09-30 says that a woman was given an experimental therapy of 11 genes, three of them these cell-resetting genes, on 2026-03-11, through a programme led by the doctor Patrick Sewell and Triple Helix Science, and that a small number of people have had it. The release names no trial, clinic, country or regulator and reports no measured result, and the foundation says it is still checking the order of events before calling this a first. It does not meet the test, which asks for a measured marker of age moved in a peer-reviewed report, so the stage is unchanged."
+why = "The weekly reading of 2026-11-27 found the foundation's release; the note records what it says and why it does not meet the test."
+publication = "khl-foundation-2026"

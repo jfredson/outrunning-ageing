@@ -462,6 +462,8 @@ publications = [
 for_john = "Correction: the record says the first person was given the cell-resetting genes in June 2026, but the KHL Foundation's own release of 2026-09-30 says a woman, Christine Scott, was given an experimental therapy carrying the same three genes on 2026-03-11, developed by Triple Helix Science under the doctor Patrick Sewell, and that a small number of people have had it. The release names no trial, clinic, country or regulator, reports no measured result, and says the foundation is still checking whether this was the first time, so it does not meet the test; it only bears on the sentence about the first person, and might suit the record of public self-experiments. I opened the foundation's release and the news post of 2026-10-07 that reported it; both are older than the window."
 sibling_stage = "shown-in-animals"
 sibling_agrees = true
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the treatment's description now calls the June 2026 dose the first in a registered trial, a dated note records the foundation's release, and the release's entry in the publications log now says the therapy has 11 genes (changelog, 2026-11-27, the three corrections from the weekly reading)."
 
 [[item]]
 leaf = "antibody-clears-amyloid-from-the-brain-and-slows-decline"
