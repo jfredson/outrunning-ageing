@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 under the weekly reading of 2026-11-27.
+
+id = "qi-2026"
+date = "2026-11-26"
+added_on = 2026-11-27
+authors = ["Qi C", "Zhang Y", "Moorlag S", "Sun S", "Ballan M", "deBree C", "Koeken V", "Mourits VP", "Liu Z", "Li W", "Naidu A", "Jaeger M", "and 11 others"]
+title = "Age-dependent effect of BCG vaccination on the kinetics of biological aging"
+venue = "Research Square (preprint, 2026-11-26)"
+link = "https://doi.org/10.21203/rs.3.rs-11451703/v1"
+finding = """
+In 284 young adults the tuberculosis vaccine lowered the age read from the chemical marks on their DNA, most in men, alongside a lower inflammation score; in 117 adults over 65 the same vaccine made that reading run faster a year later. The authors link the split to a protein the vaccine raises on the stem cells that make blood.
+"""
+leaves = ["a-treatment-slows-a-biological-age-clock-in-a-controlled-trial", "a-persons-biological-age-reading-falls-after-treatment"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-27 from the abstract in the Europe PMC paper database. A preprint, not yet peer reviewed.
+"""

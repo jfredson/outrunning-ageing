@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 under the weekly reading of 2026-11-27.
+
+id = "shi-2026"
+date = "2026-11-24"
+added_on = 2026-11-27
+authors = ["Shi C", "Sun Y", "Ruan X", "Shi R", "Yao C", "Zhou H", "Xu X", "Li X", "Na R"]
+title = "Disease-anchored organ aging clocks enable multi-organ risk profiling from routine labs"
+venue = "medRxiv (preprint, 2026-11-24)"
+link = "https://doi.org/10.64898/2026.11.22.26368688"
+finding = """
+Using the UK Biobank, the authors found that organ ages trained on a person's calendar age came out just as well from random sets of blood proteins, which questions what such readings measure. Organ ages trained instead on the first onset of each organ's disease picked their own organ's proteins, predicted that organ's diseases, and held up in groups of people in the United States and Japan.
+"""
+leaves = ["an-age-for-each-organ-is-read-from-blood-proteins"]
+branches = ["measuring-age"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-27 from the abstract in the Europe PMC paper database. A preprint, not yet peer reviewed.
+"""

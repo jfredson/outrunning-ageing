@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 under the weekly reading of 2026-11-27.
+
+id = "stanfield-2026"
+date = "2026-04"
+added_on = 2026-11-27
+authors = ["Stanfield B", "Leroux B", "Kaeberlein M", "Jones J", "Lucas R"]
+title = "Exercise and Weekly Sirolimus (Rapamycin) in Older Adults: RAPA-EX-01 Randomised, Double-Blind, Placebo-Controlled Trial"
+venue = "Journal of Cachexia, Sarcopenia and Muscle 17(2), e70274 (2026)"
+link = "https://doi.org/10.1002/jcsm.70274"
+finding = """
+Forty inactive people aged 65 to 85 took 6 mg of rapamycin or a dummy pill once a week for 13 weeks alongside a home exercise programme. Both groups improved, and rapamycin did not add to the gain in the main measure, the number of times a person can rise from a chair in 30 seconds (a difference of 2.13 fewer, 4.61 fewer to 0.34 more); the planned checks of the result leaned towards the dummy pill, and side effects were more common on the drug.
+"""
+leaves = ["rapamycin-improves-an-age-related-measure-in-older-people"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-27 from the abstract in the Europe PMC paper database; the publisher's page asks for a sign-in. Published before the window and found by the reading as an older fact.
+"""

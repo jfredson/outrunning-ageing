@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 under the weekly reading of 2026-11-27.
+
+id = "egenesis-2026-one-year"
+date = "2026-11-23"
+added_on = 2026-11-27
+authors = ["eGenesis, Inc.", "Mass General Brigham"]
+title = "eGenesis and Mass General Brigham Announce First Patient to Surpass One Year of Dialysis Independence Following Porcine Kidney Transplant"
+venue = "Company release (2026-11-23)"
+link = "https://egenesisbio.com/news-media/press-releases/egenesis-and-mass-general-brigham-announce-first-patient-to-surpass-one-year-of-dialysis-independence-following-porcine-kidney-transplant"
+finding = """
+The makers say a 58-year-old woman given a gene-edited pig kidney at Massachusetts General Hospital on 2025-11-22 still has a working kidney and has needed no dialysis for a year, the longest such a kidney has worked in a living person. She was treated outside a trial, under the United States regulator's route for individual patients, and the release builds on the hospital's experience with six patients.
+"""
+leaves = ["organ-from-a-gene-edited-pig-keeps-a-person-alive"]
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-27 from the maker's own page.
+"""

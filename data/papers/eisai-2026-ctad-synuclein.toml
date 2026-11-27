@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 under the weekly reading of 2026-11-27.
+
+id = "eisai-2026-ctad-synuclein"
+date = "2026-11-20"
+added_on = 2026-11-27
+authors = ["Eisai Co., Ltd.", "Biogen Inc."]
+title = "Clarity AD CSF Substudy Findings on Lecanemab Treatment and α-Synuclein Co-Pathology Presented at CTAD 2026"
+venue = "Company release (2026-11-20)"
+link = "https://www.eisai.com/news/2026/news202665.html"
+finding = """
+The makers presented a later look at 623 spinal-fluid samples from the main trial of the amyloid antibody lecanemab, testing for a second misfolded brain protein that often travels with Alzheimer's disease. Among people who carried it, lecanemab slowed decline against placebo at 18 months by about as much as in the trial as a whole. The release gives no count of the people now treated.
+"""
+leaves = ["antibody-clears-amyloid-from-the-brain-and-slows-decline"]
+branches = ["broken-proteins"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-27 from the maker's own page.
+"""

@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 under the weekly reading of 2026-11-27.
+
+id = "sicre-de-fontbrune-2025"
+date = "2025-11-09"
+added_on = 2026-11-27
+authors = ["Sicre de Fontbrune F", "Jouneau S", "Cottin V", "Prevot G", "Nunes H", "Terriou L", "Marchand-Adam S", "Crestani B", "Marcais A", "Bergeron A", "Debray MP", "Plessier A", "and 7 others"]
+title = "Efficacy and safety of danazol for pulmonary fibrosis or bone-marrow failure associated with telomere-related gene mutation"
+venue = "ERJ Open Research 12(2), 00905-2025 (2026; online 2025-11-09)"
+link = "https://doi.org/10.1183/23120541.00905-2025"
+finding = """
+A French trial with no comparison group gave danazol for a year to 24 people with lung scarring and 5 with failing bone marrow, all carrying a faulty gene of the kind that shortens the protective ends of chromosomes. Only 10 of the 24 with lung scarring finished the year: 9 stopped for side effects and 3 died. The authors found the drug poorly tolerated in lung scarring and could not judge whether it worked; the report gives no measure of chromosome ends after treatment.
+"""
+leaves = ["a-drug-lengthens-chromosome-ends-in-a-person"]
+branches = ["damaged-dna"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-27 from the abstract and open full text in the Europe PMC paper database, with the online date from Crossref. Published before the window and found by the reading as an older fact.
+"""

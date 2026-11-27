@@ -2,6 +2,10 @@
 
 Every change to the records or the site, dated year-month-day, newest first. Plain language; a reader outside the project should be able to follow it.
 
+## 2026-11-27
+
+- Weekly reading (scheduled task, 2026-11-27): 45 treatments, 34 claims and 9 self-experiments read, 0 moved a rung, 12 publications logged, 36 flagged for John (33 of them carried over from earlier readings); record at data/scans/2026-11-27.toml. Logged: Gutiérrez-García 2026 (metformin in older people with HIV), Angioni 2026 (the count of 193 trials aimed at ageing), Stanfield 2026 (weekly rapamycin with exercise), Sicre de Fontbrune 2025 (danazol in telomere-gene lung scarring), Qi 2026 (tuberculosis vaccine and DNA age), Long 2026 (weight-loss drugs and a blood-chemistry age), Shi 2026 (organ ages from blood), Mitra Bio 2026 (a skin-clock trial registered), eGenesis 2026 (a pig kidney at one year), Eisai 2026 (lecanemab at the CTAD meeting), AmBARI 2026 (a plasma-exchange pilot in veterans), KHL Foundation 2026 (cell-resetting genes given outside a trial). No stage moved, so the headline was not rerun.
+
 ## 2026-11-21
 
 - **The estimate for wide use of the Alzheimer's antibody stays at 2028, 2035 and 2055, with a dated note saying why** (decided 2026-11-21). Four newer facts were weighed. The pen form went on sale in Japan on 2026-11-13, China approved the same form as a starting treatment, Canada's drug agency recommended public payment, and half-year sales rose. All four point earlier, but none counts the people treated, and that count is what wide use turns on. The reasoning's first sentence now also gives the United States approval of the first doses at home of 2026-07-13. The estimate names the five makers' releases it rests on, three of them newly logged. No year, stage or count changed.

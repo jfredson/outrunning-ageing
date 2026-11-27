@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 under the weekly reading of 2026-11-27.
+
+id = "gutierrez-garcia-2026"
+date = "2026-11-25"
+added_on = 2026-11-27
+authors = ["Gutiérrez-García L", "Esteban-Cantos A", "Marcelo-Calvo C", "Rodríguez-Centeno J", "Montejano R", "de Gea-Grela A", "Martinez-Martin P", "Diez-Vidal A", "de Miguel R", "Gonzalez JC", "Casado I", "Rodriguez S", "and 5 others"]
+title = "Effect of metformin on HIV reservoir, inflammation and cell differentiation in non-diabetic older people with HIV: a two-year placebo-controlled pilot trial (Metforaging)"
+venue = "The Journal of Infectious Diseases (advance article, 2026-11-25), jiag579"
+link = "https://doi.org/10.1093/infdis/jiag579"
+finding = """
+A placebo-controlled pilot trial in Madrid gave metformin or a dummy pill for 96 weeks to 35 people with HIV aged 50 or over who did not have diabetes. One kind of worn-out killer immune cell rose on the dummy pill and held steady on metformin (a difference of 5.2 percentage points, 2.0 to 8.5), while no blood marker of inflammation and no measure of the hidden virus differed between the groups. The authors call the result one to be tested further, not a finding of benefit.
+"""
+leaves = ["metformin-delays-age-related-disease-in-people-without-diabetes"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-27 from the abstract in the Europe PMC paper database; a reader also opened the publisher's page.
+"""

@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 under the weekly reading of 2026-11-27.
+
+id = "angioni-2026"
+date = "2026-11-23"
+added_on = 2026-11-27
+authors = ["Angioni D", "Bellelli F", "Michel E", "de Souto Barreto P", "Lucas A", "Donega S", "Cesari M", "Cummings J", "Ferrucci L", "Balardy L", "Sourdet S", "Rolland Y", "and 1 others"]
+title = "Agents targeting the hallmarks of ageing: the geroscience pipeline in 2026"
+venue = "The Lancet Healthy Longevity (2026-11-23), 100943"
+link = "https://doi.org/10.1016/j.lanhl.2026.100943"
+finding = """
+A search of the United States trial registry for trials running on 2026-01-01 found 193 trials of 131 candidate treatments aimed at the kinds of damage that make up ageing. Only 41 (21 per cent) enrolled healthy people or people at risk of decline, and 152 (79 per cent) people with an established disease; 61 trials were first-stage, 91 mid-stage and 41 late-stage. The authors conclude that most of the effort still aims at treating diseases rather than delaying ageing itself.
+"""
+leaves = ["a-drug-adds-healthy-years-to-a-life", "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat"]
+branches = ["energy-and-fuel"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-27 from the abstract in the Europe PMC paper database.
+"""

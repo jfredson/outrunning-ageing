@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 under the weekly reading of 2026-11-27.
+
+id = "mitra-bio-2026"
+date = "2026-11-23"
+added_on = 2026-11-27
+authors = ["Mitra Bio"]
+title = "Epigenetic Modifications Following Topical Estradiol Treatment for Skin Rejuvenation in Peri- and Post-Menopausal Women: A Pilot Study"
+venue = "ClinicalTrials.gov, NCT07954258 (first posted 2026-11-23)"
+link = "https://clinicaltrials.gov/study/NCT07954258"
+finding = """
+A registered early study, recruiting since 2025-12-15, of about 100 women around and after the menopause, testing whether a nightly low-dose oestrogen face cream lowers the age of their skin read from the chemical marks on its DNA after twelve weeks. Women are assigned to groups by their menopausal status and hormone use, not at random. It is a plan with no result.
+"""
+leaves = ["a-persons-biological-age-reading-falls-after-treatment", "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial"]
+branches = ["cell-settings"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-27 from the registry entry read through the registry's data interface.
+"""

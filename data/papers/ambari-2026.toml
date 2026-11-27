@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 under the weekly reading of 2026-11-27.
+
+id = "ambari-2026"
+date = "2026-11-20"
+added_on = 2026-11-27
+authors = ["AmBARI Healthcare, Inc.", "Phoenix VA Health Care System", "Arizona Veterans Research and Education Foundation", "Young Blood Institute"]
+title = "Arizona Veterans Research and Education Foundation in support of Phoenix VA Health Care System and Young Blood Institute Announce Cooperative Research and Development Agreement for Alzheimer's Pilot Study"
+venue = "Company release, PR Newswire (2026-11-20)"
+link = "https://macaubusiness.com/arizona-veterans-research-and-education-foundation-in-support-of-phoenix-va-health-care-system-and-young-blood-institute-announce-cooperative-research-and-development-agreement-for-alzheimers-pilot-s/"
+finding = """
+The partners announced a randomised controlled pilot trial at the veterans' hospital in Phoenix of an extended, full-volume exchange of blood plasma in up to 56 veterans with mild memory decline or the earliest stage of Alzheimer's disease. Its main measure is the amount of amyloid in the brain on scans. It is a plan, with no registry entry found yet.
+"""
+leaves = ["replacing-a-persons-plasma-slows-an-age-related-disease"]
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = false
+notes = """
+Logged by the weekly reading of 2026-11-27 from the wire text carried on a news site, Macau Business; the wire service's own page was not opened.
+"""
