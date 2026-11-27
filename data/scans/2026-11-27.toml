@@ -1765,6 +1765,8 @@ sources = [
   "https://www.retro.bio/pipeline",
 ]
 for_john = "Correction: the claim of 2022 that the company's autophagy drug would enter the clinic within a year says in its notes that the company's list of programmes shows the drug for Alzheimer's disease with no stage marked, but that page, read on 2026-11-27, labels it \"Phase 1 (4 of 6)\" and also marks its two replacement-cell programmes as at the step before applying to start a trial and its tissue-resetting programme, now aimed at worn knee joints and hearing loss with age, as preclinical. I could not open the archived copy of the page to date the change, so it may predate the window; opened: the company's list of programmes and the Australian registry entry; no web search could be run for this record."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the claim's note now says the company's pipeline page marks the drug at Phase 1, and that an archived copy of 2026-08-11 showed the same step as a bar without words (changelog, 2026-11-27, the Retro and Bryan Johnson corrections)."
 
 [[item]]
 claim = "retro-biosciences-2022-ten-years"
@@ -1937,6 +1939,8 @@ sources = [
   "https://rejuvenationolympics.com/",
 ]
 for_john = "Correction: the entry on Bryan Johnson lists his one-off procedures up to hyperbaric oxygen in 2024-11, but in 2026-07 he announced on social media that cells from his own blood had been turned back into stem cells and are kept in a dish, which he says may one day be used to test treatments for him or to replace tissue; his company's blog repeated it under his name on 2026-11-18. Nothing says any of the cells has been put back into his body, and no data or outside check of the work has been published. I opened the blog post of 2026-11-18, the blog's list of posts and a news report of 2026-07-22 (IBTimes UK) that dates his first post; the rest of the July coverage I saw in a search result only."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the entry now says he had his own blood cells turned back into stem cells, announced on 2026-07-21, and that nothing says any have been put back into his body (changelog, 2026-11-27, the Retro and Bryan Johnson corrections)."
 
 [[item]]
 experiment = "dave-pascoe"
