@@ -8,7 +8,7 @@ title = "Madrid 2026 Press Release"
 venue = "Foundation release (2026-09-30)"
 link = "https://khlfoundation.com/resources-center/madrid-2026-press-release/"
 finding = """
-The foundation says that a woman, Christine Scott, was given an experimental gene therapy carrying the three cell-resetting genes on 2026-03-11, through a programme led by the doctor Patrick Sewell and Triple Helix Science, and that a small number of people have had it. It names no trial, clinic or regulator and reports no measured result.
+The foundation says that a woman, Christine Scott, was given an experimental therapy of 11 genes, three of them the cell-resetting genes, on 2026-03-11, through a programme led by the doctor Patrick Sewell and Triple Helix Science, and that a small number of people have had it. It names no trial, clinic or regulator, reports no measured result, and says the foundation is still checking the order of events before calling this a first.
 """
 leaves = ["partially-resetting-cells-reverses-ageing-in-an-animal", "a-person-receives-cell-resetting-genes-in-a-trial"]
 branches = ["cell-settings"]
@@ -16,4 +16,5 @@ moved_range = false
 settled_stage = false
 notes = """
 Logged by the weekly reading of 2026-11-27 from the foundation's own page. Published before the window and found by the reading as an older fact.
+Corrected 2026-11-27: the finding first said the therapy carried the three cell-resetting genes; the release describes an 11-gene therapy that contains them.
 """

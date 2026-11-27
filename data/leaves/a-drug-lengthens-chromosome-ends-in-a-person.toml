@@ -41,6 +41,7 @@ years after treatment it was stable, in eight patients followed after the trial 
 and 'no significant TL elongation was observed in this limited number of samples'; the authors call the analysis limited by cohort
 size. The figures from the 2024 conference abstract (stable in five of nine evaluable patients, shortening in three, lengthening in
 one) are not in the letter and are no longer used here. The stage rests on the 2016 report of lengthening by its own method.
+Added 2026-11-27: a second trial of danazol in lung scarring, which the record did not name until now. The French ANDROTELO trial (Sicre de Fontbrune and colleagues, ERJ Open Research, volume 12, issue 2, online 2025-11-09, https://doi.org/10.1183/23120541.00905-2025) gave danazol for a year to 24 people with lung scarring and 5 with bone-marrow failure, all carrying faults in telomere genes. Only 10 of the 24 with lung scarring finished the year: 9 stopped because of side effects and 3 died, so the authors write that danazol was poorly tolerated and that its effect could not be judged. All 5 with marrow failure finished and had at least a partial response. The report gives no telomere length after treatment, so it does not bear on the stage. It does weigh towards the later years, which already assume that no sponsor carries danazol towards an approval, so the years are unchanged.
 """
 
 [[earlier_stage]]
@@ -119,3 +120,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and proposed a change to this range, which was accepted the same day: the range moved to 2038, 2048, 2085 (see the revisions above). With every point of the review answered, the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say."
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: a second trial of danazol in lung scarring, which the record did not name until now. The French ANDROTELO trial (Sicre de Fontbrune and colleagues, ERJ Open Research, volume 12, issue 2, online 2025-11-09, https://doi.org/10.1183/23120541.00905-2025) gave danazol for a year to 24 people with lung scarring and 5 with bone-marrow failure, all carrying faults in telomere genes. Only 10 of the 24 with lung scarring finished the year: 9 stopped because of side effects and 3 died, so the authors write that danazol was poorly tolerated and that its effect could not be judged. All 5 with marrow failure finished and had at least a partial response. The report gives no telomere length after treatment, so it does not bear on the stage. It does weigh towards the later years, which already assume that no sponsor carries danazol towards an approval, so the years are unchanged."
+why = "The weekly reading of 2026-11-27 found a published trial of danazol in lung scarring that the record did not name. No stage or year changed."
+publication = "sicre-de-fontbrune-2025"

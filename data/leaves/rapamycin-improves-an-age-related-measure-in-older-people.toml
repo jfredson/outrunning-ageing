@@ -15,7 +15,11 @@ that their response to the flu vaccine improved by about a fifth compared with p
 controlled sign that the drug touches ageing in people. A larger late-stage trial of a successor
 drug, aimed at winter infections, failed in 2019; and a crowd-funded year-long trial of low-dose
 rapamycin in 114 adults, published in 2025, found no change on its main measure, body fat, with
-small gains in lean mass and well-being in some groups."""
+small gains in lean mass and well-being in some groups. A third controlled trial, published in 2026, gave 40 inactive people aged 65 to 85 a weekly
+6 mg dose of rapamycin or a placebo for 13 weeks alongside exercise at home. The drug did not
+improve the main measure, how many times they could stand up from a chair in 30 seconds; two
+analyses the trial had set out in advance favoured the placebo, and side effects were more
+frequent on the drug."""
 test = """
 A controlled trial in people reports that a drug acting on the mTOR pathway, at a dose given for
 ageing rather than for transplant or cancer, improves an age-related measure (immune response,
@@ -87,3 +91,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. Every point the review of 2026-10-17 raised has been answered, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "description"
+old = "small gains in lean mass and well-being in some groups."
+new = "small gains in lean mass and well-being in some groups. A third controlled trial, published in 2026, gave 40 inactive people aged 65 to 85 a weekly 6 mg dose of rapamycin or a placebo for 13 weeks alongside exercise at home. The drug did not improve the main measure, how many times they could stand up from a chair in 30 seconds; two analyses the trial had set out in advance favoured the placebo, and side effects were more frequent on the drug."
+why = "The weekly reading of 2026-11-27 found a third controlled trial in older people that the record did not name, and it counts against the drug. The stage rests on the 2014 trial and is unchanged, and no year changed."
+publication = "stanfield-2026"
