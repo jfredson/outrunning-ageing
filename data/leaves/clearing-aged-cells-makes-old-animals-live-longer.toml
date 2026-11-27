@@ -32,7 +32,9 @@ This is the branch's lifespan entry; the measurement entry (fewer aged cells in 
 the clinical-benefit entry (a controlled trial won) are separate, because a drug can clear the
 cells and help a knee without adding a year to anyone's life. The 2018 result is the one that
 matters most for people, since it used ordinary mice and ordinary drugs, and it is in the notes
-rather than the record because the 2016 engineered-mouse result came first."""
+rather than the record because the 2016 engineered-mouse result came first.
+Added 2026-11-27: a vaccine has been reported to add life in mice by clearing aged cells. Song and colleagues (Advanced Science, online 2026-10-28, https://doi.org/10.1002/advs.78545) trained the immune systems of old mice against aged cells carrying a surface protein called Gpnmb. The paper's summary says the vaccine cleared such cells from fat, improved the mice's handling of sugar and fat, and lengthened their lives. A news report on the paper (Lifespan.io, 2026-10-30, https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/) gives the figure: female mice vaccinated at 75 weeks lived 12 per cent longer at the median. The same report notes that the groups were ten mice each and that the untreated mice died young for their strain; the full paper was not read here. It is small work in mice, so the stage and years are unchanged.
+"""
 
 [estimate]
 status = "reviewed"
@@ -64,3 +66,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. Every point the review of 2026-10-17 raised has been answered, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: a vaccine has been reported to add life in mice by clearing aged cells. Song and colleagues (Advanced Science, online 2026-10-28, https://doi.org/10.1002/advs.78545) trained the immune systems of old mice against aged cells carrying a surface protein called Gpnmb. The paper's summary says the vaccine cleared such cells from fat, improved the mice's handling of sugar and fat, and lengthened their lives. A news report on the paper (Lifespan.io, 2026-10-30, https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/) gives the figure: female mice vaccinated at 75 weeks lived 12 per cent longer at the median. The same report notes that the groups were ten mice each and that the untreated mice died young for their strain; the full paper was not read here. It is small work in mice, so the stage and years are unchanged."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: a mouse lifespan result for a vaccine against aged cells, published 2026-10-28, was missing from the notes. No stage or year changed."
+publication = "song-2026"

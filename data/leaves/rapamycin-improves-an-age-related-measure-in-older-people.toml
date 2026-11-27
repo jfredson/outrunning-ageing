@@ -47,7 +47,9 @@ mice restored their blood-forming stem cells and enabled an effective response t
 a lethal influenza infection; that is the same kind of measure, an immune response, that the 2014
 trial in people used. The 2009 mouse lifespan result (Harrison and colleagues, Nature, 2009-07-08,
 https://doi.org/10.1038/nature08221) shows longer life, not an improved function, so it is kept with
-the entry on living longer in good health and is not counted here."""
+the entry on living longer in good health and is not counted here.
+Added 2026-11-27: the reasoning on the years says the trials now running are academic and small, and a larger one has been announced. On 2026-03-31 the University of Arizona said it would begin a double-blind, randomised phase 3 trial of low-dose rapamycin in people of 65 and over, paid for by a gift of 12 million dollars: two years on the drug or a placebo and a further year of follow-up, measuring whether the drug changes the move into frailty and lowers a blood marker of inflammation, IL-6 (https://giving.arizona.edu/news/u-launches-rapamycin-clinical-trial-philanthropic-support-alumnus-ken-coit). The announcement says the trial awaited final approval from the United States regulator, and a search of the trial registry on 2026-11-27 found no entry for it. It fits the likely year's assumption of a controlled trial reporting in the early 2030s, so the years are unchanged.
+"""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -99,3 +101,11 @@ old = "small gains in lean mass and well-being in some groups."
 new = "small gains in lean mass and well-being in some groups. A third controlled trial, published in 2026, gave 40 inactive people aged 65 to 85 a weekly 6 mg dose of rapamycin or a placebo for 13 weeks alongside exercise at home. The drug did not improve the main measure, how many times they could stand up from a chair in 30 seconds; two analyses the trial had set out in advance favoured the placebo, and side effects were more frequent on the drug."
 why = "The weekly reading of 2026-11-27 found a third controlled trial in older people that the record did not name, and it counts against the drug. The stage rests on the 2014 trial and is unchanged, and no year changed."
 publication = "stanfield-2026"
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: the reasoning on the years says the trials now running are academic and small, and a larger one has been announced. On 2026-03-31 the University of Arizona said it would begin a double-blind, randomised phase 3 trial of low-dose rapamycin in people of 65 and over, paid for by a gift of 12 million dollars: two years on the drug or a placebo and a further year of follow-up, measuring whether the drug changes the move into frailty and lowers a blood marker of inflammation, IL-6 (https://giving.arizona.edu/news/u-launches-rapamycin-clinical-trial-philanthropic-support-alumnus-ken-coit). The announcement says the trial awaited final approval from the United States regulator, and a search of the trial registry on 2026-11-27 found no entry for it. It fits the likely year's assumption of a controlled trial reporting in the early 2030s, so the years are unchanged."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the University of Arizona's announced phase 3 trial was missing from the notes. No stage or year changed."
+publication = "university-of-arizona-2026"

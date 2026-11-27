@@ -33,7 +33,9 @@ The first person to have a single mutation corrected inside their body by a base
 baby with a liver enzyme disease, treated in 2025 with a therapy made for him alone; that is not
 a premature-ageing disease, so it does not settle this entry's first human rung, but it shows the
 tool works in a person. A separate entry on this branch tracks gene editing inside a person's
-body for an age-related disease."""
+body for an age-related disease.
+Added 2026-11-27: two public records bear on how a first child might be treated, and neither gives a date. On 2026-03-03 the Progeria Research Foundation announced that Forge Biologics will make its therapy, SamPro-2, a gene therapy that uses a base editor to correct the progeria mutation, for the studies the United States regulator requires before a first trial can be asked for (https://www.progeriaresearch.org/wp-content/uploads/2026/03/PRF-FORGE-press-release_3.2.2026_V2.pdf). The release speaks of moving the work towards clinical trials and gives no date. Separately, on 2026-09-24 Bundang CHA Hospital in South Korea registered a three-year study that follows one child with progeria, untreated, to gather the baseline for a different gene therapy, one that acts on the gene's message (its RNA) rather than correcting the DNA (https://clinicaltrials.gov/study/NCT07839351; not yet recruiting). Neither meets the first human test, and the likely first human year of 2029 is unchanged.
+"""
 
 [estimate]
 status = "reviewed"
@@ -64,3 +66,10 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and proposed moving this range, which I declined on 2026-10-17: the reviewer proposed moving the earliest to 2036 and the likely to 2042 as too fast for a whole-body gene therapy, citing the regulator's long-term follow-up guidance of 2020-01-30 and Zolgensma's five years from first trial (2014-05-05) to approval (2019-05-24); the guidance does not say approval waits for the follow-up, and the record's earliest clinic year sits five years after its earliest first human year, the pace the reviewer's own precedent gives; the range stays 2032, 2038, 2080. With every point of the review answered, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: two public records bear on how a first child might be treated, and neither gives a date. On 2026-03-03 the Progeria Research Foundation announced that Forge Biologics will make its therapy, SamPro-2, a gene therapy that uses a base editor to correct the progeria mutation, for the studies the United States regulator requires before a first trial can be asked for (https://www.progeriaresearch.org/wp-content/uploads/2026/03/PRF-FORGE-press-release_3.2.2026_V2.pdf). The release speaks of moving the work towards clinical trials and gives no date. Separately, on 2026-09-24 Bundang CHA Hospital in South Korea registered a three-year study that follows one child with progeria, untreated, to gather the baseline for a different gene therapy, one that acts on the gene's message (its RNA) rather than correcting the DNA (https://clinicaltrials.gov/study/NCT07839351; not yet recruiting). Neither meets the first human test, and the likely first human year of 2029 is unchanged."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the foundation's manufacturing agreement of 2026-03-03 and a registered study in South Korea were missing from the notes. No stage or year changed."

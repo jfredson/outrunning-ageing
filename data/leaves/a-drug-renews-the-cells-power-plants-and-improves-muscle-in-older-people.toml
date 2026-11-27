@@ -29,8 +29,10 @@ horizon = "mid"
 notes = """
 Two routes sit under this entry: a molecule that makes the cell replace its own power plants, and
 drugs that shield the ones it has. The approval of such a drug for a rare inherited disease in
-2025, if confirmed, means the regulatory path exists; what is missing is a trial in ordinary
-age-related muscle loss (sarcopenia), which has no approved drug at all."""
+2025 (elamipretide, for Barth syndrome; see below) means the regulatory path exists; what is missing is a trial in ordinary
+age-related muscle loss (sarcopenia), which has no approved drug at all.
+Added 2026-11-27: the approval is confirmed. The United States regulator granted accelerated approval to elamipretide (sold as Forzinity, from Stealth BioTherapeutics) on 2025-09-19 as the first treatment for Barth syndrome, a rare inherited disease of the cell's power plants (https://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-first-treatment-barth-syndrome). An accelerated approval rests on early evidence and requires a further trial to confirm the benefit. That trial, a placebo-controlled study of 48 people (https://clinicaltrials.gov/study/NCT07531251), began on 2026-07-02 and is recruiting, with its main result due by 2029-09-30. The approval is for a rare disease and not for muscle loss with age, so the stage and the years are unchanged.
+"""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -60,3 +62,17 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. Every point the outside review of 2026-10-17 raised has been answered, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "2025, if confirmed, means the regulatory path exists;"
+new = "2025 (elamipretide, for Barth syndrome; see below) means the regulatory path exists;"
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the notes spoke of the 2025 approval as 'if confirmed', and the regulator's own announcement confirms it. No stage or year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: the approval is confirmed. The United States regulator granted accelerated approval to elamipretide (sold as Forzinity, from Stealth BioTherapeutics) on 2025-09-19 as the first treatment for Barth syndrome, a rare inherited disease of the cell's power plants (https://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-first-treatment-barth-syndrome). An accelerated approval rests on early evidence and requires a further trial to confirm the benefit. That trial, a placebo-controlled study of 48 people (https://clinicaltrials.gov/study/NCT07531251), began on 2026-07-02 and is recruiting, with its main result due by 2029-09-30. The approval is for a rare disease and not for muscle loss with age, so the stage and the years are unchanged."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the regulator's approval of 2025 and the trial meant to confirm it were not recorded. No stage or year changed."

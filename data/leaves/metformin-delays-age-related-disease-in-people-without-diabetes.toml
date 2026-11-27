@@ -44,7 +44,9 @@ dollars (https://www.npr.org/sections/health-shots/2024/04/22/1245872510/a-cheap
 A search of ClinicalTrials.gov by title and by sponsor on 2026-10-17 found no entry for the trial. The
 earlier statement that it had enrolled no one by mid-2026 rested on 2026 web articles that disagree with
 each other and was dropped on 2026-10-17 for want of a primary source; the design paper is
-Barzilai and colleagues, Cell Metabolism, 2016 (https://doi.org/10.1016/j.cmet.2016.05.011)."""
+Barzilai and colleagues, Cell Metabolism, 2016 (https://doi.org/10.1016/j.cmet.2016.05.011).
+Added 2026-11-27: two placebo-controlled trials of metformin in people without diabetes have finished, and the record did not name them until now. Neither measured the time to a first disease, so neither meets nor fails the test, and they do not point the same way. The Oklahoma Medical Research Foundation's trial in 166 people free of chronic disease posted its results on 2026-07-02 (https://clinicaltrials.gov/study/NCT04264897): metformin had no significant effect on either main measure, the body's response to insulin or the working of the muscle's power plants. The San Antonio trial gave metformin or a placebo for two years to 145 people of about 72 whose blood sugar was raised but short of diabetes (Musi, Espinoza and colleagues, a preprint of 2026-07-28 not yet checked by other scientists, https://doi.org/10.64898/2026.07.27.26359055). On its first frailty score metformin showed no benefit once the weight loss it causes was set aside; on a second score, which counts 95 health problems, frailty grew slightly more slowly, and two clocks read from the marks on DNA in blood ran slightly slower. The years are unchanged.
+"""
 
 [estimate]
 status = "reviewed"
@@ -96,3 +98,11 @@ old = "Records studies in the 2010s suggested ..."
 new = "Studies of medical records in the 2010s suggested ..."
 why = "Wording corrected on 2026-10-18: \"records studies\" meant studies of medical records, such as the UK general-practice records study by Bannister and colleagues, 2014; the reasoning behind the estimate had the same slip (\"records evidence\") and is corrected the same way. No fact changed."
 publication = "bannister-2014"
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: two placebo-controlled trials of metformin in people without diabetes have finished, and the record did not name them until now. Neither measured the time to a first disease, so neither meets nor fails the test, and they do not point the same way. The Oklahoma Medical Research Foundation's trial in 166 people free of chronic disease posted its results on 2026-07-02 (https://clinicaltrials.gov/study/NCT04264897): metformin had no significant effect on either main measure, the body's response to insulin or the working of the muscle's power plants. The San Antonio trial gave metformin or a placebo for two years to 145 people of about 72 whose blood sugar was raised but short of diabetes (Musi, Espinoza and colleagues, a preprint of 2026-07-28 not yet checked by other scientists, https://doi.org/10.64898/2026.07.27.26359055). On its first frailty score metformin showed no benefit once the weight loss it causes was set aside; on a second score, which counts 95 health problems, frailty grew slightly more slowly, and two clocks read from the marks on DNA in blood ran slightly slower. The years are unchanged."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: two finished placebo-controlled trials of metformin in people without diabetes were missing from the notes. No stage or year changed."
+publication = "musi-2026"
