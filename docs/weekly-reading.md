@@ -228,14 +228,20 @@ field (the summary is printed on the site, so it stays a paragraph; a story left
 named under "Limits that cut"). The reading may not add a record; proposing one is a line for John. The
 `limits` line says which of these sources were reached.
 
-**E. Who reads what, and the fixed briefs (in force from 2026-11-09; John's ruling: "All Fable 5.2").**
+**E. Who reads what, and the fixed briefs (in force from 2026-11-09; John's ruling: "All Fable 5.2"; the model changed to Opus 5.5 on 2026-11-27, see below).**
 This part replaces the sentence in step 1 that says a helper's brief "is this step and the caps".
 
-- **One model throughout.** The routine's model field is set to Fable 5.2, and the main session starts
+- **One model throughout.** The routine's model field is set to Opus 5.5, and the main session starts
   every helper without naming a model, so that each helper runs on the main session's model. The main
-  session says in `limits` which model it is running on. If the routine could not be started on Fable
-  5.2 and is running on another model, the reading goes ahead, and the first line of the report and the
+  session says in `limits` which model it is running on. If the routine could not be started on Opus
+  5.5 and is running on another model, the reading goes ahead, and the first line of the report and the
   `limits` line both say so.
+- **Why Opus 5.5 and not Fable 5.2 (changed 2026-11-27, John's ruling that every tracker's news run
+  uses the latest Opus).** On Sunday 2026-11-22 both this reading and the sweep were refused within
+  seconds of starting, because the account's weekly Fable allowance was already used up; nothing was
+  read and nothing warned anyone. The allowance resets on Wednesdays at 1 pm Pacific, so a Sunday run
+  comes late in its week. The comparison of 2026-11-09 that chose Fable 5.2 did not test Opus 5.5, so
+  how Opus readings compare on the 21 top-graded stories is not measured.
 - **Helpers always read.** The main session does not read the records itself. It shares all of them
   among record readers. The sweep of part D comes from its own run; only if its file is missing does
   the main session start one more helper for it.

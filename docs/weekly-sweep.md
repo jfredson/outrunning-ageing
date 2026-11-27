@@ -66,7 +66,7 @@ beside it.
 
 Name "Outrunning Ageing weekly sweep", Sundays at 05:00 Pacific
 (`CRON_TZ=America/Los_Angeles 0 5 * * 0`), one hour before the weekly reading, on the same cloud
-environment, tools, connector and model (`claude-fable-5-2`) as the reading's routine. The hour is the
+environment, tools, connector and model as the reading's routine (`claude-fable-5-2` until 2026-11-27, `claude-opus-5-5` since). The hour is the
 session's choice: the reading of 2026-11-09 took 26 minutes with the sweep inside it, so an hour leaves
 room; if a sweep is ever still running at 06:00 the reading falls back as part D says. (The test sweep
 of 2026-11-09 took 12 minutes. It ran straight after a reading that had used up its allowance and still

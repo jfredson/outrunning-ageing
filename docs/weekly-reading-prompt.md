@@ -39,6 +39,8 @@ At claude.ai/code/routines, open "Outrunning Ageing weekly reading": the toggle 
 
 The routine's model field was empty until 2026-11-09, and the readings ran on Sonnet 5.5. After the comparison in `docs/readings/model-comparison-2026-11-09.md` John ruled "All Fable 5.2", and the field was set to `claude-fable-5-2` the same day. The prompt above was not changed. The helpers take the main session's model, and their briefs are the fixed files in `docs/reading-briefs/` (`docs/weekly-reading.md`, step 1a part E).
 
+On 2026-11-27 John ruled that every tracker's news run uses the latest Opus, and the field was set to `claude-opus-5-5` for this routine and the sweep's. The reason: on 2026-11-22 both runs were refused at the start because the account's weekly Fable allowance was used up (`docs/weekly-reading.md`, step 1a part E). The prompt above was not changed.
+
 ## The sweep's own routine (created 2026-11-09)
 
 John ruled "Split into two runs" on 2026-11-09, after the reading of that day ran out of the search tool's allowance. A second routine, "Outrunning Ageing weekly sweep", runs Sundays at 05:00 Pacific on the same environment, tools, connector and model, and follows `docs/weekly-sweep.md`. Its prompt:
