@@ -47,6 +47,7 @@ status unknown, and has posted no result, so it does not move the first human ru
 single-patient case report of this kind of therapy that was noted earlier was removed from the record
 on 2026-10-17 for want of a source: a report of that kind was found only as a publisher's abstract
 whose page does not open, and it does not name the person treated.
+Added 2026-11-27: the registry also holds a telomerase gene therapy trial in people at Shanghai East Hospital (https://clinicaltrials.gov/study/NCT05837143). Twelve people with heart failure from an enlarged, weakened heart were to be given, through the heart's own arteries, a harmless virus carrying a modified telomerase gene that switches on only in heart muscle. It started on 2023-03-30 and its main measures are safety. The registry has not been updated since 2024-07-16, shows the status as unknown, and holds no results. Without a published measurement of telomere length and a cancer rate it does not meet the first human test, and the years are unchanged.
 """
 
 [estimate]
@@ -68,6 +69,7 @@ in Colombia (registry entry NCT04133649; no result posted). The ZSCAN4 report do
 gene is ZSCAN4 and not telomerase, the cells were treated outside the body, there are two patients,
 and no cancer rate is given. The years are unchanged. Whether the ZSCAN4 report should count for the
 first human rung is my ruling; if it does, the first human estimate falls away with the move.]
+[Note 2026-11-27: the list of registered trials above also lacks a telomerase gene therapy given to 12 people with heart failure at Shanghai East Hospital from 2023 (registry entry NCT05837143; no result posted; see the notes). The years are unchanged.]
 """
 
 [[estimate.rung]]
@@ -118,3 +120,19 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. Every point the review of 2026-10-17 raised has been answered, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "estimate.why"
+old = "(nothing; text added at the end of the reasoning)"
+new = "[Note 2026-11-27: the list of registered trials above also lacks a telomerase gene therapy given to 12 people with heart failure at Shanghai East Hospital from 2023 (registry entry NCT05837143; no result posted; see the notes). The years are unchanged.]"
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: a registered telomerase gene therapy trial in Shanghai was missing from the list of registered trials in the reasoning's dated note. No stage or year changed."
+publication = "shanghai-east-hospital-2023"
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: the registry also holds a telomerase gene therapy trial in people at Shanghai East Hospital (https://clinicaltrials.gov/study/NCT05837143). Twelve people with heart failure from an enlarged, weakened heart were to be given, through the heart's own arteries, a harmless virus carrying a modified telomerase gene that switches on only in heart muscle. It started on 2023-03-30 and its main measures are safety. The registry has not been updated since 2024-07-16, shows the status as unknown, and holds no results. Without a published measurement of telomere length and a cancer rate it does not meet the first human test, and the years are unchanged."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: a registered telomerase gene therapy trial in Shanghai was missing from the notes. No stage or year changed."
+publication = "shanghai-east-hospital-2023"

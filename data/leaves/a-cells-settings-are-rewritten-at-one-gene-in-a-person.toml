@@ -41,7 +41,9 @@ European liver congress) says markers stayed repressed after a single dose "out 
 the registry nor the company's releases give the date of the first person dosed, so this record does
 not state one; an earlier wording that the first person was dosed in late 2024 was removed on
 2026-10-17 for want of a source. The animal record is the paper at the stage link, whose abstract
-says one injection almost halved the circulating protein for nearly a year in mice."""
+says one injection almost halved the circulating protein for nearly a year in mice.
+Added 2026-11-27: three more treatments of this kind have reached people, which the record did not name until now. Epicrispr Biotechnologies' EPI-321, for a muscle-wasting disease (facioscapulohumeral muscular dystrophy), is in a trial that began on 2025-05-08 (https://clinicaltrials.gov/study/NCT06907875). On 2026-10-05 the company reported six-month results in six people: muscle volume and strength rose, against comparison figures drawn from people with the disease who were not treated, and it said no serious side effect was caused by the treatment (https://epicrispr.com/epicrispr-reports-positive-six-month-data-at-the-world-muscle-society-meeting-demonstrating-increased-lean-muscle-volume-and-muscle-strength-in-fshd-patients-treated-with-epi-321/). The release reports muscle, not the product of the gene the treatment silences, and is not peer-reviewed, so the test is not met. A trial at Monash University of a treatment meant to switch off a cholesterol gene, PCSK9, started on 2026-06-30 (https://clinicaltrials.gov/study/NCT07428473), and a trial by nChroma Bio aimed at the hepatitis B virus started on 2025-12-22 (https://clinicaltrials.gov/study/NCT07200193). No year changes.
+"""
 
 [estimate]
 status = "reviewed"
@@ -78,3 +80,10 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. Every point the outside review of 2026-10-17 raised has been answered, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: three more treatments of this kind have reached people, which the record did not name until now. Epicrispr Biotechnologies' EPI-321, for a muscle-wasting disease (facioscapulohumeral muscular dystrophy), is in a trial that began on 2025-05-08 (https://clinicaltrials.gov/study/NCT06907875). On 2026-10-05 the company reported six-month results in six people: muscle volume and strength rose, against comparison figures drawn from people with the disease who were not treated, and it said no serious side effect was caused by the treatment (https://epicrispr.com/epicrispr-reports-positive-six-month-data-at-the-world-muscle-society-meeting-demonstrating-increased-lean-muscle-volume-and-muscle-strength-in-fshd-patients-treated-with-epi-321/). The release reports muscle, not the product of the gene the treatment silences, and is not peer-reviewed, so the test is not met. A trial at Monash University of a treatment meant to switch off a cholesterol gene, PCSK9, started on 2026-06-30 (https://clinicaltrials.gov/study/NCT07428473), and a trial by nChroma Bio aimed at the hepatitis B virus started on 2025-12-22 (https://clinicaltrials.gov/study/NCT07200193). No year changes."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: three other treatments of this kind in people were missing from the notes. No stage or year changed."

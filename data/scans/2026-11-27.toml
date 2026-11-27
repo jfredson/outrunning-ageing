@@ -97,6 +97,8 @@ sources = [
   "https://clinicaltrials.gov/study/NCT04770064",
 ]
 for_john = "Still open from the weekly reading of 2026-11-09, where it was first raised: The notes call the 75-person Steadman Philippon trial the only fisetin trial in knee osteoarthritis on this record, but the trial registry lists two more placebo-controlled knee osteoarthritis trials that use fisetin, both older than this window and neither with results: a second Steadman Philippon Research Institute trial (NCT04815902; 100 people planned, started 2021-05-18, main measure safety, last updated 2024-04-16, now shown as status unknown) and an Assiut University trial of quercetin with fisetin (NCT05276895; 60 people planned, main measure knee pain, suspended for \"unavailability of drugs\", last updated 2023-07-25). Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the notes now name the two other registered fisetin trials in knee osteoarthritis, neither with results. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "clearing-aged-cells-makes-old-animals-live-longer"
@@ -124,6 +126,8 @@ sources = [
   "https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/",
 ]
 for_john = "Correction: Still open from the weekly reading of 2026-11-15, where it was first raised: the entry and the papers logged for it do not hold a mouse lifespan result published eleven days before this window. A paper in Advanced Science, online on 2026-10-28 (Song and colleagues), reports that a vaccine which trains the immune system against aged cells carrying a surface protein called Gpnmb cleared such cells from the fat of old mice and lengthened their lives; a news report of 2026-10-30 gives a 12 per cent longer median life in female mice vaccinated at 75 weeks, with ten mice to a group and untreated mice that were short-lived for their strain. It is small mouse work, so the stage and the test for people are untouched, but it is a third kind of treatment (after the two-drug course and the mineral supplement) said to add life by clearing aged cells, and it also bears on the note about an earlier vaccine in the entry on engineered immune cells. Opened: the paper's abstract through Europe PMC and its date through Crossref, and the news report on lifespan.io; the full paper was not read, so the lifespan figures rest on the news report. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: a dated note records the vaccine's mouse lifespan result and its limits. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "drug-clears-aged-cells-from-a-person"
@@ -219,6 +223,8 @@ publications = [
   "sicre-de-fontbrune-2025",
 ]
 for_john = "Correction: the entry's reasoning on the years names the stopped Australian danazol trial in lung scarring but not a French one that the records do not hold. The ANDROTELO trial (Sicre de Fontbrune and colleagues, ERJ Open Research, volume 12, issue 2, online on 2025-11-09; registry number NCT03710356, whose entry was last updated in 2018 and still shows status unknown) gave danazol for a year to 24 people with lung scarring and 5 with bone-marrow failure, all carrying faults in telomere genes: only 10 of the 24 with lung scarring finished the year, 9 stopped because of side effects and 3 died, so the authors write that danazol was poorly tolerated and its effect could not be judged, while all 5 with marrow failure finished and had at least a partial response; the report gives no telomere length after treatment. It does not touch the stage, which rests on the 2016 report, but it is a second trial in lung scarring that weighs towards the later years, and it also cites a 2023 trial of another hormone, nandrolone, measuring telomere length in people with telomere disease (Haematologica, 2023), which an earlier reading saw and the entry does not name. Opened: the abstract and the full text through Europe PMC, the date through Crossref and the registry entry through its data interface; the nandrolone trial was seen only in the paper's reference list. Also still open from the weekly reading of 2026-11-09, where it was first raised: The records name the National Heart, Lung, and Blood Institute's low-dose danazol trial in telomere disease (NCT03312400) only as one of two completed studies, but the registry now shows it terminated, \"stopped due to poor accrual\", with results posted on 2026-10-27, six days before this window, and no earlier reading says what the results are. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the French trial was added earlier the same day, and a dated note now gives the posted results of the National Heart, Lung, and Blood Institute's low-dose trial, whose entry in the publications log no longer calls it completed. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "a-gene-is-edited-inside-a-persons-body"
@@ -301,6 +307,8 @@ sources = [
   "https://doi.org/10.1016/j.ebiom.2026.106203",
 ]
 for_john = "Still open from the weekly reading of 2026-11-09, where it was first raised: The trial registry holds a study at Shanghai East Hospital (NCT05837143, first posted 2023-05-01) that enrolled 12 people with heart failure to receive a gene therapy carrying a modified telomerase gene; it started on 2023-03-30, was last updated on 2024-07-16, is now shown as status unknown with no results, and the records do not mention it, although the estimate's dated note lists the registered trials of this kind. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: a dated note records the Shanghai trial, and the reasoning's list of registered trials now names it. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "premature-ageing-mutation-corrected-in-a-living-animal"
@@ -324,6 +332,8 @@ sources = [
   "https://clinicaltrials.gov/study/NCT07839351",
 ]
 for_john = "Still open from the weekly reading of 2026-11-09, where it was first raised: The entry says nothing of the route by which a first child might be treated, and two public records older than the window show one forming. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: a dated note records the foundation's manufacturing agreement and the Korean study, which is for a different gene therapy. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "a-cells-settings-are-rewritten-at-one-gene-in-a-person"
@@ -359,6 +369,8 @@ sources = [
   "http://epicrispr.com/news",
 ]
 for_john = "Still open from the weekly reading of 2026-11-09, where it was first raised: The record follows only the hepatitis B trial and names no other treatment of this kind in people, but a second one is further along. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: a dated note names three more treatments of this kind in people. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "a-cocktail-of-ordinary-drugs-resets-cell-age"
@@ -541,6 +553,8 @@ sources = [
   "https://doi.org/10.1038/s41467-026-75141-2",
 ]
 for_john = "Correction: Still open from the weekly reading of 2026-11-09. The entry says a new generation of drugs aimed at the main human cross-link was in the laboratory, and does not mention that the company working on them published its first peer-reviewed result on 2026-07-14 in Nature Communications (Trabosh and colleagues, https://doi.org/10.1038/s41467-026-75141-2), an enzyme that undoes a single sugar mark on proteins rather than a cross-link. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the paper was opened by the reading of 2026-11-09 and was not opened again this week, and the one recent-looking mouse study the web searches returned on sugar damage and stiff arteries turned out, on its Crossref record, to date from 2025-11-14."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the description and a dated note now say what the company's first peer-reviewed paper reports. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "drug-stops-a-misfolded-protein-piling-up-in-the-heart"
@@ -594,6 +608,8 @@ sources = [
   "https://doi.org/10.1038/s41467-025-63553-5",
 ]
 for_john = "Correction: Still open from the weekly reading of 2026-11-09: the entry says no human trial of a cataract drop has been published, but a peer-reviewed report of one exists (Kuboi and colleagues, American Journal of Ophthalmology, published online 2024-08-02, https://doi.org/10.1016/j.ajo.2024.07.038, a placebo-controlled early-stage trial of a drop called C-KAD in early age-related cataract); that paper was opened by the reading of 2026-11-09 and not again this week. The searches also turned up an older paper the entry and the record of papers do not hold: Song and colleagues, Nature Communications, 2025-09-26 (https://doi.org/10.1038/s41467-025-63553-5), in which raising lanosterol inside the lens of rats, by an injection into the eye rather than drops, markedly improved cataract in two rat models; it bears on whether lanosterol itself can clear a lens in a living animal, though it is not a repeat of the 2015 dog result. I opened its abstract in the Europe PMC database, and opened the registry entry for the pilot trial directly; nothing dated between 2026-11-20 and 2026-11-27 changes either point."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the description now says no human trial has reported clearer lenses, and a dated note records the published trial of a different drop and the 2025 rat study. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "a-drug-adds-healthy-years-to-a-life"
@@ -679,6 +695,8 @@ sources = [
   "https://clinicaltrials.gov/study/NCT07531251",
 ]
 for_john = "Correction: Still open from the weekly reading of 2026-11-09. The notes speak of the approval of a power-plant-shielding drug for a rare inherited disease in 2025 as \"if confirmed\", and it is confirmed: elamipretide (sold as Forzinity, from Stealth BioTherapeutics) was approved by the United States regulator on 2025-09-19 as an accelerated approval for Barth syndrome, and its 48-person confirming trial is listed in the registry as recruiting, unchanged since 2026-11-09, with its main result due in September 2029. I opened that registry entry again this week and the two urolithin A entries named above; the regulator's database record was opened by the reading of 2026-11-09 and not again, and nothing dated between 2026-11-20 and 2026-11-27 changes the point."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: 'if confirmed' is gone and a dated note records the approval and the trial meant to confirm it (registry number NCT07531251, not the number this reading gave). No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "a-weight-loss-drug-is-approved-to-prevent-heart-attacks-and-strokes"
@@ -771,6 +789,8 @@ publications = [
   "gutierrez-garcia-2026",
 ]
 for_john = "Correction: Still open from the weekly reading of 2026-11-15, where it was first raised: the entry does not mention a two-year placebo-controlled trial of metformin against frailty in older people without diabetes, which has finished and been written up. The trial, at the University of Texas Health Science Center at San Antonio, gave metformin or a placebo to 145 people of about 72 with raised blood sugar short of diabetes; its preprint of 2026-07-28 (Musi, Espinoza and colleagues, not yet peer-reviewed) reports no benefit on its first frailty score once weight loss is set aside, a small but significant slowing on a second frailty score that counts 95 health deficits, and slightly slower ageing on two blood-based clocks, and the registry entry is marked completed with results posted on 2025-08-06. It measured frailty and not time to a first disease, so it neither meets nor fails the test, but with the Oklahoma trial noted last week it is a second finished placebo-controlled trial of metformin as an ageing drug in people without diabetes, and the two do not point the same way. Opened: the preprint's abstract through Europe PMC, the registry entry through the registry's data interface, and the abstracts of the BMJ Open paper through PubMed; the second journal paper of 2026-11-13 has no abstract on PubMed, so only its title, authors and date were read. Seen in a search result only: nothing used here. What the weekly reading of 2026-11-09 left open on this entry is still open as well. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: a dated note records the Oklahoma and San Antonio trials. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "mitochondria-are-transplanted-into-a-person"
@@ -829,6 +849,8 @@ publications = [
   "stanfield-2026",
 ]
 for_john = "Correction: the entry gives the 2014 flu-vaccine trial as the one positive controlled result and the 2025 year-long trial as a null one, but it lacks a third controlled trial in older people, RAPA-EX-01 (Stanfield, Leroux, Kaeberlein, Jones and Lucas, Journal of Cachexia, Sarcopenia and Muscle, online 2026-04-15), which counts against. In 40 inactive people aged 65 to 85 given 6 mg of rapamycin or a placebo once a week for 13 weeks alongside a home exercise programme, the drug did not improve the main measure, chair stands in 30 seconds (difference -2.1, p = 0.089), the prespecified sensitivity analyses favoured the placebo and reached significance, and side effects were more frequent on the drug, including one serious infection that may have been drug-related. Opened: the abstract in the Europe PMC database and the Crossref record for the date (the publisher's page refused the reader); seen in a search result only: a summary of the trial on a personal wiki. In the window itself, the San Antonio trial of rapamycin in people aged 70 to 95 updated its registry entry for its heart-scan substudy on 2026-11-25 (now active, not recruiting; one group of 20 with no comparison, due to finish 2027-02-28), opened through the registry's data interface. What the weekly reading of 2026-11-09 left open on this entry, the late-stage trial the University of Arizona announced on 2026-03-31, is still not in the entry."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the third controlled trial was added earlier the same day, and a dated note now records the University of Arizona's announced trial. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "a-human-organ-is-grown-inside-an-animal"
@@ -1200,6 +1222,8 @@ sources = [
   "https://clinicaltrials.gov/api/v2/studies/NCT07923630",
 ]
 for_john = "Correction: Still open from the weekly reading of 2026-11-15, where it was first raised: the entry on a regulator accepting a marker of ageing lacks the public meeting of 2026-05-27, \"Affecting the Aging Trajectory\", convened by the Reagan-Udall Foundation for the FDA with the government agency ARPA-H and XPRIZE Healthspan, whose summary of July 2026 says there is no validated ageing marker and no accepted regulatory measure for a treatment of ageing, and that no ageing marker has reached the standing of a validated or reasonably likely stand-in for a trial's outcome. It is the nearest thing to the regulator's side stating the entry's position in a public document, and it adds that officials pointed to the existing routes (meetings on a company's own trial plan, the marker qualification programme) and said progress waits on specific proposals; a trade report of 2026-10-02 adds that the regulator's chief scientist told a conference its next statement of science priorities, due in the financial year that began on 2026-10-01, will include ageing, and the regulator's own page still lists the 2022 edition as the latest. I opened the meeting summary, the trade report on Lifespan.io, the regulator's three pages and the European regulator's two lists; a second trade article on the same conference refused to load and was seen in a search result only. What the weekly reading of 2026-11-09 left open on this entry is still open as well. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: a dated note records the working group's recommendations, the public meeting and the statement of 2026-10-01. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "a-regulator-recognises-ageing-as-a-condition-a-drug-can-treat"
@@ -1233,6 +1257,8 @@ sources = [
   "https://clinicaltrials.gov/api/v2/studies/NCT07923630",
 ]
 for_john = "Correction: Still open from the weekly reading of 2026-11-15, where it was first raised: the entry on a regulator recognising ageing as a treatable condition gives the metformin trial's planning as the closest a regulator has come, and lacks three later public records. The summary of a public meeting held on 2026-05-27 by the Reagan-Udall Foundation for the FDA says no approved route exists for an ageing indication and that officials pointed sponsors to disease-first routes; a trade report of 2026-10-02 says officials of the United States regulator told a conference on 2026-10-01 which of its review offices is responsible for ageing as an indication and described two ways a wider claim might be shown (benefit across several age-related conditions, or slower decline across several capacities), with no route or guidance announced; and a policy article in Science on 2026-10-01 (Strassle, Lynch and Zettler, \"Longevity products: Innovation through regulation\") argues for regulatory oversight of the field. None meets what would count, but together they are the regulator's most recent public position and belong beside the 2018 papers. I opened the meeting summary, the trade report and the registry entry; of the Science article only the one-line abstract was read, and the metformin trial's sponsor's page refused to load, so its status rests on the copy saved on 2026-07-04 that the entry already cites. What the weekly reading of 2026-11-09 left open on this entry is still open as well. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: a dated note records the public meeting, the officials' statements, the policy article and the newly registered trial. No stage or year changed (changelog, 2026-11-27, the second batch of older questions)."
 
 [[item]]
 leaf = "a-treatment-slows-a-biological-age-clock-in-a-controlled-trial"

@@ -45,7 +45,9 @@ entries that name ageing at all are three measures of muscle loss and physical f
 physical performance test put forward by the Alliance for Aging Research, a physical-functioning
 question bank in sarcopenia, and a wearable belt in sarcopenia); the regulator accepted each for the
 next step, none is qualified, and none is a marker of ageing as such. The European regulator's own
-list was read on 2026-10-17 and has no ageing marker."""
+list was read on 2026-10-17 and has no ageing marker.
+Added 2026-11-27: three public records of 2026 say where the regulator stands, and none changes the stage. On 2026-05-18 a working group convened by ARPA-H, the United States government's health research agency, sent the regulator its recommendations for measuring a person's physical and mental capacity in five parts as an outcome in trials of treatments for ageing; the document says it does not claim that the measure is a validated stand-in for death or disability (https://arpa-h.gov/sites/default/files/2026-05/Consensus%20Statement%20to%20the%20FDA.pdf). On 2026-05-27 the Reagan-Udall Foundation for the FDA, with ARPA-H and XPRIZE Healthspan, held a public meeting called 'Affecting the Aging Trajectory' (https://www.reaganudall.org/news-and-events/events/affecting-aging-trajectory-regulatory-constructs-gerotherapeutic-drug). Its summary of July 2026 records that 'no aging biomarker has achieved validated or reasonably likely surrogate endpoint status', and that officials pointed companies to the existing routes, among them the programme for qualifying markers (https://reaganudall.org/sites/default/files/2026-07/073126_Affecting%20the%20Aging%20Trajectory%20Public%20Meeting%20Summary.pdf). On 2026-10-01, at a conference in Boston, the regulator's chief scientist said ageing and longevity will be one of the topics in its next list of research priorities, with a tentative release in its 2027 financial year (Lifespan.io, 2026-10-02, https://www.lifespan.io/news/fda-leaders-name-longevity-a-priority-at-ardd/).
+"""
 
 [estimate]
 status = "reviewed"
@@ -84,3 +86,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. Every point the outside review of 2026-10-17 raised has been answered, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: three public records of 2026 say where the regulator stands, and none changes the stage. On 2026-05-18 a working group convened by ARPA-H, the United States government's health research agency, sent the regulator its recommendations for measuring a person's physical and mental capacity in five parts as an outcome in trials of treatments for ageing; the document says it does not claim that the measure is a validated stand-in for death or disability (https://arpa-h.gov/sites/default/files/2026-05/Consensus%20Statement%20to%20the%20FDA.pdf). On 2026-05-27 the Reagan-Udall Foundation for the FDA, with ARPA-H and XPRIZE Healthspan, held a public meeting called 'Affecting the Aging Trajectory' (https://www.reaganudall.org/news-and-events/events/affecting-aging-trajectory-regulatory-constructs-gerotherapeutic-drug). Its summary of July 2026 records that 'no aging biomarker has achieved validated or reasonably likely surrogate endpoint status', and that officials pointed companies to the existing routes, among them the programme for qualifying markers (https://reaganudall.org/sites/default/files/2026-07/073126_Affecting%20the%20Aging%20Trajectory%20Public%20Meeting%20Summary.pdf). On 2026-10-01, at a conference in Boston, the regulator's chief scientist said ageing and longevity will be one of the topics in its next list of research priorities, with a tentative release in its 2027 financial year (Lifespan.io, 2026-10-02, https://www.lifespan.io/news/fda-leaders-name-longevity-a-priority-at-ardd/)."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: a working group's recommendations of 2026-05-18, a public meeting of 2026-05-27 and the regulator's statement of 2026-10-01 were missing from the notes. No stage or year changed."
+publication = "reagan-udall-foundation-2026"

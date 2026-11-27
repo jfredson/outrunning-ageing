@@ -11,7 +11,7 @@ lens of the eye transparent misfold and clump with age until the lens goes cloud
 treatment is to cut the lens out and put in a plastic one. In 2015 a group in San Diego and
 Guangzhou reported that lanosterol, a natural molecule, dissolved the clumps in a dish and
 cleared the lenses of dogs with cataracts when given as drops. Two later laboratories could not
-repeat the effect, and no human trial has been published. A controlled pilot trial of a drop that its
+repeat the effect, and no human trial has reported clearer lenses. A controlled pilot trial of a drop that its
 makers say is derived from lanosterol (ZOC2017217, from the company Ocusun) in about 40 people is
 registered in the United States with a start date of 2026-02-10, with its first results expected
 from 2027-02; the makers' release of 2026-07-14 also cites an exploratory study in China, described
@@ -47,7 +47,9 @@ organisation (Lexitas Pharma Services) of 2026-07-14, opened and read on 2026-10
 The registry entry (NCT07395986) does not name lanosterol, the release cites no paper for the study
 in China, and a search of the Europe PMC literature database on 2026-10-17 found no published report
 of it; the figures are therefore the company's statement, not a peer-reviewed result. The registry
-gives a start date of 2026-02-10 while the release says the first patient was enrolled on 2026-07-14."""
+gives a start date of 2026-02-10 while the release says the first patient was enrolled on 2026-07-14.
+Added 2026-11-27: a controlled trial of a different eye drop has been published, which this entry did not say until now. Kuboi and colleagues (American Journal of Ophthalmology, online 2024-08-02, https://doi.org/10.1016/j.ajo.2024.07.038) report part of a randomised, placebo-controlled early-stage trial of C-KAD, a drop that binds metals (EDTA) and has nothing to do with lanosterol. Among 41 eyes with early age-related cataract whose contrast vision in dim light was already reduced, more eyes on the drop than on placebo had a large improvement in that vision after 120 days (66.7 against 35.0 per cent). The summary of the paper gives no figure for lens clarity: it says only that lens density was looked at in a smaller group of eyes. Because this entry's test asks for clearer lenses, the report does not meet it, and the stage stays. Separately, Song and colleagues (Nature Communications, online 2025-09-26, https://doi.org/10.1038/s41467-025-63553-5) injected into the eyes of rats the genetic instructions for the enzyme that makes lanosterol, which raised lanosterol inside the lens, and the cataracts improved in two kinds of rat. That was an injection, not drops, and it is not a repeat of the 2015 dog result, but it bears on whether lanosterol can clear a lens in a living animal.
+"""
 
 [estimate]
 status = "reviewed"
@@ -143,3 +145,19 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and argued that this range rested on there being no registered human trial, which is out of date; That was accepted the same day, and the clinic rung's earliest and likely years moved to 2031 and 2040 (see the revisions above). With every point of the review answered, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."
+
+[[revision]]
+date = 2026-11-27
+field = "description"
+old = "repeat the effect, and no human trial has been published."
+new = "repeat the effect, and no human trial has reported clearer lenses."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the description said no human trial had been published, but a controlled trial of a different drop, one that binds metals, has been (see the notes). No stage or year changed."
+publication = "kuboi-2024"
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: a controlled trial of a different eye drop has been published, which this entry did not say until now. Kuboi and colleagues (American Journal of Ophthalmology, online 2024-08-02, https://doi.org/10.1016/j.ajo.2024.07.038) report part of a randomised, placebo-controlled early-stage trial of C-KAD, a drop that binds metals (EDTA) and has nothing to do with lanosterol. Among 41 eyes with early age-related cataract whose contrast vision in dim light was already reduced, more eyes on the drop than on placebo had a large improvement in that vision after 120 days (66.7 against 35.0 per cent). The summary of the paper gives no figure for lens clarity: it says only that lens density was looked at in a smaller group of eyes. Because this entry's test asks for clearer lenses, the report does not meet it, and the stage stays. Separately, Song and colleagues (Nature Communications, online 2025-09-26, https://doi.org/10.1038/s41467-025-63553-5) injected into the eyes of rats the genetic instructions for the enzyme that makes lanosterol, which raised lanosterol inside the lens, and the cataracts improved in two kinds of rat. That was an injection, not drops, and it is not a repeat of the 2015 dog result, but it bears on whether lanosterol can clear a lens in a living animal."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: a published controlled trial of a different drop, and a 2025 rat study of lanosterol, were missing from the notes. No stage or year changed."
+publication = "kuboi-2024"
