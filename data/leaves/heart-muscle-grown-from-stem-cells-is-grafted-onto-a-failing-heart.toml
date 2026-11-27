@@ -17,18 +17,23 @@ removed for a transplant three months later. That small trial in people, with no
 Medicine on 2026-05-27: of 20 people given the patches, three died during the study and one had a
 heart transplant; of the 16 given the highest safe dose, 12 had completed the prespecified 3-month interim
 follow-up; in that interim analysis the heart's pumping (ejection fraction) was 3.9 percentage points
-higher and the treated wall 4.5 mm thicker. The 2025 case remains the first grafted human heart muscle found alive in a person."""
+higher and the treated wall 4.5 mm thicker. The 2025 case remains the first grafted human heart muscle found alive in a person.
+On 2026-03-06 Japan gave a conditional, time-limited approval to a different product of this kind,
+Cuorips' sheets of heart muscle grown from donor stem cells, and since 2026-09-01 it has been
+covered by public health insurance there (see the notes)."""
 test = """
 Heart muscle grown from stem cells is grafted onto a person's failing heart and is afterwards
 found alive and supplied with blood there, or the heart's pumping measurably improves, in a
 peer-reviewed report. The animal rung is the same in a living animal with improved pumping. For
 the clinic rung: a regulator approves such a graft for heart failure."""
 settler = "The peer-reviewed report; the trial registry; the regulator's approval record for the clinic rung"
-stage = "first-human"
-stage_reached_on = "2025-01-29"
-stage_record = "https://doi.org/10.1038/s41586-024-08463-0"
+stage = "in-clinical-use"
+stage_reached_on = "2026-03-06"
+stage_record = "https://www.pmda.go.jp/files/000281693.pdf"
+stage_publication = "pmda-2026-riheart"
 status = "tracked"
 horizon = "mid"
+
 
 notes = """
 The animal rung is settled by the same 2025 paper (rhesus monkeys), so no separate earlier
@@ -38,30 +43,15 @@ not yet in people. The 2025 paper (open to read) does not give the patient's age
 the operation, so the description no longer does; it reports that the grafted cells were found
 retained, smaller than the host heart's own cells, and with fewer blood vessels than the surrounding
 muscle (187 against 963 per square millimetre), with signs of an immune reaction against the graft
-or its support material (checked 2026-10-17)."""
-
-[estimate]
-status = "reviewed"
-set_on = 2026-10-16
-why = """
-A small trial with no comparison group was running in 2026, with the heart's pumping among its main measures; the likely year assumes
-it reports positive around 2030 and a larger trial carries the graft to approval in the late
-2030s. The earliest assumes a conditional approval in Europe or Japan on the first trial; the
-latest allows for the grafts not improving pumping enough to matter, which the monkey data
-suggest but do not prove in people.
-[Note 2026-10-17, from the weekly reading of that date: the reasoning above assumes the small trial
-reports around 2030. It reported an interim analysis on 2026-05-27 (the trial report by Zimmermann and colleagues): pumping and wall
-thickness were higher at 3 months in the highest-dose group, with three deaths among 20 people and
-every patient having at least one adverse event. The years are unchanged; I may want to weigh at
-the next review whether the reporting year in the reasoning (and so the earliest, 2031) should
-move earlier, and what the deaths and the need for rejection drugs mean for the latest year.]
+or its support material (checked 2026-10-17).
+Added 2026-11-27: the clinic rung is reached, in Japan, by a different product from the German patches described above. On 2026-03-06 Japan's regulator gave a conditional, time-limited approval, for seven years, to RiHEART, sheets of heart muscle cells grown from donor stem cells by the company Cuorips, for severe heart failure after heart attacks in people whom standard treatment has not helped enough (the regulator's review report, https://www.pmda.go.jp/files/000281693.pdf; the company's release, https://cuorips.co.jp/news-en/20260306). Public health insurance has covered it since 2026-09-01, and the first operation under that cover was done at Osaka Police Hospital on 2026-09-29 (https://cuorips.co.jp/news-en/200261001). A conditional approval counts here because, under it, doctors can give the treatment outside a trial. Two things weigh against reading much into it. The approval rests on an open study of 8 patients with no comparison group. And Japan approved an earlier heart-sheet product the same way in 2015, Terumo's HeartSheet, made from the patient's own muscle cells, then refused it full approval in July 2024, after which its sales ended (the regulator's record, https://www.pmda.go.jp/files/000272880.pdf). If RiHEART is refused full approval, this entry will record that it was withdrawn.
 """
 
-[[estimate.rung]]
-rung = "in-clinical-use"
-earliest = 2031
-likely = 2038
-latest = 2070
+[[earlier_stage]]
+stage = "first-human"
+reached_on = "2025-01-29"
+record = "https://doi.org/10.1038/s41586-024-08463-0"
+
 
 [[revision]]
 date = 2026-10-17
@@ -100,3 +90,51 @@ old = "among 12 given the highest dose who had reached the 3-month interim check
 new = "of the 16 given the highest safe dose, 12 had completed the prespecified 3-month interim follow-up; in that interim analysis the heart's pumping (ejection fraction) was 3.9 percentage points higher and the treated wall 4.5 mm thicker."
 why = "An audit on 2026-10-18 of the weekly reading of that date asked whether the highest-dose group was 12 or 16 people. The abstract (read through Europe PMC on 2026-10-18) says 16 patients were treated with the safe maximal dose and 12 of them completed the prespecified 3-month interim follow-up; the German centre's release of 2026-05-29 says the first 16 given the highest safe dose were analysed. Both numbers are right, and the description had run them together. The date needed no change: the publication record gives online 2026-05-27 and the issue dated 2026-05-28. Applied on 2026-10-18; the stage and the years are unchanged."
 publication = "zimmermann-2026"
+
+[[revision]]
+date = 2026-11-27
+field = "stage"
+old = "first-human"
+new = "in-clinical-use"
+why = "Japan's regulator gave a conditional, time-limited approval on 2026-03-06 to Cuorips' heart muscle sheets (RiHEART), and public health insurance has covered them since 2026-09-01, with the first operation under that cover on 2026-09-29. A conditional approval counts for the clinic rung when, under it, the treatment can be given outside a trial, as on 2026-10-17 for the dog-lifespan drug; this one is in insured use outside a trial. Ruled on 2026-11-27."
+publication = "pmda-2026-riheart"
+
+[[revision]]
+date = 2026-11-27
+field = "stage_reached_on"
+old = "2025-01-29"
+new = "2026-03-06"
+why = "The date of Japan's conditional approval. Ruled on 2026-11-27."
+publication = "pmda-2026-riheart"
+
+[[revision]]
+date = 2026-11-27
+field = "stage_record"
+old = "https://doi.org/10.1038/s41586-024-08463-0"
+new = "https://www.pmda.go.jp/files/000281693.pdf"
+why = "The regulator's review report is the record of the approval; the 2025 paper is now recorded as the first-human stage. Ruled on 2026-11-27."
+publication = "pmda-2026-riheart"
+
+[[revision]]
+date = 2026-11-27
+field = "description"
+old = "The 2025 case remains the first grafted human heart muscle found alive in a person."
+new = "The 2025 case remains the first grafted human heart muscle found alive in a person. On 2026-03-06 Japan gave a conditional, time-limited approval to a different product of this kind, Cuorips' sheets of heart muscle grown from donor stem cells, and since 2026-09-01 it has been covered by public health insurance there (see the notes)."
+why = "The description now says the clinic rung was reached in Japan. Ruled on 2026-11-27."
+publication = "pmda-2026-riheart"
+
+[[revision]]
+date = 2026-11-27
+field = "estimate"
+old = "(the estimate for the clinic rung: earliest 2031, likely 2038, latest 2070, with its reasoning)"
+new = "(removed: the clinic rung is reached; no estimate for wide use has been set yet)"
+why = "The treatment reached the clinic rung, so the estimate for that rung no longer applies. Ruled on 2026-11-27."
+publication = "pmda-2026-riheart"
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: the clinic rung is reached, in Japan, by a different product from the German patches described above. On 2026-03-06 Japan's regulator gave a conditional, time-limited approval, for seven years, to RiHEART, sheets of heart muscle cells grown from donor stem cells by the company Cuorips, for severe heart failure after heart attacks in people whom standard treatment has not helped enough (the regulator's review report, https://www.pmda.go.jp/files/000281693.pdf; the company's release, https://cuorips.co.jp/news-en/20260306). Public health insurance has covered it since 2026-09-01, and the first operation under that cover was done at Osaka Police Hospital on 2026-09-29 (https://cuorips.co.jp/news-en/200261001). A conditional approval counts here because, under it, doctors can give the treatment outside a trial. Two things weigh against reading much into it. The approval rests on an open study of 8 patients with no comparison group. And Japan approved an earlier heart-sheet product the same way in 2015, Terumo's HeartSheet, made from the patient's own muscle cells, then refused it full approval in July 2024, after which its sales ended (the regulator's record, https://www.pmda.go.jp/files/000272880.pdf). If RiHEART is refused full approval, this entry will record that it was withdrawn."
+why = "The conditional approval of Cuorips' heart muscle sheets was weighed against the clinic rung. Ruled on 2026-11-27."
+publication = "pmda-2026-riheart"

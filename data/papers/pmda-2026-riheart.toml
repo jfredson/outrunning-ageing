@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 when the stage of the treatment on heart muscle grown from stem cells was ruled on.
+
+id = "pmda-2026-riheart"
+date = "2026-03-06"
+added_on = 2026-11-27
+authors = ["Pharmaceuticals and Medical Devices Agency (Japan)"]
+title = "Report on the Deliberation Results: RiHEART (human (allogeneic) iPS cell-derived cardiomyocyte sheet)"
+venue = "The Japanese regulator's review report, with its list of approved regenerative medical products (April 2015 to July 2026)"
+link = "https://www.pmda.go.jp/files/000281693.pdf"
+finding = """
+Japan's regulator records a conditional and time-limited approval, on 2026-03-06 and for seven years, of sheets of heart muscle cells grown from donor stem cells, for severe heart failure after heart attacks in people whom standard treatment has not helped enough. The approval rests on an open study of 8 patients at five hospitals with no comparison group, and it requires the maker to follow every treated patient. The regulator's list of approved products (https://www.pmda.go.jp/files/000283257.pdf) marks it as a conditional, time-limited approval.
+"""
+leaves = ["heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart"]
+branches = ["replacing-parts"]
+moved_range = false
+settled_stage = true
+notes = """
+Read on 2026-11-27 in the regulator's English review report and its list of approved products.
+"""

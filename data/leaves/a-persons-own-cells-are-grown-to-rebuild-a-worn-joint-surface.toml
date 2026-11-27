@@ -43,6 +43,7 @@ and, under 'Pre-Approval Studies', that the clinical information came from 2 ope
 patients treated in Sweden with a similar product, and the Cartilage Repair Registry. So the 1997 licence did not rest on a
 controlled trial, whereas MACI's 2016 approval did. The clinic date on this record stays 2016-12-13, the approval that followed a
 controlled trial; whether the test's clinic rung (a regulator approves such a product) was reached in 1997 is left for me to rule.
+Added 2026-11-27: grown cartilage is approved for osteoarthritis in Japan. On 2025-05-13 Japan's regulator approved a wider use of Japan Tissue Engineering's JACC, cartilage grown from the patient's own knee cartilage cells and approved for injuries since 2012, to include osteoarthritis of the knee, for people with a cartilage defect of at least 2 square centimetres whom exercise and other non-surgical treatment have not helped (the company's release, https://www.jpte.co.jp/sys/upload/save/6994297976822d27ac55a4.pdf). The approval rests on a randomised trial at 15 hospitals that compared JACC with joint injections of hyaluronic acid: in the 54 people analysed, JACC was better on a score of knee pain and function at 52 weeks (the regulator's review report, https://www.pmda.go.jp/files/000278210.pdf). Public health insurance has covered the new use since 2026-01-01 (https://www.jpte.co.jp/sys/upload/save/13737573296951e47b5d0db.pdf), and the company said it aims for about 1,000 cases a year within a few years of launch. The United States label of MACI, described above, still excludes osteoarthritis.
 """
 
 [[earlier_stage]]
@@ -66,11 +67,12 @@ out in the early 2030s and use widens through the decade; the earliest assumes u
 meet the bar once counted; the latest allows for grown cells never working in an arthritic
 joint.
 [Note 2026-10-17, on an outside review's proposal: the wide-use earliest year moved from 2028 to 2033 and the likely year from 2036 to 2040. The test's wide-use rung asks for use in worn joints in older people, which means a trial and a label in osteoarthritis; the trial registry, read on 2026-10-17, holds no phase 3 trial of cultured cartilage cells in knee osteoarthritis (two recruiting phase 2 trials of engineered cartilage in patellofemoral osteoarthritis, NCT06163573 and NCT06576583, and two completed post-marketing studies of a Korean product), so the earliest's assumption that use figures might already meet the bar cannot hold, and a phase 3, a label extension and a roll-out cannot fit before 2033. The latest of 2065 stays. This rung is shown on the page and not drawn by the headline.]
+[Note 2026-11-27: the reasoning above, and the note of 2026-10-17, say no trial in osteoarthritis had been run. One had, in Japan: a randomised trial of Japan Tissue Engineering's grown cartilage (JACC) against joint injections of hyaluronic acid, in 54 people analysed, found it better on a score of knee pain and function at one year, and Japan approved it for knee osteoarthritis on 2025-05-13 (see the notes). The earliest year for wide use moves from 2033 to 2030, because an approval in osteoarthritis now exists and use could widen from it. The likely year of 2040 and the latest of 2065 stay, because wide use asks for several countries and a real share of older patients, and so far there is one country and a company aim of about 1,000 cases a year.]
 """
 
 [[estimate.rung]]
 rung = "in-wide-use"
-earliest = 2033
+earliest = 2030
 likely = 2040
 latest = 2065
 
@@ -115,3 +117,27 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) proposed a change to this range, which was accepted the same day: the wide-use earliest and likely years moved to 2033 and 2040 (see the revisions above). With every point of the review answered, the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say."
+
+[[revision]]
+date = 2026-11-27
+field = "estimate.rung.in-wide-use.earliest"
+old = 2033
+new = 2030
+why = "The earliest year assumed no trial or approval in osteoarthritis existed; Japan approved grown cartilage for knee osteoarthritis on 2025-05-13 after a randomised trial. Ruled on 2026-11-27."
+publication = "japan-tissue-engineering-2025"
+
+[[revision]]
+date = 2026-11-27
+field = "estimate.why"
+old = "(nothing; text added at the end of the reasoning)"
+new = "[Note 2026-11-27: the reasoning above, and the note of 2026-10-17, say no trial in osteoarthritis had been run. One had, in Japan: a randomised trial of Japan Tissue Engineering's grown cartilage (JACC) against joint injections of hyaluronic acid, in 54 people analysed, found it better on a score of knee pain and function at one year, and Japan approved it for knee osteoarthritis on 2025-05-13 (see the notes). The earliest year for wide use moves from 2033 to 2030, because an approval in osteoarthritis now exists and use could widen from it. The likely year of 2040 and the latest of 2065 stay, because wide use asks for several countries and a real share of older patients, and so far there is one country and a company aim of about 1,000 cases a year.]"
+why = "The reasoning's premise that no osteoarthritis trial existed was wrong. Ruled on 2026-11-27."
+publication = "japan-tissue-engineering-2025"
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: grown cartilage is approved for osteoarthritis in Japan. On 2025-05-13 Japan's regulator approved a wider use of Japan Tissue Engineering's JACC, cartilage grown from the patient's own knee cartilage cells and approved for injuries since 2012, to include osteoarthritis of the knee, for people with a cartilage defect of at least 2 square centimetres whom exercise and other non-surgical treatment have not helped (the company's release, https://www.jpte.co.jp/sys/upload/save/6994297976822d27ac55a4.pdf). The approval rests on a randomised trial at 15 hospitals that compared JACC with joint injections of hyaluronic acid: in the 54 people analysed, JACC was better on a score of knee pain and function at 52 weeks (the regulator's review report, https://www.pmda.go.jp/files/000278210.pdf). Public health insurance has covered the new use since 2026-01-01 (https://www.jpte.co.jp/sys/upload/save/13737573296951e47b5d0db.pdf), and the company said it aims for about 1,000 cases a year within a few years of launch. The United States label of MACI, described above, still excludes osteoarthritis."
+why = "Japan's approval of grown cartilage for knee osteoarthritis, and the trial behind it, were missing from the notes. Ruled on 2026-11-27."
+publication = "japan-tissue-engineering-2025"

@@ -1,0 +1,19 @@
+# Publications log. Added 2026-11-27 when the clinic date of the anti-inflammatory heart drug was ruled on.
+
+id = "pendopharm-2021"
+date = "2021-08-20"
+added_on = 2026-11-27
+authors = ["Pendopharm, a division of Pharmascience Inc."]
+title = "Product Monograph: MYINFLA (colchicine extended-release tablets), 0.5 mg"
+venue = "Health Canada's Drug Product Database, drug identification number 02519380"
+link = "https://pdf.hres.ca/dpd_pm/00062583.PDF"
+finding = """
+Canada's product monograph for MYINFLA, low-dose colchicine, gives its date of initial authorisation as 2021-08-20 and its use as the reduction of heart attacks and strokes caused by clots ("atherothrombotic events") in adults with coronary artery disease, on top of standard treatment. Health Canada's database lists the product as marketed (https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=100865).
+"""
+leaves = ["an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks"]
+branches = ["inflammation-and-signalling"]
+moved_range = false
+settled_stage = true
+notes = """
+Read on 2026-11-27: the monograph, and the product's entry in Health Canada's Drug Product Database.
+"""

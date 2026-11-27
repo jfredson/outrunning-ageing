@@ -14,8 +14,8 @@ a heart attack showed that canakinumab, an antibody against one inflammatory sig
 heart attacks and strokes by about a sixth and, unexpectedly, lung cancer deaths; the regulator
 declined to approve it for the heart because the benefit was modest and infections rose. The
 answer came from an old gout pill: low-dose colchicine cut heart attacks and strokes by about a
-third in a 2020 trial of 5,522 people, and the United States regulator approved it for that
-purpose on 16 June 2023, the first anti-inflammatory drug approved to prevent heart disease."""
+third in a 2020 trial of 5,522 people. Canada's regulator authorised it for that purpose on 20
+August 2021, and the United States regulator approved it on 16 June 2023."""
 test = """
 A controlled trial in people reports that a drug acting on inflammation alone, with no effect on
 cholesterol, blood pressure, blood sugar or weight, lowers heart attacks, strokes or deaths more
@@ -24,8 +24,9 @@ prevent an age-related disease. For wide use: prescribed for that purpose in sev
 a substantial share of eligible people."""
 settler = "The peer-reviewed trial report; the regulator's approval record; published uptake figures for the wide-use rung"
 stage = "in-clinical-use"
-stage_reached_on = "2023-06-16"
-stage_record = "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215727Orig1s000Approv.pdf"
+stage_reached_on = "2021-08-20"
+stage_record = "https://pdf.hres.ca/dpd_pm/00062583.PDF"
+stage_publication = "pendopharm-2021"
 status = "tracked"
 horizon = "mid"
 
@@ -54,6 +55,7 @@ strokes or deaths. It was therefore not entered as an earlier stage. A search of
 study of 2017 that found no effect on plaque, but no clean earlier record that meets the test.
 Added 2026-10-18, from the weekly reading of 2026-10-18: Germany's Federal Joint Committee resolved on 2026-08-20 that colchicine added to the best standard care, in adults with coronary heart disease and a recent heart attack, has a hint of a minor added benefit, on the evidence of the COLCOT trial; its resolution gives the German marketing authorisation as of 2025-08-02. That is an authorisation and a benefit assessment in a second country, not a measure of how widely the drug is prescribed, which is what the wide-use rung asks for. The stage and the years are unchanged.
 Added 2026-11-09: the full results of the ZEUS trial were published in a peer-reviewed journal on 2026-11-07 (Ridker and colleagues, New England Journal of Medicine), and they agree with the company's announcement: in 6,376 people, heart attack, stroke or heart death happened to 17.6 per cent on the drug and 17.7 per cent on placebo. The weekly reading of 2026-11-09 found the report, and the estimate for wide use moved later the same day; the reasoning under the estimate says by how much and why.
+Added 2026-11-27: the clinic date is now 2021-08-20, when Canada's regulator authorised MYINFLA, low-dose colchicine from Pendopharm, for the reduction of heart attacks and strokes caused by clots in adults with coronary artery disease (the product monograph, https://pdf.hres.ca/dpd_pm/00062583.PDF; Health Canada's database, https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=100865). The United States approval of 2023-06-16, which the record used until now, came nearly two years later (https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215727Orig1s000Approv.pdf). Also from 2026: Novo Nordisk's report of 2026-11-04 says the trial of ziltivekimab in 4,874 people with heart failure was closed early on its monitoring committee's advice, with results from it expected in the first half of 2027, and the trial in 8,350 people after a heart attack is no longer recruiting, with its main results due in early 2027 (https://clinicaltrials.gov/study/NCT05636176, https://clinicaltrials.gov/study/NCT06118281).
 """
 
 [[earlier_stage]]
@@ -71,8 +73,9 @@ drugs of this kind: the 2025 colchicine trial after a heart attack, and the ZEUS
 ziltivekimab, whose full peer-reviewed report (Ridker and colleagues, New England Journal of
 Medicine, 2026-11-07) found no fewer heart attacks, strokes or heart deaths. ZEUS mattered for
 this step because a second drug, backed by a large company, was the most likely way for
-anti-inflammatory treatment to become routine within a few years; the drug is still being
-tested in heart failure and after a heart attack, with results expected in 2027, so any approval
+anti-inflammatory treatment to become routine within a few years; its trial in heart failure
+was stopped early in 2026 on its monitoring committee's advice, and results from it and from the
+trial after a heart attack are expected in 2027, so any approval
 for prevention is now years away. Wide use therefore rests on colchicine alone, which the trial's
 lead author called under-used on 2026-11-07. The likely year for wide use moves from 2032 to
 2035; the earliest, from 2027 to 2028, assumes guideline adoption moves colchicine prescribing
@@ -163,3 +166,43 @@ field = "estimate.set_on"
 old = 2026-10-16
 new = 2026-11-09
 why = "The estimate was set again on 2026-11-09, when the ZEUS trial's full report moved it later."
+
+[[revision]]
+date = 2026-11-27
+field = "stage_reached_on"
+old = "2023-06-16"
+new = "2021-08-20"
+why = "Canada authorised low-dose colchicine (MYINFLA) on 2021-08-20 to reduce heart attacks and strokes caused by clots in coronary artery disease, nearly two years before the United States approval the record had used; the test asks for a regulator, any regulator, approving such a drug. The headline is unchanged, because this branch is counted from the second treatment in the clinic, in 2026. Ruled on 2026-11-27."
+publication = "pendopharm-2021"
+
+[[revision]]
+date = 2026-11-27
+field = "stage_record"
+old = "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215727Orig1s000Approv.pdf"
+new = "https://pdf.hres.ca/dpd_pm/00062583.PDF"
+why = "Canada's product monograph is the record of the earlier approval. Ruled on 2026-11-27."
+publication = "pendopharm-2021"
+
+[[revision]]
+date = 2026-11-27
+field = "description"
+old = "third in a 2020 trial of 5,522 people, and the United States regulator approved it for that purpose on 16 June 2023, the first anti-inflammatory drug approved to prevent heart disease."
+new = "third in a 2020 trial of 5,522 people. Canada's regulator authorised it for that purpose on 20 August 2021, and the United States regulator approved it on 16 June 2023."
+why = "The description named the United States approval of 2023 as the first, but Canada's came in 2021. Ruled on 2026-11-27."
+publication = "pendopharm-2021"
+
+[[revision]]
+date = 2026-11-27
+field = "estimate.why"
+old = "the drug is still being tested in heart failure and after a heart attack, with results expected in 2027, so any approval"
+new = "its trial in heart failure was stopped early in 2026 on its monitoring committee's advice, and results from it and from the trial after a heart attack are expected in 2027, so any approval"
+why = "The reasoning said the drug was still being tested in heart failure; that trial (4,874 people) was stopped early on its monitoring committee's advice, with results expected in the first half of 2027. The years are unchanged. Ruled on 2026-11-27."
+publication = "novo-nordisk-2026"
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: the clinic date is now 2021-08-20, when Canada's regulator authorised MYINFLA, low-dose colchicine from Pendopharm, for the reduction of heart attacks and strokes caused by clots in adults with coronary artery disease (the product monograph, https://pdf.hres.ca/dpd_pm/00062583.PDF; Health Canada's database, https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=100865). The United States approval of 2023-06-16, which the record used until now, came nearly two years later (https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215727Orig1s000Approv.pdf). Also from 2026: Novo Nordisk's report of 2026-11-04 says the trial of ziltivekimab in 4,874 people with heart failure was closed early on its monitoring committee's advice, with results from it expected in the first half of 2027, and the trial in 8,350 people after a heart attack is no longer recruiting, with its main results due in early 2027 (https://clinicaltrials.gov/study/NCT05636176, https://clinicaltrials.gov/study/NCT06118281)."
+why = "The earlier Canadian approval and the stopped heart-failure trial were missing from the notes. Ruled on 2026-11-27."
+publication = "pendopharm-2021"
