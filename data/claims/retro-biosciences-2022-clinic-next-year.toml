@@ -19,5 +19,7 @@ verdict_why = "The company's own blog post of 2026-05-22 says its autophagy drug
 
 notes = """
 The link is the 2026-05-22 blog post because the announcement page is gone from the live site;
-the archive capture is where the words were read. The company's pipeline page lists the drug for
-Alzheimer's disease with no stage marked."""
+the archive capture is where the words were read. The company's pipeline page (https://www.retro.bio/pipeline, read 2026-11-27) lists the drug for
+Alzheimer's disease at Phase 1, the fourth of the six steps it shows. A copy of the page archived
+on 2026-08-11 shows the same step, drawn as a bar without words, which an earlier version of this
+note read as no stage marked; corrected 2026-11-27."""
