@@ -1,0 +1,30 @@
+---
+title: A gene-edited pig kidney has kept a woman off dialysis for a full year
+date: 2026-11-27
+kind: story
+summary: On November 23rd, 2026, eGenesis and Mass General Brigham said that a 58-year-old woman given a gene-edited pig kidney on November 22nd, 2025, had gone a full year without dialysis, the longest such a kidney has worked in a living person. She was treated outside a trial, and a 33-person trial is due to start in early 2027.
+records: [organ-from-a-gene-edited-pig-keeps-a-person-alive]
+sources:
+  - label: eGenesis and Mass General Brigham, "eGenesis and Mass General Brigham Announce First Patient to Surpass One Year of Dialysis Independence Following Porcine Kidney Transplant", November 23rd, 2026
+    url: https://egenesisbio.com/news-media/press-releases/egenesis-and-mass-general-brigham-announce-first-patient-to-surpass-one-year-of-dialysis-independence-following-porcine-kidney-transplant
+  - label: eGenesis, "eGenesis Announces IND Clearance for EGEN-2784 in Kidney Transplant and Landmark Patient Updates in Ongoing Expanded Access Study", September 8th, 2025
+    url: https://egenesisbio.com/news-media/press-releases/egenesis-announces-ind-clearance-for-egen-2784-in-kidney-transplant-and-landmark-patient-updates-in-ongoing-expanded-access-study
+  - label: United Therapeutics, quarterly report to the United States Securities and Exchange Commission for the three months to September 30th, 2026
+    url: https://www.sec.gov/Archives/edgar/data/1082554/000108255426000035/uthr-20260930.htm
+---
+
+A woman given a kidney from a gene-edited pig has now lived a full year without dialysis. On November 23rd, 2026, [eGenesis](https://egenesisbio.com/), the company that bred the pig, and the hospital group [Mass General Brigham](https://www.massgeneralbrigham.org/) announced that [Molly Falco, a 58-year-old woman](https://egenesisbio.com/news-media/press-releases/egenesis-and-mass-general-brigham-announce-first-patient-to-surpass-one-year-of-dialysis-independence-following-porcine-kidney-transplant) whose kidneys had failed, was still free of dialysis one year after her transplant at [Massachusetts General Hospital](https://www.massgeneral.org/) on November 22nd, 2025. They say it is the longest that a gene-edited pig kidney has worked in a living person ([the release](https://egenesisbio.com/news-media/press-releases/egenesis-and-mass-general-brigham-announce-first-patient-to-surpass-one-year-of-dialysis-independence-following-porcine-kidney-transplant)).
+
+## What was done
+
+Ms Falco had needed [dialysis](https://en.wikipedia.org/wiki/Kidney_dialysis), in which a machine filters the blood in place of the kidneys, since 2024. Her new kidney came from a pig whose genes had been changed in three ways, so that a human body would accept it ([the release](https://egenesisbio.com/news-media/press-releases/egenesis-and-mass-general-brigham-announce-first-patient-to-surpass-one-year-of-dialysis-independence-following-porcine-kidney-transplant)). Viruses that sit in every pig's DNA were switched off, so that they cannot pass to the patient. Three sugars on the surface of pig cells, which make a human immune system reject the organ almost at once, were removed. And seven human genes were added, to calm the immune response and inflammation and to help the blood clot normally inside the organ. Putting an animal's organ into a person is called [xenotransplantation](https://en.wikipedia.org/wiki/Xenotransplantation).
+
+## How sure anyone can be
+
+This is one person, and the news comes from the company and the hospital, not from a paper checked by other scientists. Ms Falco was not in a trial. She was treated under the [expanded access](https://www.fda.gov/news-events/public-health-focus/expanded-access) route of the [United States Food and Drug Administration](https://www.fda.gov/), which lets a seriously ill patient have an experimental treatment when no trial fits. Six people have now been given this kidney, and the release does not say how the other five are doing ([the release](https://egenesisbio.com/news-media/press-releases/egenesis-and-mass-general-brigham-announce-first-patient-to-surpass-one-year-of-dialysis-independence-following-porcine-kidney-transplant)).
+
+## What comes next
+
+The regulator cleared this kidney for a formal trial in September 2025 ([eGenesis, September 8th, 2025](https://egenesisbio.com/news-media/press-releases/egenesis-announces-ind-clearance-for-egen-2784-in-kidney-transplant-and-landmark-patient-updates-in-ongoing-expanded-access-study)). The company now says that trial will take 33 people aged 50 to 70 who are waiting for a human kidney, and that it expects to start it in the first three months of 2027 ([the release](https://egenesisbio.com/news-media/press-releases/egenesis-and-mass-general-brigham-announce-first-patient-to-surpass-one-year-of-dialysis-independence-following-porcine-kidney-transplant)). Another company, [United Therapeutics](https://www.unither.com/), had two trials of its own pig kidneys cleared in 2025 and a first trial of a pig heart cleared in May 2026 ([its quarterly report](https://www.sec.gov/Archives/edgar/data/1082554/000108255426000035/uthr-20260930.htm)). In November 2026 the United States trial registry showed three pig kidney trials taking patients: [two run by United Therapeutics](https://clinicaltrials.gov/study/NCT06878560) ([the second](https://clinicaltrials.gov/study/NCT07224763)) and [one run by ChoironeX](https://clinicaltrials.gov/study/NCT07696962).
+
+This does not move my estimate for [an organ from a gene-edited pig keeping a person alive](/leaves/organ-from-a-gene-edited-pig-keeps-a-person-alive/). That entry already counts a first person kept alive, and its next step, in clinical use, needs a regulator to approve pig organs for use outside a trial. I still put that around 2032, with 2028 at the earliest and 2045 at the latest ([the entry's page](/leaves/organ-from-a-gene-edited-pig-keeps-a-person-alive/)). An approval will rest on the trials, and a year in one patient is the result they now have to show in most of theirs.
