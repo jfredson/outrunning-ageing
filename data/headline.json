@@ -1,5 +1,5 @@
 {
-  "computed_on": "2026-11-09",
+  "computed_on": "2026-11-27",
   "method": {
     "document": "docs/method.md",
     "status": "Decided 2026-10-16; the lag (parameter 2) went to the outside review of 2026-10-17, which produced no published figure for it, and stays a first guess by my ruling of 2026-10-17",
@@ -16,7 +16,7 @@
     "combination": "the latest handled year across the required branches, plus the lag; a branch is handled when its handled_when-th leaf is in clinical use"
   },
   "median_year": 2058,
-  "before_2050": 0.0427,
+  "before_2050": 0.0431,
   "after_2100": 0.0,
   "percentiles": {
     "p5": 2050,
@@ -38,54 +38,54 @@
       "slowest_name": "Damaged DNA",
       "lag": 15
     },
-    "ranges_drawn": 39,
+    "ranges_drawn": 38,
     "ranges_past_century": 7
   },
   "histogram": [
     {
       "from": 2040,
       "to": 2044,
-      "share": 0.0011
+      "share": 0.0009
     },
     {
       "from": 2045,
       "to": 2049,
-      "share": 0.0416
+      "share": 0.0422
     },
     {
       "from": 2050,
       "to": 2054,
-      "share": 0.228
+      "share": 0.2273
     },
     {
       "from": 2055,
       "to": 2059,
-      "share": 0.3547
+      "share": 0.3554
     },
     {
       "from": 2060,
       "to": 2064,
-      "share": 0.2401
+      "share": 0.2397
     },
     {
       "from": 2065,
       "to": 2069,
-      "share": 0.0959
+      "share": 0.0955
     },
     {
       "from": 2070,
       "to": 2074,
-      "share": 0.0291
+      "share": 0.0294
     },
     {
       "from": 2075,
       "to": 2079,
-      "share": 0.0077
+      "share": 0.0078
     },
     {
       "from": 2080,
       "to": 2084,
-      "share": 0.0016
+      "share": 0.0015
     },
     {
       "from": 2085,
@@ -104,7 +104,7 @@
     },
     {
       "from": 2100,
-      "to": 2104,
+      "to": 2100,
       "share": 0.0
     },
     {
@@ -428,7 +428,7 @@
       "name": "Replacing lost cells and parts",
       "required": true,
       "handled_when": 2,
-      "median_handled_year": 2032,
+      "median_handled_year": 2026,
       "leaves": [
         {
           "id": "a-human-organ-is-grown-inside-an-animal",
@@ -471,12 +471,10 @@
         {
           "id": "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart",
           "name": "Heart muscle grown from stem cells is grafted onto a person's failing heart",
-          "stage": "first-human",
-          "known": false,
-          "earliest": 2031,
-          "likely": 2038,
-          "latest": 2070,
-          "estimate_status": "reviewed"
+          "stage": "in-clinical-use",
+          "known": true,
+          "year": 2026,
+          "estimate_status": null
         },
         {
           "id": "lab-grown-organ-works-in-a-person-for-a-year",
@@ -512,7 +510,7 @@
           "name": "A drug that acts only on inflammation is approved to prevent heart attacks",
           "stage": "in-clinical-use",
           "known": true,
-          "year": 2023,
+          "year": 2021,
           "estimate_status": "reviewed"
         },
         {
@@ -627,7 +625,7 @@
   ],
   "counts": {
     "leaves_counted": 45,
-    "leaves_in_clinic_already": 6,
+    "leaves_in_clinic_already": 7,
     "estimates_first_pass": 1,
     "estimates_first_pass_drawn": 1,
     "verify_entries": 0
@@ -737,6 +735,24 @@
         "broken-proteins": 2023,
         "energy-and-fuel": 2028,
         "replacing-parts": 2032,
+        "inflammation-and-signalling": 2026,
+        "measuring-age": 2040
+      }
+    },
+    {
+      "computed_on": "2026-11-27",
+      "median_year": 2058,
+      "before_2050": 0.0431,
+      "after_2100": 0.0,
+      "p5": 2050,
+      "p95": 2069,
+      "branches": {
+        "worn-out-cells": 2043,
+        "damaged-dna": 2044,
+        "cell-settings": 2044,
+        "broken-proteins": 2023,
+        "energy-and-fuel": 2028,
+        "replacing-parts": 2026,
         "inflammation-and-signalling": 2026,
         "measuring-age": 2040
       }

@@ -904,6 +904,8 @@ sources = [
   "https://biopharmaboardroom.com/news/6/4291/japans-j-tec-secures-national-insurance-reimbursement-for-jacc-in-knee-osteoarthritis.html",
 ]
 for_john = "Correction: Still open from the weekly reading of 2026-11-15, where it was first raised: the entry says wide use needs a trial in osteoarthritis that nobody had run and that osteoarthritis is outside the label, but in Japan a product of this kind has been approved for osteoarthritis of the knee since 2025-05-13. Japan Tissue Engineering's cultured cartilage, grown from the patient's own knee cartilage cells and first approved in 2012 for injuries, had osteoarthritis of the knee added to its approved uses on that date, for people with a cartilage defect of 2 square centimetres or more whom exercise and other non-surgical treatment have not helped; the company ran its trial for this from April 2019, and the Japanese regulator's list of approved products shows the change. Public health insurance has covered the new use since 2026-01-01, and the company said in May 2025 that it aims for about 1,000 cases a year within a few years. This bears on the estimate towards earlier for wide use, since the reasoning's earliest year of 2033 rests on no approval for worn joints existing anywhere; whether one country and a trial reported as 27 people changes the years is left for me to weigh. Opened: the company's releases of 2025-05-13 and 2025-12-29, the Japanese regulator's list of approved regenerative products (April 2015 to July 2026), and a trade article of 2026-01-28, which is the only source read for the figure of 27 patients and for the comparison with joint injections. Seen in a search result only: that a different product, donor cartilage cells given by injection by the Korean company Kolon TissueGene, missed both main measures in a large United States trial reported on 2026-07-20. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Ruled the same day: a dated note records the Japanese approval and its randomised trial, and the earliest year for wide use moved from 2033 to 2030 (changelog, 2026-11-27, the four stage questions)."
 
 [[item]]
 leaf = "an-old-animals-blood-stem-cells-are-rejuvenated"
@@ -952,6 +954,8 @@ sources = [
   "https://clinicaltrials.gov/study/NCT04786262",
 ]
 for_john = "Correction: Still open from the weekly reading of 2026-11-15, where it was first raised: last week's reading could not say whether the Parkinson's cell product approved in Japan on 2026-03-06 had yet been given to anyone under that approval, and the maker has since said that it has. Sumitomo Pharma's results presentation of 2026-10-30 says the first transplantation in the study it must run after approval was completed at Kyoto University Hospital in October 2026, that it plans about 1 or 2 patients in the year to March 2027, about 10 in the next year and 10 to 20 in the year after, and that patients in that study have priority, with other hospitals and a wider group of patients to follow only once the study is complete. That bears on the question still open from last week, whether a conditional, time-limited approval counts for the clinic step: the product is in use under the approval, but for a handful of people a year inside a required study. Nothing new on the diabetes therapy: its maker filed no announcement in the window. Opened: Sumitomo Pharma's presentation and its news feed, the Lineage and Century reports as filed with the United States securities regulator, the list of the diabetes therapy maker's filings, and five registry entries through the registry's data interface. Seen in a search result only: nothing, because no web search could be run for this entry. What the weekly reading of 2026-11-09 left open on this entry is still open as well. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Ruled the same day: the stage stays at first human, because the Japanese product is supplied only within its required study for now, and a dated note says so (changelog, 2026-11-27, the four stage questions)."
 
 [[item]]
 leaf = "heart-muscle-grown-from-stem-cells-is-grafted-onto-a-failing-heart"
@@ -978,6 +982,8 @@ sources = [
   "https://clinicaltrials.gov/study/NCT04396899",
 ]
 for_john = "Still open from the weekly reading of 2026-11-09, where it was first raised: The entry treats an approval as years away (earliest 2031), but a regulator approved a graft of this kind eight months ago, and that may already meet the test for the clinic step. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Ruled the same day: the treatment moved to in clinical use from 2026-03-06, on Japan's conditional approval of RiHEART, which is in insured use outside a trial; the headline was rerun and stays at 2058 (changelog, 2026-11-27, the four stage questions)."
 
 [[item]]
 leaf = "lab-grown-organ-works-in-a-person-for-a-year"
@@ -1069,6 +1075,8 @@ sources = [
   "https://doi.org/10.1007/s11883-026-01490-4",
 ]
 for_john = "Correction: still open from the weekly reading of 2026-11-09, where it was first raised. On 2026-11-04 the drug's maker, Novo Nordisk, reported that a second large trial of ziltivekimab, in 4,874 people with heart failure, did not meet its main aim and was closed, and the entry's reasoning still speaks of the drug as being tested in heart failure; the registry, opened again this week, still shows that trial as stopped, and shows the trial after a heart attack closed to new patients with 8,350 enrolled and results due in early 2027. Opened this week: the registry entries for the three ziltivekimab trials through the registry's data interface and the two papers' abstracts on Europe PMC; the news reports on the heart-failure trial were seen in search results only."
+resolved_on = 2026-11-27
+resolved_by = "Ruled the same day: the clinic date moved to Canada's approval of 2021-08-20, and the reasoning now says the heart-failure trial was stopped early, with results expected in 2027 (changelog, 2026-11-27, the four stage questions)."
 
 [[item]]
 leaf = "blocking-one-messenger-protein-makes-old-animals-live-longer"

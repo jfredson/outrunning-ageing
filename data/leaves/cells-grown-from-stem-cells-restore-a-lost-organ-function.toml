@@ -38,7 +38,9 @@ one failing system for another, and the encapsulated version that would avoid th
 2025.
 Added 2026-10-17: filing status checked against the company's releases and its filings with the
 United States securities regulator up to 2026-08-04 (its third-quarter results were not yet out);
-none of them reports a filing for approval."""
+none of them reports a filing for approval.
+Added 2026-11-27: Japan's approval of 2026-03-06 does not yet count for the clinic rung. That day Japan's regulator gave a conditional, time-limited approval, for seven years, to AMCHEPRY, dopamine-making cells grown from donor stem cells by Sumitomo Pharma, for people with Parkinson's disease whom the usual drugs no longer help enough (https://www.sumitomo-pharma.com/news/20260306.html). It rests on an open study of 7 patients at Kyoto University Hospital, reported in Nature in April 2025, with no comparison group. The product was priced for public insurance and launched on 2026-05-20, but for the time being the company supplies it only to hospitals taking part in the study it must run after approval, and the first patient was treated in that study in October 2026; other hospitals and patients are to follow once the study ends (the company's presentation of 2026-10-30, https://www.sumitomo-pharma.com/news/assets/pdf/eir20261030.pdf). Because the test asks for approval for use outside a trial, the clinic rung is not reached until the product is given outside that study. The same day Japan approved, in the same way, sheets of heart muscle grown from stem cells; that entry has moved to the clinic rung, because those sheets are already in insured use outside a trial.
+"""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -130,3 +132,11 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and argued that this range assumed a filing for approval in 2026 that has not come; That was accepted the same day, and the clinic range moved to 2030, 2032, 2046 (see the revisions above). With every point of the review answered, this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say."
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: Japan's approval of 2026-03-06 does not yet count for the clinic rung. That day Japan's regulator gave a conditional, time-limited approval, for seven years, to AMCHEPRY, dopamine-making cells grown from donor stem cells by Sumitomo Pharma, for people with Parkinson's disease whom the usual drugs no longer help enough (https://www.sumitomo-pharma.com/news/20260306.html). It rests on an open study of 7 patients at Kyoto University Hospital, reported in Nature in April 2025, with no comparison group. The product was priced for public insurance and launched on 2026-05-20, but for the time being the company supplies it only to hospitals taking part in the study it must run after approval, and the first patient was treated in that study in October 2026; other hospitals and patients are to follow once the study ends (the company's presentation of 2026-10-30, https://www.sumitomo-pharma.com/news/assets/pdf/eir20261030.pdf). Because the test asks for approval for use outside a trial, the clinic rung is not reached until the product is given outside that study. The same day Japan approved, in the same way, sheets of heart muscle grown from stem cells; that entry has moved to the clinic rung, because those sheets are already in insured use outside a trial."
+why = "Japan's conditional approval of the Parkinson's cells was weighed against the clinic rung, which is not reached while the product is supplied only within a required study. Ruled on 2026-11-27."
+publication = "sumitomo-pharma-2026-first-patient"
