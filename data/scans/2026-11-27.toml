@@ -271,6 +271,8 @@ sources = [
   "https://www.sec.gov/Archives/edgar/data/1894562/000162828026073372/q320268-kex991xpressrelease.htm",
 ]
 for_john = "Bears on the estimate, towards earlier: Still open from the weekly reading of 2026-11-15, where it was first raised: a second in-body gene editor for a condition of ageing has reached a mid-stage trial that the entry does not mention. The trial registry shows a phase 2 trial of the base editor VERVE-102, meant to lower LDL cholesterol for good, in 175 adults with or at high risk of heart disease (registry number NCT07839936; started 2026-09-24, recruiting in the United States, main measure the change in LDL cholesterol at 90 days, entry updated 2026-11-10), and Editas Medicine said on 2026-11-09 that it has Australian clearance for a first trial of its own LDL-lowering in-body editor and expects to treat a first patient this year. For the transthyretin editor itself, a meeting abstract in the journal Circulation (issue dated 2026-11-02, six days before this window, from the phase 1 trial's investigators) reports that in 72 people the protein stayed about 89 per cent lower two years after the single dose and heart measures held steady or improved, and Intellia's presentation of 2026-11-12 says the regulator plans no advisory committee for its angioedema editor, whose decision is due by 2027-03-10 and whose disease this test does not count. The registry entries for the two late-stage transthyretin trials are unchanged since 2026-11-05 (the heart trial recruiting, the nerve trial closed to new patients with 67 enrolled). Opened: the Intellia presentation and the Editas release as filed with the securities regulator, the registry entries for the four trials, and the abstract's text through Crossref because the journal's page refused; the heart-meeting data on the CRISPR Therapeutics editor for blood fats, which the last reading left unopened, could not be found in the dated sources, and the open web was not searched because the search allowance had run out. What the weekly reading of 2026-11-09 left open on this entry is still open as well. Nothing dated between 2026-11-20 and 2026-11-27 changes it; the pages behind it were opened by that reading and were not opened again this week."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: a dated note records the trial dates and the other in-body editors, and the reasoning says the years were weighed and held. Intellia's slide dates the regulator's acceptance of the angioedema application 2026-09-03, not 2026-09-08 as an earlier reading had it. No stage or year changed (changelog, 2026-11-27, the third batch of older questions)."
 
 [[item]]
 leaf = "gene-therapy-lengthens-chromosome-ends-in-an-old-animal"
@@ -646,6 +648,8 @@ publications = [
 for_john = "Bears on the estimate, towards later: the review of 2026-11-23 in The Lancet Healthy Longevity (Angioni and colleagues, https://doi.org/10.1016/j.lanhl.2026.100943) found that of 193 registered trials under way at the start of 2026 of drugs aimed at the biology of ageing, only 41 were in healthy people or people at risk of decline, and 79 per cent were at an early phase; it is a count of plans, not a result, but it shows how few trials of the kind this entry waits for are running. Still open as well: from the reading of 2026-11-09, the registration on 2026-11-06 of the three-year trial of dapagliflozin and semaglutide in 1,200 healthy adults aged 60 to 75, with its main result estimated for December 2030 (towards earlier; registry entry opened again this week, unchanged); and from the reading of 2026-11-15, the preprint of 2026-11-11 by Bouvet and Partridge finding that much of the drugs' gain in the mouse testing programme went to the heaviest mice (towards later; not opened again this week). I opened the review's abstract in the Europe PMC database and the trial's registry entry; nothing else dated in the window bears on this entry."
 sibling_stage = "shown-in-animals"
 sibling_agrees = true
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: a dated note records the newly registered trial, the review's count and the transplant records study, and the reasoning says the years were weighed and held. No stage or year changed (changelog, 2026-11-27, the third batch of older questions)."
 
 [[item]]
 leaf = "a-drug-is-approved-to-make-dogs-live-longer"
@@ -735,6 +739,8 @@ sources = [
   "https://doi.org/10.1016/s2213-8587(26)00249-4",
 ]
 for_john = "Bears on the estimate, towards later: Still open from the weekly reading of 2026-11-09. On 2026-11-09 the United States regulator required a new warning on every drug of this family, including semaglutide, of a possible raised risk of a rare, sudden loss of sight in one eye (6.4 against 3.8 cases for every 100,000 people treated for a year, pooled from 126 randomised trials); that page was opened by the reading of 2026-11-09 and not again this week. New this week and not changing the stage: the Japanese part of the large semaglutide heart trial in people without diabetes (Circulation Journal, 2026-11-21, https://doi.org/10.1253/circj.cj-26-0448) points the same way as the whole trial, which I read as its abstract in the Europe PMC database; I also opened the regulator's press list and the registry entry for the tirzepatide trial on deaths and heart events in 15,374 people with obesity, updated on 2026-11-24, still running, with its main result estimated for October 2027. The web searches for this entry could not be run because the search allowance had run out."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: a dated note records the eye warning and two trial updates, and the reasoning says the years were weighed and held. No stage or year changed (changelog, 2026-11-27, the third batch of older questions)."
 
 [[item]]
 leaf = "an-nad-raising-supplement-improves-a-function-in-a-controlled-trial"
@@ -757,6 +763,8 @@ sources = [
   "https://doi.org/10.1038/s42255-026-01660-3",
 ]
 for_john = "Bears on the estimate, towards later: Still open from the weekly reading of 2026-11-09. A paper in Nature Metabolism on 2026-11-04 (https://doi.org/10.1038/s42255-026-01660-3) found that NAD in whole blood does not decline with age in healthy adults (1,068 people, 1,340 measurements), which cuts against the reason usually given for taking these supplements; it was opened by the reading of 2026-11-09 and not again this week. New in the window and not a result: a placebo-controlled trial of a nicotinamide riboside supplement in 60 people with glaucoma, run by a research hospital in Rome, is now registered and recruiting, with its main result due in April 2028; I opened its registry entry. The web searches for this entry could not be run because the search allowance had run out."
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: a dated note records the blood NAD paper and the glaucoma trial, and the reasoning says the years were weighed and held. No stage or year changed (changelog, 2026-11-27, the third batch of older questions)."
 
 [[item]]
 leaf = "metformin-delays-age-related-disease-in-people-without-diabetes"
@@ -1031,6 +1039,8 @@ publications = [
 for_john = "Bears on the estimate, towards earlier: the maker's release of 2026-11-23, opened on its own page, says a pig kidney has kept a woman free of dialysis for a full year, a year being the first test of durability that transplant medicine itself uses. It is one patient, reported by the maker and treated outside a trial, so it does not reach the clinic rung, which needs a regulator's approval for use outside a trial. Correction: still open from the weekly reading of 2026-11-09, where it was first raised. The description says the United States regulator cleared two formal trials in 2025, and the reasoning for the estimate says two registered trials were enrolling in 2025 and 2026, while that reading found three kidney trial clearances in 2025, a pig heart trial cleared in May 2026, and three pig kidney trials recruiting. Nothing dated between 2026-11-20 and 2026-11-27 changes it; this week the three registry entries were opened again through the registry's data interface and the Korean monkey study's abstract was read on Europe PMC, and nothing was seen in a search result only."
 sibling_stage = "first-human"
 sibling_agrees = true
+resolved_on = 2026-11-27
+resolved_by = "Applied the same day: the description and the reasoning now give the trial clearances of 2025 and 2026 and the first full year, a dated note records the release and the clearances, and the reasoning says the years were weighed and held. No stage or year changed (changelog, 2026-11-27, the third batch of older questions)."
 
 [[item]]
 leaf = "an-anti-inflammatory-drug-is-approved-to-prevent-heart-attacks"

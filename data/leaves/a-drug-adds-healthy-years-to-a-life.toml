@@ -42,7 +42,9 @@ on the sponsor's site, and a search of ClinicalTrials.gov by title and by sponso
 no entry for the trial. The Upgrade
 Tree, a sister site, keeps the same treatment at shown in animals; the weekly reading checks that
 the two stages agree. The separate entries on this branch for rapamycin, metformin and the GLP-1
-drugs hold the narrower human results; this one holds the lifespan question itself."""
+drugs hold the narrower human results; this one holds the lifespan question itself.
+Added 2026-11-27: three things from November 2026 bear on how soon a trial could show this, and they point different ways. A three-year placebo-controlled trial of two approved drugs, dapagliflozin and semaglutide, in 1,200 healthy people aged 60 to 75 was registered on 2026-11-06, to start in January 2027 with its main result due in December 2030 (https://clinicaltrials.gov/study/NCT07923630). Its main measure is a score of physical performance, not length of life or freedom from disease, so even a positive result might not meet the test. A review in The Lancet Healthy Longevity (Angioni and colleagues, 2026-11-23, https://doi.org/10.1016/j.lanhl.2026.100943) counted 193 registered trials of drugs aimed at the biology of ageing: only 41 were in healthy people or people at risk of decline, and four in five were at an early phase. And a study of the records of 11,474 kidney transplant recipients, followed for a median of 11 years, found that those prescribed rapamycin lived no longer than those who were not (Stewart and Fitzsimmons, GeroScience, 2026-11-05, https://doi.org/10.1007/s11357-026-02643-8). That study is not a randomised trial, and transplant patients take the drug at doses and for reasons unlike those of healthy people.
+"""
 
 [estimate]
 status = "reviewed"
@@ -55,7 +57,9 @@ positive in the late 2030s; the clinic rung follows a few years later, likely in
 The earliest assumes a regulator accepts a marker of ageing as proof (an entry on the measuring
 branch) and a shorter trial reads out in the early 2030s; the latest allows for the trial never
 being funded and the rung reached, if at all, by a drug approved for something else and then
-shown to add years in a records study late in the century."""
+shown to add years in a records study late in the century.
+[Note 2026-11-27: the trial of dapagliflozin and semaglutide registered on 2026-11-06, the review's count of trials, the transplant records study (all in the notes) and a preprint of 2026-11-11 on mouse body weight (Bouvet and Partridge) were weighed and the years held. They point different ways, and none is a result of the kind the test asks for. The preprint is to be weighed again once a version checked by other scientists is published.]
+"""
 
 [[estimate.rung]]
 rung = "first-human"
@@ -82,3 +86,18 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. Every point the outside review of 2026-10-17 raised has been answered, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: three things from November 2026 bear on how soon a trial could show this, and they point different ways. A three-year placebo-controlled trial of two approved drugs, dapagliflozin and semaglutide, in 1,200 healthy people aged 60 to 75 was registered on 2026-11-06, to start in January 2027 with its main result due in December 2030 (https://clinicaltrials.gov/study/NCT07923630). Its main measure is a score of physical performance, not length of life or freedom from disease, so even a positive result might not meet the test. A review in The Lancet Healthy Longevity (Angioni and colleagues, 2026-11-23, https://doi.org/10.1016/j.lanhl.2026.100943) counted 193 registered trials of drugs aimed at the biology of ageing: only 41 were in healthy people or people at risk of decline, and four in five were at an early phase. And a study of the records of 11,474 kidney transplant recipients, followed for a median of 11 years, found that those prescribed rapamycin lived no longer than those who were not (Stewart and Fitzsimmons, GeroScience, 2026-11-05, https://doi.org/10.1007/s11357-026-02643-8). That study is not a randomised trial, and transplant patients take the drug at doses and for reasons unlike those of healthy people."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: a newly registered trial, a review's count of trials and a transplant records study were missing from the notes. I weighed it and held the years. No stage or year changed."
+publication = "ut-health-san-antonio-2026"
+
+[[revision]]
+date = 2026-11-27
+field = "estimate.why"
+old = "(nothing; text added at the end of the reasoning)"
+new = "[Note 2026-11-27: the trial of dapagliflozin and semaglutide registered on 2026-11-06, the review's count of trials, the transplant records study (all in the notes) and a preprint of 2026-11-11 on mouse body weight (Bouvet and Partridge) were weighed and the years held. They point different ways, and none is a result of the kind the test asks for. The preprint is to be weighed again once a version checked by other scientists is published.]"
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: four points of November 2026 were weighed against the years. I weighed it and held the years. No stage or year changed."

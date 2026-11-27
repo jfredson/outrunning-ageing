@@ -32,7 +32,9 @@ notes = """
 These compounds are the most-sold "anti-ageing" supplements, which is why this entry's clinic rung
 is written to exclude supplement sales: millions of people taking something is not the same as
 a regulator having looked at whether it works. The 2021 result is small and in one function; the
-treatment stays at first human until a larger trial."""
+treatment stays at first human until a larger trial.
+Added 2026-11-27: a paper in Nature Metabolism (Romenskaja-Avgul and colleagues, 2026-11-04, https://doi.org/10.1038/s42255-026-01660-3) measured NAD in whole blood 1,340 times in 1,068 adults and found that it does not fall with age in healthy people: it stayed level in men and rose in women, and it was lower in people with chronic disease. That cuts against the usual reason for taking these supplements, that the body's NAD falls with age. But it measured blood and not muscle or other tissue, and the authors say the study was not designed to show cause. Also new: a placebo-controlled trial of a nicotinamide riboside supplement in 60 people with glaucoma, at a research hospital in Rome, is recruiting, with its main result due in April 2028 (https://clinicaltrials.gov/study/NCT07945340).
+"""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -47,7 +49,9 @@ No company was carrying an NAD precursor through drug trials for an age-related 
 this was written, because the compounds cannot be patented; the likely year assumes an academic
 trial in muscle or heart failure reports positive in the early 2030s and a drug-grade version is
 approved in the early 2040s. The earliest assumes a drug company's related compound reaches an
-approval sooner; the latest allows for the mixed trials being the true answer."""
+approval sooner; the latest allows for the mixed trials being the true answer.
+[Note 2026-11-27: the paper finding that NAD in blood does not fall with age (in the notes) was weighed and the years held. It measured blood and not tissue, and the latest year already allows for these compounds never working.]
+"""
 
 [[estimate.rung]]
 rung = "in-clinical-use"
@@ -61,3 +65,17 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the ranges of years ran on 2026-10-17 (by Google's Gemini 3.1 Pro, an AI model, in its preview version, sent the records in four parts) and left this range as it is, with a line saying why. Every point the outside review of 2026-10-17 raised has been answered, so the estimate moves from a first estimate, not yet reviewed, to reviewed, as the rules for the records and for the review say; no year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: a paper in Nature Metabolism (Romenskaja-Avgul and colleagues, 2026-11-04, https://doi.org/10.1038/s42255-026-01660-3) measured NAD in whole blood 1,340 times in 1,068 adults and found that it does not fall with age in healthy people: it stayed level in men and rose in women, and it was lower in people with chronic disease. That cuts against the usual reason for taking these supplements, that the body's NAD falls with age. But it measured blood and not muscle or other tissue, and the authors say the study was not designed to show cause. Also new: a placebo-controlled trial of a nicotinamide riboside supplement in 60 people with glaucoma, at a research hospital in Rome, is recruiting, with its main result due in April 2028 (https://clinicaltrials.gov/study/NCT07945340)."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: a paper on blood NAD and age and a newly registered trial were missing from the notes. I weighed it and held the years. No stage or year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "estimate.why"
+old = "(nothing; text added at the end of the reasoning)"
+new = "[Note 2026-11-27: the paper finding that NAD in blood does not fall with age (in the notes) was weighed and the years held. It measured blood and not tissue, and the latest year already allows for these compounds never working.]"
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the paper on blood NAD was weighed against the years. I weighed it and held the years. No stage or year changed."

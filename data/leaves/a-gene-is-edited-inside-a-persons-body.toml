@@ -37,7 +37,9 @@ treatment aimed at an inherited disease sits on this site. The other way to the 
 that steadies the protein without touching the gene, is approved and has its own entry on the
 broken proteins branch. This entry does not ask for the editing to repair ageing damage in
 general; it asks for the tool to be in the clinic, because every DNA-repair treatment above it
-needs the tool first."""
+needs the tool first.
+Added 2026-11-27: where the trials stood in November 2026. Intellia said on 2026-11-05 that its late-stage trial of this editor in the nerve form of the disease was fully enrolled (https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm). The registry shows 67 people in that trial, with main results expected in July 2027 (https://clinicaltrials.gov/study/NCT06672237), and the heart trial, still recruiting, expects its main results in December 2027 (https://clinicaltrials.gov/study/NCT06128629). A meeting abstract of 2026-11-02 from the first trial reports that in 72 people the protein was still about 89 per cent lower two years after the single dose (https://doi.org/10.1161/circ.154.suppl_1.5183). Other in-body editors aimed at conditions of ageing have moved too. A mid-stage trial of VERVE-102, Lilly's editor meant to lower LDL cholesterol for good, began on 2026-09-24 and plans to enrol 175 people (https://clinicaltrials.gov/study/NCT07839936). On 2026-11-02 CRISPR Therapeutics announced that the regulator had given its editor CTX310, which lowers blood fats, two designations that speed up review (https://www.sec.gov/Archives/edgar/data/1674416/000119312526443644/crsp-ex99_1.htm). And on 2026-11-09 Editas Medicine said its LDL-lowering editor could begin a first trial in Australia (https://www.sec.gov/Archives/edgar/data/1650664/000165066426000100/editasmedicinepressrelease.htm). Separately, the regulator accepted Intellia's application for a different in-body editor, for hereditary angioedema, in September 2026, with a decision due by 2027-03-10 (https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm). If it is approved it will be the first in-body gene editor approved anywhere, but that disease is neither age-related nor a disease of DNA damage, so it would not meet this entry's test.
+"""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -52,7 +54,9 @@ The late-stage heart trial was designed to read out around 2027 to 2028 before t
 likely year assumes the hold is resolved, the trial finishes a year or two late, and the first
 approval of an in-body gene editor for an age-related disease comes in 2030. The earliest assumes
 the nerve-disease trial, which is running, supports an approval first. The latest allows for the
-liver-safety problem ending this programme and a competitor taking most of a decade more."""
+liver-safety problem ending this programme and a competitor taking most of a decade more.
+[Note 2026-11-27: the trial dates in the notes were weighed and the years held. The nerve-disease trial's main results, due in July 2027, fit the route the earliest year assumes, and the heart trial's, due in December 2027, fit the likely year.]
+"""
 
 [[estimate.rung]]
 rung = "in-clinical-use"
@@ -96,3 +100,17 @@ old = "(nothing; text added at the end of the description)"
 new = "In its report of 2026-08-06 the company said that an analysis of more than 600 patient samples from its trials found the highest liver-enzyme rises in patients carrying one specific immune-gene variant (an HLA allele, which it did not name), that it is discussing the finding with the regulator and will give genotyping results to the doctors and patients in the two late-stage trials, and that enrolment in them has restarted."
 why = "The weekly reading of 2026-10-18 added the company's own account of the liver-enzyme finding, which the description of 2026-10-17 did not carry. An audit of that reading, on 2026-10-18, proposed two changes to this entry, and the first change only was made, in the change to the records on 2026-10-18. The second (a note that an approval of the editor lonvo-z for hereditary angioedema would not reach the clinic rung under this test) waits until the company's own release on the regulator's acceptance has been opened. The company's report of 2026-08-06 was read as carried by BioSpace. The stage and the years are unchanged."
 publication = "intellia-2026-q2"
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: where the trials stood in November 2026. Intellia said on 2026-11-05 that its late-stage trial of this editor in the nerve form of the disease was fully enrolled (https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm). The registry shows 67 people in that trial, with main results expected in July 2027 (https://clinicaltrials.gov/study/NCT06672237), and the heart trial, still recruiting, expects its main results in December 2027 (https://clinicaltrials.gov/study/NCT06128629). A meeting abstract of 2026-11-02 from the first trial reports that in 72 people the protein was still about 89 per cent lower two years after the single dose (https://doi.org/10.1161/circ.154.suppl_1.5183). Other in-body editors aimed at conditions of ageing have moved too. A mid-stage trial of VERVE-102, Lilly's editor meant to lower LDL cholesterol for good, began on 2026-09-24 and plans to enrol 175 people (https://clinicaltrials.gov/study/NCT07839936). On 2026-11-02 CRISPR Therapeutics announced that the regulator had given its editor CTX310, which lowers blood fats, two designations that speed up review (https://www.sec.gov/Archives/edgar/data/1674416/000119312526443644/crsp-ex99_1.htm). And on 2026-11-09 Editas Medicine said its LDL-lowering editor could begin a first trial in Australia (https://www.sec.gov/Archives/edgar/data/1650664/000165066426000100/editasmedicinepressrelease.htm). Separately, the regulator accepted Intellia's application for a different in-body editor, for hereditary angioedema, in September 2026, with a decision due by 2027-03-10 (https://www.sec.gov/Archives/edgar/data/1652130/000119312526448673/ntla-ex99_1.htm). If it is approved it will be the first in-body gene editor approved anywhere, but that disease is neither age-related nor a disease of DNA damage, so it would not meet this entry's test."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: newer trial dates for this editor and three other in-body editors were missing from the notes. I weighed it and held the years. No stage or year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "estimate.why"
+old = "(nothing; text added at the end of the reasoning)"
+new = "[Note 2026-11-27: the trial dates in the notes were weighed and the years held. The nerve-disease trial's main results, due in July 2027, fit the route the earliest year assumes, and the heart trial's, due in December 2027, fit the likely year.]"
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the trial dates of November 2026 were weighed against the years. I weighed it and held the years. No stage or year changed."

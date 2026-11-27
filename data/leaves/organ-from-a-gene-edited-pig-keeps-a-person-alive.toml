@@ -11,8 +11,9 @@ description = """
 Pigs' organs are the right size for people, and gene editing can take out the pig genes that make
 a human body reject them at once and add human ones that calm the rest. In January 2022 a man too
 ill for a human heart lived two months on a pig's; since 2024 several people have lived on pig
-kidneys, the longest for most of a year. The United States regulator cleared two formal trials in
-2025, and the first began that October. It is a first human, several times over, and the first step towards organs made
+kidneys, and by November 2026 one had passed a full year. The United States regulator cleared three
+formal trials of pig kidneys in 2025, the first of which began that October, and a first trial of a
+pig heart in May 2026. It is a first human, several times over, and the first step towards organs made
 to order, which is why it sits on the branch for replacing what ageing wears out."""
 test = """
 A person receives a heart, kidney, liver or lung from a pig whose genes were edited for the
@@ -33,7 +34,9 @@ The record is the University of Maryland's own announcement of David Bennett's p
 transplant; the peer-reviewed case report followed in June 2022. Pig kidneys followed in 2024
 (Boston, then New York). The Upgrade Tree keeps the same entry at first human; the weekly reading
 checks the two stages agree. The next rung, in clinical use, needs a regulator's approval for use
-outside a trial; the trials cleared in 2025 are the step before."""
+outside a trial; the trials cleared in 2025 are the step before.
+Added 2026-11-27: on 2026-11-23 eGenesis and Mass General Brigham announced that a 58-year-old woman given the company's pig kidney at Massachusetts General Hospital on 2025-11-22 had passed a full year without dialysis, the longest a gene-edited pig kidney has worked in a living person (https://egenesisbio.com/news-media/press-releases/egenesis-and-mass-general-brigham-announce-first-patient-to-surpass-one-year-of-dialysis-independence-following-porcine-kidney-transplant). She was treated outside a trial, under the regulator's route for individual patients, and is one of six people given this kidney so far. The same release says the regulator has cleared the company's trial in 33 people aged 50 to 70 who are waiting for a human kidney, expected to start in the first quarter of 2027. United Therapeutics' quarterly report gives the clearances of its own trials: a pig kidney trial in January 2025, a second kind of pig kidney in August 2025, and a first pig heart trial in May 2026 (https://www.sec.gov/Archives/edgar/data/1082554/000108255426000035/uthr-20260930.htm). The eGenesis kidney trial was cleared in September 2025 (https://egenesisbio.com/news-media/press-releases/egenesis-announces-ind-clearance-for-egen-2784-in-kidney-transplant-and-landmark-patient-updates-in-ongoing-expanded-access-study). The trial registry showed three pig kidney trials recruiting in November 2026 (https://clinicaltrials.gov/study/NCT06878560, https://clinicaltrials.gov/study/NCT07224763 and https://clinicaltrials.gov/study/NCT07696962). One patient past a year does not reach the clinic rung, which needs a regulator's approval for use outside a trial.
+"""
 
 [[earlier_stage]]
 stage = "shown-in-animals"
@@ -44,12 +47,15 @@ record = "https://doi.org/10.1038/s41586-018-0765-z"
 status = "reviewed"
 set_on = 2026-10-16
 why = """
-Two registered trials were enrolling in 2025 and 2026 with a 24-week main follow-up and lifelong
-monitoring; an approval needs the larger groups of patients to show that most patients keep the kidney for a
+Three pig kidney trials were recruiting on the trial registry by late 2026, a fourth (eGenesis's, in
+33 people) was cleared to start in early 2027, and a first pig heart trial was cleared in May 2026; the
+registered kidney trials have a main follow-up of about six months and lifelong monitoring; an approval needs the larger groups of patients to show that most patients keep the kidney for a
 year or more. The likely year assumes the trials grow to their full size by 2028 and an approval
 for kidneys follows around 2032; the earliest assumes an approval on the first few patients; the
 latest allows for a safety stop (a pig virus, late rejection) that sends the field back a
-decade."""
+decade.
+[Note 2026-11-27: the first patient past a full year without dialysis, the 33-person trial due to start in early 2027 and the first heart trial (all in the notes) were weighed and the years held. The likely year already assumes the trials reach full size by 2028, which a trial starting in 2027 fits.]
+"""
 
 [[estimate.rung]]
 rung = "in-clinical-use"
@@ -69,3 +75,35 @@ field = "estimate.status"
 old = "first-pass"
 new = "reviewed"
 why = "An outside review of the year ranges ran on 2026-10-17 (by an AI model from another company, Google's Gemini 3.1 Pro in its preview version, given the treatments in four groups) and left this range as it is, with a line saying why. Every point the review of 2026-10-17 raised has been answered, so this estimate moves from a first estimate, not yet reviewed, to a reviewed one, as the rules for the record and for outside reviews say; no year changed."
+
+[[revision]]
+date = 2026-11-27
+field = "description"
+old = "kidneys, the longest for most of a year. The United States regulator cleared two formal trials in 2025, and the first began that October."
+new = "kidneys, and by November 2026 one had passed a full year. The United States regulator cleared three formal trials of pig kidneys in 2025, the first of which began that October, and a first trial of a pig heart in May 2026."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the description said the longest had lived on a pig kidney for most of a year and that the regulator cleared two trials in 2025; one patient has now passed a full year, the regulator cleared three kidney trials in 2025, and a heart trial in 2026. I weighed it and held the years. No stage or year changed."
+publication = "egenesis-2026-one-year"
+
+[[revision]]
+date = 2026-11-27
+field = "estimate.why"
+old = "Two registered trials were enrolling in 2025 and 2026 with a 24-week main follow-up and lifelong monitoring;"
+new = "Three pig kidney trials were recruiting on the trial registry by late 2026, a fourth (eGenesis's, in 33 people) was cleared to start in early 2027, and a first pig heart trial was cleared in May 2026; the registered kidney trials have a main follow-up of about six months and lifelong monitoring;"
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the reasoning said two registered trials were enrolling; by late 2026 three were recruiting, a fourth was cleared and a heart trial was cleared. I weighed it and held the years. No stage or year changed."
+publication = "egenesis-2026-one-year"
+
+[[revision]]
+date = 2026-11-27
+field = "notes"
+old = "(nothing; text added at the end of the notes)"
+new = "Added 2026-11-27: on 2026-11-23 eGenesis and Mass General Brigham announced that a 58-year-old woman given the company's pig kidney at Massachusetts General Hospital on 2025-11-22 had passed a full year without dialysis, the longest a gene-edited pig kidney has worked in a living person (https://egenesisbio.com/news-media/press-releases/egenesis-and-mass-general-brigham-announce-first-patient-to-surpass-one-year-of-dialysis-independence-following-porcine-kidney-transplant). She was treated outside a trial, under the regulator's route for individual patients, and is one of six people given this kidney so far. The same release says the regulator has cleared the company's trial in 33 people aged 50 to 70 who are waiting for a human kidney, expected to start in the first quarter of 2027. United Therapeutics' quarterly report gives the clearances of its own trials: a pig kidney trial in January 2025, a second kind of pig kidney in August 2025, and a first pig heart trial in May 2026 (https://www.sec.gov/Archives/edgar/data/1082554/000108255426000035/uthr-20260930.htm). The eGenesis kidney trial was cleared in September 2025 (https://egenesisbio.com/news-media/press-releases/egenesis-announces-ind-clearance-for-egen-2784-in-kidney-transplant-and-landmark-patient-updates-in-ongoing-expanded-access-study). The trial registry showed three pig kidney trials recruiting in November 2026 (https://clinicaltrials.gov/study/NCT06878560, https://clinicaltrials.gov/study/NCT07224763 and https://clinicaltrials.gov/study/NCT07696962). One patient past a year does not reach the clinic rung, which needs a regulator's approval for use outside a trial."
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the first full year without dialysis, the trial clearances and the recruiting trials were missing from the notes. I weighed it and held the years. No stage or year changed."
+publication = "egenesis-2026-one-year"
+
+[[revision]]
+date = 2026-11-27
+field = "estimate.why"
+old = "(nothing; text added at the end of the reasoning)"
+new = "[Note 2026-11-27: the first patient past a full year without dialysis, the 33-person trial due to start in early 2027 and the first heart trial (all in the notes) were weighed and the years held. The likely year already assumes the trials reach full size by 2028, which a trial starting in 2027 fits.]"
+why = "An older question from the weekly readings, checked against its sources on 2026-11-27: the news of November 2026 was weighed against the years. I weighed it and held the years. No stage or year changed."
+publication = "egenesis-2026-one-year"
